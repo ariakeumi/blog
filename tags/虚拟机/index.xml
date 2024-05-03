@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>虚拟机 on 笨蛋屋</title>
+        <link>https://umi.im/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/</link>
+        <description>Recent content in 虚拟机 on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Tue, 18 Mar 2014 12:28:14 +0000</lastBuildDate><atom:link href="https://umi.im/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Chromium OS虚拟机体验</title>
+        <link>https://umi.im/chromium-os/</link>
+        <pubDate>Tue, 18 Mar 2014 12:28:14 +0000</pubDate>
+        
+        <guid>https://umi.im/chromium-os/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1779&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS.jpg&#34; alt=&#34;Chromium OS&#34; width=&#34;1082&#34; height=&#34;691&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS.jpg 1082w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-150x95.jpg 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-300x191.jpg 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-1024x653.jpg 1024w&#34; sizes=&#34;(max-width: 1082px) 100vw, 1082px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[blockquote source=”WIKipedia”]&lt;strong&gt;Google Chrome OS&lt;/strong&gt;是由&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/Google&#34;  title=&#34;Google&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Google&lt;/a&gt;所进行的一项轻型计算机&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1&#34;  title=&#34;操作系统&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;操作系统&lt;/a&gt;发展计划，发展出专用于&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91&#34;  title=&#34;互联网&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;互联网&lt;/a&gt;的云操作系统。&lt;sup id=&#34;cite_ref-PC_World_3-0&#34;&gt;&lt;a href=&#34;http://zh.wikipedia.org/wiki/Google_Chrome_OS#cite_note-PC_World-3&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1&#34;  title=&#34;操作系统&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;3&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;cite_ref-4&#34;&gt;&lt;a href=&#34;http://zh.wikipedia.org/wiki/Google_Chrome_OS#cite_note-4&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91&#34;  title=&#34;互联网&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;4&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;该操作系统设计计划于2009年7月7日发布，系统植基于&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/Google_Chrome&#34;  title=&#34;谷歌浏览器&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;谷歌浏览器&lt;/a&gt;及&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/Linux%E5%86%85%E6%A0%B8&#34;  title=&#34;Linux内核&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Linux内核&lt;/a&gt;。最初设置在&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/Netbook&#34;  title=&#34;Netbook&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;上网本&lt;/a&gt;上使用&lt;sup id=&#34;cite_ref-Guardian_5-0&#34;&gt;&lt;a href=&#34;http://zh.wikipedia.org/wiki/Google_Chrome_OS#cite_note-Guardian-5&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/Google_Chrome&#34;  title=&#34;谷歌浏览器&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;5&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;，在2011年上半年正式发表上市&lt;sup id=&#34;cite_ref-Times_6-0&#34;&gt;&lt;a href=&#34;http://zh.wikipedia.org/wiki/Google_Chrome_OS#cite_note-Times-6&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/Linux%E5%86%85%E6%A0%B8&#34;  title=&#34;Linux内核&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;6&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;cite_ref-7&#34;&gt;&lt;a href=&#34;http://zh.wikipedia.org/wiki/Google_Chrome_OS#cite_note-7&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/Netbook&#34;  title=&#34;Netbook&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;7&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;cite_ref-8&#34;&gt;&lt;a href=&#34;http://zh.wikipedia.org/wiki/Google_Chrome_OS#cite_note-8&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/X86&#34;  title=&#34;X86&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;8&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;“Chrome OS”可以在&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/X86&#34;  title=&#34;X86&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;x86&lt;/a&gt;或&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/ARM%E6%9E%B6%E6%A7%8B&#34;  title=&#34;ARM架构&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ARM&lt;/a&gt;两种微处理器上运行。&lt;sup id=&#34;cite_ref-Bloomberg_9-0&#34;&gt;&lt;a href=&#34;http://zh.wikipedia.org/wiki/Google_Chrome_OS#cite_note-Bloomberg-9&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/ARM%E6%9E%B6%E6%A7%8B&#34;  title=&#34;ARM架构&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;9&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;。&lt;/blockquote&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;WIKI&#34; href=&#34;http://zh.wikipedia.org/wiki/Chromium_OS&#34; target=&#34;_blank&#34;&gt;Chromium OS&lt;/a&gt;&lt;span style=&#34;font-size: 14px; line-height: 1.5em;&#34;&gt;是Chrome OS的开源版本，Chrome OS用于指定的硬件上，所以无法在虚拟机里体验Chrome OS。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;我所安装的由国外大神hexxeh所编译的Chromium OS，并不是官方版本。&lt;/p&gt;
+&lt;p&gt;首先，&lt;strong&gt;&lt;a title=&#34;下载&#34; href=&#34;http://chromeos.hexxeh.net/&#34; target=&#34;_blank&#34;&gt;下载 Chromium OS&lt;/a&gt;&lt;/strong&gt;，这不是一个镜像文件，而是ZIP压缩文件。&lt;/p&gt;
+&lt;p&gt;因为我用的是**&lt;a title=&#34;VM虚拟机&#34; href=&#34;http://www.zdfans.com/810.html&#34; target=&#34;_blank&#34;&gt;VM虚拟机&lt;/a&gt;**，所以我下载了VMWare的，解压了就是一个VMDK文件和VMX文件，VMDK是虚拟磁盘，VMX是虚拟机配置文件，直接打开VMX文件就可以开启虚拟机了，根本不需要设置，超级傻瓜。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-DOWN.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1772&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-DOWN.png&#34; alt=&#34;Chromium-OS-DOWN&#34; width=&#34;791&#34; height=&#34;418&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-DOWN.png 791w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-DOWN-150x79.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-DOWN-300x158.png 300w&#34; sizes=&#34;(max-width: 791px) 100vw, 791px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;不过直接打开的话是没有网络的，没有网络的话登录不了就用不了，Chromium OS是一个云系统，没网络就废了。&lt;/p&gt;
+&lt;p&gt;用记事本编辑器打开VMX文件，在最后一行添加一行后保存；如下图。&lt;/p&gt;
+&lt;p&gt;[syntax type=”html|php|js|css”]&lt;/p&gt;
+&lt;pre&gt;ethernet0.virtualDev = &#34;e1000&#34;&lt;/pre&gt;
+&lt;p&gt;[/syntax]&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-VMX.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1764&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-VMX.png&#34; alt=&#34;Chromium-OS-VMX&#34; width=&#34;654&#34; height=&#34;523&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-VMX.png 654w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-VMX-150x119.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-VMX-300x239.png 300w&#34; sizes=&#34;(max-width: 654px) 100vw, 654px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;然后就可以正式体验了，开机选择语言。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-37.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1765&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-37.png&#34; alt=&#34;Chromium OS-2014-03-17-17-47-37&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-37.png 1280w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-37-150x84.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-37-300x168.png 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-37-1024x576.png 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;自动更新，没网络连系统都进不了。&lt;/p&gt;
+&lt;p&gt;Chromium OS会自动更新，像Chrome浏览器一样，永远保持最新版本。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-48.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1766&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-48.png&#34; alt=&#34;Chromium OS-2014-03-17-17-47-48&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-48.png 1280w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-48-150x84.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-48-300x168.png 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-48-1024x576.png 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;登录Google帐号。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-51-11.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1773&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-51-11.png&#34; alt=&#34;Chromium OS-2014-03-17-17-51-11&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-51-11.png 1280w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-51-11-150x84.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-51-11-300x168.png 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-51-11-1024x576.png 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-52-04.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1768&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-52-04.png&#34; alt=&#34;Chromium OS-2014-03-17-17-52-04&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-52-04.png 1280w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-52-04-150x84.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-52-04-300x168.png 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-52-04-1024x576.png 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;设置好后二次登录的场景。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-10-52-07.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1783&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-10-52-07.jpg&#34; alt=&#34;Chromium-OS-2014-03-18-10-52-07&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-10-52-07.jpg 1280w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-10-52-07-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-10-52-07-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-10-52-07-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;进系统，自动同步了Chrome浏览器的书签。&lt;/p&gt;
+&lt;p&gt;不过这排列顺序出了点小问题，扩展程序也需要进设置界面同步，难道是Chrome和Chromium的接合还不够好？&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-53-45.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1769&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-53-45.png&#34; alt=&#34;Chromium OS-2014-03-17-17-53-45&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-53-45.png 1280w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-53-45-150x84.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-53-45-300x168.png 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-53-45-1024x576.png 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;右下角的菜单，有本地拼音输入法。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-settings.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1762&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-settings.png&#34; alt=&#34;Chromium OS-settings&#34; width=&#34;359&#34; height=&#34;414&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-settings.png 359w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-settings-130x150.png 130w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-settings-260x300.png 260w&#34; sizes=&#34;(max-width: 359px) 100vw, 359px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;输入法界面丑啊！！！求整合Google拼音！！！&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-shurufa.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1763&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-shurufa.png&#34; alt=&#34;Chromium-OS-shurufa&#34; width=&#34;434&#34; height=&#34;144&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-shurufa.png 434w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-shurufa-150x49.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-shurufa-300x99.png 300w&#34; sizes=&#34;(max-width: 434px) 100vw, 434px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;窗口化后有类似Windows的AERO Glass的玻璃效果，可惜全屏没有。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-07-22.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1760&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-07-22.png&#34; alt=&#34;Chromium OS-2014-03-18-19-07-22&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-07-22.png 1280w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-07-22-150x84.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-07-22-300x168.png 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-07-22-1024x576.png 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;有支付宝控件，可以登录支付宝。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-11-13-37.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1774&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-11-13-37.png&#34; alt=&#34;Chromium OS-2014-03-18-11-13-37&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-11-13-37.png 1280w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-11-13-37-150x84.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-11-13-37-300x168.png 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-11-13-37-1024x576.png 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;还不错，可以确认收货。&lt;/p&gt;
+&lt;p&gt;网银不用想了，不过我一直用快捷支付充钱进支付宝，用Chrome OS购物是没问题了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-57-24.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1775&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-57-24.png&#34; alt=&#34;Chromium OS-2014-03-18-19-57-24&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-57-24.png 1280w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-57-24-150x84.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-57-24-300x168.png 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-57-24-1024x576.png 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Chromium OS的文件管理器，深度整合Google Drive，购买ChromeBook都会送100GB Google Drive。&lt;/p&gt;
+&lt;p&gt;自带本地音频、视频播放器，不过我播放FLAC、MP3、MP4都失败了，不解。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-wenjian.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1776&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-wenjian.png&#34; alt=&#34;Chromium OS-wenjian&#34; width=&#34;1025&#34; height=&#34;567&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-wenjian.png 1025w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-wenjian-150x82.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-wenjian-300x165.png 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-wenjian-1024x566.png 1024w&#34; sizes=&#34;(max-width: 1025px) 100vw, 1025px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;还有一个重大问题就是，看不了Flash，Chrome应该整合flash的啊。&lt;/p&gt;
+&lt;p&gt;但是我想下载Flash的时候却提示ChromeBook已经内置了Flash，看来是这个编译版本有问题了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-flash.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1777&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-flash.png&#34; alt=&#34;Chromium OS-flash&#34; width=&#34;583&#34; height=&#34;242&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Chromium-OS-flash.png 583w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-flash-150x62.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-flash-300x124.png 300w&#34; sizes=&#34;(max-width: 583px) 100vw, 583px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[divider type=”thick”]&lt;/p&gt;
+&lt;h2 id=&#34;总结还是买一台chromebook玩玩吧&#34;&gt;
+    &lt;a href=&#34;#%e6%80%bb%e7%bb%93%e8%bf%98%e6%98%af%e4%b9%b0%e4%b8%80%e5%8f%b0chromebook%e7%8e%a9%e7%8e%a9%e5%90%a7&#34;&gt;#&lt;/a&gt;
+    总结：还是买一台ChromeBook玩玩吧！~
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>Android 4.3 x86 蛋疼试玩</title>
+        <link>https://umi.im/android-x86/</link>
+        <pubDate>Tue, 19 Nov 2013 22:09:13 +0000</pubDate>
+        
+        <guid>https://umi.im/android-x86/</guid>
+        <description>&lt;p&gt;因为太无聊，所以又想起了玩虚拟机。&lt;/p&gt;
+&lt;p&gt;前几天刚给手机刷了&lt;a href=&#34;http://zh.wikipedia.org/wiki/CyanogenMod#CyanogenMod_10.1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CM10.1&lt;/a&gt; , 所以这次就玩Android，而且是x86的。&lt;/p&gt;
+&lt;p&gt;安装的方法就不写了，教程一大把。→教程： &lt;a href=&#34;http://winba.me/android-x86-4-3-install.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VB虚拟机安装&lt;/a&gt; &lt;a href=&#34;http://bbs.pcbeta.com/viewthread-1379501-1-1.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VM虚拟机安装&lt;/a&gt; &lt;a href=&#34;http://www.anqu.com/study_621/48277/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;主机安装&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Android 4.3 x86 启动！&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/Android-x86-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1116&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/Android-x86-1.png&#34; alt=&#34;Android-x86-1&#34; width=&#34;1266&#34; height=&#34;755&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/11/Android-x86-1.png 1266w, https://umi.im/wp-content/uploads/2013/11/Android-x86-1-300x178.png 300w, https://umi.im/wp-content/uploads/2013/11/Android-x86-1-1024x610.png 1024w&#34; sizes=&#34;(max-width: 1266px) 100vw, 1266px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;好了，终于进桌面了。熟悉的画面！（熟悉你妹，明明是第一次用原生安卓。）&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/Android-x86-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1118&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/Android-x86-3.png&#34; alt=&#34;Android-x86-3&#34; width=&#34;800&#34; height=&#34;600&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/11/Android-x86-3.png 800w, https://umi.im/wp-content/uploads/2013/11/Android-x86-3-300x225.png 300w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;系统信息，4.3无基带。型号是VMware virtual Platform，VMware虚拟平台。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/Android-x86-4.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1119&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/Android-x86-4.png&#34; alt=&#34;Android-x86-4&#34; width=&#34;800&#34; height=&#34;600&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/11/Android-x86-4.png 800w, https://umi.im/wp-content/uploads/2013/11/Android-x86-4-300x225.png 300w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;锁频，锁屏休眠后不知如何唤醒，只能重启了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/SuoPing.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-384&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/SuoPing.png&#34; alt=&#34;锁屏&#34; width=&#34;800&#34; height=&#34;600&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;安装了各种软件后的桌面。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/ZhuoMian.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-386&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/ZhuoMian.png&#34; alt=&#34;桌面&#34; width=&#34;800&#34; height=&#34;600&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;谷歌服务同步的联系人，原生系统就是爽啊！～&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/Android-x86-5.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1120&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/Android-x86-5.png&#34; alt=&#34;Android-x86-5&#34; width=&#34;800&#34; height=&#34;600&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/11/Android-x86-5.png 800w, https://umi.im/wp-content/uploads/2013/11/Android-x86-5-300x225.png 300w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Bilibili客户端，竟然有x86解码器。默认竖屏，因为PC没有水平感应器，要自己调整横屏，超蛋疼。&lt;/p&gt;
+&lt;p&gt;开视频超卡顿，比屋主的那台G13还卡，不是是x86的问题还是虚拟机的问题，虚拟机设置了4个核心和开了虚拟化。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/6.-bilibili.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-378&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/6.-bilibili.png&#34; alt=&#34;6. bilibili&#34; width=&#34;800&#34; height=&#34;600&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;集成的Gmai客户端，开机设置那里登录谷歌帐号后用使用谷歌都不需要在登录了，很方便。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/7.Gmail_.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-379&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/7.Gmail_.png&#34; alt=&#34;7.Gmail&#34; width=&#34;800&#34; height=&#34;600&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;集成的&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.quickoffice.android&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quickoffice&lt;/a&gt;，谷歌收购的一家公司开发的办公软件，打开PPT试试。&lt;/p&gt;
+&lt;div&gt;
+  &lt;a class=&#34;lightbox&#34; style=&#34;font-size: 13px; line-height: 19px;&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/8.Quickoffice.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-380&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/8.Quickoffice.png&#34; alt=&#34;8.Quickoffice&#34; width=&#34;800&#34; height=&#34;600&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;使用的&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.maxmpz.audioplayer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PowerAMP&lt;/a&gt;无限崩溃，只能用原生播放器了，虚拟机无法输出音频，白拷的歌啊。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/Android-x86-9.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1121&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/Android-x86-9.png&#34; alt=&#34;Android-x86-9&#34; width=&#34;800&#34; height=&#34;600&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/11/Android-x86-9.png 800w, https://umi.im/wp-content/uploads/2013/11/Android-x86-9-300x225.png 300w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原生浏览器，Chrome竟然和x86的android不兼容，火狐安装提示“数据包无效”。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/Android-x86-10.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1122&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/Android-x86-10.png&#34; alt=&#34;Android-x86-10&#34; width=&#34;800&#34; height=&#34;600&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/11/Android-x86-10.png 800w, https://umi.im/wp-content/uploads/2013/11/Android-x86-10-300x225.png 300w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ARM的&lt;a href=&#34;http://zh.wikipedia.org/wiki/Android%E6%AD%B7%E5%8F%B2%E7%89%88%E6%9C%AC#Android_4.4.5B64.5D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Android 4.4&lt;/a&gt;已经发布，x86的还没动静。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/GengXin.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-383&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/GengXin.png&#34; alt=&#34;更新&#34; width=&#34;800&#34; height=&#34;600&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;装个&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.myfknoll.win8.launcher&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Metro UI的启动器&lt;/a&gt;。还挺像，不过一点都不好用。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/QiDongQi.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-388&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/QiDongQi.png&#34; alt=&#34;启动器&#34; width=&#34;800&#34; height=&#34;600&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;好了，蛋疼了玩了几小时。&lt;/p&gt;
+&lt;p&gt;总结。&lt;/p&gt;
+&lt;p&gt;中文输入法不能用，超级蛋疼。&lt;/p&gt;
+&lt;p&gt;海量应用不兼容。（不知道Atom芯片的手机会不会是这样？）&lt;/p&gt;
+&lt;p&gt;如果是要玩虚拟机的话，不建议玩x86的安卓的。&lt;/p&gt;
+&lt;p&gt;可以玩ARM Android模拟器，比如&lt;a href=&#34;http://www.bluestacks.net.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bluestacks&lt;/a&gt;或者&lt;a href=&#34;http://pan.baidu.com/share/link?shareid=432352&amp;uk=322267799&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YouWave for Android&lt;/a&gt;，前者可以运行大部分安卓应用还有游戏，后者比较小巧屋主曾用来装QQ的手机令牌。&lt;/p&gt;
+&lt;p&gt;无法运行的软件：&lt;/p&gt;
+&lt;p&gt;QQ（所有版本），Google Chrome，PowerAMP，硬件跑分评测（CPU-Z,安图图,3D MARK等），空之文库，输入法（讯飞，谷歌拼音），游戏（神庙逃亡，百万扩散性亚瑟王），EverNote，Line等～&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwzdfanscom810htmlcomment-page-2comments-target_blank-relnoopenervmware-workstation-10a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwzdfanscom810htmlcomment-page-2comments-target_blank-relnoopenervmware-workstation-10a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.zdfans.com/810.html/comment-page-2#comments&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VMware Workstation 10&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttpcodegooglecompandroid-x86downloadslist-target_blank-relnoopenerandroid-8211-x86a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpcodegooglecompandroid-x86downloadslist-target_blank-relnoopenerandroid-8211-x86a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://code.google.com/p/android-x86/downloads/list&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Android – x86&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>越狱 on 笨蛋屋</title>
+        <link>https://umi.im/tags/%E8%B6%8A%E7%8B%B1/</link>
+        <description>Recent content in 越狱 on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Wed, 22 Oct 2014 16:35:21 +0000</lastBuildDate><atom:link href="https://umi.im/tags/%E8%B6%8A%E7%8B%B1/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>iOS 8/8.1 盘古越狱</title>
+        <link>https://umi.im/pangu-ios8/</link>
+        <pubDate>Wed, 22 Oct 2014 16:35:21 +0000</pubDate>
+        
+        <guid>https://umi.im/pangu-ios8/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;国内iOS越狱团队盘古越狱团队宣布已成功越狱iOS8，并放出越狱工具1.0版本，该越狱工具支持iOS8.0-iOS8.1.x。&lt;/p&gt;
+&lt;p&gt;然而在上线不久，越狱工具因部分用户出现应用、相册数据丢失等问题而被紧急撤下。经过修复后，盘古重新上线了该越狱工具1.0.1版本。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;五点多的时候刷新闻，看到iOS 8/8.1的越狱终于出来了，马上从床上爬起来折腾。&lt;/p&gt;
+&lt;p&gt;卡在盘古的“初始化资源”那里，然后就看到盘古下架盘古越狱的新闻…&lt;/p&gt;
+&lt;p&gt;睡了一觉醒来新版本出来，越狱成功。&lt;/p&gt;
+&lt;h2 id=&#34;a-title盘古官网-hrefhttppanguio-target_blank盘古越狱-for-ios-8a&#34;&gt;
+    &lt;a href=&#34;#a-title%e7%9b%98%e5%8f%a4%e5%ae%98%e7%bd%91-hrefhttppanguio-target_blank%e7%9b%98%e5%8f%a4%e8%b6%8a%e7%8b%b1-for-ios-8a&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;盘古官网&#34; href=&#34;http://pangu.io/&#34; target=&#34;_blank&#34;&gt;盘古越狱 For iOS 8&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/pangu-win.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3124&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/pangu-win.png&#34; alt=&#34;pangu-win&#34; width=&#34;711&#34; height=&#34;499&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/pangu-win.png 711w, https://umi.im/wp-content/uploads/2014/10/pangu-win-150x105.png 150w, https://umi.im/wp-content/uploads/2014/10/pangu-win-300x210.png 300w&#34; sizes=&#34;(max-width: 711px) 100vw, 711px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;暂时没有Cydia。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;由于iOS8系统的诸多改变，Cydia以及依赖Substrate框架的许多插件都无法在iOS8下使用。因此我们在1.0版本的越狱中提供了开发者所需要的一些基础环境及SSH等插件，方便Cydia作者及其他开发者能尽快针对iOS8修改他们的代码。当Cydia作者完成兼容后，我们会发布更新来集成Cydia。所以,盘古越狱(iOS8)的1.0版本严格来说是为越狱开发者准备的版本。&lt;br&gt;
+&lt;span style=&#34;color: #999999;&#34;&gt;&lt;span style=&#34;font-size: small;&#34;&gt; – 盘古 &lt;/span&gt;&lt;span style=&#34;font-size: small;&#34;&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/pangu-ios.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3123&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/pangu-ios.png&#34; alt=&#34;pangu-ios&#34; width=&#34;1536&#34; height=&#34;2048&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/pangu-ios.png 1536w, https://umi.im/wp-content/uploads/2014/10/pangu-ios-112x150.png 112w, https://umi.im/wp-content/uploads/2014/10/pangu-ios-225x300.png 225w, https://umi.im/wp-content/uploads/2014/10/pangu-ios-768x1024.png 768w&#34; sizes=&#34;(max-width: 1536px) 100vw, 1536px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>evasi0n发布IOS7越狱工具 – evasi0n太极7</title>
+        <link>https://umi.im/evasi0n7/</link>
+        <pubDate>Sun, 22 Dec 2013 12:58:18 +0000</pubDate>
+        
+        <guid>https://umi.im/evasi0n7/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/evasi0n-IOS7.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-855&#34; alt=&#34;evasi0n-IOS7&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/evasi0n-IOS7.jpg&#34; width=&#34;1074&#34; height=&#34;857&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://evasi0n.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://evasi0n.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;网站，因为这个越狱团队了面有华人所以这个网站提供汉字界面和软件。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/evad3rs&#34; target=&#34;_blank&#34;&gt;推特&lt;/a&gt;上的消息，发布于美国时间上午4点21分。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/evasi0n.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-856&#34; alt=&#34;evasi0n&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/evasi0n.png&#34; width=&#34;528&#34; height=&#34;236&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;国内有小白鼠越狱成功。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://bbs.weiphone.com/read-htm-tid-7416570.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://bbs.weiphone.com/read-htm-tid-7416570.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/evasi0n-ios7-root.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-859&#34; alt=&#34;evasi0n -ios7-root&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/evasi0n-ios7-root.png&#34; width=&#34;486&#34; height=&#34;368&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;下载地址:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://evad3rs.app.box.com/s/hzapsnk73mbrs770z50y&#34; target=&#34;_blank&#34;&gt;evasi0n太极7（Windows）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://evad3rs.app.box.com/s/q4xydmi2qzgqdhqr35i0&#34; target=&#34;_blank&#34;&gt;evasi0n太极7（Mac OS X）&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

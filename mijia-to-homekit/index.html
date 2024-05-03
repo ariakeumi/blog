@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="HomeKit是苹果公司推出的一个软件框架，它可以让用户使用苹果设备对智能家居电器进行配置、沟通和控制。通过在HomeKit服务中设计房间、">
+<title>挖坑：第三方设备接入苹果 Homekit 指南</title>
+
+<link rel='canonical' href='https://umi.im/mijia-to-homekit/'>
+
+<link rel="stylesheet" href="/scss/style.min.859d15a88c4baa095161a679adcf6a0588d393b9603bd708e8e0c634ae102b82.css"><meta property='og:title' content="挖坑：第三方设备接入苹果 Homekit 指南">
+<meta property='og:description' content="HomeKit是苹果公司推出的一个软件框架，它可以让用户使用苹果设备对智能家居电器进行配置、沟通和控制。通过在HomeKit服务中设计房间、">
+<meta property='og:url' content='https://umi.im/mijia-to-homekit/'>
+<meta property='og:site_name' content='笨蛋屋'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Apple' /><meta property='article:published_time' content='2020-11-25T10:52:34&#43;00:00'/><meta property='article:modified_time' content='2020-11-25T10:52:34&#43;00:00'/>
+<meta name="twitter:title" content="挖坑：第三方设备接入苹果 Homekit 指南">
+<meta name="twitter:description" content="HomeKit是苹果公司推出的一个软件框架，它可以让用户使用苹果设备对智能家居电器进行配置、沟通和控制。通过在HomeKit服务中设计房间、">
+    <link rel="shortcut icon" href="/favicon.png" />
+
+  
+
+<meta name="verification" content="9cfa2f7dea5bc4a0">
+<script defer src="https://u.umi.im/replace-me-with-a-random-string" data-website-id="befac8d7-0396-44c8-b151-9c332a5f176f"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5428554628068316"
+     crossorigin="anonymous"></script>
+    
+    
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar-150px_hub3e42f8fb4895a97c7036e2fee26b85a_7312_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">💔</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">笨蛋屋</a></h1>
+            <h2 class="site-description">炒土豆丝 の Blog !</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://s.umi.im/'
+                        target="_blank"
+                        title="ServerStutas"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-server-bolt"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" /><path d="M15 20h-9a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h12" /><path d="M7 8v.01" /><path d="M7 16v.01" /><path d="M20 15l-2 3h3l-2 3" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://m.umi.im/'
+                        target="_blank"
+                        title="Memos"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-feather"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 20l10 -10m0 -5v5h5m-9 -1v5h5m-9 -1v5h5m-5 -5l4 -4l4 -4" /><path d="M19 10c.638 -.636 1 -1.515 1 -2.486a3.515 3.515 0 0 0 -3.517 -3.514c-.97 0 -1.847 .367 -2.483 1m-3 13l4 -4l4 -4" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/ariakeumi'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/998potato'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://umi.im/index.xml'
+                        target="_blank"
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/comments/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
+  <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
+</svg>
+
+
+
+                
+                <span>Comments</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='https://share.umi.im/' target="_blank">
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-share"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M18 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M8.7 10.7l6.6 -3.4" /><path d="M8.7 13.3l6.6 3.4" /></svg>
+                
+                <span>Share</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/it/" style="background-color: ; color: #fff;">
+                折腾
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/mijia-to-homekit/">挖坑：第三方设备接入苹果 Homekit 指南</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2020年11月25日</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 3 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+  <p>
+    HomeKit是苹果公司推出的一个软件框架，它可以让用户使用苹果设备对智能家居电器进行配置、沟通和控制。通过在HomeKit服务中设计房间、物品和动作，用户可以通过对Siri的简单语音命令或通过家庭应用来实现家中的自动动作。&nbsp;
+  </p>
+<p><cite><a href="https://zh.wikipedia.org/zh-cn/HomeKit" target="_blank" rel="noreferrer noopener">维基百科</a></cite></p>
+</blockquote>
+<p>相信很多人已经购买了一些智能家居的产品，这方面国内做得最好的莫过于米家了，性价比高颜值不错，本人也购买了一些米家的产品。</p>
+<p>既然选择了米家为什么不用 米家 APP 还要接入 Homekit 呢？那当然是米家 APP 不好用，当论功能米家其实比 Homekit 强，但是它的 APP 响应慢启动慢，布局不好，每个设备的操作逻辑都不统一，还经常改，甚至还有广告。</p>
+<img loading="lazy" decoding="async" width="591" height="1280" src="https://umi.im/wp-content/uploads/2020/11/mijia-app.jpg" alt="" class="wp-image-5789" srcset="https://umi.im/wp-content/uploads/2020/11/mijia-app.jpg 591w, https://umi.im/wp-content/uploads/2020/11/mijia-app-139x300.jpg 139w, https://umi.im/wp-content/uploads/2020/11/mijia-app-473x1024.jpg 473w, https://umi.im/wp-content/uploads/2020/11/mijia-app-69x150.jpg 69w" sizes="(max-width: 591px) 100vw, 591px" />  
+<p>而苹果全家桶用户使用 家庭 APP ，你可以用 Siri 语音控制，或是在 Mac 、Apple TV 上控制。</p>
+<img loading="lazy" decoding="async" width="591" height="1280" src="https://umi.im/wp-content/uploads/2020/11/ios-home-app.jpg" alt="" class="wp-image-5802" srcset="https://umi.im/wp-content/uploads/2020/11/ios-home-app.jpg 591w, https://umi.im/wp-content/uploads/2020/11/ios-home-app-139x300.jpg 139w, https://umi.im/wp-content/uploads/2020/11/ios-home-app-473x1024.jpg 473w, https://umi.im/wp-content/uploads/2020/11/ios-home-app-69x150.jpg 69w" sizes="(max-width: 591px) 100vw, 591px" />  
+<p>上面得种种原因让我决定放弃米家迁移到 Homekit 上。</p>
+<p>米家或者绿米 Aqara的几乎所有基于 Zigbee 协议的设备（如各种传感器）都能通过支持 Homekit 的网关原生接入 Homekit ，就是下面三款，个人推荐 Aqara M1S，有扬声器可以报警。</p>
+<img loading="lazy" decoding="async" width="820" height="281" src="https://umi.im/wp-content/uploads/2020/11/mijia-aqara-hub.png" alt="" class="wp-image-5791" srcset="https://umi.im/wp-content/uploads/2020/11/mijia-aqara-hub.png 820w, https://umi.im/wp-content/uploads/2020/11/mijia-aqara-hub-300x103.png 300w, https://umi.im/wp-content/uploads/2020/11/mijia-aqara-hub-150x51.png 150w, https://umi.im/wp-content/uploads/2020/11/mijia-aqara-hub-768x263.png 768w" sizes="(max-width: 820px) 100vw, 820px" />  
+<p>还有米家台灯 1S 也是米家为数不多原生接入 Homekit 的设备。</p>
+<p>接下来就说原生不支持接入 Homekit ，但是可以通过 HomeBridge 桥接的设备：</p>
+<ul>
+<li>米家扫地机器人</li>
+<li>米家各种空气净化器</li>
+<li>米家和智米的各种风扇</li>
+<li>空调伴侣</li>
+<li>米家各种插座和插线板</li>
+<li>小佩宠物喂食器Mini</li>
+</ul>
+<p>以上是我用过的或者是我知道的能通过 HomeBridge 桥接的设备。</p>
+<p>那么除了能桥接到 Homekit 的智能设备，你还需要以下东西：</p>
+<ul>
+<li>一台 24 小时运行的群晖 NAS 或者树莓派之类的 Linux 设备</li>
+<li>一台作为家庭中枢的苹果设备，如 iPad 、HomePod 或者 Apple TV</li>
+<li>一点点的计算机基础知识</li>
+</ul>
+<p>本人使用的是群晖 DS218+ ，通过 Docker 运行了 HomeBridge 、Home Assistant 、MQTT ，Home Assistant 和 MQTT 是为了让斐讯的 TC1 插排接入，过程过于繁琐而且需要用到编程器给插排刷固件就不细说了，其他设备都是通过 HomeBridge 接入的。</p>
+<p>首先我们在群晖的套件中心里安装 Docker ，然后启动 Docker ，在注册表项搜索 HomeBridge ，下载 oznu/homebridge ，标签选择 latest 。</p>
+<img loading="lazy" decoding="async" width="1042" height="345" src="https://umi.im/wp-content/uploads/2020/11/synology-docker.jpg" alt="" class="wp-image-5775" srcset="https://umi.im/wp-content/uploads/2020/11/synology-docker.jpg 1042w, https://umi.im/wp-content/uploads/2020/11/synology-docker-300x99.jpg 300w, https://umi.im/wp-content/uploads/2020/11/synology-docker-1024x339.jpg 1024w, https://umi.im/wp-content/uploads/2020/11/synology-docker-150x50.jpg 150w, https://umi.im/wp-content/uploads/2020/11/synology-docker-768x254.jpg 768w" sizes="(max-width: 1042px) 100vw, 1042px" />  
+<p>下载完成后在 映像 里找到它启动，然后打开“高级设置”，在 “启用自动重新启动” 那里打勾。</p>
+<p>接着在 “卷” 选项卡里点击 “添加文件夹” 。选择 Docker 目录，创建名为 “homebridge” 的目录，装载路径填 “/homebridge” 。</p>
+<img loading="lazy" decoding="async" width="644" height="542" src="https://umi.im/wp-content/uploads/2020/11/docker-homebridge-folder.jpg" alt="" class="wp-image-5776" srcset="https://umi.im/wp-content/uploads/2020/11/docker-homebridge-folder.jpg 644w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-folder-300x252.jpg 300w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-folder-150x126.jpg 150w" sizes="(max-width: 644px) 100vw, 644px" />  
+<p>端口设置选项卡里，勾选“使用与Docker Host 相同的网络”。</p>
+<p>环境选项卡，新增变量“ DSM_HOSTNAME ” ，值那里填你的群晖 NAS 主机名。</p>
+<p>再新增变量“PACKAGES” ，值填 “ffmpeg” 。</p>
+<img loading="lazy" decoding="async" width="639" height="564" src="https://umi.im/wp-content/uploads/2020/11/docker-homebridge-folder-path.jpg" alt="" class="wp-image-5777" srcset="https://umi.im/wp-content/uploads/2020/11/docker-homebridge-folder-path.jpg 639w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-folder-path-300x265.jpg 300w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-folder-path-150x132.jpg 150w" sizes="(max-width: 639px) 100vw, 639px" />  
+<p>点击应用就开始启动 HomeBridge 了，启动后选择容器，点击详情，再点击终端机，再点新增，输入 sh 后回车，在终端里输入以下命令安装 <a href="https://github.com/oznu/homebridge-config-ui-x" target="_blank" rel="noreferrer noopener">Homebridge Config UI X</a> 。</p>
+<pre class="wp-block-code"><code>npm install -g --unsafe-perm homebridge-config-ui-x</code></pre>
+<img loading="lazy" decoding="async" width="855" height="437" src="https://umi.im/wp-content/uploads/2020/11/docker-homebridge-sh.jpg" alt="" class="wp-image-5778" srcset="https://umi.im/wp-content/uploads/2020/11/docker-homebridge-sh.jpg 855w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-sh-300x153.jpg 300w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-sh-150x77.jpg 150w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-sh-768x393.jpg 768w" sizes="(max-width: 855px) 100vw, 855px" />  
+<p>安装完成后，在群晖的 File Station 里打开 docker/homebridge 目录，选择 config.json ，右键用文本编辑器打开，加入以下代码：</p>
+<pre class="wp-block-code"><code>"platforms": &#91;
+    {
+      "platform": "config",
+      "name": "Config",
+      "port": 8888,
+      "sudo": false
+    }
+]</code></pre>
+<p>示例：</p>
+<img loading="lazy" decoding="async" width="895" height="471" src="https://umi.im/wp-content/uploads/2020/11/docker-homebridge-config-ui-x.jpg" alt="" class="wp-image-5781" srcset="https://umi.im/wp-content/uploads/2020/11/docker-homebridge-config-ui-x.jpg 895w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-config-ui-x-300x158.jpg 300w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-config-ui-x-150x79.jpg 150w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-config-ui-x-768x404.jpg 768w" sizes="(max-width: 895px) 100vw, 895px" />  
+<p>再在 Docker 里面重启 Homebridge ，输入 NAS IP:8888 就可以进入 Homebridge 的 Web 界面了。</p>
+<img loading="lazy" decoding="async" width="1320" height="1038" src="https://umi.im/wp-content/uploads/2020/11/homebridge-ui-x.jpg" alt="" class="wp-image-5785" srcset="https://umi.im/wp-content/uploads/2020/11/homebridge-ui-x.jpg 1320w, https://umi.im/wp-content/uploads/2020/11/homebridge-ui-x-300x236.jpg 300w, https://umi.im/wp-content/uploads/2020/11/homebridge-ui-x-1024x805.jpg 1024w, https://umi.im/wp-content/uploads/2020/11/homebridge-ui-x-150x118.jpg 150w, https://umi.im/wp-content/uploads/2020/11/homebridge-ui-x-768x604.jpg 768w" sizes="(max-width: 1320px) 100vw, 1320px" />  
+<p>安装了 HomeBridge config UI X 后就可以很方便的在 WEB 界面安装各种插件。</p>
+<p>下面来说说我所安装的插件。</p>
+<p><a rel="noreferrer noopener" href="http://Homebridge Petkit Feeder Mini" target="_blank">Homebridge Petkit Feeder Mini</a></p>
+<p>小佩宠物自动喂食器mini，可以控制投喂猫粮，还有猫粮没了会提醒。</p>
+<p><a rel="noreferrer noopener" href="https://github.com/merdok/homebridge-xiaomi-fan#readme" target="_blank">Homebridge Xiaomi Fan</a></p>
+<p>我用来控制米家1X风扇，米家智米的基本都支持。</p>
+<p><a rel="noreferrer noopener" href="https://github.com/YinHangCode/homebridge-mi-outlet" target="_blank">Homebridge Mi Outlet</a></p>
+<p>支持米家智能插座基础版、小米智能插座_USB版、米家智能插线板、青米智能插线板_五孔位版、青米智能插线板_USB版、米家智能插座增强版 。</p>
+<p><a rel="noreferrer noopener" href="https://github.com/Sunoo/homebridge-camera-ffmpeg#readme" target="_blank">Homebridge Camera FFmpeg</a></p>
+<p>支持 RTSP 推流的监控摄像头都能接入 Homekit ，但只能看预览实时画面，不能看回放。</p>
+<p><a rel="noreferrer noopener" href="https://github.com/LASER-Yi/homebridge-mi-acPartner#readme" target="_blank">Homebridge Mi Acpartner</a></p>
+<p>空调伴侣，可以通过高阶方法支持遥控更多红外设备。</p>
+<p><a rel="noreferrer noopener" href="https://github.com/alexgustafsson/homebridge-wol#readme" target="_blank">Homebridge WoL</a></p>
+<p>网络唤醒插件，通过它就能使用家庭APP启动支持网络唤醒的电脑或者服务器，还是通过SHH发送关机或者睡眠命令，让实现完美的开机关机效果。</p>
+<p><a rel="noreferrer noopener" href="https://github.com/pdiegmann/homebridge-synology-diskstation#readme" target="_blank">Homebridge Synology Diskstation</a></p>
+<p>唤醒或者关闭群晖NAS，以及查看系统温度。</p>
+<p><a href="https://github.com/Sunoo/homebridge-aqicn" target="_blank" rel="noreferrer noopener">homebridge-aqicn</a></p>
+<p>把本地的空气质量信息显示在 Homekit 上，五线小城市的数据也有。</p>
+<p>上面就是我自己用到的 Homebridge 插件，附带的 Github 链接都有使用方法，有时间我会挑出几个插件来写下详细的教程。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/apple/">Apple</a>
+        
+    </section>
+
+
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2020年11月25日 10:52 CST
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/unraid-6.12.10-crack/">
+        
+        
+            <div class="article-image">
+                <img src="/unraid-6.12.10-crack/unraid.bfb8c4fd1d550f352bfe087ebde9f60c.webp" 
+                        width="1200" 
+                        height="630" 
+                        loading="lazy"
+                        alt="Featured image of post UNRAID 6.12.4 米多贝克版升级 UNRAID 6.12.10 毛子开心版"
+                        
+                        data-hash="md5-v7jE/R1VDzUr/gh&#43;ven2DA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">UNRAID 6.12.4 米多贝克版升级 UNRAID 6.12.10 毛子开心版</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/wordpress-to-hugo/">
+        
+        
+            <div class="article-image">
+                <img src="/wordpress-to-hugo/wordpress-to-hugo.9dd8f7b941bbdf2ac48ac46cde33e9e8.webp" 
+                        width="1115" 
+                        height="627" 
+                        loading="lazy"
+                        alt="Featured image of post Wordpress 博客迁移到 HUGO"
+                        
+                        data-hash="md5-ndj3uUG73yrEisRs3jPp6A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Wordpress 博客迁移到 HUGO</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/dnspod-to-cloudflare/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://umi.im/wp-content/uploads/2024/04/CF_MetaImage.webp" loading="lazy" data-key="" data-hash="https://umi.im/wp-content/uploads/2024/04/CF_MetaImage.webp"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">博客域名 NS 从 DNSPOD 转移到 Cloudflare</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/my-unraid-array/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">UNRAID 系统添加校验盘和 ZFS 镜像阵列升级</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/unraid-zfs-mirror/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">绿联 DX4600 的 UNRAID 系统折腾后篇</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
+<div id="waline" class="waline-container"></div>
+<style>
+    .waline-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+        --waline-font-size: var(--article-font-size);
+    }
+    .waline-container .wl-count {
+        color: var(--card-text-color-main);
+    }
+</style><script>
+    
+    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://npm.elemecdn.com/@waline/emojis@1.1.0/weibo"],"lang":"zh-CN","locale":{"admin":"屋主","placeholder":"欢迎互动！"},"requiredMeta":["name","email","url"],"serverURL":"https://waline.umi.im/"});
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2024 笨蛋屋
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.25.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

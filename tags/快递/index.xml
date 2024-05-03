@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>快递 on 笨蛋屋</title>
+        <link>https://umi.im/tags/%E5%BF%AB%E9%80%92/</link>
+        <description>Recent content in 快递 on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Thu, 16 Apr 2015 02:31:06 +0000</lastBuildDate><atom:link href="https://umi.im/tags/%E5%BF%AB%E9%80%92/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>水表助手 ~ Material Design的快递查询APP</title>
+        <link>https://umi.im/express-helper/</link>
+        <pubDate>Thu, 16 Apr 2015 02:31:06 +0000</pubDate>
+        
+        <guid>https://umi.im/express-helper/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3649&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper.png&#34; alt=&#34;express-helper&#34; width=&#34;804&#34; height=&#34;259&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper.png 804w, https://umi.im/wp-content/uploads/2015/04/express-helper-150x48.png 150w, https://umi.im/wp-content/uploads/2015/04/express-helper-300x97.png 300w&#34; sizes=&#34;(max-width: 804px) 100vw, 804px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一枚符合Material Design风格快递物流信息追踪应用，通过支持大部分主流物流公司的爱查快递API，快捷地获取最新状况。&lt;/p&gt;
+&lt;p&gt;没有多余的功能，无需登录任何帐号，清新的应用界面也许能减轻你在等待中的一丝焦虑。&lt;/p&gt;
+&lt;p&gt;本应用在GNU GPL v3协议下开源，欢迎学习交流、提交代码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Github: &lt;a href=&#34;https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://github.com/PaperAirplane-Dev-Team/ExpressHelper%26sa%3DD%26usg%3DAFQjCNEOmLD04ZVzOCATp1OaisXGNMAVLA&amp;sa=D&amp;usg=AFQjCNHrf_e5QsXAHZim7JWHFVTTja_HXw&#34; target=&#34;_blank&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/PaperAirplane-Dev-Team/ExpressHelper&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/PaperAirplane-Dev-Team/ExpressHelper&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone wp-image-3650&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-1.png&#34; alt=&#34;express-helper-1&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-1.png 720w, https://umi.im/wp-content/uploads/2015/04/express-helper-1-84x150.png 84w, https://umi.im/wp-content/uploads/2015/04/express-helper-1-169x300.png 169w, https://umi.im/wp-content/uploads/2015/04/express-helper-1-576x1024.png 576w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone wp-image-3651&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-2.png&#34; alt=&#34;express-helper-2&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-2.png 720w, https://umi.im/wp-content/uploads/2015/04/express-helper-2-84x150.png 84w, https://umi.im/wp-content/uploads/2015/04/express-helper-2-169x300.png 169w, https://umi.im/wp-content/uploads/2015/04/express-helper-2-576x1024.png 576w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3652&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-3.png&#34; alt=&#34;express-helper-3&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-3.png 720w, https://umi.im/wp-content/uploads/2015/04/express-helper-3-84x150.png 84w, https://umi.im/wp-content/uploads/2015/04/express-helper-3-169x300.png 169w, https://umi.im/wp-content/uploads/2015/04/express-helper-3-576x1024.png 576w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-4.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3653&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-4.png&#34; alt=&#34;express-helper-4&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-4.png 720w, https://umi.im/wp-content/uploads/2015/04/express-helper-4-84x150.png 84w, https://umi.im/wp-content/uploads/2015/04/express-helper-4-169x300.png 169w, https://umi.im/wp-content/uploads/2015/04/express-helper-4-576x1024.png 576w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpsplaygooglecomstoreappsdetailsidinfopapdtexpresshelper-target_blank水表助手agoogle-play&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpsplaygooglecomstoreappsdetailsidinfopapdtexpresshelper-target_blank%e6%b0%b4%e8%a1%a8%e5%8a%a9%e6%89%8bagoogle-play&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://play.google.com/store/apps/details?id=info.papdt.express.helper&#34; target=&#34;_blank&#34;&gt;水表助手&lt;/a&gt;（Google Play）
+&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttpcoolapkcomapkinfopapdtexpresshelper-target_blank水表助手a酷安&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpcoolapkcomapkinfopapdtexpresshelper-target_blank%e6%b0%b4%e8%a1%a8%e5%8a%a9%e6%89%8ba%e9%85%b7%e5%ae%89&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://coolapk.com/apk/info.papdt.express.helper&#34; target=&#34;_blank&#34;&gt;水表助手&lt;/a&gt;（酷安）
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>顺丰一生黑</title>
+        <link>https://umi.im/sf-express-m310/</link>
+        <pubDate>Mon, 17 Feb 2014 09:19:01 +0000</pubDate>
+        
+        <guid>https://umi.im/sf-express-m310/</guid>
+        <description>&lt;p&gt;&lt;a title=&#34;准备和朋友买台手机&#34; href=&#34;https://umi.im/infocus-taobao/&#34; target=&#34;_blank&#34;&gt;帮朋友买手机&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;2月3号预订，2月5号付尾款。&lt;/p&gt;
+&lt;p&gt;2月8号发货，2月17号还没收到。。。&lt;/p&gt;
+&lt;p&gt;第一次等快递等这么久。&lt;/p&gt;
+&lt;p&gt;家乡地处偏僻，怕顺丰到不了，和卖家说发EMS&lt;/p&gt;
+&lt;p&gt;结果卖家还是发了顺丰。等了两天顺丰终于派件了，因为某些原因接不了电话。&lt;/p&gt;
+&lt;p&gt;联系卖家更换手机号，等了4天，物流信息显示派件了。&lt;/p&gt;
+&lt;p&gt;联系卖家，卖家说很快就能配送了，并肯定顺丰收件了就表示一定能送到我这。&lt;/p&gt;
+&lt;p&gt;但是电话还没来，直到今天，顺丰终于打电话来了。&lt;/p&gt;
+&lt;p&gt;告诉我配送地址偏远，要么去自提要么转EMS，但是EMS要我付钱。&lt;/p&gt;
+&lt;p&gt;果断不行啊，自提车费都要20还浪费时间。&lt;/p&gt;
+&lt;p&gt;联系卖家，终于顺丰同意给我转发EMS了，说今天转，两天左右就能到。&lt;/p&gt;
+&lt;p&gt;顺丰同省发了11天！是可忍孰不可忍？&lt;/p&gt;
+&lt;p&gt;要是老娘的手机果断去自提了！！！ ←_←&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/sf-express-m310.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1543&#34; alt=&#34;sf-express-m310&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/sf-express-m310.png&#34; width=&#34;557&#34; height=&#34;268&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/sf-express-m310.png 557w, https://umi.im/wp-content/uploads/2014/02/sf-express-m310-150x72.png 150w, https://umi.im/wp-content/uploads/2014/02/sf-express-m310-300x144.png 300w&#34; sizes=&#34;(max-width: 557px) 100vw, 557px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

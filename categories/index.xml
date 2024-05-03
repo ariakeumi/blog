@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on 笨蛋屋</title>
+        <link>https://umi.im/categories/</link>
+        <description>Recent content in Categories on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://umi.im/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>软件</title>
+        <link>https://umi.im/categories/app/</link>
+        <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://umi.im/categories/app/</guid>
+        <description>&lt;img src="https://umi.im/categories/app/app-poster.jpg" alt="Featured image of post 软件" /&gt;</description>
+        </item>
+        <item>
+        <title>折腾</title>
+        <link>https://umi.im/categories/it/</link>
+        <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://umi.im/categories/it/</guid>
+        <description>&lt;img src="https://umi.im/categories/it/zheteng.png" alt="Featured image of post 折腾" /&gt;</description>
+        </item>
+        <item>
+        <title>成人内容</title>
+        <link>https://umi.im/categories/xxx/</link>
+        <pubDate>Fri, 07 Apr 2023 15:28:54 +0000</pubDate>
+        
+        <guid>https://umi.im/categories/xxx/</guid>
+        <description>&lt;img src="https://umi.im/categories/xxx/r18-poster.jpg" alt="Featured image of post 成人内容" /&gt;</description>
+        </item>
+        <item>
+        <title>日常</title>
+        <link>https://umi.im/categories/otaku/</link>
+        <pubDate>Thu, 23 Mar 2023 20:02:25 +0000</pubDate>
+        
+        <guid>https://umi.im/categories/otaku/</guid>
+        <description>&lt;img src="https://umi.im/categories/otaku/otaku-poster.jpg" alt="Featured image of post 日常" /&gt;</description>
+        </item>
+        <item>
+        <title>ACG</title>
+        <link>https://umi.im/categories/acg/</link>
+        <pubDate>Wed, 05 Oct 2022 13:15:00 +0000</pubDate>
+        
+        <guid>https://umi.im/categories/acg/</guid>
+        <description>&lt;img src="https://umi.im/categories/acg/acg-poster.jpg" alt="Featured image of post ACG" /&gt;</description>
+        </item>
+        <item>
+        <title>音乐</title>
+        <link>https://umi.im/categories/music/</link>
+        <pubDate>Mon, 17 May 2021 12:50:34 +0000</pubDate>
+        
+        <guid>https://umi.im/categories/music/</guid>
+        <description>&lt;img src="https://umi.im/categories/music/music-poster.jpg" alt="Featured image of post 音乐" /&gt;</description>
+        </item>
+        <item>
+        <title>键政</title>
+        <link>https://umi.im/categories/politics/</link>
+        <pubDate>Sat, 22 Aug 2015 06:34:53 +0000</pubDate>
+        
+        <guid>https://umi.im/categories/politics/</guid>
+        <description>&lt;img src="https://umi.im/categories/politics/politics-poster.jpg" alt="Featured image of post 键政" /&gt;</description>
+        </item>
+        <item>
+        <title>Test</title>
+        <link>https://umi.im/categories/test/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://umi.im/categories/test/</guid>
+        <description>&lt;img src="https://umi.im/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

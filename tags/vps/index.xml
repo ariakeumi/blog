@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>VPS on 笨蛋屋</title>
+        <link>https://umi.im/tags/vps/</link>
+        <description>Recent content in VPS on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Fri, 21 Apr 2023 20:14:33 +0000</lastBuildDate><atom:link href="https://umi.im/tags/vps/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>部署一个轻量高颜值的服务器监控探针 ServerStatus</title>
+        <link>https://umi.im/serverstatus/</link>
+        <pubDate>Fri, 21 Apr 2023 20:14:33 +0000</pubDate>
+        
+        <guid>https://umi.im/serverstatus/</guid>
+        <description>&lt;img src="https://umi.im/wp-content/uploads/2023/04/serverstatus-card.png" alt="Featured image of post 部署一个轻量高颜值的服务器监控探针 ServerStatus" /&gt;&lt;h2 id=&#34;介绍&#34;&gt;
+    &lt;a href=&#34;#%e4%bb%8b%e7%bb%8d&#34;&gt;#&lt;/a&gt;
+    介绍
+&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://blog.moe.lol/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;cokemine&lt;/a&gt;/&lt;a href=&#34;https://github.com/cokemine/ServerStatus-Hotaru&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ServerStatus-Hotaru&lt;/a&gt; 是一个基于 PHP 和 Python 编写的服务器状态监控工具，可在 Web 界面上展示服务器的 CPU、内存、磁盘、网络等状态信息，还支持对服务器的进程、端口等信息进行监控。它可以实时更新服务器的状态信息，方便系统管理员进行监控和管理。&lt;/p&gt;
+&lt;p&gt;我稍微修改了下 &lt;a href=&#34;https://github.com/cokemine/ServerStatus-Hotaru&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ServerStatus-Hotaru&lt;/a&gt; 的主题，去掉了原生主题的 Banner ，让卡片显示 CPU 型号和内存硬盘大小，如下图。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1359&#34; height=&#34;834&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/serverstatus-card.png&#34; alt=&#34;&#34; class=&#34;wp-image-6489&#34; /&gt;  
+&lt;h2 id=&#34;安装服务端&#34;&gt;
+    &lt;a href=&#34;#%e5%ae%89%e8%a3%85%e6%9c%8d%e5%8a%a1%e7%ab%af&#34;&gt;#&lt;/a&gt;
+    安装服务端
+&lt;/h2&gt;&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;wget https://raw.githubusercontent.com/cokemine/ServerStatus-Hotaru/master/status.sh
+# wget https://cokemine.coding.net/p/hotarunet/d/ServerStatus-Hotaru/git/raw/master/status.sh 若服务器位于中国大陆建议选择 Coding.net 仓库
+bash status.sh s&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;此安装脚本会安装 Caddy 来作为 Web 服务器，如果需要用 Nginx ，把 /usr/local/ServerStatus/web 目录设置为网站根目录。&lt;/p&gt;
+&lt;h2 id=&#34;配置-serverstatus&#34;&gt;
+    &lt;a href=&#34;#%e9%85%8d%e7%bd%ae-serverstatus&#34;&gt;#&lt;/a&gt;
+    配置 ServerStatus
+&lt;/h2&gt;&lt;p&gt;修改配置文件 /usr/local/ServerStatus/server/config.json ，填入你的服务器节点信息。&lt;/p&gt;
+&lt;p&gt;CPU 型号用 cat /proc/cpuinfo 来查看。region 用于显示卡片的国旗，国家代码参考 &lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://zh.wikipedia.org/wiki/ISO_3166-1%E4%BA%8C%E4%BD%8D%E5%AD%97%E6%AF%8D%E4%BB%A3%E7%A0%81#%E6%AD%A3%E5%BC%8F%E5%88%86%E9%85%8D%E4%BB%A3%E7%A0%81&#34; target=&#34;_blank&#34;&gt;ISO 3166-1 alpha-2&lt;/a&gt; 。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;  {
+   &#34;username&#34;: &#34;用户名&#34;,
+   &#34;password&#34;: &#34;密码&#34;,
+   &#34;name&#34;: &#34;节点名字&#34;,
+   &#34;type&#34;: &#34;操作系统&#34;,
+   &#34;host&#34;: &#34;处理器型号&#34;,
+   &#34;location&#34;: &#34;服务器位置&#34;,
+   &#34;disabled&#34;: false,
+   &#34;region&#34;: &#34;US&#34;
+  },&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;安装客户端&#34;&gt;
+    &lt;a href=&#34;#%e5%ae%89%e8%a3%85%e5%ae%a2%e6%88%b7%e7%ab%af&#34;&gt;#&lt;/a&gt;
+    安装客户端
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Linux 发行版&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;wget https://raw.githubusercontent.com/cokemine/ServerStatus-Hotaru/master/status.sh
+# wget https://cokemine.coding.net/p/hotarunet/d/ServerStatus-Hotaru/git/raw/master/status.sh 若服务器位于中国大陆建议选择 Coding.net 仓库
+bash status.sh c&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;OpenWrt 路由器&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在这种设备中建议使用 Go 客户端，在 &lt;a href=&#34;https://github.com/cokemine/ServerStatus-goclient/releases&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ServerStatus-goclient/releases&lt;/a&gt; 下载对应的二进制客户端并解压到 /root 目录，SSH 连接到路由器，执行下面的命令。&lt;/p&gt;
+&lt;p&gt;如果不需要监控 WAN 口流量可以不用安装 vnstat 。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;opkg update
+opkg install nohup
+opkg install vnstat
+chmod +x status-client
+nohup ./status-client -dsn=&#34;username:password@yourip:35601&#34; -vnstat &amp;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Go 客户端可能无法正确识别磁盘容量，如果有需求得安装 &lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://github.com/cokemine/ServerStatus-Hotaru/blob/master/clients/status-psutil.py&#34; target=&#34;_blank&#34;&gt;Python 客户端&lt;/a&gt; ，安装完 Python 和依赖要占用几十兆空间，个人不建议。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;群晖 NAS&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在 &lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://github.com/cokemine/ServerStatus-goclient/releases&#34; target=&#34;_blank&#34;&gt;ServerStatus-goclient/releases&lt;/a&gt; 下载对应的二进制客户端。&lt;/p&gt;
+&lt;p&gt;解压并上传到你的群晖 NAS 的任意目录。在群晖的控制面板设置，计划任务里新增 [ 触发的任务 ]， [ 用户定义的脚本 ] ，事件选择 [ 开机 ] ，运行命令填下面的这行，路径和用户名密码 IP 替换成自己的。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;/volume1/docker/serverstatus/status-client -dsn=&#34;username:password@yourip:35601&#34;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;再点操作栏的 运行 ，这样客户端就在后台运行并开机自启了。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;957&#34; height=&#34;669&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/serverstatus-dsm.png&#34; alt=&#34;&#34; class=&#34;wp-image-6488&#34; /&gt;  
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在 &lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://github.com/cokemine/ServerStatus-goclient/releases&#34; target=&#34;_blank&#34;&gt;ServerStatus-goclient/releases&lt;/a&gt; 下载对应的二进制客户端并解压到任意目录，通过 Powershell 运行以下命令后台运行，路径和用户名密码 IP 记得替换。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;Start-Process -FilePath &#34;C:\Users\Umi\Desktop\status-client.exe&#34; -ArgumentList &#39;-dsn=&#34;username:password@yourip:35601&#34;&#39; -WindowStyle Hidden -Verb RunAs&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果需要开机自启动配置个 vbs 脚本并在计划任务里设置登录自动打开就行：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Set objShell = CreateObject(&amp;#34;WScript.Shell&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;objShell.Run &amp;#34;&amp;#34;&amp;#34;C:\Users\Documents\scrutiny\status-client.exe&amp;#34;&amp;#34; -dsn=&amp;#34;&amp;#34;username:password@yourip:3560&amp;#34;&amp;#34;&amp;#34;, 0, False
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;serverstatus-主题修改版&#34;&gt;
+    &lt;a href=&#34;#serverstatus-%e4%b8%bb%e9%a2%98%e4%bf%ae%e6%94%b9%e7%89%88&#34;&gt;#&lt;/a&gt;
+    ServerStatus 主题修改版
+&lt;/h2&gt;&lt;p&gt;我的探针： &lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://s.umi.im/&#34; target=&#34;_blank&#34;&gt;ServerStatus&lt;/a&gt; ，在 Onedrive 下载 &lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://1drv.ms/u/s!Agj1VU8aYuuBgfJPM4_mwUhKn0oq7w?e=nurKaE&#34; target=&#34;_blank&#34;&gt;我的主题&lt;/a&gt; ，替换掉 /usr/local/ServerStatus/web 目录。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1916&#34; height=&#34;1185&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/ServerStatus.webp&#34; alt=&#34;&#34; class=&#34;wp-image-6467&#34; srcset=&#34;https://umi.im/wp-content/uploads/2023/04/ServerStatus.webp 1916w, https://umi.im/wp-content/uploads/2023/04/ServerStatus-1536x950.webp 1536w&#34; sizes=&#34;(max-width: 1916px) 100vw, 1916px&#34; /&gt; </description>
+        </item>
+        <item>
+        <title>甲骨文 ARM 服务器安装 Debian &#43; xfce 桌面</title>
+        <link>https://umi.im/oracle-arm-debian-xfce/</link>
+        <pubDate>Mon, 17 Apr 2023 12:31:00 +0000</pubDate>
+        
+        <guid>https://umi.im/oracle-arm-debian-xfce/</guid>
+        <description>&lt;img src="https://umi.im/wp-content/uploads/2023/04/oracle-arm-debian-xfce.webp" alt="Featured image of post 甲骨文 ARM 服务器安装 Debian &#43; xfce 桌面" /&gt;&lt;p&gt;创建一个 4 核 24 GB 内存的 ARM 实例，系统选择 Ubuntu 20.04 。&lt;/p&gt;
+&lt;p&gt;SSH 连接到服务器，先用萌咖脚本 DD 个 Debian 11 系统。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;#更新apt源
+apt-get update
+#安装需要的工具包
+apt-get install -y xz-utils openssl gawk file
+#安装 Debian11
+bash &amp;lt;(wget --no-check-certificate -qO- &#39;https://moeclub.org/attachment/LinuxShell/InstallNET.sh&#39;) -d 11 -v 64 -a -firmware&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;等待几分钟 DD 安装完毕之后，请立即更新密码。默认用户名为：root，默认密码为：MoeClub.org 。&lt;/p&gt;
+&lt;p&gt;再次 SSH 连接服务器，安装 xfce 桌面以及 xrdp :&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;apt-get update
+apt install -y xfce4 dbus-x11 xrdp&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;修改 xrdp 端口 :&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;#更换为高位端口
+vi /etc/xrdp/xrdp.ini
+prot = 3389 
+#重启 xrdp 服务
+service xrdp restart&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;使用 Microsoft 远程桌面连接到服务器。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1348&#34; height=&#34;792&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/oracle-arm-debian-xfce.png&#34; alt=&#34;&#34; class=&#34;wp-image-6370&#34; /&gt;  
+&lt;p&gt;为什么要给服务器安装图形界面？&lt;/p&gt;
+&lt;p&gt;当然是为了安装浏览器然后给老司機論壇的账号挂机刷在线时间升级，方便以后发帖求车啊。&lt;/p&gt;
+&lt;p&gt;PS：Google Chrome 没有适配 ARM Linux 版，需要安装 Chromium ，并且在 VPS 上启动还需要加上 –no-sandbox 参数。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>博客服务器搬到香港啦</title>
+        <link>https://umi.im/blog-to-hk/</link>
+        <pubDate>Tue, 15 Nov 2022 07:14:50 +0000</pubDate>
+        
+        <guid>https://umi.im/blog-to-hk/</guid>
+        <description>&lt;p&gt;今年国庆，看到 &lt;a href=&#34;https://licloud.io/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;LiCloud.io&lt;/a&gt; 有活动，遂购入这台年付 30 美元的香港 VPS。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;421&#34; height=&#34;267&#34; src=&#34;https://umi.im/wp-content/uploads/2022/10/licloud.io_.png&#34; alt=&#34;&#34; class=&#34;wp-image-6212&#34; /&gt;  
+&lt;p&gt;机型有点瘸腿，10GB 的内存却只配了 30GB 的磁盘，800GB 的双向流量也是不太够用的，但是 30 刀要什么自行车呢。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;服务器配置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt; CPU Model          : Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz
+ CPU Cores          : 4 @ 2399.984 MHz
+ CPU Cache          : 35840 KB
+ AES-NI             : Enabled
+ VM-x/AMD-V         : Enabled
+ Total Disk         : 28.4 GB (7.7 GB Used)
+ Total Mem          : 9.7 GB (2.3 GB Used)
+ Total Swap         : 975.0 MB (1.0 MB Used)
+ System uptime      : 14 days, 4 hour 26 min
+ OS                 : Debian GNU/Linux 11
+ Kernel             : 5.10.0-18-amd64
+ TCP CC             : bbr
+ Virtualization     : KVM
+ Organization       : AS139659 LUCIDACLOUD LIMITED
+ Location           : Hong Kong / HK
+ Region             : Central and Western
+----------------------------------------------------------------------
+ I/O Speed(1st run) : 162 MB/s
+ I/O Speed(2nd run) : 305 MB/s
+ I/O Speed(3rd run) : 301 MB/s
+ I/O Speed(average) : 256.0 MB/s
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;之前常年用 512MB 、768MB 的 VPS 放博客，几个访客就能让机器爆内存，这次 10GB 大内存直接部署了一大堆东西。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;磁盘和处理器性能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;
+fio Disk Speed Tests (Mixed R/W 50/50):
+---------------------------------
+Block Size | 4k            (IOPS) | 64k           (IOPS)
+  ------   | ---            ----  | ----           ---- 
+Read       | 124.19 MB/s  (31.0k) | 762.54 MB/s  (11.9k)
+Write      | 124.52 MB/s  (31.1k) | 766.55 MB/s  (11.9k)
+Total      | 248.71 MB/s  (62.1k) | 1.52 GB/s    (23.8k)
+           |                      |                     
+Block Size | 512k          (IOPS) | 1m            (IOPS)
+  ------   | ---            ----  | ----           ---- 
+Read       | 1.06 GB/s     (2.0k) | 1.10 GB/s     (1.0k)
+Write      | 1.12 GB/s     (2.1k) | 1.17 GB/s     (1.1k)
+Total      | 2.19 GB/s     (4.2k) | 2.28 GB/s     (2.2k)
+
+Geekbench 5 Benchmark Test:
+---------------------------------
+Test            | Value                         
+                |                               
+Single Core     | 449                           
+Multi Core      | 1437                          
+Full Test       | https://browser.geekbench.com/v5/cpu/17953894&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;用的 NVME 的 SSD ，IO 还可以，但是 CPU 就非常辣眼睛了，四核跑分和还不如单核 Ryzen ，限制的太死了。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;三网测速&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;电信163、联通169、移动 CMI 直连线路，使用体验还行。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;430&#34; height=&#34;533&#34; src=&#34;https://umi.im/wp-content/uploads/2022/10/licloud-hk-speedtest.png&#34; alt=&#34;&#34; class=&#34;wp-image-6213&#34; /&gt;  
+&lt;ul&gt;
+&lt;li&gt;网站打开速度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; src=&#34;https://umi.im/wp-content/uploads/2022/11/blog-17ce.webp&#34; alt=&#34;&#34; class=&#34;wp-image-6274&#34; width=&#34;840&#34; height=&#34;646&#34; /&gt; </description>
+        </item>
+        <item>
+        <title>每月 100GB 流量的免费 VPS – AWS EC2 白嫖</title>
+        <link>https://umi.im/aws-ec2/</link>
+        <pubDate>Thu, 21 Apr 2022 09:41:35 +0000</pubDate>
+        
+        <guid>https://umi.im/aws-ec2/</guid>
+        <description>&lt;img src="https://umi.im/wp-content/uploads/2022/04/aws-ec2-poster.jpg" alt="Featured image of post 每月 100GB 流量的免费 VPS – AWS EC2 白嫖" /&gt;&lt;p&gt;最近亚马逊把 AWS EC2 实例的免费流量从每月 15GB 提高到了 100GB ，对于流量需求不高的用户，白嫖 AWS 搭梯子或者小博客是不错的选择。&lt;/p&gt;
+&lt;p&gt;新注册用户可以免费开12个月的特定的 EC2 实例。&lt;/p&gt;
+&lt;p&gt;只需要一张外币信用卡和一个美国手机号接验证码，我用的是 Google Voice。&lt;/p&gt;
+&lt;p&gt;注册很简单，不像 GCP、甲骨文和 Azure 一堆风控，直接真实信息就行，基本都能过，这里就不详写了。&lt;/p&gt;
+&lt;h3 id=&#34;创建实例&#34;&gt;
+    &lt;a href=&#34;#%e5%88%9b%e5%bb%ba%e5%ae%9e%e4%be%8b&#34;&gt;#&lt;/a&gt;
+    创建实例
+&lt;/h3&gt;&lt;p&gt;注册完选择喜欢的区域创建 EC2 实例（可随意换区），系统选择 Debian 10 。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;904&#34; height=&#34;847&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/AWS-1.png&#34; alt=&#34;&#34; class=&#34;wp-image-6129&#34; /&gt;  
+&lt;p&gt;实例选择 t.2.micro ，免费的会注明 [ 支持免费套餐 ] 。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;904&#34; height=&#34;510&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/AWS-2.png&#34; alt=&#34;&#34; class=&#34;wp-image-6130&#34; /&gt;  
+&lt;p&gt;然后创建新密钥对，名称随意，私钥格式选 .pem ，把私钥下载到本地。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;908&#34; height=&#34;460&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/AWS-3.png&#34; alt=&#34;&#34; class=&#34;wp-image-6131&#34; /&gt;  &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;733&#34; height=&#34;726&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/AWS-4.png&#34; alt=&#34;&#34; class=&#34;wp-image-6133&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;硬盘调到 30GB。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;933&#34; height=&#34;418&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/AWS-5-1.png&#34; alt=&#34;&#34; class=&#34;wp-image-6134&#34; /&gt;  
+&lt;h3 id=&#34;登录和调试&#34;&gt;
+    &lt;a href=&#34;#%e7%99%bb%e5%bd%95%e5%92%8c%e8%b0%83%e8%af%95&#34;&gt;#&lt;/a&gt;
+    登录和调试
+&lt;/h3&gt;&lt;p&gt;接着创建实例，实例启动后，进控制台复制公网 IP 地址，用 SSH 登录。&lt;/p&gt;
+&lt;p&gt;这里我用的是 FinalShell ，认证方式选公钥，用户名填 admin ，导入刚才创建的私钥后登录。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;606&#34; height=&#34;572&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/aws-ssh-login.png&#34; alt=&#34;&#34; class=&#34;wp-image-6135&#34; /&gt;  
+&lt;p&gt;登录后先开启 BBR ，依次输入下面的几条命令，最后能看到 BBR 进程就说明开启成功。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;sudo -i
+echo &#34;net.core.default_qdisc=fq&#34; &amp;gt;&amp;gt; /etc/sysctl.conf
+echo &#34;net.ipv4.tcp_congestion_control=bbr&#34; &amp;gt;&amp;gt; /etc/sysctl.conf
+sysctl -p
+sysctl net.ipv4.tcp_available_congestion_control
+lsmod | grep bbr&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果不想用私钥登录改成密码登录，输入以下命令创建带密码的 root 用户并允许密码登录。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;echo root:your_password|sudo chpasswd root
+sudo sed -i &#39;s/^#\?PermitRootLogin.*/PermitRootLogin yes/g&#39; /etc/ssh/sshd_config;
+sudo sed -i &#39;s/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g&#39; /etc/ssh/sshd_config;
+sudo service sshd restart&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;测速和性能&#34;&gt;
+    &lt;a href=&#34;#%e6%b5%8b%e9%80%9f%e5%92%8c%e6%80%a7%e8%83%bd&#34;&gt;#&lt;/a&gt;
+    测速和性能
+&lt;/h3&gt;&lt;p&gt;接下来跑个测速，东京节点，速度还是很快的，缺点是电信延迟较高（东京节点是电信用户的最好选择）。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;438&#34; height=&#34;369&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/AWS-JP-Speedtest.png&#34; alt=&#34;&#34; class=&#34;wp-image-6137&#34; /&gt;  
+&lt;p&gt;最开始我选择的香港节点，结果发现广东电信绕日本，而且是 NTT 线路，基本不可用。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;963&#34; height=&#34;618&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/AWS-HK-Ping.png&#34; alt=&#34;&#34; class=&#34;wp-image-6136&#34; /&gt;  
+&lt;p&gt;再来个跑分，CPU 性能比很多廉价 VPS 厂商的都强，硬盘性能被限制的很惨，和甲骨文的差不多。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;Processor  : Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz
+CPU cores  : 1 @ 2400.016 MHz
+AES-NI     : ✔ Enabled
+VM-x/AMD-V : ❌ Disabled
+RAM        : 987.5 MiB
+Swap       : 0.0 KiB
+Disk       : 29.5 GiB
+
+fio Disk Speed Tests (Mixed R/W 50/50):
+---------------------------------
+Block Size | 4k            (IOPS) | 64k           (IOPS)
+  ------   | ---            ----  | ----           ---- 
+Read       | 6.31 MB/s     (1.5k) | 64.15 MB/s    (1.0k)
+Write      | 6.31 MB/s     (1.5k) | 64.57 MB/s    (1.0k)
+Total      | 12.63 MB/s    (3.1k) | 128.73 MB/s   (2.0k)
+           |                      |                     
+Block Size | 512k          (IOPS) | 1m            (IOPS)
+  ------   | ---            ----  | ----           ---- 
+Read       | 59.54 MB/s     (116) | 58.39 MB/s      (57)
+Write      | 63.04 MB/s     (123) | 63.05 MB/s      (61)
+Total      | 122.59 MB/s    (239) | 121.44 MB/s    (118)
+
+Geekbench 5 Benchmark Test:
+---------------------------------
+Test            | Value                         
+                |                               
+Single Core     | 685                           
+Multi Core      | 687                           
+Full Test       | https://browser.geekbench.com/v5/cpu/14452349
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;注意事项&#34;&gt;
+    &lt;a href=&#34;#%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a1%b9&#34;&gt;#&lt;/a&gt;
+    注意事项
+&lt;/h3&gt;&lt;p&gt;搭建梯子需要在安全组的入站规则放行相应的端口。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1296&#34; height=&#34;659&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/AWS-rule.png&#34; alt=&#34;&#34; class=&#34;wp-image-6149&#34; /&gt;  
+&lt;p&gt;嫖完记得给信用卡限额，防止流量超标扣费。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>BT 下载导致 VPS 被封</title>
+        <link>https://umi.im/hbo-dmca/</link>
+        <pubDate>Tue, 30 Apr 2019 15:46:13 +0000</pubDate>
+        
+        <guid>https://umi.im/hbo-dmca/</guid>
+        <description>&lt;p&gt;因为部署在路由器的翻墙软件的代理运行模式设置为了 “绕过大陆 IP 地址” ，导致 BT 下载权力的游戏时走了 VPS 的线路，从而收到了 HBO 的 CMDA 警告，VPS 被暂时停用。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1412&#34; height=&#34;867&#34; src=&#34;https://umi.im/wp-content/uploads/2019/04/HBO-DMCA.png&#34; alt=&#34;&#34; class=&#34;wp-image-5566&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/04/HBO-DMCA.png 1412w, https://umi.im/wp-content/uploads/2019/04/HBO-DMCA-150x92.png 150w, https://umi.im/wp-content/uploads/2019/04/HBO-DMCA-300x184.png 300w, https://umi.im/wp-content/uploads/2019/04/HBO-DMCA-768x472.png 768w, https://umi.im/wp-content/uploads/2019/04/HBO-DMCA-1024x629.png 1024w&#34; sizes=&#34;(max-width: 1412px) 100vw, 1412px&#34; /&gt;  &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2019/05/HBO-DMCA-Bandwagon.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;923&#34; height=&#34;458&#34; src=&#34;https://umi.im/wp-content/uploads/2019/05/HBO-DMCA-Bandwagon.png&#34; alt=&#34;&#34; class=&#34;wp-image-5559&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/05/HBO-DMCA-Bandwagon.png 923w, https://umi.im/wp-content/uploads/2019/05/HBO-DMCA-Bandwagon-150x74.png 150w, https://umi.im/wp-content/uploads/2019/05/HBO-DMCA-Bandwagon-300x149.png 300w, https://umi.im/wp-content/uploads/2019/05/HBO-DMCA-Bandwagon-768x381.png 768w&#34; sizes=&#34;(max-width: 923px) 100vw, 923px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如果多次收到 CMDA 警告，可能会封永久。&lt;/p&gt;
+&lt;p&gt;所以大家下载 BT 的时候注意，代理运行模式要设置为 “GFW 列表” 模式。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2019/05/ShadowSocksR-Plus-.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;627&#34; height=&#34;280&#34; src=&#34;https://umi.im/wp-content/uploads/2019/05/ShadowSocksR-Plus-.png&#34; alt=&#34;&#34; class=&#34;wp-image-5562&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/05/ShadowSocksR-Plus-.png 627w, https://umi.im/wp-content/uploads/2019/05/ShadowSocksR-Plus--150x67.png 150w, https://umi.im/wp-content/uploads/2019/05/ShadowSocksR-Plus--300x134.png 300w&#34; sizes=&#34;(max-width: 627px) 100vw, 627px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>2017，从 BudgetVM 搬家到搬瓦工</title>
+        <link>https://umi.im/bandwagon/</link>
+        <pubDate>Sun, 03 Sep 2017 14:16:11 +0000</pubDate>
+        
+        <guid>https://umi.im/bandwagon/</guid>
+        <description>&lt;p&gt;2015年，我的博客从 5 美元一个月的 Digitalocean 搬到了 BudgetVM ，因为 BudgetVM 最便宜的 512MB 内存 VPS 只要 25 美元一年。&lt;/p&gt;
+&lt;p&gt;BudgetVM 虽然很便宜，配置也还行，但是连接速度很慢，而且丢包严重。然后最近看到说搬瓦工（Bandwagon）推出了 &lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/CN2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CN2 线路&lt;/a&gt; 的 VPS ，据说搭建 VPN 看 YouTube 4K 视频不卡，价格只要 30 美元一年，既能提高博客访问速度，还能顺便搭建 Shadowsocks ，VPS 到期后就迁移过去了。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;SPECIAL 10G KVM PROMO V3 - LOS ANGELES - CN2 
+SSD: 10 GB RAID-10
+RAM: 512 MB
+CPU: 1x Intel Xeon
+Transfer: 500 GB/mo
+Link speed: 1 Gigabit&lt;/pre&gt;
+&lt;h2 id=&#34;订购链接支持支付宝2&#34;&gt;
+    &lt;a href=&#34;#%e8%ae%a2%e8%b4%ad%e9%93%be%e6%8e%a5%e6%94%af%e6%8c%81%e6%94%af%e4%bb%98%e5%ae%9d2&#34;&gt;#&lt;/a&gt;
+    &lt;a class=&#34;link&#34; href=&#34;https://bwh1.net/cart.php?a=confproduct&amp;amp;i=0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;订购链接(支持支付宝)&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2017/09/bandwagon-offer.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1029&#34; height=&#34;529&#34; src=&#34;https://umi.im/wp-content/uploads/2017/09/bandwagon-offer.png&#34; alt=&#34;&#34; class=&#34;wp-image-4886&#34; srcset=&#34;https://umi.im/wp-content/uploads/2017/09/bandwagon-offer.png 1029w, https://umi.im/wp-content/uploads/2017/09/bandwagon-offer-150x77.png 150w, https://umi.im/wp-content/uploads/2017/09/bandwagon-offer-300x154.png 300w, https://umi.im/wp-content/uploads/2017/09/bandwagon-offer-768x395.png 768w, https://umi.im/wp-content/uploads/2017/09/bandwagon-offer-1024x526.png 1024w&#34; sizes=&#34;(max-width: 1029px) 100vw, 1029px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;WordPress 迁移过程很方便，没遇到什么麻烦。用 BackWPup 把 WordPress 目录和数据库备份到 Dropbox ，配置好 Lnmp ，直接在新 VPS 里面下载解压，导入数据库，提权 WordPress 目录就 OK 了。&lt;/p&gt;
+&lt;p&gt;搬瓦工这个 CN2 线路的 VPS 速度真的很给力，Ping 稳定在 160~170ms ，看 Twitch 六十帧原画毫无压力，强烈推荐。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>滚到 BudgetVM</title>
+        <link>https://umi.im/move-budgetvm/</link>
+        <pubDate>Thu, 27 Aug 2015 11:42:45 +0000</pubDate>
+        
+        <guid>https://umi.im/move-budgetvm/</guid>
+        <description>&lt;p&gt;Digitalocean 的 VPS 快到期了，5刀一个月有点心疼，毕竟博客没人访问，还是换个便宜点的 VPS 吧。&lt;/p&gt;
+&lt;p&gt;主要要求是 512MB 内存，10GB 以上硬盘，机房在西海岸，价格便宜。&lt;/p&gt;
+&lt;p&gt;早先看中 &lt;a href=&#34;https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0CB8QFjAAahUKEwjj9tTXk8nHAhWPH44KHcC5CoU&amp;url=https%3A%2F%2Fcrissic.net%2F&amp;ei=wvPeVeONCY-_uATA86qoCA&amp;usg=AFQjCNE9Z-VBlE4b08UoGvk51S8KE7FmGA&amp;sig2=gH4pYNzrIjzjlSiLJ5bZ5g&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crissic&lt;/a&gt; ，3刀一个月，速度还可以，刚要买的时候发现没货了。&lt;/p&gt;
+&lt;p&gt;然后发现家更便宜的，512MB 内存、25GB SSD 的年付只要35刀，机房在洛杉矶。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/budgetvm-openvz-ssd.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1162&#34; height=&#34;402&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/budgetvm-openvz-ssd.png&#34; alt=&#34;budgetvm-openvz-ssd&#34; class=&#34;wp-image-4583&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/budgetvm-openvz-ssd.png 1162w, https://umi.im/wp-content/uploads/2015/08/budgetvm-openvz-ssd-150x52.png 150w, https://umi.im/wp-content/uploads/2015/08/budgetvm-openvz-ssd-300x104.png 300w, https://umi.im/wp-content/uploads/2015/08/budgetvm-openvz-ssd-1024x354.png 1024w&#34; sizes=&#34;(max-width: 1162px) 100vw, 1162px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;25GB SSD 换成 50GB HDD 的话还能便宜 10刀，年付只要25刀！还支持支付宝付款，换算成人民币163块。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/budgetvm-openvz-alipay.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;785&#34; height=&#34;285&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/budgetvm-openvz-alipay.png&#34; alt=&#34;budgetvm-openvz-alipay&#34; class=&#34;wp-image-4584&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/budgetvm-openvz-alipay.png 785w, https://umi.im/wp-content/uploads/2015/08/budgetvm-openvz-alipay-150x54.png 150w, https://umi.im/wp-content/uploads/2015/08/budgetvm-openvz-alipay-300x109.png 300w&#34; sizes=&#34;(max-width: 785px) 100vw, 785px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;买的时候是深夜，西海岸时间应该是网络高峰期，连接上 SSH 敲命令都卡出翔，500ms 延迟加上感人的丢包验证了一分钱一分货的道理，将就用吧。&lt;/p&gt;
+&lt;p&gt;小插曲：系统选择的64位的 CentOS  ，&lt;a href=&#34;http://lnmp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;lnmp&lt;/a&gt; 安装失败，6.0 和 7.0 都这样，不知道什么原因，换成 Debian 也一样，最后换成32位的系统就好了。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Carbon Forum 轻型 PHP 论坛搭建</title>
+        <link>https://umi.im/carbon-forum/</link>
+        <pubDate>Thu, 23 Jul 2015 12:24:07 +0000</pubDate>
+        
+        <guid>https://umi.im/carbon-forum/</guid>
+        <description>&lt;p&gt;平时非常喜欢论坛，一直有建个论坛玩玩的想法。像 Discuz 这种论坛程序 VPS 肯定是玩不转的，而且也用不上那么多功能。&lt;/p&gt;
+&lt;p&gt;最近迷上了 V2EX 这个轻型论坛，基于话题而非版块的划分太适合小论坛。&lt;/p&gt;
+&lt;p&gt;然后我发现自己关注的知乎用户 &lt;a href=&#34;http://www.zhihu.com/people/lincanbin&#34; data-tip=&#34;p$b$lincanbin&#34;&gt;林灿斌&lt;/a&gt; 竟然有一个轻型的开源论坛项目，轻到能在5美元一个月的 VPS上跑，这说的不就是 &lt;a title=&#34;炒土豆丝的 WordPress 新家：VPS ~ Ubuntu + Apache + MySQL + PHP&#34; href=&#34;https://umi.im/vps-ubuntu-wordpress/&#34; target=&#34;_blank&#34;&gt;DigitalOcean&lt;/a&gt; 的 VPS 么！建站时机已到！&lt;/p&gt;
+&lt;h2 id=&#34;a-class-wrap-external-hrefhttpsgithubcomlincanbincarbon-forum-target_blank-relnofollow-noreferrerlincanbincarbon-forum--githubi-classicon-externalia&#34;&gt;
+    &lt;a href=&#34;#a-class-wrap-external-hrefhttpsgithubcomlincanbincarbon-forum-target_blank-relnofollow-noreferrerlincanbincarbon-forum--githubi-classicon-externalia&#34;&gt;#&lt;/a&gt;
+    &lt;a class=&#34; wrap external&#34; href=&#34;https://github.com/lincanbin/Carbon-Forum&#34; target=&#34;_blank&#34; rel=&#34;nofollow noreferrer&#34;&gt;lincanbin/Carbon-Forum · GitHub&lt;i class=&#34;icon-external&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;Carbon Forum，一个高性能的、高安全性的、基于话题的PHP轻论坛。&lt;/p&gt;
+&lt;p&gt;优秀的架构，高效的代码，每个页面平均执行时间仅为1~5毫秒，同时恰当地使用异步加载技术，在SEO与用户体验间取得平衡。&lt;/p&gt;
+&lt;p&gt;论坛摒弃了版块、节点等概念，发帖时无需选择板块，系统根据帖子内容自动推荐话题供用户选择，并且有功能强大而不显冗余的富文本编辑器。&lt;/p&gt;
+&lt;p&gt;支持关注用户、关注话题等功能，可以作为一个社交网站使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Carbon Forum 安装起来很简单，甚至比 WordPress 还简单，但是安装过程中遇到的几个问题麻烦了半天，一步一步记下来。&lt;/p&gt;
+&lt;h2 id=&#34;ubuntu--apache2-virtual-host-配置&#34;&gt;
+    &lt;a href=&#34;#ubuntu--apache2-virtual-host-%e9%85%8d%e7%bd%ae&#34;&gt;#&lt;/a&gt;
+    Ubuntu + Apache2 Virtual Host 配置
+&lt;/h2&gt;&lt;p&gt;我希望通过子域名 bbs.*.com 来实现论坛的访问，主域名留给博客，这时候就需要设置 Virtual Host 。&lt;/p&gt;
+&lt;p&gt;搭建 Carbon Forum 除了用到 bbs 子域名，还可以设置一个移动版域名，所以要设置3个 Virtual Host 。&lt;/p&gt;
+&lt;p&gt;在 /etc/apache2/sites-available/ 目录下有一个 default.conf 的配置文件，复制文件命名为要设定的域名，配置3个。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;umi.im.conf&lt;/li&gt;
+&lt;li&gt;bbs.umi.im.conf&lt;/li&gt;
+&lt;li&gt;m.umi.im.conf&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以上3个分别为 WordPress 博客域名，Carbon 论坛域名，Carbon 论坛移动版域名。&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true&#34;&gt;#
+# DocumentRoot 是网站文件存放的根目录,论坛移动版域名也设定为 Carbon 文件存放目录
+# ServerName 是网站域名
+#
+&amp;lt;VirtualHost *:80&amp;gt;
+    ServerAdmin webmaster@dummy-host.example.com
+    DocumentRoot /var/www/html/bbs
+    ServerName bbs.umi.im
+    ErrorLog ${APACHE_LOG_DIR}/bbs.bakahouse.com-error.log
+    CustomLog ${APACHE_LOG_DIR}/bbs.bakahouse.com-access.log combined
+&amp;lt;/VirtualHost&amp;gt;&lt;/pre&gt;
+&lt;p&gt;接着通过 a2ensite 激活 Virtual Host 配置，再重启 Apache2 。&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true&#34;&gt;# a2ensite umi.im
+# a2ensite bbs.umi.im
+# a2ensite m.umi.im
+# service apache2 restart&lt;/pre&gt;
+&lt;p&gt;我的论坛 Virtual Host 路径是 /var/www/html/bbs ，把扔到对应的路径上就好了。&lt;/p&gt;
+&lt;h2 id=&#34;开启伪静态&#34;&gt;
+    &lt;a href=&#34;#%e5%bc%80%e5%90%af%e4%bc%aa%e9%9d%99%e6%80%81&#34;&gt;#&lt;/a&gt;
+    开启伪静态
+&lt;/h2&gt;&lt;p&gt;开启Apache2 伪静态 rewrite 支持，这一步出问题可能导致接下来安装完成后页面 404 。&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true&#34;&gt;# a2enmod rewrite&lt;/pre&gt;
+&lt;p&gt;然后修改  /etc/apache2/apache2.conf ，把 AllowOverride None 改为 AllowOverride All ，可能有4行。&lt;/p&gt;
+&lt;h2 id=&#34;安装&#34;&gt;
+    &lt;a href=&#34;#%e5%ae%89%e8%a3%85&#34;&gt;#&lt;/a&gt;
+    安装
+&lt;/h2&gt;&lt;p&gt;先登录 phpmyadmin 添加个数据库，名字随意。&lt;/p&gt;
+&lt;p&gt;打开域名 bbs.umi.im/install 开始安装，输入数据库名字、数据库账号密码就安装完成，然后手动删除 install 和 update 目录。&lt;/p&gt;
+&lt;p&gt;另外还要给目录 777 权限，用 FTP 软件 FlashFXP 或者 Winscp都可以很简单的设置。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/07/Carbon-Forum-777.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4396&#34; src=&#34;https://umi.im/wp-content/uploads/2015/07/Carbon-Forum-777.png&#34; alt=&#34;Carbon Forum  777&#34; width=&#34;479&#34; height=&#34;406&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/07/Carbon-Forum-777.png 479w, https://umi.im/wp-content/uploads/2015/07/Carbon-Forum-777-150x127.png 150w, https://umi.im/wp-content/uploads/2015/07/Carbon-Forum-777-300x254.png 300w&#34; sizes=&#34;(max-width: 479px) 100vw, 479px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpbbsumiim-target_blankbaka里屋-就我一个用户a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpbbsumiim-target_blankbaka%e9%87%8c%e5%b1%8b-%e5%b0%b1%e6%88%91%e4%b8%80%e4%b8%aa%e7%94%a8%e6%88%b7a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://bbs.umi.im/&#34; target=&#34;_blank&#34;&gt;BAKA里屋 | 就我一个用户&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/07/MacBook-Pro-Carbon-Forum.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4401&#34; src=&#34;https://umi.im/wp-content/uploads/2015/07/MacBook-Pro-Carbon-Forum.jpg&#34; alt=&#34;MacBook Pro Carbon Forum&#34; width=&#34;1280&#34; height=&#34;853&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/07/MacBook-Pro-Carbon-Forum.jpg 1280w, https://umi.im/wp-content/uploads/2015/07/MacBook-Pro-Carbon-Forum-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/07/MacBook-Pro-Carbon-Forum-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/07/MacBook-Pro-Carbon-Forum-1024x682.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Apache &#43; WordPress 部署 SSL 加密</title>
+        <link>https://umi.im/apache-wordpress-ssl/</link>
+        <pubDate>Tue, 23 Jun 2015 02:11:31 +0000</pubDate>
+        
+        <guid>https://umi.im/apache-wordpress-ssl/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;传输层安全协议&lt;/strong&gt;（&lt;span class=&#34;LangWithName&#34;&gt;英语：&lt;span lang=&#34;en&#34; xml:lang=&#34;en&#34;&gt;Transport Layer Security&lt;/span&gt;&lt;/span&gt;，缩写为 TLS），及其前身&lt;strong&gt;安全套接层&lt;/strong&gt;（&lt;span lang=&#34;en&#34; xml:lang=&#34;en&#34;&gt;Secure Sockets Layer&lt;/span&gt;，SSL）是一种&lt;a class=&#34;link&#34; href=&#34;https://zh.wikipedia.org/wiki/%E5%AE%89%E5%85%A8%E5%8D%8F%E8%AE%AE&#34;  title=&#34;安全协议&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;安全协议&lt;/a&gt;，目的是为互联网通信，提供安全及数据完整性保障。在&lt;a class=&#34;link&#34; href=&#34;https://zh.wikipedia.org/wiki/%E7%B6%B2%E6%99%AF&#34;  title=&#34;网景&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;网景&lt;/a&gt;公司（&lt;span lang=&#34;en&#34; xml:lang=&#34;en&#34;&gt;Netscape&lt;/span&gt;）推出首版Web浏览器的同时提出SSL，&lt;a class=&#34;link&#34; href=&#34;https://zh.wikipedia.org/wiki/IETF&#34;  title=&#34;IETF&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;IETF&lt;/a&gt;{.mw-redirect}将SSL进行标准化，1999年公布了 TLS标准文件。&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  SSL包含记录层（Record Layer）和传输层，记录层协议确定了传输层数据的封装格式。传输层安全协议使用&lt;a title=&#34;X.509&#34; href=&#34;https://zh.wikipedia.org/wiki/X.509&#34;&gt;X.509&lt;/a&gt;认证，之后利用非对称加密演算来对通信方做身份认证，之后交换对称密钥作为会谈密钥（Session key）。这个会谈密钥是用来将通信两方交换的数据做加密，保证两个应用间通信的保密性和可靠性，使客户与服务器应用之间的通信不被攻击者窃听。
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  最近，和谐物分享网站 琉璃神社 弄 TLS/SSL 加密，据说 SSL 加密能有效防范关键字重置，心血来潮我也去搞一个。
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  配置 SSL 加密需要用到 SSL 证书，证书基本是收费的，而且很贵，便宜的像 Godaddy 的都比 .com 域名要贵。
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  好在有一家叫 StartCom 的公司提供免费的 SSL 证书，而且证书受主流浏览器信任。
+&lt;/p&gt;
+&lt;h3 style=&#34;text-align: left;&#34;&gt;
+  Ⅰ SSL 证书的申请
+&lt;/h3&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwznteccnarchivesstartsslhtml-target_blank免费的ssl证书提供商startssl详细图文注册教程--小蒋博客a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwznteccnarchivesstartsslhtml-target_blank%e5%85%8d%e8%b4%b9%e7%9a%84ssl%e8%af%81%e4%b9%a6%e6%8f%90%e4%be%9b%e5%95%86startssl%e8%af%a6%e7%bb%86%e5%9b%be%e6%96%87%e6%b3%a8%e5%86%8c%e6%95%99%e7%a8%8b--%e5%b0%8f%e8%92%8b%e5%8d%9a%e5%ae%a2a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.zntec.cn/archives/startssl.html&#34; target=&#34;_blank&#34;&gt;免费的SSL证书提供商StartSSL详细图文注册教程 | 小蒋博客&lt;/a&gt;
+&lt;/h2&gt;&lt;p style=&#34;text-align: left;&#34;&gt;
+  申请挺简单，先填上个人资料注册，收邮件下一步，安装登录用的证书（记得备份），然后证书申请，填域名然后用验证。
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  接着填上私钥密码，得到一串私钥，保存为 ssl.key 。
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  说点插曲，我在 SSH 终端使用 vi 编辑器复制私钥进去保存，因为没有回车换行导致头行前几位字符被吞掉，然后我以为是其它原因配置出错折腾了几小时才发现是私钥错了，坑死爹了！
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/private-keys.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4076&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/private-keys.png&#34; alt=&#34;private-keys&#34; width=&#34;918&#34; height=&#34;315&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/private-keys.png 918w, https://umi.im/wp-content/uploads/2015/06/private-keys-150x51.png 150w, https://umi.im/wp-content/uploads/2015/06/private-keys-300x103.png 300w&#34; sizes=&#34;(max-width: 918px) 100vw, 918px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  得到私钥后需要解密，在终端 cd 到 ssl.key 的目录下，执行：
+&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true  &#34;&gt;openssl rsa -in ssl.key -out ssl.key&lt;/pre&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  再输入密码就得到了解密的私钥。
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  然后在 StartSSL 网站控制面板的 Tool Box 进入 Retrieve Certificate ，拿到申请的证书信息和公钥，保存为 ssh.crt 。
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/Retrieve-Certificate.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4073&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/Retrieve-Certificate.png&#34; alt=&#34;Retrieve Certificate&#34; width=&#34;797&#34; height=&#34;340&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/Retrieve-Certificate.png 797w, https://umi.im/wp-content/uploads/2015/06/Retrieve-Certificate-150x64.png 150w, https://umi.im/wp-content/uploads/2015/06/Retrieve-Certificate-300x128.png 300w, https://umi.im/wp-content/uploads/2015/06/Retrieve-Certificate-700x300.png 700w&#34; sizes=&#34;(max-width: 797px) 100vw, 797px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  再在 Tool Box 的 StartCom CA Certificates 下载到 ca.pem 和 sub.class1.server.ca.pem 。
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/StartCom-CA-Certificates.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4072&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/StartCom-CA-Certificates.png&#34; alt=&#34;StartCom CA Certificates&#34; width=&#34;1048&#34; height=&#34;407&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/StartCom-CA-Certificates.png 1048w, https://umi.im/wp-content/uploads/2015/06/StartCom-CA-Certificates-150x58.png 150w, https://umi.im/wp-content/uploads/2015/06/StartCom-CA-Certificates-300x117.png 300w, https://umi.im/wp-content/uploads/2015/06/StartCom-CA-Certificates-1024x398.png 1024w&#34; sizes=&#34;(max-width: 1048px) 100vw, 1048px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  这样证书的所有文件就搞定了，如果在文件还在本地就上传到服务器上，ssl.key、ssl.crt、ca.pem 和 sub.class1.server.ca.pem 这四个。
+&lt;/p&gt;
+&lt;h3 style=&#34;text-align: left;&#34;&gt;
+  Ⅱ Apache 配置 SSL
+&lt;/h3&gt;
+&lt;h3 style=&#34;text-align: left;&#34;&gt;
+  &lt;a href=&#34;https://wzyboy.im/post/799.html#ch4&#34; target=&#34;_blank&#34;&gt;Apache + WordPress + SSL 完全指南&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  用 vi 编辑器修改 Apache 的配置文件，执行：
+&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;vi  /etc/apache2/sites-available/default-ssl.conf&lt;/pre&gt;
+&lt;p&gt;添加修改下面的内容，证书文件路径改为自己的，我也是照别人放的。&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;SSLEngine on
+SSLCertificateFile /etc/pki/tls/certs/ssl.crt
+SSLCertificateKeyFile /etc/pki/tls/private/ssl.key
+SSLCertificateChainFile /etc/pki/tls/sub.class1.server.ca.pem
+SSLCACertificateFile /etc/pki/tls/ca.pem&lt;/pre&gt;
+&lt;p&gt;修改保存好 Apache 的配置文件后，执行：&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true&#34;&gt;a2ensite
+default-ssl.conf&lt;/pre&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  确保 mod_ssl 已经开启：
+&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;a2enmod ssl&lt;/pre&gt;
+&lt;p&gt;最后重启 Apache ：&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;service apache2 restart&lt;/pre&gt;
+&lt;p&gt;以上只是搞定 SSL 证书的配置，还有 WordPress 方面要折腾。&lt;/p&gt;
+&lt;h3 style=&#34;text-align: left;&#34;&gt;
+  Ⅲ WordPress 配置 SSL
+&lt;/h3&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  首先得把 WordPress 的设置里面的 Http:// 域名改为 Https:// 的，还要把数据库的文章、图片等链接全都改为 Https:// 的，用 SQL 语句或者 Velvet Blues Update URLs 插件都可以。
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/wordpress-http-https.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4074&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/wordpress-http-https.png&#34; alt=&#34;wordpress-http-https&#34; width=&#34;680&#34; height=&#34;613&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/wordpress-http-https.png 680w, https://umi.im/wp-content/uploads/2015/06/wordpress-http-https-150x135.png 150w, https://umi.im/wp-content/uploads/2015/06/wordpress-http-https-300x270.png 300w&#34; sizes=&#34;(max-width: 680px) 100vw, 680px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  接着设置 Https 跳转，编辑网站目录下的 .htaccess 文件，就是设置 &lt;a title=&#34;炒土豆丝的 WordPress 新家：VPS ~ Ubuntu + Apache + MySQL + PHP&#34; href=&#34;https://umi.im/vps-ubuntu-wordpress/&#34; target=&#34;_blank&#34;&gt;伪静态&lt;/a&gt; 那个文件，加入下面的字段（自行修改为自己的域名）。
+&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;RewriteEngine On
+RewriteCond %{HTTPS} !on [NC]
+RewriteCond %{HTTP_USER_AGENT} !(baiduspider|soso|bing|sogou|yahoo|sohu-search|yodao|robozilla|msnbot|msie|feedburner) [NC]
+RewriteRule (.*) https://umi.im%{REQUEST_URI} [R=301,NC,L]&lt;/pre&gt;
+&lt;p&gt;修改完成后再 重启 Apache ：&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;service apache2 restart&lt;/pre&gt;
+&lt;h2 id=&#34;-意外的情况&#34;&gt;
+    &lt;a href=&#34;#-%e6%84%8f%e5%a4%96%e7%9a%84%e6%83%85%e5%86%b5&#34;&gt;#&lt;/a&gt;
+     Ⅳ 意外的情况
+&lt;/h2&gt;&lt;p style=&#34;text-align: left;&#34;&gt;
+  折腾了这么久应该搞定了啊，可惜的是还没有，又遇到各种突发情况。
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  1. Bilibili 外链视频无法加载，在 Http 链接下正常，只需要把 Html 外链代码的 http://share.acg.tv/flash.swf 替换成 https://static-s.bilibili.com/miniloader.swf ，SQL 语句或者插件批量替换，任君选择。
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  参考：&lt;a href=&#34;https://www.aazz.me/https-add-bilibili-videos.html&#34; target=&#34;_blank&#34;&gt;Https协议下插入BiliBili视频的方法&lt;/a&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  2. 多说插件出错，安装别人做的修改版多说插件（ &lt;a href=&#34;https://github.com/yecl/duoshuo-wordpress&#34; target=&#34;_blank&#34; data-pjax=&#34;#js-repo-pjax-container&#34;&gt;duoshuo-wordpress&lt;/a&gt;），后台管理不能显示还未解决。
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  参考：&lt;a href=&#34;https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0CB4QFjAA&amp;url=https%3A%2F%2Fyecl.net%2Fssl-duoshuo-github%2F&amp;ei=2a-IVc_yH4eA8gXhmoNA&amp;usg=AFQjCNEVhyYLBPzhhUsxxuGPHiC7c4lHaw&amp;sig2=cYVlAPWdFXZp7wS1IdZ5-g&#34; target=&#34;_blank&#34; data-href=&#34;https://yecl.net/ssl-duoshuo-github/&#34;&gt;支持SSL的多说插件已挂到github | 夜绫千裕&lt;/a&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  3. 需要配置七牛 CDN 加速，进入七牛的管理面板，修改镜像源为 Https 链接的，并设置七牛 Https 域名，再同上修改七牛的 WordPress 加速插件。
+&lt;/p&gt;
+&lt;p class=&#34;entry-title&#34; style=&#34;text-align: left;&#34;&gt;
+  参考：&lt;a href=&#34;https://tumutanzi.com/archives/12128&#34; target=&#34;_blank&#34;&gt;试用支持HTTPS SSL的七牛云存储CDN&lt;/a&gt;
+&lt;/p&gt;
+&lt;p class=&#34;entry-title&#34; style=&#34;text-align: left;&#34;&gt;
+  4. 360 前端公共库不支持 SSL 只能关闭 ，Google 公共库被墙，只好用中科大提供的公共库。
+&lt;/p&gt;
+&lt;p class=&#34;entry-title&#34; style=&#34;text-align: left;&#34;&gt;
+  插件下载：&lt;a href=&#34;https://wordpress.org/plugins/useso-take-over-google/&#34; target=&#34;_blank&#34;&gt;Useso take over Google&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3 class=&#34;entry-title&#34; style=&#34;text-align: left;&#34;&gt;
+  Ⅴ 气死强迫症
+&lt;/h3&gt;
+&lt;p class=&#34;entry-title&#34; style=&#34;text-align: left;&#34;&gt;
+  折腾好所有后，地址栏那个绿色的小锁终于出现了。
+&lt;/p&gt;
+&lt;p class=&#34;entry-title&#34; style=&#34;text-align: left;&#34;&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/bakahouse-ssl.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4078&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/bakahouse-ssl.png&#34; alt=&#34;bakahouse-ssl&#34; width=&#34;453&#34; height=&#34;429&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/bakahouse-ssl.png 453w, https://umi.im/wp-content/uploads/2015/06/bakahouse-ssl-150x142.png 150w, https://umi.im/wp-content/uploads/2015/06/bakahouse-ssl-300x284.png 300w&#34; sizes=&#34;(max-width: 453px) 100vw, 453px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p class=&#34;entry-title&#34; style=&#34;text-align: left;&#34;&gt;
+  但是很坑爹，我把出现在首页的两篇带 Flash 视频的文章移除掉才出现绿色的小锁子，不然就是一把灰锁加一个黄色三角形。
+&lt;/p&gt;
+&lt;p class=&#34;entry-title&#34; style=&#34;text-align: left;&#34;&gt;
+  在文章页面，因为多说插件不支持 SSL ，所以还是不绿！WTF！
+&lt;/p&gt;
+&lt;p class=&#34;entry-title&#34; style=&#34;text-align: left;&#34;&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/https-yellow.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4080&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/https-yellow.png&#34; alt=&#34;https-yellow&#34; width=&#34;424&#34; height=&#34;60&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/https-yellow.png 424w, https://umi.im/wp-content/uploads/2015/06/https-yellow-150x21.png 150w, https://umi.im/wp-content/uploads/2015/06/https-yellow-300x42.png 300w&#34; sizes=&#34;(max-width: 424px) 100vw, 424px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>炒土豆丝的 WordPress 新家：VPS ~ Ubuntu &#43; Apache &#43; MySQL &#43; PHP</title>
+        <link>https://umi.im/vps-ubuntu-wordpress/</link>
+        <pubDate>Sat, 06 Jun 2015 12:10:54 +0000</pubDate>
+        
+        <guid>https://umi.im/vps-ubuntu-wordpress/</guid>
+        <description>&lt;p&gt;接上文，拿到 &lt;a href=&#34;http://bbs.colg.cn/home.php?mod=space&amp;uid=601303&#34; target=&#34;_blank&#34;&gt;@茄子泥焗黃魚&lt;/a&gt; 土豪的 VPS 后…&lt;/p&gt;
+&lt;p&gt;折腾好 Shadowsocks 服务端，就打算把网站搬到 VPS 上，之前的&lt;a href=&#34;https://umi.im/2014-web-hosting/&#34; target=&#34;_blank&#34;&gt;虚拟主机&lt;/a&gt;虽然便宜，但速度真的不怎么样，偶尔还会抽风。像我这种日访问量在个位数的网站，搬到这种配置的 VPS 上应该会很爽。&lt;/p&gt;
+&lt;p&gt;既然要搬家，那就顺便换个域名吧。&lt;/p&gt;
+&lt;p&gt;原域名 &lt;a href=&#34;http://bakatd.com/&#34; target=&#34;_blank&#34;&gt;bakatd.com&lt;/a&gt; ，虽然简短，但是不能通读，所以换成了现在的 &lt;a href=&#34;https://umi.im/&#34; target=&#34;_blank&#34;&gt;bakahouse.com&lt;/a&gt; ，读音：巴卡豪斯…意译：笨蛋公寓，参考了白宫的域名 &lt;a href=&#34;https://www.whitehouse.gov/&#34; target=&#34;_blank&#34;&gt;whitehouse.gov&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;先设置把旧域名转发到新域名。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3969&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png&#34; alt=&#34;godaddy-Forwarding&#34; width=&#34;533&#34; height=&#34;278&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png 533w, https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding-150x78.png 150w, https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding-300x156.png 300w&#34; sizes=&#34;(max-width: 533px) 100vw, 533px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwikiubuntuorgcnvps-target_blanklinux-vps-ubuntu-系统配置指南a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwikiubuntuorgcnvps-target_blanklinux-vps-ubuntu-%e7%b3%bb%e7%bb%9f%e9%85%8d%e7%bd%ae%e6%8c%87%e5%8d%97a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://wiki.ubuntu.org.cn/Vps&#34; target=&#34;_blank&#34;&gt;Linux VPS Ubuntu 系统配置指南&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;VPS 的 Web 环境选择，Ubuntu 的中文 WIKI 写得最详细，所以我选择了 Ubuntu…&lt;/p&gt;
+&lt;p&gt;使用 Apache 搭建站点，对着 WIKI 上的命令一直复制粘贴，返回结果结果都正常，很方便的就配置好了 Apache + MySQL + PHP 。&lt;/p&gt;
+&lt;p&gt;但是测试站点的时候死活打不开，折腾着终于发现我配置的 Web 根目录是 /var/www/html ，而不是 WIKI 上写的 /var/www/ 目录，把文件移动到 /var/www/html 目录后终于能打开测试站点了。&lt;/p&gt;
+&lt;p&gt;测试站点：&lt;a href=&#34;http://www.yahei.net/&#34; target=&#34;_blank&#34;&gt;雅黑PHP探针&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/tz-php.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3964&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/tz-php.png&#34; alt=&#34;tz-php&#34; width=&#34;927&#34; height=&#34;455&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/tz-php.png 927w, https://umi.im/wp-content/uploads/2015/06/tz-php-150x74.png 150w, https://umi.im/wp-content/uploads/2015/06/tz-php-300x147.png 300w&#34; sizes=&#34;(max-width: 927px) 100vw, 927px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;测试完成，Phpmyadmin 也安装完成后，就可以给网站搬家了。&lt;/p&gt;
+&lt;p&gt;我的 WordPress 网站文件备份在 Dropbox ，通过 Dropbox 分享链接，然后用 wget 命令下载。&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;wget http://***.com/**/backwpup_bfbdbe_2015-06-05_10-08-58.tar.gz?dl=0&lt;/pre&gt;
+&lt;p&gt;下载后把文件重命名为 tar.gz 格式后辍，再移动到 Web 根目录，解压：&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true&#34;&gt;tar zxvf backwpup_bfbdbe_2015-06-05_10-08-58.tar.gz&lt;/pre&gt;
+&lt;p&gt;接着修改 WP-Config 配置文件，把数据库名称、账号、密码等改成现在的 VPS 的。&lt;/p&gt;
+&lt;p&gt;再进入 Phpmyadmin 导入以前的 SQL 数据库备份。&lt;/p&gt;
+&lt;p&gt;因为这次不仅搬主机，还顺便换了下域名，所以 SQL 数据库也需要把老域名改为新域名，执行几句简单的语句就好了。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwdimshadowcomblogprogram-advancedwpwordpress-e690ace5aeb6e68da2e59f9fe5908de697b6sqle99c80e8a681e5819ae79a84e4bfaee694b9html-target_blankwordpress-搬家换域名时sql需要做的修改a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwdimshadowcomblogprogram-advancedwpwordpress-e690ace5aeb6e68da2e59f9fe5908de697b6sqle99c80e8a681e5819ae79a84e4bfaee694b9html-target_blankwordpress-%e6%90%ac%e5%ae%b6%e6%8d%a2%e5%9f%9f%e5%90%8d%e6%97%b6sql%e9%9c%80%e8%a6%81%e5%81%9a%e7%9a%84%e4%bf%ae%e6%94%b9a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.dimshadow.com/blog/program-advanced/wp/wordpress-%E6%90%AC%E5%AE%B6%E6%8D%A2%E5%9F%9F%E5%90%8D%E6%97%B6sql%E9%9C%80%E8%A6%81%E5%81%9A%E7%9A%84%E4%BF%AE%E6%94%B9.html&#34; target=&#34;_blank&#34;&gt;wordpress 搬家换域名时SQL需要做的修改&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;正以为大功告成准备休息时，却发现除了主页和后台，其他链接打开都是404。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwwpdaxuecomwordpress-rewriterulehtml-target_blankwordpress-伪静态规则iisapachenginxa&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwwpdaxuecomwordpress-rewriterulehtml-target_blankwordpress-%e4%bc%aa%e9%9d%99%e6%80%81%e8%a7%84%e5%88%99iisapachenginxa&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.wpdaxue.com/wordpress-rewriterule.html&#34; target=&#34;_blank&#34;&gt;WordPress 伪静态规则（IIS/Apache/Nginx）&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;查了下资料说是伪静态问题，在站点根目录建一个 .htaccess 文件，复制如下代码保存：&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;&amp;lt;IfModule mod_rewrite.c&amp;gt;
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+&amp;lt;/IfModule&amp;gt;
+
+&lt;/pre&gt;
+&lt;p&gt;发现还是不行，再用 vi 编辑器修改下 apache2.conf 配置。&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;vi /etc/apache2/apache2.conf&lt;/pre&gt;
+&lt;p&gt;找到&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;Options FollowSymLinks
+
+AllowOverride None&lt;/pre&gt;
+&lt;p&gt;改为&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;Options FollowSymLinks
+
+AllowOverride All&lt;/pre&gt;
+&lt;p&gt;保存并退出，重启 Apache2 。&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;service apache2 restart&lt;/pre&gt;
+&lt;p&gt;这次真的就大功告成了，遇到以上几个小问题，多搜索下就能找到解决办法了，至于到底哪个地方出错导致的问题我也不清楚，不管了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/index-photo.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3962&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/index-photo.jpg&#34; alt=&#34;index-photo&#34; width=&#34;440&#34; height=&#34;473&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>DigitalOcean VPS 安装 Shadowsocks</title>
+        <link>https://umi.im/digitalocean-vps-shadowsocks/</link>
+        <pubDate>Thu, 04 Jun 2015 11:29:30 +0000</pubDate>
+        
+        <guid>https://umi.im/digitalocean-vps-shadowsocks/</guid>
+        <description>&lt;p&gt;前几天朋友共享的 Shadowsocks 账号挂了，貌似是提供商 Shadowcheap 跑路了。为了翻墙需求，他准备买台VPS，由我打理。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;虚拟专用服务器（英语：Virtual private server，缩写为 VPS），是指通过虚拟化技术在独立服务器中运行的专用服务器。每个使用VPS技术的虚拟独立服务器拥有各自独立的公网IP地址、操作系统、硬盘空间、内存空间、CPU资源等，还可以进行安装程序、重启服务器等操作，与运行一台独立服务器完全相同。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;VPS提供商方面，选择了口碑较好价格实惠的DigitalOcean，5美元一个月的套餐，512MB内存，20GB固态硬盘，1TB一个月流量，应该够用了。&lt;/p&gt;
+&lt;p&gt;linux方面我完全是菜鸟，开始连登录VPS都不会…&lt;/p&gt;
+&lt;p&gt;还好这方面的教程很多，安装 Shadowsocks 服务端也不算难。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpswwwzxcsodo-ssh-keyhtml-target_blankdigitalocean的droplet怎么添加ssh-key和使用ssh-key登录a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpswwwzxcsodo-ssh-keyhtml-target_blankdigitalocean%e7%9a%84droplet%e6%80%8e%e4%b9%88%e6%b7%bb%e5%8a%a0ssh-key%e5%92%8c%e4%bd%bf%e7%94%a8ssh-key%e7%99%bb%e5%bd%95a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://www.zxc.so/do-ssh-key.html&#34; target=&#34;_blank&#34;&gt;DigitalOcean的Droplet怎么添加SSH Key和使用SSH Key登录&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;当前我使用的是SSH Key登录，用 PuTTY Key Generator 生成公钥和私钥，VPS添加公钥，登录的时候用私钥验证，不用输入密码，挺方便的。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/putty-host.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3947&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/putty-host.png&#34; alt=&#34;putty-host&#34; width=&#34;452&#34; height=&#34;437&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/putty-host.png 452w, https://umi.im/wp-content/uploads/2015/06/putty-host-150x145.png 150w, https://umi.im/wp-content/uploads/2015/06/putty-host-300x290.png 300w&#34; sizes=&#34;(max-width: 452px) 100vw, 452px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;CPU好YY，系统一不小心安装了Ubuntu…本来想装Debian的，因为我的笔记本就是Debian。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/digitalocean-vps-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3920&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/digitalocean-vps-1.png&#34; alt=&#34;digitalocean-vps-1&#34; width=&#34;661&#34; height=&#34;482&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/digitalocean-vps-1.png 661w, https://umi.im/wp-content/uploads/2015/06/digitalocean-vps-1-150x109.png 150w, https://umi.im/wp-content/uploads/2015/06/digitalocean-vps-1-300x219.png 300w&#34; sizes=&#34;(max-width: 661px) 100vw, 661px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ubuntu-安装-shadowsocks&#34;&gt;
+    &lt;a href=&#34;#ubuntu-%e5%ae%89%e8%a3%85-shadowsocks&#34;&gt;#&lt;/a&gt;
+    Ubuntu 安装 Shadowsocks
+&lt;/h2&gt;&lt;p&gt;不是Root用户的首先切换，然后分别运行下面三条命令：&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;apt-get update
+apt-get install python-pip python-m2crypto supervisor
+pip install shadowsocks&lt;/pre&gt;
+&lt;p&gt;接着配置 supervisor，运行：&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true&#34;&gt;vi /etc/supervisord.conf&lt;/pre&gt;
+&lt;p&gt;进入vi编辑器，复制下文再退出并保存。&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true&#34;&gt;[program:shadowsocks]
+command=ssserver -c /etc/shadowsocks.json
+autorestart=true
+user=nobody&lt;/pre&gt;
+&lt;p&gt;启动 supervisor：&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;service supervisor start&lt;/pre&gt;
+&lt;p&gt;接下来配置 Shadowsocks，运行&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;vi /etc/shadowsocks.json&lt;/pre&gt;
+&lt;p&gt;进入 vi 编辑器，键入下文再退出并保存。&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;{
+    &#34;server&#34;:&#34;服务器IP&#34;,
+    &#34;server_port&#34;:8388,
+    &#34;local_address&#34;: &#34;127.0.0.1&#34;,
+    &#34;local_port&#34;:1080,
+    &#34;password&#34;:&#34;密码&#34;,
+    &#34;timeout&#34;:300,
+    &#34;method&#34;:&#34;aes-256-cfb&#34;,
+    &#34;fast_open&#34;: false,
+    &#34;workers&#34;: 1
+}&lt;/pre&gt;
+&lt;p&gt;最后运行：&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;ssserver -c /etc/shadowsocks.json -d start&lt;/pre&gt;
+&lt;p&gt;总体来说安装起来还是挺简单的，不需要什么linux知识，多搜索下就好了。&lt;/p&gt;
+&lt;p&gt;测速，在美国西海岸带宽好给力。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3943&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2.png&#34; alt=&#34;DigitalOcean-VPS-speed-2&#34; width=&#34;661&#34; height=&#34;482&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2.png 661w, https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2-150x109.png 150w, https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2-300x219.png 300w&#34; sizes=&#34;(max-width: 661px) 100vw, 661px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;广东电信，看Youtube 720P视频毫无压力。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34; size-full wp-image-3944 alignleft&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed.png&#34; alt=&#34;DigitalOcean-VPS-speed&#34; width=&#34;300&#34; height=&#34;135&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed.png 300w, https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-150x68.png 150w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;最后，祝波多尔斯基生日快乐。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/1985-06-04.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3949&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/1985-06-04.png&#34; alt=&#34;1985-06-04&#34; width=&#34;589&#34; height=&#34;302&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/1985-06-04.png 589w, https://umi.im/wp-content/uploads/2015/06/1985-06-04-150x77.png 150w, https://umi.im/wp-content/uploads/2015/06/1985-06-04-300x154.png 300w&#34; sizes=&#34;(max-width: 589px) 100vw, 589px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>炒土豆丝のWordPress</title>
+        <link>https://umi.im/wordpress/</link>
+        <pubDate>Wed, 11 Dec 2013 05:06:02 +0000</pubDate>
+        
+        <guid>https://umi.im/wordpress/</guid>
+        <description>&lt;h2 id=&#34;img-loadinglazy-decodingasync-classalignnone-size-full-wp-image-911-srchttpsumiimwp-contentuploads201312wordpressjpg-altwordpress-width960-height520-1&#34;&gt;
+    &lt;a href=&#34;#img-loadinglazy-decodingasync-classalignnone-size-full-wp-image-911-srchttpsumiimwp-contentuploads201312wordpressjpg-altwordpress-width960-height520-1&#34;&gt;#&lt;/a&gt;
+    &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/WordPress.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-911&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/WordPress.jpg&#34; alt=&#34;WordPress&#34; width=&#34;960&#34; height=&#34;520&#34; /&gt;&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt; 域名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;原来使用的是免费的&lt;a href=&#34;http://www.dot.tk/zh/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TK域名&lt;/a&gt;，免费的始终是免费的，只能用来玩玩。&lt;/p&gt;
+&lt;p&gt;2013 年 12 月 10 日在 &lt;a href=&#34;http://www.godaddy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Godadyy&lt;/a&gt; 上注册了 Bakatd.com 这个域名。&lt;/p&gt;
+&lt;p&gt;2015 年 6 月转移到新域名 bakahouse.com ，刚过一个月，觉得这域名太长又注册了 bakayo.com 。这是我用得最长的域名，使用了将近三年。&lt;/p&gt;
+&lt;p&gt;2018 年 3 月，因为抢注 bakawu.com 这个域名失败，决定放弃使用 .com 的顶级域名。并在当月注册 umi.im 这个国别域名。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;主机&#34;&gt;
+    &lt;a href=&#34;#%e4%b8%bb%e6%9c%ba&#34;&gt;#&lt;/a&gt;
+    主机
+&lt;/h2&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2013 年的时候我用的是 &lt;a href=&#34;http://www.kilu.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kilu&lt;/a&gt; 的免费空间，10GB无限流量，速度一般，没有伪静态不能固定链接。本来打算一直用下去，后来有人愿意给我提供 &lt;a href=&#34;http://blog.wpjam.com/article/media-temple/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Media Temple主机&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/QQJieTu20131210194451.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-617&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/QQJieTu20131210194451.png&#34; alt=&#34;QQ截图20131210194451&#34; width=&#34;389&#34; height=&#34;173&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在准备搬家到MT时，屋主所在的20号服务器宕机了。&lt;/p&gt;
+&lt;p&gt;2014 年初，MT主机提供者迁移到阿里云主机。同年二月被迫搬家到了&lt;a href=&#34;https://umi.im/2014-web-hosting/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;老薛主机&lt;/a&gt;，价格便宜，流量美国主机+ 1G空间附加包不到100元。&lt;/p&gt;
+&lt;p&gt;2015 年 6 月，朋友购买 &lt;a href=&#34;https://umi.im/vps-ubuntu-wordpress/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DigitalOcean VPS&lt;/a&gt; 搭建 &lt;a title=&#34;DigitalOcean VPS 安装 Shadowsocks&#34; href=&#34;https://umi.im/digitalocean-vps-shadowsocks/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shadowsocks&lt;/a&gt; 代理，我顺便搬了过去。&lt;/p&gt;
+&lt;p&gt;2015 年 8 月 25 日，搬到了 BudgetVM 的廉价 VPS 上。&lt;/p&gt;
+&lt;p&gt;2017 年，为了看 Twitch 搭建 Shadowsocks 翻墙购下了 CN2 线路的 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/bandwagon/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;搬瓦工 VPS&lt;/a&gt; ，博客也顺便搬了过去，速度不错价格便宜，打算常驻。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;主题&#34;&gt;
+    &lt;a href=&#34;#%e4%b8%bb%e9%a2%98&#34;&gt;#&lt;/a&gt;
+    主题
+&lt;/h2&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwtystudionet20130907bliss-wordpress-thememore-1009-target_blank-relnoopenerwordpress博客主题bliss深度汉化分享a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwtystudionet20130907bliss-wordpress-thememore-1009-target_blank-relnoopenerwordpress%e5%8d%9a%e5%ae%a2%e4%b8%bb%e9%a2%98bliss%e6%b7%b1%e5%ba%a6%e6%b1%89%e5%8c%96%e5%88%86%e4%ba%aba&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.tystudio.net/2013/09/07/bliss-wordpress-theme/#more-1009&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WordPress博客主题Bliss深度汉化分享&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;本站使用的是由&lt;a href=&#34;http://weibo.com/signup/signup.php?inviteCode=3152350884&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;天屹&lt;/a&gt;汉化的&lt;a href=&#34;http://themeforest.net/item/bliss-personal-minimalist-wordpress-blog-theme/5423780&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bliss主题&lt;/a&gt;，功能方面非常强大。&lt;/p&gt;
+&lt;p&gt;主题里面还有两个插件，需要自行安装。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;插件&#34;&gt;
+    &lt;a href=&#34;#%e6%8f%92%e4%bb%b6&#34;&gt;#&lt;/a&gt;
+    插件
+&lt;/h2&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;a-hrefhttpblogwpjamcomarticlegoogle-xml-sitemaps-target_blank-relnoopenergoogle-xml-sitemapsa&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpblogwpjamcomarticlegoogle-xml-sitemaps-target_blank-relnoopenergoogle-xml-sitemapsa&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://blog.wpjam.com/article/google-xml-sitemaps/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google XML Sitemaps&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;WordPress必备插件，自动生成网站地图，方便搜索引擎抓取提高排名。&lt;/p&gt;
+&lt;h2 id=&#34;dela-hrefhttpwordpressorgpluginsduoshuo-target_blank-relnoopener多说社会化评论框adel&#34;&gt;
+    &lt;a href=&#34;#dela-hrefhttpwordpressorgpluginsduoshuo-target_blank-relnoopener%e5%a4%9a%e8%af%b4%e7%a4%be%e4%bc%9a%e5%8c%96%e8%af%84%e8%ae%ba%e6%a1%86adel&#34;&gt;#&lt;/a&gt;
+    &lt;del&gt;&lt;a href=&#34;http://wordpress.org/plugins/duoshuo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;多说社会化评论框&lt;/a&gt;&lt;/del&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;del&gt;可以用QQ，微博甚至G+帐号登录评论，在其他安装了多说的网站登录后就可以在任何有多说插件的网站里留言而不必再次登录。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;而且竟然有我非常喜欢的喜悠候和柏夫的表情。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;缺点也很明显，部分用户可能很难看到提醒。&lt;/del&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwbrunoxucomuseso-take-over-googlehtml-target_blank-relnoopenercrayon-syntax-highlightera&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwbrunoxucomuseso-take-over-googlehtml-target_blank-relnoopenercrayon-syntax-highlightera&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.brunoxu.com/useso-take-over-google.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crayon Syntax Highlighter&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;代码高亮插件。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpswordpressorgpluginssi-captcha-for-wordpress-target_blank-relnoopenersi-captcha-anti-spama&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpswordpressorgpluginssi-captcha-for-wordpress-target_blank-relnoopenersi-captcha-anti-spama&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://wordpress.org/plugins/si-captcha-for-wordpress/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SI Captcha Anti-Spam&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;给用户注册、登录和回复添加验证码，有效防止垃圾评论。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwordpressorgpluginscomment-reply-notification-target_blank-relnoopenercomment-reply-notificationa&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwordpressorgpluginscomment-reply-notification-target_blank-relnoopenercomment-reply-notificationa&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://wordpress.org/plugins/comment-reply-notification/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Comment Reply Notification&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;WordPress必备插件，回复别人的留言时能自动发送邮件给留言者，如果用了多说就不需要它了。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttppanbaiducomsharelinkshareid2161015992uk3191095378-target_blank-relnoopenershow-useragenta&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttppanbaiducomsharelinkshareid2161015992uk3191095378-target_blank-relnoopenershow-useragenta&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://pan.baidu.com/share/link?shareid=2161015992&amp;uk=3191095378&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Show-Useragent&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;在评论里面显示评论者的国籍，浏览器，操作系统的信息。&lt;/p&gt;
+&lt;p&gt;传了修改版的，原版暂时还没法识别WIN8.1。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpihacklogcomposthacklog-downloadmanagerhtml-target_blank-relnoopenerhacklog-downloadmanagera&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpihacklogcomposthacklog-downloadmanagerhtml-target_blank-relnoopenerhacklog-downloadmanagera&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://ihacklog.com/post/hacklog-downloadmanager.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hacklog-DownloadManager&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;下载管理插件，WordPress默认是不允许上传种子文件的，有了它就可以上传种子还可以统计下载信息设置下载权限等。我在另一个网站里有用到。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwordpressorgsupportpluginbackwpup-target_blank-relnoopenerbackwpupa&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwordpressorgsupportpluginbackwpup-target_blank-relnoopenerbackwpupa&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://wordpress.org/support/plugin/backwpup&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BackWPup&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;功能超级强大的备份插件，支持自动备份到邮箱和&lt;a href=&#34;http://dropbox.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DropBox&lt;/a&gt;，能把网站网站备份。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwordpressorgpluginsgoogle-search-cse-target_blank-relnoopenerwordpress-google-searcha&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwordpressorgpluginsgoogle-search-cse-target_blank-relnoopenerwordpress-google-searcha&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://wordpress.org/plugins/google-search-cse/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WordPress Google Search&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;谷歌自定义搜索插件，WordPress自带的搜索不仅占用服务器资源而且不够精准。&lt;/p&gt;
+&lt;p&gt;在&lt;a href=&#34;http://www.google.com/cse/?hl=zh-CN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;谷歌自定义搜索&lt;/a&gt;中注册自己网站，然后固定小工具位置，不需要设置就可使用。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwordpressorgpluginsall-in-one-seo-pack-target_blank-relnoopenerall-in-one-seo-packa&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwordpressorgpluginsall-in-one-seo-pack-target_blank-relnoopenerall-in-one-seo-packa&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://wordpress.org/plugins/all-in-one-seo-pack/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;All In One SEO Pack&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;著名的SEO插件。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpswordpressorgpluginshermit-target_blank-relnoopenerhermita&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpswordpressorgpluginshermit-target_blank-relnoopenerhermita&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://wordpress.org/plugins/hermit/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hermit&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;在文章中嵌入虾米音乐。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;服务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;a-hrefhttpblogwpjamcomprojectwpjam-qiniutek-target_blank-relnoopener七牛云储存a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpblogwpjamcomprojectwpjam-qiniutek-target_blank-relnoopener%e4%b8%83%e7%89%9b%e4%ba%91%e5%82%a8%e5%ad%98a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://blog.wpjam.com/project/wpjam-qiniutek/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;七牛云储存&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;把静态文件放在七牛云空间上实现CDN加速。免费帐号有10BG空间，每月也10GB流量，够大多数人用了。&lt;/p&gt;
+&lt;h2 id=&#34;dela-hrefhttpwwwfreehao123comcloudflare-cdn-target_blank-relnoopenercloudflareadel&#34;&gt;
+    &lt;a href=&#34;#dela-hrefhttpwwwfreehao123comcloudflare-cdn-target_blank-relnoopenercloudflareadel&#34;&gt;#&lt;/a&gt;
+    &lt;del&gt;&lt;a href=&#34;http://www.freehao123.com/cloudflare-cdn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CloudFlare&lt;/a&gt;&lt;/del&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;del&gt;免费的CDN加速服务，屋主在用Kilu空间时使用，效果不错，使用起来也很简单。&lt;/del&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

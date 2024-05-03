@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Shadowsocks on 笨蛋屋</title>
+        <link>https://umi.im/tags/shadowsocks/</link>
+        <description>Recent content in Shadowsocks on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Wed, 06 Feb 2019 11:24:56 +0000</lastBuildDate><atom:link href="https://umi.im/tags/shadowsocks/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>近期搬瓦工 Shadowsocks 端口被大规模封锁</title>
+        <link>https://umi.im/gfw-shadowsocks/</link>
+        <pubDate>Wed, 06 Feb 2019 11:24:56 +0000</pubDate>
+        
+        <guid>https://umi.im/gfw-shadowsocks/</guid>
+        <description>&lt;p&gt;年三十晚上，我的两台搬瓦工 VPS 上的 Shadowsocks 服务突然无法连接。&lt;/p&gt;
+&lt;p&gt;登录 SSH 检查服务无异常，重启服务依旧无法连接，既然 SSH 能连接，那么应该不会是被墙了。&lt;/p&gt;
+&lt;p&gt;然后就去检查下端口，果然，SS 服务所用的端口是无法连接的。&lt;/p&gt;
+&lt;p&gt;我是用 &lt;span style=&#34;font-size: 16px; color: #24292e; font-family: -apple-system,BlinkMacSystemFont,;&#34;&gt;libev 版的 Shadowsocks&lt;/span&gt; 一键安装脚本安装的 SS ，修改 /etc/shadowsocks/config.json 配置文件里面的端口再重启 Shadowsocks 服务就正常了。&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true  &#34;&gt;/etc/init.d/shadowsocks restart&lt;/pre&gt;
+&lt;p&gt;因为昨天一个朋友也被封了端口，NGA 也看到 &lt;a href=&#34;http://nga.178.com/read.php?tid=16336249&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;SS 服务端口被封&lt;/a&gt; 的帖子，应该是大规模的封锁。墙已经越来越高了，现在建议使用 V2Ray 作为代理工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://lala.im/1588.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;V2Ray简易配置使用教程-荒岛&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ChromeBook Pixel 2013 折腾</title>
+        <link>https://umi.im/chromebook-pixel-2013/</link>
+        <pubDate>Wed, 19 Aug 2015 05:24:09 +0000</pubDate>
+        
+        <guid>https://umi.im/chromebook-pixel-2013/</guid>
+        <description>&lt;p&gt;ChromeBook Pixel 和 MacBook Pro 是我最喜欢的笔记本，两者都是铝合金一体成色的外壳，正面和背面无开孔，超薄机身，完美的工业设计，同时它们价格都很吓人。2013 年版的 ChromeBook Pixel 低配价格高达 1299 美元，MBP 也差不多是这个价格，曾经考虑过二手的 MBP ，Retina 屏的基本都要 5K ，实在太贵了！&lt;/p&gt;
+&lt;p&gt;Pixel 则从未想过要买，以全新价格对比的话肯定会买 rMBP 的，性能和功能都更强。&lt;/p&gt;
+&lt;p&gt;然而前几天在闲鱼闲逛的时候突然发现一台价格不错的 ChromeBook Pixel ，虽然成色较差，正面一处划痕一处凹痕，背面多处小划痕，无箱说，但是看在才两千的价格上没多想就买了。&lt;/p&gt;
+&lt;p&gt;一年多前，我曾经花了一千六百多的价格买了一台 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/chromebook-c720/&#34;  title=&#34;一面之缘的Chromebook&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Acer 的 ChromeBook C720&lt;/a&gt; ，但是那台本子还没拆封就卖了，因为觉得实在没什么亮点。这台 ChromeBook Pixel 就不同了，它有 3：2 比例的 2560 x 1700 超高分辨率触摸屏，极其适合网页浏览，光这个就值了。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;_外观_&#34;&gt;
+    &lt;a href=&#34;#_%e5%a4%96%e8%a7%82_&#34;&gt;#&lt;/a&gt;
+    &lt;em&gt;外观&lt;/em&gt;
+&lt;/h2&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1094&#34; height=&#34;730&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-1.jpg&#34; alt=&#34;ChromeBook Pixel-1&#34; class=&#34;wp-image-4522&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-1.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-1-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-1-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-1-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1094px) 100vw, 1094px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-2.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1094&#34; height=&#34;730&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-2.jpg&#34; alt=&#34;ChromeBook Pixel-2&#34; class=&#34;wp-image-4523&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-2.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-2-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-2-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-2-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1094px) 100vw, 1094px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;侧面面一个充电接口，一个 Mini DP 接口，两个 USB 接口和一个音频接口。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-3.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1094&#34; height=&#34;730&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-3.jpg&#34; alt=&#34;ChromeBook Pixel-3&#34; class=&#34;wp-image-4524&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-3.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-3-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-3-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-3-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1094px) 100vw, 1094px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;另一侧只有一个 SD 卡接口，我刚好有一张。&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4526&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4.jpg&#34; alt=&#34;ChromeBook Pixel-4&#34; width=&#34;1094&#34; height=&#34;730&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1094px) 100vw, 1094px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4.1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1094&#34; height=&#34;730&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4.1.jpg&#34; alt=&#34;ChromeBook Pixel-4.1&#34; class=&#34;wp-image-4525&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4.1.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4.1-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4.1-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4.1-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1094px) 100vw, 1094px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-5.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1094&#34; height=&#34;730&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-5.jpg&#34; alt=&#34;ChromeBook Pixel-5&#34; class=&#34;wp-image-4527&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-5.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-5-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-5-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-5-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1094px) 100vw, 1094px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;因为不是 Windows ，自然没有 Win 键。这样的话安装其他 Linux 发行版使用上也有些不便。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-6.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1094&#34; height=&#34;730&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-6.jpg&#34; alt=&#34;ChromeBook Pixel-6&#34; class=&#34;wp-image-4528&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-6.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-6-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-6-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-6-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1094px) 100vw, 1094px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-7.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1094&#34; height=&#34;730&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-7.jpg&#34; alt=&#34;ChromeBook Pixel-7&#34; class=&#34;wp-image-4529&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-7.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-7-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-7-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-7-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1094px) 100vw, 1094px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-8.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1094&#34; height=&#34;730&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-8.jpg&#34; alt=&#34;ChromeBook Pixel-8&#34; class=&#34;wp-image-4530&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-8.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-8-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-8-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-8-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1094px) 100vw, 1094px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-9.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1094&#34; height=&#34;730&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-9.jpg&#34; alt=&#34;ChromeBook Pixel-9&#34; class=&#34;wp-image-4531&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-9.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-9-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-9-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-9-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1094px) 100vw, 1094px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;_chrome-os_&#34;&gt;
+    &lt;a href=&#34;#_chrome-os_&#34;&gt;#&lt;/a&gt;
+    &lt;em&gt;Chrome OS&lt;/em&gt;
+&lt;/h2&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class=&#34;wp-block-quote is-layout-flow wp-block-quote-is-layout-flow&#34;&gt;
+  &lt;p&gt;
+    Chrome OS是由Google所进行的一项轻型电脑操作系统发展计划，发展出专用于互联网的云操作系统。该操作系统设计计划于2009年7月7日发布，系统植基于谷歌浏览器及Linux内核。最初设置在上网本上使用，在2011年上半年正式发表上市“Chrome OS”可以在x86或ARM两种微处理器上运行。&lt;br /&gt;Google声明至2009年底，“Chrome OS”将以“Chromium OS”之名采用开放源代码。虽然“Chrome OS”植基于Linux内核，不过它会使用“一种新的系统”而不会采行目前正在使用中的Linux标准视窗系统，比如X窗口系统。
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Chrome OS 的桌面就是一张 Android Material Design 风格的壁纸和任务栏，按 Alt 键和数字键 1 可以启动 Chrome 浏览器，跟其他桌面系统的 Chrome 一样，就是设置页面多了些 Chrome OS 的设置项。&lt;/p&gt;
+&lt;p&gt;Chrome OS 支持的格式：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Microsoft Office 文件：.doc、.docx、.xls、.xlsx、.ppt（只读）、.pptx（只读）。&lt;/li&gt;
+&lt;li&gt;视频：.3gp、.avi、.mov、.mp4、.m4v、.mkv&lt;/li&gt;
+&lt;li&gt;音频：.mp3、.m4a、.ogv、.ogm、.ogg、.oga、.webm、.wav&lt;/li&gt;
+&lt;li&gt;图片：.bmp、.gif、.jpg、.jpeg、.png、.webp&lt;/li&gt;
+&lt;li&gt;压缩文件：.zip、.rar&lt;/li&gt;
+&lt;li&gt;其他：.txt、.pdf（只读）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;原生音频播放器可以播放 FLAC 无损格式的音频，但是功能简陋，专辑封面不能显示，而且只能通过打开音频文件来打开播放器。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/Chrome-OS-PLAYER.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1152&#34; height=&#34;765&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/Chrome-OS-PLAYER.jpg&#34; alt=&#34;Chrome-OS-PLAYER&#34; class=&#34;wp-image-4536&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/Chrome-OS-PLAYER.jpg 1152w, https://umi.im/wp-content/uploads/2015/08/Chrome-OS-PLAYER-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/Chrome-OS-PLAYER-300x199.jpg 300w, https://umi.im/wp-content/uploads/2015/08/Chrome-OS-PLAYER-1024x680.jpg 1024w&#34; sizes=&#34;(max-width: 1152px) 100vw, 1152px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Chrome OS 是基于 Linux 的系统，进入开发者模式就可以用 Linux 的 Shell 了，按 Ctrl + Alt + T 。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/Acer_C720_Chromebook_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#.E5.90.AF.E7.94.A8.E5.BC.80.E5.8F.91.E8.80.85.E6.A8.A1.E5.BC.8F&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;启用开发者模式: Acer C720 Chromebook (简体中文) – ArchWiki&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/chrome-os-shell.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1152&#34; height=&#34;765&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/chrome-os-shell.jpg&#34; alt=&#34;chrome-os-shell&#34; class=&#34;wp-image-4534&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/chrome-os-shell.jpg 1152w, https://umi.im/wp-content/uploads/2015/08/chrome-os-shell-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/chrome-os-shell-300x199.jpg 300w, https://umi.im/wp-content/uploads/2015/08/chrome-os-shell-1024x680.jpg 1024w&#34; sizes=&#34;(max-width: 1152px) 100vw, 1152px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;要用 Chrome 自然离不开翻墙，Chrome OS 有 Shadowsocks 客户端。&lt;/p&gt;
+&lt;p&gt;第一次登录的时候是要连接 Google 帐户的，这时候可以用过 Android 的翻墙路由器共享网络给 ChromeBook ，或者用带有 Shadowsocks 的路由器固件的网络。&lt;/p&gt;
+&lt;p&gt;安装 Shadowsocks 客户端比较麻烦，还要进入开发者模式，在 Shell 下操作，安装各种依赖。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dogfight360.com/blog/?p=250&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chromebook/ChromeOS安装Shadowsocks扩展教程 | Dogfight360&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/Chrome-OS-SHADOWSOCKS.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1152&#34; height=&#34;765&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/Chrome-OS-SHADOWSOCKS.jpg&#34; alt=&#34;Chrome-OS-SHADOWSOCKS&#34; class=&#34;wp-image-4537&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/Chrome-OS-SHADOWSOCKS.jpg 1152w, https://umi.im/wp-content/uploads/2015/08/Chrome-OS-SHADOWSOCKS-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/Chrome-OS-SHADOWSOCKS-300x199.jpg 300w, https://umi.im/wp-content/uploads/2015/08/Chrome-OS-SHADOWSOCKS-1024x680.jpg 1024w&#34; sizes=&#34;(max-width: 1152px) 100vw, 1152px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Linux 上没有原生 QQ 和 Evernote ，两者都有 Web 端，Evernote 的 Web 端很好用，但是我笔记很多，各种乱七八糟的，用 Web 端还是很不便的。前段时间 Evernote 被官方移植到了 Chrome OS 上，在 Chrome 应用商店的离线应用里面可以下载到。&lt;/p&gt;
+&lt;p&gt;说是移植，其实就是直接用 Android Runtime 运行，用 &lt;a href=&#34;https://chrome.google.com/webstore/detail/arc-welder/emfinbmielocnlhgmfkkmkngdoccbadn?utm_source=chrome-app-launcher-info-dialog&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ARC Welder &lt;/a&gt;（APP  Runtime for Chrome）可以把  APK 格式的 Android 应用程序安装文件转换为 Chrome 程序，在 Windows 、 OS X 、Linux 等平台的 Chrome 浏览器中都可以运行，也就是说可以自己“移植” Android 应用，虽然能正常运行的不多。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.iplaysoft.com/arc-welder.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ARC Welder 谷歌官方安卓模拟器 – 在电脑 Chrome 浏览器上运行 Android APK 软件游戏&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;官方版的 QQ 运行不了，第三方使用 Web QQ 协议的可以，比如 MaterialQQ Lite 和 MingQQ ，不过既然能用 Web QQ ，为何要用使用了 Web QQ 协议的 Android 应用？反正在 Chrome OS 是不能愉快的使用 QQ 的…&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/chrome-os-evernote-qq.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1152&#34; height=&#34;765&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/chrome-os-evernote-qq.jpg&#34; alt=&#34;chrome-os-evernote-qq&#34; class=&#34;wp-image-4545&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/chrome-os-evernote-qq.jpg 1152w, https://umi.im/wp-content/uploads/2015/08/chrome-os-evernote-qq-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/chrome-os-evernote-qq-300x199.jpg 300w, https://umi.im/wp-content/uploads/2015/08/chrome-os-evernote-qq-1024x680.jpg 1024w&#34; sizes=&#34;(max-width: 1152px) 100vw, 1152px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;早就听说 ChromeBook 的触摸板很好用，是真的。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/Chromebook-touch-pad.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;806&#34; height=&#34;565&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/Chromebook-touch-pad.png&#34; alt=&#34;Chromebook-touch-pad&#34; class=&#34;wp-image-4543&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/Chromebook-touch-pad.png 806w, https://umi.im/wp-content/uploads/2015/08/Chromebook-touch-pad-150x105.png 150w, https://umi.im/wp-content/uploads/2015/08/Chromebook-touch-pad-300x210.png 300w&#34; sizes=&#34;(max-width: 806px) 100vw, 806px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;_总结_&#34;&gt;
+    &lt;a href=&#34;#_%e6%80%bb%e7%bb%93_&#34;&gt;#&lt;/a&gt;
+    &lt;em&gt;总结&lt;/em&gt;
+&lt;/h2&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;低电压的 i5-3427U 发热巨大，功耗不好，加上超高分辨率的屏幕，导致续航只有 5 小时，键盘手感不佳，Chrome OS 软件缺乏，不能作主力使用。要是能安装黑苹果或者 Windows 就完美了！&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>第三方 SS 客户端 ShadowsocksR CSharp</title>
+        <link>https://umi.im/shadowsocksr-csharp/</link>
+        <pubDate>Sun, 09 Aug 2015 17:26:05 +0000</pubDate>
+        
+        <guid>https://umi.im/shadowsocksr-csharp/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;Shadowsocks（中文名称：影梭）是一个安全的socks5代理，用于保护网络流量，是一个开源项目。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;ShadowsocksR CSharp 是 Windows 上的一款第三方 Shadowsocks 客户端，不仅功能强大，而且它压缩后体积不到 300KB ，适合随身携带。&lt;/p&gt;
+&lt;p&gt;相比官方客户端它有以下优点&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;全局模式&lt;/li&gt;
+&lt;li&gt;在线 PAC ，可以从 &lt;a href=&#34;https://github.com/gfwlist/gfwlist&#34; target=&#34;_blank&#34;&gt;GFWList&lt;/a&gt; 更新本地 PAC&lt;/li&gt;
+&lt;li&gt;均衡负载&lt;/li&gt;
+&lt;li&gt;服务器连接统计&lt;/li&gt;
+&lt;li&gt;开机自启&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;之前一直使用官方版的 Shadowsocks 客户端，浏览器使用必须配合 SwitchyOmega 这样的浏览器扩展程序使用，全局使用需要配合 Proxifier ，开机自启动都需要自己配置，非常麻烦。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/ShadowsocksR-win.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4498&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/ShadowsocksR-win.png&#34; alt=&#34;ShadowsocksR-win&#34; width=&#34;769&#34; height=&#34;535&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/ShadowsocksR-win.png 769w, https://umi.im/wp-content/uploads/2015/08/ShadowsocksR-win-150x104.png 150w, https://umi.im/wp-content/uploads/2015/08/ShadowsocksR-win-300x209.png 300w&#34; sizes=&#34;(max-width: 769px) 100vw, 769px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpsgithubcombreakwa11shadowsocks-csharpreleases-target_blankshadowsocksr-csharp-331a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpsgithubcombreakwa11shadowsocks-csharpreleases-target_blankshadowsocksr-csharp-331a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://github.com/breakwa11/shadowsocks-csharp/releases&#34; target=&#34;_blank&#34;&gt;ShadowsocksR CSharp 3.3.1&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;GitHub：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpsgithubcombreakwa11shadowsocks-rss-target_blankbreakwa11shadowsocks-rssa&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpsgithubcombreakwa11shadowsocks-rss-target_blankbreakwa11shadowsocks-rssa&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://github.com/breakwa11/shadowsocks-rss&#34; target=&#34;_blank&#34;&gt;breakwa11/shadowsocks-rss&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>DigitalOcean VPS 安装 Shadowsocks</title>
+        <link>https://umi.im/digitalocean-vps-shadowsocks/</link>
+        <pubDate>Thu, 04 Jun 2015 11:29:30 +0000</pubDate>
+        
+        <guid>https://umi.im/digitalocean-vps-shadowsocks/</guid>
+        <description>&lt;p&gt;前几天朋友共享的 Shadowsocks 账号挂了，貌似是提供商 Shadowcheap 跑路了。为了翻墙需求，他准备买台VPS，由我打理。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;虚拟专用服务器（英语：Virtual private server，缩写为 VPS），是指通过虚拟化技术在独立服务器中运行的专用服务器。每个使用VPS技术的虚拟独立服务器拥有各自独立的公网IP地址、操作系统、硬盘空间、内存空间、CPU资源等，还可以进行安装程序、重启服务器等操作，与运行一台独立服务器完全相同。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;VPS提供商方面，选择了口碑较好价格实惠的DigitalOcean，5美元一个月的套餐，512MB内存，20GB固态硬盘，1TB一个月流量，应该够用了。&lt;/p&gt;
+&lt;p&gt;linux方面我完全是菜鸟，开始连登录VPS都不会…&lt;/p&gt;
+&lt;p&gt;还好这方面的教程很多，安装 Shadowsocks 服务端也不算难。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpswwwzxcsodo-ssh-keyhtml-target_blankdigitalocean的droplet怎么添加ssh-key和使用ssh-key登录a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpswwwzxcsodo-ssh-keyhtml-target_blankdigitalocean%e7%9a%84droplet%e6%80%8e%e4%b9%88%e6%b7%bb%e5%8a%a0ssh-key%e5%92%8c%e4%bd%bf%e7%94%a8ssh-key%e7%99%bb%e5%bd%95a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://www.zxc.so/do-ssh-key.html&#34; target=&#34;_blank&#34;&gt;DigitalOcean的Droplet怎么添加SSH Key和使用SSH Key登录&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;当前我使用的是SSH Key登录，用 PuTTY Key Generator 生成公钥和私钥，VPS添加公钥，登录的时候用私钥验证，不用输入密码，挺方便的。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/putty-host.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3947&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/putty-host.png&#34; alt=&#34;putty-host&#34; width=&#34;452&#34; height=&#34;437&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/putty-host.png 452w, https://umi.im/wp-content/uploads/2015/06/putty-host-150x145.png 150w, https://umi.im/wp-content/uploads/2015/06/putty-host-300x290.png 300w&#34; sizes=&#34;(max-width: 452px) 100vw, 452px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;CPU好YY，系统一不小心安装了Ubuntu…本来想装Debian的，因为我的笔记本就是Debian。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/digitalocean-vps-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3920&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/digitalocean-vps-1.png&#34; alt=&#34;digitalocean-vps-1&#34; width=&#34;661&#34; height=&#34;482&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/digitalocean-vps-1.png 661w, https://umi.im/wp-content/uploads/2015/06/digitalocean-vps-1-150x109.png 150w, https://umi.im/wp-content/uploads/2015/06/digitalocean-vps-1-300x219.png 300w&#34; sizes=&#34;(max-width: 661px) 100vw, 661px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ubuntu-安装-shadowsocks&#34;&gt;
+    &lt;a href=&#34;#ubuntu-%e5%ae%89%e8%a3%85-shadowsocks&#34;&gt;#&lt;/a&gt;
+    Ubuntu 安装 Shadowsocks
+&lt;/h2&gt;&lt;p&gt;不是Root用户的首先切换，然后分别运行下面三条命令：&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;apt-get update
+apt-get install python-pip python-m2crypto supervisor
+pip install shadowsocks&lt;/pre&gt;
+&lt;p&gt;接着配置 supervisor，运行：&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true&#34;&gt;vi /etc/supervisord.conf&lt;/pre&gt;
+&lt;p&gt;进入vi编辑器，复制下文再退出并保存。&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true&#34;&gt;[program:shadowsocks]
+command=ssserver -c /etc/shadowsocks.json
+autorestart=true
+user=nobody&lt;/pre&gt;
+&lt;p&gt;启动 supervisor：&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;service supervisor start&lt;/pre&gt;
+&lt;p&gt;接下来配置 Shadowsocks，运行&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;vi /etc/shadowsocks.json&lt;/pre&gt;
+&lt;p&gt;进入 vi 编辑器，键入下文再退出并保存。&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;{
+    &#34;server&#34;:&#34;服务器IP&#34;,
+    &#34;server_port&#34;:8388,
+    &#34;local_address&#34;: &#34;127.0.0.1&#34;,
+    &#34;local_port&#34;:1080,
+    &#34;password&#34;:&#34;密码&#34;,
+    &#34;timeout&#34;:300,
+    &#34;method&#34;:&#34;aes-256-cfb&#34;,
+    &#34;fast_open&#34;: false,
+    &#34;workers&#34;: 1
+}&lt;/pre&gt;
+&lt;p&gt;最后运行：&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;ssserver -c /etc/shadowsocks.json -d start&lt;/pre&gt;
+&lt;p&gt;总体来说安装起来还是挺简单的，不需要什么linux知识，多搜索下就好了。&lt;/p&gt;
+&lt;p&gt;测速，在美国西海岸带宽好给力。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3943&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2.png&#34; alt=&#34;DigitalOcean-VPS-speed-2&#34; width=&#34;661&#34; height=&#34;482&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2.png 661w, https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2-150x109.png 150w, https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2-300x219.png 300w&#34; sizes=&#34;(max-width: 661px) 100vw, 661px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;广东电信，看Youtube 720P视频毫无压力。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34; size-full wp-image-3944 alignleft&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed.png&#34; alt=&#34;DigitalOcean-VPS-speed&#34; width=&#34;300&#34; height=&#34;135&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed.png 300w, https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-150x68.png 150w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;最后，祝波多尔斯基生日快乐。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/1985-06-04.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3949&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/1985-06-04.png&#34; alt=&#34;1985-06-04&#34; width=&#34;589&#34; height=&#34;302&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/1985-06-04.png 589w, https://umi.im/wp-content/uploads/2015/06/1985-06-04-150x77.png 150w, https://umi.im/wp-content/uploads/2015/06/1985-06-04-300x154.png 300w&#34; sizes=&#34;(max-width: 589px) 100vw, 589px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

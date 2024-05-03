@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Greasemonkey，简称GM，俗称油猴子。 是一个Google员工开发的火狐附加组件，它让用户安装一些脚本使大部分HTML为主的网页于用">
+<title>炒土豆丝の油猴脚本</title>
+
+<link rel='canonical' href='https://umi.im/tampermonkey/'>
+
+<link rel="stylesheet" href="/scss/style.min.859d15a88c4baa095161a679adcf6a0588d393b9603bd708e8e0c634ae102b82.css"><meta property='og:title' content="炒土豆丝の油猴脚本">
+<meta property='og:description' content="Greasemonkey，简称GM，俗称油猴子。 是一个Google员工开发的火狐附加组件，它让用户安装一些脚本使大部分HTML为主的网页于用">
+<meta property='og:url' content='https://umi.im/tampermonkey/'>
+<meta property='og:site_name' content='笨蛋屋'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2013-12-21T10:03:02&#43;00:00'/><meta property='article:modified_time' content='2013-12-21T10:03:02&#43;00:00'/>
+<meta name="twitter:title" content="炒土豆丝の油猴脚本">
+<meta name="twitter:description" content="Greasemonkey，简称GM，俗称油猴子。 是一个Google员工开发的火狐附加组件，它让用户安装一些脚本使大部分HTML为主的网页于用">
+    <link rel="shortcut icon" href="/favicon.png" />
+
+  
+
+<meta name="verification" content="9cfa2f7dea5bc4a0">
+<script defer src="https://u.umi.im/replace-me-with-a-random-string" data-website-id="befac8d7-0396-44c8-b151-9c332a5f176f"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5428554628068316"
+     crossorigin="anonymous"></script>
+    
+    
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar-150px_hub3e42f8fb4895a97c7036e2fee26b85a_7312_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">💔</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">笨蛋屋</a></h1>
+            <h2 class="site-description">炒土豆丝 の Blog !</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://s.umi.im/'
+                        target="_blank"
+                        title="ServerStutas"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-server-bolt"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" /><path d="M15 20h-9a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h12" /><path d="M7 8v.01" /><path d="M7 16v.01" /><path d="M20 15l-2 3h3l-2 3" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://m.umi.im/'
+                        target="_blank"
+                        title="Memos"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-feather"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 20l10 -10m0 -5v5h5m-9 -1v5h5m-9 -1v5h5m-5 -5l4 -4l4 -4" /><path d="M19 10c.638 -.636 1 -1.515 1 -2.486a3.515 3.515 0 0 0 -3.517 -3.514c-.97 0 -1.847 .367 -2.483 1m-3 13l4 -4l4 -4" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/ariakeumi'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/998potato'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://umi.im/index.xml'
+                        target="_blank"
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/comments/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
+  <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
+</svg>
+
+
+
+                
+                <span>Comments</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='https://share.umi.im/' target="_blank">
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-share"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M18 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M8.7 10.7l6.6 -3.4" /><path d="M8.7 13.3l6.6 3.4" /></svg>
+                
+                <span>Share</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#a-hrefhttpuserscriptsorgscriptsshow177191-target_blank百度云网盘大文件下载没限制不用安装云管家a"><a href="http://userscripts.org/scripts/show/177191" target="_blank">百度云网盘大文件下载没限制，不用安装云管家</a></a></li>
+    <li><a href="#a-hrefhttpuserscriptsorgscriptsshow121261-target_blankstraight-googlebr--a"><a href="http://userscripts.org/scripts/show/121261" target="_blank">Straight Google<br /> </a></a></li>
+    <li><a href="#a-hrefhttpuserscriptsorgscriptsshow175409-target_blank百度饼a"><a href="http://userscripts.org/scripts/show/175409" target="_blank">百度饼</a></a></li>
+    <li><a href="#a-hrefhttpuserscriptsorgscriptsshow31057-target_blankdefbackgroundupa"><a href="http://userscripts.org/scripts/show/31057" target="_blank">defBackgroundUP</a></a></li>
+    <li><a href="#a-hrefhttpuserscriptsorgscriptsshow168404-target_blankdownload-youtube-videos-as-mp4a"><a href="http://userscripts.org/scripts/show/168404" target="_blank">Download YouTube Videos as MP4</a></a></li>
+    <li><a href="#a-hrefhttpwwwcolgcnthread-3424179-1-1html-target_blankdiscuz-屏蔽ida"> <a href="http://www.colg.cn/thread-3424179-1-1.html" target="_blank">Discuz 屏蔽id</a></a></li>
+    <li><a href="#a-hrefhttpuserscriptsorgscriptsshow182282-target_blankdiscuz论坛长头像自定义无损上传a"><a href="http://userscripts.org/scripts/show/182282" target="_blank">Discuz论坛长头像自定义无损上传</a></a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/app/" style="background-color: ; color: #fff;">
+                软件
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/tampermonkey/">炒土豆丝の油猴脚本</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2013年12月21日</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 2 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><a class="link" href="https://umi.im/wp-content/uploads/2013/12/Greasemonkey1.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-933" alt="Greasemonkey" src="https://umi.im/wp-content/uploads/2013/12/Greasemonkey1.jpg" width="932" height="550" srcset="https://umi.im/wp-content/uploads/2013/12/Greasemonkey1.jpg 932w, https://umi.im/wp-content/uploads/2013/12/Greasemonkey1-300x177.jpg 300w" sizes="(max-width: 932px) 100vw, 932px" /></a></p>
+<p><a title="点击下载greasemonkey" href="http://mozilla.com.cn/addon/14-greasemonkey/" target="_blank">Greasemonkey</a>，简称GM，俗称油猴子。</p>
+<p>是一个Google员工开发的<a href="http://zh.wikipedia.org/wiki/Mozilla_Firefox" target="_blank">火狐</a>附加组件，它让用户安装一些脚本使大部分HTML为主的网页于用户端直接改变得更方便易用。<a class="link" href="http://zh.wikipedia.org/wiki/Mozilla_Firefox"  target="_blank" rel="noopener"
+    ><br>
+</a></p>
+<p>在<a href="http://zh.wikipedia.org/wiki/Google_Chrome" target="_blank">Chrome</a>的油猴扩展程序叫<a title="点击下载Tampermonkey" href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo" target="_blank">Tampermonkey</a> (点击下载)。</p>
+<p>安装完<a title="点击下载Tampermonkey" href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo" target="_blank">Tampermonkey</a>后，进入脚本分享网页点右上角的 “Install” 即可安装启动脚本。</p>
+<p> </p>
+<h2 id="a-hrefhttpuserscriptsorgscriptsshow177191-target_blank百度云网盘大文件下载没限制不用安装云管家a">
+    <a href="#a-hrefhttpuserscriptsorgscriptsshow177191-target_blank%e7%99%be%e5%ba%a6%e4%ba%91%e7%bd%91%e7%9b%98%e5%a4%a7%e6%96%87%e4%bb%b6%e4%b8%8b%e8%bd%bd%e6%b2%a1%e9%99%90%e5%88%b6%e4%b8%8d%e7%94%a8%e5%ae%89%e8%a3%85%e4%ba%91%e7%ae%a1%e5%ae%b6a">#</a>
+    <a href="http://userscripts.org/scripts/show/177191" target="_blank">百度云网盘大文件下载没限制，不用安装云管家</a>
+</h2><p>这脚本名字就这么长。</p>
+<p>这原理我也曾使用过，转存想要下载的大文件，然后用WAP模式打开自己的网盘就可以不需要第三方工具直接下载大文件了。</p>
+<h2 id="a-hrefhttpuserscriptsorgscriptsshow121261-target_blankstraight-googlebr--a">
+    <a href="#a-hrefhttpuserscriptsorgscriptsshow121261-target_blankstraight-googlebr--a">#</a>
+    <a href="http://userscripts.org/scripts/show/121261" target="_blank">Straight Google<br /> </a>
+</h2><p>从 google 的搜索结果列表中去除重定向的操作，两个目的。</p>
+<ol>
+<li>
+<p>避免 google 知道我点击了某个搜索结果</p>
+</li>
+<li>
+<p>对于某些敏感网站，google 的重定向会导致 google 自身被墙</p>
+</li>
+</ol>
+<h2 id="a-hrefhttpuserscriptsorgscriptsshow175409-target_blank百度饼a">
+    <a href="#a-hrefhttpuserscriptsorgscriptsshow175409-target_blank%e7%99%be%e5%ba%a6%e9%a5%bca">#</a>
+    <a href="http://userscripts.org/scripts/show/175409" target="_blank">百度饼</a>
+</h2><p>把百度首页改成Bing那样。</p>
+<p>个人还是喜欢地址栏+Google。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2013/12/baidu.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-814" alt="baidu" src="https://umi.im/wp-content/uploads/2013/12/baidu.jpg" width="600" height="351" /></a></p>
+<h2 id="a-hrefhttpuserscriptsorgscriptsshow31057-target_blankdefbackgroundupa">
+    <a href="#a-hrefhttpuserscriptsorgscriptsshow31057-target_blankdefbackgroundupa">#</a>
+    <a href="http://userscripts.org/scripts/show/31057" target="_blank">defBackgroundUP</a>
+</h2><p>修改网页背景颜色，绝大部分网页的都是白色背景的，可能会觉得背景过于刺眼。</p>
+<p>有了它就可以把背景修改成自己喜欢的颜色啦！～</p>
+<h2 id="a-hrefhttpuserscriptsorgscriptsshow168404-target_blankdownload-youtube-videos-as-mp4a">
+    <a href="#a-hrefhttpuserscriptsorgscriptsshow168404-target_blankdownload-youtube-videos-as-mp4a">#</a>
+    <a href="http://userscripts.org/scripts/show/168404" target="_blank">Download YouTube Videos as MP4</a>
+</h2><p>下载Youtube上的视频，就是Youtube有原生下载功能一样。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2013/12/Download-YouTube-Videos-as-MP4.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-807" alt="Download YouTube Videos as MP4" src="https://umi.im/wp-content/uploads/2013/12/Download-YouTube-Videos-as-MP4.png" width="781" height="237" /></a></p>
+<h2 id="a-hrefhttpwwwcolgcnthread-3424179-1-1html-target_blankdiscuz-屏蔽ida">
+    <a href="#a-hrefhttpwwwcolgcnthread-3424179-1-1html-target_blankdiscuz-%e5%b1%8f%e8%94%bdida">#</a>
+     <a href="http://www.colg.cn/thread-3424179-1-1.html" target="_blank">Discuz 屏蔽id</a>
+</h2><p>眼不见心不烦，彻底屏蔽不想看到的人，适用于DZ搭建的论坛。</p>
+<p>新浪微博也有类似的脚本。</p>
+<h2 id="a-hrefhttpuserscriptsorgscriptsshow182282-target_blankdiscuz论坛长头像自定义无损上传a">
+    <a href="#a-hrefhttpuserscriptsorgscriptsshow182282-target_blankdiscuz%e8%ae%ba%e5%9d%9b%e9%95%bf%e5%a4%b4%e5%83%8f%e8%87%aa%e5%ae%9a%e4%b9%89%e6%97%a0%e6%8d%9f%e4%b8%8a%e4%bc%a0a">#</a>
+    <a href="http://userscripts.org/scripts/show/182282" target="_blank">Discuz论坛长头像自定义无损上传</a>
+</h2><p>据屋主测试DZ X3.1无效，X2可以。</p>
+<p> </p>
+<p>还有很多功能强大的油猴脚本。</p>
+<p>可以到<a href="http://userscripts.org/" target="_blank"><a class="link" href="https://www.userscripts.org"  target="_blank" rel="noopener"
+    >www.userscripts.org</a></a>下载更多油猴脚本。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2013年12月21日 10:03 CST
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/unraid-6.12.10-crack/">
+        
+        
+            <div class="article-image">
+                <img src="/unraid-6.12.10-crack/unraid.bfb8c4fd1d550f352bfe087ebde9f60c.webp" 
+                        width="1200" 
+                        height="630" 
+                        loading="lazy"
+                        alt="Featured image of post UNRAID 6.12.4 米多贝克版升级 UNRAID 6.12.10 毛子开心版"
+                        
+                        data-hash="md5-v7jE/R1VDzUr/gh&#43;ven2DA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">UNRAID 6.12.4 米多贝克版升级 UNRAID 6.12.10 毛子开心版</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/wordpress-to-hugo/">
+        
+        
+            <div class="article-image">
+                <img src="/wordpress-to-hugo/wordpress-to-hugo.9dd8f7b941bbdf2ac48ac46cde33e9e8.webp" 
+                        width="1115" 
+                        height="627" 
+                        loading="lazy"
+                        alt="Featured image of post Wordpress 博客迁移到 HUGO"
+                        
+                        data-hash="md5-ndj3uUG73yrEisRs3jPp6A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Wordpress 博客迁移到 HUGO</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/openclash-adblock/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">抛弃 AdGuard Home , 直接使用 OpenClash 过滤广告 , OpenWrt 路由器过滤广告最简单的方法！</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/unraid-zfs-mirror/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">绿联 DX4600 的 UNRAID 系统折腾后篇</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/windows-11-rtl8111h-speed/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Windows 11 系统的 RealTek RTL8111H 千兆有线网卡的微软公版驱动无法满速问题</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
+<div id="waline" class="waline-container"></div>
+<style>
+    .waline-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+        --waline-font-size: var(--article-font-size);
+    }
+    .waline-container .wl-count {
+        color: var(--card-text-color-main);
+    }
+</style><script>
+    
+    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://npm.elemecdn.com/@waline/emojis@1.1.0/weibo"],"lang":"zh-CN","locale":{"admin":"屋主","placeholder":"欢迎互动！"},"requiredMeta":["name","email","url"],"serverURL":"https://waline.umi.im/"});
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2024 笨蛋屋
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.25.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Android APP on 笨蛋屋</title>
+        <link>https://umi.im/tags/android-app/</link>
+        <description>Recent content in Android APP on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 25 Sep 2017 13:31:47 +0000</lastBuildDate><atom:link href="https://umi.im/tags/android-app/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>索尼手机距离感应器故障导致通话黑屏无法挂电话的解决方法</title>
+        <link>https://umi.im/sony-phone-malfunction/</link>
+        <pubDate>Mon, 25 Sep 2017 13:31:47 +0000</pubDate>
+        
+        <guid>https://umi.im/sony-phone-malfunction/</guid>
+        <description>&lt;p&gt;目前主力手机 SONY Xperia Z5 在一次摔落碎屏后，用联想的碎屏保险进行了换屏维修，手机回来后开始出现通话无法主动挂机，导致某些时候出现一些异常尴尬…&lt;/p&gt;
+&lt;p&gt;因为很少用电话联系所以没去理，最近打电话联系顺丰客服因为黑屏无法按数字呼人工服务，无论按音量键、电源键还是相机键都无法唤醒屏幕，实在忍无可忍。&lt;/p&gt;
+&lt;p&gt;查到的资料是说光线感应器或者距离感应器坏了，去手机维修店很好搞。&lt;/p&gt;
+&lt;p&gt;但是这台快退役的  Z5 实在不想去修，然后还看到一个方法是“电话”应用里面设置关闭距离传感器，但是索尼固件的原生“电话”应用没有这个设置。&lt;/p&gt;
+&lt;p&gt;最后用一个第三方电话应用 “ &lt;a class=&#34;link&#34; href=&#34;https://www.coolapk.com/apk/com.candykk.android.dialer&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Candy 电话&lt;/a&gt; ” 解决，界面类似原生的，在“高级设置”项里可以禁用距离传感器，EZ。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2017/09/candy-phone.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;778&#34; height=&#34;557&#34; src=&#34;https://umi.im/wp-content/uploads/2017/09/candy-phone.png&#34; alt=&#34;&#34; class=&#34;wp-image-4892&#34; srcset=&#34;https://umi.im/wp-content/uploads/2017/09/candy-phone.png 778w, https://umi.im/wp-content/uploads/2017/09/candy-phone-150x107.png 150w, https://umi.im/wp-content/uploads/2017/09/candy-phone-300x215.png 300w, https://umi.im/wp-content/uploads/2017/09/candy-phone-768x550.png 768w&#34; sizes=&#34;(max-width: 778px) 100vw, 778px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>在 Android 手机上以图搜图</title>
+        <link>https://umi.im/android-search-by-image/</link>
+        <pubDate>Mon, 18 Jan 2016 20:58:51 +0000</pubDate>
+        
+        <guid>https://umi.im/android-search-by-image/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2016/01/android-search-by-image-google-play.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4772&#34; src=&#34;https://umi.im/wp-content/uploads/2016/01/android-search-by-image-google-play.png&#34; alt=&#34;android-search-by-image-google-play&#34; width=&#34;709&#34; height=&#34;230&#34; srcset=&#34;https://umi.im/wp-content/uploads/2016/01/android-search-by-image-google-play.png 709w, https://umi.im/wp-content/uploads/2016/01/android-search-by-image-google-play-150x49.png 150w, https://umi.im/wp-content/uploads/2016/01/android-search-by-image-google-play-300x97.png 300w&#34; sizes=&#34;(max-width: 709px) 100vw, 709px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;QQ 群里有人发黄图求片名求种子咋办？作为老司机是不能放弃这种装逼机会的，一般图片 Google 以图搜图一下很容易就能找到片名。&lt;/p&gt;
+&lt;p&gt;但是，Google 的以图搜图只能在桌面端使用，使用手机浏览器是没有上传图片的控件的，即使切换到桌面版网页也不行，不知道为啥。&lt;/p&gt;
+&lt;p&gt;在手机上也不能放弃装逼，所以找到了这款软件。&lt;/p&gt;
+&lt;p&gt;在图片的分享菜单中选择以图搜图就能 Google 出图片了，装完逼就逃。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2016/01/android-search-by-image.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4771&#34; src=&#34;https://umi.im/wp-content/uploads/2016/01/android-search-by-image.jpg&#34; alt=&#34;android-search-by-image&#34; width=&#34;360&#34; height=&#34;640&#34; srcset=&#34;https://umi.im/wp-content/uploads/2016/01/android-search-by-image.jpg 360w, https://umi.im/wp-content/uploads/2016/01/android-search-by-image-84x150.jpg 84w, https://umi.im/wp-content/uploads/2016/01/android-search-by-image-169x300.jpg 169w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpcoolapkcomapkrikkasearchbyimage-target_blank以图搜图a酷市场&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpcoolapkcomapkrikkasearchbyimage-target_blank%e4%bb%a5%e5%9b%be%e6%90%9c%e5%9b%bea%e9%85%b7%e5%b8%82%e5%9c%ba&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://coolapk.com/apk/rikka.searchbyimage&#34; target=&#34;_blank&#34;&gt;以图搜图&lt;/a&gt;（酷市场）
+&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttpsplaygooglecomstoreappsdetailsidrikkasearchbyimage2-target_blank以图搜图agoogle-play&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpsplaygooglecomstoreappsdetailsidrikkasearchbyimage2-target_blank%e4%bb%a5%e5%9b%be%e6%90%9c%e5%9b%beagoogle-play&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://play.google.com/store/apps/details?id=rikka.searchbyimage2&#34; target=&#34;_blank&#34;&gt;以图搜图&lt;/a&gt;（Google Play）
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>AVFUN 天下狼友是一家</title>
+        <link>https://umi.im/avfun/</link>
+        <pubDate>Sat, 28 Nov 2015 12:08:11 +0000</pubDate>
+        
+        <guid>https://umi.im/avfun/</guid>
+        <description>&lt;blockquote class=&#34;wp-block-quote is-layout-flow wp-block-quote-is-layout-flow&#34;&gt;
+  &lt;p&gt;
+    &lt;b&gt;AcFun弹幕视频网&lt;/b&gt;（曾用正式备案中文名&lt;b&gt;爱稀饭网&lt;sup id=&#34;cite_ref-2&#34; class=&#34;reference&#34;&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/AcFun#cite_note-2&#34;&gt;[b]&lt;/a&gt;&lt;/sup&gt;&lt;/b&gt;，常被简称为&lt;b&gt;AC&lt;/b&gt;，&lt;b&gt;A站&lt;/b&gt;）是中国大陆的&lt;a class=&#34;mw-redirect&#34; title=&#34;视频弹幕网站&#34; href=&#34;https://zh.wikipedia.org/wiki/%E8%A7%86%E9%A2%91%E5%BC%B9%E5%B9%95%E7%BD%91%E7%AB%99&#34;&gt;弹幕式视频分享网站&lt;/a&gt;之一，开设于2007年6月6日&lt;sup id=&#34;cite_ref-:1_3-0&#34; class=&#34;reference&#34;&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/AcFun#cite_note-:1-3&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt;，最初为动画连载的网站。AcFun取意于“&lt;a class=&#34;mw-redirect&#34; title=&#34;Anime&#34; href=&#34;https://zh.wikipedia.org/wiki/Anime&#34;&gt;Anime&lt;/a&gt;&lt;a title=&#34;漫画&#34; href=&#34;https://zh.wikipedia.org/wiki/%E6%BC%AB%E7%94%BB&#34;&gt;Comic&lt;/a&gt; Fun”，由于偶尔会有内涵视频&lt;sup id=&#34;cite_ref-4&#34; class=&#34;reference&#34;&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/AcFun#cite_note-4&#34;&gt;[c]&lt;/a&gt;&lt;/sup&gt;出现，又被戏称为&lt;b&gt;AVFun。&lt;/b&gt;
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;AVFun 原本是对 &lt;a href=&#34;http://www.acfun.tv/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AcFun&lt;/a&gt; 的戏称，但后来真出现了一个叫 AVFun 的成人网站，&lt;a href=&#34;http://www.avfun4.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AvFun吧-天下狼友是一家&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;现在，我又发现一个叫 Avfun 的 Android 应用，成人在线视频类。&lt;/p&gt;
+&lt;p&gt;遵循 Material Design 规范，比起同类应用 &lt;a href=&#34;http://sextube-android.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SexTube&lt;/a&gt; 不知道高到哪里去！&lt;/p&gt;
+&lt;p&gt;&lt;img decoding=&#34;async&#34; src=&#34;https://umi.im/wp-content/uploads/2015/11/avfun-1.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-6228&#34; /&gt;  &lt;img decoding=&#34;async&#34; src=&#34;https://umi.im/wp-content/uploads/2015/11/avfun-2.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-6229&#34; /&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/11/avfun-3.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;360&#34; height=&#34;640&#34; src=&#34;https://umi.im/wp-content/uploads/2015/11/avfun-3.jpg&#34; alt=&#34;avfun-3&#34; class=&#34;wp-image-4740&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/11/avfun-3.jpg 360w, https://umi.im/wp-content/uploads/2015/11/avfun-3-84x150.jpg 84w, https://umi.im/wp-content/uploads/2015/11/avfun-3-169x300.jpg 169w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;貌似都有中文字幕呢，就是不能隐藏虚拟按键有点烦。&lt;/p&gt;
+&lt;img decoding=&#34;async&#34; src=&#34;https://umi.im/wp-content/uploads/2015/11/avfun-5.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-6230&#34; /&gt;  
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttppanbaiducoms1gdwl0ef-target_blank-relnoopeneravfun-v302a百度云&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttppanbaiducoms1gdwl0ef-target_blank-relnoopeneravfun-v302a%e7%99%be%e5%ba%a6%e4%ba%91&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1gdwL0Ef&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AVFUN v3.0.2&lt;/a&gt;（百度云）
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>Android 上第二好用的媒体中心软件</title>
+        <link>https://umi.im/mizuu/</link>
+        <pubDate>Wed, 07 Oct 2015 14:48:50 +0000</pubDate>
+        
+        <guid>https://umi.im/mizuu/</guid>
+        <description>&lt;p&gt;XBMC（Kodi）是各平台上最强的媒体中心软件，但是它的自带播放器在未适配平台上的解码能力不强，调用第三方播放器又遇到很多困难（Android + SMB网络），所以只好放弃它。&lt;/p&gt;
+&lt;p&gt;Mizuu 则是为触摸交互设计的媒体中心软件，遵循 Material Design 规范，用遥控器操作也很方便，界面更是漂亮。&lt;/p&gt;
+&lt;p&gt;电影、剧集资料检索准确率很高，只有少数命名不规范的剧集没有索引到，没检索到的可以手动检索。&lt;/p&gt;
+&lt;p&gt;在使用 Mizuu 前我是这样找片的：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/10/h7-q3.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4669&#34; src=&#34;https://umi.im/wp-content/uploads/2015/10/h7-q3.jpg&#34; alt=&#34;h7-q3&#34; width=&#34;960&#34; height=&#34;540&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/10/h7-q3.jpg 960w, https://umi.im/wp-content/uploads/2015/10/h7-q3-150x84.jpg 150w, https://umi.im/wp-content/uploads/2015/10/h7-q3-300x169.jpg 300w&#34; sizes=&#34;(max-width: 960px) 100vw, 960px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;现在是这样：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/10/mizuu-tv.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4666&#34; src=&#34;https://umi.im/wp-content/uploads/2015/10/mizuu-tv.jpg&#34; alt=&#34;mizuu-tv&#34; width=&#34;1680&#34; height=&#34;1182&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/10/mizuu-tv.jpg 1680w, https://umi.im/wp-content/uploads/2015/10/mizuu-tv-150x106.jpg 150w, https://umi.im/wp-content/uploads/2015/10/mizuu-tv-300x211.jpg 300w, https://umi.im/wp-content/uploads/2015/10/mizuu-tv-1024x720.jpg 1024w&#34; sizes=&#34;(max-width: 1680px) 100vw, 1680px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;不支持选取外挂字幕，需要提前在电脑上下载好字幕，字幕文件命名必须和视频文件一致，可以使用乌拉狐的 &lt;a href=&#34;http://www.pc6.com/softview/SoftView_15979.html&#34; target=&#34;_blank&#34;&gt;字幕文件批量改名&lt;/a&gt; 工具。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/10/mizuu-2.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4657&#34; src=&#34;https://umi.im/wp-content/uploads/2015/10/mizuu-2.jpg&#34; alt=&#34;mizuu-2&#34; width=&#34;896&#34; height=&#34;504&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/10/mizuu-2.jpg 896w, https://umi.im/wp-content/uploads/2015/10/mizuu-2-150x84.jpg 150w, https://umi.im/wp-content/uploads/2015/10/mizuu-2-300x169.jpg 300w&#34; sizes=&#34;(max-width: 896px) 100vw, 896px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;能看到演员资料这点很不错。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/10/mizuu-3.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4658&#34; src=&#34;https://umi.im/wp-content/uploads/2015/10/mizuu-3.jpg&#34; alt=&#34;mizuu-3&#34; width=&#34;896&#34; height=&#34;504&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/10/mizuu-3.jpg 896w, https://umi.im/wp-content/uploads/2015/10/mizuu-3-150x84.jpg 150w, https://umi.im/wp-content/uploads/2015/10/mizuu-3-300x169.jpg 300w&#34; sizes=&#34;(max-width: 896px) 100vw, 896px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;剧集每一集的名字也能看到。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/10/mizuu-4.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4659&#34; src=&#34;https://umi.im/wp-content/uploads/2015/10/mizuu-4.jpg&#34; alt=&#34;mizuu-4&#34; width=&#34;896&#34; height=&#34;504&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/10/mizuu-4.jpg 896w, https://umi.im/wp-content/uploads/2015/10/mizuu-4-150x84.jpg 150w, https://umi.im/wp-content/uploads/2015/10/mizuu-4-300x169.jpg 300w&#34; sizes=&#34;(max-width: 896px) 100vw, 896px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PS 创始人弃坑导致 Mizuu 不在 Google Play 上架了，不过因为元数据是来自第三方的，即使软件停止服务，还是能检索到新的剧集资料。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpcoolapkcomapkcommizmizuu-target_blankmizuua酷市场&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpcoolapkcomapkcommizmizuu-target_blankmizuua%e9%85%b7%e5%b8%82%e5%9c%ba&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://coolapk.com/apk/com.miz.mizuu&#34; target=&#34;_blank&#34;&gt;Mizuu&lt;/a&gt;（酷市场）
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>快图浏览被猎豹移动收购，建议不要再更新</title>
+        <link>https://umi.im/cm-quickpic/</link>
+        <pubDate>Mon, 31 Aug 2015 21:17:42 +0000</pubDate>
+        
+        <guid>https://umi.im/cm-quickpic/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/09/cm-quickpic-google-play.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;707&#34; height=&#34;223&#34; src=&#34;https://umi.im/wp-content/uploads/2015/09/cm-quickpic-google-play.png&#34; alt=&#34;cm-quickpic-google-play&#34; class=&#34;wp-image-4598&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/09/cm-quickpic-google-play.png 707w, https://umi.im/wp-content/uploads/2015/09/cm-quickpic-google-play-150x47.png 150w, https://umi.im/wp-content/uploads/2015/09/cm-quickpic-google-play-300x95.png 300w&#34; sizes=&#34;(max-width: 707px) 100vw, 707px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;根据 Google Play 市场的信息显示，Android 平台上的著名图片浏览软件 &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.alensw.PicFolder&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;快图浏览&lt;/a&gt;（QuickPic）被金山旗下的猎豹移动收购。&lt;/p&gt;
+&lt;p&gt;快图浏览的开发者叫郑南岭（nanling），也是 Windows 上著名的音乐播放器千千静听的作者，其后被百度收购，千千静听开始在其软件内以可选安装的形式捆绑百度搜霸（现称百度工具栏）。&lt;/p&gt;
+&lt;p&gt;历史总是惊人的相似，在被收购后更新的快图浏览后马上多出来一个后台服务。&lt;/p&gt;
+&lt;p&gt;有鉴于此，建议大家不要更新到最新版 v4.5.3 ，更新了就回滚到之前的版本。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://8590cd.l83.yunpan.cn/lk/cmwiDnWPC7Nhg#/-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;快图4.5.2官方原版 + 快图4.5.2去升级本地修改版by zd423&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/09/cm-quickpic-2.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;360&#34; height=&#34;640&#34; src=&#34;https://umi.im/wp-content/uploads/2015/09/cm-quickpic-2.jpg&#34; alt=&#34;cm-quickpic-2&#34; class=&#34;wp-image-4591&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/09/cm-quickpic-2.jpg 360w, https://umi.im/wp-content/uploads/2015/09/cm-quickpic-2-84x150.jpg 84w, https://umi.im/wp-content/uploads/2015/09/cm-quickpic-2-169x300.jpg 169w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;使用酷市场的同学可以把快图浏览设置为永久忽略更新。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/09/cm-quickpic-3.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;360&#34; height=&#34;640&#34; src=&#34;https://umi.im/wp-content/uploads/2015/09/cm-quickpic-3.jpg&#34; alt=&#34;cm-quickpic-3&#34; class=&#34;wp-image-4592&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/09/cm-quickpic-3.jpg 360w, https://umi.im/wp-content/uploads/2015/09/cm-quickpic-3-84x150.jpg 84w, https://umi.im/wp-content/uploads/2015/09/cm-quickpic-3-169x300.jpg 169w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;感谢 Nanling 为 Android 平台贡献了如此优秀的软件。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>MoeGallery ~ 一个开源的 Android 动漫图库</title>
+        <link>https://umi.im/moegallery/</link>
+        <pubDate>Thu, 09 Jul 2015 04:15:07 +0000</pubDate>
+        
+        <guid>https://umi.im/moegallery/</guid>
+        <description>&lt;p&gt;另一款 ACG 收图软件 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/mbooru/&#34;  title=&#34;手机收图利器Mbooru&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mbooru&lt;/a&gt; 已经很久没更新了，在 V2EX 上看到有人开发了这个软件所以用作代替品，初阶版本功能还有待完善。&lt;/p&gt;
+&lt;p&gt;支持的站点:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://yande.re&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://yande.re&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://konachan.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://konachan.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://danbooru.donmai.us&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://danbooru.donmai.us&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://behoimi.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://behoimi.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://anime-pictures.net&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://anime-pictures.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://gelbooru.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://gelbooru.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/07/MoeGallery.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4333&#34; src=&#34;https://umi.im/wp-content/uploads/2015/07/MoeGallery.png&#34; alt=&#34;MoeGallery&#34; width=&#34;450&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/07/MoeGallery.png 450w, https://umi.im/wp-content/uploads/2015/07/MoeGallery-94x150.png 94w, https://umi.im/wp-content/uploads/2015/07/MoeGallery-188x300.png 188w&#34; sizes=&#34;(max-width: 450px) 100vw, 450px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;项目地址：&lt;/p&gt;
+&lt;h2 id=&#34;moegallery3&#34;&gt;
+    &lt;a href=&#34;#moegallery3&#34;&gt;#&lt;/a&gt;
+    &lt;a class=&#34;link&#34; href=&#34;https://github.com/kurumi-moe/MoeGallery&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MoeGallery&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;下载链接：&lt;/p&gt;
+&lt;h2 id=&#34;moegallery4github&#34;&gt;
+    &lt;a href=&#34;#moegallery4github&#34;&gt;#&lt;/a&gt;
+    &lt;a class=&#34;link&#34; href=&#34;https://github.com/kurumi-moe/MoeGallery/releases/download/v1.1.0/MoeGallery-v1.1.0.apk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MoeGallery&lt;/a&gt;（GitHub）
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>带壳截图：设备艺术图片生成器</title>
+        <link>https://umi.im/android-device-art-generator/</link>
+        <pubDate>Wed, 01 Jul 2015 00:55:00 +0000</pubDate>
+        
+        <guid>https://umi.im/android-device-art-generator/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/07/dkjt-google-play.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4284&#34; src=&#34;https://umi.im/wp-content/uploads/2015/07/dkjt-google-play.png&#34; alt=&#34;dkjt-google-play&#34; width=&#34;783&#34; height=&#34;249&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/07/dkjt-google-play.png 783w, https://umi.im/wp-content/uploads/2015/07/dkjt-google-play-150x48.png 150w, https://umi.im/wp-content/uploads/2015/07/dkjt-google-play-300x95.png 300w&#34; sizes=&#34;(max-width: 783px) 100vw, 783px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;别被「带壳截图」这个名称欺骗了，这家伙并不能取替你系统截屏的应用，它可以为平淡无奇的截屏图片套上等比例的手机设备外框，生成一张媲美广告的渲染图。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Google 最早在开发者页面 &lt;a class=&#34;link&#34; href=&#34;https://developer.android.com/distribute/tools/promote/device-art.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Device Art Generator&lt;/a&gt; 推出为 Android 开发者提供 Nexus 设备艺术图片的在线生成服务。&lt;br&gt;
+后来，开发者 f2prateek 根据此服务制作了 Android 应用 &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.f2prateek.dfg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Device Frame Generator&lt;/a&gt;，少数派则在 Device Frame Generator 的基础上二次开发了这款带壳截图，带来更多品牌设备的素材。&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/07/Android-dkjt.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; src=&#34;https://umi.im/wp-content/uploads/2015/07/Android-dkjt.png&#34; alt=&#34;Android-dkjt&#34; width=&#34;450&#34; height=&#34;720&#34; class=&#34;alignnone size-full wp-image-4287&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/07/Android-dkjt.png 450w, https://umi.im/wp-content/uploads/2015/07/Android-dkjt-94x150.png 94w, https://umi.im/wp-content/uploads/2015/07/Android-dkjt-188x300.png 188w&#34; sizes=&#34;(max-width: 450px) 100vw, 450px&#34; /&gt;&lt;/a&gt;&lt;br&gt;
+下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;带壳截图-by-少数派5酷市场&#34;&gt;
+    &lt;a href=&#34;#%e5%b8%a6%e5%a3%b3%e6%88%aa%e5%9b%be-by-%e5%b0%91%e6%95%b0%e6%b4%be5%e9%85%b7%e5%b8%82%e5%9c%ba&#34;&gt;#&lt;/a&gt;
+    &lt;a class=&#34;link&#34; href=&#34;http://coolapk.com/apk/com.sspai.dkjt&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;带壳截图 by 少数派&lt;/a&gt;（酷市场）
+&lt;/h2&gt;&lt;h2 id=&#34;带壳截图-by-少数派6google-play&#34;&gt;
+    &lt;a href=&#34;#%e5%b8%a6%e5%a3%b3%e6%88%aa%e5%9b%be-by-%e5%b0%91%e6%95%b0%e6%b4%be6google-play&#34;&gt;#&lt;/a&gt;
+    &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.sspai.dkjt&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;带壳截图 by 少数派&lt;/a&gt;（Google Play）
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>PowerAMP 授权转移到新 Google 账户</title>
+        <link>https://umi.im/poweramp-google/</link>
+        <pubDate>Wed, 24 Jun 2015 13:00:15 +0000</pubDate>
+        
+        <guid>https://umi.im/poweramp-google/</guid>
+        <description>&lt;p&gt;前段时间更换了 Google 账户，&lt;a href=&#34;http://coolapk.com/apk/com.maxmpz.audioplayer&#34; target=&#34;_blank&#34;&gt;PowerAMP &lt;/a&gt;的授权是验证 Google 账户的，搞得我手机要登录旧的 Google 账户就是为了验证它。&lt;/p&gt;
+&lt;p&gt;然后试着用 Google 机翻封邮件给售后，希望把软件授权到新账户，再附上电子发票的截图。&lt;/p&gt;
+&lt;p&gt;PowerAMP 售后邮箱：&lt;a class=&#34;link&#34; href=&#34;mailto:poweramp.maxmpz@gmail.com&#34; &gt;poweramp.maxmpz@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/poweramp-google.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4122&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/poweramp-google.png&#34; alt=&#34;poweramp-google&#34; width=&#34;794&#34; height=&#34;660&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/poweramp-google.png 794w, https://umi.im/wp-content/uploads/2015/06/poweramp-google-150x125.png 150w, https://umi.im/wp-content/uploads/2015/06/poweramp-google-300x249.png 300w&#34; sizes=&#34;(max-width: 794px) 100vw, 794px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;几小时后客户就回复说搞定了，能看懂机翻嘛…&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/poweramp-google-mail.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4123&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/poweramp-google-mail.png&#34; alt=&#34;poweramp-google-mail&#34; width=&#34;655&#34; height=&#34;313&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/poweramp-google-mail.png 655w, https://umi.im/wp-content/uploads/2015/06/poweramp-google-mail-150x72.png 150w, https://umi.im/wp-content/uploads/2015/06/poweramp-google-mail-300x143.png 300w&#34; sizes=&#34;(max-width: 655px) 100vw, 655px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;清除数据，重新验证，授权转移成功。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/adnroid-poweramp-google.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4124&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/adnroid-poweramp-google.jpg&#34; alt=&#34;adnroid-poweramp-google&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/adnroid-poweramp-google.jpg 405w, https://umi.im/wp-content/uploads/2015/06/adnroid-poweramp-google-84x150.jpg 84w, https://umi.im/wp-content/uploads/2015/06/adnroid-poweramp-google-169x300.jpg 169w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Android Lollipop ：Chrome地址栏</title>
+        <link>https://umi.im/android-chrome-headerstatus-bar-colors/</link>
+        <pubDate>Sat, 06 Jun 2015 21:26:48 +0000</pubDate>
+        
+        <guid>https://umi.im/android-chrome-headerstatus-bar-colors/</guid>
+        <description>&lt;p&gt;在 Android 5.0 Lollipop 中，Chrome 浏览器 V39 增加地址栏/地址栏的调色功能。&lt;/p&gt;
+&lt;p&gt;只需要在 WordPress 下只要在主题中的 Header.php 文件添加一行这样的代码：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;meta name=&amp;#8221;theme-color&amp;#8221; content=&amp;#8221;#Hex颜色代码&amp;#8221;&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;一般地址栏/状态栏要和自己的网站主题颜色搭配比较好看，所以先用 Chrome 拾色，按 Ctrl + Shift + J 进入控制台，选取需要的颜色，得到 RGB 颜色代码。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/css-rgb.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4089&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/css-rgb.png&#34; alt=&#34;css-rgb&#34; width=&#34;1136&#34; height=&#34;739&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/css-rgb.png 1136w, https://umi.im/wp-content/uploads/2015/06/css-rgb-150x98.png 150w, https://umi.im/wp-content/uploads/2015/06/css-rgb-300x195.png 300w, https://umi.im/wp-content/uploads/2015/06/css-rgb-1024x666.png 1024w&#34; sizes=&#34;(max-width: 1136px) 100vw, 1136px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;把 RGB 代码（41,111,163）转为 Hex 代码，得到 293fa3 。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwjavascripternetfaqrgbtohexhtm-target_blank-relnoopener在线-rgb-转-hexa&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwjavascripternetfaqrgbtohexhtm-target_blank-relnoopener%e5%9c%a8%e7%ba%bf-rgb-%e8%bd%ac-hexa&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.javascripter.net/faq/rgbtohex.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;在线 RGB 转 Hex&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/RGB-to-hex.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4090&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/RGB-to-hex.png&#34; alt=&#34;RGB-to-hex&#34; width=&#34;630&#34; height=&#34;316&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/RGB-to-hex.png 630w, https://umi.im/wp-content/uploads/2015/06/RGB-to-hex-150x75.png 150w, https://umi.im/wp-content/uploads/2015/06/RGB-to-hex-300x150.png 300w&#34; sizes=&#34;(max-width: 630px) 100vw, 630px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;添加到 Header.php 。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;meta name=&amp;#8221;theme-color&amp;#8221; content=&amp;#8221;#293fa3&amp;#8243;&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Done ，色彩斑斓的 Lollipop！&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/android-chrome-bakahouse.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4091&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/android-chrome-bakahouse.jpg&#34; alt=&#34;android-chrome-bakahouse&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/android-chrome-bakahouse.jpg 405w, https://umi.im/wp-content/uploads/2015/06/android-chrome-bakahouse-84x150.jpg 84w, https://umi.im/wp-content/uploads/2015/06/android-chrome-bakahouse-169x300.jpg 169w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/android-chrome-Colors-bar.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4092&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/android-chrome-Colors-bar.jpg&#34; alt=&#34;android-chrome-Colors-bar&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/android-chrome-Colors-bar.jpg 405w, https://umi.im/wp-content/uploads/2015/06/android-chrome-Colors-bar-84x150.jpg 84w, https://umi.im/wp-content/uploads/2015/06/android-chrome-Colors-bar-169x300.jpg 169w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>水表助手 ~ Material Design的快递查询APP</title>
+        <link>https://umi.im/express-helper/</link>
+        <pubDate>Thu, 16 Apr 2015 02:31:06 +0000</pubDate>
+        
+        <guid>https://umi.im/express-helper/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3649&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper.png&#34; alt=&#34;express-helper&#34; width=&#34;804&#34; height=&#34;259&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper.png 804w, https://umi.im/wp-content/uploads/2015/04/express-helper-150x48.png 150w, https://umi.im/wp-content/uploads/2015/04/express-helper-300x97.png 300w&#34; sizes=&#34;(max-width: 804px) 100vw, 804px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一枚符合Material Design风格快递物流信息追踪应用，通过支持大部分主流物流公司的爱查快递API，快捷地获取最新状况。&lt;/p&gt;
+&lt;p&gt;没有多余的功能，无需登录任何帐号，清新的应用界面也许能减轻你在等待中的一丝焦虑。&lt;/p&gt;
+&lt;p&gt;本应用在GNU GPL v3协议下开源，欢迎学习交流、提交代码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Github: &lt;a href=&#34;https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://github.com/PaperAirplane-Dev-Team/ExpressHelper%26sa%3DD%26usg%3DAFQjCNEOmLD04ZVzOCATp1OaisXGNMAVLA&amp;sa=D&amp;usg=AFQjCNHrf_e5QsXAHZim7JWHFVTTja_HXw&#34; target=&#34;_blank&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/PaperAirplane-Dev-Team/ExpressHelper&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/PaperAirplane-Dev-Team/ExpressHelper&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone wp-image-3650&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-1.png&#34; alt=&#34;express-helper-1&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-1.png 720w, https://umi.im/wp-content/uploads/2015/04/express-helper-1-84x150.png 84w, https://umi.im/wp-content/uploads/2015/04/express-helper-1-169x300.png 169w, https://umi.im/wp-content/uploads/2015/04/express-helper-1-576x1024.png 576w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone wp-image-3651&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-2.png&#34; alt=&#34;express-helper-2&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-2.png 720w, https://umi.im/wp-content/uploads/2015/04/express-helper-2-84x150.png 84w, https://umi.im/wp-content/uploads/2015/04/express-helper-2-169x300.png 169w, https://umi.im/wp-content/uploads/2015/04/express-helper-2-576x1024.png 576w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3652&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-3.png&#34; alt=&#34;express-helper-3&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-3.png 720w, https://umi.im/wp-content/uploads/2015/04/express-helper-3-84x150.png 84w, https://umi.im/wp-content/uploads/2015/04/express-helper-3-169x300.png 169w, https://umi.im/wp-content/uploads/2015/04/express-helper-3-576x1024.png 576w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-4.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3653&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-4.png&#34; alt=&#34;express-helper-4&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/express-helper-4.png 720w, https://umi.im/wp-content/uploads/2015/04/express-helper-4-84x150.png 84w, https://umi.im/wp-content/uploads/2015/04/express-helper-4-169x300.png 169w, https://umi.im/wp-content/uploads/2015/04/express-helper-4-576x1024.png 576w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpsplaygooglecomstoreappsdetailsidinfopapdtexpresshelper-target_blank水表助手agoogle-play&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpsplaygooglecomstoreappsdetailsidinfopapdtexpresshelper-target_blank%e6%b0%b4%e8%a1%a8%e5%8a%a9%e6%89%8bagoogle-play&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://play.google.com/store/apps/details?id=info.papdt.express.helper&#34; target=&#34;_blank&#34;&gt;水表助手&lt;/a&gt;（Google Play）
+&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttpcoolapkcomapkinfopapdtexpresshelper-target_blank水表助手a酷安&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpcoolapkcomapkinfopapdtexpresshelper-target_blank%e6%b0%b4%e8%a1%a8%e5%8a%a9%e6%89%8ba%e9%85%b7%e5%ae%89&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://coolapk.com/apk/info.papdt.express.helper&#34; target=&#34;_blank&#34;&gt;水表助手&lt;/a&gt;（酷安）
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>SONY Xperia Z3 Compact Lollipop更新（Android 5.0.2）</title>
+        <link>https://umi.im/xperia-z3-compact-lollipop/</link>
+        <pubDate>Tue, 17 Mar 2015 17:07:24 +0000</pubDate>
+        
+        <guid>https://umi.im/xperia-z3-compact-lollipop/</guid>
+        <description>&lt;p&gt;3月中，索尼终于为Z3/Z3C推送了Lollipop的更新，在论坛上下了个带ROOT的卡刷包刷上，ROM链接没保存然后找不到了！_(:3ゝ∠)_&lt;/p&gt;
+&lt;p&gt;刷完重启Xperia开机动画飘了5分钟，手机发热严重，吓得我以为刷失败了。&lt;/p&gt;
+&lt;p&gt;刚出现引导画面就升级NFC，因为日版的NFC芯片和国际版的不同，所以NFC升级失败，默认关闭了NFC。&lt;/p&gt;
+&lt;p&gt;关闭了NFC服务依旧耗电，直接卸载了就好了，然后可以用STAMINA了。（Xperia的节电模式，4.4时期日版Z3/Z3C关闭了NFC后开STAMINA会无限重启）&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3578&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-1.png&#34; alt=&#34;xperia-z3-compact-lollipop-1&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-1.png 720w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-1-84x150.png 84w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-1-169x300.png 169w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-1-576x1024.png 576w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;状态栏图标比以前的好看了很多啊！&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3579&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-2.png&#34; alt=&#34;xperia-z3-compact-lollipop-2&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-2.png 720w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-2-84x150.png 84w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-2-169x300.png 169w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-2-576x1024.png 576w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;桌面，PlayStation的图标还没有扁平化…电话和短信的图标终于扁了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3580&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-3.png&#34; alt=&#34;xperia-z3-compact-lollipop-3&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-3.png 720w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-3-84x150.png 84w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-3-169x300.png 169w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-3-576x1024.png 576w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下拉菜单，和原生系统差不多。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-4.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3581&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-4.png&#34; alt=&#34;xperia-z3-compact-lollipop-4&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-4.png 720w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-4-84x150.png 84w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-4-169x300.png 169w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-4-576x1024.png 576w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;可以自定义快捷设置。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-5.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3582&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-5.png&#34; alt=&#34;xperia-z3-compact-lollipop-5&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-5.png 720w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-5-84x150.png 84w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-5-169x300.png 169w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-5-576x1024.png 576w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;设置页面，状态栏的默认颜色是蓝色的…蓝色的…&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-6.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3583&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-6.png&#34; alt=&#34;xperia-z3-compact-lollipop-6&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-6.png 720w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-6-84x150.png 84w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-6-169x300.png 169w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-6-576x1024.png 576w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;直接是5.0.2。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-7.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3584&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-7.png&#34; alt=&#34;xperia-z3-compact-lollipop-7&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-7.png 720w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-7-84x150.png 84w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-7-169x300.png 169w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-7-576x1024.png 576w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;授权管理。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-8.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3585&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-8.png&#34; alt=&#34;xperia-z3-compact-lollipop-8&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-8.png 720w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-8-84x150.png 84w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-8-169x300.png 169w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-8-576x1024.png 576w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;最近任务界面，底部还是有索尼的小应用程序栏，顶部又有Google搜索框，导致任务卡片被压得只能看一丁点…&lt;/p&gt;
+&lt;p&gt;卸载Google搜索后最近任务顶部会显示“无法加载小部件”，所以不要手贱，正在找去掉搜索框的办法。&lt;/p&gt;
+&lt;p&gt;知乎：&lt;a href=&#34;http://www.zhihu.com/question/28836240&#34; target=&#34;_blank&#34;&gt;如何清除 Android Lollipop 最近任务界面上方的Google搜索框？&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-9.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3586&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-9.png&#34; alt=&#34;xperia-z3-compact-lollipop-9&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-9.png 720w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-9-84x150.png 84w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-9-169x300.png 169w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-9-576x1024.png 576w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;拨号界面，和原生风格差不多，短信、计算器、下载管理等程序都保留了原生风格。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-10.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3589&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-10.png&#34; alt=&#34;xperia-z3-compact-lollipop-10&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-10.png 720w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-10-84x150.png 84w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-10-169x300.png 169w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-10-576x1024.png 576w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;虽然等了很久，没让人失望，很有诚意的一次更新。&lt;/p&gt;
+&lt;p&gt;系统流畅性大大提升，状态栏的图标也很好看。&lt;/p&gt;
+&lt;p&gt;就是状态栏默认蓝色有点奇葩，如果软件没适配lollipop的变色状态栏，那它将是这样的…&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-11.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3590&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-11.jpg&#34; alt=&#34;xperia-z3-compact-lollipop-11&#34; width=&#34;405&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-11.jpg 720w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-11-84x150.jpg 84w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-11-169x300.jpg 169w, https://umi.im/wp-content/uploads/2015/03/xperia-z3-compact-lollipop-11-576x1024.jpg 576w&#34; sizes=&#34;(max-width: 405px) 100vw, 405px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;span-stylecolor-ff6600阿里吃屎span&#34;&gt;
+    &lt;a href=&#34;#span-stylecolor-ff6600%e9%98%bf%e9%87%8c%e5%90%83%e5%b1%8espan&#34;&gt;#&lt;/a&gt;
+    &lt;span style=&#34;color: #ff6600;&#34;&gt;阿里吃屎！&lt;/span&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>Material Design图标包应用 ~ ColorShamu</title>
+        <link>https://umi.im/colorshamu/</link>
+        <pubDate>Mon, 02 Mar 2015 10:39:17 +0000</pubDate>
+        
+        <guid>https://umi.im/colorshamu/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3524&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu.png&#34; alt=&#34;colorshamu&#34; width=&#34;809&#34; height=&#34;250&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu.png 809w, https://umi.im/wp-content/uploads/2015/03/colorshamu-150x46.png 150w, https://umi.im/wp-content/uploads/2015/03/colorshamu-300x93.png 300w&#34; sizes=&#34;(max-width: 809px) 100vw, 809px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ColorShamu是一個根據Material Design風格設計的高分辨率圖標包。每一個圖標都經過精心設計，帶給你真正的Material Design。&lt;br&gt;
+適配以下桌面啟動器：&lt;br&gt;
+Nova Launcher&lt;br&gt;
+Apex Launcher&lt;br&gt;
+ADW Launcher&lt;br&gt;
+Go Launcher&lt;br&gt;
+Holo Launcher&lt;br&gt;
+Sony Tablet&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3525&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu-1.png&#34; alt=&#34;colorshamu-1&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu-1.png 768w, https://umi.im/wp-content/uploads/2015/03/colorshamu-1-90x150.png 90w, https://umi.im/wp-content/uploads/2015/03/colorshamu-1-180x300.png 180w, https://umi.im/wp-content/uploads/2015/03/colorshamu-1-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;修改前，QQ的图标太坑爹了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3526&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu2.png&#34; alt=&#34;colorshamu2&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu2.png 768w, https://umi.im/wp-content/uploads/2015/03/colorshamu2-90x150.png 90w, https://umi.im/wp-content/uploads/2015/03/colorshamu2-180x300.png 180w, https://umi.im/wp-content/uploads/2015/03/colorshamu2-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;修改后，有几个图标是自己替换的，比如淘宝换成了Amazon的。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3527&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu-3.png&#34; alt=&#34;colorshamu-3&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu-3.png 768w, https://umi.im/wp-content/uploads/2015/03/colorshamu-3-90x150.png 90w, https://umi.im/wp-content/uploads/2015/03/colorshamu-3-180x300.png 180w, https://umi.im/wp-content/uploads/2015/03/colorshamu-3-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpsplaygooglecomstoreappsdetailsidcomshiunghanchingcolorshamu-target_blankcolorshamuagoogle-play&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpsplaygooglecomstoreappsdetailsidcomshiunghanchingcolorshamu-target_blankcolorshamuagoogle-play&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.shiunghanching.colorshamu&#34; target=&#34;_blank&#34;&gt;ColorShamu&lt;/a&gt;（Google Play）
+&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttpcoolapkcomapkcomshiunghanchingcolorshamu-target_blankcolorshamua酷安&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpcoolapkcomapkcomshiunghanchingcolorshamu-target_blankcolorshamua%e9%85%b7%e5%ae%89&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://coolapk.com/apk/com.shiunghanching.colorshamu&#34; target=&#34;_blank&#34;&gt;ColorShamu&lt;/a&gt;（酷安）
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>Android追美剧应用 ~ SeriesGuide</title>
+        <link>https://umi.im/seriesguide/</link>
+        <pubDate>Thu, 01 Jan 2015 06:00:23 +0000</pubDate>
+        
+        <guid>https://umi.im/seriesguide/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/01/SeriesGuide.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3380&#34; src=&#34;https://umi.im/wp-content/uploads/2015/01/SeriesGuide.png&#34; alt=&#34;SeriesGuide&#34; width=&#34;807&#34; height=&#34;250&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/01/SeriesGuide.png 807w, https://umi.im/wp-content/uploads/2015/01/SeriesGuide-150x46.png 150w, https://umi.im/wp-content/uploads/2015/01/SeriesGuide-300x93.png 300w&#34; sizes=&#34;(max-width: 807px) 100vw, 807px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;元旦快乐，好多动画停播两周，可恶，之前竟然不知道有这个传统！&lt;/p&gt;
+&lt;p&gt;最近都在靠美剧打发时间，所以就推荐下这个应用吧。另外，美剧真是打发时间的利器啊，随便部美剧都几季的…&lt;/p&gt;
+&lt;p&gt;遵循Material Design，带简体中文，为了开启Google Now我把系统弄成了繁体。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/01/SeriesGuide-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3381&#34; src=&#34;https://umi.im/wp-content/uploads/2015/01/SeriesGuide-1.png&#34; alt=&#34;SeriesGuide-1&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/01/SeriesGuide-1.png 768w, https://umi.im/wp-content/uploads/2015/01/SeriesGuide-1-90x150.png 90w, https://umi.im/wp-content/uploads/2015/01/SeriesGuide-1-180x300.png 180w, https://umi.im/wp-content/uploads/2015/01/SeriesGuide-1-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;会显示未播出话的播出时间，可以添加的Google日历提醒观看，对于经常停播的美剧来说很有用。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/01/SeriesGuide-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3382&#34; src=&#34;https://umi.im/wp-content/uploads/2015/01/SeriesGuide-2.png&#34; alt=&#34;SeriesGuide-2&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/01/SeriesGuide-2.png 768w, https://umi.im/wp-content/uploads/2015/01/SeriesGuide-2-90x150.png 90w, https://umi.im/wp-content/uploads/2015/01/SeriesGuide-2-180x300.png 180w, https://umi.im/wp-content/uploads/2015/01/SeriesGuide-2-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;带平板优化。可惜我没有Android平板…iPad真不好用。_(:3ゝ∠)_&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/01/SeriesGuide-3.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3383&#34; src=&#34;https://umi.im/wp-content/uploads/2015/01/SeriesGuide-3.jpg&#34; alt=&#34;SeriesGuide-3&#34; width=&#34;1532&#34; height=&#34;900&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/01/SeriesGuide-3.jpg 1532w, https://umi.im/wp-content/uploads/2015/01/SeriesGuide-3-150x88.jpg 150w, https://umi.im/wp-content/uploads/2015/01/SeriesGuide-3-300x176.jpg 300w, https://umi.im/wp-content/uploads/2015/01/SeriesGuide-3-1024x602.jpg 1024w&#34; sizes=&#34;(max-width: 1532px) 100vw, 1532px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpsplaygooglecomstoreappsdetailsidcombattlelancerseriesguide-target_blankseriesguideagoogle-play&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpsplaygooglecomstoreappsdetailsidcombattlelancerseriesguide-target_blankseriesguideagoogle-play&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.battlelancer.seriesguide&#34; target=&#34;_blank&#34;&gt;SeriesGuide&lt;/a&gt;（Google Play）
+&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttpcoolapkcomapkcombattlelancerseriesguide-target_blankseriesguidea酷安&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpcoolapkcomapkcombattlelancerseriesguide-target_blankseriesguidea%e9%85%b7%e5%ae%89&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://coolapk.com/apk/com.battlelancer.seriesguide&#34; target=&#34;_blank&#34;&gt;SeriesGuide&lt;/a&gt;（酷安）
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>Shadowsocks 自动代理的应用</title>
+        <link>https://umi.im/shadowsocks/</link>
+        <pubDate>Thu, 04 Dec 2014 01:40:33 +0000</pubDate>
+        
+        <guid>https://umi.im/shadowsocks/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;Shadowsocks是一个轻量级socks5代理，以python写成；&lt;/p&gt;
+&lt;p&gt;通过客户端以指定的密码、加密方式和端口连接服务器，成功连接到服务器后，客户端在用户的电脑上构建一个本地socks5代理。使用时将流量分到本地socks5代理，客户端将自动加密并转发流量到服务器，服务器以同样的加密方式将流量回传给客户端，以此实现代理上网。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;ds-user-name ds-highlight&#34; href=&#34;http://t.qq.com/noip117isend&#34; target=&#34;_blank&#34;&gt;茄子泥焗黄鱼&lt;/a&gt;共享了一个 Shadowsocks 的账号给我，然后听说 Shadowsocks 可以在iOS上实现自动切换线路。&lt;/p&gt;
+&lt;p&gt;因为经常用到Google等海外网站和同步服务，如果每次用都要开VPN的话麻烦死了，在Android下只要root了就能很简单实现这些。&lt;/p&gt;
+&lt;p&gt;配置iOS的 Shadowsocks  比想象的简单的多…只要需要在Cydia商店下载 Shadowsocks ，然后填上账号密码端口再打勾自动代理就好了，这应该是目前iOS上最好的翻墙方案了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-ios.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3315&#34; src=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-ios.png&#34; alt=&#34;Shadowsocks-ios&#34; width=&#34;1680&#34; height=&#34;1260&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-ios.png 1680w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-ios-150x112.png 150w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-ios-300x225.png 300w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-ios-1024x768.png 1024w&#34; sizes=&#34;(max-width: 1680px) 100vw, 1680px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在 Android 下也差不多，可以到Play商店下载 &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.github.shadowsocks&#34; target=&#34;_blank&#34;&gt;Shadowsocks&lt;/a&gt; ，好像root都不用。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-android.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3316&#34; src=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-android.png&#34; alt=&#34;Shadowsocks-android&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-android.png 768w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-android-90x150.png 90w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-android-180x300.png 180w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-android-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在 Windows 下需要配合浏览器扩展才能实现自动代理。&lt;/p&gt;
+&lt;p&gt;下载 &lt;a href=&#34;http://sourceforge.net/projects/shadowsocksgui/files/dist/shadowsocks-gui-0.6.4-win-ia32.tar.xz/download&#34; target=&#34;_blank&#34;&gt;Shadowsocks Windows GUI版&lt;/a&gt;，直接填上账号密码端口然后保存就好了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/12/shadowsocks-gui.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3313&#34; src=&#34;https://umi.im/wp-content/uploads/2014/12/shadowsocks-gui.png&#34; alt=&#34;shadowsocks-gui&#34; width=&#34;362&#34; height=&#34;452&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/12/shadowsocks-gui.png 362w, https://umi.im/wp-content/uploads/2014/12/shadowsocks-gui-120x150.png 120w, https://umi.im/wp-content/uploads/2014/12/shadowsocks-gui-240x300.png 240w&#34; sizes=&#34;(max-width: 362px) 100vw, 362px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;然后到Chrome商店下载 &lt;a href=&#34;https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif&#34; target=&#34;_blank&#34;&gt;SwitchyOmega&lt;/a&gt; 这个扩展程序，设置好代理协议为SOCKS5，代理端口自行选择，再把自动切换规则弄好就行了。&lt;/p&gt;
+&lt;p&gt;和以前的GoAgent +  &lt;a href=&#34;https://chrome.google.com/webstore/detail/dpplabbmogkhghncfbfdeeokoefdjegm&#34; target=&#34;_blank&#34;&gt;Proxy SwitchySharp&lt;/a&gt; 弄起来一模一样，Shadowsocks + Proxy SwitchySharp 也行，但是自动切换会失效，全局还是可用，不知为何。 &lt;a class=&#34;lightbox&#34; href=&#34;https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif&#34; target=&#34;_blank&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3314&#34; src=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-switchy.png&#34; alt=&#34;Shadowsocks-switchy&#34; width=&#34;1170&#34; height=&#34;551&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-switchy.png 1170w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-switchy-150x70.png 150w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-switchy-300x141.png 300w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-switchy-1024x482.png 1024w&#34; sizes=&#34;(max-width: 1170px) 100vw, 1170px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;还有OpenWRT的版本，刚好我的路由器是OpenWRT的，等技术好还可以继续折腾…&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Nexus 4 Android 5.0 Lollipop (Root)</title>
+        <link>https://umi.im/nexus-4-android-5-0-lollipop/</link>
+        <pubDate>Sun, 16 Nov 2014 01:33:09 +0000</pubDate>
+        
+        <guid>https://umi.im/nexus-4-android-5-0-lollipop/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/Factory-Images-occam-for-Nexus-4.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3250&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/Factory-Images-occam-for-Nexus-4.png&#34; alt=&#34;Factory Images occam for Nexus 4&#34; width=&#34;897&#34; height=&#34;375&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/Factory-Images-occam-for-Nexus-4.png 897w, https://umi.im/wp-content/uploads/2014/11/Factory-Images-occam-for-Nexus-4-150x62.png 150w, https://umi.im/wp-content/uploads/2014/11/Factory-Images-occam-for-Nexus-4-300x125.png 300w&#34; sizes=&#34;(max-width: 897px) 100vw, 897px&#34; /&gt;&lt;/a&gt;&lt;a class=&#34;link&#34; href=&#34;https://developers.google.com/android/nexus/images&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://developers.google.com/android/nexus/images&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Nexus 5、Nexus 7的lollipop工厂镜像发布两天后Nexus 4的终于也来了。刷入很简单开始向导那里的网络检查需要ping Google的服务器，因为GFW的原因可能要等15分钟左右，不想等可以拔掉SIM卡和不连接无线网络。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpsspaicom27330-target_blank第一时间尝鲜手动刷入-android-50-lollipop-工厂镜像详细教程a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpsspaicom27330-target_blank%e7%ac%ac%e4%b8%80%e6%97%b6%e9%97%b4%e5%b0%9d%e9%b2%9c%e6%89%8b%e5%8a%a8%e5%88%b7%e5%85%a5-android-50-lollipop-%e5%b7%a5%e5%8e%82%e9%95%9c%e5%83%8f%e8%af%a6%e7%bb%86%e6%95%99%e7%a8%8ba&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://sspai.com/27330&#34; target=&#34;_blank&#34;&gt;第一时间尝鲜：手动刷入 Android 5.0 Lollipop 工厂镜像详细教程&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/nexus-4-android-5-0-lollipop-adb.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3251&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/nexus-4-android-5-0-lollipop-adb.png&#34; alt=&#34;nexus-4-android-5-0-lollipop-adb&#34; width=&#34;861&#34; height=&#34;455&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/nexus-4-android-5-0-lollipop-adb.png 861w, https://umi.im/wp-content/uploads/2014/11/nexus-4-android-5-0-lollipop-adb-150x79.png 150w, https://umi.im/wp-content/uploads/2014/11/nexus-4-android-5-0-lollipop-adb-300x158.png 300w&#34; sizes=&#34;(max-width: 861px) 100vw, 861px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;使用CF-Auto-Root进行一键Root。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwinexuscoarticle-2815-1html-target_blankcf-auto-root更新支持nexus-4-安卓50-lrx21t-roota&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwinexuscoarticle-2815-1html-target_blankcf-auto-root%e6%9b%b4%e6%96%b0%e6%94%af%e6%8c%81nexus-4-%e5%ae%89%e5%8d%9350-lrx21t-roota&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.inexus.co/article-2815-1.html&#34; target=&#34;_blank&#34;&gt;CF-Auto-Root更新支持nexus 4 安卓5.0 LRX21T root&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/Nexus-4-lollipop-root.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3254&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/Nexus-4-lollipop-root.png&#34; alt=&#34;Nexus-4-lollipop-root&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/Nexus-4-lollipop-root.png 768w, https://umi.im/wp-content/uploads/2014/11/Nexus-4-lollipop-root-90x150.png 90w, https://umi.im/wp-content/uploads/2014/11/Nexus-4-lollipop-root-180x300.png 180w, https://umi.im/wp-content/uploads/2014/11/Nexus-4-lollipop-root-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;d-s ob U0b oSb&#34; tabindex=&#34;0&#34; href=&#34;https://plus.google.com/communities/100645084914013527158&#34; target=&#34;_top&#34;&gt;fqrouter&lt;/a&gt;测试版已支持lollipop，访问 &lt;a class=&#34;link&#34; href=&#34;https://s3-ap-southeast-1.amazonaws.com/fqrouter/fqrouter-testing.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://s3-ap-southeast-1.amazonaws.com/fqrouter/fqrouter-testing.html&lt;/a&gt; 获得最新的测试版。遇到错误还是“点软件内的报告错误”。&lt;/p&gt;
+&lt;h2 id=&#34;a-classd-s-ob-u0b-osb-tabindex0-hrefhttpsplusgooglecomcommunities100645084914013527158-target_topfqrouter-义务测试组agoogle社群&#34;&gt;
+    &lt;a href=&#34;#a-classd-s-ob-u0b-osb-tabindex0-hrefhttpsplusgooglecomcommunities100645084914013527158-target_topfqrouter-%e4%b9%89%e5%8a%a1%e6%b5%8b%e8%af%95%e7%bb%84agoogle%e7%a4%be%e7%be%a4&#34;&gt;#&lt;/a&gt;
+    &lt;a class=&#34;d-s ob U0b oSb&#34; tabindex=&#34;0&#34; href=&#34;https://plus.google.com/communities/100645084914013527158&#34; target=&#34;_top&#34;&gt;fqrouter 义务测试组&lt;/a&gt;（Google+社群）
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>Android手机自动更换本地壁纸应用 ~ Muzei Live Wallpaper</title>
+        <link>https://umi.im/muzei-live-wallpaper/</link>
+        <pubDate>Tue, 16 Sep 2014 12:26:53 +0000</pubDate>
+        
+        <guid>https://umi.im/muzei-live-wallpaper/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/Muzei-Live-Wallpaper.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2986&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/Muzei-Live-Wallpaper.png&#34; alt=&#34;Muzei Live Wallpaper&#34; width=&#34;695&#34; height=&#34;226&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/Muzei-Live-Wallpaper.png 695w, https://umi.im/wp-content/uploads/2014/09/Muzei-Live-Wallpaper-150x48.png 150w, https://umi.im/wp-content/uploads/2014/09/Muzei-Live-Wallpaper-300x97.png 300w&#34; sizes=&#34;(max-width: 695px) 100vw, 695px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Muzei Live Wallpaper 提供的一些壁纸品质可以说非常高，这个和前一段流行的模糊壁纸很像。&lt;/p&gt;
+&lt;p&gt;其实这个软件还可以实现本地壁纸的自动更换，壁纸分辨率会自动裁切。&lt;/p&gt;
+&lt;p&gt;还可以通过扩展实现网络图源的壁纸自动更换。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/Muzei-Live-Wallpaper-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2987&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/Muzei-Live-Wallpaper-1.png&#34; alt=&#34;Muzei Live Wallpaper-1&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/Muzei-Live-Wallpaper-1.png 768w, https://umi.im/wp-content/uploads/2014/09/Muzei-Live-Wallpaper-1-90x150.png 90w, https://umi.im/wp-content/uploads/2014/09/Muzei-Live-Wallpaper-1-180x300.png 180w, https://umi.im/wp-content/uploads/2014/09/Muzei-Live-Wallpaper-1-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-title下载-hrefhttpsplaygooglecomstoreappsdetailsidnetnurikromanmuzei-target_blankmuzei-live-wallpaperagoogle-play&#34;&gt;
+    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttpsplaygooglecomstoreappsdetailsidnetnurikromanmuzei-target_blankmuzei-live-wallpaperagoogle-play&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;下载&#34; href=&#34;https://play.google.com/store/apps/details?id=net.nurik.roman.muzei&#34; target=&#34;_blank&#34;&gt;Muzei Live Wallpaper&lt;/a&gt;（Google Play）
+&lt;/h2&gt;&lt;h2 id=&#34;a-title下载-hrefhttpcoolapkcomapknetnurikromanmuzei-target_blankmuzei-live-wallpapera酷安&#34;&gt;
+    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttpcoolapkcomapknetnurikromanmuzei-target_blankmuzei-live-wallpapera%e9%85%b7%e5%ae%89&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;下载&#34; href=&#34;http://coolapk.com/apk/net.nurik.roman.muzei&#34; target=&#34;_blank&#34;&gt;Muzei Live Wallpaper&lt;/a&gt;（酷安）
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>Android Design 的 QQ轻聊版</title>
+        <link>https://umi.im/android-qq-lite/</link>
+        <pubDate>Thu, 14 Aug 2014 17:05:05 +0000</pubDate>
+        
+        <guid>https://umi.im/android-qq-lite/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/QQ-LITE-play.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2807&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/QQ-LITE-play.png&#34; alt=&#34;QQ-LITE-play&#34; width=&#34;844&#34; height=&#34;271&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/QQ-LITE-play.png 844w, https://umi.im/wp-content/uploads/2014/08/QQ-LITE-play-150x48.png 150w, https://umi.im/wp-content/uploads/2014/08/QQ-LITE-play-300x96.png 300w&#34; sizes=&#34;(max-width: 844px) 100vw, 844px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;简洁清爽流畅无广告的QQ轻聊版，安装包只有7.5MB大小。&lt;/p&gt;
+&lt;p&gt;最新的测试版加入了&lt;a href=&#34;http://www.apkbus.com/design/index.html&#34; target=&#34;_blank&#34;&gt;Android Design&lt;/a&gt;中的&lt;a href=&#34;http://www.apkbus.com/design/patterns/actionbar.html&#34; target=&#34;_blank&#34;&gt;Action Bar&lt;/a&gt;和&lt;a href=&#34;http://www.apkbus.com/design/building-blocks/tabs.html&#34; target=&#34;_blank&#34;&gt;Tabs&lt;/a&gt;&lt;span style=&#34;color: #222222;&#34;&gt;，虽然用的不是原生控件，但是&lt;/span&gt;没有了底部Tab真的感觉好看多了！&lt;/p&gt;
+&lt;p&gt;可以和N年不更新的QQ HD mini 2013说再见了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/QQ-LITE-Android-design.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2806&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/QQ-LITE-Android-design.png&#34; alt=&#34;QQ-LITE-Android-design&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/QQ-LITE-Android-design.png 768w, https://umi.im/wp-content/uploads/2014/08/QQ-LITE-Android-design-90x150.png 90w, https://umi.im/wp-content/uploads/2014/08/QQ-LITE-Android-design-180x300.png 180w, https://umi.im/wp-content/uploads/2014/08/QQ-LITE-Android-design-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-title下载-hrefhttppanbaiducomsharelinkshareid1377010933uk3559953705-target_blankqq轻聊版-v300242a&#34;&gt;
+    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttppanbaiducomsharelinkshareid1377010933uk3559953705-target_blankqq%e8%bd%bb%e8%81%8a%e7%89%88-v300242a&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;下载&#34; href=&#34;http://pan.baidu.com/share/link?shareid=1377010933&amp;uk=3559953705&#34; target=&#34;_blank&#34;&gt;QQ轻聊版 V3.0.0.242&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>绅士APP 轻轻一点Android版</title>
+        <link>https://umi.im/qingqingyidian-android/</link>
+        <pubDate>Tue, 05 Aug 2014 08:29:04 +0000</pubDate>
+        
+        <guid>https://umi.im/qingqingyidian-android/</guid>
+        <description>&lt;blockquote class=&#34;wp-block-quote is-layout-flow wp-block-quote-is-layout-flow&#34;&gt;
+  &lt;p&gt;
+    &lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;strong&gt;WARNING：If you are under 18 years of age, or if it is illegal to view adult material in your community, please leave now.&lt;/strong&gt;&lt;/span&gt;
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以前介绍过一个叫 &lt;a href=&#34;https://umi.im/qingqingyidian/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;轻轻一点&lt;/a&gt; 的Windows应用，没想到现在已经开发了Android版。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;轻轻一点是一个给绅士寻找里番的应用。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: #000000;&#34;&gt;集合了2000年1月-2013年的里番及部分真人cosplay作品，不定时更新，据说多达1500多份节操。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓以下内容小孩子不要看↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓&lt;/p&gt;
+&lt;p&gt;这货看启动画面就感觉好H，抚摸进去好猥琐！_(:3ゝ∠)_&lt;/p&gt;
+&lt;p&gt;不过这张启动画面从画质到质量都感觉不行啊。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/07/qingqingyidian-android-1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;768&#34; height=&#34;1280&#34; src=&#34;https://umi.im/wp-content/uploads/2014/07/qingqingyidian-android-1.jpg&#34; alt=&#34;qingqingyidian-android-1&#34; class=&#34;wp-image-2732&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/07/qingqingyidian-android-1.jpg 768w, https://umi.im/wp-content/uploads/2014/07/qingqingyidian-android-1-90x150.jpg 90w, https://umi.im/wp-content/uploads/2014/07/qingqingyidian-android-1-180x300.jpg 180w, https://umi.im/wp-content/uploads/2014/07/qingqingyidian-android-1-614x1024.jpg 614w&#34; sizes=&#34;(max-width: 768px) 100vw, 768px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;UI更是简陋，看左上角右上角那个坑爹的LOGO和搜索图标！好无力！&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;768&#34; height=&#34;1280&#34; src=&#34;https://umi.im/wp-content/uploads/2022/11/qingqingyidian-android-2-x.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-6222&#34; /&gt;  
+&lt;p&gt;因为那个粗糙的搜索图标所以试了下搜索功能，搜索结果还满意，不要问我为什么搜索鬼父，能记得名字的里番真的只有这部了！&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;768&#34; height=&#34;1280&#34; src=&#34;https://umi.im/wp-content/uploads/2022/11/qingqingyidian-android-3-x.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-6223&#34; /&gt;  
+&lt;p&gt;目前还不能实现云播。&lt;/p&gt;
+&lt;p&gt;所以目前该APP最大的作用是调用Android的分享机制把里番分享的朋(hen)友(tai)。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;768&#34; height=&#34;1280&#34; src=&#34;https://umi.im/wp-content/uploads/2022/11/qingqingyidian-android-4-x.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-6224&#34; /&gt;  
+&lt;p&gt;来源：&lt;a href=&#34;http://tieba.baidu.com/f?kw=%C7%E1%C7%E1%D2%BB%B5%E3&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;轻轻一点贴吧&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpqqydby2kuphpnetqqydtxt-target_blank-relnoopener轻轻一点找节操工具a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpqqydby2kuphpnetqqydtxt-target_blank-relnoopener%e8%bd%bb%e8%bd%bb%e4%b8%80%e7%82%b9%e6%89%be%e8%8a%82%e6%93%8d%e5%b7%a5%e5%85%b7a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://qqydby2.kuphp.net/qqyd.txt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;轻轻一点找节操工具&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>最美新浪微博客户端 ~ Smooth</title>
+        <link>https://umi.im/smooth/</link>
+        <pubDate>Sat, 26 Jul 2014 18:59:19 +0000</pubDate>
+        
+        <guid>https://umi.im/smooth/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/07/Smooth.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2721&#34; src=&#34;https://umi.im/wp-content/uploads/2014/07/Smooth.png&#34; alt=&#34;Smooth&#34; width=&#34;847&#34; height=&#34;272&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/07/Smooth.png 847w, https://umi.im/wp-content/uploads/2014/07/Smooth-150x48.png 150w, https://umi.im/wp-content/uploads/2014/07/Smooth-300x96.png 300w&#34; sizes=&#34;(max-width: 847px) 100vw, 847px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;众所周知，国内IT大公司出品的Android应用是非常烂的。&lt;/p&gt;
+&lt;p&gt;比如新浪的微博客户端也不例外，好在新浪是开放API的，第三方开发者可以调用新浪API开发出第三方的微博客户端。&lt;/p&gt;
+&lt;p&gt;所以国内有诸如&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.eico.weico&#34; target=&#34;_blank&#34;&gt;Weico&lt;/a&gt;、&lt;a href=&#34;https://play.google.com/store/apps/details?id=org.qii.weiciyuan&#34; target=&#34;_blank&#34;&gt;四次元&lt;/a&gt;和&lt;a href=&#34;https://play.google.com/store/apps/details?id=me.imid.fuubo&#34; target=&#34;_blank&#34;&gt;Fuubo&lt;/a&gt;等优秀的第三方微博客户端。&lt;/p&gt;
+&lt;p&gt;这款Smooth新浪微博客户端遵循Android Design，简洁流畅，类似Google+客户端卡片式的设计。&lt;/p&gt;
+&lt;p&gt;在Android 4.4下默认开启“沉浸模式”，即虚拟按键和通知栏透明化和应用界面融为一体。&lt;/p&gt;
+&lt;p&gt;个人最喜欢的地方就是能设置“透明背景”，下图的背景即是我的启动器桌面。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/07/Smooth-1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2723&#34; src=&#34;https://umi.im/wp-content/uploads/2014/07/Smooth-1.jpg&#34; alt=&#34;Smooth-1&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/07/Smooth-1.jpg 768w, https://umi.im/wp-content/uploads/2014/07/Smooth-1-90x150.jpg 90w, https://umi.im/wp-content/uploads/2014/07/Smooth-1-180x300.jpg 180w, https://umi.im/wp-content/uploads/2014/07/Smooth-1-614x1024.jpg 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-title下载-hrefhttpsplaygooglecomstoreappsdetailsidcommzbahappylaugh-target_blanksmooth新浪微博客户端agoogle-play&#34;&gt;
+    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttpsplaygooglecomstoreappsdetailsidcommzbahappylaugh-target_blanksmooth%e6%96%b0%e6%b5%aa%e5%be%ae%e5%8d%9a%e5%ae%a2%e6%88%b7%e7%ab%afagoogle-play&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;下载&#34; href=&#34;https://play.google.com/store/apps/details?id=com.mzba.happy.laugh&#34; target=&#34;_blank&#34;&gt;Smooth新浪微博客户端&lt;/a&gt;（Google Play）
+&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttpcoolapkcomapkcommzbahappylaugh-target_blanksmooth新浪微博客户端a酷安&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpcoolapkcomapkcommzbahappylaugh-target_blanksmooth%e6%96%b0%e6%b5%aa%e5%be%ae%e5%8d%9a%e5%ae%a2%e6%88%b7%e7%ab%afa%e9%85%b7%e5%ae%89&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://coolapk.com/apk/com.mzba.happy.laugh&#34; target=&#34;_blank&#34;&gt;Smooth新浪微博客户端&lt;/a&gt;（酷安）
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>Android虚拟按键修改工具 – SoftKeyZ 汉化版</title>
+        <link>https://umi.im/softkeyz/</link>
+        <pubDate>Sat, 05 Jul 2014 21:01:21 +0000</pubDate>
+        
+        <guid>https://umi.im/softkeyz/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/07/softkeyz.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2612&#34; src=&#34;https://umi.im/wp-content/uploads/2014/07/softkeyz.png&#34; alt=&#34;softkeyz&#34; width=&#34;767&#34; height=&#34;251&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/07/softkeyz.png 767w, https://umi.im/wp-content/uploads/2014/07/softkeyz-150x49.png 150w, https://umi.im/wp-content/uploads/2014/07/softkeyz-300x98.png 300w&#34; sizes=&#34;(max-width: 767px) 100vw, 767px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;十天前的&lt;a href=&#34;https://www.google.com/events/io&#34; target=&#34;_blank&#34;&gt;Google I/O 2014&lt;/a&gt;发布了最新的&lt;a href=&#34;http://developer.android.com/preview/index.html&#34; target=&#34;_blank&#34;&gt;Android L &lt;/a&gt;开发者预览版。&lt;/p&gt;
+&lt;p&gt;Android L&lt;del&gt;最大的特点&lt;/del&gt;是虚拟按键变成圆形、三角形、正方形等几何图形（差个X就构成PlayStation的手柄了）。&lt;/p&gt;
+&lt;p&gt;等了这么久Nexus 4的Android L镜像还没出，可恶。&lt;/p&gt;
+&lt;p&gt;然后就发现了这个软件，可以修改Android的虚拟按键。&lt;/p&gt;
+&lt;p&gt;各种颜色、图形的虚拟按键，还能选触控反馈的颜色。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;使用此软件需要ROOT，非虚拟按键手机最好不要使用，选定虚拟按键方案后会重启，开机时会很慢请不要担心。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;完美兼容Android 4.4（Kitkat）的透明虚拟按键。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/07/softkeyz-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2613&#34; src=&#34;https://umi.im/wp-content/uploads/2014/07/softkeyz-1.png&#34; alt=&#34;softkeyz-1&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/07/softkeyz-1.png 768w, https://umi.im/wp-content/uploads/2014/07/softkeyz-1-90x150.png 90w, https://umi.im/wp-content/uploads/2014/07/softkeyz-1-180x300.png 180w, https://umi.im/wp-content/uploads/2014/07/softkeyz-1-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;内置的在线资源库有各种虚拟按键方案选择。&lt;/p&gt;
+&lt;p&gt;包括了刚推出的Android L的几何抽象虚拟按键，也有HTC和索尼Android机的虚拟按键。&lt;/p&gt;
+&lt;p&gt;连Windows Phone、海贼王和各种世界杯球队的都有。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/07/softkeyz-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2621&#34; src=&#34;https://umi.im/wp-content/uploads/2014/07/softkeyz-3.png&#34; alt=&#34;softkeyz-3&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/07/softkeyz-3.png 768w, https://umi.im/wp-content/uploads/2014/07/softkeyz-3-90x150.png 90w, https://umi.im/wp-content/uploads/2014/07/softkeyz-3-180x300.png 180w, https://umi.im/wp-content/uploads/2014/07/softkeyz-3-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-titleftp下载-hrefhttpsumiimwp-contentuploads201407softkeyz-14-5-620apk-target_blanksoftkeyza本地下载&#34;&gt;
+    &lt;a href=&#34;#a-titleftp%e4%b8%8b%e8%bd%bd-hrefhttpsumiimwp-contentuploads201407softkeyz-14-5-620apk-target_blanksoftkeyza%e6%9c%ac%e5%9c%b0%e4%b8%8b%e8%bd%bd&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;ftp下载&#34; href=&#34;https://umi.im/wp-content/uploads/2014/07/SoftKeyz-14-5-6%20.apk&#34; target=&#34;_blank&#34;&gt;SoftKeyZ&lt;/a&gt;（本地下载）
+&lt;/h2&gt;&lt;h2 id=&#34;a-title下载-hrefhttppanbaiducoms1sjrvqeh-target_blanksoftkeyza百度云&#34;&gt;
+    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttppanbaiducoms1sjrvqeh-target_blanksoftkeyza%e7%99%be%e5%ba%a6%e4%ba%91&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;下载&#34; href=&#34;http://pan.baidu.com/s/1sjrvqEh&#34; target=&#34;_blank&#34;&gt;SoftKeyZ&lt;/a&gt;（百度云）
+&lt;/h2&gt;&lt;h2 id=&#34;a-title下载-hrefhttpcoolapkcomapkcomjanis605softkeyz-target_blanksoftkeyzaenglish酷安&#34;&gt;
+    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttpcoolapkcomapkcomjanis605softkeyz-target_blanksoftkeyzaenglish%e9%85%b7%e5%ae%89&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;下载&#34; href=&#34;http://coolapk.com/apk/com.janis605.softkeyz&#34; target=&#34;_blank&#34;&gt;SoftKeyZ&lt;/a&gt;/English（酷安）
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>快图浏览（QuickPic）3.5 Beta 加入Picasa、百度云接入</title>
+        <link>https://umi.im/quickpic-beta/</link>
+        <pubDate>Fri, 06 Jun 2014 16:48:36 +0000</pubDate>
+        
+        <guid>https://umi.im/quickpic-beta/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/06/QuickPic-beta.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2482&#34; src=&#34;https://umi.im/wp-content/uploads/2014/06/QuickPic-beta.png&#34; alt=&#34;QuickPic-beta&#34; width=&#34;753&#34; height=&#34;251&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/06/QuickPic-beta.png 753w, https://umi.im/wp-content/uploads/2014/06/QuickPic-beta-150x50.png 150w, https://umi.im/wp-content/uploads/2014/06/QuickPic-beta-300x100.png 300w&#34; sizes=&#34;(max-width: 753px) 100vw, 753px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;测试版加入了Android Design的Navigation Drawer（导航抽屉），就是从屏幕边缘左侧往右滑出来的那个抽屉，加入Picasa（G+相册）和百度云接入，这样就可以在快图浏览中查看这些网盘上面的图片了。&lt;/p&gt;
+&lt;p&gt;百度云API很保守（&lt;del&gt;烂&lt;/del&gt;），只提供应用在&lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;strong&gt;我的应用数据&lt;/strong&gt;&lt;/span&gt;的接入权限，也就是说不能看到百度云其他文件夹的图片，只能把图片拷贝到&lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;strong&gt;我的应用数据&lt;/strong&gt;&lt;/span&gt;下的&lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;strong&gt;QuickPic&lt;/strong&gt;&lt;/span&gt;文件夹才能查看，而且没有预览图片。&lt;/p&gt;
+&lt;p&gt;Picasa（G+相册）的支持比百度云好点，都可以上传本机图片上去，但是不能删除Picasa上的图片。&lt;/p&gt;
+&lt;p&gt;应用图标也扁平化了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/06/QuickPic-beta-1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2479&#34; src=&#34;https://umi.im/wp-content/uploads/2014/06/QuickPic-beta-1.jpg&#34; alt=&#34;QuickPic-beta-1&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/06/QuickPic-beta-1.jpg 768w, https://umi.im/wp-content/uploads/2014/06/QuickPic-beta-1-90x150.jpg 90w, https://umi.im/wp-content/uploads/2014/06/QuickPic-beta-1-180x300.jpg 180w, https://umi.im/wp-content/uploads/2014/06/QuickPic-beta-1-614x1024.jpg 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-title官方下载-hrefhttpalenswcomassetsquickpic_35b2apk-target_blankquickpic-35-betaa官方下载&#34;&gt;
+    &lt;a href=&#34;#a-title%e5%ae%98%e6%96%b9%e4%b8%8b%e8%bd%bd-hrefhttpalenswcomassetsquickpic_35b2apk-target_blankquickpic-35-betaa%e5%ae%98%e6%96%b9%e4%b8%8b%e8%bd%bd&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;官方下载&#34; href=&#34;http://alensw.com/assets/quickpic_3.5b2.apk&#34; target=&#34;_blank&#34;&gt;QuickPic 3.5 Beta&lt;/a&gt;（官方下载）
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>Android的WIFI分析仪</title>
+        <link>https://umi.im/wifi-analyzer/</link>
+        <pubDate>Mon, 02 Jun 2014 09:51:01 +0000</pubDate>
+        
+        <guid>https://umi.im/wifi-analyzer/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/05/wifi-analyzer.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2392&#34; src=&#34;https://umi.im/wp-content/uploads/2014/05/wifi-analyzer.png&#34; alt=&#34;wifi-analyzer&#34; width=&#34;769&#34; height=&#34;253&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/05/wifi-analyzer.png 769w, https://umi.im/wp-content/uploads/2014/05/wifi-analyzer-150x49.png 150w, https://umi.im/wp-content/uploads/2014/05/wifi-analyzer-300x98.png 300w&#34; sizes=&#34;(max-width: 769px) 100vw, 769px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[blockquote source=”官方介绍”]有了此程式，你的 Android 手機將立即變身成爲一個方便實用的 Wi-Fi 分析儀！&lt;/p&gt;
+&lt;p&gt;本程式可以顯示您周圍的 Wi-Fi 通道佔用情況。幫助您爲自己的無線路由器選擇一個相對空閒的通道以提高連接質量。&lt;/blockquote&gt;&lt;/p&gt;
+&lt;p&gt;WIFI信号强度一目了然。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/05/wifi-analyzer-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2406&#34; src=&#34;https://umi.im/wp-content/uploads/2014/05/wifi-analyzer-1.png&#34; alt=&#34;wifi-analyzer-1&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/05/wifi-analyzer-1.png 768w, https://umi.im/wp-content/uploads/2014/05/wifi-analyzer-1-90x150.png 90w, https://umi.im/wp-content/uploads/2014/05/wifi-analyzer-1-180x300.png 180w, https://umi.im/wp-content/uploads/2014/05/wifi-analyzer-1-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-title下载-hrefhttpsplaygooglecomstoreappsdetailsidcomfarprocwifianalyzer-target_blankwifi分析仪agoogle-play&#34;&gt;
+    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttpsplaygooglecomstoreappsdetailsidcomfarprocwifianalyzer-target_blankwifi%e5%88%86%e6%9e%90%e4%bb%aaagoogle-play&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;下载&#34; href=&#34;https://play.google.com/store/apps/details?id=com.farproc.wifi.analyzer&#34; target=&#34;_blank&#34;&gt;Wifi分析仪&lt;/a&gt;（Google Play）
+&lt;/h2&gt;&lt;h2 id=&#34;a-title下载-hrefhttpwwwcoolapkcomapkcomfarprocwifianalyzer-target_blankwifi分析仪a酷安&#34;&gt;
+    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttpwwwcoolapkcomapkcomfarprocwifianalyzer-target_blankwifi%e5%88%86%e6%9e%90%e4%bb%aaa%e9%85%b7%e5%ae%89&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;下载&#34; href=&#34;http://www.coolapk.com/apk/com.farproc.wifi.analyzer&#34; target=&#34;_blank&#34;&gt;Wifi分析仪&lt;/a&gt;（酷安）
+&lt;/h2&gt;&lt;div&gt;
+  &lt;div&gt;
+    &lt;div class=&#39;alert alert-primary&#39;&gt;
+      &lt;span class=&#39;alert-inner--text&#39;&gt;如果没安装Google Play，请使用&lt;span style=&#34;color: #ffff00;&#34;&gt;&lt;a title=&#34;打开&#34; href=&#34;https://umi.im/apk-downloader/&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #ffff00;&#34;&gt;APK Downloader&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;下载应用。&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
+        <title>云颜文字 ( っ*’ω’*c)</title>
+        <link>https://umi.im/cloud-emoticon/</link>
+        <pubDate>Tue, 13 May 2014 08:46:12 +0000</pubDate>
+        
+        <guid>https://umi.im/cloud-emoticon/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/05/cloud-emoticon.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2295&#34; src=&#34;https://umi.im/wp-content/uploads/2014/05/cloud-emoticon.png&#34; alt=&#34;cloud-emoticon&#34; width=&#34;766&#34; height=&#34;250&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/05/cloud-emoticon.png 766w, https://umi.im/wp-content/uploads/2014/05/cloud-emoticon-150x48.png 150w, https://umi.im/wp-content/uploads/2014/05/cloud-emoticon-300x97.png 300w&#34; sizes=&#34;(max-width: 766px) 100vw, 766px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Android端输入颜文字的利器。&lt;/p&gt;
+&lt;p&gt;无后台，常驻下拉菜单栏，单击打开，单击颜文字后会自动复制并返回（BACK）上一层应用，方便黏贴。&lt;/p&gt;
+&lt;p&gt;它可以读取云端表情库。（比如某个Dropbox公开分享的XML文件）&lt;/p&gt;
+&lt;p&gt;这还是一款开源软件。&lt;/p&gt;
+&lt;p&gt;源代码：&lt;a style=&#34;color: #1155cc;&#34; href=&#34;https://www.google.com/url?q=https://github.com/KTachibanaM/cloudemoji&amp;sa=D&amp;usg=AFQjCNHkhMSnMiW21gYGflC0qY7kJPtGLA&#34; target=&#34;_blank&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/KTachibanaM/cloudemoji&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/KTachibanaM/cloudemoji&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/05/cloud-emoticon-1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2300&#34; src=&#34;https://umi.im/wp-content/uploads/2014/05/cloud-emoticon-1.jpg&#34; alt=&#34;cloud-emoticon-1&#34; width=&#34;1440&#34; height=&#34;900&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/05/cloud-emoticon-1.jpg 1440w, https://umi.im/wp-content/uploads/2014/05/cloud-emoticon-1-150x93.jpg 150w, https://umi.im/wp-content/uploads/2014/05/cloud-emoticon-1-300x187.jpg 300w, https://umi.im/wp-content/uploads/2014/05/cloud-emoticon-1-1024x640.jpg 1024w, https://umi.im/wp-content/uploads/2014/05/cloud-emoticon-1-400x250.jpg 400w&#34; sizes=&#34;(max-width: 1440px) 100vw, 1440px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/05/cloud-emoticon-2.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2301&#34; src=&#34;https://umi.im/wp-content/uploads/2014/05/cloud-emoticon-2.jpg&#34; alt=&#34;cloud-emoticon-2&#34; width=&#34;506&#34; height=&#34;900&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/05/cloud-emoticon-2.jpg 506w, https://umi.im/wp-content/uploads/2014/05/cloud-emoticon-2-84x150.jpg 84w, https://umi.im/wp-content/uploads/2014/05/cloud-emoticon-2-168x300.jpg 168w&#34; sizes=&#34;(max-width: 506px) 100vw, 506px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div&gt;
+  下载地址：
+&lt;/div&gt;
+&lt;h3 style=&#34;text-align: left;&#34;&gt;
+  &lt;a title=&#34;Google Play&#34; href=&#34;https://play.google.com/store/apps/details?id=org.ktachibana.cloudemoji&#34; target=&#34;_blank&#34;&gt;云颜文字&lt;/a&gt;（Google Play）
+&lt;/h3&gt;
+&lt;h3 style=&#34;text-align: left;&#34;&gt;
+  &lt;a title=&#34;酷安&#34; href=&#34;http://www.coolapk.com/apk/org.ktachibana.cloudemoji&#34; target=&#34;_blank&#34;&gt;云颜文字&lt;/a&gt;（酷安）
+&lt;/h3&gt;
+</description>
+        </item>
+        <item>
+        <title>CCleaner For Android</title>
+        <link>https://umi.im/ccleaner-for-android-beta/</link>
+        <pubDate>Fri, 04 Apr 2014 09:13:09 +0000</pubDate>
+        
+        <guid>https://umi.im/ccleaner-for-android-beta/</guid>
+        <description>&lt;p&gt;Windows上大名鼎鼎的垃圾清理软件终于推出了Android版，该来的总是会来的。&lt;/p&gt;
+&lt;p&gt;现在暂时还是Beta版（公测），加入CCleaner For Android的G+社群就可以参加测试了。&lt;/p&gt;
+&lt;p&gt;[blockquote source=”小众软件”]&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;加入 &lt;a class=&#34;link&#34; href=&#34;https://plus.google.com/communities/110652555815519063408&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CCleaner for Android 社群&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;前往 &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/apps/testing/com.piriform.ccleaner&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Google Play&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;点击 “成为测试人员”&lt;/li&gt;
+&lt;li&gt;最后才可以从 Google Play 下载。&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1938&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-1.png&#34; alt=&#34;ccleaner-for-android-beta-1&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-1.png 768w, https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-1-90x150.png 90w, https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-1-180x300.png 180w, https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-1-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Google Play上的CC，暂时还不能评论。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1939&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-2.png&#34; alt=&#34;ccleaner-for-android-beta-2&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-2.png 768w, https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-2-90x150.png 90w, https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-2-180x300.png 180w, https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-2-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;界面非常简洁，符合&lt;a title=&#34;Android Design&#34; href=&#34;http://www.apkbus.com/design/&#34; target=&#34;_blank&#34;&gt;Android Design&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;都是英文压力很大，点“ANALYZE”应该是分析垃圾吧，操纵逻辑和Windows版的一样。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-31.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1940&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-31.png&#34; alt=&#34;ccleaner-for-android-beta-3&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-31.png 768w, https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-31-90x150.png 90w, https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-31-180x300.png 180w, https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-31-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;分析完了，就缓存、chipboard（什么玩意）和通话记录，清理缓存的时候好像把快图浏览的略缩图干掉了。_(:3ゝ∠)_&lt;/p&gt;
+&lt;p&gt;清理出668MB缓存，好像效果还不错。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-4.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1942&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-4.png&#34; alt=&#34;ccleaner-for-android-beta-4&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-4.png 768w, https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-4-90x150.png 90w, https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-4-180x300.png 180w, https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-4-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;程序管理自然也少不了，也可以卸载系统程序（肯定需要ROOT），不过能卸载的系统程序只有我用GAPPS刷上去的Google系应用和CM自带的终端模拟器，CC在这方面很保守。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-52.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1947&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-52.png&#34; alt=&#34;ccleaner-for-android-beta-5&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-52.png 768w, https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-52-90x150.png 90w, https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-52-180x300.png 180w, https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-52-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;还可以查看系统信息，好像很鸡肋。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-61.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1945&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-61.png&#34; alt=&#34;ccleaner-for-android-beta-6&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-61.png 768w, https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-61-90x150.png 90w, https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-61-180x300.png 180w, https://umi.im/wp-content/uploads/2014/04/ccleaner-for-android-beta-61-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;安装后把APK提取出来分享下，不知道能不能安装，求测试！&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-title百度云-hrefhttppanbaiducomsharelinkshareid815599023uk3191095378-target_blankccleaner-for-android-betaa&#34;&gt;
+    &lt;a href=&#34;#a-title%e7%99%be%e5%ba%a6%e4%ba%91-hrefhttppanbaiducomsharelinkshareid815599023uk3191095378-target_blankccleaner-for-android-betaa&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;百度云&#34; href=&#34;http://pan.baidu.com/share/link?shareid=815599023&amp;uk=3191095378&#34; target=&#34;_blank&#34;&gt;CCleaner For Android Beta&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>炒土豆丝の软件（Android）</title>
+        <link>https://umi.im/android-apps/</link>
+        <pubDate>Wed, 26 Feb 2014 22:32:40 +0000</pubDate>
+        
+        <guid>https://umi.im/android-apps/</guid>
+        <description>&lt;address&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/android-software.jpeg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1654&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/android-software.jpeg&#34; alt=&#34;android-software&#34; width=&#34;1280&#34; height=&#34;923&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/android-software.jpeg 1280w, https://umi.im/wp-content/uploads/2014/02/android-software-150x108.jpeg 150w, https://umi.im/wp-content/uploads/2014/02/android-software-300x216.jpeg 300w, https://umi.im/wp-content/uploads/2014/02/android-software-1024x738.jpeg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;
+&lt;/address&gt;
+&lt;h2 id=&#34;a-titlegoogle-play-hrefhttpsplaygooglecomstore-target_blank-relnoopenergoogle-playa-a-hrefhttpwwwcoolapkcomapkcomcoolapkmarket-target_blank-relnoopener酷市场a&#34;&gt;
+    &lt;a href=&#34;#a-titlegoogle-play-hrefhttpsplaygooglecomstore-target_blank-relnoopenergoogle-playa-a-hrefhttpwwwcoolapkcomapkcomcoolapkmarket-target_blank-relnoopener%e9%85%b7%e5%b8%82%e5%9c%baa&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;Google Play&#34; href=&#34;https://play.google.com/store&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Play&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://www.coolapk.com/apk/com.coolapk.market&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;酷市场&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Play Store 无论设计还是使用体验都是最好的应用市场，可惜被墙，翻墙的话下载速度又比较慢，另外吐槽 App Store 真是难用死了，&lt;/p&gt;
+&lt;p&gt;酷市场则是国内最良心的应用市场，没事刷刷酷市场能发现很多新奇好玩的软件。&lt;/p&gt;
+&lt;p&gt;如果一款软件另有捐赠版/付费版，酷市场下载不了，但是评论里面都会有热心酷友给出捐赠版/付费版的下载链接，所谓同性交友网站…&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/Google-play-2015.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4114&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/Google-play-2015.jpg&#34; alt=&#34;Google-play-2015&#34; width=&#34;360&#34; height=&#34;640&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/Google-play-2015.jpg 360w, https://umi.im/wp-content/uploads/2014/02/Google-play-2015-84x150.jpg 84w, https://umi.im/wp-content/uploads/2014/02/Google-play-2015-169x300.jpg 169w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/CoolMarket.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4112&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/CoolMarket.jpg&#34; alt=&#34;CoolMarket&#34; width=&#34;360&#34; height=&#34;640&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/CoolMarket.jpg 360w, https://umi.im/wp-content/uploads/2014/02/CoolMarket-84x150.jpg 84w, https://umi.im/wp-content/uploads/2014/02/CoolMarket-169x300.jpg 169w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwcoolapkcomapkcomteslacoilswlauncher-target_blank-relnoopenernova-launchera&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwcoolapkcomapkcomteslacoilswlauncher-target_blank-relnoopenernova-launchera&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.coolapk.com/apk/com.teslacoilsw.launcher&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nova Launcher&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;原生风格的启动器，功能强大不失小巧。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/Android-Nova-Launcher.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone wp-image-1623&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/Android-Nova-Launcher.png&#34; alt=&#34;Android-Nova-Launcher&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/Android-Nova-Launcher.png 768w, https://umi.im/wp-content/uploads/2014/02/Android-Nova-Launcher-90x150.png 90w, https://umi.im/wp-content/uploads/2014/02/Android-Nova-Launcher-180x300.png 180w, https://umi.im/wp-content/uploads/2014/02/Android-Nova-Launcher-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwcoolapkcomapkcommaxmpzaudioplayer-target_blank-relnoopenerpowerampa&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwcoolapkcomapkcommaxmpzaudioplayer-target_blank-relnoopenerpowerampa&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.coolapk.com/apk/com.maxmpz.audioplayer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PowerAMP&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Android上音质最好的音频播放器之一，音效也是一流强悍。&lt;/p&gt;
+&lt;p&gt;这是我第一个舍得花钱买的软件，价格3.99刀，主要是破解比较麻烦…&lt;/p&gt;
+&lt;p&gt;我使用了一个叫 &lt;a title=&#34;去Google Play下载&#34; href=&#34;https://play.google.com/store/apps/details?id=com.ikorolkov.poweramp.skins.ics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Poweramp skin KitKat/JB/ICS&lt;/a&gt; 的皮肤，有 Kitkat 的导航栏通知栏渐变阴影，播放界面呈现专辑封面的高斯模糊特效，非常漂亮。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/Android-poweramp-2015.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4105&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/Android-poweramp-2015.jpg&#34; alt=&#34;Android-poweramp-2015&#34; width=&#34;360&#34; height=&#34;640&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/Android-poweramp-2015.jpg 360w, https://umi.im/wp-content/uploads/2014/02/Android-poweramp-2015-84x150.jpg 84w, https://umi.im/wp-content/uploads/2014/02/Android-poweramp-2015-169x300.jpg 169w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-title去google-play下载-hrefhttpsplaygooglecomstoreappsdetailsidcomlonelycatgamesxplore-target_blank-relnoopenerx-plorefile-managera&#34;&gt;
+    &lt;a href=&#34;#a-title%e5%8e%bbgoogle-play%e4%b8%8b%e8%bd%bd-hrefhttpsplaygooglecomstoreappsdetailsidcomlonelycatgamesxplore-target_blank-relnoopenerx-plorefile-managera&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;去Google Play下载&#34; href=&#34;https://play.google.com/store/apps/details?id=com.lonelycatgames.Xplore&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;X-Plore File Manager&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;貌似 Android 最流行的文件管理器叫&lt;a href=&#34;http://www.estrongs.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;E.S管理器&lt;/a&gt;，好吧，我觉得E.S一点都不好用。&lt;/p&gt;
+&lt;p&gt;用过 Symbian 系统都该知道大名鼎鼎的 X-Plore 吧，它竟然还有 Android 版。&lt;/p&gt;
+&lt;p&gt;Android采用了双窗格树形界面，操作效率高。&lt;/p&gt;
+&lt;p&gt;可以连接 Google Dirve、Dropbox 和 OneDrive 等国外知名网盘，还有 SSH、局域网、FTP 和 Picasa 相册访问等功能。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/Android-X-Plore-File-Manager.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4111&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/Android-X-Plore-File-Manager.jpg&#34; alt=&#34;Android-X-Plore File Manager&#34; width=&#34;360&#34; height=&#34;640&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/Android-X-Plore-File-Manager.jpg 360w, https://umi.im/wp-content/uploads/2014/02/Android-X-Plore-File-Manager-84x150.jpg 84w, https://umi.im/wp-content/uploads/2014/02/Android-X-Plore-File-Manager-169x300.jpg 169w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwcoolapkcomapkcomtencentqqlite-target_blank-relnoopenerqq-轻聊版a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwcoolapkcomapkcomtencentqqlite-target_blank-relnoopenerqq-%e8%bd%bb%e8%81%8a%e7%89%88a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.coolapk.com/apk/com.tencent.qqlite&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QQ 轻聊版&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;原版是屎，轻聊版没那么臭。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/Android-QQ-LITE.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4106&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/Android-QQ-LITE.jpg&#34; alt=&#34;Android-QQ-LITE&#34; width=&#34;360&#34; height=&#34;640&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/Android-QQ-LITE.jpg 360w, https://umi.im/wp-content/uploads/2014/02/Android-QQ-LITE-84x150.jpg 84w, https://umi.im/wp-content/uploads/2014/02/Android-QQ-LITE-169x300.jpg 169w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-title去google-play下载-hrefhttpsplaygooglecomstoreappsdetailsidcomevernote-target_blank-relnoopenerevernotea&#34;&gt;
+    &lt;a href=&#34;#a-title%e5%8e%bbgoogle-play%e4%b8%8b%e8%bd%bd-hrefhttpsplaygooglecomstoreappsdetailsidcomevernote-target_blank-relnoopenerevernotea&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;去Google Play下载&#34; href=&#34;https://play.google.com/store/apps/details?id=com.evernote&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EverNote&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;印象笔记之所以强大是因为它几乎全平台霸制，而且无论是桌面端还是移动端都很好用。&lt;/p&gt;
+&lt;p&gt;界面一看起来就让人觉得非常舒服，搜索功能依旧强大。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/Android-Evernote.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone wp-image-1619&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/Android-Evernote.png&#34; alt=&#34;Android-Evernote&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/Android-Evernote.png 768w, https://umi.im/wp-content/uploads/2014/02/Android-Evernote-90x150.png 90w, https://umi.im/wp-content/uploads/2014/02/Android-Evernote-180x300.png 180w, https://umi.im/wp-content/uploads/2014/02/Android-Evernote-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwcoolapkcomapkcomalenswpicfolder-target_blank-relnoopener快图浏览a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwcoolapkcomapkcomalenswpicfolder-target_blank-relnoopener%e5%bf%ab%e5%9b%be%e6%b5%8f%e8%a7%88a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.coolapk.com/apk/com.alensw.PicFolder&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;快图浏览&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;公认的 Android 最好用的本地图片浏览器。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/QuickPic-Gallery.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4116&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/QuickPic-Gallery.jpg&#34; alt=&#34;QuickPic Gallery&#34; width=&#34;360&#34; height=&#34;640&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/QuickPic-Gallery.jpg 360w, https://umi.im/wp-content/uploads/2014/02/QuickPic-Gallery-84x150.jpg 84w, https://umi.im/wp-content/uploads/2014/02/QuickPic-Gallery-169x300.jpg 169w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwcoolapkcomapkcomgoogleandroidappsphotos-target_blank-relnoopenergoogle-相册a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwcoolapkcomapkcomgoogleandroidappsphotos-target_blank-relnoopenergoogle-%e7%9b%b8%e5%86%8ca&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.coolapk.com/apk/com.google.android.apps.photos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google 相册&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Google 相册则是刚从 Google+ 分离出的网络相册，无限储存空间。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/Google-photo.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4113&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/Google-photo.jpg&#34; alt=&#34;Google-photo&#34; width=&#34;360&#34; height=&#34;640&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/Google-photo.jpg 360w, https://umi.im/wp-content/uploads/2014/02/Google-photo-84x150.jpg 84w, https://umi.im/wp-content/uploads/2014/02/Google-photo-169x300.jpg 169w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-title去google-play下载-hrefhttpsplaygooglecomstoreappsdetailsidfqrouter2-target_blank-relnoopenerfqroutera&#34;&gt;
+    &lt;a href=&#34;#a-title%e5%8e%bbgoogle-play%e4%b8%8b%e8%bd%bd-hrefhttpsplaygooglecomstoreappsdetailsidfqrouter2-target_blank-relnoopenerfqroutera&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;去Google Play下载&#34; href=&#34;https://play.google.com/store/apps/details?id=fq.router2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fqrouter&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;2014年中由于 Google IP 被大量封锁，导致翻墙速度极慢。&lt;/p&gt;
+&lt;p&gt;现在只能添加私人的 Shadowsocks 账号使用了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/Android-fqrouter.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone wp-image-1621&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/Android-fqrouter.png&#34; alt=&#34;Android-fqrouter&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/Android-fqrouter.png 768w, https://umi.im/wp-content/uploads/2014/02/Android-fqrouter-90x150.png 90w, https://umi.im/wp-content/uploads/2014/02/Android-fqrouter-180x300.png 180w, https://umi.im/wp-content/uploads/2014/02/Android-fqrouter-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwcoolapkcomapkcomsmzdmclientandroid-target_blank-relnoopener什么值得买a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwcoolapkcomapkcomsmzdmclientandroid-target_blank-relnoopener%e4%bb%80%e4%b9%88%e5%80%bc%e5%be%97%e4%b9%b0a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.coolapk.com/apk/com.smzdm.client.android&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;什么值得买&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;购物优惠网站色魔张大妈（SMZDM）的 Android 客户端，遵循 Material Design 规范。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/Android-SMZDM.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4109&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/Android-SMZDM.jpg&#34; alt=&#34;Android-SMZDM&#34; width=&#34;360&#34; height=&#34;640&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/Android-SMZDM.jpg 360w, https://umi.im/wp-content/uploads/2014/02/Android-SMZDM-84x150.jpg 84w, https://umi.im/wp-content/uploads/2014/02/Android-SMZDM-169x300.jpg 169w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwcoolapkcomapkcomimaginefree-target_blank-relnoopenerimagine-freea&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwcoolapkcomapkcomimaginefree-target_blank-relnoopenerimagine-freea&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.coolapk.com/apk/com.imagine.free&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Imagine Free&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;图片分享网站 instagram 的第三方客户端，原生客户端带底部 Tab 实在不能忍。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/Imagine-Free.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4115&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/Imagine-Free.jpg&#34; alt=&#34;Imagine Free&#34; width=&#34;360&#34; height=&#34;640&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/Imagine-Free.jpg 360w, https://umi.im/wp-content/uploads/2014/02/Imagine-Free-84x150.jpg 84w, https://umi.im/wp-content/uploads/2014/02/Imagine-Free-169x300.jpg 169w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwcoolapkcomapkcompiriformccleaner-target_blank-relnoopenerccleanera&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwcoolapkcomapkcompiriformccleaner-target_blank-relnoopenerccleanera&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.coolapk.com/apk/com.piriform.ccleaner&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CCleaner&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Windows 上大名鼎鼎的清理工具。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/Android-CCleaner-2015.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4102&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/Android-CCleaner-2015.jpg&#34; alt=&#34;Android-CCleaner-2015&#34; width=&#34;360&#34; height=&#34;640&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/Android-CCleaner-2015.jpg 360w, https://umi.im/wp-content/uploads/2014/02/Android-CCleaner-2015-84x150.jpg 84w, https://umi.im/wp-content/uploads/2014/02/Android-CCleaner-2015-169x300.jpg 169w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwcoolapkcomapkcombattlelancerseriesguide-target_blank-relnoopenerseriesguidea&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwcoolapkcomapkcombattlelancerseriesguide-target_blank-relnoopenerseriesguidea&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.coolapk.com/apk/com.battlelancer.seriesguide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SeriesGuide&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;追剧助手，美剧、英剧、日剧应有尽有，再也不怕忘记看到第几季第几集了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/Android-SeriesGuide.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4107&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/Android-SeriesGuide.jpg&#34; alt=&#34;Android-SeriesGuide&#34; width=&#34;360&#34; height=&#34;640&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/Android-SeriesGuide.jpg 360w, https://umi.im/wp-content/uploads/2014/02/Android-SeriesGuide-84x150.jpg 84w, https://umi.im/wp-content/uploads/2014/02/Android-SeriesGuide-169x300.jpg 169w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-title去酷安下载-hrefhttpwwwcoolapkcomapkorgadaway-target_blank-relnoopeneradawaya&#34;&gt;
+    &lt;a href=&#34;#a-title%e5%8e%bb%e9%85%b7%e5%ae%89%e4%b8%8b%e8%bd%bd-hrefhttpwwwcoolapkcomapkorgadaway-target_blank-relnoopeneradawaya&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;去酷安下载&#34; href=&#34;http://www.coolapk.com/apk/org.adaway&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AdAway&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;一款基于 Hosts 文件的 Android 广告屏蔽软件，同时 hosts 文件列表由开源组织进行维护，时刻保持最新，类似浏览器的 Adblock 插件。&lt;/p&gt;
+&lt;p&gt;之前介绍过一款 Xposed 下的去广告软件，叫 &lt;a title=&#34;下载链接&#34; href=&#34;http://repo.xposed.info/module/tw.fatminmin.xposed.minminguard&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MinMinGuard&lt;/a&gt; ，通过API呼叫进行广告拦截，理论上拦截效果会更好。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/Adaway-2015.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4101&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/Adaway-2015.jpg&#34; alt=&#34;Adaway-2015&#34; width=&#34;360&#34; height=&#34;640&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/Adaway-2015.jpg 360w, https://umi.im/wp-content/uploads/2014/02/Adaway-2015-84x150.jpg 84w, https://umi.im/wp-content/uploads/2014/02/Adaway-2015-169x300.jpg 169w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwcoolapkcomapkinfopapdtexpresshelper-target_blank-relnoopener水表助手a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwcoolapkcomapkinfopapdtexpresshelper-target_blank-relnoopener%e6%b0%b4%e8%a1%a8%e5%8a%a9%e6%89%8ba&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.coolapk.com/apk/info.papdt.express.helper&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;水表助手&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;霸气的名字，其实是查快递的！&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/Android-express-helper.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4104&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/Android-express-helper.jpg&#34; alt=&#34;Android-express-helper&#34; width=&#34;360&#34; height=&#34;640&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/Android-express-helper.jpg 360w, https://umi.im/wp-content/uploads/2014/02/Android-express-helper-84x150.jpg 84w, https://umi.im/wp-content/uploads/2014/02/Android-express-helper-169x300.jpg 169w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwcoolapkcomapkorgktachibanacloudemoji-target_blank-relnoopener云颜文字a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwcoolapkcomapkorgktachibanacloudemoji-target_blank-relnoopener%e4%ba%91%e9%a2%9c%e6%96%87%e5%ad%97a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.coolapk.com/apk/org.ktachibana.cloudemoji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;云颜文字&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;卖萌用。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/Android-cloud-emoticon.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4103&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/Android-cloud-emoticon.jpg&#34; alt=&#34;Android-cloud-emoticon&#34; width=&#34;360&#34; height=&#34;640&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/Android-cloud-emoticon.jpg 360w, https://umi.im/wp-content/uploads/2014/02/Android-cloud-emoticon-84x150.jpg 84w, https://umi.im/wp-content/uploads/2014/02/Android-cloud-emoticon-169x300.jpg 169w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-titlexposed框架下的必备软件-hrefhttpsumiimxposed-target_blank-relnoopenerxposed-framworka&#34;&gt;
+    &lt;a href=&#34;#a-titlexposed%e6%a1%86%e6%9e%b6%e4%b8%8b%e7%9a%84%e5%bf%85%e5%a4%87%e8%bd%af%e4%bb%b6-hrefhttpsumiimxposed-target_blank-relnoopenerxposed-framworka&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;Xposed框架下的必备软件&#34; href=&#34;https://umi.im/xposed/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xposed Framwork&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;神器当之无愧，Xposed Framwork 是Android系统一款可以在不修改APK的情况下影响程序运行（修改系统）的框架服务，基于它可以制作出许多功能强大的模块，且在功能不冲突的情况下同时运作。&lt;/p&gt;
+&lt;p&gt;Xposed 下的东西太多了，所以我单独写一个帖子介绍这货。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/xposed.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone wp-image-1400&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/xposed.jpg&#34; alt=&#34;xposed&#34; width=&#34;720&#34; height=&#34;469&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/xposed.jpg 1017w, https://umi.im/wp-content/uploads/2014/01/xposed-150x97.jpg 150w, https://umi.im/wp-content/uploads/2014/01/xposed-300x195.jpg 300w&#34; sizes=&#34;(max-width: 720px) 100vw, 720px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>PowerAMP购买经历</title>
+        <link>https://umi.im/poweramp/</link>
+        <pubDate>Thu, 30 Jan 2014 14:29:40 +0000</pubDate>
+        
+        <guid>https://umi.im/poweramp/</guid>
+        <description>&lt;p&gt;这是Android上我最喜欢的播放器，Google Play上销量第一的播放器。&lt;/p&gt;
+&lt;p&gt;我才不是因为&lt;span style=&#34;color: #ffffff;&#34;&gt;破解麻烦特别是装了Google服务的情况下才&lt;span style=&#34;color: #000000;&#34;&gt;购买正版的。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;这是也我第一次花钱买软件。（&lt;span style=&#34;color: #ffffff;&#34;&gt;黑历史 ~ 以前玩毒奶粉的时候买过一次挂，算不算？&lt;/span&gt;）&lt;/p&gt;
+&lt;p&gt;购买起来非常简单，进入 &lt;a title=&#34;点击进入&#34; href=&#34;http://powerampapp.com/buy-poweramp/&#34; target=&#34;_blank&#34;&gt;PowerAMP-Buy&lt;/a&gt; 页面，再点 &lt;span style=&#34;color: #99cc00;&#34;&gt;Buy Now, Directly&lt;/span&gt; 就可以填写资料了。&lt;/p&gt;
+&lt;p&gt;注意，PowerAMP是通过Google帐号验证的，必须安装了Google服务才能验证，所以邮箱也必须是Google的。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/PowerAMP-Buy.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1470&#34; alt=&#34;PowerAMP-Buy&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/PowerAMP-Buy.png&#34; width=&#34;741&#34; height=&#34;675&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/PowerAMP-Buy.png 741w, https://umi.im/wp-content/uploads/2014/01/PowerAMP-Buy-150x136.png 150w, https://umi.im/wp-content/uploads/2014/01/PowerAMP-Buy-300x273.png 300w&#34; sizes=&#34;(max-width: 741px) 100vw, 741px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;价格不到4美刀，折合RMB不到25块。&lt;/p&gt;
+&lt;p&gt;支持支付宝支付，要是大多数软件都像这么优惠而且购买方便还怕盗版？&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/PowerAMP-alipay.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1460&#34; alt=&#34;PowerAMP-alipay&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/PowerAMP-alipay.png&#34; width=&#34;950&#34; height=&#34;333&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/PowerAMP-alipay.png 950w, https://umi.im/wp-content/uploads/2014/01/PowerAMP-alipay-150x52.png 150w, https://umi.im/wp-content/uploads/2014/01/PowerAMP-alipay-300x105.png 300w&#34; sizes=&#34;(max-width: 950px) 100vw, 950px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;支付完成后收到两封邮件，一封是下载解锁器的。&lt;/p&gt;
+&lt;p&gt;点击 &lt;span style=&#34;color: #ff0000;&#34;&gt;Full Version Unlocker&lt;/span&gt; 下载。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/poweramp-tudou-email.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-large wp-image-1463&#34; alt=&#34;poweramp-tudou-email&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/poweramp-tudou-email.png&#34; width=&#34;740&#34; height=&#34;477&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/poweramp-tudou-email.png 1081w, https://umi.im/wp-content/uploads/2014/01/poweramp-tudou-email-150x96.png 150w, https://umi.im/wp-content/uploads/2014/01/poweramp-tudou-email-300x193.png 300w, https://umi.im/wp-content/uploads/2014/01/poweramp-tudou-email-1024x661.png 1024w&#34; sizes=&#34;(max-width: 740px) 100vw, 740px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;还有一封莫名其妙，竟然是发票的！！！&lt;/p&gt;
+&lt;p&gt;天啊！还有发票么 ~&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/poweramp-Invoice-email.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1462&#34; alt=&#34;poweramp-Invoice-email&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/poweramp-Invoice-email.png&#34; width=&#34;806&#34; height=&#34;447&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/poweramp-Invoice-email.png 806w, https://umi.im/wp-content/uploads/2014/01/poweramp-Invoice-email-150x83.png 150w, https://umi.im/wp-content/uploads/2014/01/poweramp-Invoice-email-300x166.png 300w&#34; sizes=&#34;(max-width: 806px) 100vw, 806px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;发邮件PowerAMP问关于几台Android设备可以用同一个授权，只要这几台设备用购买了PowerAMP的Google帐号登录就可以了。&lt;/p&gt;
+&lt;p&gt;对于拥有几台Android设备的用户来说再好不过了。&lt;/p&gt;
+&lt;p&gt;PowerAMP的界面，其实不是这样的。&lt;/p&gt;
+&lt;p&gt;我安装了Android原生播放器的皮肤 – &lt;a title=&#34;点击打开&#34; href=&#34;https://play.google.com/store/apps/details?id=com.ikorolkov.poweramp.skins.ics&#34; target=&#34;_blank&#34;&gt;Poweramp KitKat/JB/ICS Skin&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/PowerAMP-GUI.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-large wp-image-1464&#34; alt=&#34;PowerAMP-GUI&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/PowerAMP-GUI.jpg&#34; width=&#34;640&#34; height=&#34;1024&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/PowerAMP-GUI.jpg 800w, https://umi.im/wp-content/uploads/2014/01/PowerAMP-GUI-93x150.jpg 93w, https://umi.im/wp-content/uploads/2014/01/PowerAMP-GUI-187x300.jpg 187w, https://umi.im/wp-content/uploads/2014/01/PowerAMP-GUI-640x1024.jpg 640w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Xposed框架下的必备软件</title>
+        <link>https://umi.im/xposed/</link>
+        <pubDate>Wed, 22 Jan 2014 12:01:00 +0000</pubDate>
+        
+        <guid>https://umi.im/xposed/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/xposed.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1400&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/xposed.jpg&#34; alt=&#34;xposed&#34; width=&#34;1017&#34; height=&#34;662&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/xposed.jpg 1017w, https://umi.im/wp-content/uploads/2014/01/xposed-150x97.jpg 150w, https://umi.im/wp-content/uploads/2014/01/xposed-300x195.jpg 300w&#34; sizes=&#34;(max-width: 1017px) 100vw, 1017px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Xposed Framwork 是Android系统一款可以在不修改APK的情况下影响程序运行（修改系统）的框架服务，基于它可以制作出许多功能强大的模块，且在功能不冲突的情况下同时运作。&lt;/p&gt;
+&lt;p&gt;作者是&lt;a title=&#34;查看作者资料&#34; href=&#34;http://forum.xda-developers.com/member.php?u=4419114&#34; target=&#34;_blank&#34;&gt;rovo98&lt;/a&gt;，在&lt;a href=&#34;http://forum.xda-developers.com/showthread.php?t=1574401&#34; target=&#34;_blank&#34;&gt;XDA的开发帖子&lt;/a&gt;，&lt;a href=&#34;https://github.com/rovo89/XposedBridge/wiki/Development-tutorial&#34; target=&#34;_blank&#34;&gt;Github主页&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;page-title&#34;&gt;
+    &lt;a href=&#34;#page-title&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://repo.xposed.info/module/de.robv.android.xposed.installer&#34; target=&#34;_blank&#34;&gt;Xposed Installer&lt;/a&gt; （官网页面下载）
+&lt;/h2&gt;&lt;p&gt;下载安装后，点“框架” – “安装/更新” ，然后授权，重启就安装完成了。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;注意：Xposed只支持Android 4.0.3以上版本，还需要ROOT权限，暂不支持Android 4.4的ART模式。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;安装好了还需要在“模块”里激活Xposed模块应用。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/Xposed-1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1393&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/Xposed-1.jpg&#34; alt=&#34;Xposed-1&#34; width=&#34;600&#34; height=&#34;422&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/Xposed-1.jpg 600w, https://umi.im/wp-content/uploads/2014/01/Xposed-1-150x105.jpg 150w, https://umi.im/wp-content/uploads/2014/01/Xposed-1-300x211.jpg 300w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;自带的模块库，可以检查更新和下载。或者在&lt;a href=&#34;http://repo.xposed.info/module-overview&#34; target=&#34;_blank&#34;&gt;Web模块库&lt;/a&gt;下载。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/Xposed-2.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-large wp-image-1394&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/Xposed-2.jpg&#34; alt=&#34;Xposed-2&#34; width=&#34;640&#34; height=&#34;1024&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/Xposed-2.jpg 800w, https://umi.im/wp-content/uploads/2014/01/Xposed-2-93x150.jpg 93w, https://umi.im/wp-content/uploads/2014/01/Xposed-2-187x300.jpg 187w, https://umi.im/wp-content/uploads/2014/01/Xposed-2-640x1024.jpg 640w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[divider type=”thick”]&lt;/p&gt;
+&lt;h2 id=&#34;a-title点击进入下载页面-hrefhttprepoxposedinfomodulecomcecogm2gravitybox-target_blankgravityboxajbandroid-414243&#34;&gt;
+    &lt;a href=&#34;#a-title%e7%82%b9%e5%87%bb%e8%bf%9b%e5%85%a5%e4%b8%8b%e8%bd%bd%e9%a1%b5%e9%9d%a2-hrefhttprepoxposedinfomodulecomcecogm2gravitybox-target_blankgravityboxajbandroid-414243&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;点击进入下载页面&#34; href=&#34;http://repo.xposed.info/module/com.ceco.gm2.gravitybox&#34; target=&#34;_blank&#34;&gt;GravityBox&lt;/a&gt; (JB，Android 4.1、4.2、4.3)
+&lt;/h2&gt;&lt;p&gt;重力工具箱，神器，作者是&lt;a title=&#34;XDA个人资料&#34; href=&#34;http://forum.xda-developers.com/member.php?u=5008415&#34; target=&#34;_blank&#34;&gt;C3C076&lt;/a&gt;，XDA大神。&lt;/p&gt;
+&lt;p&gt;亲儿子有了它就不需要再刷&lt;a title=&#34;CyanogenMod官网&#34; href=&#34;http://www.cyanogenmod.org/&#34; target=&#34;_blank&#34;&gt;CM&lt;/a&gt;或者&lt;a title=&#34;AOKP官网&#34; href=&#34;http://aokp.co/&#34; target=&#34;_blank&#34;&gt;AOKP&lt;/a&gt;了。&lt;/p&gt;
+&lt;p&gt;它拥有比CM更强大了自定义设置功能，堪比AOKP。&lt;/p&gt;
+&lt;p&gt;比如在JB机器里使通知栏和虚拟按键透明化，修改通知栏的各种图标字体颜色、虚拟按键颜色，在通知栏显示流量监控，把时钟显示在通知栏中间（IOS那样），实体按键功能也可以修改。&lt;/p&gt;
+&lt;p&gt;功能太强大了我就不多说了，要是能像AOKP那样修改虚拟按键图标就好了。&lt;/p&gt;
+&lt;p&gt;这个软件还有个&lt;a href=&#34;http://www.android.com/versions/kit-kat-4-4/&#34; target=&#34;_blank&#34;&gt;KitKat&lt;/a&gt;(Android 4.4)的版本，&lt;a title=&#34;点击进入下载页面&#34; href=&#34;http://repo.xposed.info/module/com.ceco.kitkat.gravitybox&#34; target=&#34;_blank&#34;&gt;GravityBox [KK]&lt;/a&gt;，增加了屏幕录制等功能。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/GravityBox.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1390&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/GravityBox.jpg&#34; alt=&#34;GravityBox&#34; width=&#34;800&#34; height=&#34;1280&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/GravityBox.jpg 800w, https://umi.im/wp-content/uploads/2014/01/GravityBox-93x150.jpg 93w, https://umi.im/wp-content/uploads/2014/01/GravityBox-187x300.jpg 187w, https://umi.im/wp-content/uploads/2014/01/GravityBox-640x1024.jpg 640w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-title点击进入下载页面-hrefhttpsplaygooglecomstoreappsdetailsidcomoasisfenggreenify-target_blankgreenifya&#34;&gt;
+    &lt;a href=&#34;#a-title%e7%82%b9%e5%87%bb%e8%bf%9b%e5%85%a5%e4%b8%8b%e8%bd%bd%e9%a1%b5%e9%9d%a2-hrefhttpsplaygooglecomstoreappsdetailsidcomoasisfenggreenify-target_blankgreenifya&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;点击进入下载页面&#34; href=&#34;https://play.google.com/store/apps/details?id=com.oasisfeng.greenify&#34; target=&#34;_blank&#34;&gt;Greenify&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;绿色守护，Android上著名的省电应用，一晚掉电5%不是梦。作者是&lt;a title=&#34;作者的G+&#34; href=&#34;https://plus.google.com/+OasisFeng/posts&#34; target=&#34;_blank&#34;&gt;Oasis Feng&lt;/a&gt;，中国人。&lt;/p&gt;
+&lt;p&gt;『绿色守护』帮助你甄别那些对系统全局性能和耗电量有不良影响的应用程序，并通过独特的『绿色化』技术，阻止它们消耗您的电池电量，占用您的宝贵内存。经过『绿色化』工艺处理的应用，在您没有主动启动它们的时候，无法『偷偷』运行，而在您正常启动它们时仍然拥有完整的功能和体验，正如iPhone应用那样！&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;b&gt;请勿『绿色化』闹钟、即时通讯、启动器类的应用，除非你不常使用它们，也不再依赖其后台功能（比如定时任务、消息推送等）。请务必确认经过『绿色化』处理的应用没有丧失任何您认为重要的后台机制。&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: #000000;&#34;&gt;部分是实验性特性需要在Xposed框架上激活才能使用，捐赠版能获得更多实验性特性。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;&lt;a href=&#34;https://www.google.com/url?q=http://oasisfeng.com/Greenify.apk&amp;sa=D&amp;usg=AFQjCNH-RgStgpJyASAUOMCquCVb2jX4ug&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;备用下载地址&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; （如果无法从Google play下载请用备用地址）&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/Greenify.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1391&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/Greenify.png&#34; alt=&#34;Greenify&#34; width=&#34;800&#34; height=&#34;1280&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/Greenify.png 800w, https://umi.im/wp-content/uploads/2014/01/Greenify-93x150.png 93w, https://umi.im/wp-content/uploads/2014/01/Greenify-187x300.png 187w, https://umi.im/wp-content/uploads/2014/01/Greenify-640x1024.png 640w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-title下载链接-hrefhttprepoxposedinfomoduletwfatminminxposedminminguard-target_blankminminguarda&#34;&gt;
+    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd%e9%93%be%e6%8e%a5-hrefhttprepoxposedinfomoduletwfatminminxposedminminguard-target_blankminminguarda&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;下载链接&#34; href=&#34;http://repo.xposed.info/module/tw.fatminmin.xposed.minminguard&#34; target=&#34;_blank&#34;&gt;MinMinGuard&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;作者是&lt;a title=&#34; FatMinMin的XDA&#34; href=&#34;http://forum.xda-developers.com/member.php?u=4981793&#34; target=&#34;_blank&#34;&gt;FatMinMin&lt;/a&gt;，这个软件和&lt;a href=&#34;http://sufficientlysecure.org/index.php/adaway/&#34; target=&#34;_blank&#34;&gt;AdAway&lt;/a&gt;以及&lt;a href=&#34;https://www.google.com.hk/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;ved=0CCsQFjAA&amp;url=%68%74%74%70%73%3a%2f%2f%61%64%62%6c%6f%63%6b%70%6c%75%73%2e%6f%72%67%2f%7a%68%5f%43%4e&amp;ei=rV3eUpS4LunZigf6l4GIDw&amp;usg=AFQjCNGFEYshH_jDY5FpJYRkMJfnNpyXOg&#34; target=&#34;_blank&#34;&gt;Adblock&lt;/a&gt;用的是完全不同的方法，透过Xposed framwork可以直接针对的API呼叫进行拦截，并且将广告所占看空间完全移除(参考比较图)，比起&lt;a href=&#34;http://sufficientlysecure.org/index.php/adaway/&#34; target=&#34;_blank&#34;&gt;AdAway&lt;/a&gt;和&lt;a href=&#34;https://www.google.com.hk/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;ved=0CCsQFjAA&amp;url=%68%74%74%70%73%3a%2f%2f%61%64%62%6c%6f%63%6b%70%6c%75%73%2e%6f%72%67%2f%7a%68%5f%43%4e&amp;ei=rV3eUpS4LunZigf6l4GIDw&amp;usg=AFQjCNGFEYshH_jDY5FpJYRkMJfnNpyXOg&#34; target=&#34;_blank&#34;&gt;Adblock&lt;/a&gt;更有效率且不会偷跑背景程序。&lt;/p&gt;
+&lt;p&gt;这是一个开源程序，Github上的&lt;a href=&#34;https://github.com/chiehmin/MinMinGuard&#34; target=&#34;_blank&#34;&gt;MinMinGuard源代码&lt;/a&gt;，&lt;/p&gt;
+&lt;p&gt;关于这个软件的更多资讯和制作原理可以到作者在xda上面发的帖子观看 &lt;a class=&#34;link&#34; href=&#34;http://forum.xda-developers.com/showthread.php?t=2597332&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://forum.xda-developers.com/showthread.php?t=2597332&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/MinMinGuard.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1392&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/MinMinGuard.png&#34; alt=&#34;MinMinGuard&#34; width=&#34;800&#34; height=&#34;1280&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/MinMinGuard.png 800w, https://umi.im/wp-content/uploads/2014/01/MinMinGuard-93x150.png 93w, https://umi.im/wp-content/uploads/2014/01/MinMinGuard-187x300.png 187w, https://umi.im/wp-content/uploads/2014/01/MinMinGuard-640x1024.png 640w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;page-title&#34;&gt;
+    &lt;a href=&#34;#page-title&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;点击进入下载页面&#34; href=&#34;http://repo.xposed.info/module/de.defim.apk.bootmanager&#34; target=&#34;_blank&#34;&gt;BootManager&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;启动管理器，这个没什么好说的，禁止软件自启动。&lt;/p&gt;
+&lt;p&gt;不会有进程和服务，所以不要担心用了这些Xposed框架的软件会影响系统流畅和占内存。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/BootManager.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1389&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/BootManager.png&#34; alt=&#34;BootManager&#34; width=&#34;800&#34; height=&#34;1280&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/BootManager.png 800w, https://umi.im/wp-content/uploads/2014/01/BootManager-93x150.png 93w, https://umi.im/wp-content/uploads/2014/01/BootManager-187x300.png 187w, https://umi.im/wp-content/uploads/2014/01/BootManager-640x1024.png 640w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-title点击进入下载页面-hrefhttprepoxposedinfomodulederobvandroidxposedmodsappsettings-target_blankapp-settingsa&#34;&gt;
+    &lt;a href=&#34;#a-title%e7%82%b9%e5%87%bb%e8%bf%9b%e5%85%a5%e4%b8%8b%e8%bd%bd%e9%a1%b5%e9%9d%a2-hrefhttprepoxposedinfomodulederobvandroidxposedmodsappsettings-target_blankapp-settingsa&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;点击进入下载页面&#34; href=&#34;http://repo.xposed.info/module/de.robv.android.xposed.mods.appsettings&#34; target=&#34;_blank&#34;&gt;App Settings&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;为每一个程序配置DPI、权限、语言、常驻内存等。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/AppSettings.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1388&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/AppSettings.png&#34; alt=&#34;AppSettings&#34; width=&#34;800&#34; height=&#34;1280&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/AppSettings.png 800w, https://umi.im/wp-content/uploads/2014/01/AppSettings-93x150.png 93w, https://umi.im/wp-content/uploads/2014/01/AppSettings-187x300.png 187w, https://umi.im/wp-content/uploads/2014/01/AppSettings-640x1024.png 640w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本来还想写&lt;a href=&#34;http://repo.xposed.info/module/biz.bokhorst.xprivacy&#34; target=&#34;_blank&#34;&gt;XPrivacy&lt;/a&gt;的，不过设置起来太麻烦了就不介绍了。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>萌妹纸铃声APP ~ 無料♪ かのんの着ボイス♪</title>
+        <link>https://umi.im/kanons-ringtone/</link>
+        <pubDate>Sun, 19 Jan 2014 11:55:32 +0000</pubDate>
+        
+        <guid>https://umi.im/kanons-ringtone/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1369&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone.png&#34; alt=&#34;Kanons-Ringtone&#34; width=&#34;801&#34; height=&#34;242&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone.png 801w, https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-150x45.png 150w, https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-300x90.png 300w&#34; sizes=&#34;(max-width: 801px) 100vw, 801px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;无意中在&lt;a href=&#34;https://play.google.com/store&#34; target=&#34;_blank&#34;&gt;Google Play&lt;/a&gt;上发现的 ~ 声音超萌啊！Ｏ(≧∇≦)Ｏ&lt;/p&gt;
+&lt;p&gt;&lt;audio class=&#34;wp-audio-shortcode&#34; id=&#34;audio-1365-2&#34; preload=&#34;none&#34; style=&#34;width: 100%;&#34; controls=&#34;controls&#34;&gt;&lt;source type=&#34;audio/mpeg&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/あわわわ！お、おねーちゃん、電話っ！早くっ！.mp3?_=2&#34; /&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/%e3%81%82%e3%82%8f%e3%82%8f%e3%82%8f%ef%bc%81%e3%81%8a%e3%80%81%e3%81%8a%e3%81%ad%e3%83%bc%e3%81%a1%e3%82%83%e3%82%93%e3%80%81%e9%9b%bb%e8%a9%b1%e3%81%a3%ef%bc%81%e6%97%a9%e3%81%8f%e3%81%a3%ef%bc%81.mp3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://umi.im/wp-content/uploads/2014/01/あわわわ！お、おねーちゃん、電話っ！早くっ！.mp3&lt;/a&gt;&lt;/audio&gt;&lt;/p&gt;
+&lt;p&gt;&lt;audio class=&#34;wp-audio-shortcode&#34; id=&#34;audio-1365-3&#34; preload=&#34;none&#34; style=&#34;width: 100%;&#34; controls=&#34;controls&#34;&gt;&lt;source type=&#34;audio/mpeg&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/おにーちゃん、電話だよ～.mp3?_=3&#34; /&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/%e3%81%8a%e3%81%ab%e3%83%bc%e3%81%a1%e3%82%83%e3%82%93%e3%80%81%e9%9b%bb%e8%a9%b1%e3%81%a0%e3%82%88%ef%bd%9e.mp3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://umi.im/wp-content/uploads/2014/01/おにーちゃん、電話だよ～.mp3&lt;/a&gt;&lt;/audio&gt;&lt;/p&gt;
+&lt;p&gt;&lt;audio class=&#34;wp-audio-shortcode&#34; id=&#34;audio-1365-4&#34; preload=&#34;none&#34; style=&#34;width: 100%;&#34; controls=&#34;controls&#34;&gt;&lt;source type=&#34;audio/mpeg&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/おにーちゃんに　お知らせがあります！.mp3?_=4&#34; /&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/%e3%81%8a%e3%81%ab%e3%83%bc%e3%81%a1%e3%82%83%e3%82%93%e3%81%ab%e3%80%80%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%8c%e3%81%82%e3%82%8a%e3%81%be%e3%81%99%ef%bc%81.mp3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://umi.im/wp-content/uploads/2014/01/おにーちゃんに　お知らせがあります！.mp3&lt;/a&gt;&lt;/audio&gt;&lt;/p&gt;
+&lt;p&gt;&lt;audio class=&#34;wp-audio-shortcode&#34; id=&#34;audio-1365-5&#34; preload=&#34;none&#34; style=&#34;width: 100%;&#34; controls=&#34;controls&#34;&gt;&lt;source type=&#34;audio/mpeg&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/ご主人さま！お電話ですよー♪.mp3?_=5&#34; /&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/%e3%81%94%e4%b8%bb%e4%ba%ba%e3%81%95%e3%81%be%ef%bc%81%e3%81%8a%e9%9b%bb%e8%a9%b1%e3%81%a7%e3%81%99%e3%82%88%e3%83%bc%e2%99%aa.mp3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://umi.im/wp-content/uploads/2014/01/ご主人さま！お電話ですよー♪.mp3&lt;/a&gt;&lt;/audio&gt;&lt;/p&gt;
+&lt;p&gt;&lt;audio class=&#34;wp-audio-shortcode&#34; id=&#34;audio-1365-6&#34; preload=&#34;none&#34; style=&#34;width: 100%;&#34; controls=&#34;controls&#34;&gt;&lt;source type=&#34;audio/mpeg&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/約束の刻がきた！今こそ契約をはたすのじゃー！.mp3?_=6&#34; /&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/%e7%b4%84%e6%9d%9f%e3%81%ae%e5%88%bb%e3%81%8c%e3%81%8d%e3%81%9f%ef%bc%81%e4%bb%8a%e3%81%93%e3%81%9d%e5%a5%91%e7%b4%84%e3%82%92%e3%81%af%e3%81%9f%e3%81%99%e3%81%ae%e3%81%98%e3%82%83%e3%83%bc%ef%bc%81.mp3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://umi.im/wp-content/uploads/2014/01/約束の刻がきた！今こそ契約をはたすのじゃー！.mp3&lt;/a&gt;&lt;/audio&gt;&lt;/p&gt;
+&lt;p&gt;&lt;audio class=&#34;wp-audio-shortcode&#34; id=&#34;audio-1365-7&#34; preload=&#34;none&#34; style=&#34;width: 100%;&#34; controls=&#34;controls&#34;&gt;&lt;source type=&#34;audio/mpeg&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/早く取らないと切れちゃうよー.mp3?_=7&#34; /&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/%e6%97%a9%e3%81%8f%e5%8f%96%e3%82%89%e3%81%aa%e3%81%84%e3%81%a8%e5%88%87%e3%82%8c%e3%81%a1%e3%82%83%e3%81%86%e3%82%88%e3%83%bc.mp3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://umi.im/wp-content/uploads/2014/01/早く取らないと切れちゃうよー.mp3&lt;/a&gt;&lt;/audio&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1366&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-1.jpg&#34; alt=&#34;Kanons-Ringtone-1&#34; width=&#34;800&#34; height=&#34;1280&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-1.jpg 800w, https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-1-93x150.jpg 93w, https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-1-187x300.jpg 187w, https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-1-640x1024.jpg 640w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;拥有70多个铃声。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-2.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1367&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-2.jpg&#34; alt=&#34;Kanons-Ringtone-2&#34; width=&#34;800&#34; height=&#34;1280&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-2.jpg 800w, https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-2-93x150.jpg 93w, https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-2-187x300.jpg 187w, https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-2-640x1024.jpg 640w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;可以设置为着信音（电话铃声）或者通知音（短信和Mail）。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-3.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1368&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-3.jpg&#34; alt=&#34;Kanons-Ringtone-3&#34; width=&#34;800&#34; height=&#34;1280&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-3.jpg 800w, https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-3-93x150.jpg 93w, https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-3-187x300.jpg 187w, https://umi.im/wp-content/uploads/2014/01/Kanons-Ringtone-3-640x1024.jpg 640w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpsplaygooglecomstoreappsdetailsidjpinterlinkkanonsringtone-target_blank無料-かのんの着ボイスa-google-play&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpsplaygooglecomstoreappsdetailsidjpinterlinkkanonsringtone-target_blank%e7%84%a1%e6%96%99-%e3%81%8b%e3%81%ae%e3%82%93%e3%81%ae%e7%9d%80%e3%83%9c%e3%82%a4%e3%82%b9a-google-play&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://play.google.com/store/apps/details?id=jp.interlink.KanonsRingtone&#34; target=&#34;_blank&#34;&gt;無料♪ かのんの着ボイス♪&lt;/a&gt; （Google Play）
+&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttppanbaiducomsharelinkshareid2248440951uk3191095378-target_blank無料-かのんの着ボイスa-百度云&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttppanbaiducomsharelinkshareid2248440951uk3191095378-target_blank%e7%84%a1%e6%96%99-%e3%81%8b%e3%81%ae%e3%82%93%e3%81%ae%e7%9d%80%e3%83%9c%e3%82%a4%e3%82%b9a-%e7%99%be%e5%ba%a6%e4%ba%91&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://pan.baidu.com/share/link?shareid=2248440951&amp;uk=3191095378&#34; target=&#34;_blank&#34;&gt;無料♪ かのんの着ボイス♪&lt;/a&gt; （百度云）
+&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttppanbaiducomsharelinkshareid2245573547uk3191095378-target_blank無料-かのんの着ボイス-铃声提取a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttppanbaiducomsharelinkshareid2245573547uk3191095378-target_blank%e7%84%a1%e6%96%99-%e3%81%8b%e3%81%ae%e3%82%93%e3%81%ae%e7%9d%80%e3%83%9c%e3%82%a4%e3%82%b9-%e9%93%83%e5%a3%b0%e6%8f%90%e5%8f%96a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://pan.baidu.com/share/link?shareid=2245573547&amp;uk=3191095378&#34; target=&#34;_blank&#34;&gt;無料♪ かのんの着ボイス♪ 铃声提取&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>下载Google Play里面的不兼容应用</title>
+        <link>https://umi.im/market-helper/</link>
+        <pubDate>Sat, 11 Jan 2014 09:04:44 +0000</pubDate>
+        
+        <guid>https://umi.im/market-helper/</guid>
+        <description>&lt;p&gt;无意中发现在&lt;a href=&#34;https://play.google.com/store&#34; target=&#34;_blank&#34;&gt;Google Play&lt;/a&gt;上搜不到&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.maxmpz.audioplayer&#34; target=&#34;_blank&#34;&gt;PowerAMP&lt;/a&gt;，我的2.3设备也是无法搜到Google Chrome的，因为和2.3不兼容。&lt;/p&gt;
+&lt;p&gt;但是我的PAD是可以安装PowerAMP的，怎么会不兼容呢！～&lt;/p&gt;
+&lt;p&gt;难道因为是寨板？&lt;/p&gt;
+&lt;p&gt;SO，找到了&lt;a href=&#34;http://ajpl7gmygs.l29.yunpan.cn/lk/QGeFpQANbZbQj&#34; target=&#34;_blank&#34;&gt;Market Helper&lt;/a&gt;这个可以简单修改Android设备名称的软件。&lt;/p&gt;
+&lt;p&gt;把我的寨板改为谷歌四太子，运营商改为&lt;a href=&#34;https://www.nttdocomo.co.jp/&#34; target=&#34;_blank&#34;&gt;NTT DoCoMo&lt;/a&gt;（改可以下载天朝以外的APP），选择我的Gmail，点Activate就可以了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/Market-Helper.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1270&#34; alt=&#34;Market Helper&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/Market-Helper.png&#34; width=&#34;800&#34; height=&#34;1280&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/Market-Helper.png 800w, https://umi.im/wp-content/uploads/2014/01/Market-Helper-93x150.png 93w, https://umi.im/wp-content/uploads/2014/01/Market-Helper-187x300.png 187w, https://umi.im/wp-content/uploads/2014/01/Market-Helper-640x1024.png 640w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;然后去&lt;a href=&#34;http://www.google.com/dashboard&#34; target=&#34;_blank&#34;&gt;Google Dashboard&lt;/a&gt;上确认是否修改成功。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/Market-Helper-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1271&#34; alt=&#34;Market Helper-1&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/Market-Helper-1.png&#34; width=&#34;800&#34; height=&#34;1280&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/Market-Helper-1.png 800w, https://umi.im/wp-content/uploads/2014/01/Market-Helper-1-93x150.png 93w, https://umi.im/wp-content/uploads/2014/01/Market-Helper-1-187x300.png 187w, https://umi.im/wp-content/uploads/2014/01/Market-Helper-1-640x1024.png 640w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;成功了，我的&lt;a href=&#34;https://umi.im/colorful-e708/&#34; target=&#34;_blank&#34;&gt;七彩虹寨板&lt;/a&gt;变成四太子了233。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/android-devicemanager.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1272&#34; alt=&#34;android-devicemanager&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/android-devicemanager.png&#34; width=&#34;490&#34; height=&#34;437&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/android-devicemanager.png 490w, https://umi.im/wp-content/uploads/2014/01/android-devicemanager-150x133.png 150w, https://umi.im/wp-content/uploads/2014/01/android-devicemanager-300x267.png 300w&#34; sizes=&#34;(max-width: 490px) 100vw, 490px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

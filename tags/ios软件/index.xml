@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>IOS软件 on 笨蛋屋</title>
+        <link>https://umi.im/tags/ios%E8%BD%AF%E4%BB%B6/</link>
+        <description>Recent content in IOS软件 on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Thu, 04 Dec 2014 01:40:33 +0000</lastBuildDate><atom:link href="https://umi.im/tags/ios%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Shadowsocks 自动代理的应用</title>
+        <link>https://umi.im/shadowsocks/</link>
+        <pubDate>Thu, 04 Dec 2014 01:40:33 +0000</pubDate>
+        
+        <guid>https://umi.im/shadowsocks/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;Shadowsocks是一个轻量级socks5代理，以python写成；&lt;/p&gt;
+&lt;p&gt;通过客户端以指定的密码、加密方式和端口连接服务器，成功连接到服务器后，客户端在用户的电脑上构建一个本地socks5代理。使用时将流量分到本地socks5代理，客户端将自动加密并转发流量到服务器，服务器以同样的加密方式将流量回传给客户端，以此实现代理上网。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;ds-user-name ds-highlight&#34; href=&#34;http://t.qq.com/noip117isend&#34; target=&#34;_blank&#34;&gt;茄子泥焗黄鱼&lt;/a&gt;共享了一个 Shadowsocks 的账号给我，然后听说 Shadowsocks 可以在iOS上实现自动切换线路。&lt;/p&gt;
+&lt;p&gt;因为经常用到Google等海外网站和同步服务，如果每次用都要开VPN的话麻烦死了，在Android下只要root了就能很简单实现这些。&lt;/p&gt;
+&lt;p&gt;配置iOS的 Shadowsocks  比想象的简单的多…只要需要在Cydia商店下载 Shadowsocks ，然后填上账号密码端口再打勾自动代理就好了，这应该是目前iOS上最好的翻墙方案了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-ios.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3315&#34; src=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-ios.png&#34; alt=&#34;Shadowsocks-ios&#34; width=&#34;1680&#34; height=&#34;1260&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-ios.png 1680w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-ios-150x112.png 150w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-ios-300x225.png 300w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-ios-1024x768.png 1024w&#34; sizes=&#34;(max-width: 1680px) 100vw, 1680px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在 Android 下也差不多，可以到Play商店下载 &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.github.shadowsocks&#34; target=&#34;_blank&#34;&gt;Shadowsocks&lt;/a&gt; ，好像root都不用。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-android.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3316&#34; src=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-android.png&#34; alt=&#34;Shadowsocks-android&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-android.png 768w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-android-90x150.png 90w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-android-180x300.png 180w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-android-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在 Windows 下需要配合浏览器扩展才能实现自动代理。&lt;/p&gt;
+&lt;p&gt;下载 &lt;a href=&#34;http://sourceforge.net/projects/shadowsocksgui/files/dist/shadowsocks-gui-0.6.4-win-ia32.tar.xz/download&#34; target=&#34;_blank&#34;&gt;Shadowsocks Windows GUI版&lt;/a&gt;，直接填上账号密码端口然后保存就好了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/12/shadowsocks-gui.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3313&#34; src=&#34;https://umi.im/wp-content/uploads/2014/12/shadowsocks-gui.png&#34; alt=&#34;shadowsocks-gui&#34; width=&#34;362&#34; height=&#34;452&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/12/shadowsocks-gui.png 362w, https://umi.im/wp-content/uploads/2014/12/shadowsocks-gui-120x150.png 120w, https://umi.im/wp-content/uploads/2014/12/shadowsocks-gui-240x300.png 240w&#34; sizes=&#34;(max-width: 362px) 100vw, 362px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;然后到Chrome商店下载 &lt;a href=&#34;https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif&#34; target=&#34;_blank&#34;&gt;SwitchyOmega&lt;/a&gt; 这个扩展程序，设置好代理协议为SOCKS5，代理端口自行选择，再把自动切换规则弄好就行了。&lt;/p&gt;
+&lt;p&gt;和以前的GoAgent +  &lt;a href=&#34;https://chrome.google.com/webstore/detail/dpplabbmogkhghncfbfdeeokoefdjegm&#34; target=&#34;_blank&#34;&gt;Proxy SwitchySharp&lt;/a&gt; 弄起来一模一样，Shadowsocks + Proxy SwitchySharp 也行，但是自动切换会失效，全局还是可用，不知为何。 &lt;a class=&#34;lightbox&#34; href=&#34;https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif&#34; target=&#34;_blank&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3314&#34; src=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-switchy.png&#34; alt=&#34;Shadowsocks-switchy&#34; width=&#34;1170&#34; height=&#34;551&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-switchy.png 1170w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-switchy-150x70.png 150w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-switchy-300x141.png 300w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-switchy-1024x482.png 1024w&#34; sizes=&#34;(max-width: 1170px) 100vw, 1170px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;还有OpenWRT的版本，刚好我的路由器是OpenWRT的，等技术好还可以继续折腾…&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>iOS 8/8.1 盘古越狱</title>
+        <link>https://umi.im/pangu-ios8/</link>
+        <pubDate>Wed, 22 Oct 2014 16:35:21 +0000</pubDate>
+        
+        <guid>https://umi.im/pangu-ios8/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;国内iOS越狱团队盘古越狱团队宣布已成功越狱iOS8，并放出越狱工具1.0版本，该越狱工具支持iOS8.0-iOS8.1.x。&lt;/p&gt;
+&lt;p&gt;然而在上线不久，越狱工具因部分用户出现应用、相册数据丢失等问题而被紧急撤下。经过修复后，盘古重新上线了该越狱工具1.0.1版本。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;五点多的时候刷新闻，看到iOS 8/8.1的越狱终于出来了，马上从床上爬起来折腾。&lt;/p&gt;
+&lt;p&gt;卡在盘古的“初始化资源”那里，然后就看到盘古下架盘古越狱的新闻…&lt;/p&gt;
+&lt;p&gt;睡了一觉醒来新版本出来，越狱成功。&lt;/p&gt;
+&lt;h2 id=&#34;a-title盘古官网-hrefhttppanguio-target_blank盘古越狱-for-ios-8a&#34;&gt;
+    &lt;a href=&#34;#a-title%e7%9b%98%e5%8f%a4%e5%ae%98%e7%bd%91-hrefhttppanguio-target_blank%e7%9b%98%e5%8f%a4%e8%b6%8a%e7%8b%b1-for-ios-8a&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;盘古官网&#34; href=&#34;http://pangu.io/&#34; target=&#34;_blank&#34;&gt;盘古越狱 For iOS 8&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/pangu-win.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3124&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/pangu-win.png&#34; alt=&#34;pangu-win&#34; width=&#34;711&#34; height=&#34;499&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/pangu-win.png 711w, https://umi.im/wp-content/uploads/2014/10/pangu-win-150x105.png 150w, https://umi.im/wp-content/uploads/2014/10/pangu-win-300x210.png 300w&#34; sizes=&#34;(max-width: 711px) 100vw, 711px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;暂时没有Cydia。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;由于iOS8系统的诸多改变，Cydia以及依赖Substrate框架的许多插件都无法在iOS8下使用。因此我们在1.0版本的越狱中提供了开发者所需要的一些基础环境及SSH等插件，方便Cydia作者及其他开发者能尽快针对iOS8修改他们的代码。当Cydia作者完成兼容后，我们会发布更新来集成Cydia。所以,盘古越狱(iOS8)的1.0版本严格来说是为越狱开发者准备的版本。&lt;br&gt;
+&lt;span style=&#34;color: #999999;&#34;&gt;&lt;span style=&#34;font-size: small;&#34;&gt; – 盘古 &lt;/span&gt;&lt;span style=&#34;font-size: small;&#34;&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/pangu-ios.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3123&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/pangu-ios.png&#34; alt=&#34;pangu-ios&#34; width=&#34;1536&#34; height=&#34;2048&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/pangu-ios.png 1536w, https://umi.im/wp-content/uploads/2014/10/pangu-ios-112x150.png 112w, https://umi.im/wp-content/uploads/2014/10/pangu-ios-225x300.png 225w, https://umi.im/wp-content/uploads/2014/10/pangu-ios-768x1024.png 768w&#34; sizes=&#34;(max-width: 1536px) 100vw, 1536px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>iOS的本地漫画阅读器 ~ ComicGlass</title>
+        <link>https://umi.im/comicglass/</link>
+        <pubDate>Wed, 22 Oct 2014 08:40:16 +0000</pubDate>
+        
+        <guid>https://umi.im/comicglass/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/ComicGlass.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;964&#34; height=&#34;358&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/ComicGlass.png&#34; alt=&#34;ComicGlass&#34; class=&#34;wp-image-3105&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/ComicGlass.png 964w, https://umi.im/wp-content/uploads/2014/10/ComicGlass-150x55.png 150w, https://umi.im/wp-content/uploads/2014/10/ComicGlass-300x111.png 300w&#34; sizes=&#34;(max-width: 964px) 100vw, 964px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;第一次介绍iOS的软件，因为买了iPad的关系。&lt;/p&gt;
+&lt;p&gt;买iPad很重要是因为看漫画，其中包括本地的漫画（&lt;a title=&#34;本子&#34; href=&#34;https://umi.im/doujinshi/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;del&gt;其实是H同人志&lt;/del&gt;&lt;/a&gt;），iOS的布卡漫画和漫画控都不支持本地漫画。&lt;/p&gt;
+&lt;p&gt;起初把漫(ben)画(zi)直接弄进相册，但是发现iOS的原生相册应用不能隐藏图片/文件夹，也找不到快图浏览这样能隐藏文件的相册软件。&lt;/p&gt;
+&lt;p&gt;后来干脆想直接弄个漫画阅读器看好了，于是就找到了它 ~ ComicGlass 。&lt;/p&gt;
+&lt;p&gt;支持直接浏览ZIP、RAR等压缩格式的漫画，还有经典的拟物化书架设计，很像Windows上的&lt;a rel=&#34;noopener&#34; href=&#34;https://umi.im/mangameeya/&#34; target=&#34;_blank&#34;&gt;MangaMeeya&lt;/a&gt; 。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1680&#34; height=&#34;1260&#34; src=&#34;https://umi.im/wp-content/uploads/2022/11/ComicGlass-1-x.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-6218&#34; srcset=&#34;https://umi.im/wp-content/uploads/2022/11/ComicGlass-1-x.jpg 1680w, https://umi.im/wp-content/uploads/2022/11/ComicGlass-1-x-1536x1152.jpg 1536w&#34; sizes=&#34;(max-width: 1680px) 100vw, 1680px&#34; /&gt;  
+&lt;p&gt;还提供非常贴心的文件夹加密功能，把正经的漫画放主页，把H的本子扔加密的文件夹，适合广大绅士。&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/jihuatong.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;139&#34; height=&#34;140&#34; class=&#34;alignnone size-full wp-image-3109&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/jihuatong.jpg&#34; alt=&#34;jihuatong&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/jihuatong.jpg 139w, https://umi.im/wp-content/uploads/2014/10/jihuatong-80x80.jpg 80w&#34; sizes=&#34;(max-width: 139px) 100vw, 139px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1680&#34; height=&#34;1260&#34; src=&#34;https://umi.im/wp-content/uploads/2022/11/ComicGlass-2-x.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-6219&#34; srcset=&#34;https://umi.im/wp-content/uploads/2022/11/ComicGlass-2-x.jpg 1680w, https://umi.im/wp-content/uploads/2022/11/ComicGlass-2-x-1536x1152.jpg 1536w&#34; sizes=&#34;(max-width: 1680px) 100vw, 1680px&#34; /&gt;  
+&lt;p&gt;iPad优化，平板的横屏双页显示。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1680&#34; height=&#34;1260&#34; src=&#34;https://umi.im/wp-content/uploads/2022/11/ComicGlass-3-x.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-6220&#34; srcset=&#34;https://umi.im/wp-content/uploads/2022/11/ComicGlass-3-x.jpg 1680w, https://umi.im/wp-content/uploads/2022/11/ComicGlass-3-x-1536x1152.jpg 1536w&#34; sizes=&#34;(max-width: 1680px) 100vw, 1680px&#34; /&gt;  
+&lt;h2 id=&#34;a-titleitunes下载-hrefhttpsitunesapplecomcnappcomicglass-komikkuridaid363992049mt8ign-mptuo3d4-target_blank-relnoopenercomicglass-comicreadera&#34;&gt;
+    &lt;a href=&#34;#a-titleitunes%e4%b8%8b%e8%bd%bd-hrefhttpsitunesapplecomcnappcomicglass-komikkuridaid363992049mt8ign-mptuo3d4-target_blank-relnoopenercomicglass-comicreadera&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;iTunes下载&#34; href=&#34;https://itunes.apple.com/cn/app/comicglass-komikkurida/id363992049?mt=8&amp;ign-mpt=uo%3D4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ComicGlass [ComicReader]&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;span style=&#34;color: #999999;&#34;&gt;&lt;span style=&#34;font-size: small;&#34;&gt;* &lt;span style=&#34;color: #ff0000;&#34;&gt;这是一个收费软件，如果实在买不起，可以通过&lt;span style=&#34;text-decoration: underline;&#34;&gt;&lt;a style=&#34;color: #ff0000; text-decoration: underline;&#34; title=&#34;PP助手&#34; href=&#34;http://jailbreak.25pp.com/ios/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;越狱&lt;/a&gt;&lt;/span&gt;、&lt;span style=&#34;text-decoration: underline;&#34;&gt;&lt;a style=&#34;color: #ff0000; text-decoration: underline;&#34; title=&#34;同步推&#34; href=&#34;http://tui.tongbu.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;同步推正版&lt;/a&gt;&lt;/span&gt;等方式安装。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

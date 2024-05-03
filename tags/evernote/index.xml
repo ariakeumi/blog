@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>EverNote on 笨蛋屋</title>
+        <link>https://umi.im/tags/evernote/</link>
+        <description>Recent content in EverNote on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 24 Mar 2014 01:13:32 +0000</lastBuildDate><atom:link href="https://umi.im/tags/evernote/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Evernote在颤抖</title>
+        <link>https://umi.im/evernote-advertisement/</link>
+        <pubDate>Mon, 24 Mar 2014 01:13:32 +0000</pubDate>
+        
+        <guid>https://umi.im/evernote-advertisement/</guid>
+        <description>&lt;p&gt;更新到了5.2.1.3108后，打开设置界面突然看到了取消广告的选项。&lt;/p&gt;
+&lt;p&gt;看来Onenote免费的消息对大象打击很大，何时提升免费用户的流量？&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Evernote-SETTING.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1838&#34; alt=&#34;Evernote-SETTING&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Evernote-SETTING.png&#34; width=&#34;478&#34; height=&#34;440&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Evernote-SETTING.png 478w, https://umi.im/wp-content/uploads/2014/03/Evernote-SETTING-150x138.png 150w, https://umi.im/wp-content/uploads/2014/03/Evernote-SETTING-300x276.png 300w&#34; sizes=&#34;(max-width: 478px) 100vw, 478px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原来广告的位置，其实一直是自家应用的广告，无伤大雅。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Evernote-Advertisement.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1837&#34; alt=&#34;Evernote-Advertisement&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Evernote-Advertisement.png&#34; width=&#34;1069&#34; height=&#34;768&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Evernote-Advertisement.png 1069w, https://umi.im/wp-content/uploads/2014/03/Evernote-Advertisement-150x107.png 150w, https://umi.im/wp-content/uploads/2014/03/Evernote-Advertisement-300x215.png 300w, https://umi.im/wp-content/uploads/2014/03/Evernote-Advertisement-1024x735.png 1024w&#34; sizes=&#34;(max-width: 1069px) 100vw, 1069px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>从EverNote迁移到印象笔记</title>
+        <link>https://umi.im/evernote-data-migration/</link>
+        <pubDate>Tue, 07 Jan 2014 09:28:05 +0000</pubDate>
+        
+        <guid>https://umi.im/evernote-data-migration/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/EverNote-Data-Migration.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1186&#34; alt=&#34;EverNote-Data-Migration&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/EverNote-Data-Migration.jpg&#34; width=&#34;1122&#34; height=&#34;689&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/EverNote-Data-Migration.jpg 1122w, https://umi.im/wp-content/uploads/2014/01/EverNote-Data-Migration-150x92.jpg 150w, https://umi.im/wp-content/uploads/2014/01/EverNote-Data-Migration-300x184.jpg 300w, https://umi.im/wp-content/uploads/2014/01/EverNote-Data-Migration-1024x628.jpg 1024w&#34; sizes=&#34;(max-width: 1122px) 100vw, 1122px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;刚注册EverNote帐号的时候我就毫不犹豫的选择了Evernote International，因为Evernote International的数据是放在国外的，更安全可靠，而印象笔记的服务器则在国内。&lt;/p&gt;
+&lt;p&gt;使用了EverNote的Chrome扩展程序&lt;a href=&#34;https://chrome.google.com/webstore/detail/pioclpoplcdbaefihamjohnefbikjilc&#34; target=&#34;_blank&#34;&gt;印象笔记·剪藏&lt;/a&gt;后，我开始把大量有用的网页保存到EverNote。&lt;/p&gt;
+&lt;p&gt;但有时候剪藏截取的文章保存到EverNote会失败，试过多次同样失败。&lt;/p&gt;
+&lt;p&gt;受不了这点决定转移到印象笔记。&lt;/p&gt;
+&lt;p&gt;转移前先看看有没有敏感的东西，有的话拷贝到One Note然后删掉。&lt;/p&gt;
+&lt;p&gt;使用印象笔记官方的&lt;a title=&#34;下载NoteDup&#34; href=&#34;http://trunk.yinxiang.com/app/notedup/windows/&#34; target=&#34;_blank&#34;&gt;NoteDup&lt;/a&gt;工具进行迁移。&lt;/p&gt;
+&lt;p&gt;运行这货需要&lt;a title=&#34;下载JAVA&#34; href=&#34;http://www.java.com/zh_CN/&#34; target=&#34;_blank&#34;&gt;JAVA环境&lt;/a&gt;，略坑，其实官方可以提供一个一键帐号迁移什么的。&lt;/p&gt;
+&lt;p&gt;登录EverNote帐号授权，再登录印象笔记授权就可以复制笔记了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/NoteDup.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1185&#34; alt=&#34;NoteDup&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/NoteDup.png&#34; width=&#34;637&#34; height=&#34;657&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/NoteDup.png 637w, https://umi.im/wp-content/uploads/2014/01/NoteDup-145x150.png 145w, https://umi.im/wp-content/uploads/2014/01/NoteDup-290x300.png 290w&#34; sizes=&#34;(max-width: 637px) 100vw, 637px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;换到印象笔记感觉速度快了很多，保存网页再也不累了，一口气存5个！&lt;/p&gt;
+&lt;p&gt;现在，我已经感受到了EverNote三原则的第三条。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;1、数据是用户的（所有存到Evernote的内容，它的版权和所有权都属于你）；&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;2、数据是受保护的（未经你的允许，我们没有任何权利查看，分享，使用，和分析你的数据）；&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;3、数据是可转移的（你可以随时随地把全部数据迁移出去，不受任何限制）。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;向EverNote申请了提升当月流量以迁移数据。&lt;/p&gt;
+&lt;p&gt;没想到一天就回E-mail了，把我这个月的上传流量升到了1GB，虽然只有一个月。&lt;/p&gt;
+&lt;p&gt;简直业界良心, 百年公司不是梦。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/EverNote-mail.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1252&#34; alt=&#34;EverNote-mail&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/EverNote-mail.png&#34; width=&#34;647&#34; height=&#34;710&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/EverNote-mail.png 647w, https://umi.im/wp-content/uploads/2014/01/EverNote-mail-136x150.png 136w, https://umi.im/wp-content/uploads/2014/01/EverNote-mail-273x300.png 273w&#34; sizes=&#34;(max-width: 647px) 100vw, 647px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

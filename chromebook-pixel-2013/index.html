@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="ChromeBook Pixel 和 MacBook Pro 是我最喜欢的笔记本，两者都是铝合金一体成色的外壳，正面和背面无开孔，超薄机身，完美的工业设计，同时它们价格都很吓人。2013 年版的">
+<title>ChromeBook Pixel 2013 折腾</title>
+
+<link rel='canonical' href='https://umi.im/chromebook-pixel-2013/'>
+
+<link rel="stylesheet" href="/scss/style.min.859d15a88c4baa095161a679adcf6a0588d393b9603bd708e8e0c634ae102b82.css"><meta property='og:title' content="ChromeBook Pixel 2013 折腾">
+<meta property='og:description' content="ChromeBook Pixel 和 MacBook Pro 是我最喜欢的笔记本，两者都是铝合金一体成色的外壳，正面和背面无开孔，超薄机身，完美的工业设计，同时它们价格都很吓人。2013 年版的">
+<meta property='og:url' content='https://umi.im/chromebook-pixel-2013/'>
+<meta property='og:site_name' content='笨蛋屋'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Chrome' /><meta property='article:tag' content='Shadowsocks' /><meta property='article:tag' content='笔记本' /><meta property='article:published_time' content='2015-08-19T05:24:09&#43;00:00'/><meta property='article:modified_time' content='2015-08-19T05:24:09&#43;00:00'/>
+<meta name="twitter:title" content="ChromeBook Pixel 2013 折腾">
+<meta name="twitter:description" content="ChromeBook Pixel 和 MacBook Pro 是我最喜欢的笔记本，两者都是铝合金一体成色的外壳，正面和背面无开孔，超薄机身，完美的工业设计，同时它们价格都很吓人。2013 年版的">
+    <link rel="shortcut icon" href="/favicon.png" />
+
+  
+
+<meta name="verification" content="9cfa2f7dea5bc4a0">
+<script defer src="https://u.umi.im/replace-me-with-a-random-string" data-website-id="befac8d7-0396-44c8-b151-9c332a5f176f"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5428554628068316"
+     crossorigin="anonymous"></script>
+    
+    
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar-150px_hub3e42f8fb4895a97c7036e2fee26b85a_7312_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">💔</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">笨蛋屋</a></h1>
+            <h2 class="site-description">炒土豆丝 の Blog !</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://s.umi.im/'
+                        target="_blank"
+                        title="ServerStutas"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-server-bolt"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" /><path d="M15 20h-9a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h12" /><path d="M7 8v.01" /><path d="M7 16v.01" /><path d="M20 15l-2 3h3l-2 3" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://m.umi.im/'
+                        target="_blank"
+                        title="Memos"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-feather"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 20l10 -10m0 -5v5h5m-9 -1v5h5m-9 -1v5h5m-5 -5l4 -4l4 -4" /><path d="M19 10c.638 -.636 1 -1.515 1 -2.486a3.515 3.515 0 0 0 -3.517 -3.514c-.97 0 -1.847 .367 -2.483 1m-3 13l4 -4l4 -4" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/ariakeumi'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/998potato'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://umi.im/index.xml'
+                        target="_blank"
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/comments/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
+  <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
+</svg>
+
+
+
+                
+                <span>Comments</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='https://share.umi.im/' target="_blank">
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-share"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M18 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M8.7 10.7l6.6 -3.4" /><path d="M8.7 13.3l6.6 3.4" /></svg>
+                
+                <span>Share</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#_外观_"><em>外观</em></a></li>
+    <li><a href="#_chrome-os_"><em>Chrome OS</em></a></li>
+    <li><a href="#_总结_"><em>总结</em></a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/it/" style="background-color: ; color: #fff;">
+                折腾
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/chromebook-pixel-2013/">ChromeBook Pixel 2013 折腾</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2015年08月19日</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 4 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>ChromeBook Pixel 和 MacBook Pro 是我最喜欢的笔记本，两者都是铝合金一体成色的外壳，正面和背面无开孔，超薄机身，完美的工业设计，同时它们价格都很吓人。2013 年版的 ChromeBook Pixel 低配价格高达 1299 美元，MBP 也差不多是这个价格，曾经考虑过二手的 MBP ，Retina 屏的基本都要 5K ，实在太贵了！</p>
+<p>Pixel 则从未想过要买，以全新价格对比的话肯定会买 rMBP 的，性能和功能都更强。</p>
+<p>然而前几天在闲鱼闲逛的时候突然发现一台价格不错的 ChromeBook Pixel ，虽然成色较差，正面一处划痕一处凹痕，背面多处小划痕，无箱说，但是看在才两千的价格上没多想就买了。</p>
+<p>一年多前，我曾经花了一千六百多的价格买了一台 <a class="link" href="https://umi.im/chromebook-c720/"  title="一面之缘的Chromebook"
+     target="_blank" rel="noopener"
+    >Acer 的 ChromeBook C720</a> ，但是那台本子还没拆封就卖了，因为觉得实在没什么亮点。这台 ChromeBook Pixel 就不同了，它有 3：2 比例的 2560 x 1700 超高分辨率触摸屏，极其适合网页浏览，光这个就值了。</p>
+<ul>
+<li>
+<h2 id="_外观_">
+    <a href="#_%e5%a4%96%e8%a7%82_">#</a>
+    <em>外观</em>
+</h2></li>
+</ul>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-1.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1094" height="730" src="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-1.jpg" alt="ChromeBook Pixel-1" class="wp-image-4522" srcset="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-1.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-1-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-1-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-1-1024x683.jpg 1024w" sizes="(max-width: 1094px) 100vw, 1094px" /></a> <a class="link" href="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-2.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1094" height="730" src="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-2.jpg" alt="ChromeBook Pixel-2" class="wp-image-4523" srcset="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-2.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-2-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-2-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-2-1024x683.jpg 1024w" sizes="(max-width: 1094px) 100vw, 1094px" /></a></p>
+<p>侧面面一个充电接口，一个 Mini DP 接口，两个 USB 接口和一个音频接口。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-3.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1094" height="730" src="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-3.jpg" alt="ChromeBook Pixel-3" class="wp-image-4524" srcset="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-3.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-3-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-3-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-3-1024x683.jpg 1024w" sizes="(max-width: 1094px) 100vw, 1094px" /></a></p>
+<p>另一侧只有一个 SD 卡接口，我刚好有一张。<a class="link" href="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-4526" src="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4.jpg" alt="ChromeBook Pixel-4" width="1094" height="730" srcset="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4-1024x683.jpg 1024w" sizes="(max-width: 1094px) 100vw, 1094px" /></a></p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4.1.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1094" height="730" src="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4.1.jpg" alt="ChromeBook Pixel-4.1" class="wp-image-4525" srcset="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4.1.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4.1-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4.1-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-4.1-1024x683.jpg 1024w" sizes="(max-width: 1094px) 100vw, 1094px" /></a> <a class="link" href="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-5.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1094" height="730" src="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-5.jpg" alt="ChromeBook Pixel-5" class="wp-image-4527" srcset="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-5.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-5-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-5-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-5-1024x683.jpg 1024w" sizes="(max-width: 1094px) 100vw, 1094px" /></a></p>
+<p>因为不是 Windows ，自然没有 Win 键。这样的话安装其他 Linux 发行版使用上也有些不便。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-6.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1094" height="730" src="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-6.jpg" alt="ChromeBook Pixel-6" class="wp-image-4528" srcset="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-6.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-6-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-6-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-6-1024x683.jpg 1024w" sizes="(max-width: 1094px) 100vw, 1094px" /></a> <a class="link" href="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-7.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1094" height="730" src="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-7.jpg" alt="ChromeBook Pixel-7" class="wp-image-4529" srcset="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-7.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-7-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-7-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-7-1024x683.jpg 1024w" sizes="(max-width: 1094px) 100vw, 1094px" /></a> <a class="link" href="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-8.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1094" height="730" src="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-8.jpg" alt="ChromeBook Pixel-8" class="wp-image-4530" srcset="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-8.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-8-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-8-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-8-1024x683.jpg 1024w" sizes="(max-width: 1094px) 100vw, 1094px" /></a> <a class="link" href="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-9.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1094" height="730" src="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-9.jpg" alt="ChromeBook Pixel-9" class="wp-image-4531" srcset="https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-9.jpg 1094w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-9-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-9-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/08/ChromeBook-Pixel-9-1024x683.jpg 1024w" sizes="(max-width: 1094px) 100vw, 1094px" /></a></p>
+<ul>
+<li>
+<h2 id="_chrome-os_">
+    <a href="#_chrome-os_">#</a>
+    <em>Chrome OS</em>
+</h2></li>
+</ul>
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+  <p>
+    Chrome OS是由Google所进行的一项轻型电脑操作系统发展计划，发展出专用于互联网的云操作系统。该操作系统设计计划于2009年7月7日发布，系统植基于谷歌浏览器及Linux内核。最初设置在上网本上使用，在2011年上半年正式发表上市“Chrome OS”可以在x86或ARM两种微处理器上运行。<br />Google声明至2009年底，“Chrome OS”将以“Chromium OS”之名采用开放源代码。虽然“Chrome OS”植基于Linux内核，不过它会使用“一种新的系统”而不会采行目前正在使用中的Linux标准视窗系统，比如X窗口系统。
+  </p>
+</blockquote>
+<p>Chrome OS 的桌面就是一张 Android Material Design 风格的壁纸和任务栏，按 Alt 键和数字键 1 可以启动 Chrome 浏览器，跟其他桌面系统的 Chrome 一样，就是设置页面多了些 Chrome OS 的设置项。</p>
+<p>Chrome OS 支持的格式：</p>
+<ul>
+<li>Microsoft Office 文件：.doc、.docx、.xls、.xlsx、.ppt（只读）、.pptx（只读）。</li>
+<li>视频：.3gp、.avi、.mov、.mp4、.m4v、.mkv</li>
+<li>音频：.mp3、.m4a、.ogv、.ogm、.ogg、.oga、.webm、.wav</li>
+<li>图片：.bmp、.gif、.jpg、.jpeg、.png、.webp</li>
+<li>压缩文件：.zip、.rar</li>
+<li>其他：.txt、.pdf（只读）</li>
+</ul>
+<p>原生音频播放器可以播放 FLAC 无损格式的音频，但是功能简陋，专辑封面不能显示，而且只能通过打开音频文件来打开播放器。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/08/Chrome-OS-PLAYER.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1152" height="765" src="https://umi.im/wp-content/uploads/2015/08/Chrome-OS-PLAYER.jpg" alt="Chrome-OS-PLAYER" class="wp-image-4536" srcset="https://umi.im/wp-content/uploads/2015/08/Chrome-OS-PLAYER.jpg 1152w, https://umi.im/wp-content/uploads/2015/08/Chrome-OS-PLAYER-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/Chrome-OS-PLAYER-300x199.jpg 300w, https://umi.im/wp-content/uploads/2015/08/Chrome-OS-PLAYER-1024x680.jpg 1024w" sizes="(max-width: 1152px) 100vw, 1152px" /></a></p>
+<p>Chrome OS 是基于 Linux 的系统，进入开发者模式就可以用 Linux 的 Shell 了，按 Ctrl + Alt + T 。</p>
+<p><a href="https://wiki.archlinux.org/index.php/Acer_C720_Chromebook_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#.E5.90.AF.E7.94.A8.E5.BC.80.E5.8F.91.E8.80.85.E6.A8.A1.E5.BC.8F" target="_blank" rel="noopener">启用开发者模式: Acer C720 Chromebook (简体中文) – ArchWiki</a></p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/08/chrome-os-shell.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1152" height="765" src="https://umi.im/wp-content/uploads/2015/08/chrome-os-shell.jpg" alt="chrome-os-shell" class="wp-image-4534" srcset="https://umi.im/wp-content/uploads/2015/08/chrome-os-shell.jpg 1152w, https://umi.im/wp-content/uploads/2015/08/chrome-os-shell-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/chrome-os-shell-300x199.jpg 300w, https://umi.im/wp-content/uploads/2015/08/chrome-os-shell-1024x680.jpg 1024w" sizes="(max-width: 1152px) 100vw, 1152px" /></a></p>
+<p>要用 Chrome 自然离不开翻墙，Chrome OS 有 Shadowsocks 客户端。</p>
+<p>第一次登录的时候是要连接 Google 帐户的，这时候可以用过 Android 的翻墙路由器共享网络给 ChromeBook ，或者用带有 Shadowsocks 的路由器固件的网络。</p>
+<p>安装 Shadowsocks 客户端比较麻烦，还要进入开发者模式，在 Shell 下操作，安装各种依赖。</p>
+<p><a href="https://www.dogfight360.com/blog/?p=250" target="_blank" rel="noopener">Chromebook/ChromeOS安装Shadowsocks扩展教程 | Dogfight360</a></p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/08/Chrome-OS-SHADOWSOCKS.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1152" height="765" src="https://umi.im/wp-content/uploads/2015/08/Chrome-OS-SHADOWSOCKS.jpg" alt="Chrome-OS-SHADOWSOCKS" class="wp-image-4537" srcset="https://umi.im/wp-content/uploads/2015/08/Chrome-OS-SHADOWSOCKS.jpg 1152w, https://umi.im/wp-content/uploads/2015/08/Chrome-OS-SHADOWSOCKS-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/Chrome-OS-SHADOWSOCKS-300x199.jpg 300w, https://umi.im/wp-content/uploads/2015/08/Chrome-OS-SHADOWSOCKS-1024x680.jpg 1024w" sizes="(max-width: 1152px) 100vw, 1152px" /></a></p>
+<p>Linux 上没有原生 QQ 和 Evernote ，两者都有 Web 端，Evernote 的 Web 端很好用，但是我笔记很多，各种乱七八糟的，用 Web 端还是很不便的。前段时间 Evernote 被官方移植到了 Chrome OS 上，在 Chrome 应用商店的离线应用里面可以下载到。</p>
+<p>说是移植，其实就是直接用 Android Runtime 运行，用 <a href="https://chrome.google.com/webstore/detail/arc-welder/emfinbmielocnlhgmfkkmkngdoccbadn?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="noopener">ARC Welder </a>（APP  Runtime for Chrome）可以把  APK 格式的 Android 应用程序安装文件转换为 Chrome 程序，在 Windows 、 OS X 、Linux 等平台的 Chrome 浏览器中都可以运行，也就是说可以自己“移植” Android 应用，虽然能正常运行的不多。</p>
+<p><a href="http://www.iplaysoft.com/arc-welder.html" target="_blank" rel="noopener">ARC Welder 谷歌官方安卓模拟器 – 在电脑 Chrome 浏览器上运行 Android APK 软件游戏</a></p>
+<p>官方版的 QQ 运行不了，第三方使用 Web QQ 协议的可以，比如 MaterialQQ Lite 和 MingQQ ，不过既然能用 Web QQ ，为何要用使用了 Web QQ 协议的 Android 应用？反正在 Chrome OS 是不能愉快的使用 QQ 的…</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/08/chrome-os-evernote-qq.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1152" height="765" src="https://umi.im/wp-content/uploads/2015/08/chrome-os-evernote-qq.jpg" alt="chrome-os-evernote-qq" class="wp-image-4545" srcset="https://umi.im/wp-content/uploads/2015/08/chrome-os-evernote-qq.jpg 1152w, https://umi.im/wp-content/uploads/2015/08/chrome-os-evernote-qq-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/08/chrome-os-evernote-qq-300x199.jpg 300w, https://umi.im/wp-content/uploads/2015/08/chrome-os-evernote-qq-1024x680.jpg 1024w" sizes="(max-width: 1152px) 100vw, 1152px" /></a></p>
+<p>早就听说 ChromeBook 的触摸板很好用，是真的。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/08/Chromebook-touch-pad.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="806" height="565" src="https://umi.im/wp-content/uploads/2015/08/Chromebook-touch-pad.png" alt="Chromebook-touch-pad" class="wp-image-4543" srcset="https://umi.im/wp-content/uploads/2015/08/Chromebook-touch-pad.png 806w, https://umi.im/wp-content/uploads/2015/08/Chromebook-touch-pad-150x105.png 150w, https://umi.im/wp-content/uploads/2015/08/Chromebook-touch-pad-300x210.png 300w" sizes="(max-width: 806px) 100vw, 806px" /></a></p>
+<ul>
+<li>
+<h2 id="_总结_">
+    <a href="#_%e6%80%bb%e7%bb%93_">#</a>
+    <em>总结</em>
+</h2></li>
+</ul>
+<p>低电压的 i5-3427U 发热巨大，功耗不好，加上超高分辨率的屏幕，导致续航只有 5 小时，键盘手感不佳，Chrome OS 软件缺乏，不能作主力使用。要是能安装黑苹果或者 Windows 就完美了！</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/chrome/">Chrome</a>
+        
+            <a href="/tags/shadowsocks/">Shadowsocks</a>
+        
+            <a href="/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC/">笔记本</a>
+        
+    </section>
+
+
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2015年08月19日 05:24 CST
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/gfw-shadowsocks/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">近期搬瓦工 Shadowsocks 端口被大规模封锁</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/digitalocean-vps-shadowsocks/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">DigitalOcean VPS 安装 Shadowsocks</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/toshiba-dynabook-r600/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Toshiba dynabook R600 东芝洋垃圾笔记本</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/chrome-apps/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">玩转Chrome第三弹 ～ 制作属于自己Chrome应用</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/chrome-extensions-unpack/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">玩转Google Chrome第二弹 ～ 打包Chrome扩展程序到本地</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
+<div id="waline" class="waline-container"></div>
+<style>
+    .waline-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+        --waline-font-size: var(--article-font-size);
+    }
+    .waline-container .wl-count {
+        color: var(--card-text-color-main);
+    }
+</style><script>
+    
+    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://npm.elemecdn.com/@waline/emojis@1.1.0/weibo"],"lang":"zh-CN","locale":{"admin":"屋主","placeholder":"欢迎互动！"},"requiredMeta":["name","email","url"],"serverURL":"https://waline.umi.im/"});
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2024 笨蛋屋
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.25.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

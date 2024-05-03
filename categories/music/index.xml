@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>音乐 on 笨蛋屋</title>
+        <link>https://umi.im/categories/music/</link>
+        <description>Recent content in 音乐 on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 17 May 2021 12:50:34 +0000</lastBuildDate><atom:link href="https://umi.im/categories/music/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>【鏗鏘40#1】羅大佑</title>
+        <link>https://umi.im/queens-road-east/</link>
+        <pubDate>Mon, 17 May 2021 12:50:34 +0000</pubDate>
+        
+        <guid>https://umi.im/queens-road-east/</guid>
+        <description>&lt;figure class=&#34;wp-block-video&#34;&gt;&lt;video controls src=&#34;https://umi.im/wp-content/uploads/2021/05/Hong-Kong-Connection-40-1.mp4&#34;&gt;&lt;/video&gt; 
+&lt;blockquote class=&#34;wp-block-quote is-layout-flow wp-block-quote-is-layout-flow&#34;&gt;
+  &lt;p&gt;
+    1978年啟播的《鏗鏘集》今年四十歲。我們製作了一系列短片，重溫經典鏗鏘故事。
+  &lt;/p&gt;
+  &lt;p&gt;
+    回看經典，九十年代一首《皇后大道東》，由羅大佑作曲，林夕填詞，寫盡對主權移交的想像。重看1991年鏗鏘集《香港，我的愛人》，對比當下「一地兩檢」、「一言九鼎」的爭議，三十年前的預言丶憂慮有沒有成真了?「偉大同志」搞了甚麼「新意思」？
+  &lt;/p&gt;
+&lt;p&gt;&lt;cite&gt;RTHK&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=O6goBtVx2e0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.youtube.com/watch?v=O6goBtVx2e0&lt;/a&gt; （已删除，&lt;a href=&#34;https://news.rthk.hk/rthk/ch/component/k2/1588809-20210501.htm&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;原因&lt;/a&gt;。）&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>下载网易云音乐的双语歌词</title>
+        <link>https://umi.im/cloud-music-lrc/</link>
+        <pubDate>Tue, 08 Mar 2016 06:25:12 +0000</pubDate>
+        
+        <guid>https://umi.im/cloud-music-lrc/</guid>
+        <description>&lt;p&gt;网易云音乐是国内最好的音乐平台，歌曲丰富，而且很多外语歌都有双语歌词。但是网易云音乐不提供歌词下载，用手机客户端可以一键获取，但是获取到的歌词并非 LRC 格式的，而且文件名是纯数字，不方便用。&lt;/p&gt;
+&lt;p&gt;在 PC 端，可以通过一段 JS 脚本直接获取到双语的歌词。&lt;/p&gt;
+&lt;h2 id=&#34;使用方法&#34;&gt;
+    &lt;a href=&#34;#%e4%bd%bf%e7%94%a8%e6%96%b9%e6%b3%95&#34;&gt;#&lt;/a&gt;
+    使用方法：
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;打开需要下载歌词的歌曲网易云音乐链接，通过地址栏 URL 获取到歌曲 ID 。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;517&#34; height=&#34;135&#34; src=&#34;https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-1.png&#34; alt=&#34;cloud-music-lrc-1&#34; class=&#34;wp-image-4792&#34; srcset=&#34;https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-1.png 517w, https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-1-150x39.png 150w, https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-1-300x78.png 300w&#34; sizes=&#34;(max-width: 517px) 100vw, 517px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;按 F12 打开审查元素（Chrome浏览器），点击 Console 。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;826&#34; height=&#34;492&#34; src=&#34;https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-3.png&#34; alt=&#34;cloud-music-lrc-3&#34; class=&#34;wp-image-4793&#34; srcset=&#34;https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-3.png 826w, https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-3-150x89.png 150w, https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-3-300x179.png 300w&#34; sizes=&#34;(max-width: 826px) 100vw, 826px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;把下面代码最后一行里面的歌曲 ID 替换成自己需要下载歌词的歌曲 ID ，复制粘贴并回车运行。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;(function(songID){
+    var xhr = new XMLHttpRequest();
+    xhr.open(&#39;GET&#39;, &#39;http://music.163.com/api/song/lyric?lv=-1&amp;tv=-1&amp;id=&#39; + songID, true);
+    xhr.send();
+    xhr.onload = function() {
+        var data = JSON.parse(xhr.responseText);
+        var lrc = data.lrc.lyric.match(/\&amp;#91;\d+:\d+\.\d+&amp;#91;^\&amp;#91;]+/g);
+        var tLrc = data.tlyric.lyric.match(/\&amp;#91;\d+:\d+\.\d+&amp;#91;^\&amp;#91;]+/g);
+        var newLrc = &amp;#91;];
+        lrc.map(function() {
+            newLrc.push(lrc&amp;#91;arguments&amp;#91;1]]);
+            newLrc.push(tLrc&amp;#91;arguments&amp;#91;1]]);
+        });
+        window.open(&#39;&#39;, &#34;_blank&#34;, &#39;&#39;).document.write(newLrc.join(&#39;&amp;lt;br&gt;&#39;));
+    };
+}(&#39;28870317&#39;)); // 歌曲 ID&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;弹出阻止运行窗口请允许。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;610&#34; height=&#34;416&#34; src=&#34;https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-2.png&#34; alt=&#34;cloud-music-lrc-2&#34; class=&#34;wp-image-4794&#34; srcset=&#34;https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-2.png 610w, https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-2-150x102.png 150w, https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-2-300x205.png 300w&#34; sizes=&#34;(max-width: 610px) 100vw, 610px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;完美得到带时间轴的双语歌词，自行保存为 LRC 格式就好了，或者直接嵌入歌曲标签里面。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-4.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;624&#34; height=&#34;487&#34; src=&#34;https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-4.png&#34; alt=&#34;cloud-music-lrc-4&#34; class=&#34;wp-image-4795&#34; srcset=&#34;https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-4.png 624w, https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-4-150x117.png 150w, https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-4-300x234.png 300w, https://umi.im/wp-content/uploads/2016/03/cloud-music-lrc-4-194x150.png 194w&#34; sizes=&#34;(max-width: 624px) 100vw, 624px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;感谢 V2EX 用户 &lt;a href=&#34;https://www.v2ex.com/member/demo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;demo&lt;/a&gt; 贡献此脚本。&lt;/p&gt;
+&lt;p&gt;GitHub地址：&lt;span class=&#34;author&#34;&gt;&lt;span class=&#34;url fn&#34;&gt;anonymous&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;path-divider&#34;&gt;/&lt;/span&gt;&lt;strong class=&#34;gist-header-title css-truncate-target&#34;&gt;&lt;a href=&#34;https://gist.github.com/anonymous/a800677393bbb2dd113a&#34;&gt;concat_163_music_lrc.js&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>整理：歌曲的专辑封面和ID3信息补全</title>
+        <link>https://umi.im/finishing-music/</link>
+        <pubDate>Mon, 01 Jun 2015 08:49:07 +0000</pubDate>
+        
+        <guid>https://umi.im/finishing-music/</guid>
+        <description>&lt;p&gt;作为整理癖，我收藏的歌曲不仅文件命名要规范（艺术家 – 歌曲名），而且专辑&lt;a href=&#34;http://zh.wikipedia.org/wiki/ID3&#34; target=&#34;_blank&#34;&gt;ID3信息&lt;/a&gt;也要填上，专辑封面一定要有。&lt;/p&gt;
+&lt;p&gt;ID3信息相当于歌曲的身份证，记录了歌曲的所属专辑、艺术家、年份、流派等信息，完整的ID3信息不仅看起来舒服，在索引分类的时候也很有用。&lt;/p&gt;
+&lt;p&gt;以前很蠢，一直手动整理ID3信息，从维基百科获取歌曲信息，一个个填上，专辑封面即用Google图片搜索然后一个个嵌入…&lt;/p&gt;
+&lt;p&gt;现在，使用 &lt;a href=&#34;http://mediago.sony.com/chs/download&#34; target=&#34;_blank&#34;&gt;Media Go &lt;/a&gt; + &lt;a href=&#34;http://www.mp3tag.de/en/index.html&#34; target=&#34;_blank&#34;&gt;Mp3tag&lt;/a&gt; 就可以自动补全ID3信息和专辑封面，连音轨号都能补上了！&lt;/p&gt;
+&lt;p&gt;Media Go是索尼出品的软件，索尼旗下的&lt;a href=&#34;http://zh.wikipedia.org/wiki/%E7%B4%A2%E5%B0%BC%E9%9F%B3%E6%A8%82%E5%A8%9B%E6%A8%82&#34; target=&#34;_blank&#34;&gt;索尼音乐&lt;/a&gt;（SME）有全球规模最大的音乐库，拥有唱片市场31%的歌曲版权，用他家的软件应该很少专辑信息找不到了。&lt;/p&gt;
+&lt;p&gt;以浪客剑心的一首OST为例，ID3信息看起来还挺完整的，但是一首日本曲子用平文式罗马文也太怪了，用Media Go检索信息，果然找到，原来作曲家叫岩崎琢…&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/Media-Go-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3903&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/Media-Go-1.png&#34; alt=&#34;Media Go-1&#34; width=&#34;1259&#34; height=&#34;861&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/Media-Go-1.png 1259w, https://umi.im/wp-content/uploads/2015/06/Media-Go-1-150x103.png 150w, https://umi.im/wp-content/uploads/2015/06/Media-Go-1-300x205.png 300w, https://umi.im/wp-content/uploads/2015/06/Media-Go-1-1024x700.png 1024w&#34; sizes=&#34;(max-width: 1259px) 100vw, 1259px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;再补上专辑封面，看起来舒服多了是不是。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/Media-Go-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3904&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/Media-Go-2.png&#34; alt=&#34;Media Go-2&#34; width=&#34;556&#34; height=&#34;505&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/Media-Go-2.png 556w, https://umi.im/wp-content/uploads/2015/06/Media-Go-2-150x136.png 150w, https://umi.im/wp-content/uploads/2015/06/Media-Go-2-300x272.png 300w&#34; sizes=&#34;(max-width: 556px) 100vw, 556px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;补完ID3信息，就可以根据可靠的ID3信息把文件名命名规范起来了。&lt;/p&gt;
+&lt;p&gt;使用Mp3tag找到歌曲，刚才那首曲子文件的命名果然不规范，只有歌名而没有艺术家。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/Mp3tag-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3905&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/Mp3tag-1.png&#34; alt=&#34;Mp3tag-1&#34; width=&#34;1100&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/Mp3tag-1.png 1100w, https://umi.im/wp-content/uploads/2015/06/Mp3tag-1-150x98.png 150w, https://umi.im/wp-content/uploads/2015/06/Mp3tag-1-300x196.png 300w, https://umi.im/wp-content/uploads/2015/06/Mp3tag-1-1024x670.png 1024w&#34; sizes=&#34;(max-width: 1100px) 100vw, 1100px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;右键 – 转换 – 标签 – 文件名，可批量操作。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/Mp3tag-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3906&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/Mp3tag-2.png&#34; alt=&#34;Mp3tag-2&#34; width=&#34;547&#34; height=&#34;394&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/Mp3tag-2.png 547w, https://umi.im/wp-content/uploads/2015/06/Mp3tag-2-150x108.png 150w, https://umi.im/wp-content/uploads/2015/06/Mp3tag-2-300x216.png 300w&#34; sizes=&#34;(max-width: 547px) 100vw, 547px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我用的是 艺术家 – 歌曲名 的命名规范（%artist% – %title%）。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/Mp3tag-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3907&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/Mp3tag-3.png&#34; alt=&#34;Mp3tag-3&#34; width=&#34;1100&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/Mp3tag-3.png 1100w, https://umi.im/wp-content/uploads/2015/06/Mp3tag-3-150x98.png 150w, https://umi.im/wp-content/uploads/2015/06/Mp3tag-3-300x196.png 300w, https://umi.im/wp-content/uploads/2015/06/Mp3tag-3-1024x670.png 1024w&#34; sizes=&#34;(max-width: 1100px) 100vw, 1100px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;整理完成后在资源管理器里看着都这么爽，顺便一说，Win 10的资源管理器支持对FLAC无损音频格式的专辑封面预览了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/Finishing-Music.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3908&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/Finishing-Music.png&#34; alt=&#34;Finishing-Music&#34; width=&#34;954&#34; height=&#34;626&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/Finishing-Music.png 954w, https://umi.im/wp-content/uploads/2015/06/Finishing-Music-150x98.png 150w, https://umi.im/wp-content/uploads/2015/06/Finishing-Music-300x197.png 300w&#34; sizes=&#34;(max-width: 954px) 100vw, 954px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>TVアニメ 纯洁的玛利亚 OP&amp;EDテーマ</title>
+        <link>https://umi.im/maria-the-virgin-witch-op-ed/</link>
+        <pubDate>Wed, 25 Feb 2015 15:16:34 +0000</pubDate>
+        
+        <guid>https://umi.im/maria-the-virgin-witch-op-ed/</guid>
+        <description>&lt;img src="https://umi.im/wp-content/uploads/2015/02/maria-the-virgin-witch-op-ed.jpg" alt="Featured image of post TVアニメ 纯洁的玛利亚 OP&amp;EDテーマ" /&gt;&lt;p&gt;&lt;img src=&#34;https://umi.im/wp-content/uploads/2015/02/maria-the-virgin-witch-op-ed.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;maria-the-virgin-witch-op-ed&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;片头曲&#34;&gt;
+    &lt;a href=&#34;#%e7%89%87%e5%a4%b4%e6%9b%b2&#34;&gt;#&lt;/a&gt;
+    片头曲
+&lt;/h2&gt;&lt;h3 id=&#34;philosophy-of-dear-world&#34;&gt;
+    &lt;a href=&#34;#philosophy-of-dear-world&#34;&gt;#&lt;/a&gt;
+    “Philosophy of Dear World”
+&lt;/h3&gt;&lt;p&gt;作词、作曲、编曲、主唱：&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/ZAQ&#34;  title=&#34;ZAQ&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ZAQ&lt;/a&gt;&lt;br&gt;
+第1话作片尾曲使用。&lt;/p&gt;
+&lt;h2 id=&#34;片尾曲&#34;&gt;
+    &lt;a href=&#34;#%e7%89%87%e5%b0%be%e6%9b%b2&#34;&gt;#&lt;/a&gt;
+    片尾曲
+&lt;/h2&gt;&lt;h3 id=&#34;ailes&#34;&gt;
+    &lt;a href=&#34;#ailes&#34;&gt;#&lt;/a&gt;
+    “ailes”
+&lt;/h3&gt;&lt;p&gt;作词：唐泽美帆，作曲、编曲：加藤达也，主唱：TRUE&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/B60SJEEfhSQ&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+        </item>
+        <item>
+        <title>TVアニメ Fate/stay night [Unlimited Blade Works] OP&amp;ED テーマ</title>
+        <link>https://umi.im/fate-stay-night-unlimited-blade-works-op-ed/</link>
+        <pubDate>Thu, 20 Nov 2014 05:15:33 +0000</pubDate>
+        
+        <guid>https://umi.im/fate-stay-night-unlimited-blade-works-op-ed/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/fate-stay-night-unlimited-blade-works-op-ed.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3257&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/fate-stay-night-unlimited-blade-works-op-ed.jpg&#34; alt=&#34;fate-stay-night-unlimited-blade-works-op-ed&#34; width=&#34;1000&#34; height=&#34;445&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/fate-stay-night-unlimited-blade-works-op-ed.jpg 1000w, https://umi.im/wp-content/uploads/2014/11/fate-stay-night-unlimited-blade-works-op-ed-150x66.jpg 150w, https://umi.im/wp-content/uploads/2014/11/fate-stay-night-unlimited-blade-works-op-ed-300x133.jpg 300w&#34; sizes=&#34;(max-width: 1000px) 100vw, 1000px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;片头曲&#34;&gt;
+    &lt;a href=&#34;#%e7%89%87%e5%a4%b4%e6%9b%b2&#34;&gt;#&lt;/a&gt;
+    片头曲
+&lt;/h2&gt;&lt;h3 id=&#34;ideal-white&#34;&gt;
+    &lt;a href=&#34;#ideal-white&#34;&gt;#&lt;/a&gt;
+    “ideal white”
+&lt;/h3&gt;&lt;p&gt;作词：meg rock，作曲：Carlos K.、Toshi-FJ，编曲：Carlos K，主唱：&lt;span class=&#34;ilh-all&#34;&gt;&lt;span class=&#34;ilh-page&#34;&gt;&lt;a class=&#34;new&#34; href=&#34;http://zh.wikipedia.org/w/index.php?title=%E7%B6%BE%E9%87%8E%E7%9C%9F%E7%99%BD&amp;action=edit&amp;redlink=1&#34;&gt;绫野真白&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;片尾曲&#34;&gt;
+    &lt;a href=&#34;#%e7%89%87%e5%b0%be%e6%9b%b2&#34;&gt;#&lt;/a&gt;
+    片尾曲
+&lt;/h2&gt;&lt;h3 id=&#34;believe&#34;&gt;
+    &lt;a href=&#34;#believe&#34;&gt;#&lt;/a&gt;
+    “believe”
+&lt;/h3&gt;&lt;p&gt;作词、作曲、编曲：&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/%E6%A2%B6%E6%B5%A6%E7%94%B1%E8%A8%98&#34;  title=&#34;梶浦由记&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;梶浦由记&lt;/a&gt;，主唱：&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/Kalafina&#34;  title=&#34;Kalafina&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kalafina&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/wl_b8GpWbQA&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+        </item>
+        <item>
+        <title>TVアニメ 天体的秩序 OP&amp;ED テーマ</title>
+        <link>https://umi.im/sora-no-method-op-ed/</link>
+        <pubDate>Sat, 01 Nov 2014 07:45:20 +0000</pubDate>
+        
+        <guid>https://umi.im/sora-no-method-op-ed/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/celestial-method-op-ed-BK.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3159&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/celestial-method-op-ed-BK.jpg&#34; alt=&#34;celestial-method-op-ed-BK&#34; width=&#34;1000&#34; height=&#34;500&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/celestial-method-op-ed-BK.jpg 1000w, https://umi.im/wp-content/uploads/2014/11/celestial-method-op-ed-BK-150x75.jpg 150w, https://umi.im/wp-content/uploads/2014/11/celestial-method-op-ed-BK-300x150.jpg 300w&#34; sizes=&#34;(max-width: 1000px) 100vw, 1000px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这两张专辑的封面真是美Cry！&lt;/p&gt;
+&lt;p&gt;ED中间那段毁了，还是TV size好。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;片头曲“Stargazer”作词：桐岛爱里，作曲、编曲：高濑一矢，歌：Larval Stage Planning&lt;/p&gt;
+&lt;p&gt;片尾曲“&lt;span lang=&#34;ja&#34; xml:lang=&#34;ja&#34;&gt;星屑のインターリュード&lt;/span&gt;”作词：林英树，作曲：佐藤纯一，编曲、歌：fhána&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;[hermit auto=”0″ loop=”0″ unexpand=”0″]songlist#:1773611321,1773599569[/hermit]&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-title极影-hrefhttpbtktxpcomhtml20141025383613html-target_blanktvアニメ天体のメソッドsora-no-methodopテーマstargazerlarval-stage-planning-flacbka&#34;&gt;
+    &lt;a href=&#34;#a-title%e6%9e%81%e5%bd%b1-hrefhttpbtktxpcomhtml20141025383613html-target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1%e5%a4%a9%e4%bd%93%e3%81%ae%e3%83%a1%e3%82%bd%e3%83%83%e3%83%89sora-no-methodop%e3%83%86%e3%83%bc%e3%83%9estargazerlarval-stage-planning-flacbka&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/1025/383613.html&#34; target=&#34;_blank&#34;&gt;TVアニメ「天体のメソッド(Sora no Method)」OPテーマ「Stargazer」／Larval Stage Planning (FLAC+BK)&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;a-title极影-hrefhttpbtktxpcomhtml20141101384485html-target_blanktvアニメ天体のメソッドsora-no-methodedテーマ星屑のインターリュードfhana-flacbka&#34;&gt;
+    &lt;a href=&#34;#a-title%e6%9e%81%e5%bd%b1-hrefhttpbtktxpcomhtml20141101384485html-target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1%e5%a4%a9%e4%bd%93%e3%81%ae%e3%83%a1%e3%82%bd%e3%83%83%e3%83%89sora-no-methoded%e3%83%86%e3%83%bc%e3%83%9e%e6%98%9f%e5%b1%91%e3%81%ae%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%aa%e3%83%a5%e3%83%bc%e3%83%89fhana-flacbka&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/1101/384485.html&#34; target=&#34;_blank&#34;&gt;TVアニメ「天体のメソッド(Sora no Method)」EDテーマ「星屑のインターリュード」／fhana (FLAC+BK)&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>AKB48 – 桜の木になろう（变成樱花树）</title>
+        <link>https://umi.im/akb48-sakuranokininarou/</link>
+        <pubDate>Mon, 06 Oct 2014 11:23:43 +0000</pubDate>
+        
+        <guid>https://umi.im/akb48-sakuranokininarou/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/AKB48-Sakuranokininarou.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2908&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/AKB48-Sakuranokininarou.jpg&#34; alt=&#34;AKB48-Sakuranokininarou&#34; width=&#34;500&#34; height=&#34;496&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/AKB48-Sakuranokininarou.jpg 500w, https://umi.im/wp-content/uploads/2014/09/AKB48-Sakuranokininarou-150x148.jpg 150w, https://umi.im/wp-content/uploads/2014/09/AKB48-Sakuranokininarou-300x297.jpg 300w, https://umi.im/wp-content/uploads/2014/09/AKB48-Sakuranokininarou-80x80.jpg 80w&#34; sizes=&#34;(max-width: 500px) 100vw, 500px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;变成樱花树&#34;&gt;
+    &lt;a href=&#34;#%e5%8f%98%e6%88%90%e6%a8%b1%e8%8a%b1%e6%a0%91&#34;&gt;#&lt;/a&gt;
+    变成樱花树
+&lt;/h2&gt;&lt;p&gt;作词：秋元康、作曲：横健介、编曲：野中”まさ”雄一&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/n9hNT5ezcnc&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;成京东的钻石会员了，帮别人装电脑的结果，悲伤的故事！&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/JD-zuanshi.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3066&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/JD-zuanshi.png&#34; alt=&#34;JD-zuanshi&#34; width=&#34;367&#34; height=&#34;171&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/JD-zuanshi.png 367w, https://umi.im/wp-content/uploads/2014/09/JD-zuanshi-150x69.png 150w, https://umi.im/wp-content/uploads/2014/09/JD-zuanshi-300x139.png 300w&#34; sizes=&#34;(max-width: 367px) 100vw, 367px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>TVアニメ ALDNOAH.ZERO OP&amp;ED テーマ</title>
+        <link>https://umi.im/aldnoah-zero-op-ed/</link>
+        <pubDate>Fri, 19 Sep 2014 11:05:51 +0000</pubDate>
+        
+        <guid>https://umi.im/aldnoah-zero-op-ed/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/ALDNOAH-ZERO-OP-ED.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2964&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/ALDNOAH-ZERO-OP-ED.jpg&#34; alt=&#34;ALDNOAH-ZERO-OP-ED&#34; width=&#34;997&#34; height=&#34;438&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/ALDNOAH-ZERO-OP-ED.jpg 997w, https://umi.im/wp-content/uploads/2014/09/ALDNOAH-ZERO-OP-ED-150x65.jpg 150w, https://umi.im/wp-content/uploads/2014/09/ALDNOAH-ZERO-OP-ED-300x131.jpg 300w&#34; sizes=&#34;(max-width: 997px) 100vw, 997px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;片头曲“heavenly blue”&lt;br&gt;
+作词、作曲、编曲：梶浦由记，主唱：Kalafina&lt;br&gt;
+第1话作为片尾曲使用。&lt;br&gt;
+片尾曲&lt;br&gt;
+“A/Z”（第2、3、5、6、9话）&lt;br&gt;
+作词、作曲、编曲：泽野弘之，主唱：SawanoHiroyuki[nZk]:mizuki&lt;br&gt;
+“aLIEz”（第4、7、8话）&lt;br&gt;
+作词、作曲、编曲：泽野弘之，主唱：SawanoHiroyuki[nZk]:mizuki&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;[hermit auto=”0″ loop=”0″ unexpand=”0″]songlist#:1773367695,1773377275,1773377276[/hermit]&lt;/p&gt;
+&lt;p&gt;Flash：&lt;/p&gt;
+&lt;embed src=&#34;http://www.xiami.com/widget/0_1773367695/singlePlayer.swf&#34; type=&#34;application/x-shockwave-flash&#34; width=&#34;257&#34; height=&#34;33&#34;&gt;
+&lt;/embed&gt;
+&lt;embed src=&#34;http://www.xiami.com/widget/0_1773377276/singlePlayer.swf&#34; type=&#34;application/x-shockwave-flash&#34; width=&#34;257&#34; height=&#34;33&#34;&gt;
+&lt;/embed&gt;
+&lt;embed src=&#34;http://www.xiami.com/widget/0_1773377275/singlePlayer.swf&#34; type=&#34;application/x-shockwave-flash&#34; width=&#34;257&#34; height=&#34;33&#34;&gt;
+&lt;/embed&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-title下载-hrefhttpwwwnyaasepageviewtid583304-target_blanktvアニメアルドノアゼロaldnoahzeroopテーマheavenly-bluekalafina-flaca&#34;&gt;
+    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttpwwwnyaasepageviewtid583304-target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1%e3%82%a2%e3%83%ab%e3%83%89%e3%83%8e%e3%82%a2%e3%82%bc%e3%83%adaldnoahzeroop%e3%83%86%e3%83%bc%e3%83%9eheavenly-bluekalafina-flaca&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;下载&#34; href=&#34;http://www.nyaa.se/?page=view&amp;tid=583304&#34; target=&#34;_blank&#34;&gt;TVアニメ「アルドノア・ゼロ(Aldnoah.Zero)」OPテーマ「heavenly blue」／Kalafina (FLAC)&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;a-title下载-hrefhttpwwwnyaasepageviewtid595973-target_blanktvアニメアルドノアゼロaldnoahzeroed1ed2テーマazaliezsawanohiroyukinzk-flacbka&#34;&gt;
+    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttpwwwnyaasepageviewtid595973-target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1%e3%82%a2%e3%83%ab%e3%83%89%e3%83%8e%e3%82%a2%e3%82%bc%e3%83%adaldnoahzeroed1ed2%e3%83%86%e3%83%bc%e3%83%9eazaliezsawanohiroyukinzk-flacbka&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;下载&#34; href=&#34;http://www.nyaa.se/?page=view&amp;tid=595973&#34; target=&#34;_blank&#34;&gt;TVアニメ「アルドノア・ゼロ(Aldnoah.Zero)」ED1&amp;amp;ED2テーマ「A/Z｜aLIEz」／SawanoHiroyuki[nZk] (FLAC+BK)&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>POP ETC – is 东京残响OST ~ 菅野洋子</title>
+        <link>https://umi.im/terror-in-resonance-ost/</link>
+        <pubDate>Tue, 09 Sep 2014 02:30:02 +0000</pubDate>
+        
+        <guid>https://umi.im/terror-in-resonance-ost/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/terror-in-resonance-ost.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2941&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/terror-in-resonance-ost.jpg&#34; alt=&#34;terror-in-resonance-ost&#34; width=&#34;500&#34; height=&#34;500&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/terror-in-resonance-ost.jpg 500w, https://umi.im/wp-content/uploads/2014/09/terror-in-resonance-ost-150x150.jpg 150w, https://umi.im/wp-content/uploads/2014/09/terror-in-resonance-ost-300x300.jpg 300w, https://umi.im/wp-content/uploads/2014/09/terror-in-resonance-ost-80x80.jpg 80w&#34; sizes=&#34;(max-width: 500px) 100vw, 500px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;东京残响第4话男主骑着摩托车带着女主狂飙时插入的OST，超赞。&lt;/p&gt;
+&lt;p&gt;[hermit auto=”0″ loop=”0″ unexpand=”0″]songlist#:1773281636[/hermit]&lt;/p&gt;
+&lt;p&gt;Flash：&lt;/p&gt;
+&lt;embed src=&#34;http://www.xiami.com/widget/0_1773281636/singlePlayer.swf&#34; type=&#34;application/x-shockwave-flash&#34; width=&#34;257&#34; height=&#34;33&#34;&gt;
+&lt;/embed&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-title极影-hrefhttpbtktxpcomhtml20140709369883html-target_blanktvアニメ残響のテロルオリジナルサウンドトラックost-flaca&#34;&gt;
+    &lt;a href=&#34;#a-title%e6%9e%81%e5%bd%b1-hrefhttpbtktxpcomhtml20140709369883html-target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1%e6%ae%8b%e9%9f%bf%e3%81%ae%e3%83%86%e3%83%ad%e3%83%ab%e3%82%aa%e3%83%aa%e3%82%b8%e3%83%8a%e3%83%ab%e3%82%b5%e3%82%a6%e3%83%b3%e3%83%89%e3%83%88%e3%83%a9%e3%83%83%e3%82%afost-flaca&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/0709/369883.html&#34; target=&#34;_blank&#34;&gt;TVアニメ「残響のテロル」オリジナルサウンドトラック(OST) (FLAC)&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>AKB48 – 心のプラカード（心意告示牌）</title>
+        <link>https://umi.im/akb48-kokoro-no-purakado/</link>
+        <pubDate>Sat, 30 Aug 2014 14:46:28 +0000</pubDate>
+        
+        <guid>https://umi.im/akb48-kokoro-no-purakado/</guid>
+        <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/akb48-Placard-of-mind-bk.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2901&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/akb48-Placard-of-mind-bk.jpg&#34; alt=&#34;akb48-Placard-of-mind-bk&#34; width=&#34;600&#34; height=&#34;600&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/akb48-Placard-of-mind-bk.jpg 600w, https://umi.im/wp-content/uploads/2014/08/akb48-Placard-of-mind-bk-150x150.jpg 150w, https://umi.im/wp-content/uploads/2014/08/akb48-Placard-of-mind-bk-300x300.jpg 300w, https://umi.im/wp-content/uploads/2014/08/akb48-Placard-of-mind-bk-80x80.jpg 80w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;
+      #タイトル 「心のプラカード」 作曲：板垣祐介 编曲：武藤星児
+    &lt;/p&gt;
+  &lt;/blockquote&gt;
+  &lt;p style=&#34;text-align: justify;&#34;&gt;
+    [hermit auto=&amp;#8221;0&amp;#8243; loop=&amp;#8221;0&amp;#8243; unexpand=&amp;#8221;0&amp;#8243;]songlist#:1773372234,1773372236[/hermit]
+  &lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>TVアニメ 青春之旅 OPテーマ ~ 世界は恋に落ちている</title>
+        <link>https://umi.im/ao-haru-ride-op/</link>
+        <pubDate>Tue, 26 Aug 2014 11:26:54 +0000</pubDate>
+        
+        <guid>https://umi.im/ao-haru-ride-op/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ao-haru-ride-op-bk.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2862&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ao-haru-ride-op-bk.jpg&#34; alt=&#34;ao-haru-ride-op-bk&#34; width=&#34;500&#34; height=&#34;495&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ao-haru-ride-op-bk.jpg 500w, https://umi.im/wp-content/uploads/2014/08/ao-haru-ride-op-bk-150x148.jpg 150w, https://umi.im/wp-content/uploads/2014/08/ao-haru-ride-op-bk-300x297.jpg 300w, https://umi.im/wp-content/uploads/2014/08/ao-haru-ride-op-bk-80x80.jpg 80w&#34; sizes=&#34;(max-width: 500px) 100vw, 500px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;片头曲“&lt;span lang=&#34;ja&#34; xml:lang=&#34;ja&#34;&gt;世界は恋に落ちている&lt;/span&gt;”主唱：CHiCO with HoneyWorks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;[hermit auto=”0″ loop=”0″ unexpand=”0″]songlist#:1773346762[/hermit]&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-title极影-hrefhttpbtktxpcomhtml20140806details-373735html-target_blanktvアニメアオハライドao-haru-rideopテーマ世界は恋に落ちているchico-with-honeyworks-320kbka&#34;&gt;
+    &lt;a href=&#34;#a-title%e6%9e%81%e5%bd%b1-hrefhttpbtktxpcomhtml20140806details-373735html-target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1%e3%82%a2%e3%82%aa%e3%83%8f%e3%83%a9%e3%82%a4%e3%83%89ao-haru-rideop%e3%83%86%e3%83%bc%e3%83%9e%e4%b8%96%e7%95%8c%e3%81%af%e6%81%8b%e3%81%ab%e8%90%bd%e3%81%a1%e3%81%a6%e3%81%84%e3%82%8bchico-with-honeyworks-320kbka&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/0806/details-373735.html&#34; target=&#34;_blank&#34;&gt; TVアニメ「アオハライド(Ao Haru Ride)」OPテーマ「世界は恋に落ちている」／CHiCO with HoneyWorks (320K+BK)&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>TVアニメ花舞少女 OP&amp;EDテーマ</title>
+        <link>https://umi.im/hanayamata-op-ed/</link>
+        <pubDate>Wed, 23 Jul 2014 21:02:22 +0000</pubDate>
+        
+        <guid>https://umi.im/hanayamata-op-ed/</guid>
+        <description>&lt;p&gt;七月最喜欢的几部番之一。&lt;/p&gt;
+&lt;p&gt;OP很带感！根本停不下来！！！&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;片头曲“&lt;span lang=&#34;ja&#34; xml:lang=&#34;ja&#34;&gt;花ハ踊レヤいろはにほ&lt;/span&gt;”作词：&lt;a style=&#34;color: #0b0080;&#34; title=&#34;畑亚贵&#34; href=&#34;http://zh.wikipedia.org/wiki/%E7%95%91%E4%BA%9E%E8%B2%B4&#34;&gt;畑亚贵&lt;/a&gt;，作曲、编曲：&lt;span class=&#34;ilh-all&#34;&gt;&lt;span class=&#34;ilh-page&#34;&gt;&lt;a class=&#34;new&#34; style=&#34;color: #009999;&#34; href=&#34;http://zh.wikipedia.org/w/index.php?title=%E7%94%B0%E4%B8%AD%E7%A7%80%E5%92%8C&amp;action=edit&amp;redlink=1&#34;&gt;田中秀和&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;（MONACA）主唱：花舞少女队〔关谷鸣（&lt;a style=&#34;color: #0b0080;&#34; title=&#34;上田丽奈&#34; href=&#34;http://zh.wikipedia.org/wiki/%E4%B8%8A%E7%94%B0%E9%BA%97%E5%A5%88&#34;&gt;上田丽奈&lt;/a&gt;）、笹目夜弥（&lt;a style=&#34;color: #0b0080;&#34; title=&#34;奥野香耶&#34; href=&#34;http://zh.wikipedia.org/wiki/%E5%A5%A7%E9%87%8E%E9%A6%99%E8%80%B6&#34;&gt;奥野香耶&lt;/a&gt;）、哈娜·N·芳婷史坦（&lt;a style=&#34;color: #0b0080;&#34; title=&#34;田中美海&#34; href=&#34;http://zh.wikipedia.org/wiki/%E7%94%B0%E4%B8%AD%E7%BE%8E%E6%B5%B7&#34;&gt;田中美海&lt;/a&gt;）、西御门多美（&lt;a style=&#34;color: #0b0080;&#34; title=&#34;大坪由佳&#34; href=&#34;http://zh.wikipedia.org/wiki/%E5%A4%A7%E5%9D%AA%E7%94%B1%E4%BD%B3&#34;&gt;大坪由佳&lt;/a&gt;）、常盘真智（&lt;a style=&#34;color: #0b0080;&#34; title=&#34;沼仓爱美&#34; href=&#34;http://zh.wikipedia.org/wiki/%E6%B2%BC%E5%80%89%E6%84%9B%E7%BE%8E&#34;&gt;沼仓爱美&lt;/a&gt;）〕&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;embed width=&#34;544&#34; height=&#34;452&#34; type=&#34;application/x-shockwave-flash&#34; src=&#34;https://static-s.bilibili.com/miniloader.swf&#34; quality=&#34;high&#34; allowfullscreen=&#34;allowfullscreen&#34; flashvars=&#34;aid=1266423&amp;page=1&#34; pluginspage=&#34;http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&#34;&gt;
+&lt;/embed&gt;
+&lt;p&gt;ED也很棒啊！！！&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;片尾曲“&lt;span lang=&#34;ja&#34; xml:lang=&#34;ja&#34;&gt;花雪&lt;/span&gt;”作词、作曲、编曲：&lt;span lang=&#34;ja&#34; xml:lang=&#34;ja&#34;&gt;ゆうゆ&lt;/span&gt;，主唱：smileY inc.（大坪由佳＆&lt;span lang=&#34;ja&#34; xml:lang=&#34;ja&#34;&gt;ゆうゆ&lt;/span&gt;）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;embed width=&#34;544&#34; height=&#34;452&#34; type=&#34;application/x-shockwave-flash&#34; src=&#34;https://static-s.bilibili.com/miniloader.swf&#34; quality=&#34;high&#34; allowfullscreen=&#34;allowfullscreen&#34; flashvars=&#34;aid=1266423&amp;page=2&#34; pluginspage=&#34;http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&#34;&gt;
+&lt;/embed&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-title极影-hrefhttpbtktxpcomhtml20140823376034html-target_blanktvアニメハナヤマタhana-yamataopテーマ花ハ踊レヤいろはにほチームハナヤマタ-flacbka&#34;&gt;
+    &lt;a href=&#34;#a-title%e6%9e%81%e5%bd%b1-hrefhttpbtktxpcomhtml20140823376034html-target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1%e3%83%8f%e3%83%8a%e3%83%a4%e3%83%9e%e3%82%bfhana-yamataop%e3%83%86%e3%83%bc%e3%83%9e%e8%8a%b1%e3%83%8f%e8%b8%8a%e3%83%ac%e3%83%a4%e3%81%84%e3%82%8d%e3%81%af%e3%81%ab%e3%81%bb%e3%83%81%e3%83%bc%e3%83%a0%e3%83%8f%e3%83%8a%e3%83%a4%e3%83%9e%e3%82%bf-flacbka&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/0823/376034.html&#34; target=&#34;_blank&#34;&gt;TVアニメ「ハナヤマタ(Hana Yamata)」OPテーマ「花ハ踊レヤいろはにほ」／チーム・ハナヤマタ (FLAC+BK)&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;a-title极影-hrefhttpbtktxpcomhtml20140823376037html-target_blanktvアニメハナヤマタhana-yamataedテーマ花雪smiley-inc-flacbka&#34;&gt;
+    &lt;a href=&#34;#a-title%e6%9e%81%e5%bd%b1-hrefhttpbtktxpcomhtml20140823376037html-target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1%e3%83%8f%e3%83%8a%e3%83%a4%e3%83%9e%e3%82%bfhana-yamataed%e3%83%86%e3%83%bc%e3%83%9e%e8%8a%b1%e9%9b%aasmiley-inc-flacbka&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/0823/376037.html&#34; target=&#34;_blank&#34;&gt;TVアニメ「ハナヤマタ(Hana Yamata)」EDテーマ「花雪」／smileY inc. (FLAC+BK)&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>新番主题歌CD发售时间一览网站</title>
+        <link>https://umi.im/acg-music-release-date/</link>
+        <pubDate>Sat, 19 Jul 2014 13:33:48 +0000</pubDate>
+        
+        <guid>https://umi.im/acg-music-release-date/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/07/acg-music-release-date.gif&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2684&#34; src=&#34;https://umi.im/wp-content/uploads/2014/07/acg-music-release-date.gif&#34; alt=&#34;acg-music-release-date&#34; width=&#34;350&#34; height=&#34;100&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;一般新番播出一个月后主题歌的CD就会发售。&lt;/p&gt;
+&lt;p&gt;CD发售后三天左右就能在&lt;a title=&#34;Nyaa&#34; href=&#34;http://www.nyaa.se/&#34; target=&#34;_blank&#34;&gt;Nyaa&lt;/a&gt;和&lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/&#34; target=&#34;_blank&#34;&gt;极影&lt;/a&gt;上找到无损。&lt;/p&gt;
+&lt;p&gt;所以想快点收到无损歌曲就得知道CD的发售时间。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpaobadigi2jpanimenewmusic-target_blankテレビアニメ新番組主題歌cd発売日一覧全国テレビアニメ一覧a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpaobadigi2jpanimenewmusic-target_blank%e3%83%86%e3%83%ac%e3%83%93%e3%82%a2%e3%83%8b%e3%83%a1%e6%96%b0%e7%95%aa%e7%b5%84%e4%b8%bb%e9%a1%8c%e6%ad%8ccd%e7%99%ba%e5%a3%b2%e6%97%a5%e4%b8%80%e8%a6%a7%e5%85%a8%e5%9b%bd%e3%83%86%e3%83%ac%e3%83%93%e3%82%a2%e3%83%8b%e3%83%a1%e4%b8%80%e8%a6%a7a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://aoba.digi2.jp/anime/new/music/&#34; target=&#34;_blank&#34;&gt;テレビアニメ新番組主題歌CD発売日一覧｜全国テレビアニメ一覧&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;上面链接的网站会按新番歌曲CD发售时间排序各种CD并附上购买链接。&lt;/p&gt;
+&lt;p&gt;用浏览器自带的搜索功能（Ctrl + F）搜索歌曲名字或者作品名字就可以快速找到CD的发售时间。&lt;/p&gt;
+&lt;p&gt;搜索的时候要搜索日文，通过Wikipedia可以找到动画的日文原文，直接搜歌名也可以。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/07/acg-music-release-date.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2685&#34; src=&#34;https://umi.im/wp-content/uploads/2014/07/acg-music-release-date.png&#34; alt=&#34;acg-music-release-date&#34; width=&#34;998&#34; height=&#34;491&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/07/acg-music-release-date.png 998w, https://umi.im/wp-content/uploads/2014/07/acg-music-release-date-150x73.png 150w, https://umi.im/wp-content/uploads/2014/07/acg-music-release-date-300x147.png 300w&#34; sizes=&#34;(max-width: 998px) 100vw, 998px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;也可以通过&lt;a title=&#34;Amazon JP&#34; href=&#34;http://www.amazon.co.jp/&#34; target=&#34;_blank&#34;&gt;Amazon JP&lt;/a&gt;搜索歌名找到发售日期。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/07/acg-music-release-date-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2690&#34; src=&#34;https://umi.im/wp-content/uploads/2014/07/acg-music-release-date-2.png&#34; alt=&#34;acg-music-release-date-2&#34; width=&#34;751&#34; height=&#34;422&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/07/acg-music-release-date-2.png 751w, https://umi.im/wp-content/uploads/2014/07/acg-music-release-date-2-150x84.png 150w, https://umi.im/wp-content/uploads/2014/07/acg-music-release-date-2-300x168.png 300w&#34; sizes=&#34;(max-width: 751px) 100vw, 751px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>TVアニメ Glasslip OPテーマ~ 夏の日と君の声</title>
+        <link>https://umi.im/glasslip-op/</link>
+        <pubDate>Fri, 11 Jul 2014 00:51:53 +0000</pubDate>
+        
+        <guid>https://umi.im/glasslip-op/</guid>
+        <description>&lt;p&gt;P.A大法好！NTR保平安！&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;片头曲“&lt;span lang=&#34;ja&#34; xml:lang=&#34;ja&#34;&gt;夏の日と君の声&lt;/span&gt;”作词、主唱：&lt;a style=&#34;color: #0b0080;&#34; title=&#34;ChouCho&#34; href=&#34;http://zh.wikipedia.org/wiki/ChouCho&#34;&gt;ChouCho&lt;/a&gt;，作曲、编曲：渡边拓也&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;embed width=&#34;544&#34; height=&#34;452&#34; type=&#34;application/x-shockwave-flash&#34; src=&#34;https://static-s.bilibili.com/miniloader.swf&#34; quality=&#34;high&#34; allowfullscreen=&#34;allowfullscreen&#34; flashvars=&#34;aid=1189348&amp;page=1&#34; pluginspage=&#34;http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&#34;&gt;
+&lt;/embed&gt;
+&lt;p&gt;CD八月才有，时间快点过！&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/07/glasspil-op-Amazon.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2652&#34; src=&#34;https://umi.im/wp-content/uploads/2014/07/glasspil-op-Amazon.png&#34; alt=&#34;glasspil-op-Amazon&#34; width=&#34;754&#34; height=&#34;403&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/07/glasspil-op-Amazon.png 754w, https://umi.im/wp-content/uploads/2014/07/glasspil-op-Amazon-150x80.png 150w, https://umi.im/wp-content/uploads/2014/07/glasspil-op-Amazon-300x160.png 300w&#34; sizes=&#34;(max-width: 754px) 100vw, 754px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2014/08/07 更新&lt;/p&gt;
+&lt;p&gt;[hermit auto=”0″ loop=”0″ unexpand=”0″]songlist#:1773344035[/hermit]&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-title下载-hrefhttpwwwnyaasepageviewtid582708-target_blanktvアニメグラスリップglasslipopテーマ夏の日と君の声choucho-flacbka&#34;&gt;
+    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttpwwwnyaasepageviewtid582708-target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1%e3%82%b0%e3%83%a9%e3%82%b9%e3%83%aa%e3%83%83%e3%83%97glasslipop%e3%83%86%e3%83%bc%e3%83%9e%e5%a4%8f%e3%81%ae%e6%97%a5%e3%81%a8%e5%90%9b%e3%81%ae%e5%a3%b0choucho-flacbka&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;下载&#34; href=&#34;http://www.nyaa.se/?page=view&amp;tid=582708&#34; target=&#34;_blank&#34;&gt;TVアニメ「グラスリップ(Glasslip)」OPテーマ「夏の日と君の声」／ChouCho (FLAC+BK)&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>TVアニメ请问您今天要来点兔子吗？ ED2テーマ~ 日常デコレーション</title>
+        <link>https://umi.im/nichijou-decoration/</link>
+        <pubDate>Fri, 27 Jun 2014 17:44:05 +0000</pubDate>
+        
+        <guid>https://umi.im/nichijou-decoration/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/06/nichijou-decoration-bk.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2567&#34; src=&#34;https://umi.im/wp-content/uploads/2014/06/nichijou-decoration-bk.jpg&#34; alt=&#34;nichijou-decoration-bk&#34; width=&#34;500&#34; height=&#34;500&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/06/nichijou-decoration-bk.jpg 500w, https://umi.im/wp-content/uploads/2014/06/nichijou-decoration-bk-150x150.jpg 150w, https://umi.im/wp-content/uploads/2014/06/nichijou-decoration-bk-300x300.jpg 300w, https://umi.im/wp-content/uploads/2014/06/nichijou-decoration-bk-80x80.jpg 80w&#34; sizes=&#34;(max-width: 500px) 100vw, 500px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本来因为OP &lt;a href=&#34;https://umi.im/petit-rabbits-daydream-cafe/&#34; target=&#34;_blank&#34;&gt;Daydream café&lt;/a&gt; 已经下了这张专辑的，但是 日常デコレーション 这首没听直接删了。&lt;/p&gt;
+&lt;p&gt;12话ED是这首，很好听，差点就没收到。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;片尾曲“&lt;span lang=&#34;ja&#34; xml:lang=&#34;ja&#34;&gt;日常デコレーション&lt;/span&gt;”（第12话）作词：&lt;span lang=&#34;ja&#34; xml:lang=&#34;ja&#34;&gt;うらん&lt;/span&gt;，作曲：大隅和宇，编曲：大久保薰主唱：Petit Rabbit’s（佐仓绫音、水濑祈、种田梨沙、佐藤聪美、内田真礼）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;[hermit auto=”0″ loop=”0″]songlist#:1772913167,1772913166[/hermit]&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-title极影-hrefhttpbtktxpcomhtml20140525364030html-target_blank140528-tvアニメご注文はうさぎですかopテーマdaydream-cafepetit-rabbit8217s-flacbk-8211-极影a&#34;&gt;
+    &lt;a href=&#34;#a-title%e6%9e%81%e5%bd%b1-hrefhttpbtktxpcomhtml20140525364030html-target_blank140528-tv%e3%82%a2%e3%83%8b%e3%83%a1%e3%81%94%e6%b3%a8%e6%96%87%e3%81%af%e3%81%86%e3%81%95%e3%81%8e%e3%81%a7%e3%81%99%e3%81%8bop%e3%83%86%e3%83%bc%e3%83%9edaydream-cafepetit-rabbit8217s-flacbk-8211-%e6%9e%81%e5%bd%b1a&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/0525/364030.html&#34; target=&#34;_blank&#34;&gt;[140528] TVアニメ「ご注文はうさぎですか？」OPテーマ「Daydream cafe」／Petit Rabbit’s (FLAC+BK) – 极影&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>TVアニメ 漫画集与助手 EDテーマ ~ Spica.</title>
+        <link>https://umi.im/stylips-spica/</link>
+        <pubDate>Fri, 06 Jun 2014 07:01:44 +0000</pubDate>
+        
+        <guid>https://umi.im/stylips-spica/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/05/Spica.-BK.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2383&#34; src=&#34;https://umi.im/wp-content/uploads/2014/05/Spica.-BK.jpg&#34; alt=&#34;Spica.-BK&#34; width=&#34;1500&#34; height=&#34;1500&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/05/Spica.-BK.jpg 1500w, https://umi.im/wp-content/uploads/2014/05/Spica.-BK-150x150.jpg 150w, https://umi.im/wp-content/uploads/2014/05/Spica.-BK-300x300.jpg 300w, https://umi.im/wp-content/uploads/2014/05/Spica.-BK-1024x1024.jpg 1024w, https://umi.im/wp-content/uploads/2014/05/Spica.-BK-80x80.jpg 80w&#34; sizes=&#34;(max-width: 1500px) 100vw, 1500px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;片尾曲“Spica.”作词：辻纯更，作曲、编曲：奥田&lt;span lang=&#34;ja&#34; xml:lang=&#34;ja&#34;&gt;もとい&lt;/span&gt;，主唱：StylipS&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;4月番喜欢的歌比较多，慢慢发。 [hermit auto=”0″ loop=”0″]songlist#:1772948877[/hermit]&lt;/p&gt;
+&lt;div&gt;
+  下载地址：
+&lt;/div&gt;
+&lt;h2 id=&#34;a-title下载-hrefhttppanbaiducoms1i3gfdqp-target_blankstylips-8211-spicaflaca百度云&#34;&gt;
+    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttppanbaiducoms1i3gfdqp-target_blankstylips-8211-spicaflaca%e7%99%be%e5%ba%a6%e4%ba%91&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;下载&#34; href=&#34;http://pan.baidu.com/s/1i3gfdqP&#34; target=&#34;_blank&#34;&gt;StylipS – Spica..flac&lt;/a&gt;（百度云）
+&lt;/h2&gt;&lt;h2 id=&#34;a-title下载-hrefhttpsdrivegooglecomfiled0b8oh-br_nde1nk9gazjvbgnqaukedituspsharing-target_blankstylips-8211-spicaflacagoogle-drive&#34;&gt;
+    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttpsdrivegooglecomfiled0b8oh-br_nde1nk9gazjvbgnqaukedituspsharing-target_blankstylips-8211-spicaflacagoogle-drive&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;下载&#34; href=&#34;https://drive.google.com/file/d/0B8oh-BR_nDe1Nk9GazJvbGNQaUk/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;StylipS – Spica..flac&lt;/a&gt;（Google Drive）
+&lt;/h2&gt;&lt;h2 id=&#34;span-stylecolor-111111a-title下载-hrefhttpwwwnyaasepageviewtid556731-target_blank純粋なフジュンブツspicastylips-flac-整张专辑anyaaspan&#34;&gt;
+    &lt;a href=&#34;#span-stylecolor-111111a-title%e4%b8%8b%e8%bd%bd-hrefhttpwwwnyaasepageviewtid556731-target_blank%e7%b4%94%e7%b2%8b%e3%81%aa%e3%83%95%e3%82%b8%e3%83%a5%e3%83%b3%e3%83%96%e3%83%84spicastylips-flac-%e6%95%b4%e5%bc%a0%e4%b8%93%e8%be%91anyaaspan&#34;&gt;#&lt;/a&gt;
+    &lt;span style=&#34;color: #111111;&#34;&gt;&lt;a title=&#34;下载&#34; href=&#34;http://www.nyaa.se/?page=view&amp;tid=556731&#34; target=&#34;_blank&#34;&gt;「純粋なフジュンブツ／Spica.」／StylipS (FLAC) 整张专辑 &lt;/a&gt;（Nyaa）&lt;/span&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>Foobar2000将推出移动版</title>
+        <link>https://umi.im/foobar2000-mobile-kickstarter/</link>
+        <pubDate>Mon, 14 Apr 2014 17:35:23 +0000</pubDate>
+        
+        <guid>https://umi.im/foobar2000-mobile-kickstarter/</guid>
+        <description>&lt;h2 id=&#34;img-loadinglazy-decodingasync-classalignnone-size-full-wp-image-2075-srchttpsumiimwp-contentuploads201404foobar-kickstarterpng-altfoobar-kickstarter-width945-height114-srcsethttpsumiimwp-contentuploads201404foobar-kickstarterpng-945w-httpsumiimwp-contentuploads201404foobar-kickstarter-150x18png-150w-httpsumiimwp-contentuploads201404foobar-kickstarter-300x36png-300w-sizesmax-width-945px-100vw-945px-1&#34;&gt;
+    &lt;a href=&#34;#img-loadinglazy-decodingasync-classalignnone-size-full-wp-image-2075-srchttpsumiimwp-contentuploads201404foobar-kickstarterpng-altfoobar-kickstarter-width945-height114-srcsethttpsumiimwp-contentuploads201404foobar-kickstarterpng-945w-httpsumiimwp-contentuploads201404foobar-kickstarter-150x18png-150w-httpsumiimwp-contentuploads201404foobar-kickstarter-300x36png-300w-sizesmax-width-945px-100vw-945px-1&#34;&gt;#&lt;/a&gt;
+    &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/foobar-kickstarter.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2075&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/foobar-kickstarter.png&#34; alt=&#34;foobar-kickstarter&#34; width=&#34;945&#34; height=&#34;114&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/foobar-kickstarter.png 945w, https://umi.im/wp-content/uploads/2014/04/foobar-kickstarter-150x18.png 150w, https://umi.im/wp-content/uploads/2014/04/foobar-kickstarter-300x36.png 300w&#34; sizes=&#34;(max-width: 945px) 100vw, 945px&#34; /&gt;&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;foobar2000的革命性pc音频播放器现在的foobar2000将发展到移动电话和平板电脑&#34;&gt;
+    &lt;a href=&#34;#foobar2000%e7%9a%84%e9%9d%a9%e5%91%bd%e6%80%a7pc%e9%9f%b3%e9%a2%91%e6%92%ad%e6%94%be%e5%99%a8%e7%8e%b0%e5%9c%a8%e7%9a%84foobar2000%e5%b0%86%e5%8f%91%e5%b1%95%e5%88%b0%e7%a7%bb%e5%8a%a8%e7%94%b5%e8%af%9d%e5%92%8c%e5%b9%b3%e6%9d%bf%e7%94%b5%e8%84%91&#34;&gt;#&lt;/a&gt;
+    foobar2000的革命性PC音频播放器，现在的foobar2000将发展到移动电话和平板电脑。
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/foobarexample1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2074&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/foobarexample1.jpg&#34; alt=&#34;foobarexample&#34; width=&#34;700&#34; height=&#34;336&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/foobarexample1.jpg 700w, https://umi.im/wp-content/uploads/2014/04/foobarexample1-150x72.jpg 150w, https://umi.im/wp-content/uploads/2014/04/foobarexample1-300x144.jpg 300w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpmobilefoobar2000com-target_blankfoobar-mobile-kickstartera&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpmobilefoobar2000com-target_blankfoobar-mobile-kickstartera&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://mobile.foobar2000.com/&#34; target=&#34;_blank&#34;&gt;Foobar Mobile Kickstarter&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Foobar2000正在&lt;a title=&#34;Wikipedia&#34; href=&#34;http://zh.wikipedia.org/wiki/Kickstarter&#34; target=&#34;_blank&#34;&gt;Kickstarter&lt;/a&gt;进行众筹，现在已经筹集了5000美元，根据谷歌翻译获取如下消息。&lt;/p&gt;
+&lt;p&gt;资助80美元可以获得Android或者IOS版的Beta资格。&lt;/p&gt;
+&lt;p&gt;资助195美元可以获得Android或者IOS版的Beta资格以及一款RHA MA750耳机。如下图。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/RHA-MA750.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2070&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/RHA-MA750.png&#34; alt=&#34;RHA MA750&#34; width=&#34;633&#34; height=&#34;325&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/RHA-MA750.png 633w, https://umi.im/wp-content/uploads/2014/04/RHA-MA750-150x77.png 150w, https://umi.im/wp-content/uploads/2014/04/RHA-MA750-300x154.png 300w&#34; sizes=&#34;(max-width: 633px) 100vw, 633px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;资助400美元可以获得所有平台的Alpha和Beta资格，并获得一款RHA MA750i耳机。无图。&lt;/p&gt;
+&lt;p&gt;资助1400美元可以获得所有平台的Alpha和Beta资格，并获得一款RHA MA750i耳机以及Bowers＆Wilkins P5耳机。如下图。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/bwp5.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2065&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/bwp5.png&#34; alt=&#34;bwp5&#34; width=&#34;760&#34; height=&#34;394&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/bwp5.png 760w, https://umi.im/wp-content/uploads/2014/04/bwp5-150x77.png 150w, https://umi.im/wp-content/uploads/2014/04/bwp5-300x155.png 300w&#34; sizes=&#34;(max-width: 760px) 100vw, 760px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;筹集10W美元开始开发Android、IOS和Windows Phone客户端。&lt;/p&gt;
+&lt;p&gt;筹集20W美元会集成社会化服务。&lt;/p&gt;
+&lt;p&gt;筹集30W美元将建设云服务。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/Foobar2000-mubiao.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2082&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/Foobar2000-mubiao.png&#34; alt=&#34;Foobar2000-mubiao&#34; width=&#34;775&#34; height=&#34;442&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/Foobar2000-mubiao.png 775w, https://umi.im/wp-content/uploads/2014/04/Foobar2000-mubiao-150x85.png 150w, https://umi.im/wp-content/uploads/2014/04/Foobar2000-mubiao-300x171.png 300w&#34; sizes=&#34;(max-width: 775px) 100vw, 775px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Android的版本很多，Android版的Foobar2000可能只会运行于高版本的Android（目测ICS以上），一切看预算。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/android-devs.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2064&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/android-devs.png&#34; alt=&#34;android-devs&#34; width=&#34;590&#34; height=&#34;301&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/android-devs.png 590w, https://umi.im/wp-content/uploads/2014/04/android-devs-150x76.png 150w, https://umi.im/wp-content/uploads/2014/04/android-devs-300x153.png 300w&#34; sizes=&#34;(max-width: 590px) 100vw, 590px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;针对苹果iPhone，iPod，iPad的（包括AIR）运行iOS 6或更高版本。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/ios-devs.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2068&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/ios-devs.png&#34; alt=&#34;ios-devs&#34; width=&#34;746&#34; height=&#34;252&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/ios-devs.png 746w, https://umi.im/wp-content/uploads/2014/04/ios-devs-150x50.png 150w, https://umi.im/wp-content/uploads/2014/04/ios-devs-300x101.png 300w&#34; sizes=&#34;(max-width: 746px) 100vw, 746px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;针对的Windows Phone 8和平板电脑（Windows 8.1），ARM和X86架构。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/windows-dev.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2072&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/windows-dev.png&#34; alt=&#34;windows-dev&#34; width=&#34;708&#34; height=&#34;278&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/windows-dev.png 708w, https://umi.im/wp-content/uploads/2014/04/windows-dev-150x58.png 150w, https://umi.im/wp-content/uploads/2014/04/windows-dev-300x117.png 300w&#34; sizes=&#34;(max-width: 708px) 100vw, 708px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;foobar2000的云计算将提供你的音乐的所有管理从单一的中央网络位置。你的音乐是安全备份联机，并从多个来源（PC，NAS，Dropbox，Google Drive，兼容网络商店）收集。虽然网上收集的可管理，专辑封面添加和标签纠正。具体曲目可以同步，或整个集合，在你选择的格式。例如，在家里的平板可能会收到苹果无损音轨，而你的iPhone拥有高效的AAC编码的音轨。同步是自动发生的，并会配合也与“什么是在商店的目标。&lt;/p&gt;
+&lt;p&gt;就是终于可以在线听储存在网盘上的音乐了，赞啊！&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/sync.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2071&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/sync.png&#34; alt=&#34;sync&#34; width=&#34;618&#34; height=&#34;349&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/sync.png 618w, https://umi.im/wp-content/uploads/2014/04/sync-150x84.png 150w, https://umi.im/wp-content/uploads/2014/04/sync-300x169.png 300w&#34; sizes=&#34;(max-width: 618px) 100vw, 618px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Social foobar2000，社会化的Foobar2000，能查看你朋友喜欢的专辑、音轨，提醒出了新专辑和告知朋友你已经发现了新专辑，让你的朋友浏览你收藏的歌曲。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/social.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2073&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/social.png&#34; alt=&#34;social&#34; width=&#34;900&#34; height=&#34;50&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/social.png 900w, https://umi.im/wp-content/uploads/2014/04/social-150x8.png 150w, https://umi.im/wp-content/uploads/2014/04/social-300x16.png 300w&#34; sizes=&#34;(max-width: 900px) 100vw, 900px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我的&lt;a href=&#34;https://umi.im/poweramp/&#34; target=&#34;_blank&#34;&gt;PowerAMP&lt;/a&gt;是不是要退休了！希望快点看到正式版 _(:3ゝ∠)_&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>金田一少年之事件簿R OP ~ BRAND NEW STORY</title>
+        <link>https://umi.im/kindaichi-r-op-brand-new-story/</link>
+        <pubDate>Sun, 13 Apr 2014 16:23:03 +0000</pubDate>
+        
+        <guid>https://umi.im/kindaichi-r-op-brand-new-story/</guid>
+        <description>&lt;p&gt;这真的是金田一的OP么！_(:3ゝ∠)_&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;作词 – &lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/%E8%97%A4%E6%9E%97%E8%81%96%E5%AD%90&#34;  title=&#34;藤林圣子&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;藤林圣子&lt;/a&gt; / 作曲 – 渡边彻 / 编曲 – 江口亮 / 歌 – &lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E5%8B%81%E8%88%9E%E5%A8%83%E5%A8%83&#34;  title=&#34;东京劲舞娃娃&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;东京劲舞娃娃&lt;/a&gt;（&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/Epic_Records_Japan&#34;  title=&#34;Epic Records Japan&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Epic Records&lt;/a&gt;）&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>恋玉コレステロール</title>
+        <link>https://umi.im/samurai-flamenco-music/</link>
+        <pubDate>Wed, 26 Mar 2014 12:51:02 +0000</pubDate>
+        
+        <guid>https://umi.im/samurai-flamenco-music/</guid>
+        <description>&lt;p&gt;10月番武士弗拉明戈的专辑。&lt;/p&gt;
+&lt;p&gt;起初是找武士弗拉明戈的ED3，突然发现ED3的专辑里面竟然有首&lt;a href=&#34;https://umi.im/haruka-flamenco-ed/&#34; target=&#34;_blank&#34;&gt;户松遥的泪星&lt;/a&gt;，超喜欢这首哭腔唱的歌，而且竟然有live版本（就是&lt;a title=&#34;BAKATD&#34; href=&#34;https://umi.im/haruka-flamenco-ed/&#34; target=&#34;_blank&#34;&gt;第十话ED哭腔那首&lt;/a&gt;），意获至宝。&lt;/p&gt;
+&lt;p&gt;这次&lt;a title=&#34;推特&#34; href=&#34;https://twitter.com/Ultimate7777777&#34; target=&#34;_blank&#34;&gt;Ultimate君&lt;/a&gt;只放出了320Kbps的MP3，然后试着PM了下，竟然被回复了，他说没有无损。_(:3ゝ∠)_&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/twitter-Ultimate-PM.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1832&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/twitter-Ultimate-PM.png&#34; alt=&#34;twitter-Ultimate-PM&#34; width=&#34;499&#34; height=&#34;216&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/twitter-Ultimate-PM.png 499w, https://umi.im/wp-content/uploads/2014/03/twitter-Ultimate-PM-150x64.png 150w, https://umi.im/wp-content/uploads/2014/03/twitter-Ultimate-PM-300x129.png 300w&#34; sizes=&#34;(max-width: 499px) 100vw, 499px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;还好靠着万能的Google找到了一个&lt;a title=&#34;贴吧&#34; href=&#34;http://tieba.baidu.com/p/2920337010&#34; target=&#34;_blank&#34;&gt;贴吧人士自抓的无损&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/samurai-flamenco-COVER.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1831&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/samurai-flamenco-COVER.jpg&#34; alt=&#34;samurai-flamenco-COVER&#34; width=&#34;500&#34; height=&#34;500&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/samurai-flamenco-COVER.jpg 500w, https://umi.im/wp-content/uploads/2014/03/samurai-flamenco-COVER-150x150.jpg 150w, https://umi.im/wp-content/uploads/2014/03/samurai-flamenco-COVER-300x300.jpg 300w, https://umi.im/wp-content/uploads/2014/03/samurai-flamenco-COVER-80x80.jpg 80w&#34; sizes=&#34;(max-width: 500px) 100vw, 500px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;サムライフラメンコ ミニアルバム「恋玉コレステロール」／ミネラル★ミラクル★ミューズ&lt;/p&gt;
+&lt;p&gt;発売日 : 2014/03/05&lt;br&gt;
+商品番号 : SVWC-7987&lt;br&gt;
+JANコード : 4534530074010&lt;/p&gt;
+&lt;p&gt;[内容紹介]&lt;br&gt;
+オリジナルTVアニメ『サムライフラメンコ』に登場するアイドルグループ・ミネラル★ミラクル★ミューズのミニ・アルバム発売決定! エンディング・テーマ「フライト23時」ほか劇中歌を収録。&lt;/p&gt;
+&lt;p&gt;収録曲&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;フライト23時&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ラヴ・リザベイション ～あなたを先行予約～&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;マカロンDAYS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;涙星&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;デートTIME&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;涙星 ~LIVE Ver.~&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;歌 : ミネラル★ミラクル★ミューズ(戸松遥、M・A・O、山崎エリイ)&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-title百度云-hrefhttppanbaiducomsharelinkshareid2581312114uk908988946-target_blank恋玉コレステロール-wava&#34;&gt;
+    &lt;a href=&#34;#a-title%e7%99%be%e5%ba%a6%e4%ba%91-hrefhttppanbaiducomsharelinkshareid2581312114uk908988946-target_blank%e6%81%8b%e7%8e%89%e3%82%b3%e3%83%ac%e3%82%b9%e3%83%86%e3%83%ad%e3%83%bc%e3%83%ab-wava&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;百度云&#34; href=&#34;http://pan.baidu.com/share/link?shareid=2581312114&amp;uk=908988946&#34; target=&#34;_blank&#34;&gt;恋玉コレステロール WAV&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>TVアニメ「pupa」EDテーマ「誰より好きなのに」／くすまさんしまい</title>
+        <link>https://umi.im/pupa-ed/</link>
+        <pubDate>Wed, 19 Mar 2014 11:24:26 +0000</pubDate>
+        
+        <guid>https://umi.im/pupa-ed/</guid>
+        <description>&lt;p&gt;好吧！非常喜欢这首歌，一直关注CD中，3月12号发售，今天终于有人放出无损了！QAQ&lt;/p&gt;
+&lt;p&gt;说一下吧，放出无损的人ID是Ultimate，一个韩国人。因为标题前总是有一段“얼티메이트”的文字和发售日期，所以对此人印象深刻，下载了很多他分享的无损，甚至有偷跑的。Ultimate君分享的无损都是单轨的FLAC，都已经内嵌好了专辑封面，标签也完整。而且还放出BK，不满意还可以自己嵌。&lt;/p&gt;
+&lt;p&gt;Ultimate君的&lt;a title=&#34;Nyaa&#34; href=&#34;http://www.nyaa.se/?user=193097&#34; target=&#34;_blank&#34;&gt;Nayy页面&lt;/a&gt;，推特&lt;a href=&#34;https://twitter.com/Ultimate7777777&#34; target=&#34;_blank&#34;&gt;@Ultimate7777777&lt;/a&gt;，他竟然还会分享东西到百度盘，简直好评，感激不尽。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/pupa-ed-Cover.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1792&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/pupa-ed-Cover.jpg&#34; alt=&#34;pupa-ed-Cover&#34; width=&#34;500&#34; height=&#34;500&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/pupa-ed-Cover.jpg 500w, https://umi.im/wp-content/uploads/2014/03/pupa-ed-Cover-150x150.jpg 150w, https://umi.im/wp-content/uploads/2014/03/pupa-ed-Cover-300x300.jpg 300w, https://umi.im/wp-content/uploads/2014/03/pupa-ed-Cover-80x80.jpg 80w&#34; sizes=&#34;(max-width: 500px) 100vw, 500px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;TVアニメ「pupa」EDテーマ「誰より好きなのに」／くすまさんしまい(黒澤ゆりか&amp;amp;若狭みなと&amp;amp;臼井晴菜)&lt;/p&gt;
+&lt;p&gt;発売日 : 2014/03/12&lt;br&gt;
+商品番号 : CORE-21&lt;br&gt;
+JANコード : 4562392698549&lt;/p&gt;
+&lt;p&gt;[内容紹介]&lt;br&gt;
+熱烈なファンの支持を受けるTVアニメ『pupa』のエンディングCDリリース決定 ! ” 究極の兄妹愛 ” を描く 『pupa』 エンディング曲は、古内東子の名曲 「誰より好きなのに」のカバー。アーティストは声優オーディションバラエティ 「スパルタンMX」 から抜擢された、くすまさんしまいが担当!&lt;/p&gt;
+&lt;p&gt;収録曲&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;誰より好きなのに&lt;br&gt;
+歌 : くすまさんしまい&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;誰より好きなのに (Instrumental)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;「くすま」スペシャルラジオ放送局&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;誰より好きなのに・告白ドラマ (黒澤Ver.)&lt;br&gt;
+歌 : 黒澤ゆりか&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;誰より好きなのに・告白ドラマ (若狭Ver.)&lt;br&gt;
+歌 : 若狭みなと&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;誰より好きなのに・告白ドラマ (臼井Ver.)&lt;br&gt;
+歌 : 臼井晴菜&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-title百度-hrefhttppanbaiducoms1o6ufnai--target_blanktvアニメpupaedテーマ誰より好きなのにa百度云&#34;&gt;
+    &lt;a href=&#34;#a-title%e7%99%be%e5%ba%a6-hrefhttppanbaiducoms1o6ufnai--target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1pupaed%e3%83%86%e3%83%bc%e3%83%9e%e8%aa%b0%e3%82%88%e3%82%8a%e5%a5%bd%e3%81%8d%e3%81%aa%e3%81%ae%e3%81%aba%e7%99%be%e5%ba%a6%e4%ba%91&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;百度&#34; href=&#34;http://pan.baidu.com/s/1o6ufnAi &#34; target=&#34;_blank&#34;&gt;TVアニメ「pupa」EDテーマ「誰より好きなのに」&lt;/a&gt;（百度云）
+&lt;/h2&gt;&lt;h5 id=&#34;password--t697&#34;&gt;
+    &lt;a href=&#34;#password--t697&#34;&gt;#&lt;/a&gt;
+    Password : t697
+&lt;/h5&gt;</description>
+        </item>
+        <item>
+        <title>真野 まり(CV: 戶松遙) –  涙星</title>
+        <link>https://umi.im/haruka-flamenco-ed/</link>
+        <pubDate>Wed, 19 Feb 2014 16:59:40 +0000</pubDate>
+        
+        <guid>https://umi.im/haruka-flamenco-ed/</guid>
+        <description>&lt;p&gt;十月番武士弗拉明戈第十话的ED。&lt;/p&gt;
+&lt;p&gt;说起这片。。编剧实在是。。脑洞太大。。各种神展开。。&lt;/p&gt;
+&lt;p&gt;而且还有百合。（＞ｙ＜）&lt;/p&gt;
+&lt;p&gt;肉松唱的，哭腔实在是太赞了！&lt;/p&gt;
+&lt;p&gt;忍不住就截下来传Bilibili了 ~ 声音小了点。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;embed height=&#34;452&#34; width=&#34;544&#34; quality=&#34;high&#34; allowfullscreen=&#34;true&#34; type=&#34;application/x-shockwave-flash&#34; src=&#34;http://static.hdslb.com/miniloader.swf&#34; flashvars=&#34;aid=973807&amp;#038;page=1&#34; pluginspage=&#34;http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&#34;&gt;
+&lt;/embed&gt;</description>
+        </item>
+        <item>
+        <title>非常棒的Foobar2000 MOD作品 ~ FooboX 3</title>
+        <link>https://umi.im/foobar2000/</link>
+        <pubDate>Thu, 16 Jan 2014 03:55:30 +0000</pubDate>
+        
+        <guid>https://umi.im/foobar2000/</guid>
+        <description>&lt;address&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/Foobox-3.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1338&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/Foobox-3.jpg&#34; alt=&#34;Foobox 3&#34; width=&#34;954&#34; height=&#34;665&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/Foobox-3.jpg 954w, https://umi.im/wp-content/uploads/2014/01/Foobox-3-150x104.jpg 150w, https://umi.im/wp-content/uploads/2014/01/Foobox-3-300x209.jpg 300w&#34; sizes=&#34;(max-width: 954px) 100vw, 954px&#34; /&gt;&lt;/a&gt;
+&lt;/address&gt;
+&lt;p&gt;终于找到了，就是它，这是我找到过的最优秀的Foobar MOD了。&lt;/p&gt;
+&lt;p&gt;简洁，原汁原味，集成ESLyric插件，基于最新的&lt;a href=&#34;http://www.blogbus.com/asionwu-logs/246545420.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Foobar2000 v1.3&lt;/a&gt;制作。&lt;/p&gt;
+&lt;p&gt;作者是&lt;a title=&#34;百度空间&#34; href=&#34;http://tieba.baidu.com/home/main?un=dreamawake&amp;fr=pb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dreamawake&lt;/a&gt;，因为是国人开发，所以不用担心语言问题（很多FB皮肤是老外制作的）。&lt;/p&gt;
+&lt;p&gt;右上角的点滴图标让我想起了Android应用的菜单键，其实它也是菜单键。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/FoobaX-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1332&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/FoobaX-3.png&#34; alt=&#34;FoobaX 3&#34; width=&#34;1018&#34; height=&#34;586&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/FoobaX-3.png 1018w, https://umi.im/wp-content/uploads/2014/01/FoobaX-3-150x86.png 150w, https://umi.im/wp-content/uploads/2014/01/FoobaX-3-300x172.png 300w&#34; sizes=&#34;(max-width: 1018px) 100vw, 1018px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;好了，我终于抛弃陪伴我已久的原版Foobar2000。&lt;/p&gt;
+&lt;p&gt;这原生界面该说简朴还是简陋呢？⊂((・▽・))⊃&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;lightbox&#34; style=&#34;font-size: 14px; line-height: 1.5em;&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/Foobar2000.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1329&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/Foobar2000.png&#34; alt=&#34;Foobar2000&#34; width=&#34;715&#34; height=&#34;450&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/Foobar2000.png 715w, https://umi.im/wp-content/uploads/2014/01/Foobar2000-150x94.png 150w, https://umi.im/wp-content/uploads/2014/01/Foobar2000-300x188.png 300w&#34; sizes=&#34;(max-width: 715px) 100vw, 715px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;集成ESLyric歌词秀插件，有了它就可以拥有国产播放器般华丽的歌词了。&lt;/p&gt;
+&lt;p&gt;显示效果非常棒啊！！！&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/ESLyric.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1328&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/ESLyric.png&#34; alt=&#34;ESLyric&#34; width=&#34;683&#34; height=&#34;109&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/ESLyric.png 683w, https://umi.im/wp-content/uploads/2014/01/ESLyric-150x23.png 150w, https://umi.im/wp-content/uploads/2014/01/ESLyric-300x47.png 300w&#34; sizes=&#34;(max-width: 683px) 100vw, 683px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;歌词自动搜索匹配，也可手动。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;lightbox&#34; style=&#34;font-size: 14px; line-height: 1.5em;&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/foobar-Lyrics.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1330&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/foobar-Lyrics.png&#34; alt=&#34;foobar-Lyrics&#34; width=&#34;546&#34; height=&#34;390&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/foobar-Lyrics.png 546w, https://umi.im/wp-content/uploads/2014/01/foobar-Lyrics-150x107.png 150w, https://umi.im/wp-content/uploads/2014/01/foobar-Lyrics-300x214.png 300w&#34; sizes=&#34;(max-width: 546px) 100vw, 546px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;最喜欢的快捷键设置，设置锁定、隐藏歌词秀的全局快捷键，当然，还有上一首暂停播放什么的。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/foobar-Shortcuts.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1331&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/foobar-Shortcuts.png&#34; alt=&#34;foobar-Shortcuts&#34; width=&#34;754&#34; height=&#34;552&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/foobar-Shortcuts.png 754w, https://umi.im/wp-content/uploads/2014/01/foobar-Shortcuts-150x109.png 150w, https://umi.im/wp-content/uploads/2014/01/foobar-Shortcuts-300x219.png 300w&#34; sizes=&#34;(max-width: 754px) 100vw, 754px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href=&#34;http://tieba.baidu.com/p/2809755383&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;foobox 3，谢谢喜欢foobox的朋友支持&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-title点击进入下载地址-hrefhttppanbaiducomsharelinkshareid3242916904uk688384401-target_blank-relnoopenerfoobox-3a&#34;&gt;
+    &lt;a href=&#34;#a-title%e7%82%b9%e5%87%bb%e8%bf%9b%e5%85%a5%e4%b8%8b%e8%bd%bd%e5%9c%b0%e5%9d%80-hrefhttppanbaiducomsharelinkshareid3242916904uk688384401-target_blank-relnoopenerfoobox-3a&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;点击进入下载地址&#34; href=&#34;http://pan.baidu.com/share/link?shareid=3242916904&amp;uk=688384401&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Foobox 3&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>炒土豆丝の音乐</title>
+        <link>https://umi.im/acg-music/</link>
+        <pubDate>Fri, 22 Nov 2013 11:28:19 +0000</pubDate>
+        
+        <guid>https://umi.im/acg-music/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/ACG-MUSIC.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-917&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/ACG-MUSIC.jpg&#34; alt=&#34;ACG MUSIC&#34; width=&#34;960&#34; height=&#34;621&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/11/ACG-MUSIC.jpg 960w, https://umi.im/wp-content/uploads/2013/11/ACG-MUSIC-300x194.jpg 300w&#34; sizes=&#34;(max-width: 960px) 100vw, 960px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;全部为日文无损歌曲，大多是ACG向。&lt;/p&gt;
+&lt;p&gt;格式都是&lt;a href=&#34;http://zh.wikipedia.org/wiki/FLAC&#34; target=&#34;_blank&#34;&gt;FLAC&lt;/a&gt;格式，绝大部分来源于eD2k网络、BT下载，质量可靠。&lt;/p&gt;
+&lt;p&gt;标签和封面都很完整，整理癖嘛。&lt;/p&gt;
+&lt;p&gt;弄了个网易云音乐的歌单，有几首找不到。&lt;/p&gt;
+&lt;h2 id=&#34;span-stylecolor-99cc00a-title炒土豆丝の音乐-hrefhttpmusic163complaylistid65907389-target_blankspan-stylecolor-99cc00网易云音乐在线听spanaspan&#34;&gt;
+    &lt;a href=&#34;#span-stylecolor-99cc00a-title%e7%82%92%e5%9c%9f%e8%b1%86%e4%b8%9d%e3%81%ae%e9%9f%b3%e4%b9%90-hrefhttpmusic163complaylistid65907389-target_blankspan-stylecolor-99cc00%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90%e5%9c%a8%e7%ba%bf%e5%90%acspanaspan&#34;&gt;#&lt;/a&gt;
+    &lt;span style=&#34;color: #99cc00;&#34;&gt;&lt;a title=&#34;炒土豆丝の音乐&#34; href=&#34;http://music.163.com/#/playlist?id=65907389&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;网易云音乐在线听&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;/h2&gt;&lt;h5 id=&#34;span-stylecolor-99ccffakb48-8211-ひと夏の反抗期span&#34;&gt;
+    &lt;a href=&#34;#span-stylecolor-99ccffakb48-8211-%e3%81%b2%e3%81%a8%e5%a4%8f%e3%81%ae%e5%8f%8d%e6%8a%97%e6%9c%9fspan&#34;&gt;#&lt;/a&gt;
+    &lt;span style=&#34;color: #99ccff;&#34;&gt;AKB48 – ひと夏の反抗期&lt;/span&gt;
+&lt;/h5&gt;&lt;p&gt;&lt;span style=&#34;color: #99ccff;&#34;&gt;AKB48 – 心のプラカード&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;AKB48 – 桜の木になろう&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ALI PROJECT – 禁じられた遊び&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ALI PROJECT – 勇侠青春謳&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Aramary – 恋人を射ち堕とした日&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;BoA – Every Heart -ミンナノキモチ-&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Ceui – 奏愛カレンデュラ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;CHiCO with HoneyWorks – 世界は恋に落ちている&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ChouCho – starlog&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ChouCho – 夏の日と君の声&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ClariS – border&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ClariS – CLICK&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ClariS – irony&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ClariS – コネクト&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Daisy x Daisy – 永久のキズナ feat. Another Infinity&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;DALI – ムーンライト伝説&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;dream – Get Over [Original mix]&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;dream – SINCERELY～ever dream～&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ELISA – ebullient future (Japanese)&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ELISA – REALISM&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ELISA – そばにいるよ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ELISA – ミレナリオ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;eufonius – リフレクティア&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;eufonius – 比翼の羽根&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;eufonius – 小さな手のひら&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;every♡ing! – pupa&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;fhána – 星屑のインターリュード&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;FictionJunction – Distance&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;FictionJunction YUUKA – 暁の車&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Field of View – DAN DAN 心魅かれてく&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Field of View – 突然&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;FLOW – COLORS&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Friends – secret. base. ～君がくれたもの～&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;fripSide – black bullet&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;fripSide – LEVEL5. -judgelight-&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;fripSide – only. my. railgun&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;fripSide – sister’s noise&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Galileo Galilei – 青い栞&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Goose house – 光るなら&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Hitomi – Continued Story&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Hitomi – Masquerade&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Hysteric Blue – グロウアップ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Janne Da Arc – 月光花 -Black Jack Mix-&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;JUDY AND MARY – そばかす&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Kalafina – believe&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Kalafina – consolation&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Kalafina – heavenly blue&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Kalafina – oblivious&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Kalafina – ring your bell&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Kalafina – to the beginning&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Kalafina – 光の旋律&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Kalafina – 君の銀の庭&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Kalafina – 満天&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Kalafina – 屋根の向こうに&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;karuta – 一番の宝物 (Original Version)&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Larval Stage Planning – Stargazer&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Larval Stage Planning – Sympathy&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Larval Stage Planning – Trip -innocent of D-&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Lia – My Soul, Your Beats!&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Lia – 鳥の詩&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Lia – 時を刻む唄&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;lily white – あ・の・ね・が・ん・ば・れ！&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;LiSA – crossing field&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;LiSA – oath sign&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;LiSA – 一番の宝物 ～Yui final ver.～&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;mao – 君ノ記憶&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;May’n&amp;amp;中島愛 – ライオン&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;meg rock – Catch You Catch Me&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;meg rock – clover&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Meiko Kaji – The Flower Of Carnage&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;MISA（アイドル）、古川惠实子、清水美恵 – 愛の天使&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;MOKA☆ – Lilium MOKA version&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;nomico – Shanhai Alice in 1884&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ORANGE RANGE – シアワセネイロ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;petit milady – azurite&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Petit Rabbit’s – Daydream cafe&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Petit Rabbit’s – 日常デコレーション&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;POP ETC – is&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Porno Graffitti – メリッサ(Melissa)&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Printemps – Love marginal&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Printemps – sweet&amp;amp;sweet holiday&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;PUFFY – SWEET DROPS&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Ray – ebb and flow&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Rie fu – ツキアカリ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;riya – メグメル&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;riya – 空に光る&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;SawanoHiroyuki[nZk] – aLIEz&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;SawanoHiroyuki[nZk] – Keep on keeping on&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;SawanoHiroyuki[nZk]mizuki – A／Z&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;See-Saw – あんなに一緒だったのに&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;shela – Days&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;smileY inc. – 花雪&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Sound Horizon – 美しきもの&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Stephanie – 泪のムコウ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;StylipS – Spica.&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;supercell – 君の知らない物語&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;sweet ARMS – デート・ア・ライブ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;T.M. Revolution – Invoke&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;T.M.Revolution – HEART OF SWORD～夜明け前～&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Team Dragon from AKB48 – 心の羽根&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Team.ねこかん[猫] featuring 天乙准花 – ツナグキズナ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Tia – ハートリアライズ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Tommy Heavenly6 – Pray&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;TRUE – ailes&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;TRUE – DREAM SOLISTER&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;V6 – Change The World&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;V6 – テイク·ミー·ハイヤー&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;WANDS – 世界が終わるまでは…&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;X Japan – Longing~迹切れたメロディー&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;yozuca – サクラサクミライコイユメ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;Yuuki Ozaki (from Galileo Galilei) – Trigger&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ZAQ – Philosophy of Dear World&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ZARD – DAN DAN 心魅かれて&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ZARD – グロリアスマインド&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ZARD – マイ フレンド&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ZARD – 爱は暗暗の中で&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ZARD – 負けないで&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ZARD – 少女の頃に戻ったみたいに&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ZARD – 息もできない&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ZARD – 夏を待つセイル(帆)のように&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ZARD – 心を開いて&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ZARD – 揺れる想い&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ZARD – 運命のル-レット廻して&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;μ’s – Oh, Love &amp;amp; Peace!&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;μ’s – Snow halation&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;μ’s – START：DASH!!&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;μ’s – Susume Tomorrow&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;μ’s – きっと青春が聞こえる&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;μ’s – それは僕たちの奇跡&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;μ’s – どんなときもずっと&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;μ’s – 僕らは今のなかで&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;あさな（IOSYS） – ETERNAL. BLAZE&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;いとうかなこ – Hacking to the Gate&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;かなでももこ – 赤いメモリーズをあなたに&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;きただにひろし – ウィーアー!&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;くすまさんしまい – 誰より好きなのに&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;コブクロ – Blue Bird&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ステレオポニー – ツキアカリのミチシルベ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;スフィア – 明日への帰り道&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;タイナカ サチ – Disillusion&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;タイナカサチ- Disillusion -2010-&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;タニザワトモフミ – きみにとどけ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;チーム・ハナヤマタ – 花ハ踊レヤいろはにほ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;つじあやの – 風になる&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;っているのは伊織さんではなく、Reikoという方です – キミがいれば&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ナイトメア – the WORLD&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ナイトメア – アルミナ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;フジファブリック – ブルー.mp3&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ミネラル★ミラクル★ミューズ – デートTIME&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ミネラル★ミラクル★ミューズ – フライト23時&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;ミネラル★ミラクル★ミューズ – 涙星&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;みみめめMIMI – センチメンタルラブ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;やなぎなぎ – アクアテラリウム&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;やなぎなぎ – 三つ葉の結びめ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;阿良良木月火(CV.井口裕香) – 白金ディスコ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;愛内里菜 &amp;amp; 三枝夕夏 – 七つの海を渡る風のように&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;奥 華子 – ガーネット&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;白(CV.茅野愛衣) – オラシオン&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;百合城銀子(CV.荒川美穂)、百合ヶ咲るる(CV.生田善子)、椿輝紅羽(CV.山根希美) – TERRITORY&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;坂本真綾 – トライアングラー&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;本間芽衣子、安城鳴子、鶴見知利子（CV：茅野愛衣&amp;amp;戸松遥&amp;amp;早見沙織） – secret base ～君がくれたもの～ （10 years after Ver.）&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;碧陽学園生徒会- Treasure&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;茶太 – だんご大家族&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;川嶋あい – それが大事&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;川田まみ – JOINT&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;川田まみ – 緋色の空&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;春奈るな – Overfly&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;春奈るな – 空は高く風は歌う&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;村井かずさ – 桜樹のささやき&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;大橋卓弥 – ありがとう&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;大杉久美子 – ドラえもんのうた&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;大事MANブラザーズバンド – それが大事&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;島みやえい子 – ひぐらしのなく頃に&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;島みやえい子 – 奈落の花&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;東京パフォーマンスドール – BRAND NEW STORY.mp3&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;福田 舞 – 天使のゆびきり&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;冈崎律子 – For フルーツバスケット&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;高桥洋树 – 魔訶不思議アドベンチャー!&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;宮村みやこ(田口宏子) – I’m here&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;宮崎あゆみ – brave. heart&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;観月ありさ – ヒトミノチカラ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;桂ヒナギク starring 伊藤静 – 春ULALA・LOVEよ来い！！！&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;和田光司 – Butter. Fly&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;和田光司 – ターゲット. ～赤い衝撃～&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;河野マリナ – たからもの&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;黒羽寧子(CV.種田梨沙)、橘佳奈(CV.洲崎綾)、カズミ・シュリーレンツァウアー(CV.M・A・O)、鷹鳥小鳥(CV.田所あずさ) – いちばん星&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;黒沼爽子 (能登麻美子), 風早翔太 (浪川大輔), 矢野あやね (沢城みゆき), 吉田千鶴… – きみにとどけ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;花沢加絵 – セーラースターソング&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;花澤香菜 – 優しい夕暮れ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;井上 あずみ – 君をのせて&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;酒井 ミキオ – Wonderful Life&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;橘万里花(CV.阿澄佳奈) – はなごのみ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;堀江由衣 – silky. heart&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;堀江由衣 – そよ风のハーモニー&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;堀江由衣 – 樱&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;昆夏美 – 虹のかけら&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;藍井エイル – GENESIS&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;藍井エイル – MEMORIA&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;藍井エイル- INNOCENCE&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;栗林みな実 – あなたが…いない&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;鈴木このみ – This game&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;鈴木このみ – 銀閃の風&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;綾野ましろ – ideal white&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;鷺ノ宮伊澄 starring 松来未祐 – まんまるかくれんぼ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;茅原实里 – Paradise Lost&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;美郷あき – くちびる白昼夢&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;美郷あき – 少女迷路でつかまえて&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;米仓千寻 – WILL&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;米仓千寻 – 嵐の中で輝いて&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;牧野由依 – もどかしい世界の上で&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;乃木坂46 – 何度目の青空か？&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;乃木坂46 – 立ち直り中&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;乃木坂46 – 命は美しい&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;乃木坂46 – 気づいたら片想い&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;妮可·鲁梅露希耶（前田玲奈） – アメフラシの歌~Beautiful Rain~&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;平野綾 茅原実里 後藤邑子 – レ晴レユカイ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;平泽唯,秋山澪,田井中律,琴吹䌷 – 天使にふれたよ（卒業式）&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;前田愛 – keep on&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;桥本潮 – ロマンティックあげるよ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;清浦夏実 – 旅の途中&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;清水理沙 – Promised Land&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;三澤紗千香as生田目千足&amp;amp;内田愛美as桐ヶ谷柩 – Poison Me&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;森口博子 – 星より先に見つけてあげる&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;山崎まさよし – One more time, One more chance&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;上原れな – さよならのこと&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;上原れな – 届かない恋 ’13&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;生物股长 – ハルウタ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;生物股长 – 熱情のスペクトラム&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;石田燿子 – COLORFUL BOX&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;矢野立美 – Brave Love, TIGA&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;樹海 – あなたがいた森&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;水樹奈々 – PHANTOM. MINDS&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;水樹奈々 – Pray&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;水樹奈々 – 終末のラブソング&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;松たか子 – 梦のしずく&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;藤宫香织 – 奏 (かなで)&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;田中理惠 – 静かな夜に&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;桐島青大(CV.細谷佳正) – 君のいる町&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;小林未郁 – βios&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;小木曽雪菜 – 届かない恋 Live at Campus Fes&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;小松未歩 – 願い事ひとつだけ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;小田和正 – ラヴ·ストーリーは突然に&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;小西香葉・近藤由紀夫 – LILIUM ～opening version～&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;星空凛(CV.飯田里穂) – 恋のシグナル Rin rin rin!&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;絢瀬絵里(CV.南條愛乃)&amp;amp;東條希(CV.楠田亜衣奈) – 硝子の花園&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;雪野五月 – you&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;野川さくら – PARTY PLAY&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;伊織 – キミがいれば&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;引田香織 – くもりガラスの向こう&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;幽闭サテライト – 千華繚乱&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;幽閉サテライト – 色は匂へど散りぬるを&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;羽川翼（堀江由衣） – perfect slumbers&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;雨宫天 – Skyreach&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;雨宫优子（中岛裕美子） – 悠久の翼 [eternal feather] 07.mix&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;雨宮天 – 月灯り&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;玉置成実 – Reason&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;斋藤千和 – staple stable&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;真野惠里菜 – 乙女の祈り&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;中川翔子 – DAN DAN 心魅かれてく -short ver.-&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;中川翔子 – Don’t say ‘lazy’ -short ver.-&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;中川翔子 – セーラースターソング -short ver.-&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;中川翔子 – そばかす&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;中川翔子 – ときめきの導火線&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;中川翔子 – ムーンライト伝説 -short ver.-&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;中川翔子 – ロマンティックあげるよ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;中川翔子 – 残酷な天使のテーゼ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;中島みゆき – ルージュ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;中原麻衣&amp;amp;清水爱 – 秘密ドールズ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;佐倉千代(CV.小澤亜李) – ウラオモテ・フォーチュン&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;佐藤ひろ美&amp;amp;NANA – 祝福のカンパネラ&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;佐藤朱美 – いとおしい人のために&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;佐香智久 – 僕たちの歌&lt;/span&gt; {.}&lt;/p&gt;
+&lt;h5 id=&#34;span-stylecolor-000000-updated-201539span&#34;&gt;
+    &lt;a href=&#34;#span-stylecolor-000000-updated-201539span&#34;&gt;#&lt;/a&gt;
+    &lt;span style=&#34;color: #000000;&#34;&gt;-Updated 2015/3/9&lt;/span&gt;
+&lt;/h5&gt;&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;span-stylecolor-99cc00delspan-stylecolor-99cc00a-title下载-hrefhttppanbaiducoms1c0acdik-target_blank炒土豆丝の音乐aspandelspan-stylecolor-000000百度云spanbr--span&#34;&gt;
+    &lt;a href=&#34;#span-stylecolor-99cc00delspan-stylecolor-99cc00a-title%e4%b8%8b%e8%bd%bd-hrefhttppanbaiducoms1c0acdik-target_blank%e7%82%92%e5%9c%9f%e8%b1%86%e4%b8%9d%e3%81%ae%e9%9f%b3%e4%b9%90aspandelspan-stylecolor-000000%e7%99%be%e5%ba%a6%e4%ba%91spanbr--span&#34;&gt;#&lt;/a&gt;
+    &lt;span style=&#34;color: #99cc00;&#34;&gt;&lt;del&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;&lt;a title=&#34;下载&#34; href=&#34;http://pan.baidu.com/s/1c0AcdIK&#34; target=&#34;_blank&#34;&gt;炒土豆丝の音乐&lt;/a&gt;&lt;/span&gt;&lt;/del&gt;&lt;span style=&#34;color: #000000;&#34;&gt;（百度云）&lt;/span&gt;&lt;br /&gt; &lt;/span&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;span-stylecolor-99cc00a-titlegoogle-drive-下载-hrefhttpsdrivegooglecomfolderviewid0b8oh-br_nde1c2p3t1nfz09hdw8uspsharing-target_blankspan-stylecolor-99cc00炒土豆丝の音乐spanaspan-stylecolor-000000google-drivespanspan&#34;&gt;
+    &lt;a href=&#34;#span-stylecolor-99cc00a-titlegoogle-drive-%e4%b8%8b%e8%bd%bd-hrefhttpsdrivegooglecomfolderviewid0b8oh-br_nde1c2p3t1nfz09hdw8uspsharing-target_blankspan-stylecolor-99cc00%e7%82%92%e5%9c%9f%e8%b1%86%e4%b8%9d%e3%81%ae%e9%9f%b3%e4%b9%90spanaspan-stylecolor-000000google-drivespanspan&#34;&gt;#&lt;/a&gt;
+    &lt;span style=&#34;color: #99cc00;&#34;&gt;&lt;a title=&#34;Google drive 下载&#34; href=&#34;https://drive.google.com/folderview?id=0B8oh-BR_nDe1c2p3T1NFZ09hdW8&amp;usp=sharing&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;炒土豆丝の音乐&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;color: #000000;&#34;&gt;（Google Drive）&lt;/span&gt;&lt;/span&gt;
+&lt;/h2&gt;&lt;div class=&#39;alert alert-primary&#39;&gt;
+  &lt;span class=&#39;alert-inner--text&#39;&gt;歌曲并没有打包上传，批量下载可能出现错误，请使用&lt;a href=&#34;https://umi.im/?page_id=453&#34; target=&#34;_blank&#34;&gt;百度云（去广告绿色版）&lt;/a&gt;下载。&lt;/span&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
+        <title>让Win8找回Aero Glass！~。。。</title>
+        <link>https://umi.im/win8-aero-glass/</link>
+        <pubDate>Mon, 25 Feb 2013 03:58:00 +0000</pubDate>
+        
+        <guid>https://umi.im/win8-aero-glass/</guid>
+        <description>&lt;p&gt;&lt;img decoding=&#34;async&#34; style=&#34;background-color: white; color: #444444; font-family: Tahoma, Helvetica, SimSun, sans-serif; font-size: 14.399999618530273px; line-height: 16.799999237060547px; word-wrap: break-word;&#34; alt=&#34;&#34; src=&#34;http://bbs.comicdd.com/static/image/smiley/kanade/ka49.jpg&#34; border=&#34;0&#34; /&gt;&lt;span style=&#34;font-size: 14px; line-height: 16.796875px; text-align: center;&#34;&gt;&lt;span style=&#34;color: #444444; font-family: Tahoma, Helvetica, SimSun, sans-serif;&#34;&gt;国外有大神做出了恢复Aero Glass的软件！&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: start;&#34;&gt;
+  &lt;span style=&#34;color: #444444; font-family: Tahoma, Helvetica, SimSun, sans-serif;&#34;&gt;&lt;span style=&#34;font-size: 14px; line-height: 16.796875px;&#34;&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: start;&#34;&gt;
+  &lt;span style=&#34;color: #444444; font-family: Tahoma, Helvetica, SimSun, sans-serif;&#34;&gt;&lt;span style=&#34;font-size: 14px; line-height: 16.796875px;&#34;&gt;         通过注入dwm.exe来实现Aero Glass~&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: start;&#34;&gt;
+  &lt;span style=&#34;color: #444444; font-family: Tahoma, Helvetica, SimSun, sans-serif;&#34;&gt;&lt;span style=&#34;font-size: 14px; line-height: 16.796875px;&#34;&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: start;&#34;&gt;
+  &lt;span style=&#34;color: #444444; font-family: Tahoma, Helvetica, SimSun, sans-serif;&#34;&gt;&lt;span style=&#34;font-size: 14px; line-height: 16.796875px;&#34;&gt;         不过关了dwn.exe特效就会消失~灰常可惜~&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+  &lt;a style=&#34;margin-left: 1em; margin-right: 1em;&#34; href=&#34;http://1.bp.blogspot.com/-M_fl37o4nXo/USvBUEGPRkI/AAAAAAAAAGo/P4TfudSuLpc/s1600/0.0.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; alt=&#34;&#34; src=&#34;http://1.bp.blogspot.com/-M_fl37o4nXo/USvBUEGPRkI/AAAAAAAAAGo/P4TfudSuLpc/s640/0.0.png&#34; width=&#34;640&#34; height=&#34;528&#34; border=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+  原帖：http://www.msfn.org/board/topic/161788-aero-glass-for-win8-v01
+&lt;/div&gt;
+&lt;p&gt;&lt;span style=&#34;background-color: white; color: #444444; font-family: Tahoma, Helvetica, SimSun, sans-serif; font-size: 14.399999618530273px; line-height: 16.799999237060547px;&#34;&gt; &lt;/span&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>★★★ Windows 8 MSDN 简体中文 各版本下载 ★★★</title>
+        <link>https://umi.im/windows-8-msdn/</link>
+        <pubDate>Tue, 29 Jan 2013 14:34:00 +0000</pubDate>
+        
+        <guid>https://umi.im/windows-8-msdn/</guid>
+        <description>&lt;p&gt;&lt;span style=&#34;background-color: white; color: #444444; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px;&#34;&gt;专业版&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;background-color: white; color: #444444; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px;&#34;&gt;x86：&lt;/span&gt;&lt;a href=&#34;//|file|cn_windows_8_x86_dvd_915414.iso|2679801856|9AF10141BFD61BC66D9D6459758D7749|/&#34; id=&#34;ed2k_qyY&#34; style=&#34;background-color: white; color: #2265a9; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px; word-wrap: break-word;&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cn_windows_8_x86_dvd_915414.iso (2.5 GB)&lt;/a&gt;&lt;br&gt;
+&lt;span style=&#34;background-color: white; color: #444444; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px;&#34;&gt;x64：&lt;/span&gt;&lt;a href=&#34;//|file|cn_windows_8_x64_dvd_915407.iso|3652950016|5C7F8C212BD3A1827866563773A431C2|/&#34; id=&#34;ed2k_tws&#34; style=&#34;background-color: white; color: #2265a9; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px; word-wrap: break-word;&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cn_windows_8_x64_dvd_915407.iso (3.4 GB)&lt;/a&gt;&lt;br&gt;
+&lt;br style=&#34;background-color: white; word-wrap: break-word;&#34; /&gt; &lt;span style=&#34;background-color: white; color: #444444; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px;&#34;&gt;企业版&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;background-color: white; color: #444444; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px;&#34;&gt;x86：&lt;/span&gt;&lt;a href=&#34;//|file|cn_windows_8_enterprise_x86_dvd_917682.iso|2597502976|7B6541942A16EB54BC81E84558DF09DF|/&#34; id=&#34;ed2k_Kgz&#34; style=&#34;background-color: white; color: #2265a9; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px; word-wrap: break-word;&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cn_windows_8_enterprise_x86_dvd_917682.iso (2.42 GB)&lt;/a&gt;&lt;br&gt;
+&lt;span style=&#34;background-color: white; color: #444444; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px;&#34;&gt;x64：&lt;/span&gt;&lt;a href=&#34;//|file|cn_windows_8_enterprise_x64_dvd_917570.iso|3560837120|8CAE8064C4B8F9CD84941B4FF4A34722|/&#34; id=&#34;ed2k_Nrm&#34; style=&#34;background-color: white; color: #2265a9; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px; word-wrap: break-word;&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cn_windows_8_enterprise_x64_dvd_917570.iso (3.32 GB)&lt;/a&gt;&lt;br&gt;
+&lt;br style=&#34;background-color: white; word-wrap: break-word;&#34; /&gt; &lt;span style=&#34;background-color: white; color: #444444; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px;&#34;&gt;专业版 批量授权&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;background-color: white; color: #444444; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px;&#34;&gt;x86：&lt;/span&gt;&lt;a href=&#34;//|file|cn_windows_8_pro_vl_x86_dvd_917720.iso|2595137536|E87CEF7B8B4EFB12B0A7397795209301|/&#34; id=&#34;ed2k_LNr&#34; style=&#34;background-color: white; color: #2265a9; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px; word-wrap: break-word;&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cn_windows_8_pro_vl_x86_dvd_917720.iso (2.42 GB)&lt;/a&gt;&lt;br&gt;
+&lt;span style=&#34;background-color: white; color: #444444; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px;&#34;&gt;x64：&lt;/span&gt;&lt;a href=&#34;//|file|cn_windows_8_pro_vl_x64_dvd_917773.iso|3558014976|7956620A80428F37D4F2989CB5CF3B5A|/&#34; id=&#34;ed2k_cFB&#34; style=&#34;background-color: white; color: #2265a9; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px; word-wrap: break-word;&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cn_windows_8_pro_vl_x64_dvd_917773.iso (3.31 GB)&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

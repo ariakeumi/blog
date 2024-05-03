@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="朋友为了玩FF14升级PC平台，然后把旧平台送我了，好朋友啊！！！ 他的新平台： CPU i7-4790K GPU GTX970 MB MSI Z97 RAM Kingston 8GB DDR3 SSD Toshiba 256GB Power Antec Neo Eco 550M 送我的旧平台： CPU i5-2380P GPU GTX550Ti MB">
+<title>OS X 10.10 Yosemite 黑苹果安装手记</title>
+
+<link rel='canonical' href='https://umi.im/os-x-10-10-yosemite/'>
+
+<link rel="stylesheet" href="/scss/style.min.859d15a88c4baa095161a679adcf6a0588d393b9603bd708e8e0c634ae102b82.css"><meta property='og:title' content="OS X 10.10 Yosemite 黑苹果安装手记">
+<meta property='og:description' content="朋友为了玩FF14升级PC平台，然后把旧平台送我了，好朋友啊！！！ 他的新平台： CPU i7-4790K GPU GTX970 MB MSI Z97 RAM Kingston 8GB DDR3 SSD Toshiba 256GB Power Antec Neo Eco 550M 送我的旧平台： CPU i5-2380P GPU GTX550Ti MB">
+<meta property='og:url' content='https://umi.im/os-x-10-10-yosemite/'>
+<meta property='og:site_name' content='笨蛋屋'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Mac' /><meta property='article:tag' content='黑苹果' /><meta property='article:published_time' content='2015-01-06T11:21:28&#43;00:00'/><meta property='article:modified_time' content='2015-01-06T11:21:28&#43;00:00'/>
+<meta name="twitter:title" content="OS X 10.10 Yosemite 黑苹果安装手记">
+<meta name="twitter:description" content="朋友为了玩FF14升级PC平台，然后把旧平台送我了，好朋友啊！！！ 他的新平台： CPU i7-4790K GPU GTX970 MB MSI Z97 RAM Kingston 8GB DDR3 SSD Toshiba 256GB Power Antec Neo Eco 550M 送我的旧平台： CPU i5-2380P GPU GTX550Ti MB">
+    <link rel="shortcut icon" href="/favicon.png" />
+
+  
+
+<meta name="verification" content="9cfa2f7dea5bc4a0">
+<script defer src="https://u.umi.im/replace-me-with-a-random-string" data-website-id="befac8d7-0396-44c8-b151-9c332a5f176f"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5428554628068316"
+     crossorigin="anonymous"></script>
+    
+    
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar-150px_hub3e42f8fb4895a97c7036e2fee26b85a_7312_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">💔</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">笨蛋屋</a></h1>
+            <h2 class="site-description">炒土豆丝 の Blog !</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://s.umi.im/'
+                        target="_blank"
+                        title="ServerStutas"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-server-bolt"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" /><path d="M15 20h-9a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h12" /><path d="M7 8v.01" /><path d="M7 16v.01" /><path d="M20 15l-2 3h3l-2 3" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://m.umi.im/'
+                        target="_blank"
+                        title="Memos"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-feather"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 20l10 -10m0 -5v5h5m-9 -1v5h5m-9 -1v5h5m-5 -5l4 -4l4 -4" /><path d="M19 10c.638 -.636 1 -1.515 1 -2.486a3.515 3.515 0 0 0 -3.517 -3.514c-.97 0 -1.847 .367 -2.483 1m-3 13l4 -4l4 -4" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/ariakeumi'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/998potato'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://umi.im/index.xml'
+                        target="_blank"
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/comments/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
+  <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
+</svg>
+
+
+
+                
+                <span>Comments</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='https://share.umi.im/' target="_blank">
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-share"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M18 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M8.7 10.7l6.6 -3.4" /><path d="M8.7 13.3l6.6 3.4" /></svg>
+                
+                <span>Share</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/it/" style="background-color: ; color: #fff;">
+                折腾
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/os-x-10-10-yosemite/">OS X 10.10 Yosemite 黑苹果安装手记</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2015年01月06日</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 4 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>朋友为了玩FF14升级PC平台，然后把旧平台送我了，好朋友啊！！！</p>
+<p>他的新平台：</p>
+<blockquote>
+<p>CPU i7-4790K</p>
+<p>GPU GTX970</p>
+<p>MB MSI Z97</p>
+<p>RAM Kingston 8GB DDR3</p>
+<p>SSD Toshiba 256GB</p>
+<p>Power Antec Neo Eco 550M</p>
+</blockquote>
+<p>送我的旧平台：</p>
+<blockquote>
+<p>CPU i5-2380P</p>
+<p>GPU GTX550Ti</p>
+<p>MB GA B75</p>
+<p>RAM Corsair 4GB DDR3</p>
+</blockquote>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/01/i5-gtx550ti-4gram-b75.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3417" src="https://umi.im/wp-content/uploads/2015/01/i5-gtx550ti-4gram-b75.jpg" alt="i5-gtx550ti-4gram-b75" width="1843" height="1382" srcset="https://umi.im/wp-content/uploads/2015/01/i5-gtx550ti-4gram-b75.jpg 1843w, https://umi.im/wp-content/uploads/2015/01/i5-gtx550ti-4gram-b75-150x112.jpg 150w, https://umi.im/wp-content/uploads/2015/01/i5-gtx550ti-4gram-b75-300x225.jpg 300w, https://umi.im/wp-content/uploads/2015/01/i5-gtx550ti-4gram-b75-1024x768.jpg 1024w" sizes="(max-width: 1843px) 100vw, 1843px" /></a></p>
+<p>得到新平台打算做的第一件事就是装上黑苹果，然后再玩GTA。以前的是Llano APU集显平台，装不了黑苹果，也玩不了GTA，虽然GTX550Ti也不一定能玩…</p>
+<p>黑苹果对硬件要求很严格，技嘉的主板比较容易搞，但是我的是ITX机箱，还得再买了块技嘉1155接口的ITX板子。</p>
+<p>1155的ITX板停产应该很久了，淘宝很少货，找到3个合适的。</p>
+<p>二手GA-H67N-USB3-B3，价格325。</p>
+<p>GA-B75N-WIFI，价格599。</p>
+<p>GA-H77N-WIFI，价格599。</p>
+<p>B75N-WIFI和H77N-WIFI主要是多了双网卡、无线网卡、蓝牙这些对我没用的功能，而且也不好驱动，大概…所以选了最便宜的二手H67。</p>
+<p>ITX机箱装起来就是麻烦，线怎么理还是乱，把琴里扔进去。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/01/new-PC-kotoli.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3414" src="https://umi.im/wp-content/uploads/2015/01/new-PC-kotoli.jpg" alt="new-PC-kotoli" width="1728" height="2304" srcset="https://umi.im/wp-content/uploads/2015/01/new-PC-kotoli.jpg 1728w, https://umi.im/wp-content/uploads/2015/01/new-PC-kotoli-113x150.jpg 113w, https://umi.im/wp-content/uploads/2015/01/new-PC-kotoli-225x300.jpg 225w, https://umi.im/wp-content/uploads/2015/01/new-PC-kotoli-768x1024.jpg 768w" sizes="(max-width: 1728px) 100vw, 1728px" /></a></p>
+<p>在收到硬件前看了很多远景上黑苹果的帖子，先整理下比较重要的吧。</p>
+<p>安装前：</p>
+<p><a href="http://bbs.pcbeta.com/viewthread-1494831-1-1.html" target="_blank">黑苹果新手引导, 常见疑难解答, 必要知识普及帖</a></p>
+<p>安装镜像：</p>
+<p><a href="http://bbs.pcbeta.com/viewthread-1550906-1-1.html" target="_blank">Yosemite 10.10 和 10.10.1 正式版 懒人版安装镜像 支持变色龙 Clover引导 支持虚拟机</a></p>
+<p>懒人版安装简单，合适我。</p>
+<p>引导方法：</p>
+<p><a href="http://bbs.pcbeta.com/viewthread-1518901-1-1.html" target="_blank">Windows下使用变色龙r2378+ 引导 OS X 10.10 懒人版安装超详细完整图文通用教程</a></p>
+<p><a href="http://bbs.pcbeta.com/viewthread-1518850-1-1.html" target="_blank">【变色龙】支持 10.10 的 Chameleon_2.3svn_r2529 Mac版+Win版+EFI_Tools</a></p>
+<p>Clover+EFI 好像很难，最终选择了变色龙+MRB引导安装， 使用EasyBCM添加wowpc.iso来安装变色龙引导，我用的是修改版的 Chameleon_2.2svn_r2402_10.10_CBv2_pkg+wowpc 。</p>
+<p>详细安装方法：</p>
+<p><a href="http://bbs.pcbeta.com/viewthread-1169005-1-1.html" target="_blank">在 win7 / win8 下安装苹果系统 (懒人版)</a></p>
+<p>排错方法：</p>
+<p><a href="http://bbs.pcbeta.com/viewthread-863656-1-1.html" target="_blank">新手常见(五国)(-v图)错误解决(原版,破解kernel,补丁kext下载)</a></p>
+<p>分区，写入安装映像、安装引导这些很简单，教程写的也很清楚，也不会出什么错，就不放图了。</p>
+<p>安装的时候才是麻烦。</p>
+<p>第一次安装，遇到Pci Configuration Begin错误，安装上面帖子的排错方法Q18。启动时加入『-v npci=0×2000 或 npci=0×3000』依旧不行，在org.chameleon.Boot.plist 加入</p>
+<p><key>Kernel Flags</key><br>
+<string>npci=0×2000</string></p>
+<p>也不行，替换文件试了还是不行。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/01/205422t1ja4scq4zgseg1c.jpg.thumb_.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3394" src="https://umi.im/wp-content/uploads/2015/01/205422t1ja4scq4zgseg1c.jpg.thumb_.jpg" alt="205422t1ja4scq4zgseg1c.jpg.thumb" width="640" height="478" srcset="https://umi.im/wp-content/uploads/2015/01/205422t1ja4scq4zgseg1c.jpg.thumb_.jpg 640w, https://umi.im/wp-content/uploads/2015/01/205422t1ja4scq4zgseg1c.jpg.thumb_-150x112.jpg 150w, https://umi.im/wp-content/uploads/2015/01/205422t1ja4scq4zgseg1c.jpg.thumb_-300x224.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" /></a></p>
+<p>各种方法试了无数次还是不行，整个人都快崩溃了，最后确定放弃安装Yosemite，去安装OS X Mavericks试试，然后安装很顺利很快就搞定了。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/01/OS-X-Mavericks.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3398" src="https://umi.im/wp-content/uploads/2015/01/OS-X-Mavericks.jpg" alt="OS X Mavericks" width="1920" height="1080" srcset="https://umi.im/wp-content/uploads/2015/01/OS-X-Mavericks.jpg 1920w, https://umi.im/wp-content/uploads/2015/01/OS-X-Mavericks-150x84.jpg 150w, https://umi.im/wp-content/uploads/2015/01/OS-X-Mavericks-300x169.jpg 300w, https://umi.im/wp-content/uploads/2015/01/OS-X-Mavericks-1024x576.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /></a></p>
+<p>显卡原生驱动，声卡没驱动，然后搞着搞着又进不了系统了，一怒下继续装Yosemite！</p>
+<p>接着又是遇到那个错误，重复着搜索『Pci Configuration Begin』等关键词，终于爬到一张英文帖子。</p>
+<p>其中一条回复，把10.9.5的的AppleACPIPlataform.kext替换进去，应该是这个意思吧。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/01/yosemite-Pci-Configuration-Begin.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3399" src="https://umi.im/wp-content/uploads/2015/01/yosemite-Pci-Configuration-Begin.png" alt="yosemite-Pci Configuration Begin" width="959" height="405" srcset="https://umi.im/wp-content/uploads/2015/01/yosemite-Pci-Configuration-Begin.png 959w, https://umi.im/wp-content/uploads/2015/01/yosemite-Pci-Configuration-Begin-150x63.png 150w, https://umi.im/wp-content/uploads/2015/01/yosemite-Pci-Configuration-Begin-300x127.png 300w" sizes="(max-width: 959px) 100vw, 959px" /></a></p>
+<p>我试着做，搜到10.9.5的AppleACPIPlataform.kext，替换进去，结果让人激动，跳过了PCI错误。</p>
+<p>接着，新的错误又出现了。</p>
+<p>NVDRstartup:Official 后黑屏了，只能强制关机。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/01/NVdastartup1.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3401" src="https://umi.im/wp-content/uploads/2015/01/NVdastartup1.jpg" alt="NVdastartup" width="1296" height="967" srcset="https://umi.im/wp-content/uploads/2015/01/NVdastartup1.jpg 1296w, https://umi.im/wp-content/uploads/2015/01/NVdastartup1-150x112.jpg 150w, https://umi.im/wp-content/uploads/2015/01/NVdastartup1-300x224.jpg 300w, https://umi.im/wp-content/uploads/2015/01/NVdastartup1-1024x764.jpg 1024w" sizes="(max-width: 1296px) 100vw, 1296px" /></a></p>
+<p>进入Windows找到S\L\E下的NVDRstartup.kext删掉（备份好，安装完成还要替换回去才能驱动显卡），继续尝试进安装界面。</p>
+<p>结果奇迹般的成功了，很顺利的安装了，安装完成后需要进入Windows复制文件，但是这时候是进不了Windows的，需要进PE用DiskGenius激活Win分区，我激活系统分区还是进不了，激活300M左右的那个系统保留分区就能进了。</p>
+<p>把安装分区Extra目录复制到OS X系统分区目录下，然后重启 -v -f 进入设置向导界面。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/01/OSX-Setup-Wizard.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3403" src="https://umi.im/wp-content/uploads/2015/01/OSX-Setup-Wizard.jpg" alt="OSX-Setup Wizard" width="1296" height="967" srcset="https://umi.im/wp-content/uploads/2015/01/OSX-Setup-Wizard.jpg 1296w, https://umi.im/wp-content/uploads/2015/01/OSX-Setup-Wizard-150x112.jpg 150w, https://umi.im/wp-content/uploads/2015/01/OSX-Setup-Wizard-300x224.jpg 300w, https://umi.im/wp-content/uploads/2015/01/OSX-Setup-Wizard-1024x764.jpg 1024w" sizes="(max-width: 1296px) 100vw, 1296px" /></a></p>
+<p>设置完成系统就安装好了，接下来搞驱动。</p>
+<p>用Multibeast，参照自己的硬件勾选然后安装重启就可以了。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/01/MultiBeast-yosemite1.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3406" src="https://umi.im/wp-content/uploads/2015/01/MultiBeast-yosemite1.png" alt="MultiBeast-yosemite" width="913" height="740" srcset="https://umi.im/wp-content/uploads/2015/01/MultiBeast-yosemite1.png 913w, https://umi.im/wp-content/uploads/2015/01/MultiBeast-yosemite1-150x122.png 150w, https://umi.im/wp-content/uploads/2015/01/MultiBeast-yosemite1-300x243.png 300w" sizes="(max-width: 913px) 100vw, 913px" /></a></p>
+<p>声卡、网卡、USB3.0、SSD TRIM都成功搞定。</p>
+<p>只有显卡驱动失败，3M显存，鼠标移动都卡出翔的感觉。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/01/Yosemite-GPU.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3404" src="https://umi.im/wp-content/uploads/2015/01/Yosemite-GPU.jpg" alt="Yosemite-GPU" width="1026" height="766" srcset="https://umi.im/wp-content/uploads/2015/01/Yosemite-GPU.jpg 1026w, https://umi.im/wp-content/uploads/2015/01/Yosemite-GPU-150x112.jpg 150w, https://umi.im/wp-content/uploads/2015/01/Yosemite-GPU-300x224.jpg 300w, https://umi.im/wp-content/uploads/2015/01/Yosemite-GPU-1024x765.jpg 1024w" sizes="(max-width: 1026px) 100vw, 1026px" /></a></p>
+<p>编辑变色龙的引导文件，开启显卡侦测，成功识别显卡。</p>
+<p>但是分辨率、双显示器什么的都弄不了，还是一样卡顿。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/01/Yosemite-Gpu-info.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3407" src="https://umi.im/wp-content/uploads/2015/01/Yosemite-Gpu-info.png" alt="Yosemite-Gpu-info" width="591" height="360" srcset="https://umi.im/wp-content/uploads/2015/01/Yosemite-Gpu-info.png 591w, https://umi.im/wp-content/uploads/2015/01/Yosemite-Gpu-info-150x91.png 150w, https://umi.im/wp-content/uploads/2015/01/Yosemite-Gpu-info-300x183.png 300w" sizes="(max-width: 591px) 100vw, 591px" /></a></p>
+<p>然后我用Kext Wizard修改权限，重建缓存，执行然后重启。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/01/Kext-Wizard.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3408" src="https://umi.im/wp-content/uploads/2015/01/Kext-Wizard.png" alt="Kext Wizard" width="569" height="574" srcset="https://umi.im/wp-content/uploads/2015/01/Kext-Wizard.png 569w, https://umi.im/wp-content/uploads/2015/01/Kext-Wizard-150x150.png 150w, https://umi.im/wp-content/uploads/2015/01/Kext-Wizard-297x300.png 297w, https://umi.im/wp-content/uploads/2015/01/Kext-Wizard-80x80.png 80w" sizes="(max-width: 569px) 100vw, 569px" /></a></p>
+<p>最后，终于解脱成功了，硬件基本都驱动起来了。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2015/01/mac-osx-10.10-Yosemite-cool.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3410" src="https://umi.im/wp-content/uploads/2015/01/mac-osx-10.10-Yosemite-cool.jpg" alt="mac-osx-10.10-Yosemite-cool" width="1920" height="1080" srcset="https://umi.im/wp-content/uploads/2015/01/mac-osx-10.10-Yosemite-cool.jpg 1920w, https://umi.im/wp-content/uploads/2015/01/mac-osx-10.10-Yosemite-cool-150x84.jpg 150w, https://umi.im/wp-content/uploads/2015/01/mac-osx-10.10-Yosemite-cool-300x169.jpg 300w, https://umi.im/wp-content/uploads/2015/01/mac-osx-10.10-Yosemite-cool-1024x576.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /></a></p>
+<p>以为这样完了，但是最后的最后我确定了，我这张技嘉的 H67N-UBS3-B3 竟然会啸叫，而且声音还不小，深夜的时候根本无法静下心来！</p>
+<p>关掉了CPU节能选项，声音终于没了，但是睿频就没了，不甘心。</p>
+<p>过两天退了这块主板入那块GA-H77N-WIFI吧。</p>
+<p>累死了…休息。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/mac/">Mac</a>
+        
+            <a href="/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/">黑苹果</a>
+        
+    </section>
+
+
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2015年01月06日 11:21 CST
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/unraid-6.12.10-crack/">
+        
+        
+            <div class="article-image">
+                <img src="/unraid-6.12.10-crack/unraid.bfb8c4fd1d550f352bfe087ebde9f60c.webp" 
+                        width="1200" 
+                        height="630" 
+                        loading="lazy"
+                        alt="Featured image of post UNRAID 6.12.4 米多贝克版升级 UNRAID 6.12.10 毛子开心版"
+                        
+                        data-hash="md5-v7jE/R1VDzUr/gh&#43;ven2DA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">UNRAID 6.12.4 米多贝克版升级 UNRAID 6.12.10 毛子开心版</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/wordpress-to-hugo/">
+        
+        
+            <div class="article-image">
+                <img src="/wordpress-to-hugo/wordpress-to-hugo.9dd8f7b941bbdf2ac48ac46cde33e9e8.webp" 
+                        width="1115" 
+                        height="627" 
+                        loading="lazy"
+                        alt="Featured image of post Wordpress 博客迁移到 HUGO"
+                        
+                        data-hash="md5-ndj3uUG73yrEisRs3jPp6A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Wordpress 博客迁移到 HUGO</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/dnspod-to-cloudflare/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://umi.im/wp-content/uploads/2024/04/CF_MetaImage.webp" loading="lazy" data-key="" data-hash="https://umi.im/wp-content/uploads/2024/04/CF_MetaImage.webp"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">博客域名 NS 从 DNSPOD 转移到 Cloudflare</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/my-unraid-array/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">UNRAID 系统添加校验盘和 ZFS 镜像阵列升级</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/unraid-zfs-mirror/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">绿联 DX4600 的 UNRAID 系统折腾后篇</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
+<div id="waline" class="waline-container"></div>
+<style>
+    .waline-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+        --waline-font-size: var(--article-font-size);
+    }
+    .waline-container .wl-count {
+        color: var(--card-text-color-main);
+    }
+</style><script>
+    
+    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://npm.elemecdn.com/@waline/emojis@1.1.0/weibo"],"lang":"zh-CN","locale":{"admin":"屋主","placeholder":"欢迎互动！"},"requiredMeta":["name","email","url"],"serverURL":"https://waline.umi.im/"});
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2024 笨蛋屋
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.25.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

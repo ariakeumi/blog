@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Ubuntu on 笨蛋屋</title>
+        <link>https://umi.im/tags/ubuntu/</link>
+        <description>Recent content in Ubuntu on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Fri, 25 Sep 2015 01:43:22 +0000</lastBuildDate><atom:link href="https://umi.im/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>漂亮的 Ubuntu 主题 Flatabulous</title>
+        <link>https://umi.im/ubuntu-theme-flatabulous/</link>
+        <pubDate>Fri, 25 Sep 2015 01:43:22 +0000</pubDate>
+        
+        <guid>https://umi.im/ubuntu-theme-flatabulous/</guid>
+        <description>&lt;p&gt;昨天给 ChromeBook Pixel 安装了 Ubuntu 14.04 ，用 &lt;a href=&#34;https://github.com/dnschneid/crouton&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crouton&lt;/a&gt; 安装，可以实时切换回 Chrome OS，&lt;a href=&#34;http://www.encrhome.com/?p=2781&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;安装方法&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Ubuntu 的 Unity 桌面我一直很喜欢，特别是 Dock 位于屏幕左侧的设计。所以顺便分享个 Unity 的漂亮主题，暗色风格的 OS X Yosemite？&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/09/ubuntu-theme-flatabulous.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;998&#34; height=&#34;663&#34; src=&#34;https://umi.im/wp-content/uploads/2015/09/ubuntu-theme-flatabulous.jpg&#34; alt=&#34;ubuntu-theme-flatabulous&#34; class=&#34;wp-image-4633&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/09/ubuntu-theme-flatabulous.jpg 998w, https://umi.im/wp-content/uploads/2015/09/ubuntu-theme-flatabulous-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/09/ubuntu-theme-flatabulous-300x199.jpg 300w&#34; sizes=&#34;(max-width: 998px) 100vw, 998px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ubuntu 安装主题非常简单，首先安装 &lt;a href=&#34;http://ubuntu-tweak.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu Tweak&lt;/a&gt; ，到官网下载 Deb 包双击打开就可以安装。&lt;/p&gt;
+&lt;p&gt;或者用 apt-get 命令安装：&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;sudo add-apt-repository ppa:tualatrix/ppa  
+sudo apt-get update  
+sudo apt-get install ubuntu-tweak&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后下载 &lt;a href=&#34;https://github.com/anmoljagetia/Flatabulous/archive/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flatabulous 主题&lt;/a&gt; ，点击下载。&lt;/p&gt;
+&lt;p&gt;下载完成后打开终端，移动到下载目录解压文件顺便把主题移动到系统的主题目录，输入如下命令：&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;cd Downloads/
+unzip Flatabulous-master.zip
+sudo cp -a Flatabulous-master /usr/share/themes/&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;最后打开  Ubuntu Tweak ，在 Tweaks – Theme – Gtk theme 项选择  Flatabulous-master 就完成了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/09/Ubuntu-tweak-tool.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;560&#34; height=&#34;334&#34; src=&#34;https://umi.im/wp-content/uploads/2015/09/Ubuntu-tweak-tool.jpg&#34; alt=&#34;Ubuntu tweak tool&#34; class=&#34;wp-image-4634&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/09/Ubuntu-tweak-tool.jpg 560w, https://umi.im/wp-content/uploads/2015/09/Ubuntu-tweak-tool-150x89.jpg 150w, https://umi.im/wp-content/uploads/2015/09/Ubuntu-tweak-tool-300x179.jpg 300w&#34; sizes=&#34;(max-width: 560px) 100vw, 560px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者还分享了个扁平化的图标包，不过我不太喜欢就不转来了，详情访问作者博客。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpsbloganmoljagetiameflatabulous-ubuntu-theme-target_blank-relnoopenerflatabulous--ubuntu-theme-nbspanmol-jagetia8217s-bloga&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpsbloganmoljagetiameflatabulous-ubuntu-theme-target_blank-relnoopenerflatabulous--ubuntu-theme-nbspanmol-jagetia8217s-bloga&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://blog.anmoljagetia.me/flatabulous-ubuntu-theme/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flatabulous : Ubuntu Theme / Anmol Jagetia’s Blog!&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>Ubuntu 代替 Windows 的可能性探究</title>
+        <link>https://umi.im/ubuntu-windows/</link>
+        <pubDate>Tue, 02 Sep 2014 10:47:45 +0000</pubDate>
+        
+        <guid>https://umi.im/ubuntu-windows/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;Ubuntu是一个自由、开源、基于Debian的Linux发行版，发行周期为6个月，由 Canonical 公司和自由软件社区开发。 &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;不玩游戏、不使用专业大型软件、非程序员用户，试下看能不能用Ubuntu系统代替Windows。&lt;/p&gt;
+&lt;h2 id=&#34;a-title教程-hrefhttpjingyanbaiducomarticlee3c78d6460e6893c4c85f5b1html-target_blankefi下win-81ubuntu-1404安装教程a&#34;&gt;
+    &lt;a href=&#34;#a-title%e6%95%99%e7%a8%8b-hrefhttpjingyanbaiducomarticlee3c78d6460e6893c4c85f5b1html-target_blankefi%e4%b8%8bwin-81ubuntu-1404%e5%ae%89%e8%a3%85%e6%95%99%e7%a8%8ba&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;教程&#34; href=&#34;http://jingyan.baidu.com/article/e3c78d6460e6893c4c85f5b1.html&#34; target=&#34;_blank&#34;&gt;EFI下Win 8.1+Ubuntu 14.04安装教程&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;参照上面的教程EFI + GPT安装 Windows 8.1 / Ubuntu 14.04 双系统。 只需要一个U盘，很简单，引导是这样的。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-boot.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2880&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-boot.jpg&#34; alt=&#34;ubuntu-boot&#34; width=&#34;1280&#34; height=&#34;960&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-boot.jpg 1280w, https://umi.im/wp-content/uploads/2014/08/ubuntu-boot-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-boot-300x225.jpg 300w, https://umi.im/wp-content/uploads/2014/08/ubuntu-boot-1024x768.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; Ubuntu的桌面，左边是启动器，状态栏在顶部，这种布局在16:9的显示器下看着很舒服，因为感觉视野大了很多，然后我把Windows的任务栏也固定在左侧了。&lt;/p&gt;
+&lt;p&gt;壁纸换成了星空图（自带的），很有Mac OS X的感觉。&lt;/p&gt;
+&lt;p&gt;可以用和Win类似的Win键 + 数字键打开任务栏（启动器）的程序。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-Desktop.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2881&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-Desktop.jpg&#34; alt=&#34;ubuntu-Desktop&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-Desktop.jpg 1280w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Desktop-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Desktop-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Desktop-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; 版本号14.04 LTS，14.04代表是2014年04月发布，LTS表示长期支持，发布后18个月内的支持。&lt;/p&gt;
+&lt;p&gt;设备名 Abyss Gundam，深渊高达 ZGMF-X31S /RGX-02，出自机动战士高达SEED DESTINY，我的智能设备都用高达里面的机体命名，略&lt;del&gt;中二&lt;/del&gt;。 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-Version.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2896&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-Version.png&#34; alt=&#34;ubuntu-Version&#34; width=&#34;850&#34; height=&#34;472&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-Version.png 850w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Version-150x83.png 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Version-300x166.png 300w&#34; sizes=&#34;(max-width: 850px) 100vw, 850px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个叫什么来着…可以搜索本地和网络的内容，甚至Wikipedia，按Win键（Super L）呼出。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-search.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2893&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-search.jpg&#34; alt=&#34;ubuntu-search&#34; width=&#34;1141&#34; height=&#34;640&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-search.jpg 1141w, https://umi.im/wp-content/uploads/2014/08/ubuntu-search-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-search-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/08/ubuntu-search-1024x574.jpg 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt; Ubuntu的软件中心，里面的东西少的可怜，排版也不好。&lt;/p&gt;
+&lt;p&gt;其实我在想，要是Windows中也有软件中心该多好（Metro那个渣渣商店不算啊），一个MS帐号同步所有安装的软件。&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-Software-Center.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2882&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-Software-Center.png&#34; alt=&#34;ubuntu-Software-Center&#34; width=&#34;1200&#34; height=&#34;828&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-Software-Center.png 1200w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Software-Center-150x103.png 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Software-Center-300x207.png 300w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Software-Center-1024x706.png 1024w&#34; sizes=&#34;(max-width: 1200px) 100vw, 1200px&#34; /&gt;&lt;/a&gt; 文件管理器，可以显示flac音频里面的专辑封面哦。 不知为何SSD的两个盘和HDD的盘图标不一样。 而且可以连接Android手机，我以为不可以来着。 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-File-Manager.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2911&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-File-Manager.png&#34; alt=&#34;ubuntu-File-Manager&#34; width=&#34;855&#34; height=&#34;664&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-File-Manager.png 855w, https://umi.im/wp-content/uploads/2014/09/ubuntu-File-Manager-150x116.png 150w, https://umi.im/wp-content/uploads/2014/09/ubuntu-File-Manager-300x232.png 300w, https://umi.im/wp-content/uploads/2014/09/ubuntu-File-Manager-194x150.png 194w&#34; sizes=&#34;(max-width: 855px) 100vw, 855px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ubuntu自带的音频播放器，可以播放Flac格式的音乐，软件本身不能设置快捷键，需要到系统设置那里设置。 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-rhythmbox.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2883&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-rhythmbox.png&#34; alt=&#34;ubuntu-rhythmbox&#34; width=&#34;790&#34; height=&#34;588&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-rhythmbox.png 790w, https://umi.im/wp-content/uploads/2014/08/ubuntu-rhythmbox-150x111.png 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-rhythmbox-300x223.png 300w&#34; sizes=&#34;(max-width: 790px) 100vw, 790px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在linux下有个叫 &lt;a title=&#34;wiki&#34; href=&#34;http://zh.wikipedia.org/wiki/Wine&#34; target=&#34;_blank&#34;&gt;Wine&lt;/a&gt; 的神器，可以让Ubuntu运行Windows的程序。 成功运行Foobar2000，但是全局快捷键用不了了。 Evernote也能正常运行，终于可以不用Web版的了。 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-wine-foobar2000.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2887&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-wine-foobar2000.png&#34; alt=&#34;ubuntu-wine-foobar2000&#34; width=&#34;729&#34; height=&#34;438&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-wine-foobar2000.png 729w, https://umi.im/wp-content/uploads/2014/08/ubuntu-wine-foobar2000-150x90.png 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-wine-foobar2000-300x180.png 300w&#34; sizes=&#34;(max-width: 729px) 100vw, 729px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;自带Firefox浏览器，Chrome有linux版的，如果没有Chrome我会不知所措的。Ubuntu下的Chrome字体渲染有些奇怪，看起来不太舒服，自动更新到了64位的Chrome 37。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-chrome.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2889&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-chrome.png&#34; alt=&#34;ubuntu-chrome&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-chrome.png 1280w, https://umi.im/wp-content/uploads/2014/08/ubuntu-chrome-150x84.png 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-chrome-300x168.png 300w, https://umi.im/wp-content/uploads/2014/08/ubuntu-chrome-1024x576.png 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; Ubuntu自带的视频播放器，播放1080P的MKV的BDRip，拖动有些慢，应付一般影音需求还是没问题的。 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-video-player.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2890&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-video-player.jpg&#34; alt=&#34;ubuntu-video-player&#34; width=&#34;967&#34; height=&#34;673&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-video-player.jpg 967w, https://umi.im/wp-content/uploads/2014/08/ubuntu-video-player-150x104.jpg 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-video-player-300x208.jpg 300w&#34; sizes=&#34;(max-width: 967px) 100vw, 967px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ubuntu还集成了&lt;a title=&#34;wikipedia&#34; href=&#34;http://zh.wikipedia.org/wiki/LibreOffice&#34; target=&#34;_blank&#34;&gt;LibreOffice&lt;/a&gt;办公套件，非专业人士应付下应该没问题，现在我更多的用Google Docs作表格了，同步起来方便。 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-libreoffice.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2899&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-libreoffice.png&#34; alt=&#34;ubuntu-libreoffice&#34; width=&#34;1371&#34; height=&#34;866&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-libreoffice.png 1371w, https://umi.im/wp-content/uploads/2014/08/ubuntu-libreoffice-150x94.png 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-libreoffice-300x189.png 300w, https://umi.im/wp-content/uploads/2014/08/ubuntu-libreoffice-1024x646.png 1024w&#34; sizes=&#34;(max-width: 1371px) 100vw, 1371px&#34; /&gt;&lt;/a&gt; Ubuntu自带的中文输入法很蛋疼，明明是拼音输入法设置界面确实英文的，而且很多字或词打不出来，比如“qiong”（穹）字。&lt;/p&gt;
+&lt;p&gt;好在搜狗拼音输入法有linux版，顺便说一下，在Ubuntu 14.04 LTS版本中只需要双击下载的deb包就能直接安装，在Ubuntu 12.04中安装比较繁琐，甚至我下载linux版搜狗输入法后自动弹出帮助页面介绍安装方法，不过我是没法体验这么繁琐的安装方法了，貌似安装后需要重启才能用，而且没有词库同步功能。&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;help&#34; href=&#34;http://pinyin.sogou.com/linux/help.php&#34; target=&#34;_blank&#34;&gt;搜狗输入法 For linux 安装指南&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;不过有国产厂商能发布linux的软件我已经很欣慰了。ORZ&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/Ubuntu-sougou.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2921&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/Ubuntu-sougou.png&#34; alt=&#34;Ubuntu-sougou&#34; width=&#34;436&#34; height=&#34;313&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/Ubuntu-sougou.png 436w, https://umi.im/wp-content/uploads/2014/09/Ubuntu-sougou-150x107.png 150w, https://umi.im/wp-content/uploads/2014/09/Ubuntu-sougou-300x215.png 300w&#34; sizes=&#34;(max-width: 436px) 100vw, 436px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;腾讯曾开发过QQ For linux，那还是09年的时候，现在已经安装不了了。&lt;/p&gt;
+&lt;p&gt;导致Ubuntu现在没有原生的QQ客户端，只能使用Web QQ。&lt;/p&gt;
+&lt;p&gt;Web QQ没有自定义消息提示音，不能添加自定义表情，甚至不能发送图片，使用后战斗力下降998。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-web-qq.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2919&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-web-qq.jpg&#34; alt=&#34;ubuntu-web-qq&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-web-qq.jpg 1280w, https://umi.im/wp-content/uploads/2014/09/ubuntu-web-qq-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/09/ubuntu-web-qq-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/09/ubuntu-web-qq-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;费了九牛二虎之力，终于找到了个能用的Wine QQ。&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;打开&#34; href=&#34;http://www.longene.org/forum/viewtopic.php?t=4700&#34; target=&#34;_blank&#34;&gt;Linux兼容内核论坛 – wine qq 2013 for linux Ubuntu 64位兼容&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;可以用全局快捷键，可以截图，可以发送图片（虽然有点麻烦），资源占用有些高。&lt;/p&gt;
+&lt;p&gt;而且经常抽，比如打不开主面板，所以我才截聊天窗口的图。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-QQ.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2923&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-QQ.jpg&#34; alt=&#34;ubuntu-QQ&#34; width=&#34;543&#34; height=&#34;516&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-QQ.jpg 543w, https://umi.im/wp-content/uploads/2014/09/ubuntu-QQ-150x142.jpg 150w, https://umi.im/wp-content/uploads/2014/09/ubuntu-QQ-300x285.jpg 300w&#34; sizes=&#34;(max-width: 543px) 100vw, 543px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;一星期用下来，感觉发行版的linux使用门坎没传说中那么高。&lt;/p&gt;
+&lt;p&gt;至少在Ubuntu中，很多快捷键甚至和Windows的一样，设置界面也比Windows的控制面板易用多了。如果再有原生QQ客户端和更多的软件，当成主力系统也不是什么问题。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-windows.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2917&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-windows.jpg&#34; alt=&#34;ubuntu-windows&#34; width=&#34;655&#34; height=&#34;350&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-windows.jpg 655w, https://umi.im/wp-content/uploads/2014/09/ubuntu-windows-150x80.jpg 150w, https://umi.im/wp-content/uploads/2014/09/ubuntu-windows-300x160.jpg 300w&#34; sizes=&#34;(max-width: 655px) 100vw, 655px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

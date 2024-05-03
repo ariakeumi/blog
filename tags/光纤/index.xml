@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>光纤 on 笨蛋屋</title>
+        <link>https://umi.im/tags/%E5%85%89%E7%BA%A4/</link>
+        <description>Recent content in 光纤 on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Sat, 07 Nov 2015 08:45:04 +0000</lastBuildDate><atom:link href="https://umi.im/tags/%E5%85%89%E7%BA%A4/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>我的光纤</title>
+        <link>https://umi.im/optical-fiber/</link>
+        <pubDate>Sat, 07 Nov 2015 08:45:04 +0000</pubDate>
+        
+        <guid>https://umi.im/optical-fiber/</guid>
+        <description>&lt;p&gt;我家附近已经没有光纤接口了，还好认识个朋友在做电信外包的拉网线工作，让他从其他地方拉条线来。&lt;/p&gt;
+&lt;p&gt;因为是私活，自己还要去帮忙。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/Optical-fiber.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;746&#34; height=&#34;960&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/Optical-fiber.jpg&#34; alt=&#34;Optical fiber&#34; class=&#34;wp-image-4573&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/Optical-fiber.jpg 746w, https://umi.im/wp-content/uploads/2015/08/Optical-fiber-117x150.jpg 117w, https://umi.im/wp-content/uploads/2015/08/Optical-fiber-233x300.jpg 233w&#34; sizes=&#34;(max-width: 746px) 100vw, 746px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/Optical-fiber-box.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;720&#34; height=&#34;1280&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/Optical-fiber-box.jpg&#34; alt=&#34;Optical fiber-box&#34; class=&#34;wp-image-4574&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/Optical-fiber-box.jpg 720w, https://umi.im/wp-content/uploads/2015/08/Optical-fiber-box-84x150.jpg 84w, https://umi.im/wp-content/uploads/2015/08/Optical-fiber-box-169x300.jpg 169w, https://umi.im/wp-content/uploads/2015/08/Optical-fiber-box-576x1024.jpg 576w&#34; sizes=&#34;(max-width: 720px) 100vw, 720px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;刚拉的时候是下行 12M 的，下行 0.5M 。&lt;/p&gt;
+&lt;p&gt;过一段时间后，开 DNF 私服上行带宽爆炸，只好升级到 100M ，下行 4M ，三百块三年还挺便宜。&lt;/p&gt;
+&lt;img decoding=&#34;async&#34; src=&#34;http://www.speedtest.net/result/4811775734.png&#34; alt=&#34;&#34; /&gt; 
+</description>
+        </item>
+        <item>
+        <title>有想升级光纤的冲动了！</title>
+        <link>https://umi.im/telecom-optical-fiber-update/</link>
+        <pubDate>Sun, 08 Jun 2014 03:21:52 +0000</pubDate>
+        
+        <guid>https://umi.im/telecom-optical-fiber-update/</guid>
+        <description>&lt;p&gt;现在8M ADSL，90块钱一个月，一年1080块，一年下来光纤比ADSL就贵两百多。&lt;/p&gt;
+&lt;p&gt;虽然说上行速率只有4M，相当于512KB/s的上传速度，相比ADSL 50KB的水管还是强多了！&lt;/p&gt;
+&lt;p&gt;电信就在家对面，应该能接入我家。&lt;/p&gt;
+&lt;p&gt;光猫和路由器升级又是一笔钱，噗。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/06/GD-guangqian-1320.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2453&#34; src=&#34;https://umi.im/wp-content/uploads/2014/06/GD-guangqian-1320.png&#34; alt=&#34;GD-guangqian-1320&#34; width=&#34;649&#34; height=&#34;328&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/06/GD-guangqian-1320.png 649w, https://umi.im/wp-content/uploads/2014/06/GD-guangqian-1320-150x75.png 150w, https://umi.im/wp-content/uploads/2014/06/GD-guangqian-1320-300x151.png 300w&#34; sizes=&#34;(max-width: 649px) 100vw, 649px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

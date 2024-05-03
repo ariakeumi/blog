@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Linux on 笨蛋屋</title>
+        <link>https://umi.im/tags/linux/</link>
+        <description>Recent content in Linux on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Fri, 21 Apr 2023 20:14:33 +0000</lastBuildDate><atom:link href="https://umi.im/tags/linux/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>部署一个轻量高颜值的服务器监控探针 ServerStatus</title>
+        <link>https://umi.im/serverstatus/</link>
+        <pubDate>Fri, 21 Apr 2023 20:14:33 +0000</pubDate>
+        
+        <guid>https://umi.im/serverstatus/</guid>
+        <description>&lt;img src="https://umi.im/wp-content/uploads/2023/04/serverstatus-card.png" alt="Featured image of post 部署一个轻量高颜值的服务器监控探针 ServerStatus" /&gt;&lt;h2 id=&#34;介绍&#34;&gt;
+    &lt;a href=&#34;#%e4%bb%8b%e7%bb%8d&#34;&gt;#&lt;/a&gt;
+    介绍
+&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://blog.moe.lol/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;cokemine&lt;/a&gt;/&lt;a href=&#34;https://github.com/cokemine/ServerStatus-Hotaru&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ServerStatus-Hotaru&lt;/a&gt; 是一个基于 PHP 和 Python 编写的服务器状态监控工具，可在 Web 界面上展示服务器的 CPU、内存、磁盘、网络等状态信息，还支持对服务器的进程、端口等信息进行监控。它可以实时更新服务器的状态信息，方便系统管理员进行监控和管理。&lt;/p&gt;
+&lt;p&gt;我稍微修改了下 &lt;a href=&#34;https://github.com/cokemine/ServerStatus-Hotaru&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ServerStatus-Hotaru&lt;/a&gt; 的主题，去掉了原生主题的 Banner ，让卡片显示 CPU 型号和内存硬盘大小，如下图。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1359&#34; height=&#34;834&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/serverstatus-card.png&#34; alt=&#34;&#34; class=&#34;wp-image-6489&#34; /&gt;  
+&lt;h2 id=&#34;安装服务端&#34;&gt;
+    &lt;a href=&#34;#%e5%ae%89%e8%a3%85%e6%9c%8d%e5%8a%a1%e7%ab%af&#34;&gt;#&lt;/a&gt;
+    安装服务端
+&lt;/h2&gt;&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;wget https://raw.githubusercontent.com/cokemine/ServerStatus-Hotaru/master/status.sh
+# wget https://cokemine.coding.net/p/hotarunet/d/ServerStatus-Hotaru/git/raw/master/status.sh 若服务器位于中国大陆建议选择 Coding.net 仓库
+bash status.sh s&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;此安装脚本会安装 Caddy 来作为 Web 服务器，如果需要用 Nginx ，把 /usr/local/ServerStatus/web 目录设置为网站根目录。&lt;/p&gt;
+&lt;h2 id=&#34;配置-serverstatus&#34;&gt;
+    &lt;a href=&#34;#%e9%85%8d%e7%bd%ae-serverstatus&#34;&gt;#&lt;/a&gt;
+    配置 ServerStatus
+&lt;/h2&gt;&lt;p&gt;修改配置文件 /usr/local/ServerStatus/server/config.json ，填入你的服务器节点信息。&lt;/p&gt;
+&lt;p&gt;CPU 型号用 cat /proc/cpuinfo 来查看。region 用于显示卡片的国旗，国家代码参考 &lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://zh.wikipedia.org/wiki/ISO_3166-1%E4%BA%8C%E4%BD%8D%E5%AD%97%E6%AF%8D%E4%BB%A3%E7%A0%81#%E6%AD%A3%E5%BC%8F%E5%88%86%E9%85%8D%E4%BB%A3%E7%A0%81&#34; target=&#34;_blank&#34;&gt;ISO 3166-1 alpha-2&lt;/a&gt; 。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;  {
+   &#34;username&#34;: &#34;用户名&#34;,
+   &#34;password&#34;: &#34;密码&#34;,
+   &#34;name&#34;: &#34;节点名字&#34;,
+   &#34;type&#34;: &#34;操作系统&#34;,
+   &#34;host&#34;: &#34;处理器型号&#34;,
+   &#34;location&#34;: &#34;服务器位置&#34;,
+   &#34;disabled&#34;: false,
+   &#34;region&#34;: &#34;US&#34;
+  },&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;安装客户端&#34;&gt;
+    &lt;a href=&#34;#%e5%ae%89%e8%a3%85%e5%ae%a2%e6%88%b7%e7%ab%af&#34;&gt;#&lt;/a&gt;
+    安装客户端
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Linux 发行版&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;wget https://raw.githubusercontent.com/cokemine/ServerStatus-Hotaru/master/status.sh
+# wget https://cokemine.coding.net/p/hotarunet/d/ServerStatus-Hotaru/git/raw/master/status.sh 若服务器位于中国大陆建议选择 Coding.net 仓库
+bash status.sh c&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;OpenWrt 路由器&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在这种设备中建议使用 Go 客户端，在 &lt;a href=&#34;https://github.com/cokemine/ServerStatus-goclient/releases&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;ServerStatus-goclient/releases&lt;/a&gt; 下载对应的二进制客户端并解压到 /root 目录，SSH 连接到路由器，执行下面的命令。&lt;/p&gt;
+&lt;p&gt;如果不需要监控 WAN 口流量可以不用安装 vnstat 。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;opkg update
+opkg install nohup
+opkg install vnstat
+chmod +x status-client
+nohup ./status-client -dsn=&#34;username:password@yourip:35601&#34; -vnstat &amp;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Go 客户端可能无法正确识别磁盘容量，如果有需求得安装 &lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://github.com/cokemine/ServerStatus-Hotaru/blob/master/clients/status-psutil.py&#34; target=&#34;_blank&#34;&gt;Python 客户端&lt;/a&gt; ，安装完 Python 和依赖要占用几十兆空间，个人不建议。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;群晖 NAS&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在 &lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://github.com/cokemine/ServerStatus-goclient/releases&#34; target=&#34;_blank&#34;&gt;ServerStatus-goclient/releases&lt;/a&gt; 下载对应的二进制客户端。&lt;/p&gt;
+&lt;p&gt;解压并上传到你的群晖 NAS 的任意目录。在群晖的控制面板设置，计划任务里新增 [ 触发的任务 ]， [ 用户定义的脚本 ] ，事件选择 [ 开机 ] ，运行命令填下面的这行，路径和用户名密码 IP 替换成自己的。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;/volume1/docker/serverstatus/status-client -dsn=&#34;username:password@yourip:35601&#34;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;再点操作栏的 运行 ，这样客户端就在后台运行并开机自启了。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;957&#34; height=&#34;669&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/serverstatus-dsm.png&#34; alt=&#34;&#34; class=&#34;wp-image-6488&#34; /&gt;  
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在 &lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://github.com/cokemine/ServerStatus-goclient/releases&#34; target=&#34;_blank&#34;&gt;ServerStatus-goclient/releases&lt;/a&gt; 下载对应的二进制客户端并解压到任意目录，通过 Powershell 运行以下命令后台运行，路径和用户名密码 IP 记得替换。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;Start-Process -FilePath &#34;C:\Users\Umi\Desktop\status-client.exe&#34; -ArgumentList &#39;-dsn=&#34;username:password@yourip:35601&#34;&#39; -WindowStyle Hidden -Verb RunAs&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果需要开机自启动配置个 vbs 脚本并在计划任务里设置登录自动打开就行：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Set objShell = CreateObject(&amp;#34;WScript.Shell&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;objShell.Run &amp;#34;&amp;#34;&amp;#34;C:\Users\Documents\scrutiny\status-client.exe&amp;#34;&amp;#34; -dsn=&amp;#34;&amp;#34;username:password@yourip:3560&amp;#34;&amp;#34;&amp;#34;, 0, False
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;serverstatus-主题修改版&#34;&gt;
+    &lt;a href=&#34;#serverstatus-%e4%b8%bb%e9%a2%98%e4%bf%ae%e6%94%b9%e7%89%88&#34;&gt;#&lt;/a&gt;
+    ServerStatus 主题修改版
+&lt;/h2&gt;&lt;p&gt;我的探针： &lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://s.umi.im/&#34; target=&#34;_blank&#34;&gt;ServerStatus&lt;/a&gt; ，在 Onedrive 下载 &lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://1drv.ms/u/s!Agj1VU8aYuuBgfJPM4_mwUhKn0oq7w?e=nurKaE&#34; target=&#34;_blank&#34;&gt;我的主题&lt;/a&gt; ，替换掉 /usr/local/ServerStatus/web 目录。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1916&#34; height=&#34;1185&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/ServerStatus.webp&#34; alt=&#34;&#34; class=&#34;wp-image-6467&#34; srcset=&#34;https://umi.im/wp-content/uploads/2023/04/ServerStatus.webp 1916w, https://umi.im/wp-content/uploads/2023/04/ServerStatus-1536x950.webp 1536w&#34; sizes=&#34;(max-width: 1916px) 100vw, 1916px&#34; /&gt; </description>
+        </item>
+        <item>
+        <title>甲骨文 ARM 服务器安装 Debian &#43; xfce 桌面</title>
+        <link>https://umi.im/oracle-arm-debian-xfce/</link>
+        <pubDate>Mon, 17 Apr 2023 12:31:00 +0000</pubDate>
+        
+        <guid>https://umi.im/oracle-arm-debian-xfce/</guid>
+        <description>&lt;img src="https://umi.im/wp-content/uploads/2023/04/oracle-arm-debian-xfce.webp" alt="Featured image of post 甲骨文 ARM 服务器安装 Debian &#43; xfce 桌面" /&gt;&lt;p&gt;创建一个 4 核 24 GB 内存的 ARM 实例，系统选择 Ubuntu 20.04 。&lt;/p&gt;
+&lt;p&gt;SSH 连接到服务器，先用萌咖脚本 DD 个 Debian 11 系统。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;#更新apt源
+apt-get update
+#安装需要的工具包
+apt-get install -y xz-utils openssl gawk file
+#安装 Debian11
+bash &amp;lt;(wget --no-check-certificate -qO- &#39;https://moeclub.org/attachment/LinuxShell/InstallNET.sh&#39;) -d 11 -v 64 -a -firmware&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;等待几分钟 DD 安装完毕之后，请立即更新密码。默认用户名为：root，默认密码为：MoeClub.org 。&lt;/p&gt;
+&lt;p&gt;再次 SSH 连接服务器，安装 xfce 桌面以及 xrdp :&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;apt-get update
+apt install -y xfce4 dbus-x11 xrdp&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;修改 xrdp 端口 :&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;#更换为高位端口
+vi /etc/xrdp/xrdp.ini
+prot = 3389 
+#重启 xrdp 服务
+service xrdp restart&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;使用 Microsoft 远程桌面连接到服务器。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1348&#34; height=&#34;792&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/oracle-arm-debian-xfce.png&#34; alt=&#34;&#34; class=&#34;wp-image-6370&#34; /&gt;  
+&lt;p&gt;为什么要给服务器安装图形界面？&lt;/p&gt;
+&lt;p&gt;当然是为了安装浏览器然后给老司機論壇的账号挂机刷在线时间升级，方便以后发帖求车啊。&lt;/p&gt;
+&lt;p&gt;PS：Google Chrome 没有适配 ARM Linux 版，需要安装 Chromium ，并且在 VPS 上启动还需要加上 –no-sandbox 参数。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Linux 下限制某进程的 CPU 使用率</title>
+        <link>https://umi.im/linux-cpulimit/</link>
+        <pubDate>Thu, 10 Dec 2015 05:44:21 +0000</pubDate>
+        
+        <guid>https://umi.im/linux-cpulimit/</guid>
+        <description>&lt;p&gt;最近游戏服务器出了点小问题，某个日志文件以每秒数 MB 的速度增大，最后达到 28GB 吃满了磁盘…&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/12/secagent-log.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;551&#34; height=&#34;237&#34; src=&#34;https://umi.im/wp-content/uploads/2015/12/secagent-log.png&#34; alt=&#34;secagent-log&#34; class=&#34;wp-image-4751&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/12/secagent-log.png 551w, https://umi.im/wp-content/uploads/2015/12/secagent-log-150x65.png 150w, https://umi.im/wp-content/uploads/2015/12/secagent-log-300x129.png 300w&#34; sizes=&#34;(max-width: 551px) 100vw, 551px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个叫 Secagent 的进程都不知道是干嘛的，日志都是重复这两句错误。&lt;/p&gt;
+&lt;p&gt;貌似是很专业的东西，能搜到的资料太少，删掉 log 文件夹就好了…&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;&amp;#91;zenlib] 1 Pipe is full or data small?,Some data can&#39;t put to pipe. Please increase and check. nodesize=120, freesize=38
+&amp;#91;ERROR]&amp;#91;virtual int SecAgentApp::proc(size_t&amp;)], proc sdk msg error, ret = 5014&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后更严重的问题是，Secagent 这个进程会发疯般的占用 CPU 。&lt;/p&gt;
+&lt;p&gt;无法从根源上解决问题，只好用最愚蠢的办法了，直接限制这个进程的 CPU 使用率。&lt;/p&gt;
+&lt;p&gt;在 CentOS 上安装 Cpulimit ：&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;wget -O cpulimit.zip https://github.com/opsengine/cpulimit/archive/master.zip
+unzip cpulimit.zip
+cd cpulimit-master
+make
+sudo cp src/cpulimit /usr/bin&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;ps 我的 Linux 端连 wget 和 zip 都被精简掉了，只好解压好才传过去。&lt;/p&gt;
+&lt;p&gt;安装好 Cpulimit 后，使用 top 命令查看进程的 PID ，然后就可以用它来限制进程的 CPU 使用率了：&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;cpulimit -l 0.1 -p 1346    #0.1指CPU使用率限制为0.1%，1346是进程PID&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/12/linux-cpulimit.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;719&#34; height=&#34;400&#34; src=&#34;https://umi.im/wp-content/uploads/2015/12/linux-cpulimit.png&#34; alt=&#34;linux-cpulimit&#34; class=&#34;wp-image-4750&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/12/linux-cpulimit.png 719w, https://umi.im/wp-content/uploads/2015/12/linux-cpulimit-150x83.png 150w, https://umi.im/wp-content/uploads/2015/12/linux-cpulimit-300x167.png 300w&#34; sizes=&#34;(max-width: 719px) 100vw, 719px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;限制了 CPU 使用率后日志的问题也随之解决了。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>漂亮的 Ubuntu 主题 Flatabulous</title>
+        <link>https://umi.im/ubuntu-theme-flatabulous/</link>
+        <pubDate>Fri, 25 Sep 2015 01:43:22 +0000</pubDate>
+        
+        <guid>https://umi.im/ubuntu-theme-flatabulous/</guid>
+        <description>&lt;p&gt;昨天给 ChromeBook Pixel 安装了 Ubuntu 14.04 ，用 &lt;a href=&#34;https://github.com/dnschneid/crouton&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crouton&lt;/a&gt; 安装，可以实时切换回 Chrome OS，&lt;a href=&#34;http://www.encrhome.com/?p=2781&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;安装方法&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Ubuntu 的 Unity 桌面我一直很喜欢，特别是 Dock 位于屏幕左侧的设计。所以顺便分享个 Unity 的漂亮主题，暗色风格的 OS X Yosemite？&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/09/ubuntu-theme-flatabulous.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;998&#34; height=&#34;663&#34; src=&#34;https://umi.im/wp-content/uploads/2015/09/ubuntu-theme-flatabulous.jpg&#34; alt=&#34;ubuntu-theme-flatabulous&#34; class=&#34;wp-image-4633&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/09/ubuntu-theme-flatabulous.jpg 998w, https://umi.im/wp-content/uploads/2015/09/ubuntu-theme-flatabulous-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/09/ubuntu-theme-flatabulous-300x199.jpg 300w&#34; sizes=&#34;(max-width: 998px) 100vw, 998px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ubuntu 安装主题非常简单，首先安装 &lt;a href=&#34;http://ubuntu-tweak.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu Tweak&lt;/a&gt; ，到官网下载 Deb 包双击打开就可以安装。&lt;/p&gt;
+&lt;p&gt;或者用 apt-get 命令安装：&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;sudo add-apt-repository ppa:tualatrix/ppa  
+sudo apt-get update  
+sudo apt-get install ubuntu-tweak&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后下载 &lt;a href=&#34;https://github.com/anmoljagetia/Flatabulous/archive/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flatabulous 主题&lt;/a&gt; ，点击下载。&lt;/p&gt;
+&lt;p&gt;下载完成后打开终端，移动到下载目录解压文件顺便把主题移动到系统的主题目录，输入如下命令：&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;cd Downloads/
+unzip Flatabulous-master.zip
+sudo cp -a Flatabulous-master /usr/share/themes/&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;最后打开  Ubuntu Tweak ，在 Tweaks – Theme – Gtk theme 项选择  Flatabulous-master 就完成了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/09/Ubuntu-tweak-tool.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;560&#34; height=&#34;334&#34; src=&#34;https://umi.im/wp-content/uploads/2015/09/Ubuntu-tweak-tool.jpg&#34; alt=&#34;Ubuntu tweak tool&#34; class=&#34;wp-image-4634&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/09/Ubuntu-tweak-tool.jpg 560w, https://umi.im/wp-content/uploads/2015/09/Ubuntu-tweak-tool-150x89.jpg 150w, https://umi.im/wp-content/uploads/2015/09/Ubuntu-tweak-tool-300x179.jpg 300w&#34; sizes=&#34;(max-width: 560px) 100vw, 560px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者还分享了个扁平化的图标包，不过我不太喜欢就不转来了，详情访问作者博客。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpsbloganmoljagetiameflatabulous-ubuntu-theme-target_blank-relnoopenerflatabulous--ubuntu-theme-nbspanmol-jagetia8217s-bloga&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpsbloganmoljagetiameflatabulous-ubuntu-theme-target_blank-relnoopenerflatabulous--ubuntu-theme-nbspanmol-jagetia8217s-bloga&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://blog.anmoljagetia.me/flatabulous-ubuntu-theme/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flatabulous : Ubuntu Theme / Anmol Jagetia’s Blog!&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>炒土豆丝的 WordPress 新家：VPS ~ Ubuntu &#43; Apache &#43; MySQL &#43; PHP</title>
+        <link>https://umi.im/vps-ubuntu-wordpress/</link>
+        <pubDate>Sat, 06 Jun 2015 12:10:54 +0000</pubDate>
+        
+        <guid>https://umi.im/vps-ubuntu-wordpress/</guid>
+        <description>&lt;p&gt;接上文，拿到 &lt;a href=&#34;http://bbs.colg.cn/home.php?mod=space&amp;uid=601303&#34; target=&#34;_blank&#34;&gt;@茄子泥焗黃魚&lt;/a&gt; 土豪的 VPS 后…&lt;/p&gt;
+&lt;p&gt;折腾好 Shadowsocks 服务端，就打算把网站搬到 VPS 上，之前的&lt;a href=&#34;https://umi.im/2014-web-hosting/&#34; target=&#34;_blank&#34;&gt;虚拟主机&lt;/a&gt;虽然便宜，但速度真的不怎么样，偶尔还会抽风。像我这种日访问量在个位数的网站，搬到这种配置的 VPS 上应该会很爽。&lt;/p&gt;
+&lt;p&gt;既然要搬家，那就顺便换个域名吧。&lt;/p&gt;
+&lt;p&gt;原域名 &lt;a href=&#34;http://bakatd.com/&#34; target=&#34;_blank&#34;&gt;bakatd.com&lt;/a&gt; ，虽然简短，但是不能通读，所以换成了现在的 &lt;a href=&#34;https://umi.im/&#34; target=&#34;_blank&#34;&gt;bakahouse.com&lt;/a&gt; ，读音：巴卡豪斯…意译：笨蛋公寓，参考了白宫的域名 &lt;a href=&#34;https://www.whitehouse.gov/&#34; target=&#34;_blank&#34;&gt;whitehouse.gov&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;先设置把旧域名转发到新域名。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3969&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png&#34; alt=&#34;godaddy-Forwarding&#34; width=&#34;533&#34; height=&#34;278&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png 533w, https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding-150x78.png 150w, https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding-300x156.png 300w&#34; sizes=&#34;(max-width: 533px) 100vw, 533px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwikiubuntuorgcnvps-target_blanklinux-vps-ubuntu-系统配置指南a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwikiubuntuorgcnvps-target_blanklinux-vps-ubuntu-%e7%b3%bb%e7%bb%9f%e9%85%8d%e7%bd%ae%e6%8c%87%e5%8d%97a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://wiki.ubuntu.org.cn/Vps&#34; target=&#34;_blank&#34;&gt;Linux VPS Ubuntu 系统配置指南&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;VPS 的 Web 环境选择，Ubuntu 的中文 WIKI 写得最详细，所以我选择了 Ubuntu…&lt;/p&gt;
+&lt;p&gt;使用 Apache 搭建站点，对着 WIKI 上的命令一直复制粘贴，返回结果结果都正常，很方便的就配置好了 Apache + MySQL + PHP 。&lt;/p&gt;
+&lt;p&gt;但是测试站点的时候死活打不开，折腾着终于发现我配置的 Web 根目录是 /var/www/html ，而不是 WIKI 上写的 /var/www/ 目录，把文件移动到 /var/www/html 目录后终于能打开测试站点了。&lt;/p&gt;
+&lt;p&gt;测试站点：&lt;a href=&#34;http://www.yahei.net/&#34; target=&#34;_blank&#34;&gt;雅黑PHP探针&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/tz-php.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3964&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/tz-php.png&#34; alt=&#34;tz-php&#34; width=&#34;927&#34; height=&#34;455&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/tz-php.png 927w, https://umi.im/wp-content/uploads/2015/06/tz-php-150x74.png 150w, https://umi.im/wp-content/uploads/2015/06/tz-php-300x147.png 300w&#34; sizes=&#34;(max-width: 927px) 100vw, 927px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;测试完成，Phpmyadmin 也安装完成后，就可以给网站搬家了。&lt;/p&gt;
+&lt;p&gt;我的 WordPress 网站文件备份在 Dropbox ，通过 Dropbox 分享链接，然后用 wget 命令下载。&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;wget http://***.com/**/backwpup_bfbdbe_2015-06-05_10-08-58.tar.gz?dl=0&lt;/pre&gt;
+&lt;p&gt;下载后把文件重命名为 tar.gz 格式后辍，再移动到 Web 根目录，解压：&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true&#34;&gt;tar zxvf backwpup_bfbdbe_2015-06-05_10-08-58.tar.gz&lt;/pre&gt;
+&lt;p&gt;接着修改 WP-Config 配置文件，把数据库名称、账号、密码等改成现在的 VPS 的。&lt;/p&gt;
+&lt;p&gt;再进入 Phpmyadmin 导入以前的 SQL 数据库备份。&lt;/p&gt;
+&lt;p&gt;因为这次不仅搬主机，还顺便换了下域名，所以 SQL 数据库也需要把老域名改为新域名，执行几句简单的语句就好了。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwdimshadowcomblogprogram-advancedwpwordpress-e690ace5aeb6e68da2e59f9fe5908de697b6sqle99c80e8a681e5819ae79a84e4bfaee694b9html-target_blankwordpress-搬家换域名时sql需要做的修改a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwdimshadowcomblogprogram-advancedwpwordpress-e690ace5aeb6e68da2e59f9fe5908de697b6sqle99c80e8a681e5819ae79a84e4bfaee694b9html-target_blankwordpress-%e6%90%ac%e5%ae%b6%e6%8d%a2%e5%9f%9f%e5%90%8d%e6%97%b6sql%e9%9c%80%e8%a6%81%e5%81%9a%e7%9a%84%e4%bf%ae%e6%94%b9a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.dimshadow.com/blog/program-advanced/wp/wordpress-%E6%90%AC%E5%AE%B6%E6%8D%A2%E5%9F%9F%E5%90%8D%E6%97%B6sql%E9%9C%80%E8%A6%81%E5%81%9A%E7%9A%84%E4%BF%AE%E6%94%B9.html&#34; target=&#34;_blank&#34;&gt;wordpress 搬家换域名时SQL需要做的修改&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;正以为大功告成准备休息时，却发现除了主页和后台，其他链接打开都是404。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwwpdaxuecomwordpress-rewriterulehtml-target_blankwordpress-伪静态规则iisapachenginxa&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwwpdaxuecomwordpress-rewriterulehtml-target_blankwordpress-%e4%bc%aa%e9%9d%99%e6%80%81%e8%a7%84%e5%88%99iisapachenginxa&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.wpdaxue.com/wordpress-rewriterule.html&#34; target=&#34;_blank&#34;&gt;WordPress 伪静态规则（IIS/Apache/Nginx）&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;查了下资料说是伪静态问题，在站点根目录建一个 .htaccess 文件，复制如下代码保存：&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;&amp;lt;IfModule mod_rewrite.c&amp;gt;
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+&amp;lt;/IfModule&amp;gt;
+
+&lt;/pre&gt;
+&lt;p&gt;发现还是不行，再用 vi 编辑器修改下 apache2.conf 配置。&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;vi /etc/apache2/apache2.conf&lt;/pre&gt;
+&lt;p&gt;找到&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;Options FollowSymLinks
+
+AllowOverride None&lt;/pre&gt;
+&lt;p&gt;改为&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;Options FollowSymLinks
+
+AllowOverride All&lt;/pre&gt;
+&lt;p&gt;保存并退出，重启 Apache2 。&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;service apache2 restart&lt;/pre&gt;
+&lt;p&gt;这次真的就大功告成了，遇到以上几个小问题，多搜索下就能找到解决办法了，至于到底哪个地方出错导致的问题我也不清楚，不管了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/index-photo.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3962&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/index-photo.jpg&#34; alt=&#34;index-photo&#34; width=&#34;440&#34; height=&#34;473&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Ubuntu 代替 Windows 的可能性探究</title>
+        <link>https://umi.im/ubuntu-windows/</link>
+        <pubDate>Tue, 02 Sep 2014 10:47:45 +0000</pubDate>
+        
+        <guid>https://umi.im/ubuntu-windows/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;Ubuntu是一个自由、开源、基于Debian的Linux发行版，发行周期为6个月，由 Canonical 公司和自由软件社区开发。 &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;不玩游戏、不使用专业大型软件、非程序员用户，试下看能不能用Ubuntu系统代替Windows。&lt;/p&gt;
+&lt;h2 id=&#34;a-title教程-hrefhttpjingyanbaiducomarticlee3c78d6460e6893c4c85f5b1html-target_blankefi下win-81ubuntu-1404安装教程a&#34;&gt;
+    &lt;a href=&#34;#a-title%e6%95%99%e7%a8%8b-hrefhttpjingyanbaiducomarticlee3c78d6460e6893c4c85f5b1html-target_blankefi%e4%b8%8bwin-81ubuntu-1404%e5%ae%89%e8%a3%85%e6%95%99%e7%a8%8ba&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;教程&#34; href=&#34;http://jingyan.baidu.com/article/e3c78d6460e6893c4c85f5b1.html&#34; target=&#34;_blank&#34;&gt;EFI下Win 8.1+Ubuntu 14.04安装教程&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;参照上面的教程EFI + GPT安装 Windows 8.1 / Ubuntu 14.04 双系统。 只需要一个U盘，很简单，引导是这样的。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-boot.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2880&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-boot.jpg&#34; alt=&#34;ubuntu-boot&#34; width=&#34;1280&#34; height=&#34;960&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-boot.jpg 1280w, https://umi.im/wp-content/uploads/2014/08/ubuntu-boot-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-boot-300x225.jpg 300w, https://umi.im/wp-content/uploads/2014/08/ubuntu-boot-1024x768.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; Ubuntu的桌面，左边是启动器，状态栏在顶部，这种布局在16:9的显示器下看着很舒服，因为感觉视野大了很多，然后我把Windows的任务栏也固定在左侧了。&lt;/p&gt;
+&lt;p&gt;壁纸换成了星空图（自带的），很有Mac OS X的感觉。&lt;/p&gt;
+&lt;p&gt;可以用和Win类似的Win键 + 数字键打开任务栏（启动器）的程序。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-Desktop.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2881&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-Desktop.jpg&#34; alt=&#34;ubuntu-Desktop&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-Desktop.jpg 1280w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Desktop-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Desktop-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Desktop-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; 版本号14.04 LTS，14.04代表是2014年04月发布，LTS表示长期支持，发布后18个月内的支持。&lt;/p&gt;
+&lt;p&gt;设备名 Abyss Gundam，深渊高达 ZGMF-X31S /RGX-02，出自机动战士高达SEED DESTINY，我的智能设备都用高达里面的机体命名，略&lt;del&gt;中二&lt;/del&gt;。 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-Version.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2896&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-Version.png&#34; alt=&#34;ubuntu-Version&#34; width=&#34;850&#34; height=&#34;472&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-Version.png 850w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Version-150x83.png 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Version-300x166.png 300w&#34; sizes=&#34;(max-width: 850px) 100vw, 850px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个叫什么来着…可以搜索本地和网络的内容，甚至Wikipedia，按Win键（Super L）呼出。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-search.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2893&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-search.jpg&#34; alt=&#34;ubuntu-search&#34; width=&#34;1141&#34; height=&#34;640&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-search.jpg 1141w, https://umi.im/wp-content/uploads/2014/08/ubuntu-search-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-search-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/08/ubuntu-search-1024x574.jpg 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt; Ubuntu的软件中心，里面的东西少的可怜，排版也不好。&lt;/p&gt;
+&lt;p&gt;其实我在想，要是Windows中也有软件中心该多好（Metro那个渣渣商店不算啊），一个MS帐号同步所有安装的软件。&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-Software-Center.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2882&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-Software-Center.png&#34; alt=&#34;ubuntu-Software-Center&#34; width=&#34;1200&#34; height=&#34;828&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-Software-Center.png 1200w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Software-Center-150x103.png 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Software-Center-300x207.png 300w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Software-Center-1024x706.png 1024w&#34; sizes=&#34;(max-width: 1200px) 100vw, 1200px&#34; /&gt;&lt;/a&gt; 文件管理器，可以显示flac音频里面的专辑封面哦。 不知为何SSD的两个盘和HDD的盘图标不一样。 而且可以连接Android手机，我以为不可以来着。 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-File-Manager.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2911&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-File-Manager.png&#34; alt=&#34;ubuntu-File-Manager&#34; width=&#34;855&#34; height=&#34;664&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-File-Manager.png 855w, https://umi.im/wp-content/uploads/2014/09/ubuntu-File-Manager-150x116.png 150w, https://umi.im/wp-content/uploads/2014/09/ubuntu-File-Manager-300x232.png 300w, https://umi.im/wp-content/uploads/2014/09/ubuntu-File-Manager-194x150.png 194w&#34; sizes=&#34;(max-width: 855px) 100vw, 855px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ubuntu自带的音频播放器，可以播放Flac格式的音乐，软件本身不能设置快捷键，需要到系统设置那里设置。 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-rhythmbox.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2883&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-rhythmbox.png&#34; alt=&#34;ubuntu-rhythmbox&#34; width=&#34;790&#34; height=&#34;588&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-rhythmbox.png 790w, https://umi.im/wp-content/uploads/2014/08/ubuntu-rhythmbox-150x111.png 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-rhythmbox-300x223.png 300w&#34; sizes=&#34;(max-width: 790px) 100vw, 790px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在linux下有个叫 &lt;a title=&#34;wiki&#34; href=&#34;http://zh.wikipedia.org/wiki/Wine&#34; target=&#34;_blank&#34;&gt;Wine&lt;/a&gt; 的神器，可以让Ubuntu运行Windows的程序。 成功运行Foobar2000，但是全局快捷键用不了了。 Evernote也能正常运行，终于可以不用Web版的了。 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-wine-foobar2000.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2887&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-wine-foobar2000.png&#34; alt=&#34;ubuntu-wine-foobar2000&#34; width=&#34;729&#34; height=&#34;438&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-wine-foobar2000.png 729w, https://umi.im/wp-content/uploads/2014/08/ubuntu-wine-foobar2000-150x90.png 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-wine-foobar2000-300x180.png 300w&#34; sizes=&#34;(max-width: 729px) 100vw, 729px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;自带Firefox浏览器，Chrome有linux版的，如果没有Chrome我会不知所措的。Ubuntu下的Chrome字体渲染有些奇怪，看起来不太舒服，自动更新到了64位的Chrome 37。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-chrome.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2889&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-chrome.png&#34; alt=&#34;ubuntu-chrome&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-chrome.png 1280w, https://umi.im/wp-content/uploads/2014/08/ubuntu-chrome-150x84.png 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-chrome-300x168.png 300w, https://umi.im/wp-content/uploads/2014/08/ubuntu-chrome-1024x576.png 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; Ubuntu自带的视频播放器，播放1080P的MKV的BDRip，拖动有些慢，应付一般影音需求还是没问题的。 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-video-player.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2890&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-video-player.jpg&#34; alt=&#34;ubuntu-video-player&#34; width=&#34;967&#34; height=&#34;673&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-video-player.jpg 967w, https://umi.im/wp-content/uploads/2014/08/ubuntu-video-player-150x104.jpg 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-video-player-300x208.jpg 300w&#34; sizes=&#34;(max-width: 967px) 100vw, 967px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ubuntu还集成了&lt;a title=&#34;wikipedia&#34; href=&#34;http://zh.wikipedia.org/wiki/LibreOffice&#34; target=&#34;_blank&#34;&gt;LibreOffice&lt;/a&gt;办公套件，非专业人士应付下应该没问题，现在我更多的用Google Docs作表格了，同步起来方便。 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-libreoffice.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2899&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-libreoffice.png&#34; alt=&#34;ubuntu-libreoffice&#34; width=&#34;1371&#34; height=&#34;866&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-libreoffice.png 1371w, https://umi.im/wp-content/uploads/2014/08/ubuntu-libreoffice-150x94.png 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-libreoffice-300x189.png 300w, https://umi.im/wp-content/uploads/2014/08/ubuntu-libreoffice-1024x646.png 1024w&#34; sizes=&#34;(max-width: 1371px) 100vw, 1371px&#34; /&gt;&lt;/a&gt; Ubuntu自带的中文输入法很蛋疼，明明是拼音输入法设置界面确实英文的，而且很多字或词打不出来，比如“qiong”（穹）字。&lt;/p&gt;
+&lt;p&gt;好在搜狗拼音输入法有linux版，顺便说一下，在Ubuntu 14.04 LTS版本中只需要双击下载的deb包就能直接安装，在Ubuntu 12.04中安装比较繁琐，甚至我下载linux版搜狗输入法后自动弹出帮助页面介绍安装方法，不过我是没法体验这么繁琐的安装方法了，貌似安装后需要重启才能用，而且没有词库同步功能。&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;help&#34; href=&#34;http://pinyin.sogou.com/linux/help.php&#34; target=&#34;_blank&#34;&gt;搜狗输入法 For linux 安装指南&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;不过有国产厂商能发布linux的软件我已经很欣慰了。ORZ&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/Ubuntu-sougou.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2921&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/Ubuntu-sougou.png&#34; alt=&#34;Ubuntu-sougou&#34; width=&#34;436&#34; height=&#34;313&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/Ubuntu-sougou.png 436w, https://umi.im/wp-content/uploads/2014/09/Ubuntu-sougou-150x107.png 150w, https://umi.im/wp-content/uploads/2014/09/Ubuntu-sougou-300x215.png 300w&#34; sizes=&#34;(max-width: 436px) 100vw, 436px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;腾讯曾开发过QQ For linux，那还是09年的时候，现在已经安装不了了。&lt;/p&gt;
+&lt;p&gt;导致Ubuntu现在没有原生的QQ客户端，只能使用Web QQ。&lt;/p&gt;
+&lt;p&gt;Web QQ没有自定义消息提示音，不能添加自定义表情，甚至不能发送图片，使用后战斗力下降998。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-web-qq.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2919&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-web-qq.jpg&#34; alt=&#34;ubuntu-web-qq&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-web-qq.jpg 1280w, https://umi.im/wp-content/uploads/2014/09/ubuntu-web-qq-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/09/ubuntu-web-qq-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/09/ubuntu-web-qq-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;费了九牛二虎之力，终于找到了个能用的Wine QQ。&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;打开&#34; href=&#34;http://www.longene.org/forum/viewtopic.php?t=4700&#34; target=&#34;_blank&#34;&gt;Linux兼容内核论坛 – wine qq 2013 for linux Ubuntu 64位兼容&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;可以用全局快捷键，可以截图，可以发送图片（虽然有点麻烦），资源占用有些高。&lt;/p&gt;
+&lt;p&gt;而且经常抽，比如打不开主面板，所以我才截聊天窗口的图。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-QQ.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2923&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-QQ.jpg&#34; alt=&#34;ubuntu-QQ&#34; width=&#34;543&#34; height=&#34;516&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-QQ.jpg 543w, https://umi.im/wp-content/uploads/2014/09/ubuntu-QQ-150x142.jpg 150w, https://umi.im/wp-content/uploads/2014/09/ubuntu-QQ-300x285.jpg 300w&#34; sizes=&#34;(max-width: 543px) 100vw, 543px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;一星期用下来，感觉发行版的linux使用门坎没传说中那么高。&lt;/p&gt;
+&lt;p&gt;至少在Ubuntu中，很多快捷键甚至和Windows的一样，设置界面也比Windows的控制面板易用多了。如果再有原生QQ客户端和更多的软件，当成主力系统也不是什么问题。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-windows.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2917&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-windows.jpg&#34; alt=&#34;ubuntu-windows&#34; width=&#34;655&#34; height=&#34;350&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/ubuntu-windows.jpg 655w, https://umi.im/wp-content/uploads/2014/09/ubuntu-windows-150x80.jpg 150w, https://umi.im/wp-content/uploads/2014/09/ubuntu-windows-300x160.jpg 300w&#34; sizes=&#34;(max-width: 655px) 100vw, 655px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

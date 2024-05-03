@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Amazon on 笨蛋屋</title>
+        <link>https://umi.im/tags/amazon/</link>
+        <description>Recent content in Amazon on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Thu, 21 Apr 2022 09:41:35 +0000</lastBuildDate><atom:link href="https://umi.im/tags/amazon/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>每月 100GB 流量的免费 VPS – AWS EC2 白嫖</title>
+        <link>https://umi.im/aws-ec2/</link>
+        <pubDate>Thu, 21 Apr 2022 09:41:35 +0000</pubDate>
+        
+        <guid>https://umi.im/aws-ec2/</guid>
+        <description>&lt;img src="https://umi.im/wp-content/uploads/2022/04/aws-ec2-poster.jpg" alt="Featured image of post 每月 100GB 流量的免费 VPS – AWS EC2 白嫖" /&gt;&lt;p&gt;最近亚马逊把 AWS EC2 实例的免费流量从每月 15GB 提高到了 100GB ，对于流量需求不高的用户，白嫖 AWS 搭梯子或者小博客是不错的选择。&lt;/p&gt;
+&lt;p&gt;新注册用户可以免费开12个月的特定的 EC2 实例。&lt;/p&gt;
+&lt;p&gt;只需要一张外币信用卡和一个美国手机号接验证码，我用的是 Google Voice。&lt;/p&gt;
+&lt;p&gt;注册很简单，不像 GCP、甲骨文和 Azure 一堆风控，直接真实信息就行，基本都能过，这里就不详写了。&lt;/p&gt;
+&lt;h3 id=&#34;创建实例&#34;&gt;
+    &lt;a href=&#34;#%e5%88%9b%e5%bb%ba%e5%ae%9e%e4%be%8b&#34;&gt;#&lt;/a&gt;
+    创建实例
+&lt;/h3&gt;&lt;p&gt;注册完选择喜欢的区域创建 EC2 实例（可随意换区），系统选择 Debian 10 。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;904&#34; height=&#34;847&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/AWS-1.png&#34; alt=&#34;&#34; class=&#34;wp-image-6129&#34; /&gt;  
+&lt;p&gt;实例选择 t.2.micro ，免费的会注明 [ 支持免费套餐 ] 。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;904&#34; height=&#34;510&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/AWS-2.png&#34; alt=&#34;&#34; class=&#34;wp-image-6130&#34; /&gt;  
+&lt;p&gt;然后创建新密钥对，名称随意，私钥格式选 .pem ，把私钥下载到本地。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;908&#34; height=&#34;460&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/AWS-3.png&#34; alt=&#34;&#34; class=&#34;wp-image-6131&#34; /&gt;  &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;733&#34; height=&#34;726&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/AWS-4.png&#34; alt=&#34;&#34; class=&#34;wp-image-6133&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;硬盘调到 30GB。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;933&#34; height=&#34;418&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/AWS-5-1.png&#34; alt=&#34;&#34; class=&#34;wp-image-6134&#34; /&gt;  
+&lt;h3 id=&#34;登录和调试&#34;&gt;
+    &lt;a href=&#34;#%e7%99%bb%e5%bd%95%e5%92%8c%e8%b0%83%e8%af%95&#34;&gt;#&lt;/a&gt;
+    登录和调试
+&lt;/h3&gt;&lt;p&gt;接着创建实例，实例启动后，进控制台复制公网 IP 地址，用 SSH 登录。&lt;/p&gt;
+&lt;p&gt;这里我用的是 FinalShell ，认证方式选公钥，用户名填 admin ，导入刚才创建的私钥后登录。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;606&#34; height=&#34;572&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/aws-ssh-login.png&#34; alt=&#34;&#34; class=&#34;wp-image-6135&#34; /&gt;  
+&lt;p&gt;登录后先开启 BBR ，依次输入下面的几条命令，最后能看到 BBR 进程就说明开启成功。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;sudo -i
+echo &#34;net.core.default_qdisc=fq&#34; &amp;gt;&amp;gt; /etc/sysctl.conf
+echo &#34;net.ipv4.tcp_congestion_control=bbr&#34; &amp;gt;&amp;gt; /etc/sysctl.conf
+sysctl -p
+sysctl net.ipv4.tcp_available_congestion_control
+lsmod | grep bbr&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果不想用私钥登录改成密码登录，输入以下命令创建带密码的 root 用户并允许密码登录。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;echo root:your_password|sudo chpasswd root
+sudo sed -i &#39;s/^#\?PermitRootLogin.*/PermitRootLogin yes/g&#39; /etc/ssh/sshd_config;
+sudo sed -i &#39;s/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g&#39; /etc/ssh/sshd_config;
+sudo service sshd restart&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;测速和性能&#34;&gt;
+    &lt;a href=&#34;#%e6%b5%8b%e9%80%9f%e5%92%8c%e6%80%a7%e8%83%bd&#34;&gt;#&lt;/a&gt;
+    测速和性能
+&lt;/h3&gt;&lt;p&gt;接下来跑个测速，东京节点，速度还是很快的，缺点是电信延迟较高（东京节点是电信用户的最好选择）。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;438&#34; height=&#34;369&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/AWS-JP-Speedtest.png&#34; alt=&#34;&#34; class=&#34;wp-image-6137&#34; /&gt;  
+&lt;p&gt;最开始我选择的香港节点，结果发现广东电信绕日本，而且是 NTT 线路，基本不可用。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;963&#34; height=&#34;618&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/AWS-HK-Ping.png&#34; alt=&#34;&#34; class=&#34;wp-image-6136&#34; /&gt;  
+&lt;p&gt;再来个跑分，CPU 性能比很多廉价 VPS 厂商的都强，硬盘性能被限制的很惨，和甲骨文的差不多。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;Processor  : Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz
+CPU cores  : 1 @ 2400.016 MHz
+AES-NI     : ✔ Enabled
+VM-x/AMD-V : ❌ Disabled
+RAM        : 987.5 MiB
+Swap       : 0.0 KiB
+Disk       : 29.5 GiB
+
+fio Disk Speed Tests (Mixed R/W 50/50):
+---------------------------------
+Block Size | 4k            (IOPS) | 64k           (IOPS)
+  ------   | ---            ----  | ----           ---- 
+Read       | 6.31 MB/s     (1.5k) | 64.15 MB/s    (1.0k)
+Write      | 6.31 MB/s     (1.5k) | 64.57 MB/s    (1.0k)
+Total      | 12.63 MB/s    (3.1k) | 128.73 MB/s   (2.0k)
+           |                      |                     
+Block Size | 512k          (IOPS) | 1m            (IOPS)
+  ------   | ---            ----  | ----           ---- 
+Read       | 59.54 MB/s     (116) | 58.39 MB/s      (57)
+Write      | 63.04 MB/s     (123) | 63.05 MB/s      (61)
+Total      | 122.59 MB/s    (239) | 121.44 MB/s    (118)
+
+Geekbench 5 Benchmark Test:
+---------------------------------
+Test            | Value                         
+                |                               
+Single Core     | 685                           
+Multi Core      | 687                           
+Full Test       | https://browser.geekbench.com/v5/cpu/14452349
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;注意事项&#34;&gt;
+    &lt;a href=&#34;#%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a1%b9&#34;&gt;#&lt;/a&gt;
+    注意事项
+&lt;/h3&gt;&lt;p&gt;搭建梯子需要在安全组的入站规则放行相应的端口。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1296&#34; height=&#34;659&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/AWS-rule.png&#34; alt=&#34;&#34; class=&#34;wp-image-6149&#34; /&gt;  
+&lt;p&gt;嫖完记得给信用卡限额，防止流量超标扣费。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>好紧张啊！第一次海淘 ~ (o;TωT)o</title>
+        <link>https://umi.im/amazon-acer-c720/</link>
+        <pubDate>Wed, 09 Apr 2014 01:26:44 +0000</pubDate>
+        
+        <guid>https://umi.im/amazon-acer-c720/</guid>
+        <description>&lt;p&gt;目标瞄准Acer的&lt;a title=&#34;Amazon&#34; href=&#34;http://www.amazon.com/gp/product/B00FNPD1VW/ref=oh_details_o00_s00_i00?ie=UTF8&amp;psc=1&#34; target=&#34;_blank&#34;&gt;Chromebook – C720&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;因为没用双币信用卡，海淘用的是全球付虚拟信用卡。&lt;/p&gt;
+&lt;p&gt;说起这卡，坑爹，今天人民币对美元的汇率本来是6.16：1的。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-09-U.S.-dollar.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2013&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-09-U.S.-dollar.png&#34; alt=&#34;2014-04-09-U.S. dollar&#34; width=&#34;774&#34; height=&#34;273&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-09-U.S.-dollar.png 774w, https://umi.im/wp-content/uploads/2014/04/2014-04-09-U.S.-dollar-150x52.png 150w, https://umi.im/wp-content/uploads/2014/04/2014-04-09-U.S.-dollar-300x105.png 300w&#34; sizes=&#34;(max-width: 774px) 100vw, 774px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;竟然他家竟是6.32：1，卧槽，坑了30块，买之前问汇率客户说让我打电话万事达问。_(:3ゝ∠)_&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/amazon-acer-c720-globalcash.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2014&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/amazon-acer-c720-globalcash.png&#34; alt=&#34;amazon-acer-c720-globalcash&#34; width=&#34;730&#34; height=&#34;375&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/amazon-acer-c720-globalcash.png 730w, https://umi.im/wp-content/uploads/2014/04/amazon-acer-c720-globalcash-150x77.png 150w, https://umi.im/wp-content/uploads/2014/04/amazon-acer-c720-globalcash-300x154.png 300w&#34; sizes=&#34;(max-width: 730px) 100vw, 730px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;然后申请一个月免费试用的&lt;a title=&#34;Amazon&#34; href=&#34;http://haitao.smzdm.com/gonglve/87587&#34; target=&#34;_blank&#34;&gt;Amazon Prime会员&lt;/a&gt;，然后就可以享受两日送达了（美国境内），美国快递和天朝比简直弱爆了！&lt;/p&gt;
+&lt;p&gt;准备出库，好忐忑啊！_(:3ゝ∠)_&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/amazon-acer-c7201.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2015&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/amazon-acer-c7201.png&#34; alt=&#34;amazon-acer-c720&#34; width=&#34;1099&#34; height=&#34;373&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/amazon-acer-c7201.png 1099w, https://umi.im/wp-content/uploads/2014/04/amazon-acer-c7201-150x50.png 150w, https://umi.im/wp-content/uploads/2014/04/amazon-acer-c7201-300x101.png 300w, https://umi.im/wp-content/uploads/2014/04/amazon-acer-c7201-1024x347.png 1024w&#34; sizes=&#34;(max-width: 1099px) 100vw, 1099px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;送货后把运单号提交给转运公司付转运费就搞定了，噢。。。还有清关。&lt;/p&gt;
+&lt;p&gt;参考教程：&lt;/p&gt;
+&lt;h2 id=&#34;a-titlesmzdm-hrefhttpjysmzdmcomdetail18235-target_blank虚拟信用卡的使用体验-篇一global-cash全球付a&#34;&gt;
+    &lt;a href=&#34;#a-titlesmzdm-hrefhttpjysmzdmcomdetail18235-target_blank%e8%99%9a%e6%8b%9f%e4%bf%a1%e7%94%a8%e5%8d%a1%e7%9a%84%e4%bd%bf%e7%94%a8%e4%bd%93%e9%aa%8c-%e7%af%87%e4%b8%80global-cash%e5%85%a8%e7%90%83%e4%bb%98a&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;SMZDM&#34; href=&#34;http://jy.smzdm.com/detail/18235&#34; target=&#34;_blank&#34;&gt;虚拟信用卡的使用体验 篇一：Global Cash全球付&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;a-titlesmzdm-hrefhttphaitaosmzdmcomgonglve87323-target_blankamazon-美国亚马逊手把手教程最新版a&#34;&gt;
+    &lt;a href=&#34;#a-titlesmzdm-hrefhttphaitaosmzdmcomgonglve87323-target_blankamazon-%e7%be%8e%e5%9b%bd%e4%ba%9a%e9%a9%ac%e9%80%8a%e6%89%8b%e6%8a%8a%e6%89%8b%e6%95%99%e7%a8%8b%e6%9c%80%e6%96%b0%e7%89%88a&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;SMZDM&#34; href=&#34;http://haitao.smzdm.com/gonglve/87323&#34; target=&#34;_blank&#34;&gt;Amazon 美国亚马逊   手把手教程（最新版）&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;a-titlesmzdm-hrefhttphaitaosmzdmcomgonglve87587-target_blankamazon-prime会员-试用-及-取消自动续费-教程a&#34;&gt;
+    &lt;a href=&#34;#a-titlesmzdm-hrefhttphaitaosmzdmcomgonglve87587-target_blankamazon-prime%e4%bc%9a%e5%91%98-%e8%af%95%e7%94%a8-%e5%8f%8a-%e5%8f%96%e6%b6%88%e8%87%aa%e5%8a%a8%e7%bb%ad%e8%b4%b9-%e6%95%99%e7%a8%8ba&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;SMZDM&#34; href=&#34;http://haitao.smzdm.com/gonglve/87587&#34; target=&#34;_blank&#34;&gt;Amazon Prime会员 试用 及 取消自动续费 教程 &lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;a-titlesmzdm-hrefhttphaitaosmzdmcomtishi87539-target_blank海淘海外购-进口关税查询a&#34;&gt;
+    &lt;a href=&#34;#a-titlesmzdm-hrefhttphaitaosmzdmcomtishi87539-target_blank%e6%b5%b7%e6%b7%98%e6%b5%b7%e5%a4%96%e8%b4%ad-%e8%bf%9b%e5%8f%a3%e5%85%b3%e7%a8%8e%e6%9f%a5%e8%af%a2a&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;SMZDM&#34; href=&#34;http://haitao.smzdm.com/tishi/87539&#34; target=&#34;_blank&#34;&gt;海淘/海外购 进口关税查询&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;a-title支付宝-hrefhttpappalipaycomaopdetailhtmpagekey10115_001appkey10115stateredirectend-target_blankalipay-支付宝-海外转运服务-318至418每周二三开放注册a&#34;&gt;
+    &lt;a href=&#34;#a-title%e6%94%af%e4%bb%98%e5%ae%9d-hrefhttpappalipaycomaopdetailhtmpagekey10115_001appkey10115stateredirectend-target_blankalipay-%e6%94%af%e4%bb%98%e5%ae%9d-%e6%b5%b7%e5%a4%96%e8%bd%ac%e8%bf%90%e6%9c%8d%e5%8a%a1-318%e8%87%b3418%e6%af%8f%e5%91%a8%e4%ba%8c%e4%b8%89%e5%bc%80%e6%94%be%e6%b3%a8%e5%86%8ca&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;支付宝&#34; href=&#34;http://app.alipay.com/aop/detail.htm?pageKey=10115_001&amp;appKey=10115&amp;state=redirectEnd&#34; target=&#34;_blank&#34;&gt;Alipay 支付宝 海外转运服务 3.18至4.18，每周二、三开放注册&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>被Amazon坑了五块</title>
+        <link>https://umi.im/amazon-tariff-adjustment/</link>
+        <pubDate>Thu, 06 Mar 2014 14:49:04 +0000</pubDate>
+        
+        <guid>https://umi.im/amazon-tariff-adjustment/</guid>
+        <description>&lt;p&gt;Z秒杀买到的饼干。&lt;/p&gt;
+&lt;p&gt;下单后没注意看，以为优惠25块。&lt;/p&gt;
+&lt;p&gt;后来一细看竟然有5块配送费。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Amazon-binggan.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1701&#34; alt=&#34;Amazon-binggan&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Amazon-binggan.png&#34; width=&#34;724&#34; height=&#34;422&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Amazon-binggan.png 724w, https://umi.im/wp-content/uploads/2014/03/Amazon-binggan-150x87.png 150w, https://umi.im/wp-content/uploads/2014/03/Amazon-binggan-300x174.png 300w&#34; sizes=&#34;(max-width: 724px) 100vw, 724px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;然后查了下，买表竟然涨价了，以前好像35免运费来着。&lt;/p&gt;
+&lt;p&gt;如果注意看的话再买五块钱东西就免运费了，坑爹啊！！！&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Amazon-yunfei.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1702&#34; alt=&#34;Amazon-yunfei&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Amazon-yunfei.png&#34; width=&#34;804&#34; height=&#34;173&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Amazon-yunfei.png 804w, https://umi.im/wp-content/uploads/2014/03/Amazon-yunfei-150x32.png 150w, https://umi.im/wp-content/uploads/2014/03/Amazon-yunfei-300x64.png 300w&#34; sizes=&#34;(max-width: 804px) 100vw, 804px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

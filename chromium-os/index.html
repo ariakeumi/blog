@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="\n[blockquote source=”WIKipedia”]Google Chrome OS是由Google所进行的一项轻型计算机操作系统发展计划，发展出专用于互联网的云操作系统。34该操作系统设计计划于2009年7月7日发布，系统植基于谷歌浏览器及Linux内核。最初设置在上网本上使用5，在2011年上半年正式发表上市678“Chrome OS”可以在x86或ARM两种微处理器上运行。9。\nChromium OS是Chrome OS的开源版本，Chrome OS用于指定的硬件上，所以无法在虚拟机里体验Chrome OS。\n我所安装的由国外大神hexxeh所编译的Chromium OS，并不是官方版本。\n首先，下载 Chromium OS，这不是一个镜像文件，而是ZIP压缩文件。\n因为我用的是**VM虚拟机**，所以我下载了VMWare的，解压了就是一个VMDK文件和VMX文件，VMDK是虚拟磁盘，VMX是虚拟机配置文件，直接打开VMX文件就可以开启虚拟机了，根本不需要设置，超级傻瓜。\n不过直接打开的话是没有网络的，没有网络的话登录不了就用不了，Chromium OS是一个云系统，没网络就废了。\n用记事本编辑器打开VMX文件，在最后一行添加一行后保存；如下图。\n[syntax type=”html|php|js|css”]\nethernet0.virtualDev = \"e1000\" [/syntax]\n然后就可以正式体验了，开机选择语言。\n自动更新，没网络连系统都进不了。\nChromium OS会自动更新，像Chrome浏览器一样，永远保持最新版本。\n登录Google帐号。\n">
+<title>Chromium OS虚拟机体验</title>
+
+<link rel='canonical' href='https://umi.im/chromium-os/'>
+
+<link rel="stylesheet" href="/scss/style.min.859d15a88c4baa095161a679adcf6a0588d393b9603bd708e8e0c634ae102b82.css"><meta property='og:title' content="Chromium OS虚拟机体验">
+<meta property='og:description' content="\n[blockquote source=”WIKipedia”]Google Chrome OS是由Google所进行的一项轻型计算机操作系统发展计划，发展出专用于互联网的云操作系统。34该操作系统设计计划于2009年7月7日发布，系统植基于谷歌浏览器及Linux内核。最初设置在上网本上使用5，在2011年上半年正式发表上市678“Chrome OS”可以在x86或ARM两种微处理器上运行。9。\nChromium OS是Chrome OS的开源版本，Chrome OS用于指定的硬件上，所以无法在虚拟机里体验Chrome OS。\n我所安装的由国外大神hexxeh所编译的Chromium OS，并不是官方版本。\n首先，下载 Chromium OS，这不是一个镜像文件，而是ZIP压缩文件。\n因为我用的是**VM虚拟机**，所以我下载了VMWare的，解压了就是一个VMDK文件和VMX文件，VMDK是虚拟磁盘，VMX是虚拟机配置文件，直接打开VMX文件就可以开启虚拟机了，根本不需要设置，超级傻瓜。\n不过直接打开的话是没有网络的，没有网络的话登录不了就用不了，Chromium OS是一个云系统，没网络就废了。\n用记事本编辑器打开VMX文件，在最后一行添加一行后保存；如下图。\n[syntax type=”html|php|js|css”]\nethernet0.virtualDev = \"e1000\" [/syntax]\n然后就可以正式体验了，开机选择语言。\n自动更新，没网络连系统都进不了。\nChromium OS会自动更新，像Chrome浏览器一样，永远保持最新版本。\n登录Google帐号。\n">
+<meta property='og:url' content='https://umi.im/chromium-os/'>
+<meta property='og:site_name' content='笨蛋屋'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='虚拟机' /><meta property='article:published_time' content='2014-03-18T12:28:14&#43;00:00'/><meta property='article:modified_time' content='2014-03-18T12:28:14&#43;00:00'/>
+<meta name="twitter:title" content="Chromium OS虚拟机体验">
+<meta name="twitter:description" content="\n[blockquote source=”WIKipedia”]Google Chrome OS是由Google所进行的一项轻型计算机操作系统发展计划，发展出专用于互联网的云操作系统。34该操作系统设计计划于2009年7月7日发布，系统植基于谷歌浏览器及Linux内核。最初设置在上网本上使用5，在2011年上半年正式发表上市678“Chrome OS”可以在x86或ARM两种微处理器上运行。9。\nChromium OS是Chrome OS的开源版本，Chrome OS用于指定的硬件上，所以无法在虚拟机里体验Chrome OS。\n我所安装的由国外大神hexxeh所编译的Chromium OS，并不是官方版本。\n首先，下载 Chromium OS，这不是一个镜像文件，而是ZIP压缩文件。\n因为我用的是**VM虚拟机**，所以我下载了VMWare的，解压了就是一个VMDK文件和VMX文件，VMDK是虚拟磁盘，VMX是虚拟机配置文件，直接打开VMX文件就可以开启虚拟机了，根本不需要设置，超级傻瓜。\n不过直接打开的话是没有网络的，没有网络的话登录不了就用不了，Chromium OS是一个云系统，没网络就废了。\n用记事本编辑器打开VMX文件，在最后一行添加一行后保存；如下图。\n[syntax type=”html|php|js|css”]\nethernet0.virtualDev = \"e1000\" [/syntax]\n然后就可以正式体验了，开机选择语言。\n自动更新，没网络连系统都进不了。\nChromium OS会自动更新，像Chrome浏览器一样，永远保持最新版本。\n登录Google帐号。\n">
+    <link rel="shortcut icon" href="/favicon.png" />
+
+  
+
+<meta name="verification" content="9cfa2f7dea5bc4a0">
+<script defer src="https://u.umi.im/replace-me-with-a-random-string" data-website-id="befac8d7-0396-44c8-b151-9c332a5f176f"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5428554628068316"
+     crossorigin="anonymous"></script>
+    
+    
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar-150px_hub3e42f8fb4895a97c7036e2fee26b85a_7312_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">💔</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">笨蛋屋</a></h1>
+            <h2 class="site-description">炒土豆丝 の Blog !</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://s.umi.im/'
+                        target="_blank"
+                        title="ServerStutas"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-server-bolt"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" /><path d="M15 20h-9a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h12" /><path d="M7 8v.01" /><path d="M7 16v.01" /><path d="M20 15l-2 3h3l-2 3" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://m.umi.im/'
+                        target="_blank"
+                        title="Memos"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-feather"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 20l10 -10m0 -5v5h5m-9 -1v5h5m-9 -1v5h5m-5 -5l4 -4l4 -4" /><path d="M19 10c.638 -.636 1 -1.515 1 -2.486a3.515 3.515 0 0 0 -3.517 -3.514c-.97 0 -1.847 .367 -2.483 1m-3 13l4 -4l4 -4" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/ariakeumi'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/998potato'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://umi.im/index.xml'
+                        target="_blank"
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/comments/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
+  <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
+</svg>
+
+
+
+                
+                <span>Comments</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='https://share.umi.im/' target="_blank">
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-share"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M18 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M8.7 10.7l6.6 -3.4" /><path d="M8.7 13.3l6.6 3.4" /></svg>
+                
+                <span>Share</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#总结还是买一台chromebook玩玩吧">总结：还是买一台ChromeBook玩玩吧！~</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/it/" style="background-color: ; color: #fff;">
+                折腾
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/chromium-os/">Chromium OS虚拟机体验</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2014年03月18日</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 3 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><a class="link" href="https://umi.im/wp-content/uploads/2014/03/Chromium-OS.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1779" src="https://umi.im/wp-content/uploads/2014/03/Chromium-OS.jpg" alt="Chromium OS" width="1082" height="691" srcset="https://umi.im/wp-content/uploads/2014/03/Chromium-OS.jpg 1082w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-150x95.jpg 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-300x191.jpg 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-1024x653.jpg 1024w" sizes="(max-width: 1082px) 100vw, 1082px" /></a></p>
+<p>[blockquote source=”WIKipedia”]<strong>Google Chrome OS</strong>是由<a class="link" href="http://zh.wikipedia.org/wiki/Google"  title="Google"
+     target="_blank" rel="noopener"
+    >Google</a>所进行的一项轻型计算机<a class="link" href="http://zh.wikipedia.org/wiki/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1"  title="操作系统"
+     target="_blank" rel="noopener"
+    >操作系统</a>发展计划，发展出专用于<a class="link" href="http://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91"  title="互联网"
+     target="_blank" rel="noopener"
+    >互联网</a>的云操作系统。<sup id="cite_ref-PC_World_3-0"><a href="http://zh.wikipedia.org/wiki/Google_Chrome_OS#cite_note-PC_World-3"><a class="link" href="http://zh.wikipedia.org/wiki/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1"  title="操作系统"
+     target="_blank" rel="noopener"
+    >3</a></a></sup><sup id="cite_ref-4"><a href="http://zh.wikipedia.org/wiki/Google_Chrome_OS#cite_note-4"><a class="link" href="http://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91"  title="互联网"
+     target="_blank" rel="noopener"
+    >4</a></a></sup>该操作系统设计计划于2009年7月7日发布，系统植基于<a class="link" href="http://zh.wikipedia.org/wiki/Google_Chrome"  title="谷歌浏览器"
+     target="_blank" rel="noopener"
+    >谷歌浏览器</a>及<a class="link" href="http://zh.wikipedia.org/wiki/Linux%E5%86%85%E6%A0%B8"  title="Linux内核"
+     target="_blank" rel="noopener"
+    >Linux内核</a>。最初设置在<a class="link" href="http://zh.wikipedia.org/wiki/Netbook"  title="Netbook"
+     target="_blank" rel="noopener"
+    >上网本</a>上使用<sup id="cite_ref-Guardian_5-0"><a href="http://zh.wikipedia.org/wiki/Google_Chrome_OS#cite_note-Guardian-5"><a class="link" href="http://zh.wikipedia.org/wiki/Google_Chrome"  title="谷歌浏览器"
+     target="_blank" rel="noopener"
+    >5</a></a></sup>，在2011年上半年正式发表上市<sup id="cite_ref-Times_6-0"><a href="http://zh.wikipedia.org/wiki/Google_Chrome_OS#cite_note-Times-6"><a class="link" href="http://zh.wikipedia.org/wiki/Linux%E5%86%85%E6%A0%B8"  title="Linux内核"
+     target="_blank" rel="noopener"
+    >6</a></a></sup><sup id="cite_ref-7"><a href="http://zh.wikipedia.org/wiki/Google_Chrome_OS#cite_note-7"><a class="link" href="http://zh.wikipedia.org/wiki/Netbook"  title="Netbook"
+     target="_blank" rel="noopener"
+    >7</a></a></sup><sup id="cite_ref-8"><a href="http://zh.wikipedia.org/wiki/Google_Chrome_OS#cite_note-8"><a class="link" href="http://zh.wikipedia.org/wiki/X86"  title="X86"
+     target="_blank" rel="noopener"
+    >8</a></a></sup>“Chrome OS”可以在<a class="link" href="http://zh.wikipedia.org/wiki/X86"  title="X86"
+     target="_blank" rel="noopener"
+    >x86</a>或<a class="link" href="http://zh.wikipedia.org/wiki/ARM%E6%9E%B6%E6%A7%8B"  title="ARM架构"
+     target="_blank" rel="noopener"
+    >ARM</a>两种微处理器上运行。<sup id="cite_ref-Bloomberg_9-0"><a href="http://zh.wikipedia.org/wiki/Google_Chrome_OS#cite_note-Bloomberg-9"><a class="link" href="http://zh.wikipedia.org/wiki/ARM%E6%9E%B6%E6%A7%8B"  title="ARM架构"
+     target="_blank" rel="noopener"
+    >9</a></a></sup>。</blockquote></p>
+<p><a title="WIKI" href="http://zh.wikipedia.org/wiki/Chromium_OS" target="_blank">Chromium OS</a><span style="font-size: 14px; line-height: 1.5em;">是Chrome OS的开源版本，Chrome OS用于指定的硬件上，所以无法在虚拟机里体验Chrome OS。</span></p>
+<p>我所安装的由国外大神hexxeh所编译的Chromium OS，并不是官方版本。</p>
+<p>首先，<strong><a title="下载" href="http://chromeos.hexxeh.net/" target="_blank">下载 Chromium OS</a></strong>，这不是一个镜像文件，而是ZIP压缩文件。</p>
+<p>因为我用的是**<a title="VM虚拟机" href="http://www.zdfans.com/810.html" target="_blank">VM虚拟机</a>**，所以我下载了VMWare的，解压了就是一个VMDK文件和VMX文件，VMDK是虚拟磁盘，VMX是虚拟机配置文件，直接打开VMX文件就可以开启虚拟机了，根本不需要设置，超级傻瓜。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-DOWN.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1772" src="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-DOWN.png" alt="Chromium-OS-DOWN" width="791" height="418" srcset="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-DOWN.png 791w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-DOWN-150x79.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-DOWN-300x158.png 300w" sizes="(max-width: 791px) 100vw, 791px" /></a></p>
+<p>不过直接打开的话是没有网络的，没有网络的话登录不了就用不了，Chromium OS是一个云系统，没网络就废了。</p>
+<p>用记事本编辑器打开VMX文件，在最后一行添加一行后保存；如下图。</p>
+<p>[syntax type=”html|php|js|css”]</p>
+<pre>ethernet0.virtualDev = "e1000"</pre>
+<p>[/syntax]</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-VMX.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1764" src="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-VMX.png" alt="Chromium-OS-VMX" width="654" height="523" srcset="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-VMX.png 654w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-VMX-150x119.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-VMX-300x239.png 300w" sizes="(max-width: 654px) 100vw, 654px" /></a></p>
+<p>然后就可以正式体验了，开机选择语言。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-37.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1765" src="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-37.png" alt="Chromium OS-2014-03-17-17-47-37" width="1280" height="720" srcset="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-37.png 1280w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-37-150x84.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-37-300x168.png 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-37-1024x576.png 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></p>
+<p>自动更新，没网络连系统都进不了。</p>
+<p>Chromium OS会自动更新，像Chrome浏览器一样，永远保持最新版本。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-48.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1766" src="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-48.png" alt="Chromium OS-2014-03-17-17-47-48" width="1280" height="720" srcset="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-48.png 1280w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-48-150x84.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-48-300x168.png 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-47-48-1024x576.png 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></p>
+<p>登录Google帐号。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-51-11.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1773" src="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-51-11.png" alt="Chromium OS-2014-03-17-17-51-11" width="1280" height="720" srcset="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-51-11.png 1280w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-51-11-150x84.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-51-11-300x168.png 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-51-11-1024x576.png 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-52-04.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1768" src="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-52-04.png" alt="Chromium OS-2014-03-17-17-52-04" width="1280" height="720" srcset="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-52-04.png 1280w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-52-04-150x84.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-52-04-300x168.png 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-52-04-1024x576.png 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></p>
+<p>设置好后二次登录的场景。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-10-52-07.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1783" src="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-10-52-07.jpg" alt="Chromium-OS-2014-03-18-10-52-07" width="1280" height="720" srcset="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-10-52-07.jpg 1280w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-10-52-07-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-10-52-07-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-10-52-07-1024x576.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></p>
+<p>进系统，自动同步了Chrome浏览器的书签。</p>
+<p>不过这排列顺序出了点小问题，扩展程序也需要进设置界面同步，难道是Chrome和Chromium的接合还不够好？</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-53-45.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1769" src="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-53-45.png" alt="Chromium OS-2014-03-17-17-53-45" width="1280" height="720" srcset="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-53-45.png 1280w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-53-45-150x84.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-53-45-300x168.png 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-17-17-53-45-1024x576.png 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></p>
+<p>右下角的菜单，有本地拼音输入法。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-settings.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1762" src="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-settings.png" alt="Chromium OS-settings" width="359" height="414" srcset="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-settings.png 359w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-settings-130x150.png 130w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-settings-260x300.png 260w" sizes="(max-width: 359px) 100vw, 359px" /></a></p>
+<p>输入法界面丑啊！！！求整合Google拼音！！！</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-shurufa.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1763" src="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-shurufa.png" alt="Chromium-OS-shurufa" width="434" height="144" srcset="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-shurufa.png 434w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-shurufa-150x49.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-shurufa-300x99.png 300w" sizes="(max-width: 434px) 100vw, 434px" /></a></p>
+<p>窗口化后有类似Windows的AERO Glass的玻璃效果，可惜全屏没有。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-07-22.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1760" src="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-07-22.png" alt="Chromium OS-2014-03-18-19-07-22" width="1280" height="720" srcset="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-07-22.png 1280w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-07-22-150x84.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-07-22-300x168.png 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-07-22-1024x576.png 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></p>
+<p>有支付宝控件，可以登录支付宝。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-11-13-37.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1774" src="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-11-13-37.png" alt="Chromium OS-2014-03-18-11-13-37" width="1280" height="720" srcset="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-11-13-37.png 1280w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-11-13-37-150x84.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-11-13-37-300x168.png 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-11-13-37-1024x576.png 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></p>
+<p>还不错，可以确认收货。</p>
+<p>网银不用想了，不过我一直用快捷支付充钱进支付宝，用Chrome OS购物是没问题了。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-57-24.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1775" src="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-57-24.png" alt="Chromium OS-2014-03-18-19-57-24" width="1280" height="720" srcset="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-57-24.png 1280w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-57-24-150x84.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-57-24-300x168.png 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-2014-03-18-19-57-24-1024x576.png 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></p>
+<p>Chromium OS的文件管理器，深度整合Google Drive，购买ChromeBook都会送100GB Google Drive。</p>
+<p>自带本地音频、视频播放器，不过我播放FLAC、MP3、MP4都失败了，不解。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-wenjian.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1776" src="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-wenjian.png" alt="Chromium OS-wenjian" width="1025" height="567" srcset="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-wenjian.png 1025w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-wenjian-150x82.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-wenjian-300x165.png 300w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-wenjian-1024x566.png 1024w" sizes="(max-width: 1025px) 100vw, 1025px" /></a></p>
+<p>还有一个重大问题就是，看不了Flash，Chrome应该整合flash的啊。</p>
+<p>但是我想下载Flash的时候却提示ChromeBook已经内置了Flash，看来是这个编译版本有问题了。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-flash.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1777" src="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-flash.png" alt="Chromium OS-flash" width="583" height="242" srcset="https://umi.im/wp-content/uploads/2014/03/Chromium-OS-flash.png 583w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-flash-150x62.png 150w, https://umi.im/wp-content/uploads/2014/03/Chromium-OS-flash-300x124.png 300w" sizes="(max-width: 583px) 100vw, 583px" /></a></p>
+<p>[divider type=”thick”]</p>
+<h2 id="总结还是买一台chromebook玩玩吧">
+    <a href="#%e6%80%bb%e7%bb%93%e8%bf%98%e6%98%af%e4%b9%b0%e4%b8%80%e5%8f%b0chromebook%e7%8e%a9%e7%8e%a9%e5%90%a7">#</a>
+    总结：还是买一台ChromeBook玩玩吧！~
+</h2>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/">虚拟机</a>
+        
+    </section>
+
+
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2014年03月18日 12:28 CST
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/android-x86/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Android 4.3 x86 蛋疼试玩</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/unraid-6.12.10-crack/">
+        
+        
+            <div class="article-image">
+                <img src="/unraid-6.12.10-crack/unraid.bfb8c4fd1d550f352bfe087ebde9f60c.webp" 
+                        width="1200" 
+                        height="630" 
+                        loading="lazy"
+                        alt="Featured image of post UNRAID 6.12.4 米多贝克版升级 UNRAID 6.12.10 毛子开心版"
+                        
+                        data-hash="md5-v7jE/R1VDzUr/gh&#43;ven2DA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">UNRAID 6.12.4 米多贝克版升级 UNRAID 6.12.10 毛子开心版</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/wordpress-to-hugo/">
+        
+        
+            <div class="article-image">
+                <img src="/wordpress-to-hugo/wordpress-to-hugo.9dd8f7b941bbdf2ac48ac46cde33e9e8.webp" 
+                        width="1115" 
+                        height="627" 
+                        loading="lazy"
+                        alt="Featured image of post Wordpress 博客迁移到 HUGO"
+                        
+                        data-hash="md5-ndj3uUG73yrEisRs3jPp6A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Wordpress 博客迁移到 HUGO</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/dnspod-to-cloudflare/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://umi.im/wp-content/uploads/2024/04/CF_MetaImage.webp" loading="lazy" data-key="" data-hash="https://umi.im/wp-content/uploads/2024/04/CF_MetaImage.webp"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">博客域名 NS 从 DNSPOD 转移到 Cloudflare</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/my-unraid-array/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">UNRAID 系统添加校验盘和 ZFS 镜像阵列升级</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
+<div id="waline" class="waline-container"></div>
+<style>
+    .waline-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+        --waline-font-size: var(--article-font-size);
+    }
+    .waline-container .wl-count {
+        color: var(--card-text-color-main);
+    }
+</style><script>
+    
+    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://npm.elemecdn.com/@waline/emojis@1.1.0/weibo"],"lang":"zh-CN","locale":{"admin":"屋主","placeholder":"欢迎互动！"},"requiredMeta":["name","email","url"],"serverURL":"https://waline.umi.im/"});
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2024 笨蛋屋
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.25.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,1510 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Windows 软件 on 笨蛋屋</title>
+        <link>https://umi.im/tags/windows-%E8%BD%AF%E4%BB%B6/</link>
+        <description>Recent content in Windows 软件 on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Tue, 24 Jan 2023 19:03:04 +0000</lastBuildDate><atom:link href="https://umi.im/tags/windows-%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>使用 AI 超分辨率技术让老里番变成 4K 画质</title>
+        <link>https://umi.im/r18-anime-ai-4k/</link>
+        <pubDate>Tue, 24 Jan 2023 19:03:04 +0000</pubDate>
+        
+        <guid>https://umi.im/r18-anime-ai-4k/</guid>
+        <description>&lt;img src="https://umi.im/wp-content/uploads/2023/01/r18-anime-ai-4k.webp" alt="Featured image of post 使用 AI 超分辨率技术让老里番变成 4K 画质" /&gt;&lt;p&gt;在 B 站上看到不少经过 AI 超分辨率处理的老番 4K 视频，AI 超分过的动画画质提升还是很明显的。想着把自己收藏的老番都给提下画质的，跑着发现实在是太费时了，还不如直接下载的时候就下画质最好的版本。旧番也有别人做好的超分版本，自己处理费时费力。&lt;/p&gt;
+&lt;p&gt;接着发现自己收藏的老里番很适合折腾，里番名叫 Innocent Blue カルテ ，以前很有名的 NTR 里番。&lt;/p&gt;
+&lt;p&gt;这里番的原生分辨率是 960*720 ，平均码率 800kbps ，这已经是我找到的最好画质的版本，毕竟是 2005 年的作品。&lt;/p&gt;
+&lt;p&gt;下面我们使用 &lt;a class=&#34;link&#34; href=&#34;https://github.com/Justin62628/Squirrel-RIFE/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Squirrel Anime Enhance&lt;/a&gt; 这个软件在给视频做 AI 超分处理（需要 Win10 系统和 Nvidia 显卡）。&lt;/p&gt;
+&lt;p&gt;从上面链接下载 SAE 并解压，双击目录下 “启动SAE.bat” 启动软件。&lt;/p&gt;
+&lt;p&gt;SAE 设置，直接把分辨率拉到 400% ，算法模型都是默认选项，然后直接压制。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1252&#34; height=&#34;891&#34; src=&#34;https://umi.im/wp-content/uploads/2023/01/SAE-1.png&#34; alt=&#34;&#34; class=&#34;wp-image-6315&#34; /&gt;  
+&lt;p&gt;使用 RTX 3060Ti 显卡，一集不到 30 分钟的动画处理了六个多小时。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1230&#34; height=&#34;873&#34; src=&#34;https://umi.im/wp-content/uploads/2023/01/SAE-2.png&#34; alt=&#34;&#34; class=&#34;wp-image-6316&#34; /&gt;  
+&lt;p&gt;我们来对比下，放大看图片，上面的是原生分辨率，下面的是 AI 超分 4K，画面细节和纹理提升还是非常明显的。&lt;/p&gt;
+&lt;p&gt;&lt;img decoding=&#34;async&#34; src=&#34;https://umi.im/wp-content/uploads/2023/01/SAE-contrast-1-scaled.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-6317&#34; /&gt;  &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1707&#34; height=&#34;2560&#34; src=&#34;https://umi.im/wp-content/uploads/2023/01/SAE-contrast-2-scaled.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-6318&#34; srcset=&#34;https://umi.im/wp-content/uploads/2023/01/SAE-contrast-2-scaled.jpg 1707w, https://umi.im/wp-content/uploads/2023/01/SAE-contrast-2-1024x1536.jpg 1024w, https://umi.im/wp-content/uploads/2023/01/SAE-contrast-2-1365x2048.jpg 1365w&#34; sizes=&#34;(max-width: 1707px) 100vw, 1707px&#34; /&gt; &lt;img decoding=&#34;async&#34; src=&#34;https://umi.im/wp-content/uploads/2023/01/SAE-contrast-3-scaled.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-6320&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;处理后的里番大小从 200MB 变成了 1.3GB ，硬盘占用还好，有喜欢的老旧里番真的建议给提下画质。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>让 Windows 系统支持显示 Emoji 表情的国旗</title>
+        <link>https://umi.im/windows-emoji-flags/</link>
+        <pubDate>Sun, 27 Nov 2022 19:24:58 +0000</pubDate>
+        
+        <guid>https://umi.im/windows-emoji-flags/</guid>
+        <description>&lt;img src="https://umi.im/wp-content/uploads/2022/11/emoji-flag-clash-yacd.webp" alt="Featured image of post 让 Windows 系统支持显示 Emoji 表情的国旗" /&gt;&lt;p&gt;从 Win8 开始的新系统都支持显示 Emoji 表情，但因为政治原因，微软阉割了 Emoji 的国旗图像，在 Windows 系统里的国旗 Emoji 会显示为英文字符。&lt;/p&gt;
+&lt;p&gt;如果平时和 Emoji 国旗不打交道没什么影响，不过偏偏我常用的科学上网软件 Clash 的 yacd 控制面需要显示节点的国旗，他在 Windows 上显示是这样的：&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1305&#34; height=&#34;741&#34; src=&#34;https://umi.im/wp-content/uploads/2022/11/clash-yacd.png&#34; alt=&#34;&#34; class=&#34;wp-image-6298&#34; /&gt;  
+&lt;p&gt;很难看，实在是无法接受，虽然可以给节点名称去掉国旗，但一堆没国旗的节点名挤在一起也相当混乱。&lt;/p&gt;
+&lt;p&gt;然后我在 Github 上翻到了这个， &lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://github.com/13rac1/twemoji-color-font&#34; target=&#34;_blank&#34;&gt;Twitter Color Emoji SVGinOT Font&lt;/a&gt; ，可以把 Windows 的原生 Emoji 表情替换为 Twitter 的 Emoji ，推特的 Emoji 是包含了国旗的。&lt;/p&gt;
+&lt;p&gt;安装方法很简单，下载 &lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://github.com/13rac1/twemoji-color-font/releases&#34; target=&#34;_blank&#34;&gt;TwitterColorEmoji-SVGinOT-Win-14.0.2.zip&lt;/a&gt; 解压，运行 .bat 文件，会自动下载两个字体文件，然后直接安装字体就搞定了。&lt;/p&gt;
+&lt;p&gt;装完发现因为 &lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://bugs.chromium.org/p/chromium/issues/detail?id=306078&#34; target=&#34;_blank&#34;&gt;操作系统或者应用程序的限制&lt;/a&gt; 不支持 Chrome，一大堆 Electron 的软件也不支持。&lt;/p&gt;
+&lt;p&gt;还好我常用的文本编辑器 Notepad3 是支持的，编辑 Clash 配置文件的时候很直观。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1056&#34; height=&#34;741&#34; src=&#34;https://umi.im/wp-content/uploads/2022/11/emoji-flag-notepad3.png&#34; alt=&#34;&#34; class=&#34;wp-image-6300&#34; /&gt;  
+&lt;p&gt;然后我找到了 &lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://chrome.google.com/webstore/detail/twemoji-for-chrome/fopgafjdjlongoeblobbafbnapafcicg&#34; target=&#34;_blank&#34;&gt;Twemoji for Chrome&lt;/a&gt; 这款 Chrome 插件，直接秒杀，完美显示 Emoji 国旗。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1368&#34; height=&#34;878&#34; src=&#34;https://umi.im/wp-content/uploads/2022/11/emoji-flag-clash-yacd.png&#34; alt=&#34;&#34; class=&#34;wp-image-6301&#34; /&gt;  
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://emojipedia.org/zh/%E6%97%97-%E4%BC%8A%E6%9C%97/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>萌萌的SSD测速工具 ~ CrystalDiskMark Shizuku</title>
+        <link>https://umi.im/crystaldiskmark/</link>
+        <pubDate>Tue, 10 Jul 2018 08:20:56 +0000</pubDate>
+        
+        <guid>https://umi.im/crystaldiskmark/</guid>
+        <description>&lt;blockquote class=&#34;wp-block-quote is-layout-flow wp-block-quote-is-layout-flow&#34;&gt;
+  &lt;p&gt;
+    CrystalDiskMark 是一个测试你的硬盘或者存储设备的小巧工具，简单易于操作的界面让你随时可以测试你的存储设备，测试存储设备大小和测试数字都可以选择，还可测试可读和可写的速度。
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;用以替代另一个知名固态硬盘测速工具 AS SSD Benchmark ，只因有萌妹主题。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/04/crystaldiskmark-1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;802&#34; height=&#34;692&#34; src=&#34;https://umi.im/wp-content/uploads/2018/04/crystaldiskmark-1.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5202&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/04/crystaldiskmark-1.jpg 802w, https://umi.im/wp-content/uploads/2018/04/crystaldiskmark-1-150x129.jpg 150w, https://umi.im/wp-content/uploads/2018/04/crystaldiskmark-1-300x259.jpg 300w, https://umi.im/wp-content/uploads/2018/04/crystaldiskmark-1-768x663.jpg 768w&#34; sizes=&#34;(max-width: 802px) 100vw, 802px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;以前还介绍过他们家出品的硬盘信息查看工具 &lt;a href=&#34;https://umi.im/crystaldiskinfo-shizuku/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CrystalDiskInfo&lt;/a&gt; ，最近又推出了另一个叫 Kurei Kei 的主题。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/04/CrystalDiskInfo.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1002&#34; height=&#34;692&#34; src=&#34;https://umi.im/wp-content/uploads/2018/04/CrystalDiskInfo.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5207&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/04/CrystalDiskInfo.jpg 1002w, https://umi.im/wp-content/uploads/2018/04/CrystalDiskInfo-150x104.jpg 150w, https://umi.im/wp-content/uploads/2018/04/CrystalDiskInfo-300x207.jpg 300w, https://umi.im/wp-content/uploads/2018/04/CrystalDiskInfo-768x530.jpg 768w&#34; sizes=&#34;(max-width: 1002px) 100vw, 1002px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpscrystalmarkinfoendownloadcrystaldiskmark-target_blank-relnoopenercrystaldiskmark-shizukua&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpscrystalmarkinfoendownloadcrystaldiskmark-target_blank-relnoopenercrystaldiskmark-shizukua&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://crystalmark.info/en/download/#CrystalDiskMark&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CrystalDiskMark Shizuku&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttpscrystalmarkinfoendownloadcrystaldiskinfo-target_blank-relnoopenercrystaldiskinfonbspkurei-keia&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpscrystalmarkinfoendownloadcrystaldiskinfo-target_blank-relnoopenercrystaldiskinfonbspkurei-keia&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://crystalmark.info/en/download/#CrystalDiskInfo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CrystalDiskInfo Kurei Kei&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>告别KMS激活，Win10 数字激活工具 HWIDGen</title>
+        <link>https://umi.im/hwidgen/</link>
+        <pubDate>Wed, 23 May 2018 20:09:03 +0000</pubDate>
+        
+        <guid>https://umi.im/hwidgen/</guid>
+        <description>&lt;p&gt;HWIDGEN是一款由国外Nsane论坛会员s1ave77制作的Windows 10数字激活工具，这款Win10数字权利获取工具，可以自动获取Windows 10 数字许可证激活，无需产品密钥，以最简单的方式永久激活系统。&lt;/p&gt;
+&lt;blockquote class=&#34;wp-block-quote is-layout-flow wp-block-quote-is-layout-flow&#34;&gt;
+  &lt;p&gt;
+    什么是“数字权利激活”？数字许可证激活是 Windows 10 中新加入的激活方式，是一种授权方法的分类。数字许可证会记录您的硬件设备信息，只要在CPU和主板设备没有更换的情况下就可以连接微软服务器自动永久性的激活系统，重新安装系统时无需再次输入产品密钥，安装后会自动永久激活。“数字权利激活”在不更换电脑硬件的情况下一直有效，无论您安装的系统是正式版还是预览版，不影响激活效果。
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;使用简单，能激活所有 Windows 10 版本，再也不用 180 天重新激活一次啦。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/05/hwidgen.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;681&#34; height=&#34;427&#34; src=&#34;https://umi.im/wp-content/uploads/2018/05/hwidgen.png&#34; alt=&#34;&#34; class=&#34;wp-image-5354&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/05/hwidgen.png 681w, https://umi.im/wp-content/uploads/2018/05/hwidgen-150x94.png 150w, https://umi.im/wp-content/uploads/2018/05/hwidgen-300x188.png 300w, https://umi.im/wp-content/uploads/2018/05/hwidgen-400x250.png 400w&#34; sizes=&#34;(max-width: 681px) 100vw, 681px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;运行 slmgr.vbs -xpr 可以查询是否永久激活。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/05/slmgr.vbs-xpr.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;217&#34; height=&#34;172&#34; src=&#34;https://umi.im/wp-content/uploads/2018/05/slmgr.vbs-xpr.png&#34; alt=&#34;&#34; class=&#34;wp-image-5355&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/05/slmgr.vbs-xpr.png 217w, https://umi.im/wp-content/uploads/2018/05/slmgr.vbs-xpr-150x119.png 150w&#34; sizes=&#34;(max-width: 217px) 100vw, 217px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在设置里面可以看到激活信息显示是数字许可证激活。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/05/win10-mak.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;980&#34; height=&#34;649&#34; src=&#34;https://umi.im/wp-content/uploads/2018/05/win10-mak.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5361&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/05/win10-mak.jpg 980w, https://umi.im/wp-content/uploads/2018/05/win10-mak-150x99.jpg 150w, https://umi.im/wp-content/uploads/2018/05/win10-mak-300x199.jpg 300w, https://umi.im/wp-content/uploads/2018/05/win10-mak-768x509.jpg 768w&#34; sizes=&#34;(max-width: 980px) 100vw, 980px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;figure class=&#34;wp-block-embed&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;wp-block-embed__wrapper&#34;&gt;
+  https://www.lanzous.com/i12whtg
+&lt;/div&gt; &lt;figure class=&#34;wp-block-embed&#34;&gt;
+&lt;div class=&#34;wp-block-embed__wrapper&#34;&gt;
+  https://zdfans.ctfile.com/dir/16343-28390736-84c081
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
+        <title>卡硬工具箱魔改教程</title>
+        <link>https://umi.im/kbtool/</link>
+        <pubDate>Sun, 08 Apr 2018 16:04:29 +0000</pubDate>
+        
+        <guid>https://umi.im/kbtool/</guid>
+        <description>&lt;blockquote class=&#34;wp-block-quote is-layout-flow wp-block-quote-is-layout-flow&#34;&gt;
+  &lt;p&gt;
+    卡硬工具箱是一款硬件检测软件工具，前身是卡巴工具箱，是显卡吧基佬们开发的出来硬件检测工具，提供BIOS工具、CPU检测、超频工具、性能测试、内存工具等众多常用工具。
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这个工具箱已经一年多没更新了，里面的软件有些过时了，比如 CPU-Z 检测不出 Ryzen 处理器。&lt;/p&gt;
+&lt;p&gt;如果要升级里面的软件，很简单，把新版本的软件替换到卡硬工具箱的 program 目录下对应的软件储存目录上就行了，exe 文件和原来的命名一样就可以。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;965&#34; height=&#34;677&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-4941&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool.jpg 965w, https://umi.im/wp-content/uploads/2018/03/kbtool-150x105.jpg 150w, https://umi.im/wp-content/uploads/2018/03/kbtool-300x210.jpg 300w, https://umi.im/wp-content/uploads/2018/03/kbtool-768x539.jpg 768w&#34; sizes=&#34;(max-width: 965px) 100vw, 965px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;因为很喜欢这个软件，所以我研究了下怎么把给卡硬工具箱添加新软件。&lt;/p&gt;
+&lt;p&gt;修改卡硬工具箱需要用到 &lt;a href=&#34;http://sqlitebrowser.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DB Browser for SQLite&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;下载它安装打开并点击 “打开数据库” ，选择卡硬工具箱目录下的 data 目录下的 set.db 文件。&lt;/p&gt;
+&lt;p&gt;浏览数据表，可以看到 catlst 表里就是分类菜单信息：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;id 分类 ID，主界面的分类也是根据这个排序&lt;/li&gt;
+&lt;li&gt;catname 分类名称&lt;/li&gt;
+&lt;li&gt;icopath 分类图标，在 ui 目录的对应皮肤目录下&lt;/li&gt;
+&lt;li&gt;bgcolor 分类的背景颜色，十六进制颜色码&lt;/li&gt;
+&lt;li&gt;stamp 帮助文档链接，无视&lt;/li&gt;
+&lt;li&gt;blk 主界面分类菜单磁贴，1 表示小磁贴，2 是宽磁贴&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;需要添加分类菜单磁贴就仿照上面的格式新建记录。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-catlst.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1095&#34; height=&#34;659&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-catlst.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-4943&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-catlst.jpg 1095w, https://umi.im/wp-content/uploads/2018/03/kbtool-catlst-150x90.jpg 150w, https://umi.im/wp-content/uploads/2018/03/kbtool-catlst-300x181.jpg 300w, https://umi.im/wp-content/uploads/2018/03/kbtool-catlst-768x462.jpg 768w, https://umi.im/wp-content/uploads/2018/03/kbtool-catlst-1024x616.jpg 1024w&#34; sizes=&#34;(max-width: 1095px) 100vw, 1095px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;选择 softlst 表新建记录添加自己所需的软件。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;id 用于排序&lt;/li&gt;
+&lt;li&gt;catid 对应 catlst 表的分类菜单id&lt;/li&gt;
+&lt;li&gt;softname 软件名称&lt;/li&gt;
+&lt;li&gt;icopath 软件图标路径&lt;/li&gt;
+&lt;li&gt;softpath 软件路径&lt;/li&gt;
+&lt;li&gt;description 软件介绍&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;软件图标可以用 &lt;a class=&#34;link&#34; href=&#34;http://mofang.ruanmei.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;软媒魔方&lt;/a&gt; 的软媒图标大师提取，修改完点击 “写入更改” 就可以看到成果了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-softlst.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1089&#34; height=&#34;659&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-softlst.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-4944&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-softlst.jpg 1089w, https://umi.im/wp-content/uploads/2018/03/kbtool-softlst-150x91.jpg 150w, https://umi.im/wp-content/uploads/2018/03/kbtool-softlst-300x182.jpg 300w, https://umi.im/wp-content/uploads/2018/03/kbtool-softlst-768x465.jpg 768w, https://umi.im/wp-content/uploads/2018/03/kbtool-softlst-1024x620.jpg 1024w&#34; sizes=&#34;(max-width: 1089px) 100vw, 1089px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这就是我修改完的卡硬工具箱，添加了很多自己需要的东西，放在U盘随身带。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-mod.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;965&#34; height=&#34;677&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-mod.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-4942&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-mod.jpg 965w, https://umi.im/wp-content/uploads/2018/03/kbtool-mod-150x105.jpg 150w, https://umi.im/wp-content/uploads/2018/03/kbtool-mod-300x210.jpg 300w, https://umi.im/wp-content/uploads/2018/03/kbtool-mod-768x539.jpg 768w&#34; sizes=&#34;(max-width: 965px) 100vw, 965px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-cat.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;965&#34; height=&#34;677&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-cat.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-4946&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-cat.jpg 965w, https://umi.im/wp-content/uploads/2018/03/kbtool-cat-150x105.jpg 150w, https://umi.im/wp-content/uploads/2018/03/kbtool-cat-300x210.jpg 300w, https://umi.im/wp-content/uploads/2018/03/kbtool-cat-768x539.jpg 768w&#34; sizes=&#34;(max-width: 965px) 100vw, 965px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwkbtoolcn-target_blank-relnoopener卡硬工具箱a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwkbtoolcn-target_blank-relnoopener%e5%8d%a1%e7%a1%ac%e5%b7%a5%e5%85%b7%e7%ae%b1a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.kbtool.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;卡硬工具箱&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>5.1声道 AAC 音轨转 AC3 音轨</title>
+        <link>https://umi.im/6ch-aac-tac3/</link>
+        <pubDate>Sat, 03 Oct 2015 11:44:05 +0000</pubDate>
+        
+        <guid>https://umi.im/6ch-aac-tac3/</guid>
+        <description>&lt;p&gt;前段时间添置了一套5.1声道的音箱系统（Pioneer HTP-072），相对于原来的电脑多媒体音箱效果震撼，所以现在都下载 5.1 声道 AC3  或者 DTS 音轨的视频。&lt;/p&gt;
+&lt;p&gt;然而最近在看一部比较老的剧集（The X-Files）的时候出了问题，找到了第一季 DD5.1 音轨和第二季 AC3 音轨的资源，看到第二季发现下载的是双声道 AC3 音轨的，又在网上找了几部片源，都是双声道的。&lt;/p&gt;
+&lt;p&gt;直到我找到了这部 &lt;a href=&#34;https://kat.cr/the-x-files-season-2-s02-1080p-web-x265-hevc-aac-5-1-joy-utr-t11346152.html&#34; target=&#34;_blank&#34;&gt;The X-Files Season 2 S02 (1080p Web x265 HEVC AAC 5.1 Joy)[UTR]&lt;/a&gt; ，还是 H.265 压制的，海盗湾真是个好网站。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/10/The-X-Files-Season-2-S02-1080p-Web-x265-HEVC-AAC-5.1-JoyUTR.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4651&#34; src=&#34;https://umi.im/wp-content/uploads/2015/10/The-X-Files-Season-2-S02-1080p-Web-x265-HEVC-AAC-5.1-JoyUTR.png&#34; alt=&#34;The X-Files Season 2 S02 (1080p Web x265 HEVC AAC 5.1 Joy)[UTR]&#34; width=&#34;1062&#34; height=&#34;466&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/10/The-X-Files-Season-2-S02-1080p-Web-x265-HEVC-AAC-5.1-JoyUTR.png 1062w, https://umi.im/wp-content/uploads/2015/10/The-X-Files-Season-2-S02-1080p-Web-x265-HEVC-AAC-5.1-JoyUTR-150x66.png 150w, https://umi.im/wp-content/uploads/2015/10/The-X-Files-Season-2-S02-1080p-Web-x265-HEVC-AAC-5.1-JoyUTR-300x132.png 300w, https://umi.im/wp-content/uploads/2015/10/The-X-Files-Season-2-S02-1080p-Web-x265-HEVC-AAC-5.1-JoyUTR-1024x449.png 1024w&#34; sizes=&#34;(max-width: 1062px) 100vw, 1062px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;不过没想到我的功放机无法解码 5.1 声道的 AAC 音频，只能输出双声道，其实之前我都不知道 AAC 有 5.1 声道音频…&lt;/p&gt;
+&lt;p&gt;言归正传，安装 MKV2AC3 ，会提示安装  Avisynth ，确认就是了。&lt;/p&gt;
+&lt;p&gt;打开直接批量添加文件。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/10/MKV2AC3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4649&#34; src=&#34;https://umi.im/wp-content/uploads/2015/10/MKV2AC3.png&#34; alt=&#34;MKV2AC3&#34; width=&#34;642&#34; height=&#34;490&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/10/MKV2AC3.png 642w, https://umi.im/wp-content/uploads/2015/10/MKV2AC3-150x114.png 150w, https://umi.im/wp-content/uploads/2015/10/MKV2AC3-300x229.png 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;设置页可以设置音频码率、编码器和 CPU 核心使用限制，还有文件输出路径，然后点 START 就可以开始转换了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/10/MKV2AC3-Options.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4650&#34; src=&#34;https://umi.im/wp-content/uploads/2015/10/MKV2AC3-Options.png&#34; alt=&#34;MKV2AC3-Options&#34; width=&#34;642&#34; height=&#34;490&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/10/MKV2AC3-Options.png 642w, https://umi.im/wp-content/uploads/2015/10/MKV2AC3-Options-150x114.png 150w, https://umi.im/wp-content/uploads/2015/10/MKV2AC3-Options-300x229.png 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwvideohelpcomdownloadmkv2ac3_1_03_04_32bitszip-target_blankmkv2ac3-10304-188-mba&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwvideohelpcomdownloadmkv2ac3_1_03_04_32bitszip-target_blankmkv2ac3-10304-188-mba&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.videohelp.com/download/mkv2ac3_1_03_04_32bits.zip&#34; target=&#34;_blank&#34;&gt;MKV2AC3 1.03.04 （18.8 MB）&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>第三方 SS 客户端 ShadowsocksR CSharp</title>
+        <link>https://umi.im/shadowsocksr-csharp/</link>
+        <pubDate>Sun, 09 Aug 2015 17:26:05 +0000</pubDate>
+        
+        <guid>https://umi.im/shadowsocksr-csharp/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;Shadowsocks（中文名称：影梭）是一个安全的socks5代理，用于保护网络流量，是一个开源项目。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;ShadowsocksR CSharp 是 Windows 上的一款第三方 Shadowsocks 客户端，不仅功能强大，而且它压缩后体积不到 300KB ，适合随身携带。&lt;/p&gt;
+&lt;p&gt;相比官方客户端它有以下优点&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;全局模式&lt;/li&gt;
+&lt;li&gt;在线 PAC ，可以从 &lt;a href=&#34;https://github.com/gfwlist/gfwlist&#34; target=&#34;_blank&#34;&gt;GFWList&lt;/a&gt; 更新本地 PAC&lt;/li&gt;
+&lt;li&gt;均衡负载&lt;/li&gt;
+&lt;li&gt;服务器连接统计&lt;/li&gt;
+&lt;li&gt;开机自启&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;之前一直使用官方版的 Shadowsocks 客户端，浏览器使用必须配合 SwitchyOmega 这样的浏览器扩展程序使用，全局使用需要配合 Proxifier ，开机自启动都需要自己配置，非常麻烦。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/ShadowsocksR-win.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4498&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/ShadowsocksR-win.png&#34; alt=&#34;ShadowsocksR-win&#34; width=&#34;769&#34; height=&#34;535&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/ShadowsocksR-win.png 769w, https://umi.im/wp-content/uploads/2015/08/ShadowsocksR-win-150x104.png 150w, https://umi.im/wp-content/uploads/2015/08/ShadowsocksR-win-300x209.png 300w&#34; sizes=&#34;(max-width: 769px) 100vw, 769px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpsgithubcombreakwa11shadowsocks-csharpreleases-target_blankshadowsocksr-csharp-331a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpsgithubcombreakwa11shadowsocks-csharpreleases-target_blankshadowsocksr-csharp-331a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://github.com/breakwa11/shadowsocks-csharp/releases&#34; target=&#34;_blank&#34;&gt;ShadowsocksR CSharp 3.3.1&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;GitHub：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpsgithubcombreakwa11shadowsocks-rss-target_blankbreakwa11shadowsocks-rssa&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpsgithubcombreakwa11shadowsocks-rss-target_blankbreakwa11shadowsocks-rssa&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://github.com/breakwa11/shadowsocks-rss&#34; target=&#34;_blank&#34;&gt;breakwa11/shadowsocks-rss&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>整理：歌曲的专辑封面和ID3信息补全</title>
+        <link>https://umi.im/finishing-music/</link>
+        <pubDate>Mon, 01 Jun 2015 08:49:07 +0000</pubDate>
+        
+        <guid>https://umi.im/finishing-music/</guid>
+        <description>&lt;p&gt;作为整理癖，我收藏的歌曲不仅文件命名要规范（艺术家 – 歌曲名），而且专辑&lt;a href=&#34;http://zh.wikipedia.org/wiki/ID3&#34; target=&#34;_blank&#34;&gt;ID3信息&lt;/a&gt;也要填上，专辑封面一定要有。&lt;/p&gt;
+&lt;p&gt;ID3信息相当于歌曲的身份证，记录了歌曲的所属专辑、艺术家、年份、流派等信息，完整的ID3信息不仅看起来舒服，在索引分类的时候也很有用。&lt;/p&gt;
+&lt;p&gt;以前很蠢，一直手动整理ID3信息，从维基百科获取歌曲信息，一个个填上，专辑封面即用Google图片搜索然后一个个嵌入…&lt;/p&gt;
+&lt;p&gt;现在，使用 &lt;a href=&#34;http://mediago.sony.com/chs/download&#34; target=&#34;_blank&#34;&gt;Media Go &lt;/a&gt; + &lt;a href=&#34;http://www.mp3tag.de/en/index.html&#34; target=&#34;_blank&#34;&gt;Mp3tag&lt;/a&gt; 就可以自动补全ID3信息和专辑封面，连音轨号都能补上了！&lt;/p&gt;
+&lt;p&gt;Media Go是索尼出品的软件，索尼旗下的&lt;a href=&#34;http://zh.wikipedia.org/wiki/%E7%B4%A2%E5%B0%BC%E9%9F%B3%E6%A8%82%E5%A8%9B%E6%A8%82&#34; target=&#34;_blank&#34;&gt;索尼音乐&lt;/a&gt;（SME）有全球规模最大的音乐库，拥有唱片市场31%的歌曲版权，用他家的软件应该很少专辑信息找不到了。&lt;/p&gt;
+&lt;p&gt;以浪客剑心的一首OST为例，ID3信息看起来还挺完整的，但是一首日本曲子用平文式罗马文也太怪了，用Media Go检索信息，果然找到，原来作曲家叫岩崎琢…&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/Media-Go-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3903&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/Media-Go-1.png&#34; alt=&#34;Media Go-1&#34; width=&#34;1259&#34; height=&#34;861&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/Media-Go-1.png 1259w, https://umi.im/wp-content/uploads/2015/06/Media-Go-1-150x103.png 150w, https://umi.im/wp-content/uploads/2015/06/Media-Go-1-300x205.png 300w, https://umi.im/wp-content/uploads/2015/06/Media-Go-1-1024x700.png 1024w&#34; sizes=&#34;(max-width: 1259px) 100vw, 1259px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;再补上专辑封面，看起来舒服多了是不是。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/Media-Go-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3904&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/Media-Go-2.png&#34; alt=&#34;Media Go-2&#34; width=&#34;556&#34; height=&#34;505&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/Media-Go-2.png 556w, https://umi.im/wp-content/uploads/2015/06/Media-Go-2-150x136.png 150w, https://umi.im/wp-content/uploads/2015/06/Media-Go-2-300x272.png 300w&#34; sizes=&#34;(max-width: 556px) 100vw, 556px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;补完ID3信息，就可以根据可靠的ID3信息把文件名命名规范起来了。&lt;/p&gt;
+&lt;p&gt;使用Mp3tag找到歌曲，刚才那首曲子文件的命名果然不规范，只有歌名而没有艺术家。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/Mp3tag-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3905&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/Mp3tag-1.png&#34; alt=&#34;Mp3tag-1&#34; width=&#34;1100&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/Mp3tag-1.png 1100w, https://umi.im/wp-content/uploads/2015/06/Mp3tag-1-150x98.png 150w, https://umi.im/wp-content/uploads/2015/06/Mp3tag-1-300x196.png 300w, https://umi.im/wp-content/uploads/2015/06/Mp3tag-1-1024x670.png 1024w&#34; sizes=&#34;(max-width: 1100px) 100vw, 1100px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;右键 – 转换 – 标签 – 文件名，可批量操作。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/Mp3tag-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3906&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/Mp3tag-2.png&#34; alt=&#34;Mp3tag-2&#34; width=&#34;547&#34; height=&#34;394&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/Mp3tag-2.png 547w, https://umi.im/wp-content/uploads/2015/06/Mp3tag-2-150x108.png 150w, https://umi.im/wp-content/uploads/2015/06/Mp3tag-2-300x216.png 300w&#34; sizes=&#34;(max-width: 547px) 100vw, 547px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我用的是 艺术家 – 歌曲名 的命名规范（%artist% – %title%）。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/Mp3tag-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3907&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/Mp3tag-3.png&#34; alt=&#34;Mp3tag-3&#34; width=&#34;1100&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/Mp3tag-3.png 1100w, https://umi.im/wp-content/uploads/2015/06/Mp3tag-3-150x98.png 150w, https://umi.im/wp-content/uploads/2015/06/Mp3tag-3-300x196.png 300w, https://umi.im/wp-content/uploads/2015/06/Mp3tag-3-1024x670.png 1024w&#34; sizes=&#34;(max-width: 1100px) 100vw, 1100px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;整理完成后在资源管理器里看着都这么爽，顺便一说，Win 10的资源管理器支持对FLAC无损音频格式的专辑封面预览了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/Finishing-Music.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3908&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/Finishing-Music.png&#34; alt=&#34;Finishing-Music&#34; width=&#34;954&#34; height=&#34;626&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/Finishing-Music.png 954w, https://umi.im/wp-content/uploads/2015/06/Finishing-Music-150x98.png 150w, https://umi.im/wp-content/uploads/2015/06/Finishing-Music-300x197.png 300w&#34; sizes=&#34;(max-width: 954px) 100vw, 954px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>科学的管理AV  ~  EverAver Renamer &#43; EMDB 建立自己的AV媒体库</title>
+        <link>https://umi.im/everaver-renamer-emdb/</link>
+        <pubDate>Tue, 21 Apr 2015 12:25:12 +0000</pubDate>
+        
+        <guid>https://umi.im/everaver-renamer-emdb/</guid>
+        <description>&lt;blockquote class=&#34;wp-block-quote is-layout-flow wp-block-quote-is-layout-flow&#34;&gt;
+  &lt;p&gt;
+    &lt;strong&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;WARNING：If you are under 18 years of age, or if it is illegal to view adult material in your community, please leave now.&lt;/span&gt;&lt;/strong&gt;
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;本文主要介绍利用 EverAver Renamer 整理本地AV并获取AV封面，然后用EMDB生成媒体库，便于以后更快的找到想看的AV，或者只是满足整理控的需求。&lt;/p&gt;
+&lt;p&gt;EverAver Renamer 能抓取AV片商官网的AV信息为本地AV影片重命名并进行分类，EverAver Renamer 需要全局翻墙才能使用，这里就不详细介绍如何翻墙了。&lt;/p&gt;
+&lt;p&gt;骑兵模式（有码AV）：&lt;/p&gt;
+&lt;p&gt;因为是通过番号搜索AV片商网站上的信息进行匹配的，所以影片名字中必须包含番号、&lt;/p&gt;
+&lt;p&gt;番号一般是字母+数字的格式，如果提示 “查无此片” ，请检查番号是否正确，或者去掉搜索框多余字符只保留番号。&lt;/p&gt;
+&lt;p&gt;步兵模式（无码AV）：&lt;/p&gt;
+&lt;p&gt;无码片大都是一本道、东京热、加勒比等在线付费下载网站的，并没有实体渠道，所以也没有商品番号这种东西（有编号，来自网站Url），DVD封面自然也没有。&lt;/p&gt;
+&lt;p&gt;所以只有少量带番号的无码AV可以找到封面。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;800&#34; height=&#34;631&#34; src=&#34;https://umi.im/wp-content/uploads/2022/11/EverAver-Renamer-1-x.png&#34; alt=&#34;&#34; class=&#34;wp-image-6232&#34; /&gt;  
+&lt;p&gt;目录结构：&lt;/p&gt;
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;%actor%\%maker%&lt;/pre&gt;
+&lt;p&gt;默认目录结构是 “AV女优名字\AV片商名字 ”，如果收藏的某AV女优的片子比较多，建议建立单级AV女优目录，出品公司这个没什么必要分类，除非要以AV片商名字分类有码无码。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;%actor%&lt;/pre&gt;
+&lt;p&gt;命名格式：&lt;/p&gt;
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;%actor% - [%maker%] %title% [%num%]&lt;/pre&gt;
+&lt;p&gt;默认命名格式是 “AV女优名字 – AV片商名字 – AV片名 [番号]” ，如果以建立了AV女优目录进行分类，那么命名中的女优名字就可以去掉，片名标题末端一般都会补上名字，AV片商名字这种不太重要的可以放到最后面，番号的话个人建议放前面，另外最好不要建立同名目录，这样找片不方便。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;%num% - %title% [%maker%]&lt;/pre&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/01/EverAver-Renamer-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;400&#34; height=&#34;501&#34; src=&#34;https://umi.im/wp-content/uploads/2015/01/EverAver-Renamer-2.png&#34; alt=&#34;EverAver Renamer-2&#34; class=&#34;wp-image-3722&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/01/EverAver-Renamer-2.png 400w, https://umi.im/wp-content/uploads/2015/01/EverAver-Renamer-2-120x150.png 120w, https://umi.im/wp-content/uploads/2015/01/EverAver-Renamer-2-240x300.png 240w&#34; sizes=&#34;(max-width: 400px) 100vw, 400px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;整理完成后，打开EMDB菜单栏的“硬盘”项，将存放AV的文件夹加入数据库即可。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/01/EMDB-HDD.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;776&#34; height=&#34;554&#34; src=&#34;https://umi.im/wp-content/uploads/2015/01/EMDB-HDD.png&#34; alt=&#34;EMDB-HDD&#34; class=&#34;wp-image-3723&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/01/EMDB-HDD.png 776w, https://umi.im/wp-content/uploads/2015/01/EMDB-HDD-150x107.png 150w, https://umi.im/wp-content/uploads/2015/01/EMDB-HDD-300x214.png 300w&#34; sizes=&#34;(max-width: 776px) 100vw, 776px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在菜单栏“选项”里设定回车或双击播放视频。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/01/EMDB-ST.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;850&#34; height=&#34;618&#34; src=&#34;https://umi.im/wp-content/uploads/2015/01/EMDB-ST.png&#34; alt=&#34;EMDB-ST&#34; class=&#34;wp-image-3724&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/01/EMDB-ST.png 850w, https://umi.im/wp-content/uploads/2015/01/EMDB-ST-150x109.png 150w, https://umi.im/wp-content/uploads/2015/01/EMDB-ST-300x218.png 300w&#34; sizes=&#34;(max-width: 850px) 100vw, 850px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;最终效果。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1283&#34; height=&#34;821&#34; src=&#34;https://umi.im/wp-content/uploads/2022/11/av-emdb-x.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-6233&#34; /&gt;  
+&lt;p&gt;我的AV是放在&lt;a href=&#34;https://umi.im/nas-synology/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;黑群晖NAS&lt;/a&gt;上的，通过iPad的DS Video访问效果更好，因为没有封面的无码AV会自动生成预览图。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1280&#34; height=&#34;960&#34; src=&#34;https://umi.im/wp-content/uploads/2022/11/DS-VIDEO-AV-x.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-6234&#34; /&gt;  
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttppanbaiducoms1o6p7p2a-target_blank-relnoopenereveraver-renamera百度云&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttppanbaiducoms1o6p7p2a-target_blank-relnoopenereveraver-renamera%e7%99%be%e5%ba%a6%e4%ba%91&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1o6p7p2a&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EverAver Renamer&lt;/a&gt;（百度云）
+&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttpwwwemdbeusoftwarehtm-target_blank-relnoopeneremdba官方&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwemdbeusoftwarehtm-target_blank-relnoopeneremdba%e5%ae%98%e6%96%b9&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.emdb.eu/software.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EMDB&lt;/a&gt;（官方）
+&lt;/h2&gt;&lt;p&gt;开发者网站：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwemdbeuindexhtm-target_blank-relnoopenereveravernbsp獻給每一位偉大的avera&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwemdbeuindexhtm-target_blank-relnoopenereveravernbsp%e7%8d%bb%e7%b5%a6%e6%af%8f%e4%b8%80%e4%bd%8d%e5%81%89%e5%a4%a7%e7%9a%84avera&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.emdb.eu/index.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EverAver 獻給每一位偉大的AVer…&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttpwwwemdbeuindexhtm-target_blank-relnoopeneremdbeubr-a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwemdbeuindexhtm-target_blank-relnoopeneremdbeubr-a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.emdb.eu/index.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;emdb.eu&lt;br /&gt;&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>Shadowsocks 自动代理的应用</title>
+        <link>https://umi.im/shadowsocks/</link>
+        <pubDate>Thu, 04 Dec 2014 01:40:33 +0000</pubDate>
+        
+        <guid>https://umi.im/shadowsocks/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;Shadowsocks是一个轻量级socks5代理，以python写成；&lt;/p&gt;
+&lt;p&gt;通过客户端以指定的密码、加密方式和端口连接服务器，成功连接到服务器后，客户端在用户的电脑上构建一个本地socks5代理。使用时将流量分到本地socks5代理，客户端将自动加密并转发流量到服务器，服务器以同样的加密方式将流量回传给客户端，以此实现代理上网。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;ds-user-name ds-highlight&#34; href=&#34;http://t.qq.com/noip117isend&#34; target=&#34;_blank&#34;&gt;茄子泥焗黄鱼&lt;/a&gt;共享了一个 Shadowsocks 的账号给我，然后听说 Shadowsocks 可以在iOS上实现自动切换线路。&lt;/p&gt;
+&lt;p&gt;因为经常用到Google等海外网站和同步服务，如果每次用都要开VPN的话麻烦死了，在Android下只要root了就能很简单实现这些。&lt;/p&gt;
+&lt;p&gt;配置iOS的 Shadowsocks  比想象的简单的多…只要需要在Cydia商店下载 Shadowsocks ，然后填上账号密码端口再打勾自动代理就好了，这应该是目前iOS上最好的翻墙方案了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-ios.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3315&#34; src=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-ios.png&#34; alt=&#34;Shadowsocks-ios&#34; width=&#34;1680&#34; height=&#34;1260&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-ios.png 1680w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-ios-150x112.png 150w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-ios-300x225.png 300w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-ios-1024x768.png 1024w&#34; sizes=&#34;(max-width: 1680px) 100vw, 1680px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在 Android 下也差不多，可以到Play商店下载 &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.github.shadowsocks&#34; target=&#34;_blank&#34;&gt;Shadowsocks&lt;/a&gt; ，好像root都不用。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-android.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3316&#34; src=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-android.png&#34; alt=&#34;Shadowsocks-android&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-android.png 768w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-android-90x150.png 90w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-android-180x300.png 180w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-android-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在 Windows 下需要配合浏览器扩展才能实现自动代理。&lt;/p&gt;
+&lt;p&gt;下载 &lt;a href=&#34;http://sourceforge.net/projects/shadowsocksgui/files/dist/shadowsocks-gui-0.6.4-win-ia32.tar.xz/download&#34; target=&#34;_blank&#34;&gt;Shadowsocks Windows GUI版&lt;/a&gt;，直接填上账号密码端口然后保存就好了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/12/shadowsocks-gui.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3313&#34; src=&#34;https://umi.im/wp-content/uploads/2014/12/shadowsocks-gui.png&#34; alt=&#34;shadowsocks-gui&#34; width=&#34;362&#34; height=&#34;452&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/12/shadowsocks-gui.png 362w, https://umi.im/wp-content/uploads/2014/12/shadowsocks-gui-120x150.png 120w, https://umi.im/wp-content/uploads/2014/12/shadowsocks-gui-240x300.png 240w&#34; sizes=&#34;(max-width: 362px) 100vw, 362px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;然后到Chrome商店下载 &lt;a href=&#34;https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif&#34; target=&#34;_blank&#34;&gt;SwitchyOmega&lt;/a&gt; 这个扩展程序，设置好代理协议为SOCKS5，代理端口自行选择，再把自动切换规则弄好就行了。&lt;/p&gt;
+&lt;p&gt;和以前的GoAgent +  &lt;a href=&#34;https://chrome.google.com/webstore/detail/dpplabbmogkhghncfbfdeeokoefdjegm&#34; target=&#34;_blank&#34;&gt;Proxy SwitchySharp&lt;/a&gt; 弄起来一模一样，Shadowsocks + Proxy SwitchySharp 也行，但是自动切换会失效，全局还是可用，不知为何。 &lt;a class=&#34;lightbox&#34; href=&#34;https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif&#34; target=&#34;_blank&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3314&#34; src=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-switchy.png&#34; alt=&#34;Shadowsocks-switchy&#34; width=&#34;1170&#34; height=&#34;551&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/12/Shadowsocks-switchy.png 1170w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-switchy-150x70.png 150w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-switchy-300x141.png 300w, https://umi.im/wp-content/uploads/2014/12/Shadowsocks-switchy-1024x482.png 1024w&#34; sizes=&#34;(max-width: 1170px) 100vw, 1170px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;还有OpenWRT的版本，刚好我的路由器是OpenWRT的，等技术好还可以继续折腾…&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>拯救双击的机械键盘 ~ OneKeyOneStroke（一键一击）</title>
+        <link>https://umi.im/onekeyonestroke/</link>
+        <pubDate>Mon, 01 Dec 2014 22:52:34 +0000</pubDate>
+        
+        <guid>https://umi.im/onekeyonestroke/</guid>
+        <description>&lt;p&gt;用了不到两年的机械键盘双击了，HPE 87红轴，这家厂好像跑路了…&lt;/p&gt;
+&lt;p&gt;网上也有人遇到和我一样的情况，刚好他们中有人是程序猿，于是就有了这个蛋疼的软件。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;键盘连击是指的，按下一次按钮，但是被系统判定为两次点击。&lt;br&gt;
+为什么会出现这种情况呢？&lt;br&gt;
+简单解释下：按下键盘按键，就是闭合了一个开关，如果这个时候由于接触不良，电路却出现了一瞬间的断开，随后又闭合上去，那么，在键盘看来，你就以极快的速度按下了两次开关。&lt;br&gt;
+这个过程有个特点，就是这个断开闭合的时间非常快。一般而言，人工输入是达不到这种输入速度的。那么，如果将极快断开闭合看作是键盘故障，而不对后一次闭合做出响应，表现出来就是只按下了一次按键了。&lt;br&gt;
+本软件可以手动设置连击的阈值，将快于设定阈值的按键过滤掉，并将过滤掉的按键列出来。另外，程序也提供了一个测试输入速度的功能，可以针对不同用户提供最恰当的参数。&lt;br&gt;
+&lt;span style=&#34;color: #999999;&#34;&gt;&lt;span style=&#34;font-size: small;&#34;&gt; – 运行原理&lt;/span&gt;&lt;span style=&#34;font-size: small;&#34;&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/p&gt;
+&lt;p&gt;
+  用了几分钟就这么多连击了，艹，码字效率大大提高。
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/OneKeyOneStroke.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3287&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/OneKeyOneStroke.png&#34; alt=&#34;OneKeyOneStroke&#34; width=&#34;368&#34; height=&#34;560&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/OneKeyOneStroke.png 368w, https://umi.im/wp-content/uploads/2014/11/OneKeyOneStroke-98x150.png 98w, https://umi.im/wp-content/uploads/2014/11/OneKeyOneStroke-197x300.png 197w&#34; sizes=&#34;(max-width: 368px) 100vw, 368px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  罪魁祸首就是它！按键偶尔还会失灵！
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/HPE-87.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3288&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/HPE-87.jpg&#34; alt=&#34;HPE-87&#34; width=&#34;1280&#34; height=&#34;687&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/HPE-87.jpg 1280w, https://umi.im/wp-content/uploads/2014/11/HPE-87-150x80.jpg 150w, https://umi.im/wp-content/uploads/2014/11/HPE-87-300x161.jpg 300w, https://umi.im/wp-content/uploads/2014/11/HPE-87-1024x549.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  最后&amp;#8230;我决定还是再买一个键盘。
+&lt;/p&gt;
+&lt;p id=&#34;sites-page-title-header&#34; align=&#34;left&#34;&gt;
+  &lt;a href=&#34;https://sites.google.com/site/clock88731/Home&#34; target=&#34;_blank&#34;&gt;&lt;span id=&#34;sites-page-title&#34; dir=&#34;ltr&#34;&gt;OneKeyOneStroke By clock88731&lt;/span&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  下载地址：
+&lt;/p&gt;
+&lt;h3&gt;
+  &lt;a title=&#34;下载&#34; href=&#34;http://pan.baidu.com/s/1bnAieMN&#34; target=&#34;_blank&#34;&gt;OneKeyOneStroke&lt;/a&gt;（百度云）
+&lt;/h3&gt;
+&lt;h3&gt;
+  &lt;a title=&#34;下载&#34; href=&#34;http://www.onlinedown.net/soft/298467.htm&#34; target=&#34;_blank&#34;&gt;OneKeyOneStroke&lt;/a&gt;（华军）
+&lt;/h3&gt;
+&lt;p&gt;
+  &lt;span style=&#34;color: #ff0000;&#34;&gt;* &lt;span style=&#34;font-size: small;&#34;&gt;如果提示缺少dll，请先安装 “Microsoft Visual C++ 2010 可再发行组件包”&lt;/span&gt;&lt;span style=&#34;font-size: small;&#34;&gt;。&lt;/span&gt;&lt;/span&gt;
+&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>Google Chrome 更新器</title>
+        <link>https://umi.im/google-chrome-updater/</link>
+        <pubDate>Thu, 06 Nov 2014 20:55:42 +0000</pubDate>
+        
+        <guid>https://umi.im/google-chrome-updater/</guid>
+        <description>&lt;p&gt;妈蛋！自从禁评上台以来墙越来越高了，GoAgent基本报废。我现在只能使用Chrome的扩展程序红杏来翻墙， 每月十块钱，因为不是全局的，Chrome的自动更新也不行了。&lt;/p&gt;
+&lt;p&gt;每当Chrome有新版本我只能通过挂自由门、无界等免费工具更新，速度慢死，Chrome又是出名了的版本帝…&lt;/p&gt;
+&lt;p&gt;用此工具来找到Chrome各版本的离线安装包下载地址，然后用迅雷、IDM或者百度云离线等方法下载安装。Stable是稳定版，64位系统最好使用x64版本，有性能提升。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/ChromeUpdater.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3169&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/ChromeUpdater.png&#34; alt=&#34;ChromeUpdater&#34; width=&#34;632&#34; height=&#34;394&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/ChromeUpdater.png 632w, https://umi.im/wp-content/uploads/2014/11/ChromeUpdater-150x93.png 150w, https://umi.im/wp-content/uploads/2014/11/ChromeUpdater-300x187.png 300w, https://umi.im/wp-content/uploads/2014/11/ChromeUpdater-400x250.png 400w&#34; sizes=&#34;(max-width: 632px) 100vw, 632px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href=&#34;http://www.shuax.com/archives/ChromeUpdater.html&#34; target=&#34;_blank&#34;&gt;Google Chrome 更新器 by 耍下&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwshuaxcomgochromeupdater-target_blankgoogle-chrome-更新器a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwshuaxcomgochromeupdater-target_blankgoogle-chrome-%e6%9b%b4%e6%96%b0%e5%99%a8a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.shuax.com/go/ChromeUpdater/&#34; target=&#34;_blank&#34;&gt;Google Chrome 更新器&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>迅雷极速版 绿色精简</title>
+        <link>https://umi.im/thunder-speed/</link>
+        <pubDate>Thu, 31 Jul 2014 04:38:43 +0000</pubDate>
+        
+        <guid>https://umi.im/thunder-speed/</guid>
+        <description>&lt;p&gt;迅雷放弃了原来的VIP尊享版，开发了新的极速版迅雷，界面更加美观。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;此绿色精简版，由KanX专注精简，精简无用文件、所有应用及合并Tp目录，给您舒适下载体验！&lt;/strong&gt;&lt;span style=&#34;color: #33383d;&#34;&gt;无广告，无插件，下载快！极速版将甩掉过去的包袱，我们重新再来过吧，还能一起愉快的玩耍么，Come on !&lt;/p&gt;&lt;/blockquote&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/07/Thunder-Speed.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2760&#34; src=&#34;https://umi.im/wp-content/uploads/2014/07/Thunder-Speed.png&#34; alt=&#34;Thunder-Speed&#34; width=&#34;890&#34; height=&#34;542&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/07/Thunder-Speed.png 890w, https://umi.im/wp-content/uploads/2014/07/Thunder-Speed-150x91.png 150w, https://umi.im/wp-content/uploads/2014/07/Thunder-Speed-300x182.png 300w&#34; sizes=&#34;(max-width: 890px) 100vw, 890px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  下载地址：
+&lt;/p&gt;
+&lt;h3&gt;
+  &lt;a title=&#34;下载&#34; href=&#34;http://pan.baidu.com/s/1EjHDk&#34; target=&#34;_blank&#34;&gt;迅雷极速版 绿色精简&lt;/a&gt;（百度云）
+&lt;/h3&gt;
+&lt;h3&gt;
+  &lt;a title=&#34;下载&#34; href=&#34;http://www.wmzhe.com/soft-19576.html&#34; target=&#34;_blank&#34;&gt;迅雷极速版 绿色精简&lt;/a&gt;（完美）
+&lt;/h3&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>Windows 密码获取工具 ~ Mimikatz</title>
+        <link>https://umi.im/mimikatz/</link>
+        <pubDate>Mon, 30 Jun 2014 08:56:49 +0000</pubDate>
+        
+        <guid>https://umi.im/mimikatz/</guid>
+        <description>&lt;p&gt;以为只能获取本地密码么？&lt;/p&gt;
+&lt;p&gt;即使是使用Microsoft账户登录依旧能获取密码。&lt;/p&gt;
+&lt;p&gt;比如我使用的live邮箱。&lt;/p&gt;
+&lt;p&gt;使用方法很简单。&lt;/p&gt;
+&lt;p&gt;用管理员身份运行 mimikatz.exe 。&lt;/p&gt;
+&lt;p&gt;依次输入下面两条命令就可以了。&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;privilege::debug
+
+sekurlsa::logonpasswords
+
+&lt;/pre&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/06/mimikatz.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2578&#34; src=&#34;https://umi.im/wp-content/uploads/2014/06/mimikatz.png&#34; alt=&#34;mimikatz&#34; width=&#34;997&#34; height=&#34;571&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/06/mimikatz.png 997w, https://umi.im/wp-content/uploads/2014/06/mimikatz-150x85.png 150w, https://umi.im/wp-content/uploads/2014/06/mimikatz-300x171.png 300w&#34; sizes=&#34;(max-width: 997px) 100vw, 997px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-title下载-hrefhttpsgithubcomgentilkiwimimikatzreleases-target_blank-relnoopenermimikatzagithub&#34;&gt;
+    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttpsgithubcomgentilkiwimimikatzreleases-target_blank-relnoopenermimikatzagithub&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;下载&#34; href=&#34;https://github.com/gentilkiwi/mimikatz/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mimikatz&lt;/a&gt; （GitHub）
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>Windows定时关机小工具</title>
+        <link>https://umi.im/windows-timing-shutdown/</link>
+        <pubDate>Tue, 13 May 2014 01:40:41 +0000</pubDate>
+        
+        <guid>https://umi.im/windows-timing-shutdown/</guid>
+        <description>&lt;p&gt;偶尔会被朋友请求挂某些游戏以领取奖励，一般出去的时候挂上，如果回来的晚了就浪费电了，所以需要定时关机。&lt;/p&gt;
+&lt;p&gt;Windows可以通过CMD命令设定定时关机。&lt;/p&gt;
+&lt;p&gt;比如想晚上11点关机，输入：&lt;/p&gt;
+&lt;p&gt;[syntax type=”html|php|js|css”]at 23:30 shutdown /f /s /t 0[/syntax]&lt;/p&gt;
+&lt;p&gt;命令行对于一般人用起来还是太麻烦了，特别是想取消的时候。&lt;/p&gt;
+&lt;p&gt;有位叫&lt;span style=&#34;color: #3e1e1e;&#34;&gt;&lt;a title=&#34; 微博&#34; href=&#34;http://weibo.com/dxgzs&#34; target=&#34;_blank&#34;&gt;雷国东&lt;/a&gt;的童鞋写了个简单的批处理，可以简单的实现定时关机。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/05/Windows-Timing-shutdown.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2285&#34; src=&#34;https://umi.im/wp-content/uploads/2014/05/Windows-Timing-shutdown.png&#34; alt=&#34;Windows Timing shutdown&#34; width=&#34;677&#34; height=&#34;443&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/05/Windows-Timing-shutdown.png 677w, https://umi.im/wp-content/uploads/2014/05/Windows-Timing-shutdown-150x98.png 150w, https://umi.im/wp-content/uploads/2014/05/Windows-Timing-shutdown-300x196.png 300w&#34; sizes=&#34;(max-width: 677px) 100vw, 677px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-title下载-hrefhttppanbaiducoms1c01pf7e-target_blankwindows定时关机a百度云&#34;&gt;
+    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttppanbaiducoms1c01pf7e-target_blankwindows%e5%ae%9a%e6%97%b6%e5%85%b3%e6%9c%baa%e7%99%be%e5%ba%a6%e4%ba%91&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;下载&#34; href=&#34;http://pan.baidu.com/s/1c01pf7E&#34; target=&#34;_blank&#34;&gt;Windows定时关机&lt;/a&gt;（百度云）
+&lt;/h2&gt;&lt;h2 id=&#34;a-titleonedrive-hrefhttp1drvms1ngxcmx-target_blankwindows定时关机aonedrive&#34;&gt;
+    &lt;a href=&#34;#a-titleonedrive-hrefhttp1drvms1ngxcmx-target_blankwindows%e5%ae%9a%e6%97%b6%e5%85%b3%e6%9c%baaonedrive&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;onedrive&#34; href=&#34;http://1drv.ms/1nGXcmx&#34; target=&#34;_blank&#34;&gt;Windows定时关机&lt;/a&gt;（OneDrive）
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>轻轻一点找里番</title>
+        <link>https://umi.im/qingqingyidian/</link>
+        <pubDate>Tue, 14 Jan 2014 05:30:08 +0000</pubDate>
+        
+        <guid>https://umi.im/qingqingyidian/</guid>
+        <description>&lt;blockquote class=&#34;wp-block-quote is-layout-flow wp-block-quote-is-layout-flow&#34;&gt;
+  &lt;p&gt;
+    &lt;strong&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;WARNING：If you are under 18 years of age, or if it is illegal to view adult material in your community, please leave now.&lt;/span&gt;&lt;/strong&gt;
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;朋友找里番用到的软件，赶紧问他要来。&lt;/p&gt;
+&lt;p&gt;作者为&lt;a title=&#34;该用户已经连续签到209天了，连续30天一举“橙”名&#34; href=&#34;http://tieba.baidu.com/home/main?un=%D7%C6%D1%DB%EC%E1%A5%B7%A5%E3%A5%CA&amp;fr=pb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; data-field=&#34;{&amp;quot;un&amp;quot;:&amp;quot;\u707c\u773c\u706c\u30b7\u30e3\u30ca&amp;quot;}&#34;&gt;灼眼灬シャナ&lt;/a&gt;，程序使用易语言编写。&lt;/p&gt;
+&lt;p&gt;集合了2000年1月-2013年的里番及部分真人cosplay作品，不定时更新，据说多达1500多份节操。&lt;/p&gt;
+&lt;p&gt;看样子以前还支持云播，现在和谐了。&lt;/p&gt;
+&lt;p&gt;还有搜索功能，简直不能再赞啊！&lt;/p&gt;
+&lt;p&gt;唯一一个缺点，预览图片是储存在云端的，万一服务器挂了就看不到预览了 QAQ&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;864&#34; height=&#34;514&#34; src=&#34;https://umi.im/wp-content/uploads/2022/11/qingqingyidian-1-x.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-6225&#34; /&gt;  
+&lt;p&gt;作者现在提供了&lt;a href=&#34;http://vod.dbanklm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;一个网站&lt;/a&gt;，把磁力链接复制进去就可以云播，不过速度不太理想，还是下载吧。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1013&#34; height=&#34;711&#34; src=&#34;https://umi.im/wp-content/uploads/2022/11/qingqingyidian-2-x.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-6226&#34; /&gt;  
+&lt;p&gt;某次更新发现多了个启动密码的设置功能，GJ！&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/qingqingyidian-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;560&#34; height=&#34;377&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/qingqingyidian-3.png&#34; alt=&#34;qingqingyidian-3&#34; class=&#34;wp-image-2728&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/qingqingyidian-3.png 560w, https://umi.im/wp-content/uploads/2014/01/qingqingyidian-3-150x100.png 150w, https://umi.im/wp-content/uploads/2014/01/qingqingyidian-3-300x201.png 300w&#34; sizes=&#34;(max-width: 560px) 100vw, 560px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href=&#34;http://tieba.baidu.com/f?kw=%C7%E1%C7%E1%D2%BB%B5%E3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;轻轻一点贴吧&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpqqyddmcom-target_blank-relnoopener轻轻一点找节操工具a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpqqyddmcom-target_blank-relnoopener%e8%bd%bb%e8%bd%bb%e4%b8%80%e7%82%b9%e6%89%be%e8%8a%82%e6%93%8d%e5%b7%a5%e5%85%b7a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://qqyddm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;轻轻一点找节操工具&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>QQIntl 国际版 – 纯粹的聊天软件</title>
+        <link>https://umi.im/%EF%BD%91%EF%BD%91intl/</link>
+        <pubDate>Tue, 31 Dec 2013 19:45:08 +0000</pubDate>
+        
+        <guid>https://umi.im/%EF%BD%91%EF%BD%91intl/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/qq-international.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1140&#34; alt=&#34;qq-international&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/qq-international.jpg&#34; width=&#34;1024&#34; height=&#34;627&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/12/qq-international.jpg 1024w, https://umi.im/wp-content/uploads/2013/12/qq-international-300x183.jpg 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;一直使用QQ国际版1.6，直到今天发现QQ截图截的活动窗口有误差，换到2.1就没事了。&lt;/p&gt;
+&lt;p&gt;2.1相比1.6在皮肤功能上更完善，可以调节透明度了。&lt;/p&gt;
+&lt;p&gt;同时，新版不再显示国际版在线了。&lt;/p&gt;
+&lt;p&gt;和普通版QQ越来越像了，不过我依旧会使用国际版的QQ。&lt;/p&gt;
+&lt;p&gt;QQintl国际版目前各平台的完全免费，并且没有广告，除了功能完整的Windows版，MAC和IOS设备上的是保留核心功能的简化版。QQIntl国际版 2.1.1310 中英双语绿色版，由&lt;a href=&#34;http://www.zdfans.com/795.html/comment-page-9#comments&#34; target=&#34;_blank&#34;&gt;zd423&lt;/a&gt;修改，完全简体中文化，去除多语文件，可中英切换。原生无广告，低资源占用。不带迷你首页弹窗、不带多余的应用盒子，不带主面板高宽限制，屏蔽硬盘偷偷扫描，离隐可无限发送抖动等。让你体验清爽简洁的QQ！&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/qq-international-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1141&#34; alt=&#34;qq-international-1&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/qq-international-1.png&#34; width=&#34;245&#34; height=&#34;635&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/qq-international-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1142&#34; alt=&#34;qq-international-2&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/qq-international-2.png&#34; width=&#34;382&#34; height=&#34;285&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/qq-international-2.png 382w, https://umi.im/wp-content/uploads/2014/01/qq-international-2-300x223.png 300w&#34; sizes=&#34;(max-width: 382px) 100vw, 382px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttppanbaiducomwaplinkshareid2904017280uk3191095378-target_blankqq-international-绿色版a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttppanbaiducomwaplinkshareid2904017280uk3191095378-target_blankqq-international-%e7%bb%bf%e8%89%b2%e7%89%88a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://pan.baidu.com/wap/link?shareid=2904017280&amp;uk=3191095378&#34; target=&#34;_blank&#34;&gt;QQ International 绿色版&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>炒土豆丝の软件（Windows）</title>
+        <link>https://umi.im/win-software/</link>
+        <pubDate>Thu, 12 Dec 2013 17:19:05 +0000</pubDate>
+        
+        <guid>https://umi.im/win-software/</guid>
+        <description>&lt;p&gt;常用软件索引，免费软件一般放官网下载页面的链接，付费软件如果有破解版的话会放网盘链接。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;span-stylecolor-ff0000装机必备span&#34;&gt;
+    &lt;a href=&#34;#span-stylecolor-ff0000%e8%a3%85%e6%9c%ba%e5%bf%85%e5%a4%87span&#34;&gt;#&lt;/a&gt;
+    &lt;span style=&#34;color: #ff0000;&#34;&gt;装机必备&lt;/span&gt;
+&lt;/h2&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;wox1&#34;&gt;
+    &lt;a href=&#34;#wox1&#34;&gt;#&lt;/a&gt;
+    &lt;a class=&#34;link&#34; href=&#34;http://www.getwox.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wox&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;可以安装插件的快速启动工具，功能更强大。&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a href=&#34;https://umi.im/google-chrome-updater/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Chorme&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  三大浏览器之一，扩展程序功能接近FF，速度干掉IE，还有强大的同步功能+跨平台，除了比较占内存和字体渲染不够好基本没有其他缺点。
+&lt;/p&gt;
+&lt;p align=&#34;left&#34;&gt;
+  &lt;a href=&#34;https://umi.im/chrome-extensions/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;炒土豆丝のChrome扩展程序&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a title=&#34;官网下载&#34; href=&#34;http://potplayer.daum.net/?lang=zh_CN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PotPlayer&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  KMP作者出品，小巧，解码能力强大，绿色无广告。
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a title=&#34;威盘下载&#34; href=&#34;http://www.vdisk.cn/asionwu?tag=FB+%E6%B1%89%E5%8C%96%E7%89%88&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Foobar2000&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  音质一流的音频播放器，小巧，简洁，可添加插件，功能强大。
+&lt;/p&gt;
+&lt;p align=&#34;left&#34;&gt;
+  作者Peter Pawlowski曾是&lt;a href=&#34;http://zh.wikipedia.org/wiki/Winamp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Winamp&lt;/a&gt;的开发者，后来不满Winamp越来越往图形、外观发展而离开公司并开发了这款软件。历经了8年时间才脱离beta发布正式版。
+&lt;/p&gt;
+&lt;p align=&#34;left&#34;&gt;
+  作者没有制作官方中文版以及出汉化包，此版本由&lt;a href=&#34;http://asionwu.blogbus.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Asion Spa&lt;/a&gt;汉化。
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a href=&#34;http://www.yinxiang.com/evernote/#&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EverNote&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  中文版叫印象笔记，个人经常用到的软件。免费版一个月有50MB流量，不同步很多图片的话应该够用。
+&lt;/p&gt;
+&lt;p align=&#34;left&#34;&gt;
+  全平台霸制，Windows，Android，IOS，Mac OS X，BB，甚至Web OS。还有个叫&lt;a href=&#34;http://www.yinxiang.com/webclipper/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;印象笔记·剪藏&lt;/a&gt;的浏览器扩展可以帮把喜欢的网页剪切同步到EverNote。
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a href=&#34;http://picasa.google.com/intl/zh-CN/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Picasa&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  谷歌的图片查看管理软件，配合XnView使用。
+&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;迅雷-9-去侧边栏版2&#34;&gt;
+    &lt;a href=&#34;#%e8%bf%85%e9%9b%b7-9-%e5%8e%bb%e4%be%a7%e8%be%b9%e6%a0%8f%e7%89%882&#34;&gt;#&lt;/a&gt;
+    &lt;a class=&#34;link&#34; href=&#34;http://www.zdfans.com/7337.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;迅雷 9 去侧边栏版&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;迅雷极速版被砍，加速被河蟹。原版迅雷9变成带下载功能的浏览器，意见使用修改版。&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a title=&#34;下载&#34; href=&#34;https://www.bandisoft.com/bandizip/cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bandizip&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  支持图片预览的压缩软件，无广告界面清新，比WinRAR和7Zip好用。
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a href=&#34;http://pan.baidu.com/s/1qWHL5FY&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CCleaner&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  小巧功能强大的清理软件，可清理各种程序缓存，注册表，还可卸载程序，插除驱动器。
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a title=&#34;官方下载&#34; href=&#34;http://www.voidtools.com/download.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Everything&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  神器，超级强大的硬盘搜索程序，Windows自带搜索实在太渣了。
+&lt;/p&gt;
+&lt;p align=&#34;left&#34;&gt;
+  另外这货在WIN8/8.1中必须设置管理员身份运行才能搜到东西。
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a href=&#34;http://www.microsoft.com/zh-cn/download/details.aspx?id=5201&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Windows Defender&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  集成于Windows8/8.1中的微软自家杀毒软件 Microsoft Security Essentials。
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;span-stylecolor-3366ffstrong硬件检测strongspan&#34;&gt;
+    &lt;a href=&#34;#span-stylecolor-3366ffstrong%e7%a1%ac%e4%bb%b6%e6%a3%80%e6%b5%8bstrongspan&#34;&gt;#&lt;/a&gt;
+    &lt;span style=&#34;color: #3366ff;&#34;&gt;&lt;strong&gt;硬件检测&lt;/strong&gt;&lt;/span&gt;
+&lt;/h2&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a href=&#34;http://pan.baidu.com/share/link?shareid=1048365765&amp;uk=956565010&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aida64&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  一款非常全面的硬件检测软件，还有温度监控，负载测试等，非常强大。绿色单文件破解版。
+&lt;/p&gt;
+&lt;p align=&#34;left&#34;&gt;
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a title=&#34;官方下载&#34; href=&#34;http://www.cpuid.com/softwares/cpu-z.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CPU-Z&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  著名的检测CPU的软件，几乎每一个硬件评测都能看到。
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a href=&#34;http://www.techpowerup.com/downloads/SysInfo/GPU-Z/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GPU-Z&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  CPU-Z的兄弟。
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a href=&#34;http://pan.baidu.com/share/link?shareid=286516&amp;uk=237751563&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fritz Chess Benchmark&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  国际象棋，计算CPU一秒能下多少步象棋，一款很古老的跑分软件，小撸怡情。
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a href=&#34;http://pan.baidu.com/s/1i37hKyT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CineBench R11.5&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  跑分软件，比国际象棋专业很多，也臃肿很多。
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a href=&#34;http://www.pc6.com/softview/SoftView_62262.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;3DMark 11&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  著名的跑分软件，主要测试显卡，收费，可以免费试用部分功能，还有跑分名人堂。
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a href=&#34;http://pan.baidu.com/s/1jGn2Tgi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MemTest&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  内存错误检测，用于超频和蓝屏排查。
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a href=&#34;http://pan.baidu.com/s/1dDveDxv&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DisplayX&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  检测显示器色彩，坏点的小软件。
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a href=&#34;http://pan.baidu.com/s/1kT2ZUrt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HD Tune Pro&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  著名的硬盘检测软件。
+&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpsumiimcrystaldiskinfo-target_blank-relnoopenercrystaldiskinfoa&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpsumiimcrystaldiskinfo-target_blank-relnoopenercrystaldiskinfoa&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://umi.im/crystaldiskinfo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CrystalDiskInfo&lt;/a&gt;
+&lt;/h2&gt;&lt;p align=&#34;left&#34;&gt;
+  查看硬盘健康状态，一般用于&lt;a href=&#34;http://zh.wikipedia.org/wiki/%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SSD&lt;/a&gt;。
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a href=&#34;http://pan.baidu.com/s/1bn7ZVVD&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AS SSD Benchmark&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  很常见的SSD跑分软件。
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a href=&#34;http://pan.baidu.com/s/1dDuyFb7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DiskGenius&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  功能强大的硬盘管理工具，有分区，分区表备份恢复，数据恢复，MBR GPT分区转换等功能。
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;span-stylecolor-800080大型软件span&#34;&gt;
+    &lt;a href=&#34;#span-stylecolor-800080%e5%a4%a7%e5%9e%8b%e8%bd%af%e4%bb%b6span&#34;&gt;#&lt;/a&gt;
+    &lt;span style=&#34;color: #800080;&#34;&gt;大型软件&lt;/span&gt;
+&lt;/h2&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;strong&gt;&lt;a href=&#34;https://umi.im/adobe&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adobe系列软件绿色汉化版&lt;/a&gt;&lt;br /&gt; &lt;/strong&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  有PS，PR，AE等众所周知的软件。
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a href=&#34;ed2k://|file|cn_office_professional_plus_2013_with_sp1_x86_and_x64_dvd_3921921.iso|1838749696|C2C7DCB43293252480A32F91F21DE3B3|/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Microsoft Office Professional Plus 2013 &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  微软的办公套件，这个就不用说了，使用&lt;a href=&#34;http://pan.baidu.com/s/1mgBfzL2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HEU KMS Activator&lt;/a&gt;激活180天，可重复。
+&lt;/p&gt;
+&lt;p align=&#34;left&#34;&gt;
+  另外说下，Windows 7/Vista系统可以使用&lt;a href=&#34;http://pan.baidu.com/s/1kTwowqr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Windows Loader&lt;/a&gt;激活。（我指的是系统）
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a href=&#34;http://pan.baidu.com/s/1hqp8GeS &#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VMware Workstation 10&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  VM的虚拟机软件，功能强大，绿色原生中文。
+&lt;/p&gt;
+&lt;p align=&#34;left&#34;&gt;
+  使用里面的批处理安装或者卸载服务，还要导入里面的注册表激活。
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;span-stylecolor-993300多媒体span&#34;&gt;
+    &lt;a href=&#34;#span-stylecolor-993300%e5%a4%9a%e5%aa%92%e4%bd%93span&#34;&gt;#&lt;/a&gt;
+    &lt;span style=&#34;color: #993300;&#34;&gt;多媒体&lt;/span&gt;
+&lt;/h2&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;a-hrefhttppanbaiducoms1kthneev-target_blank-relnoopenereasy-paint-tool-saia&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttppanbaiducoms1kthneev-target_blank-relnoopenereasy-paint-tool-saia&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1kTHneeV&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Easy Paint Tool SAI&lt;/a&gt;
+&lt;/h2&gt;&lt;p align=&#34;left&#34;&gt;
+  SAI，日本的一款绘图软件，主要配合数位板来作画。
+&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttppanbaiducoms1i3gbkc1-target_blank-relnoopenergifcamaa-hrefhttppanbaiducoms1u4nmi-target_blank-relnoopenerulead-gif-animator-5aa-hrefhttppanbaiducoms1kt4voyb-target_blank-relnoopenerxnviewa&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttppanbaiducoms1i3gbkc1-target_blank-relnoopenergifcamaa-hrefhttppanbaiducoms1u4nmi-target_blank-relnoopenerulead-gif-animator-5aa-hrefhttppanbaiducoms1kt4voyb-target_blank-relnoopenerxnviewa&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1i3GBkc1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GifCam&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://pan.baidu.com/s/1u4NMI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ulead GIF Animator 5&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://pan.baidu.com/s/1kT4vOYb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XnView&lt;/a&gt;
+&lt;/h2&gt;&lt;p align=&#34;left&#34;&gt;
+  GIF制作，压缩和查看三件套，&lt;a href=&#34;https://umi.im/gif/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;详细介绍&lt;/a&gt;。
+&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;
+  &lt;a href=&#34;http://pan.baidu.com/s/1qWO40bi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Riot&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p align=&#34;left&#34;&gt;
+  图片压缩软件，支持批量压缩。
+&lt;/p&gt;
+&lt;p align=&#34;left&#34;&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1bnpJaMV&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bandicam&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    视频录制软件，可录制多种格式编码的视频，资源占用小，录制的视频体制也小，我的视频都是用它录的。
+  &lt;/p&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    安装后右键以管理员身份运行注册机即可注册。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;http://mediacoder.com.cn/dlfull_zh.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; Mediacoder&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    通用视频音频格式转换工具，设置比较复杂不适合新人使用。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;http://maruko.appinn.me/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;小丸子工具箱&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    可以抽取，压制视频，我一般用它把视频封装成FLV。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1qWCtiHI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VideoCacheView&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    可以提取浏览器的缓存视频等文件。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;http://www.portablesoft.org/mkvtoolnix/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; MKVToolNix&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    MTK封装软件，也可以用来分离音频，添加字幕。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;http://pan.baidu.com/share/link?shareid=445595653&amp;uk=3809476486&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;格式工厂&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    国人开发的转码软件，效率低下但使用简单，适合新手。
+  &lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;h2&gt;
+        &lt;span style=&#34;color: #008000;&#34;&gt;美化&lt;/span&gt;
+      &lt;/h2&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;h3&gt;
+    &lt;a href=&#34;http://rainmeter.cn/cms/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rainmeter&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+    雨滴，著名的美化软件，可以修改出更好非常漂亮瞎眼的主题。
+  &lt;/p&gt;
+  &lt;p&gt;
+    不过我是简洁党所以并没有使用它。（桌面只有回收站的图标）
+  &lt;/p&gt;
+  &lt;h3&gt;
+    &lt;a href=&#34;https://umi.im/oblytile&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OblyTile&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+    修改WIN8中的开始菜单磁贴图片的小软件。
+  &lt;/p&gt;
+  &lt;h3&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1qWnqIDY&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Windows 7 Boot Updater&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+    可以修WIN7/Vista的启动画面，一直没有找到修改WIN8/8.1启动画面的软件，唉。。。
+  &lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;h2&gt;
+        &lt;span style=&#34;color: #ff99cc;&#34;&gt;其他&lt;/span&gt;
+      &lt;/h2&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+    &amp;nbsp;
+  &lt;/p&gt;
+  &lt;h3&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1bnGh1CV&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;硕鼠下载器&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+    以前使用的iDown失效，改用硕鼠。
+  &lt;/p&gt;
+  &lt;p&gt;
+    绿色版，运行绿化后，去&lt;a href=&#34;http://www.flvcd.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;官网&lt;/a&gt;输入视频链接就可以下载视频。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;https://umi.im/mangameeya/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MangaMeeya&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    本地漫画阅读器，用看图软件看漫画是非常不明智的选择。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;http://www.sublimetext.com/3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sublime Text 3&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    非常漂亮的文本编辑器，被称为码农神器。不会编程的我只能哪来代替记事本，比WIN自带的记事本好用很多。
+  &lt;/p&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    单窗口多标签，还有超级漂亮的界面。
+  &lt;/p&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    还有热退出功能，什么是热退出？就是当你修改了文件，然后退出Sublime Text，它仍会保存那段你已经修改了的文本，即使断电也不怕改好的文本消失。
+  &lt;/p&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    不过这货收费的，还贼贵（70刀），不过不注册也可以使用，不过保存文件时偶尔会提示你要注册。
+  &lt;/p&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    已有&lt;a href=&#34;http://www.xiumu.org/note/sublime-text-3.shtml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;汉化和破解 &lt;/a&gt; ，觉得麻烦的话用&lt;a href=&#34;http://notepad-plus-plus.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NotePad++&lt;/a&gt;代替也不错。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1c0eRHVq&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; Easy File Locker&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    文件隐藏工具，总有不想被别人看到的东西。另外这只是个隐藏工具，没有加密功能，容易被破解。英文版，使用超级简单，可惜不支持GPT磁盘。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1dDgR54X&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NT6 Hdd Installer&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    非常简单好用的系统安装工具。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;https://umi.im/windows-dism/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dism管理器&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    清理WIN8/8.1更新后的残留文件。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;https://umi.im/shadowsocksr-csharp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ShadowsocksR&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    第三方 SS 客户端，翻墙工具，自备服务器。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1gdxIz1T&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UltraISO&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    制作U盘启动的，还可以修改镜像。由卡饭版主ikimi编译的单文件注册版。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1ktzTc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Recuva&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    小巧文件恢复软件，和CCleaner为同一公司出品。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;http://www.aegisub.org/downloads/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aegisub&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+    跨平台开源的免费字幕编辑软件。许多字幕组皆采用这套字幕编辑软件，替视频制作非官方或非商业的字幕。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1gdxc2jD&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hash 2.0 &lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    &lt;a href=&#34;http://zh.wikipedia.org/wiki/MD5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MD5&lt;/a&gt;+&lt;a href=&#34;http://zh.wikipedia.org/wiki/SHA-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SHA1&lt;/a&gt;文件效验工具。
+  &lt;/p&gt;
+  &lt;h3&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1i3hzvhj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FileLocatorPro&lt;br /&gt; &lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+    全文搜索，偶尔会用到，很强大。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1nthrkgx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NetSpeedMonitor x86&lt;/a&gt;  &amp; &lt;a href=&#34;http://pan.baidu.com/s/1o6iBdpw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NetSpeedMonitor x64&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    在任务栏显示流量监控的小程序，WIN8需要右键“兼容性疑难解答” &amp;#8211; “测试程序” 然后才正常安装。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;https://umi.im/tournament-table/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tournament-Table&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    一个比赛对阵视图软甲，由我个人汉化。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1eQ1in6a&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SIS网址获取程序&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    啊咧，好像混进了奇怪的东西。。。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;https://umi.im/qingqingyidian/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;轻轻一点&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    轻轻一点找里番。
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;a href=&#34;https://umi.im/everaver-renamer-emdb/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EverAver Renamer &amp; EMDB&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    AV媒体库。
+  &lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;h3&gt;
+        过气
+      &lt;/h3&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;h3&gt;
+    &lt;del&gt;&lt;a href=&#34;http://www.launchy.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Launchy&lt;/a&gt;&lt;/del&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+    &lt;del&gt;快速启动工具，Windows的任务栏可以放常用软件，靠 Win键 + 数字键启动，对于那些不常用的，用Launchy比用开始菜单或者切到桌面打开快捷方式更简便，只需要记住软件的名字的前几个字符就可以了。&lt;/del&gt;
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;del&gt;&lt;a href=&#34;https://umi.im/thunder-speed/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;迅雷极速版&lt;/a&gt;&lt;/del&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+    &lt;del&gt;比原版小巧很多。&lt;/del&gt;
+  &lt;/p&gt;
+  &lt;h3 align=&#34;left&#34;&gt;
+    &lt;del&gt;&lt;a href=&#34;http://maolihui.com/goagent-detail.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GoAgent&lt;/a&gt;&lt;/del&gt;
+  &lt;/h3&gt;
+  &lt;p align=&#34;left&#34;&gt;
+    &lt;del&gt;利用GAE服务器当代理的翻墙软件，速度快而且稳定，居家旅行必备。&lt;/del&gt;
+  &lt;/p&gt;
+  &lt;h3&gt;
+    &lt;del&gt;&lt;a title=&#34;官网&#34; href=&#34;http://cn.ejie.me/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clover&lt;/a&gt;&lt;/del&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+    &lt;del&gt;把Windows的资源管理器变成Chrome的样式，增加类似Chrome的多标签页和快捷键功能。&lt;/del&gt;
+  &lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>OblyTile v0.9.7 – Win8开始菜单磁贴修改工具</title>
+        <link>https://umi.im/oblytile/</link>
+        <pubDate>Thu, 05 Dec 2013 03:16:54 +0000</pubDate>
+        
+        <guid>https://umi.im/oblytile/</guid>
+        <description>&lt;p&gt;更新到了0.9.7 ，界面上看起来大了一块。&lt;/p&gt;
+&lt;p&gt;可以固定大磁贴和宽磁贴了，还有小磁贴。（不知道是不是WIN8.1才有？）&lt;/p&gt;
+&lt;p&gt;固定后就可以进开始菜单右键修改大小了，WIN8.1默认是只有几个程序可以修改超大磁贴的。&lt;/p&gt;
+&lt;p&gt;之前曾经写过&lt;a href=&#34;http://bbs.comicdd.com/thread-367041-1-1.html&#34; target=&#34;_blank&#34;&gt;修改Metro应用瓷砖图片的方法 &lt;/a&gt;，现在可以用OblyTile修改了。&lt;/p&gt;
+&lt;p&gt;不过，使用OblyTile固定的Metro应用打开的时候会跳转到桌面一下。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-568&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/1.jpg&#34; alt=&#34;1&#34; width=&#34;900&#34; height=&#34;529&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者是来自&lt;a href=&#34;http://forum.xda-developers.com/&#34; target=&#34;_blank&#34;&gt;XDA&lt;/a&gt;的&lt;a href=&#34;http://forum.xda-developers.com/member.php?u=4859731&#34; target=&#34;_blank&#34;&gt;Argony-OT&lt;/a&gt;，&lt;a href=&#34;http://forum.xda-developers.com/showthread.php?t=1899865&#34; target=&#34;_blank&#34;&gt;发布原贴&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;个人很喜欢这款软件，所以曾试着汉化它。&lt;/p&gt;
+&lt;p&gt;使用DotNetHelper进行反编译，重新编译后就无法运行了。&lt;/p&gt;
+&lt;p&gt;技术太渣搞不定，希望有哪位大神可以汉化它。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttppanbaiducomsharelinkshareid1258486297uk3191095378-target_blankoblytile-v097exe百度云a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttppanbaiducomsharelinkshareid1258486297uk3191095378-target_blankoblytile-v097exe%e7%99%be%e5%ba%a6%e4%ba%91a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://pan.baidu.com/share/link?shareid=1258486297&amp;uk=3191095378&#34; target=&#34;_blank&#34;&gt;OblyTile v0.9.7.exe （百度云）&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttpsskydrivelivecomcida9635ef5320e7df7ida9635ef5320e7df721163-target_blankoblytile-v097exe-skydrivea&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpsskydrivelivecomcida9635ef5320e7df7ida9635ef5320e7df721163-target_blankoblytile-v097exe-skydrivea&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://skydrive.live.com/?cid=a9635ef5320e7df7&amp;id=A9635EF5320E7DF7%21163&#34; target=&#34;_blank&#34;&gt;OblyTile v0.9.7.exe （SkyDrive）&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttpswwwdropboxcomslxip2d2laf63cnyoblytile20v097exe-target_blankoblytile-v097exe-dropboxa&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpswwwdropboxcomslxip2d2laf63cnyoblytile20v097exe-target_blankoblytile-v097exe-dropboxa&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://www.dropbox.com/s/lxip2d2laf63cny/OblyTile%20v0.9.7.exe&#34; target=&#34;_blank&#34;&gt;OblyTile v0.9.7.exe （Dropbox）&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttpsmegaconzkcdcuiqrv7uegxcz0hpgxakuyizv7cjwkiiq-2cj3wbcnfcacrc-target_blankoblytile-v097exe-megaa&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpsmegaconzkcdcuiqrv7uegxcz0hpgxakuyizv7cjwkiiq-2cj3wbcnfcacrc-target_blankoblytile-v097exe-megaa&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://mega.co.nz/#!KcdCUIQR!V7Uegxcz0HPGXakUyizV7CjwKIIq-2cj3wbCnfCAcRc&#34; target=&#34;_blank&#34;&gt;OblyTile v0.9.7.exe （Mega）&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>比赛对阵视图表软件 Tournament-Table 汉化</title>
+        <link>https://umi.im/tournament-table/</link>
+        <pubDate>Fri, 29 Nov 2013 01:45:34 +0000</pubDate>
+        
+        <guid>https://umi.im/tournament-table/</guid>
+        <description>&lt;p&gt;这是一款经常在韩服DNF比赛中可以看到的软件。&lt;/p&gt;
+&lt;p&gt;在上次小黑店比赛，对阵视图竟然是用Excel制作的，遂萌生了找到此款软件的想法。&lt;/p&gt;
+&lt;p&gt;因为不会韩文，误打误撞找了好久没找到。&lt;/p&gt;
+&lt;img decoding=&#34;async&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/XiaoHeiDian.jpg&#34; /&gt; 
+&lt;p&gt;直到昨晚，叫奈奈子帮忙找了下，竟然还真找到了！～&lt;/p&gt;
+&lt;p&gt;打开软件一堆乱码，折腾了一晚终于汉化好了。&lt;/p&gt;
+&lt;p&gt;简单介绍了，只有32强，16强和8强模式。&lt;/p&gt;
+&lt;p&gt;比赛名称的框框无法输入汉字，名字框框无法拉伸，所以名字长的就遮住了。&lt;/p&gt;
+&lt;p&gt;背景可以自定义，时间自动显示今天的，还有些实在不知道什么，乱翻译。&lt;/p&gt;
+&lt;p&gt;最后，炒土豆丝夺冠！！！233&lt;/p&gt;
+&lt;img decoding=&#34;async&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/20131129090441.jpg&#34; /&gt; 
+&lt;p&gt;作者为&lt;a href=&#34;http://www.tistory.com/m&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shs14&lt;/a&gt;，由&lt;a href=&#34;http://www.colg.cn/home.php?mod=space&amp;uid=574747&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;左伯奈奈子&lt;/a&gt;提供，&lt;a href=&#34;https://umi.im/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;炒土豆丝&lt;/a&gt;汉化。&lt;/p&gt;
+&lt;p&gt;07年发布，作者已经开源，并且不再更新，&lt;a href=&#34;http://shs14.tistory.com/attachment/49312b383e05cAY.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;源码&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttppanbaiducoms1bnrkwwv-target_blank-relnoopenertournament-table-汉化a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttppanbaiducoms1bnrkwwv-target_blank-relnoopenertournament-table-%e6%b1%89%e5%8c%96a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1bnrKWwv&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tournament-Table 汉化&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttp1drvms1fgczmr-target_blank-relnoopenertournament-table-原版a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttp1drvms1fgczmr-target_blank-relnoopenertournament-table-%e5%8e%9f%e7%89%88a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://1drv.ms/1fGcZMR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tournament-Table 原版&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>Adobe系列软件绿色精简版</title>
+        <link>https://umi.im/adobe/</link>
+        <pubDate>Fri, 22 Nov 2013 09:51:52 +0000</pubDate>
+        
+        <guid>https://umi.im/adobe/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/ADOBE.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-920&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/ADOBE.jpg&#34; alt=&#34;ADOBE&#34; width=&#34;960&#34; height=&#34;599&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/11/ADOBE.jpg 960w, https://umi.im/wp-content/uploads/2013/11/ADOBE-300x187.jpg 300w, https://umi.im/wp-content/uploads/2013/11/ADOBE-400x250.jpg 400w&#34; sizes=&#34;(max-width: 960px) 100vw, 960px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Adobe的软件都很臃肿，而且安装起来比较麻烦。所以收集了这套软件。&lt;/p&gt;
+&lt;p&gt;全部为简体汉字绿色精简版，作者为&lt;a href=&#34;http://ansifa.blog.163.com/profile/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Ansifa&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpansifablog163comblogstatic52803100201352101113502-target_blank-relnoopener-noreferreradobe-photoshop-cca&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpansifablog163comblogstatic52803100201352101113502-target_blank-relnoopener-noreferreradobe-photoshop-cca&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://ansifa.blog.163.com/blog/static/52803100201352101113502/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Adobe Photoshop CC &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Adobe Photoshop CC Extended (32 bit) 的新增功能：&lt;br&gt;
+Photoshop CC 提供了众多新增功能。您可使用全新的智能型锐利化 (Smart Sharpen) 工具使细节更为鲜明，还可将低分辨率的相片转化为高分辨率的大型影像，更可取得所有先进的 3D 编辑和影像分析工具，先前只有 Adobe Photoshop Extended 才提供这些工具。而且不只如此！&lt;/p&gt;
+&lt;h2 id=&#34;a-title阅读全文-hrefhttpansifablog163comblogstatic5280310020137611407651-target_blank-relnoopener-noreferreradobe-after-effects-cc-64-bita&#34;&gt;
+    &lt;a href=&#34;#a-title%e9%98%85%e8%af%bb%e5%85%a8%e6%96%87-hrefhttpansifablog163comblogstatic5280310020137611407651-target_blank-relnoopener-noreferreradobe-after-effects-cc-64-bita&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;阅读全文&#34; href=&#34;http://ansifa.blog.163.com/blog/static/5280310020137611407651/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Adobe After Effects CC (64 bit) &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;After Effects 是Adobe公司推出的一款图形视频处理软件，适用于从事设计和视频特技的机构，包括电视台、动画制作公司、个人后期制作工作室以及多媒体工作室。而在新兴的用户群，如网页设计师和图形设计师中，也开始有越来越多的人在使用After Effects。属于层类型后期软件。&lt;/p&gt;
+&lt;h2 id=&#34;a-title阅读全文-hrefhttpansifablog163comblogstatic52803100201363043227842-target_blank-relnoopener-noreferreradobe-flash-professional-cca&#34;&gt;
+    &lt;a href=&#34;#a-title%e9%98%85%e8%af%bb%e5%85%a8%e6%96%87-hrefhttpansifablog163comblogstatic52803100201363043227842-target_blank-relnoopener-noreferreradobe-flash-professional-cca&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;阅读全文&#34; href=&#34;http://ansifa.blog.163.com/blog/static/52803100201363043227842/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Adobe Flash Professional CC &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Adobe Flash，前称Macromedia Flash，简称Flash，前身FutureSplash，既指Adobe Flash Professional多媒体创作程序。&lt;/p&gt;
+&lt;h2 id=&#34;a-title阅读全文-hrefhttpansifablog163comblogstatic52803100201361132548503-target_blank-relnoopener-noreferreradobe-audition-cc-64-bita&#34;&gt;
+    &lt;a href=&#34;#a-title%e9%98%85%e8%af%bb%e5%85%a8%e6%96%87-hrefhttpansifablog163comblogstatic52803100201361132548503-target_blank-relnoopener-noreferreradobe-audition-cc-64-bita&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;阅读全文&#34; href=&#34;http://ansifa.blog.163.com/blog/static/52803100201361132548503/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Adobe Audition CC (64 bit) &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Adobe Audition CC 软件提供高性能，直观的音频编辑工具，混合，恢复，和效果。强大的新功能，如实时的剪辑拉伸，自动语音对齐，和控制面板的支持，帮助您比以往任何时候都更快地交付项目。&lt;/p&gt;
+&lt;h2 id=&#34;a-title阅读全文-hrefhttpansifablog163comblogstatic5280310020136109244349-target_blank-relnoopener-noreferreradobe-indesign-cca&#34;&gt;
+    &lt;a href=&#34;#a-title%e9%98%85%e8%af%bb%e5%85%a8%e6%96%87-hrefhttpansifablog163comblogstatic5280310020136109244349-target_blank-relnoopener-noreferreradobe-indesign-cca&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;阅读全文&#34; href=&#34;http://ansifa.blog.163.com/blog/static/5280310020136109244349/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Adobe InDesign CC &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Adobe InDesign CC 软件是能够帮您优化设计和排版像素的多功能桌面出版应用程序。创建用于打印、平板电脑和其他屏幕中的优质和精美的页面。轻松调整版面，使其适应不同的页面大小、方向或设备，获得更佳的效果。&lt;/p&gt;
+&lt;h2 id=&#34;a-title阅读全文-hrefhttpansifablog163comblogstatic528031002013526112718793-target_blank-relnoopener-noreferreradobe-premiere-pro-cca&#34;&gt;
+    &lt;a href=&#34;#a-title%e9%98%85%e8%af%bb%e5%85%a8%e6%96%87-hrefhttpansifablog163comblogstatic528031002013526112718793-target_blank-relnoopener-noreferreradobe-premiere-pro-cca&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;阅读全文&#34; href=&#34;http://ansifa.blog.163.com/blog/static/528031002013526112718793/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Adobe Premiere Pro CC &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Adobe 出品的全球顶级视频编辑创作软件 Premiere Pro CC 结合了令人难以置信的性能，采用了圆滑的，更新界面和新的创意的神奇功能，包括稳定镜头，动态时间轴微调，扩大多镜头编辑，调整图层等等。&lt;/p&gt;
+&lt;h2 id=&#34;a-title阅读全文-hrefhttpansifablog163comblogstatic52803100201311692820923-target_blank-relnoopener-noreferreradobe-after-effects-cs6a&#34;&gt;
+    &lt;a href=&#34;#a-title%e9%98%85%e8%af%bb%e5%85%a8%e6%96%87-hrefhttpansifablog163comblogstatic52803100201311692820923-target_blank-relnoopener-noreferreradobe-after-effects-cs6a&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;阅读全文&#34; href=&#34;http://ansifa.blog.163.com/blog/static/52803100201311692820923/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Adobe After Effects CS6 &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;After Effects是Adobe公司推出的一款图形视频处理软件，适用于从事设计和视频特技的机构，包括电视台、动画制作公司、个人后期制作工作室以及多媒体工作室。而在新兴的用户群，如网页设计师和图形设计师中，也开始有越来越多的人在使用After Effects。属于层类型后期软件。&lt;/p&gt;
+&lt;h2 id=&#34;a-title阅读全文-hrefhttpansifablog163comblogstatic5280310020131701152579-target_blank-relnoopener-noreferreradobe-dreamweaver-cs6a&#34;&gt;
+    &lt;a href=&#34;#a-title%e9%98%85%e8%af%bb%e5%85%a8%e6%96%87-hrefhttpansifablog163comblogstatic5280310020131701152579-target_blank-relnoopener-noreferreradobe-dreamweaver-cs6a&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;阅读全文&#34; href=&#34;http://ansifa.blog.163.com/blog/static/5280310020131701152579/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Adobe Dreamweaver CS6&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Adobe? Dreamweaver? CS6 网页设计软件提供了一套直观的可视界面，供您创建和编辑 HTML 网站和移动应用程序。使用专为跨平台兼容性设计的自适应网格版面创建适应性版面。在发布前使用多屏幕预览审阅设计。&lt;/p&gt;
+&lt;h2 id=&#34;a-title阅读全文-hrefhttpansifablog163comblogstatic528031002013124176614-target_blank-relnoopener-noreferreradobe-fireworks-cs6a&#34;&gt;
+    &lt;a href=&#34;#a-title%e9%98%85%e8%af%bb%e5%85%a8%e6%96%87-hrefhttpansifablog163comblogstatic528031002013124176614-target_blank-relnoopener-noreferreradobe-fireworks-cs6a&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;阅读全文&#34; href=&#34;http://ansifa.blog.163.com/blog/static/528031002013124176614/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Adobe Fireworks CS6 &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Adobe  Fireworks CS6 软件能让您在弹指间创作精美的网站和移动应用程序设计，而无需进行编码。发布适用于热门的平板电脑和智能手机的矢量和位图图像、模型、3D 图形和交互式内容。&lt;/p&gt;
+&lt;p&gt;安装方法：&lt;br&gt;
+方法一：运行“QuickInstall.exe”安装软件。&lt;br&gt;
+方法二：使用命令行“QuickInstall.exe /i”安装；“QuickInstall.exe /u”卸载。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;&lt;a href=&#34;https://pan.baidu.com/s/1MQ9IQ2dH7ek47JLeaAjBnw&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://pan.baidu.com/s/1MQ9IQ2dH7ek47JLeaAjBnw&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://pan.baidu.com/s/1MQ9IQ2dH7ek47JLeaAjBnw&lt;/a&gt;&lt;/a&gt;  密码: 62a5&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pan.baidu.com/s/1Jty2xnJTGLs_v2363-LMJA&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://pan.baidu.com/s/1Jty2xnJTGLs_v2363-LMJA&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://pan.baidu.com/s/1Jty2xnJTGLs_v2363-LMJA&lt;/a&gt;&lt;/a&gt; 提取码: kidz&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Hosts配置工具 – 无需翻墙使用谷歌服务</title>
+        <link>https://umi.im/google-hosts/</link>
+        <pubDate>Fri, 22 Nov 2013 04:10:59 +0000</pubDate>
+        
+        <guid>https://umi.im/google-hosts/</guid>
+        <description>&lt;p&gt;由于众所周知的原因，在中国大陆想要访问部分国外网站需要通过某些特殊途径，其实修改hosts文件便能够访问部分被封的网站，此法应该可以满足大多数国人的需求。另外，hosts文件中的地址并非永久有效，随时都有可能被屏蔽，如遇相关情况请及时更新文件，也可暂时采取其他方式访问相关网站。 这里提供了最新可用的hosts文件列表，具体功能包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;优化 Google 访问 (可选北京服务器及美国服务器）&lt;/li&gt;
+&lt;li&gt;可访问 Google+&lt;/li&gt;
+&lt;li&gt;可访问 Facebook&lt;/li&gt;
+&lt;li&gt;可访问 twitter (仅IPv6支持访问)&lt;/li&gt;
+&lt;li&gt;可访问 YouTube (视频播放仅支持IPv6)&lt;/li&gt;
+&lt;li&gt;可访问Wiki&lt;/li&gt;
+&lt;li&gt;屏蔽 Adobe 激活服务器 (支持CC)&lt;/li&gt;
+&lt;li&gt;屏蔽 Parallels Desktop 7 激活服务器&lt;/li&gt;
+&lt;li&gt;屏蔽 Altium Designer 10 激活服务器&lt;/li&gt;
+&lt;li&gt;加速 Google Drive 服务访问&lt;/li&gt;
+&lt;li&gt;加速 Flickr 与 Dropbox 服务访问&lt;/li&gt;
+&lt;li&gt;提供 Steam 服务器解析 (适用于非电信网络)&lt;/li&gt;
+&lt;li&gt;提供恶意网站和病毒网站屏蔽的最新列表&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;由于修改系统 hosts 文件需要较高的系统文件读写权限，所以使用本工具时请务必提升操作权限以进行相关操作。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 Windows Vista 及更新版本 Windows 的用户需以“管理员身份”运行 hostsutl.exe。&lt;/li&gt;
+&lt;li&gt;Linux 用户需要使用 root 权限执行 hostsutl.py。&lt;/li&gt;
+&lt;li&gt;Mac OS X 用户在启动应用时输入用户密码即可获得权限。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/hosts-tool.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5095&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/hosts-tool.png&#34; alt=&#34;&#34; width=&#34;656&#34; height=&#34;399&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/11/hosts-tool.png 656w, https://umi.im/wp-content/uploads/2013/11/hosts-tool-150x91.png 150w, https://umi.im/wp-content/uploads/2013/11/hosts-tool-300x182.png 300w&#34; sizes=&#34;(max-width: 656px) 100vw, 656px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;配置后的Hosts文件。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/HOSTS.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-477&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/HOSTS.png&#34; alt=&#34;HOSTS&#34; width=&#34;754&#34; height=&#34;538&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;修改Hosts后使用谷歌搜索到敏感词，不过Wiki的页面还是打不开，所以个人还是建议使用&lt;a href=&#34;http://maolihui.com/goagent-detail.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Goagent&lt;/a&gt;，虽然配置起来麻烦点。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/QQJieTu20131129092702.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-504&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/QQJieTu20131129092702.png&#34; alt=&#34;QQ截图20131129092702&#34; width=&#34;858&#34; height=&#34;471&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://code.google.com/p/huhamhire-hosts/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;huhamhire-hosts 这是一个帮您科学上网的 hosts 文件。我们倡导自由的互联网&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[divider type=”white|thin|thick|short|dotted|dashed” spacing=”10″]&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttphuhamhire-hostsgooglecodecomgit-historygh-pagesreleasehostsutl-win-gpl-196-x86zip-target_blank-relnoopenerhosts-setup-utility-for-windows32位a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttphuhamhire-hostsgooglecodecomgit-historygh-pagesreleasehostsutl-win-gpl-196-x86zip-target_blank-relnoopenerhosts-setup-utility-for-windows32%e4%bd%8da&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://huhamhire-hosts.googlecode.com/git-history/gh-pages/release/HostsUtl-win-gpl-1.9.6-x86.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hosts Setup Utility for Windows(32位) &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;http://huhamhire-hosts.googlecode.com/git-history/gh-pages/release/HostsUtl-win-gpl-1.9.6-x64.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hosts Setup Utility for Windows(64位) &lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://huhamhire-hosts.googlecode.com/git-history/gh-pages/release/HostsUtl-x11-gpl-1.9.6.tar.gz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hosts Setup Utility Python 源码(用户)&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://huhamhire-hosts.googlecode.com/git-history/gh-pages/release/HostsUtl-source-gpl-1.9.6.tar.gz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hosts Setup Utility Python 源码(开发)&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://huhamhire-hosts.googlecode.com/git-history/gh-pages/release/HostsUtl-mac-gpl-1.9.6.dmg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hosts Setup Utility for Mac OS X&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>宇宙无敌Windows更新清理工具 （Dism管理器）</title>
+        <link>https://umi.im/windows-dism/</link>
+        <pubDate>Mon, 18 Nov 2013 21:41:18 +0000</pubDate>
+        
+        <guid>https://umi.im/windows-dism/</guid>
+        <description>&lt;p&gt;从WIN8开始就用&lt;a href=&#34;http://www.chuyusoft.com/home.php?mod=space&amp;uid=1&#34; target=&#34;_blank&#34;&gt;zifeityzyicq&lt;/a&gt;开发的系统更新清理工具，升级8.1后发现不能用了。&lt;/p&gt;
+&lt;p&gt;逛初雨论坛发现作者已经更新了，功能更加强大了，名字也叫做Dism管理器了。&lt;/p&gt;
+&lt;p&gt;出处：&lt;a href=&#34;http://www.chuyusoft.com/forum.php?mod=viewthread&amp;tid=510&amp;page=1#pid11369&#34; target=&#34;_blank&#34;&gt;[初雨原创] [软件下载] Dism管理器，完美释放空间,大家的支持就是开发的…&lt;/a&gt;&lt;/p&gt;
+&lt;table summary=&#34;分类信息&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;
+  &lt;caption&gt;Dism管理器&lt;/caption&gt; &lt;tr&gt;
+    &lt;th&gt;
+      软件名称:
+    &lt;/th&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  Dism管理器
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;
+      版本号:
+    &lt;/th&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  1.0.3.7
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;
+      软件语言:
+    &lt;/th&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  简体中文
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;
+      软件体系:
+    &lt;/th&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  x86 x64
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;
+      软件大小(MB):
+    &lt;/th&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  2
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;
+      操作系统:
+    &lt;/th&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  Windows 7 Windows Server 2008 R2 Windows 8 Windows RT Windows Server 2012 Windows 8.1 Windows RT 8.1 Windows Server 2012 R2
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;
+      系统体系:
+    &lt;/th&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  x86 x86-64 IA64 ARM(32 bit)
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;
+      运行时:
+    &lt;/th&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;
+      软件授权:
+    &lt;/th&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  免费版
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;
+      更新时间:
+    &lt;/th&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  2013-11-13
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;
+      更新说明:
+    &lt;/th&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  该更新对Win7/8用户非常重要！&amp;lt;br /&amp;gt; 1：改进更新卸载逻辑，仅仅保留已正常安装的更新其他更新全部删除&amp;lt;br /&amp;gt; 2：修复Windows更新的错误选择BUG&amp;lt;br /&amp;gt; 3：修复在更新清理时错误的删除了被挂起的更新（NT6.3不受影响）
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;
+      注意事项:
+    &lt;/th&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  请大家提点意见，帮助软件更加完善~~~
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;
+      软件截图:
+    &lt;/th&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  &amp;amp;#8211;
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;屋主只安装了一个DNF，竟然清理出了600多MB的东西，卧槽！&lt;/p&gt;
+&lt;p&gt;清理Installer基线缓存很慢，需耐心等待。&lt;/p&gt;
+&lt;p&gt;更多问题请查看原贴。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/WindowsGengXinQingLiGongJu.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-365&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/WindowsGengXinQingLiGongJu.jpg&#34; alt=&#34;Windows更新清理工具&#34; width=&#34;883&#34; height=&#34;608&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[divider type=”white|thin|thick|short|dotted|dashed” spacing=”10″]&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttppanbaiducoms1sjngsfr-target_blankdism管理器a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttppanbaiducoms1sjngsfr-target_blankdism%e7%ae%a1%e7%90%86%e5%99%a8a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1sjNgsfr&#34; target=&#34;_blank&#34;&gt;Dism管理器&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>本地漫画阅读器 ~ MangaMeeya</title>
+        <link>https://umi.im/mangameeya/</link>
+        <pubDate>Fri, 15 Nov 2013 19:30:44 +0000</pubDate>
+        
+        <guid>https://umi.im/mangameeya/</guid>
+        <description>&lt;p&gt;非常有危机意识的屋主，收藏了很多漫画以备断网时观赏。（←_←明明是本子）&lt;/p&gt;
+&lt;p&gt;以前一直用Picasa查看，看多了发现直接用图片查看器看的话有诸多不便！&lt;/p&gt;
+&lt;p&gt;直到今天发现了它，MangaMeeya，来自11区的漫画浏览器。&lt;/p&gt;
+&lt;p&gt;优点：预读取，载入速度快，支持压缩文件查看（RAR和ZIP，不支持7Z）,强大的快捷键设置等。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1148&#34; height=&#34;782&#34; src=&#34;https://umi.im/wp-content/uploads/2022/11/MangaMeeya-1.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-6278&#34; /&gt;  
+&lt;p&gt;除了这些,屋主最喜欢MangaMeeya的还有一个功能－书架。（好像混进了什么奇怪的东西）&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1148&#34; height=&#34;657&#34; src=&#34;https://umi.im/wp-content/uploads/2022/11/MangaMeeya-2.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-6279&#34; /&gt;  
+&lt;p&gt;可惜的是此软件违反了&lt;a href=&#34;http://www.oschina.net/question/12_2826&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GPL协议&lt;/a&gt;，作者已经不再继续更新，所以最终版本号为7.4。&lt;/p&gt;
+&lt;p&gt;还有，设置界面不太友好。弄了好一阵子才搞懂！~&lt;/p&gt;
+&lt;p&gt;[divider type=”white|thin|thick|short|dotted|dashed” spacing=”10″]&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttppanbaiducoms1jgmha4m-target_blank-relnoopenermangameeya-v74-绿色汉化版a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttppanbaiducoms1jgmha4m-target_blank-relnoopenermangameeya-v74-%e7%bb%bf%e8%89%b2%e6%b1%89%e5%8c%96%e7%89%88a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1jGmha4m&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MangaMeeya v7.4 绿色汉化版&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>GIF的制作、压缩和查看</title>
+        <link>https://umi.im/gif-create/</link>
+        <pubDate>Mon, 11 Nov 2013 18:30:54 +0000</pubDate>
+        
+        <guid>https://umi.im/gif-create/</guid>
+        <description>&lt;p&gt;先来看成品吧！&lt;/p&gt;
+&lt;p&gt;400*218，55帧，1.25MB，还不错吧。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/1.gif&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-297&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/1.gif&#34; alt=&#34;穹妹&#34; width=&#34;400&#34; height=&#34;218&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;首先用GifCam制作，这个很简单。&lt;/p&gt;
+&lt;p&gt;选好窗口，点 &lt;span style=&#34;color: #ff0000;&#34;&gt;录制&lt;/span&gt; ，录完点 &lt;span style=&#34;color: #ff0000;&#34;&gt;停止&lt;/span&gt;，再点 &lt;span style=&#34;color: #ff0000;&#34;&gt;保存&lt;/span&gt; 就可以了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/gifcam.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4027&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/gifcam.png&#34; alt=&#34;gifcam&#34; width=&#34;806&#34; height=&#34;435&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/11/gifcam.png 806w, https://umi.im/wp-content/uploads/2013/11/gifcam-150x81.png 150w, https://umi.im/wp-content/uploads/2013/11/gifcam-300x162.png 300w&#34; sizes=&#34;(max-width: 806px) 100vw, 806px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GifCam 制作出 GIF 后，原图可能有些帧需要删减，然后还可能要压缩了，这就需要用到 Ulead GIF Animator 5 了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/11/Ulead-GIF-Animator-5.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4047&#34; src=&#34;https://umi.im/wp-content/uploads/2013/11/Ulead-GIF-Animator-5.png&#34; alt=&#34;Ulead GIF Animator 5&#34; width=&#34;1050&#34; height=&#34;674&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/11/Ulead-GIF-Animator-5.png 1050w, https://umi.im/wp-content/uploads/2013/11/Ulead-GIF-Animator-5-150x96.png 150w, https://umi.im/wp-content/uploads/2013/11/Ulead-GIF-Animator-5-300x193.png 300w, https://umi.im/wp-content/uploads/2013/11/Ulead-GIF-Animator-5-1024x657.png 1024w&#34; sizes=&#34;(max-width: 1050px) 100vw, 1050px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Windowws 7 和 8自带的图片查看器不支持 GIF 图像，Picasa 也不支持 GIF，XnView 这款轻量级的图片查看器是个不错的选择。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttppanbaiducoms1i3gbkc1-target_blankgifcama&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttppanbaiducoms1i3gbkc1-target_blankgifcama&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1i3GBkc1&#34; target=&#34;_blank&#34;&gt;GifCam&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttppanbaiducoms1u4nmi-target_blankulead-gif-animator-5a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttppanbaiducoms1u4nmi-target_blankulead-gif-animator-5a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1u4NMI&#34; target=&#34;_blank&#34;&gt;Ulead GIF Animator 5&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttppanbaiducoms1kt4voyb-target_blankxnviewa&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttppanbaiducoms1kt4voyb-target_blankxnviewa&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://pan.baidu.com/s/1kT4vOYb&#34; target=&#34;_blank&#34;&gt;XnView&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>硬盘检测工具 CrystalDiskInfo 萌娘Shizuku版</title>
+        <link>https://umi.im/crystaldiskinfo-shizuku/</link>
+        <pubDate>Wed, 11 Sep 2013 17:59:15 +0000</pubDate>
+        
+        <guid>https://umi.im/crystaldiskinfo-shizuku/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/09/shizuku-top.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1157&#34; src=&#34;https://umi.im/wp-content/uploads/2013/09/shizuku-top.jpg&#34; alt=&#34;shizuku-top&#34; width=&#34;800&#34; height=&#34;400&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/09/shizuku-top.jpg 800w, https://umi.im/wp-content/uploads/2013/09/shizuku-top-300x150.jpg 300w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;一个日本大神开发的硬盘检测工具，一般用来查看SSD信息。&lt;/p&gt;
+&lt;p&gt;如同很多日本软件一样，这软件也有萌娘版 。&lt;/p&gt;
+&lt;p&gt;水晶雫，Shizuku，CV是五十岚裕美，就是&lt;a href=&#34;http://zh.wikipedia.org/zh-cn/%E8%A6%81%E8%81%BD%E7%88%B8%E7%88%B8%E7%9A%84%E8%A9%B1%EF%BC%81&#34; target=&#34;_blank&#34;&gt;鬼舅&lt;/a&gt;里面的小鸟游雏的CV。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/09/CrystalDiskInfo.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-653&#34; src=&#34;https://umi.im/wp-content/uploads/2013/09/CrystalDiskInfo.jpg&#34; alt=&#34;CrystalDiskInfo&#34; width=&#34;1016&#34; height=&#34;699&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;官方提供了几张水晶雫的，并且1都是超高分辨率的，最高7680×4320，30MB一张的壁纸想想就知道多可怕。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h3 style=&#34;text-align: left;&#34;&gt;
+  &lt;a title=&#34;CrystalDiskinfo 萌娘版&#34; href=&#34;http://crystalmark.info/download/index-e.html&#34; target=&#34;_blank&#34;&gt;CrystalDiskInfo 萌娘Shizuku版&lt;br /&gt; &lt;/a&gt;
+&lt;/h3&gt;
+&lt;h3 style=&#34;text-align: left;&#34;&gt;
+  &lt;a href=&#34;http://crystalmark.info/Shizuku/index-en.html&#34; target=&#34;_blank&#34;&gt;CrystalDiskInfo 水晶雫壁纸&lt;/a&gt;
+&lt;/h3&gt;
+</description>
+        </item>
+        <item>
+        <title>干掉360</title>
+        <link>https://umi.im/kill-360/</link>
+        <pubDate>Tue, 26 Feb 2013 01:29:00 +0000</pubDate>
+        
+        <guid>https://umi.im/kill-360/</guid>
+        <description>&lt;table class=&#34; alignleft&#34; style=&#34;background-color: white; border-collapse: collapse; color: #444444; empty-cells: show; font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, Verdana, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22.39583396911621px; table-layout: fixed; width: 1035.3333740234375px; word-wrap: break-word;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;
+  &lt;tr style=&#34;word-wrap: break-word;&#34;&gt;
+    &lt;td id=&#34;postmessage_47563357&#34; class=&#34;t_f&#34; style=&#34;word-wrap: break-word;&#34;&gt;
+      &lt;i class=&#34;pstatus&#34; style=&#34;color: #999999; display: block; font-size: 12px; font-style: normal; line-height: 32px; margin-bottom: -30px; text-align: center; word-wrap: break-word;&#34;&gt;&lt;br /&gt; &lt;/i&gt;&lt;img decoding=&#34;async&#34; style=&#34;word-wrap: break-word;&#34; src=&#34;http://www.colg.cn/static/image/smiley/colg6/em84.gif&#34; alt=&#34;&#34; border=&#34;0&#34; /&gt;某文章一出好像都在说360！~&lt;br /&gt; 然后也有人说卸掉360后不知道该用什么杀软啊什么的！~&lt;img decoding=&#34;async&#34; style=&#34;word-wrap: break-word;&#34; src=&#34;http://www.colg.cn/static/image/smiley/colg6/em20.gif&#34; alt=&#34;&#34; border=&#34;0&#34; /&gt;&lt;br /&gt; &lt;img decoding=&#34;async&#34; style=&#34;word-wrap: break-word;&#34; src=&#34;http://www.colg.cn/static/image/smiley/colg4/em03.GIF&#34; alt=&#34;&#34; border=&#34;0&#34; /&gt;作为一名坚实的360黑~很有必要为大家介绍代替360的软件！~&lt;br /&gt; &lt;br style=&#34;word-wrap: break-word;&#34; /&gt;&lt;br style=&#34;word-wrap: break-word;&#34; /&gt;1. Microsoft Security Essentials&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;  &amp;lt;p&amp;gt;
+    &amp;lt;a style=&amp;quot;margin-left: 1em; margin-right: 1em;&amp;quot; href=&amp;quot;http://2.bp.blogspot.com/-s6nLF1IszuM/UTOOBkaLY3I/AAAAAAAAALw/jWoowmUw4Rk/s1600/MSE.png&amp;quot;&amp;gt;&amp;lt;img decoding=&amp;quot;async&amp;quot; src=&amp;quot;http://2.bp.blogspot.com/-s6nLF1IszuM/UTOOBkaLY3I/AAAAAAAAALw/jWoowmUw4Rk/s1600/MSE.png&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;
+  &amp;lt;/p&amp;gt;
+  
+  &amp;lt;p&amp;gt;
+    &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;*图片是Win8已经集成MSE的&amp;lt;span style=&amp;quot;color: black; word-wrap: break-word;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;font-family: Tahoma; word-wrap: break-word;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;font-size: small; word-wrap: break-word;&amp;quot;&amp;gt;Windows Defender！~&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;360是做杀软起家的~第一个当然要介绍搞掉360杀毒和安全那啥的软件！~&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg6/em84.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg6/em59.GIF&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;MSE是微软收购了某家欧洲安全软件厂商后做出来的杀软~&amp;lt;br /&amp;gt; 既然是自家出品肯定就没有什么兼容问题了~&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg2/em115.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg3/em74.GIF&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;最重要的是MSE这货很安静~要是没遇到什么问题吧它一个月都不弹窗~&amp;lt;br /&amp;gt; 不小心卸掉了都没感觉！~&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg3/em89.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg4/em04.GIF&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;LZ对杀软什么的也没什么了解~不过国外有个叫VB100的权威杀软评测~&amp;lt;br /&amp;gt; 看过几期评测~MSE都是拿三颗星星~Avast~ESET~小红伞也是~还有B什么开头的~反正杀毒性能肯定不会弱！~&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg3/em82.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  &amp;lt;/p&amp;gt;
+  
+  &amp;lt;p&amp;gt;
+    &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;下载地址：
+  &amp;lt;/p&amp;gt;
+  
+  &amp;lt;h3&amp;gt;
+    &amp;lt;a style=&amp;quot;color: #336699; word-wrap: break-word;&amp;quot; title=&amp;quot;[已被迅雷破解扩展破解] &amp;quot; href=&amp;quot;http://mse.dlservice.microsoft.com/download/1/E/D/1ED80C09-218B-44D7-B72D-E1451634E72D/zhcn/x86/mseinstall.exe&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Windows XP 32Bit&amp;lt;/a&amp;gt;
+  &amp;lt;/h3&amp;gt;
+  
+  &amp;lt;h3&amp;gt;
+    &amp;lt;a style=&amp;quot;color: #336699; word-wrap: break-word;&amp;quot; title=&amp;quot;[已被迅雷破解扩展破解] &amp;quot; href=&amp;quot;http://mse.dlservice.microsoft.com/download/1/E/D/1ED80C09-218B-44D7-B72D-E1451634E72D/zhcn/x86/mseinstall.exe&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Windows Vista/7 32bit&amp;lt;/a&amp;gt;
+  &amp;lt;/h3&amp;gt;
+  
+  &amp;lt;h3&amp;gt;
+    &amp;lt;a style=&amp;quot;color: #336699; word-wrap: break-word;&amp;quot; title=&amp;quot;[已被迅雷破解扩展破解] &amp;quot; href=&amp;quot;http://mse.dlservice.microsoft.com/download/1/E/D/1ED80C09-218B-44D7-B72D-E1451634E72D/zhcn/x86/mseinstall.exe&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Windows Vista/7 64bit&amp;lt;/a&amp;gt;
+  &amp;lt;/h3&amp;gt;
+  
+  &amp;lt;h2&amp;gt;
+    &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;span style=&amp;quot;color: rgb(153, 204, 0);&amp;quot;&amp;gt;2. Google Chrome&amp;lt;/span&amp;gt;
+  &amp;lt;/h2&amp;gt;
+  
+  &amp;lt;h3&amp;gt;
+    &amp;lt;a style=&amp;quot;margin-left: 1em; margin-right: 1em;&amp;quot; href=&amp;quot;http://3.bp.blogspot.com/-M_4CPzeauAo/UTOOE52LQoI/AAAAAAAAAMM/S4ZwKzq87e8/s1600/%25E5%25B1%258F%25E5%25B9%2595%25E6%2588%25AA%25E5%259B%25BE%25282%2529.jpg&amp;quot;&amp;gt;&amp;lt;img loading=&amp;quot;lazy&amp;quot; decoding=&amp;quot;async&amp;quot; src=&amp;quot;http://3.bp.blogspot.com/-M_4CPzeauAo/UTOOE52LQoI/AAAAAAAAAMM/S4ZwKzq87e8/s640/%25E5%25B1%258F%25E5%25B9%2595%25E6%2588%25AA%25E5%259B%25BE%25282%2529.jpg&amp;quot; alt=&amp;quot;&amp;quot; width=&amp;quot;640&amp;quot; height=&amp;quot;360&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;
+  &amp;lt;/h3&amp;gt;
+  
+  &amp;lt;p&amp;gt;
+    &amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg3/em72.GIF&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;除了360安全那啥~最多人用的360产品好像是360XX浏览器！~（某八嘎也被老娘拉入Chrome阵营&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg3/em998.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;）&amp;lt;br /&amp;gt; 说道Chrome~个人喜欢它的同步功能~有时候去网吧什么的一登账号~书签。主题。密码。甚至输入记录都同步了！而且还跨平台~&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg3/em84.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg2/em112.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;当然还有那不得不说的翻译功能~让英语盲LZ搞定了blogspot！~&amp;lt;br /&amp;gt; 忘了！还有那强大的插件~&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg2/em107.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  &amp;lt;/p&amp;gt;
+  
+  &amp;lt;h3 class=&amp;quot;entry-title&amp;quot; style=&amp;quot;font-weight: 400;&amp;quot;&amp;gt;
+    &amp;lt;a style=&amp;quot;color: #333333;&amp;quot; href=&amp;quot;https://umi.im/chrome-extensions/&amp;quot;&amp;gt;玩转Google Chrome第一弹 ～ 炒土豆丝のChrome扩展程序&amp;lt;/a&amp;gt;
+  &amp;lt;/h3&amp;gt;
+  
+  &amp;lt;p&amp;gt;
+    下载地址：
+  &amp;lt;/p&amp;gt;
+  
+  &amp;lt;h3&amp;gt;
+    &amp;lt;a style=&amp;quot;color: #336699; word-wrap: break-word;&amp;quot; href=&amp;quot;http://www.google.cn/intl/zh-CN/chrome/browser/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Google Chrome&amp;lt;/a&amp;gt;
+  &amp;lt;/h3&amp;gt;
+  
+  &amp;lt;p&amp;gt;
+    &amp;amp;nbsp;
+  &amp;lt;/p&amp;gt;
+  
+  &amp;lt;h2&amp;gt;
+    &amp;lt;span style=&amp;quot;color: rgb(153, 204, 0);&amp;quot;&amp;gt;3. CCleaner&amp;lt;/span&amp;gt;
+  &amp;lt;/h2&amp;gt;
+  
+  &amp;lt;h2&amp;gt;
+    &amp;lt;a style=&amp;quot;margin-left: 1em; margin-right: 1em;&amp;quot; href=&amp;quot;http://1.bp.blogspot.com/-1_AfGVY6xcQ/UTOOAhkLnpI/AAAAAAAAALM/Ucse0mm714Y/s1600/CC.png&amp;quot;&amp;gt;&amp;lt;img decoding=&amp;quot;async&amp;quot; src=&amp;quot;http://1.bp.blogspot.com/-1_AfGVY6xcQ/UTOOAhkLnpI/AAAAAAAAALM/Ucse0mm714Y/s1600/CC.png&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;
+  &amp;lt;/h2&amp;gt;
+  
+  &amp;lt;p&amp;gt;
+    &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg6/em28.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;著名的垃圾清理软件！骚年~还在用360XX卫士清理垃圾么？~&amp;lt;br /&amp;gt; 很好用小巧的绿色软件！不多介绍了~（其实是不知道该介绍什么~&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg6/em84.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;）&amp;lt;br /&amp;gt; &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;下载地址：
+  &amp;lt;/p&amp;gt;
+  
+  &amp;lt;h3&amp;gt;
+    &amp;lt;span style=&amp;quot;color: rgb(153, 204, 0);&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: rgb(153, 204, 0);&amp;quot;&amp;gt;&amp;lt;a style=&amp;quot;color: #336699; word-wrap: break-word;&amp;quot; href=&amp;quot;http://pan.baidu.com/share/link?shareid=354286&amp;amp;uk=4228079396&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;CC简体中文增强版 独木成林制作&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;
+  &amp;lt;/h3&amp;gt;
+  
+  &amp;lt;h2&amp;gt;
+    &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;4. NetSpeedMonitor
+  &amp;lt;/h2&amp;gt;
+  
+  &amp;lt;h2&amp;gt;
+    &amp;lt;a style=&amp;quot;margin-left: 1em; margin-right: 1em;&amp;quot; href=&amp;quot;http://1.bp.blogspot.com/-6Hl9xYIvsZI/UTOOA38GgtI/AAAAAAAAALU/d6YOmGOGWOA/s1600/NetSpeedMonitor.png&amp;quot;&amp;gt;&amp;lt;img decoding=&amp;quot;async&amp;quot; src=&amp;quot;http://1.bp.blogspot.com/-6Hl9xYIvsZI/UTOOA38GgtI/AAAAAAAAALU/d6YOmGOGWOA/s1600/NetSpeedMonitor.png&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;
+  &amp;lt;/h2&amp;gt;
+  
+  &amp;lt;p&amp;gt;
+    &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg6/em20.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;记得紫妈说过她用360就是为了看流量使用！~&amp;lt;br /&amp;gt; 这东西和Win的任务栏结合的太完美！~&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg6/em07.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;br /&amp;gt; 有时会觉得这是Win自带的浏览监控！~&amp;lt;br /&amp;gt; 不过Win7和Vista开了Aero Glass后~显示流量的字体会变得很模糊~&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg2/em112.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg3/em89.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;这个就需要自己慢慢调了~&amp;lt;br /&amp;gt; &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;下载地址：
+  &amp;lt;/p&amp;gt;
+  
+  &amp;lt;h3&amp;gt;
+    &amp;lt;a style=&amp;quot;color: #336699; word-wrap: break-word;&amp;quot; href=&amp;quot;http://pan.baidu.com/share/link?shareid=308711&amp;amp;uk=3191095378&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;NetSpeedMonitor 32bit&amp;lt;/a&amp;gt;
+  &amp;lt;/h3&amp;gt;
+  
+  &amp;lt;h3&amp;gt;
+    &amp;lt;a style=&amp;quot;color: #336699; word-wrap: break-word;&amp;quot; href=&amp;quot;http://pan.baidu.com/share/link?shareid=308714&amp;amp;uk=3191095378&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;NetSpeedMonitor 64bit&amp;lt;/a&amp;gt;
+  &amp;lt;/h3&amp;gt;
+  
+  &amp;lt;p&amp;gt;
+    PS Win8 X64 需要以程序兼容性疑难解答运行安装程序~然后测试程序~就可以安装了！~X86未知~&amp;lt;br /&amp;gt; PPS 安装后会提示问你要不要开启NetSpeedMonitor流量监控~选否~然后用汉化补丁替换原文件~在打开NetSpeedMonitor！~
+  &amp;lt;/p&amp;gt;
+  
+  &amp;lt;h2&amp;gt;
+    &amp;lt;span style=&amp;quot;color: rgb(153, 204, 0);&amp;quot;&amp;gt;5. Aida64&amp;lt;/span&amp;gt;
+  &amp;lt;/h2&amp;gt;
+  
+  &amp;lt;h2&amp;gt;
+    &amp;lt;a style=&amp;quot;margin-left: 1em; margin-right: 1em;&amp;quot; href=&amp;quot;http://1.bp.blogspot.com/-PNNJHxekzU4/UTON_-nShHI/AAAAAAAAALA/zgZu7bxzJXw/s1600/AIDA64.png&amp;quot;&amp;gt;&amp;lt;img decoding=&amp;quot;async&amp;quot; src=&amp;quot;http://1.bp.blogspot.com/-PNNJHxekzU4/UTON_-nShHI/AAAAAAAAALA/zgZu7bxzJXw/s1600/AIDA64.png&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;
+  &amp;lt;/h2&amp;gt;
+  
+  &amp;lt;p&amp;gt;
+    &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg6/em59.GIF&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;据我所知鲁大师也是360的~360硬件大师即是鲁大师~&amp;lt;br /&amp;gt; 那这个也不能留活口了！~&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg6/em27.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;br /&amp;gt; Aida64主要是用来看温度~也可以用来烤机~还可以查看各种系统信息~功能无比强大！~&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg2/em208.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;br /&amp;gt; 鲁大师还有个非常搞的评分系统~可惜Aida64只能测试内存速度什么！~&amp;lt;br /&amp;gt; 如果需要测试CPU ~可以用Fritz Chess Benchmark~CineBench R11.5什么的~查看CPU信息用CPU-Z~Aida64也有个CPU ID可以看~&amp;lt;br /&amp;gt; 测试GPU~ 3DMark~CineBench R11.5~查看GPU详细用GPU-Z~&amp;lt;br /&amp;gt; 硬盘信息~HD Tune ~&amp;lt;span style=&amp;quot;color: black; word-wrap: break-word;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;font-family: Tahoma; word-wrap: break-word;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;font-size: small; word-wrap: break-word;&amp;quot;&amp;gt;CrystalDiskInfo&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color: black; word-wrap: break-word;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;font-family: Tahoma; word-wrap: break-word;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;font-size: small; word-wrap: break-word;&amp;quot;&amp;gt; &amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt; SSD跑分~&amp;lt;span style=&amp;quot;color: black; word-wrap: break-word;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;font-family: Tahoma; word-wrap: break-word;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;font-size: small; word-wrap: break-word;&amp;quot;&amp;gt;AS SSD Benchmark&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt; 有杀错无放过！~&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg2/em114.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;下载地址：
+  &amp;lt;/p&amp;gt;
+  
+  &amp;lt;h3&amp;gt;
+    &amp;lt;a style=&amp;quot;color: #336699; word-wrap: break-word;&amp;quot; href=&amp;quot;http://pan.baidu.com/share/link?shareid=158537&amp;amp;uk=134575808&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Aida64 2.7 已注册&amp;lt;/a&amp;gt;
+  &amp;lt;/h3&amp;gt;
+  
+  &amp;lt;p&amp;gt;
+    &amp;amp;nbsp;
+  &amp;lt;/p&amp;gt;
+  
+  &amp;lt;h2&amp;gt;
+    &amp;lt;span style=&amp;quot;color: rgb(153, 204, 0);&amp;quot;&amp;gt;6. WinRAR 4.2&amp;lt;/span&amp;gt;
+  &amp;lt;/h2&amp;gt;
+  
+  &amp;lt;h2&amp;gt;
+    &amp;lt;a style=&amp;quot;margin-left: 1em; margin-right: 1em;&amp;quot; href=&amp;quot;http://3.bp.blogspot.com/-33IT36QAVxo/UTON9tI-KUI/AAAAAAAAAKk/kzKFkvqHtBE/s1600/55.png&amp;quot;&amp;gt;&amp;lt;img decoding=&amp;quot;async&amp;quot; src=&amp;quot;http://3.bp.blogspot.com/-33IT36QAVxo/UTON9tI-KUI/AAAAAAAAAKk/kzKFkvqHtBE/s1600/55.png&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;
+  &amp;lt;/h2&amp;gt;
+  
+  &amp;lt;p&amp;gt;
+    &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg2/em112.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;360好像还有压缩软件~&amp;lt;br /&amp;gt; 这软件好像每家每户都有~不过也许你们的版本有些老了！~&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg2/em116.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg5/em98.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;上次看新闻说4.2打了鸡血什么的！把这个也搬来凑数~&amp;lt;br /&amp;gt; &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;下载地址：
+  &amp;lt;/p&amp;gt;
+  
+  &amp;lt;h3&amp;gt;
+    &amp;lt;a style=&amp;quot;color: #336699; font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, Verdana, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22.39583396911621px; margin: 0px; padding: 0px; word-wrap: break-word;&amp;quot; href=&amp;quot;http://kuai.xunlei.com/d/ISATABQCTRGU&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;WinRAR 4.2 烈火破解版 32bit&amp;lt;/a&amp;gt;
+  &amp;lt;/h3&amp;gt;
+  
+  &amp;lt;h3&amp;gt;
+    &amp;lt;a style=&amp;quot;color: #336699; font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, Verdana, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22.39583396911621px; margin: 0px; padding: 0px; word-wrap: break-word;&amp;quot; href=&amp;quot;http://kuai.xunlei.com/d/IYTFSPIRORFH&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;WinRAR 4.2 烈火破解版 64bit&amp;lt;/a&amp;gt;
+  &amp;lt;/h3&amp;gt;
+  
+  &amp;lt;p&amp;gt;
+    好像好多人用360测试~那老娘也提供个测试网速延迟的网站！~[em84]&amp;lt;br /&amp;gt; &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;img decoding=&amp;quot;async&amp;quot; id=&amp;quot;aimg_HRpbV&amp;quot; class=&amp;quot;zoom&amp;quot; style=&amp;quot;cursor: pointer; word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.speedtest.net/result/2535772119.png&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;a style=&amp;quot;color: #336699; word-wrap: break-word;&amp;quot; href=&amp;quot;http://www.speedtest.net/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;http://www.speedtest.net/&amp;lt;/a&amp;gt;&amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;还有360XX卫士什么的优化功能！~&amp;lt;br /&amp;gt; &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg5/em93.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;我只能说~不优化即是最好的优化~（前提是你用的Windows Vista/7以上的系统！~）&amp;lt;br /&amp;gt; &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg3/em72.GIF&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;目前能想到的就这么多了！还有谁补充么~&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/tbody&amp;gt; &amp;lt;/table&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

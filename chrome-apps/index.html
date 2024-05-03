@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Chrome上很多应用都是像书签一样，点击图标就是一个链接。 而制作这样一个应用是非常简单的，任何人都可以动手制作。 下面屋主我试着做一个打开自">
+<title>玩转Chrome第三弹 ～ 制作属于自己Chrome应用</title>
+
+<link rel='canonical' href='https://umi.im/chrome-apps/'>
+
+<link rel="stylesheet" href="/scss/style.min.859d15a88c4baa095161a679adcf6a0588d393b9603bd708e8e0c634ae102b82.css"><meta property='og:title' content="玩转Chrome第三弹 ～ 制作属于自己Chrome应用">
+<meta property='og:description' content="Chrome上很多应用都是像书签一样，点击图标就是一个链接。 而制作这样一个应用是非常简单的，任何人都可以动手制作。 下面屋主我试着做一个打开自">
+<meta property='og:url' content='https://umi.im/chrome-apps/'>
+<meta property='og:site_name' content='笨蛋屋'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Chrome' /><meta property='article:published_time' content='2014-01-02T17:17:55&#43;00:00'/><meta property='article:modified_time' content='2014-01-02T17:17:55&#43;00:00'/>
+<meta name="twitter:title" content="玩转Chrome第三弹 ～ 制作属于自己Chrome应用">
+<meta name="twitter:description" content="Chrome上很多应用都是像书签一样，点击图标就是一个链接。 而制作这样一个应用是非常简单的，任何人都可以动手制作。 下面屋主我试着做一个打开自">
+    <link rel="shortcut icon" href="/favicon.png" />
+
+  
+
+<meta name="verification" content="9cfa2f7dea5bc4a0">
+<script defer src="https://u.umi.im/replace-me-with-a-random-string" data-website-id="befac8d7-0396-44c8-b151-9c332a5f176f"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5428554628068316"
+     crossorigin="anonymous"></script>
+    
+    
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar-150px_hub3e42f8fb4895a97c7036e2fee26b85a_7312_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">💔</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">笨蛋屋</a></h1>
+            <h2 class="site-description">炒土豆丝 の Blog !</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://s.umi.im/'
+                        target="_blank"
+                        title="ServerStutas"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-server-bolt"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" /><path d="M15 20h-9a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h12" /><path d="M7 8v.01" /><path d="M7 16v.01" /><path d="M20 15l-2 3h3l-2 3" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://m.umi.im/'
+                        target="_blank"
+                        title="Memos"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-feather"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 20l10 -10m0 -5v5h5m-9 -1v5h5m-9 -1v5h5m-5 -5l4 -4l4 -4" /><path d="M19 10c.638 -.636 1 -1.515 1 -2.486a3.515 3.515 0 0 0 -3.517 -3.514c-.97 0 -1.847 .367 -2.483 1m-3 13l4 -4l4 -4" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/ariakeumi'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/998potato'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://umi.im/index.xml'
+                        target="_blank"
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/comments/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
+  <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
+</svg>
+
+
+
+                
+                <span>Comments</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='https://share.umi.im/' target="_blank">
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-share"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M18 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M8.7 10.7l6.6 -3.4" /><path d="M8.7 13.3l6.6 3.4" /></svg>
+                
+                <span>Share</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/it/" style="background-color: ; color: #fff;">
+                折腾
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/chrome-apps/">玩转Chrome第三弹 ～ 制作属于自己Chrome应用</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2014年01月02日</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 2 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <address>
+  <a class="lightbox" href="https://umi.im/wp-content/uploads/2014/01/chrome-apps.jpg"><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1167" src="https://umi.im/wp-content/uploads/2014/01/chrome-apps.jpg" alt="chrome-apps" width="961" height="594" srcset="https://umi.im/wp-content/uploads/2014/01/chrome-apps.jpg 961w, https://umi.im/wp-content/uploads/2014/01/chrome-apps-300x185.jpg 300w" sizes="(max-width: 961px) 100vw, 961px" /></a>
+</address>
+<p>Chrome上很多应用都是像书签一样，点击图标就是一个链接。</p>
+<p>而制作这样一个应用是非常简单的，任何人都可以动手制作。</p>
+<p>下面屋主我试着做一个打开自己部落格的Chrome应用。</p>
+<p>首先，新建一个文件夹，在文件夹里面再新建一个文本。</p>
+<p>拷贝以下代码，汉字部分自行替换成自己需要的。</p>
+<pre class="lang:js decode:true  ">{
+"manifest_version": 2,
+"name": "应用名字",
+"description": "应用介绍",
+"version": "1.1",
+"icons": {
+"128": "128.png"
+},
+"app": {
+"urls": [
+"http://替换上需要的链接.com/"
+],
+"launch": {
+"web_url": "http://替换上需要的链接.com/"
+}
+},
+"permissions": [
+"unlimitedStorage",
+"notifications"
+]
+}</pre>
+<p>这是我改好了的代码，可以用记事本保存为 manifest.json ，注意，必须是UTF-8编码的。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2013/12/manifest.json_.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1099" src="https://umi.im/wp-content/uploads/2013/12/manifest.json_.png" alt="manifest.json" width="837" height="645" srcset="https://umi.im/wp-content/uploads/2013/12/manifest.json_.png 837w, https://umi.im/wp-content/uploads/2013/12/manifest.json_-300x231.png 300w, https://umi.im/wp-content/uploads/2013/12/manifest.json_-194x150.png 194w" sizes="(max-width: 837px) 100vw, 837px" /></a></p>
+<p>然后再制作一个128×128像素的图标，PNG格式的，命名为128.png，和manifest.json放在同一个文件夹。</p>
+<p>Chrome地址栏输入 <a class="link" href="chrome://extensions/" >chrome://extensions/</a> 进入扩展程序界面，在开发者模式的框框上打钩。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2013/12/kaifazhemoshi.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1100" src="https://umi.im/wp-content/uploads/2013/12/kaifazhemoshi.png" alt="kaifazhemoshi" width="787" height="113" srcset="https://umi.im/wp-content/uploads/2013/12/kaifazhemoshi.png 787w, https://umi.im/wp-content/uploads/2013/12/kaifazhemoshi-300x43.png 300w" sizes="(max-width: 787px) 100vw, 787px" /></a></p>
+<p>接着点 加载正在开发的扩展程序 ，路径选存放manifest.json和图标的文件夹。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2013/12/bakatd-app.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1101" src="https://umi.im/wp-content/uploads/2013/12/bakatd-app.png" alt="bakatd-app" width="765" height="208" srcset="https://umi.im/wp-content/uploads/2013/12/bakatd-app.png 765w, https://umi.im/wp-content/uploads/2013/12/bakatd-app-300x81.png 300w" sizes="(max-width: 765px) 100vw, 765px" /></a></p>
+<p>这样一个Chrome应用就制作完成了，为了方便储存，还有将应用打包成CRX。</p>
+<p>点击 打包扩展程序 ，路径依旧选择存放manifest.json和图标的文件夹。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2013/12/bakatd-app-2.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1103" src="https://umi.im/wp-content/uploads/2013/12/bakatd-app-2.png" alt="bakatd-app-2" width="519" height="216" srcset="https://umi.im/wp-content/uploads/2013/12/bakatd-app-2.png 519w, https://umi.im/wp-content/uploads/2013/12/bakatd-app-2-300x124.png 300w" sizes="(max-width: 519px) 100vw, 519px" /></a></p>
+<p>完成会产生一个CRX和PEM文件，CRX是本体，PEM是私钥，对我们来说没什么用。</p>
+<p>把CRX文件拖拽入扩展程序界面（<a class="link" href="chrome://extensions/" >chrome://extensions/</a>），出现这个窗口就说明成功了。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2013/12/bakatd-app-3.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1104" src="https://umi.im/wp-content/uploads/2013/12/bakatd-app-3.png" alt="bakatd-app-3" width="386" height="201" srcset="https://umi.im/wp-content/uploads/2013/12/bakatd-app-3.png 386w, https://umi.im/wp-content/uploads/2013/12/bakatd-app-3-300x156.png 300w" sizes="(max-width: 386px) 100vw, 386px" /></a></p>
+<p>如果你有钱，甚至可以把这个应用发布到<a href="https://chrome.google.com/webstore/category/home" target="_blank" rel="noopener">Chrome应用商店</a>。</p>
+<p>在<a href="https://chrome.google.com/webstore/developer/dashboard" target="_blank" rel="noopener">Chrome开发者信息中心</a>上传，需要5美刀 (ノ‥)ノ‥‥〓〓〓〓☆ピーーーー</p>
+<p>最后，推荐个程序，<a title="点击下载Chrome应用启动器" href="https://chrome.google.com/webstore/launcher" target="_blank" rel="noopener">Chrome应用启动器</a>。</p>
+<p>固定于任务栏，能很方便的打开和搜索东西。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2013/12/Chrome-launcher.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-medium wp-image-1105" src="https://umi.im/wp-content/uploads/2013/12/Chrome-launcher.png" alt="Chrome-launcher" width="235" height="300" srcset="https://umi.im/wp-content/uploads/2013/12/Chrome-launcher.png 394w, https://umi.im/wp-content/uploads/2013/12/Chrome-launcher-235x300.png 235w" sizes="(max-width: 235px) 100vw, 235px" /></a></p>
+<p><span style="color: #99cc00;"><a href="https://support.google.com/chrome/a/answer/2714278?hl=zh-Hans" target="_blank" rel="noopener"><span style="color: #99cc00;">官方文档：Chrome for Business和Chrome for Education – 创建 Chrome 应用</span></a></span></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/chrome/">Chrome</a>
+        
+    </section>
+
+
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2014年01月02日 17:17 CST
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/chromebook-pixel-2013/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ChromeBook Pixel 2013 折腾</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/chrome-extensions-unpack/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">玩转Google Chrome第二弹 ～ 打包Chrome扩展程序到本地</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/chrome-extensions/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">玩转Google Chrome～ 炒土豆丝のChrome扩展程序</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/chrome-emoticon/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Ｏ(≧▽≦)Ｏ Chrome颜文字扩展程序</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/unraid-6.12.10-crack/">
+        
+        
+            <div class="article-image">
+                <img src="/unraid-6.12.10-crack/unraid.bfb8c4fd1d550f352bfe087ebde9f60c.webp" 
+                        width="1200" 
+                        height="630" 
+                        loading="lazy"
+                        alt="Featured image of post UNRAID 6.12.4 米多贝克版升级 UNRAID 6.12.10 毛子开心版"
+                        
+                        data-hash="md5-v7jE/R1VDzUr/gh&#43;ven2DA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">UNRAID 6.12.4 米多贝克版升级 UNRAID 6.12.10 毛子开心版</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
+<div id="waline" class="waline-container"></div>
+<style>
+    .waline-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+        --waline-font-size: var(--article-font-size);
+    }
+    .waline-container .wl-count {
+        color: var(--card-text-color-main);
+    }
+</style><script>
+    
+    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://npm.elemecdn.com/@waline/emojis@1.1.0/weibo"],"lang":"zh-CN","locale":{"admin":"屋主","placeholder":"欢迎互动！"},"requiredMeta":["name","email","url"],"serverURL":"https://waline.umi.im/"});
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2024 笨蛋屋
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.25.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

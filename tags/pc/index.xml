@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>PC on 笨蛋屋</title>
+        <link>https://umi.im/tags/pc/</link>
+        <description>Recent content in PC on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Wed, 18 Aug 2021 19:21:00 +0000</lastBuildDate><atom:link href="https://umi.im/tags/pc/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>平平无奇的 Zen3 5600X 内存超频作业</title>
+        <link>https://umi.im/5600x-memory-oc/</link>
+        <pubDate>Wed, 18 Aug 2021 19:21:00 +0000</pubDate>
+        
+        <guid>https://umi.im/5600x-memory-oc/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;CPU：AMD Ryzen 5 5600X&lt;/li&gt;
+&lt;li&gt;主板：MSI B450i Gaming Plus Ac ITX&lt;/li&gt;
+&lt;li&gt;内存：镁光 C9BLM (2*8GB)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;CPU 直接 Auto，开 PBO 风扇直接起飞。内存电压 1.45V，其他电压全部没动。&lt;/p&gt;
+&lt;p&gt;内存超到 3800MHz ，FCLK 1900 ，FCLK 高一点都会报 wheap19 错误，偶尔爆音，FCLK 到 2000 反而内存速度下降和延迟升高，不知为何。&lt;/p&gt;
+&lt;p&gt;内存参数：Commad Rate 自动，tCL 16 , tRCDRD 17 , tRCDWR 17 , tRP 16 , tRAS 32 , tRFC1 580T 。&lt;/p&gt;
+&lt;div class=&#34;wp-block-image&#34;&gt;
+  &lt;figure class=&#34;aligncenter size-full&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;408&#34; height=&#34;565&#34; src=&#34;https://umi.im/wp-content/uploads/2021/10/ZenTimings.png&#34; alt=&#34;&#34; class=&#34;wp-image-5929&#34; /&gt;
+&lt;/div&gt;
+&lt;div class=&#34;wp-block-image&#34;&gt;
+  &lt;figure class=&#34;aligncenter size-full&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;539&#34; height=&#34;518&#34; src=&#34;https://umi.im/wp-content/uploads/2021/10/Aida64-Cache-test.png&#34; alt=&#34;&#34; class=&#34;wp-image-5930&#34; /&gt;
+&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>卡硬工具箱魔改教程</title>
+        <link>https://umi.im/kbtool/</link>
+        <pubDate>Sun, 08 Apr 2018 16:04:29 +0000</pubDate>
+        
+        <guid>https://umi.im/kbtool/</guid>
+        <description>&lt;blockquote class=&#34;wp-block-quote is-layout-flow wp-block-quote-is-layout-flow&#34;&gt;
+  &lt;p&gt;
+    卡硬工具箱是一款硬件检测软件工具，前身是卡巴工具箱，是显卡吧基佬们开发的出来硬件检测工具，提供BIOS工具、CPU检测、超频工具、性能测试、内存工具等众多常用工具。
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这个工具箱已经一年多没更新了，里面的软件有些过时了，比如 CPU-Z 检测不出 Ryzen 处理器。&lt;/p&gt;
+&lt;p&gt;如果要升级里面的软件，很简单，把新版本的软件替换到卡硬工具箱的 program 目录下对应的软件储存目录上就行了，exe 文件和原来的命名一样就可以。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;965&#34; height=&#34;677&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-4941&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool.jpg 965w, https://umi.im/wp-content/uploads/2018/03/kbtool-150x105.jpg 150w, https://umi.im/wp-content/uploads/2018/03/kbtool-300x210.jpg 300w, https://umi.im/wp-content/uploads/2018/03/kbtool-768x539.jpg 768w&#34; sizes=&#34;(max-width: 965px) 100vw, 965px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;因为很喜欢这个软件，所以我研究了下怎么把给卡硬工具箱添加新软件。&lt;/p&gt;
+&lt;p&gt;修改卡硬工具箱需要用到 &lt;a href=&#34;http://sqlitebrowser.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DB Browser for SQLite&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;下载它安装打开并点击 “打开数据库” ，选择卡硬工具箱目录下的 data 目录下的 set.db 文件。&lt;/p&gt;
+&lt;p&gt;浏览数据表，可以看到 catlst 表里就是分类菜单信息：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;id 分类 ID，主界面的分类也是根据这个排序&lt;/li&gt;
+&lt;li&gt;catname 分类名称&lt;/li&gt;
+&lt;li&gt;icopath 分类图标，在 ui 目录的对应皮肤目录下&lt;/li&gt;
+&lt;li&gt;bgcolor 分类的背景颜色，十六进制颜色码&lt;/li&gt;
+&lt;li&gt;stamp 帮助文档链接，无视&lt;/li&gt;
+&lt;li&gt;blk 主界面分类菜单磁贴，1 表示小磁贴，2 是宽磁贴&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;需要添加分类菜单磁贴就仿照上面的格式新建记录。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-catlst.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1095&#34; height=&#34;659&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-catlst.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-4943&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-catlst.jpg 1095w, https://umi.im/wp-content/uploads/2018/03/kbtool-catlst-150x90.jpg 150w, https://umi.im/wp-content/uploads/2018/03/kbtool-catlst-300x181.jpg 300w, https://umi.im/wp-content/uploads/2018/03/kbtool-catlst-768x462.jpg 768w, https://umi.im/wp-content/uploads/2018/03/kbtool-catlst-1024x616.jpg 1024w&#34; sizes=&#34;(max-width: 1095px) 100vw, 1095px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;选择 softlst 表新建记录添加自己所需的软件。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;id 用于排序&lt;/li&gt;
+&lt;li&gt;catid 对应 catlst 表的分类菜单id&lt;/li&gt;
+&lt;li&gt;softname 软件名称&lt;/li&gt;
+&lt;li&gt;icopath 软件图标路径&lt;/li&gt;
+&lt;li&gt;softpath 软件路径&lt;/li&gt;
+&lt;li&gt;description 软件介绍&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;软件图标可以用 &lt;a class=&#34;link&#34; href=&#34;http://mofang.ruanmei.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;软媒魔方&lt;/a&gt; 的软媒图标大师提取，修改完点击 “写入更改” 就可以看到成果了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-softlst.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1089&#34; height=&#34;659&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-softlst.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-4944&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-softlst.jpg 1089w, https://umi.im/wp-content/uploads/2018/03/kbtool-softlst-150x91.jpg 150w, https://umi.im/wp-content/uploads/2018/03/kbtool-softlst-300x182.jpg 300w, https://umi.im/wp-content/uploads/2018/03/kbtool-softlst-768x465.jpg 768w, https://umi.im/wp-content/uploads/2018/03/kbtool-softlst-1024x620.jpg 1024w&#34; sizes=&#34;(max-width: 1089px) 100vw, 1089px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这就是我修改完的卡硬工具箱，添加了很多自己需要的东西，放在U盘随身带。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-mod.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;965&#34; height=&#34;677&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-mod.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-4942&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-mod.jpg 965w, https://umi.im/wp-content/uploads/2018/03/kbtool-mod-150x105.jpg 150w, https://umi.im/wp-content/uploads/2018/03/kbtool-mod-300x210.jpg 300w, https://umi.im/wp-content/uploads/2018/03/kbtool-mod-768x539.jpg 768w&#34; sizes=&#34;(max-width: 965px) 100vw, 965px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-cat.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;965&#34; height=&#34;677&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-cat.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-4946&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/kbtool-cat.jpg 965w, https://umi.im/wp-content/uploads/2018/03/kbtool-cat-150x105.jpg 150w, https://umi.im/wp-content/uploads/2018/03/kbtool-cat-300x210.jpg 300w, https://umi.im/wp-content/uploads/2018/03/kbtool-cat-768x539.jpg 768w&#34; sizes=&#34;(max-width: 965px) 100vw, 965px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwkbtoolcn-target_blank-relnoopener卡硬工具箱a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwkbtoolcn-target_blank-relnoopener%e5%8d%a1%e7%a1%ac%e5%b7%a5%e5%85%b7%e7%ae%b1a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.kbtool.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;卡硬工具箱&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>炒土豆丝の黑群晖 NAS</title>
+        <link>https://umi.im/nas-synology/</link>
+        <pubDate>Wed, 12 Nov 2014 12:13:20 +0000</pubDate>
+        
+        <guid>https://umi.im/nas-synology/</guid>
+        <description>&lt;p&gt;10月的时候就打算买一台群晖的NAS了，结果被人忽悠去买iPad了。这个月又有双十一…没钱了，没办法了不能再拖了只好装一台黑群晖了。&lt;/p&gt;
+&lt;p&gt;之前在SMZDM（色魔张大妈）看到这两篇这样的文章：&lt;/p&gt;
+&lt;h2 id=&#34;a-title跳转-hrefhttpshowsmzdmcomdetail43425-target_blank500元-nas-黑群晖-配置完成不含硬盘nas能做什么a&#34;&gt;
+    &lt;a href=&#34;#a-title%e8%b7%b3%e8%bd%ac-hrefhttpshowsmzdmcomdetail43425-target_blank500%e5%85%83-nas-%e9%bb%91%e7%be%a4%e6%99%96-%e9%85%8d%e7%bd%ae%e5%ae%8c%e6%88%90%e4%b8%8d%e5%90%ab%e7%a1%ac%e7%9b%98nas%e8%83%bd%e5%81%9a%e4%bb%80%e4%b9%88a&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;跳转&#34; href=&#34;http://show.smzdm.com/detail/43425&#34; target=&#34;_blank&#34;&gt;500元 NAS 黑群晖 配置完成（不含硬盘），NAS能做什么？&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttpjysmzdmcomdetail20115-target_blanknas群晖dsm-50-4458-傻瓜安装教程a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpjysmzdmcomdetail20115-target_blanknas%e7%be%a4%e6%99%96dsm-50-4458-%e5%82%bb%e7%93%9c%e5%ae%89%e8%a3%85%e6%95%99%e7%a8%8ba&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://jy.smzdm.com/detail/20115&#34; target=&#34;_blank&#34;&gt;NAS群晖DSM 5.0-4458 傻瓜安装教程&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;正好机箱、电源我都有了，可以更低价搞一个。&lt;/p&gt;
+&lt;p&gt;于是，买了富士康的嵌入式CPU的ITX板子（Intel Atom D410、130块），1GB DDR2内存（10块），一张螃蟹千兆网卡（10块），一个U盘（15块），加上已有的电源和机箱，花了183块就搞定了一台黑群晖，配件虽然都是拆机的古董，但是性能比1500块DS213J强。&lt;/p&gt;
+&lt;p&gt;到手后我才想起来，这货只有两个SATA啊！嘛，算了，正好阻止了以后买硬盘。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/FOX-ATOM-D410-MB.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3223&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/FOX-ATOM-D410-MB.jpg&#34; alt=&#34;FOX-ATOM-D410-MB&#34; width=&#34;850&#34; height=&#34;960&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/FOX-ATOM-D410-MB.jpg 850w, https://umi.im/wp-content/uploads/2014/11/FOX-ATOM-D410-MB-132x150.jpg 132w, https://umi.im/wp-content/uploads/2014/11/FOX-ATOM-D410-MB-265x300.jpg 265w&#34; sizes=&#34;(max-width: 850px) 100vw, 850px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;问别人借的两个蓝盘备份数据，因为群晖的DSM系统使用linux的ext4文件系统，所以安装DSM后需要格式化磁盘。&lt;/p&gt;
+&lt;p&gt;最后只备份了不到200GB数据就急忙装上了…&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/WD-BULE-X2.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3225&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/WD-BULE-X2.jpg&#34; alt=&#34;WD-BULE-X2&#34; width=&#34;1280&#34; height=&#34;956&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/WD-BULE-X2.jpg 1280w, https://umi.im/wp-content/uploads/2014/11/WD-BULE-X2-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/11/WD-BULE-X2-300x224.jpg 300w, https://umi.im/wp-content/uploads/2014/11/WD-BULE-X2-1024x764.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;装好后直接启动，到这里的时候去PC端安装DSM系统。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-BOOT.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3226&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-BOOT.jpg&#34; alt=&#34;DSM-BOOT&#34; width=&#34;1280&#34; height=&#34;956&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-BOOT.jpg 1280w, https://umi.im/wp-content/uploads/2014/11/DSM-BOOT-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/11/DSM-BOOT-300x224.jpg 300w, https://umi.im/wp-content/uploads/2014/11/DSM-BOOT-1024x764.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;使用Synology Assistant找到局域网的黑群晖来安装DSM系统，DSM系统是需要通过pat后辍名的文件安装，可以通过官网下载到。&lt;/p&gt;
+&lt;h2 id=&#34;a-titleftp下载-hrefhttpukdlsynologycomftpdsm504493-target_blankindex-of-ftpdsm504493a&#34;&gt;
+    &lt;a href=&#34;#a-titleftp%e4%b8%8b%e8%bd%bd-hrefhttpukdlsynologycomftpdsm504493-target_blankindex-of-ftpdsm504493a&#34;&gt;#&lt;/a&gt;
+    &lt;a title=&#34;FTP下载&#34; href=&#34;http://ukdl.synology.com/ftp/DSM/5.0/4493/&#34; target=&#34;_blank&#34;&gt;Index of /ftp/DSM/5.0/4493&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;img-loadinglazy-decodingasync-classalignnone-size-full-wp-image-3227-srchttpsumiimwp-contentuploads201411dsm-1png-altdsm-1-width696-height608-srcsethttpsumiimwp-contentuploads201411dsm-1png-696w-httpsumiimwp-contentuploads201411dsm-1-150x131png-150w-httpsumiimwp-contentuploads201411dsm-1-300x262png-300w-sizesmax-width-696px-100vw-696px-4&#34;&gt;
+    &lt;a href=&#34;#img-loadinglazy-decodingasync-classalignnone-size-full-wp-image-3227-srchttpsumiimwp-contentuploads201411dsm-1png-altdsm-1-width696-height608-srcsethttpsumiimwp-contentuploads201411dsm-1png-696w-httpsumiimwp-contentuploads201411dsm-1-150x131png-150w-httpsumiimwp-contentuploads201411dsm-1-300x262png-300w-sizesmax-width-696px-100vw-696px-4&#34;&gt;#&lt;/a&gt;
+    &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3227&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-1.png&#34; alt=&#34;DSM-1&#34; width=&#34;696&#34; height=&#34;608&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-1.png 696w, https://umi.im/wp-content/uploads/2014/11/DSM-1-150x131.png 150w, https://umi.im/wp-content/uploads/2014/11/DSM-1-300x262.png 300w&#34; sizes=&#34;(max-width: 696px) 100vw, 696px&#34; /&gt;&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;中间再设置NAS名称、密码等。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3228&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-2.png&#34; alt=&#34;DSM-2&#34; width=&#34;802&#34; height=&#34;632&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-2.png 802w, https://umi.im/wp-content/uploads/2014/11/DSM-2-150x118.png 150w, https://umi.im/wp-content/uploads/2014/11/DSM-2-300x236.png 300w&#34; sizes=&#34;(max-width: 802px) 100vw, 802px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;很快就装好了，然后通过浏览器登陆。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-3.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3229&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-3.jpg&#34; alt=&#34;DSM-3&#34; width=&#34;483&#34; height=&#34;426&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-3.jpg 483w, https://umi.im/wp-content/uploads/2014/11/DSM-3-150x132.jpg 150w, https://umi.im/wp-content/uploads/2014/11/DSM-3-300x264.jpg 300w&#34; sizes=&#34;(max-width: 483px) 100vw, 483px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DSM系统很像Windows 7，窗口预览、多任务切换、桌面小工具什么的。&lt;/p&gt;
+&lt;p&gt;设置什么的就不写了，网上教程很多。&lt;/p&gt;
+&lt;p&gt;安装套件能实现各种功能。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-4.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3230&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-4.jpg&#34; alt=&#34;DSM-4&#34; width=&#34;1280&#34; height=&#34;702&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-4.jpg 1280w, https://umi.im/wp-content/uploads/2014/11/DSM-4-150x82.jpg 150w, https://umi.im/wp-content/uploads/2014/11/DSM-4-300x164.jpg 300w, https://umi.im/wp-content/uploads/2014/11/DSM-4-1024x561.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;因为是黑群晖的原因，型号被识别位DS3612xs，CPU…i3…&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-6.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3232&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-6.png&#34; alt=&#34;DSM-6&#34; width=&#34;995&#34; height=&#34;571&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-6.png 995w, https://umi.im/wp-content/uploads/2014/11/DSM-6-150x86.png 150w, https://umi.im/wp-content/uploads/2014/11/DSM-6-300x172.png 300w&#34; sizes=&#34;(max-width: 995px) 100vw, 995px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;拷贝速度，最多只有64MB/s，不知道什么原因，网卡、网线、路由都是千兆的。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-5.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3231&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-5.png&#34; alt=&#34;DSM-5&#34; width=&#34;452&#34; height=&#34;307&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-5.png 452w, https://umi.im/wp-content/uploads/2014/11/DSM-5-150x101.png 150w, https://umi.im/wp-content/uploads/2014/11/DSM-5-300x203.png 300w&#34; sizes=&#34;(max-width: 452px) 100vw, 452px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载管理，支持迅雷离线，百度云的内容也可以下载，不过要先提取正确的链接。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-DOWNLOAD.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3236&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-DOWNLOAD.png&#34; alt=&#34;DSM-DOWNLOAD&#34; width=&#34;982&#34; height=&#34;582&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-DOWNLOAD.png 982w, https://umi.im/wp-content/uploads/2014/11/DSM-DOWNLOAD-150x88.png 150w, https://umi.im/wp-content/uploads/2014/11/DSM-DOWNLOAD-300x177.png 300w&#34; sizes=&#34;(max-width: 982px) 100vw, 982px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;磁盘映射。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-7.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3240&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-7.png&#34; alt=&#34;DSM-7&#34; width=&#34;827&#34; height=&#34;288&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-7.png 827w, https://umi.im/wp-content/uploads/2014/11/DSM-7-150x52.png 150w, https://umi.im/wp-content/uploads/2014/11/DSM-7-300x104.png 300w&#34; sizes=&#34;(max-width: 827px) 100vw, 827px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Android的DS File文件管理APP，遵循Android Design规范，业界良心。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-FILE-APP.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3233&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-FILE-APP.png&#34; alt=&#34;DSM-FILE-APP&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-FILE-APP.png 768w, https://umi.im/wp-content/uploads/2014/11/DSM-FILE-APP-90x150.png 90w, https://umi.im/wp-content/uploads/2014/11/DSM-FILE-APP-180x300.png 180w, https://umi.im/wp-content/uploads/2014/11/DSM-FILE-APP-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;iOS的DS Photo+相册APP，再iOS中截图完成后通过这个APP上传图片然后在PC的资源管理器中打开路径上传到此篇文章上，方便。&lt;/p&gt;
+&lt;p&gt;打算把各种同人志漫画资源也扔到相册目录然后通过DS Photo+看，节省iPad的存储空间。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-PHOTO-.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3241&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-PHOTO-.jpg&#34; alt=&#34;DSM-PHOTO+&#34; width=&#34;1280&#34; height=&#34;960&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-PHOTO-.jpg 1280w, https://umi.im/wp-content/uploads/2014/11/DSM-PHOTO--150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/11/DSM-PHOTO--300x225.jpg 300w, https://umi.im/wp-content/uploads/2014/11/DSM-PHOTO--1024x768.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;通过小米盒子访问。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-8.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3242&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-8.jpg&#34; alt=&#34;DSM-8&#34; width=&#34;1280&#34; height=&#34;956&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-8.jpg 1280w, https://umi.im/wp-content/uploads/2014/11/DSM-8-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/11/DSM-8-300x224.jpg 300w, https://umi.im/wp-content/uploads/2014/11/DSM-8-1024x764.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;还有好多功能没玩，累死了，不能再写了。&lt;/p&gt;
+&lt;p&gt;电源声音有点吵，打算以后换个DC电源和1U机箱。&lt;/p&gt;
+&lt;p&gt;参考资料：&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;跳转&#34; href=&#34;http://show.smzdm.com/detail/43425&#34; target=&#34;_blank&#34;&gt;500元 NAS 黑群晖 配置完成（不含硬盘），NAS能做什么？&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://jy.smzdm.com/detail/20115&#34; target=&#34;_blank&#34;&gt;NAS群晖DSM 5.0-4458 傻瓜安装教程&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.chiphell.com/thread-580014-1-1.html&#34; target=&#34;_blank&#34;&gt;【DSM全阶段教程】-索引贴&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.gebi1.com/thread-235173-1-1.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;一步一步建立自己的黑群晖&lt;/a&gt;{#thread_subject}&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>双显示器计划</title>
+        <link>https://umi.im/dual-monitor-plan/</link>
+        <pubDate>Wed, 29 Oct 2014 17:10:21 +0000</pubDate>
+        
+        <guid>https://umi.im/dual-monitor-plan/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/QQ-20141028132156.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3133&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/QQ-20141028132156.png&#34; alt=&#34;QQ-20141028132156&#34; width=&#34;552&#34; height=&#34;150&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/QQ-20141028132156.png 552w, https://umi.im/wp-content/uploads/2014/10/QQ-20141028132156-150x40.png 150w, https://umi.im/wp-content/uploads/2014/10/QQ-20141028132156-300x81.png 300w&#34; sizes=&#34;(max-width: 552px) 100vw, 552px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/IMG_0467.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3134&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/IMG_0467.jpg&#34; alt=&#34;IMG_0467&#34; width=&#34;1233&#34; height=&#34;921&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/IMG_0467.jpg 1233w, https://umi.im/wp-content/uploads/2014/10/IMG_0467-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/10/IMG_0467-300x224.jpg 300w, https://umi.im/wp-content/uploads/2014/10/IMG_0467-1024x764.jpg 1024w&#34; sizes=&#34;(max-width: 1233px) 100vw, 1233px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;好像很屌，蠢蠢欲动。&lt;/p&gt;
+&lt;p&gt;去淘宝买台洋垃圾的EIZO显示器也就一百两百多。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/taobao-eizo.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3135&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/taobao-eizo.png&#34; alt=&#34;taobao-eizo&#34; width=&#34;730&#34; height=&#34;356&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/taobao-eizo.png 730w, https://umi.im/wp-content/uploads/2014/10/taobao-eizo-150x73.png 150w, https://umi.im/wp-content/uploads/2014/10/taobao-eizo-300x146.png 300w&#34; sizes=&#34;(max-width: 730px) 100vw, 730px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;或者以后买了新显示器把退役的竖立起来也不错，如下图。&lt;br&gt;
+不过我的显示器原装支架不能竖立，因为没有壁挂孔所以也安装不了别的支架，横放桌子好像不够长…&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/DSC_0259.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3136&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/DSC_0259.jpg&#34; alt=&#34;DSC_0259&#34; width=&#34;1228&#34; height=&#34;921&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/DSC_0259.jpg 1228w, https://umi.im/wp-content/uploads/2014/10/DSC_0259-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/10/DSC_0259-300x225.jpg 300w, https://umi.im/wp-content/uploads/2014/10/DSC_0259-1024x768.jpg 1024w&#34; sizes=&#34;(max-width: 1228px) 100vw, 1228px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>朋友的朋友的爸爸去他同学电脑城认识的人那里装了一台电脑</title>
+        <link>https://umi.im/computer-city-js/</link>
+        <pubDate>Wed, 10 Sep 2014 02:59:02 +0000</pubDate>
+        
+        <guid>https://umi.im/computer-city-js/</guid>
+        <description>&lt;p&gt;然后朋友和我说他朋友的那台电脑很卡，让我看一下。&lt;/p&gt;
+&lt;p&gt;据说3300块装的台式机，不看不知道，一看吓一跳。&lt;/p&gt;
+&lt;p&gt;代号Kabini的APU，怎么这么眼熟。&lt;/p&gt;
+&lt;p&gt;想起来了！这货不是AMD的移动版APU么，往下看，主板还是Lenovo（联想）的，醉了，DIY主机还有联想的主板？&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/QQ20140910103916.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2969&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/QQ20140910103916.jpg&#34; alt=&#34;QQ20140910103916&#34; width=&#34;590&#34; height=&#34;479&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/QQ20140910103916.jpg 590w, https://umi.im/wp-content/uploads/2014/09/QQ20140910103916-150x121.jpg 150w, https://umi.im/wp-content/uploads/2014/09/QQ20140910103916-300x243.jpg 300w&#34; sizes=&#34;(max-width: 590px) 100vw, 590px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;然后让发了个CPU-Z截图看看。&lt;/p&gt;
+&lt;p&gt;我去，14W的APU，频率只有1.3GHz，晕了！&lt;/p&gt;
+&lt;p&gt;BGA封装（嵌入式）的CPU，这真的不是笔记本么！！！&lt;/p&gt;
+&lt;p&gt;再三确认，这是台式机。&lt;/p&gt;
+&lt;p&gt;好吧。电脑城JS牛逼了，给台式机弄了个笔记本的配置。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/QQ%e5%9b%be%e7%89%8720140910103927.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2970&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/QQ图片20140910103927.jpg&#34; alt=&#34;QQ图片20140910103927&#34; width=&#34;548&#34; height=&#34;374&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/QQ图片20140910103927.jpg 548w, https://umi.im/wp-content/uploads/2014/09/QQ图片20140910103927-150x102.jpg 150w, https://umi.im/wp-content/uploads/2014/09/QQ图片20140910103927-300x204.jpg 300w&#34; sizes=&#34;(max-width: 548px) 100vw, 548px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;最后发现，这货就是品牌机啊。&lt;/p&gt;
+&lt;p&gt;联想真屌，这种台式机也敢卖。&lt;/p&gt;
+&lt;p&gt;JS也是，这货能卖？&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>换了个散热 ~ 整个世界都清静了！</title>
+        <link>https://umi.im/deepcool-400/</link>
+        <pubDate>Sat, 10 May 2014 11:28:28 +0000</pubDate>
+        
+        <guid>https://umi.im/deepcool-400/</guid>
+        <description>&lt;p&gt;好吧！一直用着AMD的原装散热，忍受着直升飞机般的声响（5K转）然后宕机。&lt;/p&gt;
+&lt;h3 style=&#34;color: #666666;&#34;&gt;
+  &lt;a title=&#34;JD&#34; href=&#34;http://item.jd.com/598827.html&#34; target=&#34;_blank&#34;&gt;九州风神（DEEPCOOL） 玄冰400 多平台 CPU散热器 12025发光风扇 四热管&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;就是这货，据说100以内无敌手，还带灯，灯控就这样抛弃了风灵。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/05/DEEPCOOL-400.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2277&#34; src=&#34;https://umi.im/wp-content/uploads/2014/05/DEEPCOOL-400.jpg&#34; alt=&#34;DEEPCOOL-400&#34; width=&#34;960&#34; height=&#34;1280&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/05/DEEPCOOL-400.jpg 960w, https://umi.im/wp-content/uploads/2014/05/DEEPCOOL-400-112x150.jpg 112w, https://umi.im/wp-content/uploads/2014/05/DEEPCOOL-400-225x300.jpg 225w, https://umi.im/wp-content/uploads/2014/05/DEEPCOOL-400-768x1024.jpg 768w&#34; sizes=&#34;(max-width: 960px) 100vw, 960px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;温度很满意！&amp;lt;(￣︶￣)&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/05/AIDA64-2014-05.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2276&#34; src=&#34;https://umi.im/wp-content/uploads/2014/05/AIDA64-2014-05.png&#34; alt=&#34;AIDA64-2014-05&#34; width=&#34;401&#34; height=&#34;260&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/05/AIDA64-2014-05.png 401w, https://umi.im/wp-content/uploads/2014/05/AIDA64-2014-05-150x97.png 150w, https://umi.im/wp-content/uploads/2014/05/AIDA64-2014-05-300x194.png 300w&#34; sizes=&#34;(max-width: 401px) 100vw, 401px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>帮老同学装台低阶主机</title>
+        <link>https://umi.im/2014-04-computer-diy/</link>
+        <pubDate>Sun, 06 Apr 2014 07:34:31 +0000</pubDate>
+        
+        <guid>https://umi.im/2014-04-computer-diy/</guid>
+        <description>&lt;p&gt;老同学老家的主机坏了，打算去修，然后我建议直接换新，所以有了这货。&lt;/p&gt;
+&lt;p&gt;预算只有1500，随便弄台APU主机吧，反正也是用来看视频的，随便弄台，总价1564。_(:3ゝ∠)_&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1978&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy.png&#34; alt=&#34;2014-04-computer-diy&#34; width=&#34;728&#34; height=&#34;320&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy.png 728w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-150x65.png 150w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-300x131.png 300w&#34; sizes=&#34;(max-width: 728px) 100vw, 728px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;APU，&lt;a title=&#34;JD&#34; href=&#34;http://item.jd.com/744230.html&#34; target=&#34;_blank&#34;&gt;A8-5600K&lt;/a&gt;，弄了好多台APU的主机。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-APU.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1987&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-APU.jpg&#34; alt=&#34;2014-04-computer-diy-APU&#34; width=&#34;960&#34; height=&#34;1280&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-APU.jpg 960w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-APU-112x150.jpg 112w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-APU-225x300.jpg 225w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-APU-768x1024.jpg 768w&#34; sizes=&#34;(max-width: 960px) 100vw, 960px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;华擎家的主板便宜，&lt;a title=&#34;BAKATD&#34; href=&#34;https://umi.im/asrock-quality-poor/&#34; target=&#34;_blank&#34;&gt;质量不敢恭维&lt;/a&gt;，不过有京东售后不怕，保三年。&lt;/p&gt;
+&lt;p&gt;因为没注意看，发现这货竟然没有DVI口！卧槽，只有一个VGA，TMD逗老娘么！_(:3ゝ∠)_&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-MB.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1991&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-MB.jpg&#34; alt=&#34;2014-04-computer-diy-MB&#34; width=&#34;1280&#34; height=&#34;960&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-MB.jpg 1280w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-MB-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-MB-300x225.jpg 300w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-MB-1024x768.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;随便挑一条便宜的，没买过的内存。←_←&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-Memory.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1993&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-Memory.jpg&#34; alt=&#34;2014-04-computer-diy-Memory&#34; width=&#34;1280&#34; height=&#34;960&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-Memory.jpg 1280w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-Memory-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-Memory-300x225.jpg 300w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-Memory-1024x768.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;好像是国内市场能买到的最便宜的台达电源了，外形非常山寨。&lt;/p&gt;
+&lt;p&gt;魂淡250W别写那么大啊！Orz&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-POWER.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1994&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-POWER.jpg&#34; alt=&#34;2014-04-computer-diy-POWER&#34; width=&#34;1280&#34; height=&#34;960&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-POWER.jpg 1280w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-POWER-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-POWER-300x225.jpg 300w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-POWER-1024x768.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;杂牌SSD，300不到，好像和我的速度差不多，再烂的SSD速度也比HDD高一个档次，遂入。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-SSD.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1995&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-SSD.jpg&#34; alt=&#34;2014-04-computer-diy-SSD&#34; width=&#34;1280&#34; height=&#34;960&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-SSD.jpg 1280w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-SSD-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-SSD-300x225.jpg 300w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-SSD-1024x768.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原来的希捷250GB硬盘，又是250，老脑补&lt;a title=&#34;bilibili&#34; href=&#34;http://www.bilibili.tv/video/av1039401/&#34; target=&#34;_blank&#34;&gt;中国电视史&lt;/a&gt;的二百六。233&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-HDD.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1989&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-HDD.jpg&#34; alt=&#34;2014-04-computer-diy-HDD&#34; width=&#34;960&#34; height=&#34;1280&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-HDD.jpg 960w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-HDD-112x150.jpg 112w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-HDD-225x300.jpg 225w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-HDD-768x1024.jpg 768w&#34; sizes=&#34;(max-width: 960px) 100vw, 960px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;走线好难看啊！_(:3ゝ∠)_&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-13.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1985&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-13.jpg&#34; alt=&#34;2014-04-computer-diy-1&#34; width=&#34;960&#34; height=&#34;1280&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-13.jpg 960w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-13-112x150.jpg 112w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-13-225x300.jpg 225w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-13-768x1024.jpg 768w&#34; sizes=&#34;(max-width: 960px) 100vw, 960px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;弄好了，在我家，其实开着的是我的主机。o(∩_∩)o&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-2.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1986&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-2.jpg&#34; alt=&#34;2014-04-computer-diy-2&#34; width=&#34;1279&#34; height=&#34;868&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-2.jpg 1279w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-2-150x101.jpg 150w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-2-300x203.jpg 300w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-2-1024x694.jpg 1024w&#34; sizes=&#34;(max-width: 1279px) 100vw, 1279px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;突然，邮政来电话，有快递。&lt;/p&gt;
+&lt;p&gt;以为是我在易迅买的鼠标到了，赶紧过去看！&lt;/p&gt;
+&lt;p&gt;然后。。。&lt;/p&gt;
+&lt;p&gt;这什么玩意啊。。。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-EMS.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1988&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-EMS.jpg&#34; alt=&#34;2014-04-computer-diy-EMS&#34; width=&#34;1280&#34; height=&#34;960&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-EMS.jpg 1280w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-EMS-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-EMS-300x225.jpg 300w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-EMS-1024x768.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;发票！卧槽，&lt;a title=&#34;JD&#34; href=&#34;https://umi.im/jd-aftermarket-gj/&#34; target=&#34;_blank&#34;&gt;上次返修主板&lt;/a&gt;的发票，京东没发回来，我以为本来就不会再发回来。_(:3ゝ∠)_&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-JD.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1990&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-JD.jpg&#34; alt=&#34;2014-04-computer-diy-JD&#34; width=&#34;1280&#34; height=&#34;960&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-JD.jpg 1280w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-JD-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-JD-300x225.jpg 300w, https://umi.im/wp-content/uploads/2014/04/2014-04-computer-diy-JD-1024x768.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>超强悍军事宅PC MOD</title>
+        <link>https://umi.im/case-mod/</link>
+        <pubDate>Thu, 26 Dec 2013 20:21:24 +0000</pubDate>
+        
+        <guid>https://umi.im/case-mod/</guid>
+        <description>&lt;p&gt;这个简直屌炸天的MOD，连U盘，鼠标，键盘都不放过啊。&lt;/p&gt;
+&lt;p&gt;日本设计师 Hiroto Ikeuchi 花了大半年才完成了这部作品。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/casemod10.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-997&#34; alt=&#34;casemod10&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/casemod10.jpg&#34; width=&#34;1280&#34; height=&#34;824&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/12/casemod10.jpg 1280w, https://umi.im/wp-content/uploads/2013/12/casemod10-300x193.jpg 300w, https://umi.im/wp-content/uploads/2013/12/casemod10-1024x659.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/casemod1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-991&#34; alt=&#34;casemod1&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/casemod1.jpg&#34; width=&#34;1280&#34; height=&#34;853&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/12/casemod1.jpg 1280w, https://umi.im/wp-content/uploads/2013/12/casemod1-300x199.jpg 300w, https://umi.im/wp-content/uploads/2013/12/casemod1-1024x682.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/casemod6.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-994&#34; alt=&#34;casemod6&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/casemod6.jpg&#34; width=&#34;1280&#34; height=&#34;853&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/12/casemod6.jpg 1280w, https://umi.im/wp-content/uploads/2013/12/casemod6-300x199.jpg 300w, https://umi.im/wp-content/uploads/2013/12/casemod6-1024x682.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/casemod4.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-993&#34; alt=&#34;casemod4&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/casemod4.jpg&#34; width=&#34;1280&#34; height=&#34;924&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/12/casemod4.jpg 1280w, https://umi.im/wp-content/uploads/2013/12/casemod4-300x216.jpg 300w, https://umi.im/wp-content/uploads/2013/12/casemod4-1024x739.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/casemod20.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1004&#34; alt=&#34;casemod20&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/casemod20.jpg&#34; width=&#34;1280&#34; height=&#34;853&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/12/casemod20.jpg 1280w, https://umi.im/wp-content/uploads/2013/12/casemod20-300x199.jpg 300w, https://umi.im/wp-content/uploads/2013/12/casemod20-1024x682.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/casemod3.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-992&#34; alt=&#34;casemod3&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/casemod3.jpg&#34; width=&#34;1280&#34; height=&#34;853&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/12/casemod3.jpg 1280w, https://umi.im/wp-content/uploads/2013/12/casemod3-300x199.jpg 300w, https://umi.im/wp-content/uploads/2013/12/casemod3-1024x682.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/casemod7.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-995&#34; alt=&#34;casemod7&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/casemod7.jpg&#34; width=&#34;1280&#34; height=&#34;853&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/12/casemod7.jpg 1280w, https://umi.im/wp-content/uploads/2013/12/casemod7-300x199.jpg 300w, https://umi.im/wp-content/uploads/2013/12/casemod7-1024x682.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/casemod8.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-996&#34; alt=&#34;casemod8&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/casemod8.jpg&#34; width=&#34;1280&#34; height=&#34;853&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/12/casemod8.jpg 1280w, https://umi.im/wp-content/uploads/2013/12/casemod8-300x199.jpg 300w, https://umi.im/wp-content/uploads/2013/12/casemod8-1024x682.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/casemod14.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-999&#34; alt=&#34;casemod14&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/casemod14.jpg&#34; width=&#34;1280&#34; height=&#34;913&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/12/casemod14.jpg 1280w, https://umi.im/wp-content/uploads/2013/12/casemod14-300x213.jpg 300w, https://umi.im/wp-content/uploads/2013/12/casemod14-1024x730.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/casemod17.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1001&#34; alt=&#34;casemod17&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/casemod17.jpg&#34; width=&#34;1280&#34; height=&#34;853&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/12/casemod17.jpg 1280w, https://umi.im/wp-content/uploads/2013/12/casemod17-300x199.jpg 300w, https://umi.im/wp-content/uploads/2013/12/casemod17-1024x682.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/casemod11.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-998&#34; alt=&#34;casemod11&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/casemod11.jpg&#34; width=&#34;1024&#34; height=&#34;683&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/12/casemod11.jpg 1024w, https://umi.im/wp-content/uploads/2013/12/casemod11-300x200.jpg 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/casemod18.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1002&#34; alt=&#34;casemod18&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/casemod18.jpg&#34; width=&#34;1280&#34; height=&#34;853&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/12/casemod18.jpg 1280w, https://umi.im/wp-content/uploads/2013/12/casemod18-300x199.jpg 300w, https://umi.im/wp-content/uploads/2013/12/casemod18-1024x682.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/casemod15.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1000&#34; alt=&#34;casemod15&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/casemod15.jpg&#34; width=&#34;1280&#34; height=&#34;853&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/12/casemod15.jpg 1280w, https://umi.im/wp-content/uploads/2013/12/casemod15-300x199.jpg 300w, https://umi.im/wp-content/uploads/2013/12/casemod15-1024x682.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/casemod19.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1003&#34; alt=&#34;casemod19&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/casemod19.jpg&#34; width=&#34;1280&#34; height=&#34;866&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/12/casemod19.jpg 1280w, https://umi.im/wp-content/uploads/2013/12/casemod19-300x202.jpg 300w, https://umi.im/wp-content/uploads/2013/12/casemod19-1024x692.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;来源：&lt;a class=&#34;link&#34; href=&#34;http://www.wired.com/design/2013/12/case-mod-masterpiece/?viewall=true&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://www.wired.com/design/2013/12/case-mod-masterpiece/?viewall=true&lt;/a&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>分区表挂了 QAQ</title>
+        <link>https://umi.im/%E5%88%86%E5%8C%BA%E8%A1%A8%E6%8C%82%E4%BA%86-qaq/</link>
+        <pubDate>Thu, 21 Nov 2013 01:20:43 +0000</pubDate>
+        
+        <guid>https://umi.im/%E5%88%86%E5%8C%BA%E8%A1%A8%E6%8C%82%E4%BA%86-qaq/</guid>
+        <description>&lt;p&gt;心中无数只草泥马滚过啊！！！！！！！！！！！！！！！！！！！！&lt;/p&gt;
+&lt;p&gt;1.3T的Anime！！！！！&lt;/p&gt;
+&lt;p&gt;各种无损！！！!&lt;/p&gt;
+&lt;p&gt;无数软件！！！！！&lt;/p&gt;
+&lt;p&gt;一堆全彩的本子！！！！&lt;/p&gt;
+&lt;p&gt;万张图片！！！！！！&lt;/p&gt;
+&lt;p&gt;还有一大堆连七八糟的东西！！！！！！&lt;/p&gt;
+&lt;p&gt;想死的心都有了！！！！&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;准备填坑，把需要的东西都传网盘了。&lt;/p&gt;
+&lt;p&gt;50k水管将全力运作！&lt;/p&gt;
+&lt;p&gt;忙了一夜总算把歌曲补回来了，明天还得弄标签。&lt;/p&gt;
+&lt;p&gt;还好动画的种子都备份了，不然哭死啊！！！&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;挖坑&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

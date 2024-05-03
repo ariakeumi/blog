@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Mac on 笨蛋屋</title>
+        <link>https://umi.im/tags/mac/</link>
+        <description>Recent content in Mac on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Tue, 06 Jan 2015 11:21:28 +0000</lastBuildDate><atom:link href="https://umi.im/tags/mac/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>OS X 10.10 Yosemite 黑苹果安装手记</title>
+        <link>https://umi.im/os-x-10-10-yosemite/</link>
+        <pubDate>Tue, 06 Jan 2015 11:21:28 +0000</pubDate>
+        
+        <guid>https://umi.im/os-x-10-10-yosemite/</guid>
+        <description>&lt;p&gt;朋友为了玩FF14升级PC平台，然后把旧平台送我了，好朋友啊！！！&lt;/p&gt;
+&lt;p&gt;他的新平台：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;CPU i7-4790K&lt;/p&gt;
+&lt;p&gt;GPU GTX970&lt;/p&gt;
+&lt;p&gt;MB MSI Z97&lt;/p&gt;
+&lt;p&gt;RAM Kingston 8GB DDR3&lt;/p&gt;
+&lt;p&gt;SSD Toshiba 256GB&lt;/p&gt;
+&lt;p&gt;Power Antec Neo Eco 550M&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;送我的旧平台：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;CPU i5-2380P&lt;/p&gt;
+&lt;p&gt;GPU GTX550Ti&lt;/p&gt;
+&lt;p&gt;MB GA B75&lt;/p&gt;
+&lt;p&gt;RAM Corsair 4GB DDR3&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/01/i5-gtx550ti-4gram-b75.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3417&#34; src=&#34;https://umi.im/wp-content/uploads/2015/01/i5-gtx550ti-4gram-b75.jpg&#34; alt=&#34;i5-gtx550ti-4gram-b75&#34; width=&#34;1843&#34; height=&#34;1382&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/01/i5-gtx550ti-4gram-b75.jpg 1843w, https://umi.im/wp-content/uploads/2015/01/i5-gtx550ti-4gram-b75-150x112.jpg 150w, https://umi.im/wp-content/uploads/2015/01/i5-gtx550ti-4gram-b75-300x225.jpg 300w, https://umi.im/wp-content/uploads/2015/01/i5-gtx550ti-4gram-b75-1024x768.jpg 1024w&#34; sizes=&#34;(max-width: 1843px) 100vw, 1843px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;得到新平台打算做的第一件事就是装上黑苹果，然后再玩GTA。以前的是Llano APU集显平台，装不了黑苹果，也玩不了GTA，虽然GTX550Ti也不一定能玩…&lt;/p&gt;
+&lt;p&gt;黑苹果对硬件要求很严格，技嘉的主板比较容易搞，但是我的是ITX机箱，还得再买了块技嘉1155接口的ITX板子。&lt;/p&gt;
+&lt;p&gt;1155的ITX板停产应该很久了，淘宝很少货，找到3个合适的。&lt;/p&gt;
+&lt;p&gt;二手GA-H67N-USB3-B3，价格325。&lt;/p&gt;
+&lt;p&gt;GA-B75N-WIFI，价格599。&lt;/p&gt;
+&lt;p&gt;GA-H77N-WIFI，价格599。&lt;/p&gt;
+&lt;p&gt;B75N-WIFI和H77N-WIFI主要是多了双网卡、无线网卡、蓝牙这些对我没用的功能，而且也不好驱动，大概…所以选了最便宜的二手H67。&lt;/p&gt;
+&lt;p&gt;ITX机箱装起来就是麻烦，线怎么理还是乱，把琴里扔进去。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/01/new-PC-kotoli.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3414&#34; src=&#34;https://umi.im/wp-content/uploads/2015/01/new-PC-kotoli.jpg&#34; alt=&#34;new-PC-kotoli&#34; width=&#34;1728&#34; height=&#34;2304&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/01/new-PC-kotoli.jpg 1728w, https://umi.im/wp-content/uploads/2015/01/new-PC-kotoli-113x150.jpg 113w, https://umi.im/wp-content/uploads/2015/01/new-PC-kotoli-225x300.jpg 225w, https://umi.im/wp-content/uploads/2015/01/new-PC-kotoli-768x1024.jpg 768w&#34; sizes=&#34;(max-width: 1728px) 100vw, 1728px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在收到硬件前看了很多远景上黑苹果的帖子，先整理下比较重要的吧。&lt;/p&gt;
+&lt;p&gt;安装前：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://bbs.pcbeta.com/viewthread-1494831-1-1.html&#34; target=&#34;_blank&#34;&gt;黑苹果新手引导, 常见疑难解答, 必要知识普及帖&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;安装镜像：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://bbs.pcbeta.com/viewthread-1550906-1-1.html&#34; target=&#34;_blank&#34;&gt;Yosemite 10.10 和 10.10.1 正式版 懒人版安装镜像 支持变色龙 Clover引导 支持虚拟机&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;懒人版安装简单，合适我。&lt;/p&gt;
+&lt;p&gt;引导方法：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://bbs.pcbeta.com/viewthread-1518901-1-1.html&#34; target=&#34;_blank&#34;&gt;Windows下使用变色龙r2378+ 引导 OS X 10.10 懒人版安装超详细完整图文通用教程&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://bbs.pcbeta.com/viewthread-1518850-1-1.html&#34; target=&#34;_blank&#34;&gt;【变色龙】支持 10.10 的 Chameleon_2.3svn_r2529 Mac版+Win版+EFI_Tools&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Clover+EFI 好像很难，最终选择了变色龙+MRB引导安装， 使用EasyBCM添加wowpc.iso来安装变色龙引导，我用的是修改版的 Chameleon_2.2svn_r2402_10.10_CBv2_pkg+wowpc 。&lt;/p&gt;
+&lt;p&gt;详细安装方法：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://bbs.pcbeta.com/viewthread-1169005-1-1.html&#34; target=&#34;_blank&#34;&gt;在 win7 / win8 下安装苹果系统 (懒人版)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;排错方法：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://bbs.pcbeta.com/viewthread-863656-1-1.html&#34; target=&#34;_blank&#34;&gt;新手常见(五国)(-v图)错误解决(原版,破解kernel,补丁kext下载)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;分区，写入安装映像、安装引导这些很简单，教程写的也很清楚，也不会出什么错，就不放图了。&lt;/p&gt;
+&lt;p&gt;安装的时候才是麻烦。&lt;/p&gt;
+&lt;p&gt;第一次安装，遇到Pci Configuration Begin错误，安装上面帖子的排错方法Q18。启动时加入『-v npci=0×2000 或 npci=0×3000』依旧不行，在org.chameleon.Boot.plist 加入&lt;/p&gt;
+&lt;p&gt;&lt;key&gt;Kernel Flags&lt;/key&gt;&lt;br&gt;
+&lt;string&gt;npci=0×2000&lt;/string&gt;&lt;/p&gt;
+&lt;p&gt;也不行，替换文件试了还是不行。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/01/205422t1ja4scq4zgseg1c.jpg.thumb_.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3394&#34; src=&#34;https://umi.im/wp-content/uploads/2015/01/205422t1ja4scq4zgseg1c.jpg.thumb_.jpg&#34; alt=&#34;205422t1ja4scq4zgseg1c.jpg.thumb&#34; width=&#34;640&#34; height=&#34;478&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/01/205422t1ja4scq4zgseg1c.jpg.thumb_.jpg 640w, https://umi.im/wp-content/uploads/2015/01/205422t1ja4scq4zgseg1c.jpg.thumb_-150x112.jpg 150w, https://umi.im/wp-content/uploads/2015/01/205422t1ja4scq4zgseg1c.jpg.thumb_-300x224.jpg 300w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;各种方法试了无数次还是不行，整个人都快崩溃了，最后确定放弃安装Yosemite，去安装OS X Mavericks试试，然后安装很顺利很快就搞定了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/01/OS-X-Mavericks.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3398&#34; src=&#34;https://umi.im/wp-content/uploads/2015/01/OS-X-Mavericks.jpg&#34; alt=&#34;OS X Mavericks&#34; width=&#34;1920&#34; height=&#34;1080&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/01/OS-X-Mavericks.jpg 1920w, https://umi.im/wp-content/uploads/2015/01/OS-X-Mavericks-150x84.jpg 150w, https://umi.im/wp-content/uploads/2015/01/OS-X-Mavericks-300x169.jpg 300w, https://umi.im/wp-content/uploads/2015/01/OS-X-Mavericks-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1920px) 100vw, 1920px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;显卡原生驱动，声卡没驱动，然后搞着搞着又进不了系统了，一怒下继续装Yosemite！&lt;/p&gt;
+&lt;p&gt;接着又是遇到那个错误，重复着搜索『Pci Configuration Begin』等关键词，终于爬到一张英文帖子。&lt;/p&gt;
+&lt;p&gt;其中一条回复，把10.9.5的的AppleACPIPlataform.kext替换进去，应该是这个意思吧。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/01/yosemite-Pci-Configuration-Begin.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3399&#34; src=&#34;https://umi.im/wp-content/uploads/2015/01/yosemite-Pci-Configuration-Begin.png&#34; alt=&#34;yosemite-Pci Configuration Begin&#34; width=&#34;959&#34; height=&#34;405&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/01/yosemite-Pci-Configuration-Begin.png 959w, https://umi.im/wp-content/uploads/2015/01/yosemite-Pci-Configuration-Begin-150x63.png 150w, https://umi.im/wp-content/uploads/2015/01/yosemite-Pci-Configuration-Begin-300x127.png 300w&#34; sizes=&#34;(max-width: 959px) 100vw, 959px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我试着做，搜到10.9.5的AppleACPIPlataform.kext，替换进去，结果让人激动，跳过了PCI错误。&lt;/p&gt;
+&lt;p&gt;接着，新的错误又出现了。&lt;/p&gt;
+&lt;p&gt;NVDRstartup:Official 后黑屏了，只能强制关机。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/01/NVdastartup1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3401&#34; src=&#34;https://umi.im/wp-content/uploads/2015/01/NVdastartup1.jpg&#34; alt=&#34;NVdastartup&#34; width=&#34;1296&#34; height=&#34;967&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/01/NVdastartup1.jpg 1296w, https://umi.im/wp-content/uploads/2015/01/NVdastartup1-150x112.jpg 150w, https://umi.im/wp-content/uploads/2015/01/NVdastartup1-300x224.jpg 300w, https://umi.im/wp-content/uploads/2015/01/NVdastartup1-1024x764.jpg 1024w&#34; sizes=&#34;(max-width: 1296px) 100vw, 1296px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;进入Windows找到S\L\E下的NVDRstartup.kext删掉（备份好，安装完成还要替换回去才能驱动显卡），继续尝试进安装界面。&lt;/p&gt;
+&lt;p&gt;结果奇迹般的成功了，很顺利的安装了，安装完成后需要进入Windows复制文件，但是这时候是进不了Windows的，需要进PE用DiskGenius激活Win分区，我激活系统分区还是进不了，激活300M左右的那个系统保留分区就能进了。&lt;/p&gt;
+&lt;p&gt;把安装分区Extra目录复制到OS X系统分区目录下，然后重启 -v -f 进入设置向导界面。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/01/OSX-Setup-Wizard.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3403&#34; src=&#34;https://umi.im/wp-content/uploads/2015/01/OSX-Setup-Wizard.jpg&#34; alt=&#34;OSX-Setup Wizard&#34; width=&#34;1296&#34; height=&#34;967&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/01/OSX-Setup-Wizard.jpg 1296w, https://umi.im/wp-content/uploads/2015/01/OSX-Setup-Wizard-150x112.jpg 150w, https://umi.im/wp-content/uploads/2015/01/OSX-Setup-Wizard-300x224.jpg 300w, https://umi.im/wp-content/uploads/2015/01/OSX-Setup-Wizard-1024x764.jpg 1024w&#34; sizes=&#34;(max-width: 1296px) 100vw, 1296px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;设置完成系统就安装好了，接下来搞驱动。&lt;/p&gt;
+&lt;p&gt;用Multibeast，参照自己的硬件勾选然后安装重启就可以了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/01/MultiBeast-yosemite1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3406&#34; src=&#34;https://umi.im/wp-content/uploads/2015/01/MultiBeast-yosemite1.png&#34; alt=&#34;MultiBeast-yosemite&#34; width=&#34;913&#34; height=&#34;740&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/01/MultiBeast-yosemite1.png 913w, https://umi.im/wp-content/uploads/2015/01/MultiBeast-yosemite1-150x122.png 150w, https://umi.im/wp-content/uploads/2015/01/MultiBeast-yosemite1-300x243.png 300w&#34; sizes=&#34;(max-width: 913px) 100vw, 913px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;声卡、网卡、USB3.0、SSD TRIM都成功搞定。&lt;/p&gt;
+&lt;p&gt;只有显卡驱动失败，3M显存，鼠标移动都卡出翔的感觉。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/01/Yosemite-GPU.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3404&#34; src=&#34;https://umi.im/wp-content/uploads/2015/01/Yosemite-GPU.jpg&#34; alt=&#34;Yosemite-GPU&#34; width=&#34;1026&#34; height=&#34;766&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/01/Yosemite-GPU.jpg 1026w, https://umi.im/wp-content/uploads/2015/01/Yosemite-GPU-150x112.jpg 150w, https://umi.im/wp-content/uploads/2015/01/Yosemite-GPU-300x224.jpg 300w, https://umi.im/wp-content/uploads/2015/01/Yosemite-GPU-1024x765.jpg 1024w&#34; sizes=&#34;(max-width: 1026px) 100vw, 1026px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;编辑变色龙的引导文件，开启显卡侦测，成功识别显卡。&lt;/p&gt;
+&lt;p&gt;但是分辨率、双显示器什么的都弄不了，还是一样卡顿。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/01/Yosemite-Gpu-info.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3407&#34; src=&#34;https://umi.im/wp-content/uploads/2015/01/Yosemite-Gpu-info.png&#34; alt=&#34;Yosemite-Gpu-info&#34; width=&#34;591&#34; height=&#34;360&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/01/Yosemite-Gpu-info.png 591w, https://umi.im/wp-content/uploads/2015/01/Yosemite-Gpu-info-150x91.png 150w, https://umi.im/wp-content/uploads/2015/01/Yosemite-Gpu-info-300x183.png 300w&#34; sizes=&#34;(max-width: 591px) 100vw, 591px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;然后我用Kext Wizard修改权限，重建缓存，执行然后重启。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/01/Kext-Wizard.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3408&#34; src=&#34;https://umi.im/wp-content/uploads/2015/01/Kext-Wizard.png&#34; alt=&#34;Kext Wizard&#34; width=&#34;569&#34; height=&#34;574&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/01/Kext-Wizard.png 569w, https://umi.im/wp-content/uploads/2015/01/Kext-Wizard-150x150.png 150w, https://umi.im/wp-content/uploads/2015/01/Kext-Wizard-297x300.png 297w, https://umi.im/wp-content/uploads/2015/01/Kext-Wizard-80x80.png 80w&#34; sizes=&#34;(max-width: 569px) 100vw, 569px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;最后，终于解脱成功了，硬件基本都驱动起来了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/01/mac-osx-10.10-Yosemite-cool.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3410&#34; src=&#34;https://umi.im/wp-content/uploads/2015/01/mac-osx-10.10-Yosemite-cool.jpg&#34; alt=&#34;mac-osx-10.10-Yosemite-cool&#34; width=&#34;1920&#34; height=&#34;1080&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/01/mac-osx-10.10-Yosemite-cool.jpg 1920w, https://umi.im/wp-content/uploads/2015/01/mac-osx-10.10-Yosemite-cool-150x84.jpg 150w, https://umi.im/wp-content/uploads/2015/01/mac-osx-10.10-Yosemite-cool-300x169.jpg 300w, https://umi.im/wp-content/uploads/2015/01/mac-osx-10.10-Yosemite-cool-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1920px) 100vw, 1920px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;以为这样完了，但是最后的最后我确定了，我这张技嘉的 H67N-UBS3-B3 竟然会啸叫，而且声音还不小，深夜的时候根本无法静下心来！&lt;/p&gt;
+&lt;p&gt;关掉了CPU节能选项，声音终于没了，但是睿频就没了，不甘心。&lt;/p&gt;
+&lt;p&gt;过两天退了这块主板入那块GA-H77N-WIFI吧。&lt;/p&gt;
+&lt;p&gt;累死了…休息。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

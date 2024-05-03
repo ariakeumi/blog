@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>域名 on 笨蛋屋</title>
+        <link>https://umi.im/tags/%E5%9F%9F%E5%90%8D/</link>
+        <description>Recent content in 域名 on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Tue, 09 Apr 2024 22:54:21 +0000</lastBuildDate><atom:link href="https://umi.im/tags/%E5%9F%9F%E5%90%8D/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>博客域名 NS 从 DNSPOD 转移到 Cloudflare</title>
+        <link>https://umi.im/dnspod-to-cloudflare/</link>
+        <pubDate>Tue, 09 Apr 2024 22:54:21 +0000</pubDate>
+        
+        <guid>https://umi.im/dnspod-to-cloudflare/</guid>
+        <description>&lt;img src="https://umi.im/wp-content/uploads/2024/04/CF_MetaImage.webp" alt="Featured image of post 博客域名 NS 从 DNSPOD 转移到 Cloudflare" /&gt;&lt;h2 id=&#34;吐槽&#34;&gt;
+    &lt;a href=&#34;#%e5%90%90%e6%a7%bd&#34;&gt;#&lt;/a&gt;
+    吐槽
+&lt;/h2&gt;&lt;p&gt;博客的 umi.im 域名 NS 设置在 DNSPOD ，近期经常修改子域名的 DNS 解析，结果每次登录 DNSPOD 都要我输入烦人的验证码，加上眼馋 Cloudflare 的各种免费服务，萌生了转移域名 NS 的想法。&lt;/p&gt;
+&lt;h2 id=&#34;cloudflare-ns-的优点&#34;&gt;
+    &lt;a href=&#34;#cloudflare-ns-%e7%9a%84%e4%bc%98%e7%82%b9&#34;&gt;#&lt;/a&gt;
+    Cloudflare NS 的优点
+&lt;/h2&gt;&lt;p&gt;Cloudflare Pages 、R2 对象存储和 Tunnels 等服务可以绑定到子域名，很快我就把 &lt;a href=&#34;https://me.umi.im/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Contact me&lt;/a&gt; 和 &lt;a class=&#34;link&#34; href=&#34;https://dnf.umi.im/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DNF土豆服PVP排行榜&lt;/a&gt; 两个页面挂到了 CF Pages 上，再用 Cloudflare Workers 弄了个 &lt;a href=&#34;https://ip.umi.im/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;IP-Check&lt;/a&gt; 接口。&lt;/p&gt;
+&lt;p&gt;当然最重要的是被 DDOS 的时候可以马上直接套 CF 的 CDN ，可惜没人攻击我网站。&lt;/p&gt;
+&lt;h2 id=&#34;转移过程&#34;&gt;
+    &lt;a href=&#34;#%e8%bd%ac%e7%a7%bb%e8%bf%87%e7%a8%8b&#34;&gt;#&lt;/a&gt;
+    转移过程
+&lt;/h2&gt;&lt;p&gt;在 Cloudflare 添加网站，会提示你去修改域名 NS ，接着去购买域名的网站把 NS 改成 CF 的，选择 Free 套餐。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2024/04/change-cloudflare-ns.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;666&#34; height=&#34;479&#34; src=&#34;https://umi.im/wp-content/uploads/2024/04/change-cloudflare-ns.png&#34; alt=&#34;&#34; class=&#34;wp-image-6804&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;由于 DNS 记录很多，还需要从 DNSPOD 导出域名记录，导出格式选 ZONE 文件，就可以把 DNS 记录都导入 CF 了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2024/04/dnspod-export.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;695&#34; height=&#34;347&#34; src=&#34;https://umi.im/wp-content/uploads/2024/04/dnspod-export.png&#34; alt=&#34;&#34; class=&#34;wp-image-6805&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;中国大陆解析情况&#34;&gt;
+    &lt;a href=&#34;#%e4%b8%ad%e5%9b%bd%e5%a4%a7%e9%99%86%e8%a7%a3%e6%9e%90%e6%83%85%e5%86%b5&#34;&gt;#&lt;/a&gt;
+    中国大陆解析情况
+&lt;/h2&gt;&lt;p&gt;其实很早就想把 NS 改成 CF 的了，但听说中国大陆地区有很多地方解析不了。&lt;/p&gt;
+&lt;p&gt;用 ITDOG 的测试看了下，只有重庆的运营商 DNS 解析错误，泉州无法访问是防火墙白名单的原因。&lt;/p&gt;
+&lt;p&gt;本来就是 1IP 博客，不差这点流量。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2024/04/cloudflare-dns-china.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;963&#34; height=&#34;338&#34; src=&#34;https://umi.im/wp-content/uploads/2024/04/cloudflare-dns-china.png&#34; alt=&#34;&#34; class=&#34;wp-image-6806&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>年轻人的第一次域名转移，im 域名从 Name.com 转移到 dynadot</title>
+        <link>https://umi.im/domain-transfer/</link>
+        <pubDate>Fri, 28 Jan 2022 15:34:46 +0000</pubDate>
+        
+        <guid>https://umi.im/domain-transfer/</guid>
+        <description>&lt;p&gt;我在 2018 年在 Name.com 上注册了 umi.im 这个域名，到现在已经使用了快 4 年了。注册和续费价格都是每年 12.99 刀，约合 90 元人民币，价格上还能接受。&lt;/p&gt;
+&lt;p&gt;近期逛论坛看到有人 60 块就注册到了三字母的 im 域名，注册商是 yay.com ，然后我也去注册了个 yay 的账号，结果发现我的手机号收不到验证码（这家注册商要求一定要验证手机号）。我试着发工单联系客服，客服回邮件说要发我的身份证信息和水电费账单验证…&lt;/p&gt;
+&lt;p&gt;当然不可能为了域名续费便宜那么几十块就提供详细个人信息啊。&lt;/p&gt;
+&lt;p&gt;查了下资料都说这家注册商就是这么奇葩。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1112&#34; height=&#34;612&#34; src=&#34;https://umi.im/wp-content/uploads/2022/01/yay-email.png&#34; alt=&#34;&#34; class=&#34;wp-image-5991&#34; /&gt;  
+&lt;p&gt;不得已选择了价格稍贵的 dynadot ，这次转移倒是非常顺利。&lt;/p&gt;
+&lt;p&gt;在 Name.com 的域名管理页面解锁域名，然后获取转移授权码。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1491&#34; height=&#34;685&#34; src=&#34;https://umi.im/wp-content/uploads/2022/01/name.com-domain.png&#34; alt=&#34;&#34; class=&#34;wp-image-5992&#34; srcset=&#34;https://umi.im/wp-content/uploads/2022/01/name.com-domain.png 1491w, https://umi.im/wp-content/uploads/2022/01/name.com-domain-870x400.png 870w&#34; sizes=&#34;(max-width: 1491px) 100vw, 1491px&#34; /&gt;  
+&lt;p&gt;再到 dynadot 的 &lt;a href=&#34;https://www.dynadot.com/domain/transfer.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;域名转移页面&lt;/a&gt; 填写要转移的域名和授权码，接着付款就 OK 了，转移域名需要再给域名续费一年，他家的 im 域名价格是 9.99 刀，比 Name.com 便宜了 3 刀。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;800&#34; height=&#34;355&#34; src=&#34;https://umi.im/wp-content/uploads/2022/01/Domain-Transfer.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5993&#34; /&gt;  
+&lt;p&gt;虽然提示转移域名需要几天时间，实际上只花不到一小时就转移成功，转移过程中并不影响域名的正常使用。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1181&#34; height=&#34;532&#34; src=&#34;https://umi.im/wp-content/uploads/2022/01/domain-change-owner.png&#34; alt=&#34;&#34; class=&#34;wp-image-5994&#34; /&gt; </description>
+        </item>
+        <item>
+        <title>肥猪流新域名 umi.im  ~ 启用！</title>
+        <link>https://umi.im/umi-im/</link>
+        <pubDate>Fri, 23 Mar 2018 15:15:53 +0000</pubDate>
+        
+        <guid>https://umi.im/umi-im/</guid>
+        <description>&lt;p&gt;bakyo.com 这个域名用了快三年，眼看就要到期了，决定换个域名。&lt;/p&gt;
+&lt;p&gt;然后惊喜的发现 bakawu.com 这个域名进入了域名赎回期，再等到删除期，然后被别人注册了，&lt;del&gt;因为我查看 Whois 信息的时候只刷新网页而没点更新&lt;/del&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/bakawu-com-whois.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;716&#34; height=&#34;253&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/bakawu-com-whois.png&#34; alt=&#34;&#34; class=&#34;wp-image-5038&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/bakawu-com-whois.png 716w, https://umi.im/wp-content/uploads/2018/03/bakawu-com-whois-150x53.png 150w, https://umi.im/wp-content/uploads/2018/03/bakawu-com-whois-300x106.png 300w&#34; sizes=&#34;(max-width: 716px) 100vw, 716px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;实在没办法了决定放弃 .com 域名，选个 me 、moe 或者 io 这样个性点域名，这样的顶级域名还有很多短域名没注册。&lt;/p&gt;
+&lt;p&gt;在找域名的时候发现 umi.moe 这个域名被用在一台群晖的 NAS 上。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/umi-moe-nas.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1023&#34; height=&#34;729&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/umi-moe-nas.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5039&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/umi-moe-nas.jpg 1023w, https://umi.im/wp-content/uploads/2018/03/umi-moe-nas-150x107.jpg 150w, https://umi.im/wp-content/uploads/2018/03/umi-moe-nas-300x214.jpg 300w, https://umi.im/wp-content/uploads/2018/03/umi-moe-nas-768x547.jpg 768w&#34; sizes=&#34;(max-width: 1023px) 100vw, 1023px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Umi 是日语  海 ( うみ ) 的意思，这位喜欢 Lovelive 的韩国死宅选择了 園田海未 (Sonoda Umi) 的名字做域名。&lt;/p&gt;
+&lt;p&gt;最终我在 &lt;a href=&#34;https://www.name.com/zh-cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Name.com&lt;/a&gt; 上注册到了 umi.im  这个域名，一年 12.99 刀，比 .com 域名稍贵，是英国海外属地马恩岛的地区顶级域名，应该比较靠谱。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/name-umi.im_.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;770&#34; height=&#34;335&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/name-umi.im_.png&#34; alt=&#34;&#34; class=&#34;wp-image-5040&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/name-umi.im_.png 770w, https://umi.im/wp-content/uploads/2018/03/name-umi.im_-150x65.png 150w, https://umi.im/wp-content/uploads/2018/03/name-umi.im_-300x131.png 300w, https://umi.im/wp-content/uploads/2018/03/name-umi.im_-768x334.png 768w&#34; sizes=&#34;(max-width: 770px) 100vw, 770px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;顺便上了 Let’s Encrypt 的免费小绿锁。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/S8-umi.im-ssl.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;555&#34; height=&#34;910&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/S8-umi.im-ssl.png&#34; alt=&#34;&#34; class=&#34;wp-image-5044&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/S8-umi.im-ssl.png 555w, https://umi.im/wp-content/uploads/2018/03/S8-umi.im-ssl-91x150.png 91w, https://umi.im/wp-content/uploads/2018/03/S8-umi.im-ssl-183x300.png 183w&#34; sizes=&#34;(max-width: 555px) 100vw, 555px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>新域名 bakayo.com</title>
+        <link>https://umi.im/bakayo-com/</link>
+        <pubDate>Fri, 24 Jul 2015 11:29:31 +0000</pubDate>
+        
+        <guid>https://umi.im/bakayo-com/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/07/bakayo-com.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4409&#34; src=&#34;https://umi.im/wp-content/uploads/2015/07/bakayo-com.jpg&#34; alt=&#34;bakayo-com&#34; width=&#34;440&#34; height=&#34;295&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/07/bakayo-com.jpg 440w, https://umi.im/wp-content/uploads/2015/07/bakayo-com-150x101.jpg 150w, https://umi.im/wp-content/uploads/2015/07/bakayo-com-300x201.jpg 300w&#34; sizes=&#34;(max-width: 440px) 100vw, 440px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原来买域名真的会上瘾！&lt;/p&gt;
+&lt;p&gt;上个月刚买了 bakahouse.com 这个域名，用着又觉得太长，又想换。&lt;/p&gt;
+&lt;p&gt;com 域名剩下的太少，好难发掘。看到不少个人博客用的非 com 域名，其中用 me 和 org 域名比比较多，所以开始考虑非 com 域名。浏览器或者输入法一般都有 com 补全，既然要考虑非 com 域名那一定要短，不然长度没什么优势了。&lt;/p&gt;
+&lt;p&gt;第一个想到的是 baka.** 域名（&lt;del&gt;真是Baka&lt;/del&gt;），搜索一番，me 、im 、org 、io 等比较流行的都被注册了，还有个 baka.li ，因为我不姓李，而且百度不索引 li 域名，所以不考虑。&lt;/p&gt;
+&lt;p&gt;还有个 baka.xxx 我很喜欢，xxx 域名是色情网站专用的，随便敲个 sex.xxx 都可能是色情网站，&lt;del&gt;很适合我&lt;/del&gt;，但是看到价格就萎了，500多人民币，而且这是每年的价格…&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/07/baka.xxx_.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4410&#34; src=&#34;https://umi.im/wp-content/uploads/2015/07/baka.xxx_.png&#34; alt=&#34;baka.xxx&#34; width=&#34;963&#34; height=&#34;269&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/07/baka.xxx_.png 963w, https://umi.im/wp-content/uploads/2015/07/baka.xxx_-150x42.png 150w, https://umi.im/wp-content/uploads/2015/07/baka.xxx_-300x84.png 300w&#34; sizes=&#34;(max-width: 963px) 100vw, 963px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;辗转还是选择挑一个 com 域名，按照笨蛋屋（ばか屋）的日文发音选中 bakaya.com ，六个字母3个同样，输入方便易记。&lt;/p&gt;
+&lt;p&gt;还是很不幸，该域名已被一域名贩子注册了，开价600刀…&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/07/bakaya.com-mail.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4411&#34; src=&#34;https://umi.im/wp-content/uploads/2015/07/bakaya.com-mail.png&#34; alt=&#34;bakaya.com-mail&#34; width=&#34;654&#34; height=&#34;353&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/07/bakaya.com-mail.png 654w, https://umi.im/wp-content/uploads/2015/07/bakaya.com-mail-150x81.png 150w, https://umi.im/wp-content/uploads/2015/07/bakaya.com-mail-300x162.png 300w&#34; sizes=&#34;(max-width: 654px) 100vw, 654px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;bakaya.com 不行，换个发音 yo / 哟 ，bakayo（ばかよ），能注册，先买这个了。&lt;/p&gt;
+&lt;p&gt;根据 Whois 信息显示，bakaya.com 这个域名将在今年的8月14号过期，如果域名所有者不再续期，我会试着抢注的！&lt;/p&gt;
+&lt;p&gt;因为域名换了，所以之前的 &lt;a class=&#34;link&#34; href=&#34;http://bakahouse.com/apache-wordpress-ssl/&#34;  title=&#34;Apache &amp;#43; WordPress 部署 SSL 加密&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SSL 证书&lt;/a&gt;失效了，全站暂时取消 SSL 加密。因为需要子域名来建论坛（&lt;a class=&#34;link&#34; href=&#34;http://bbs.umi.im/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;BAKA里屋&lt;/a&gt;），StartSSL 的证书又不能同时用在子域名上，分别申请的话配置好像很麻烦了！_(:3ゝ∠)_&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>炒土豆丝的 WordPress 新家：VPS ~ Ubuntu &#43; Apache &#43; MySQL &#43; PHP</title>
+        <link>https://umi.im/vps-ubuntu-wordpress/</link>
+        <pubDate>Sat, 06 Jun 2015 12:10:54 +0000</pubDate>
+        
+        <guid>https://umi.im/vps-ubuntu-wordpress/</guid>
+        <description>&lt;p&gt;接上文，拿到 &lt;a href=&#34;http://bbs.colg.cn/home.php?mod=space&amp;uid=601303&#34; target=&#34;_blank&#34;&gt;@茄子泥焗黃魚&lt;/a&gt; 土豪的 VPS 后…&lt;/p&gt;
+&lt;p&gt;折腾好 Shadowsocks 服务端，就打算把网站搬到 VPS 上，之前的&lt;a href=&#34;https://umi.im/2014-web-hosting/&#34; target=&#34;_blank&#34;&gt;虚拟主机&lt;/a&gt;虽然便宜，但速度真的不怎么样，偶尔还会抽风。像我这种日访问量在个位数的网站，搬到这种配置的 VPS 上应该会很爽。&lt;/p&gt;
+&lt;p&gt;既然要搬家，那就顺便换个域名吧。&lt;/p&gt;
+&lt;p&gt;原域名 &lt;a href=&#34;http://bakatd.com/&#34; target=&#34;_blank&#34;&gt;bakatd.com&lt;/a&gt; ，虽然简短，但是不能通读，所以换成了现在的 &lt;a href=&#34;https://umi.im/&#34; target=&#34;_blank&#34;&gt;bakahouse.com&lt;/a&gt; ，读音：巴卡豪斯…意译：笨蛋公寓，参考了白宫的域名 &lt;a href=&#34;https://www.whitehouse.gov/&#34; target=&#34;_blank&#34;&gt;whitehouse.gov&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;先设置把旧域名转发到新域名。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3969&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png&#34; alt=&#34;godaddy-Forwarding&#34; width=&#34;533&#34; height=&#34;278&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png 533w, https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding-150x78.png 150w, https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding-300x156.png 300w&#34; sizes=&#34;(max-width: 533px) 100vw, 533px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwikiubuntuorgcnvps-target_blanklinux-vps-ubuntu-系统配置指南a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwikiubuntuorgcnvps-target_blanklinux-vps-ubuntu-%e7%b3%bb%e7%bb%9f%e9%85%8d%e7%bd%ae%e6%8c%87%e5%8d%97a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://wiki.ubuntu.org.cn/Vps&#34; target=&#34;_blank&#34;&gt;Linux VPS Ubuntu 系统配置指南&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;VPS 的 Web 环境选择，Ubuntu 的中文 WIKI 写得最详细，所以我选择了 Ubuntu…&lt;/p&gt;
+&lt;p&gt;使用 Apache 搭建站点，对着 WIKI 上的命令一直复制粘贴，返回结果结果都正常，很方便的就配置好了 Apache + MySQL + PHP 。&lt;/p&gt;
+&lt;p&gt;但是测试站点的时候死活打不开，折腾着终于发现我配置的 Web 根目录是 /var/www/html ，而不是 WIKI 上写的 /var/www/ 目录，把文件移动到 /var/www/html 目录后终于能打开测试站点了。&lt;/p&gt;
+&lt;p&gt;测试站点：&lt;a href=&#34;http://www.yahei.net/&#34; target=&#34;_blank&#34;&gt;雅黑PHP探针&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/tz-php.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3964&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/tz-php.png&#34; alt=&#34;tz-php&#34; width=&#34;927&#34; height=&#34;455&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/tz-php.png 927w, https://umi.im/wp-content/uploads/2015/06/tz-php-150x74.png 150w, https://umi.im/wp-content/uploads/2015/06/tz-php-300x147.png 300w&#34; sizes=&#34;(max-width: 927px) 100vw, 927px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;测试完成，Phpmyadmin 也安装完成后，就可以给网站搬家了。&lt;/p&gt;
+&lt;p&gt;我的 WordPress 网站文件备份在 Dropbox ，通过 Dropbox 分享链接，然后用 wget 命令下载。&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;wget http://***.com/**/backwpup_bfbdbe_2015-06-05_10-08-58.tar.gz?dl=0&lt;/pre&gt;
+&lt;p&gt;下载后把文件重命名为 tar.gz 格式后辍，再移动到 Web 根目录，解压：&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true&#34;&gt;tar zxvf backwpup_bfbdbe_2015-06-05_10-08-58.tar.gz&lt;/pre&gt;
+&lt;p&gt;接着修改 WP-Config 配置文件，把数据库名称、账号、密码等改成现在的 VPS 的。&lt;/p&gt;
+&lt;p&gt;再进入 Phpmyadmin 导入以前的 SQL 数据库备份。&lt;/p&gt;
+&lt;p&gt;因为这次不仅搬主机，还顺便换了下域名，所以 SQL 数据库也需要把老域名改为新域名，执行几句简单的语句就好了。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwdimshadowcomblogprogram-advancedwpwordpress-e690ace5aeb6e68da2e59f9fe5908de697b6sqle99c80e8a681e5819ae79a84e4bfaee694b9html-target_blankwordpress-搬家换域名时sql需要做的修改a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwdimshadowcomblogprogram-advancedwpwordpress-e690ace5aeb6e68da2e59f9fe5908de697b6sqle99c80e8a681e5819ae79a84e4bfaee694b9html-target_blankwordpress-%e6%90%ac%e5%ae%b6%e6%8d%a2%e5%9f%9f%e5%90%8d%e6%97%b6sql%e9%9c%80%e8%a6%81%e5%81%9a%e7%9a%84%e4%bf%ae%e6%94%b9a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.dimshadow.com/blog/program-advanced/wp/wordpress-%E6%90%AC%E5%AE%B6%E6%8D%A2%E5%9F%9F%E5%90%8D%E6%97%B6sql%E9%9C%80%E8%A6%81%E5%81%9A%E7%9A%84%E4%BF%AE%E6%94%B9.html&#34; target=&#34;_blank&#34;&gt;wordpress 搬家换域名时SQL需要做的修改&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;正以为大功告成准备休息时，却发现除了主页和后台，其他链接打开都是404。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpwwwwpdaxuecomwordpress-rewriterulehtml-target_blankwordpress-伪静态规则iisapachenginxa&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpwwwwpdaxuecomwordpress-rewriterulehtml-target_blankwordpress-%e4%bc%aa%e9%9d%99%e6%80%81%e8%a7%84%e5%88%99iisapachenginxa&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://www.wpdaxue.com/wordpress-rewriterule.html&#34; target=&#34;_blank&#34;&gt;WordPress 伪静态规则（IIS/Apache/Nginx）&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;查了下资料说是伪静态问题，在站点根目录建一个 .htaccess 文件，复制如下代码保存：&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;&amp;lt;IfModule mod_rewrite.c&amp;gt;
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+&amp;lt;/IfModule&amp;gt;
+
+&lt;/pre&gt;
+&lt;p&gt;发现还是不行，再用 vi 编辑器修改下 apache2.conf 配置。&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;vi /etc/apache2/apache2.conf&lt;/pre&gt;
+&lt;p&gt;找到&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;Options FollowSymLinks
+
+AllowOverride None&lt;/pre&gt;
+&lt;p&gt;改为&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;Options FollowSymLinks
+
+AllowOverride All&lt;/pre&gt;
+&lt;p&gt;保存并退出，重启 Apache2 。&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;service apache2 restart&lt;/pre&gt;
+&lt;p&gt;这次真的就大功告成了，遇到以上几个小问题，多搜索下就能找到解决办法了，至于到底哪个地方出错导致的问题我也不清楚，不管了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/index-photo.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3962&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/index-photo.jpg&#34; alt=&#34;index-photo&#34; width=&#34;440&#34; height=&#34;473&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>在淘宝给Godaddy域名续费</title>
+        <link>https://umi.im/godaddy-renew-taobao/</link>
+        <pubDate>Sun, 07 Dec 2014 09:47:18 +0000</pubDate>
+        
+        <guid>https://umi.im/godaddy-renew-taobao/</guid>
+        <description>&lt;p&gt;过几天我的域名（bakatd.com）就到期了，没想到时间过得这么快，一年前才从免费的TK域名转到 Godaddy 的Com域名。&lt;/p&gt;
+&lt;p&gt;当初用优惠码注册的域名，用了58块好像，以为续费的时候也能用优惠码，结果发现优惠码都无效了。&lt;/p&gt;
+&lt;p&gt;以前看到的注册技巧，域名到期前五天会收到 Godaddy 的邮件，用邮件提供的优惠码续费可以便宜70%左右。邮件我确实收到了，但是邮件提供的优惠码只能用于购买新域名，网上找到各种优惠码也无效。_(:3ゝ∠)_&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/12/williamlong-info-godaddy.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3330&#34; src=&#34;https://umi.im/wp-content/uploads/2014/12/williamlong-info-godaddy.png&#34; alt=&#34;williamlong-info-godaddy&#34; width=&#34;817&#34; height=&#34;381&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/12/williamlong-info-godaddy.png 817w, https://umi.im/wp-content/uploads/2014/12/williamlong-info-godaddy-150x69.png 150w, https://umi.im/wp-content/uploads/2014/12/williamlong-info-godaddy-300x139.png 300w&#34; sizes=&#34;(max-width: 817px) 100vw, 817px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;后来有人建议我去淘宝看看，结果还真有Godaddy续费，价格还很便宜。&lt;/p&gt;
+&lt;p&gt;交易流程是先拍下商品并付款 – 然后域名过户给掌柜的账户 – 掌柜续费后再把域名过户回我 – 接收到域名后就可以确认收货了。&lt;/p&gt;
+&lt;p&gt;需要提供邮箱、域名、Godaddy账号名给掌柜，安全性应该没问题，对于像我这样的不值钱的域名来说。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/12/godaddy-up-taobao.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3329&#34; src=&#34;https://umi.im/wp-content/uploads/2014/12/godaddy-up-taobao.png&#34; alt=&#34;godaddy-up-taobao&#34; width=&#34;885&#34; height=&#34;193&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/12/godaddy-up-taobao.png 885w, https://umi.im/wp-content/uploads/2014/12/godaddy-up-taobao-150x32.png 150w, https://umi.im/wp-content/uploads/2014/12/godaddy-up-taobao-300x65.png 300w&#34; sizes=&#34;(max-width: 885px) 100vw, 885px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Google最近也推出了域名注册服务 Google Domains ，测试中，需要邀请码才能注册，如果价格合适的话考虑以后把域名迁到那。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpsdomainsgooglecom-target_blankgoogle-domainsa&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpsdomainsgooglecom-target_blankgoogle-domainsa&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;https://domains.google.com/&#34; target=&#34;_blank&#34;&gt;Google Domains&lt;/a&gt;
+&lt;/h2&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

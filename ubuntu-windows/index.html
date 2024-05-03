@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Ubuntu是一个自由、开源、基于Debian的Linux发行版，发行周期为6个月，由 Canonical 公司和自由软件社区开发。 不玩游戏、不使用专业大型软件">
+<title>Ubuntu 代替 Windows 的可能性探究</title>
+
+<link rel='canonical' href='https://umi.im/ubuntu-windows/'>
+
+<link rel="stylesheet" href="/scss/style.min.859d15a88c4baa095161a679adcf6a0588d393b9603bd708e8e0c634ae102b82.css"><meta property='og:title' content="Ubuntu 代替 Windows 的可能性探究">
+<meta property='og:description' content="Ubuntu是一个自由、开源、基于Debian的Linux发行版，发行周期为6个月，由 Canonical 公司和自由软件社区开发。 不玩游戏、不使用专业大型软件">
+<meta property='og:url' content='https://umi.im/ubuntu-windows/'>
+<meta property='og:site_name' content='笨蛋屋'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Linux' /><meta property='article:tag' content='Ubuntu' /><meta property='article:published_time' content='2014-09-02T10:47:45&#43;00:00'/><meta property='article:modified_time' content='2014-09-02T10:47:45&#43;00:00'/>
+<meta name="twitter:title" content="Ubuntu 代替 Windows 的可能性探究">
+<meta name="twitter:description" content="Ubuntu是一个自由、开源、基于Debian的Linux发行版，发行周期为6个月，由 Canonical 公司和自由软件社区开发。 不玩游戏、不使用专业大型软件">
+    <link rel="shortcut icon" href="/favicon.png" />
+
+  
+
+<meta name="verification" content="9cfa2f7dea5bc4a0">
+<script defer src="https://u.umi.im/replace-me-with-a-random-string" data-website-id="befac8d7-0396-44c8-b151-9c332a5f176f"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5428554628068316"
+     crossorigin="anonymous"></script>
+    
+    
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar-150px_hub3e42f8fb4895a97c7036e2fee26b85a_7312_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">💔</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">笨蛋屋</a></h1>
+            <h2 class="site-description">炒土豆丝 の Blog !</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://s.umi.im/'
+                        target="_blank"
+                        title="ServerStutas"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-server-bolt"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" /><path d="M15 20h-9a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h12" /><path d="M7 8v.01" /><path d="M7 16v.01" /><path d="M20 15l-2 3h3l-2 3" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://m.umi.im/'
+                        target="_blank"
+                        title="Memos"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-feather"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 20l10 -10m0 -5v5h5m-9 -1v5h5m-9 -1v5h5m-5 -5l4 -4l4 -4" /><path d="M19 10c.638 -.636 1 -1.515 1 -2.486a3.515 3.515 0 0 0 -3.517 -3.514c-.97 0 -1.847 .367 -2.483 1m-3 13l4 -4l4 -4" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/ariakeumi'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/998potato'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://umi.im/index.xml'
+                        target="_blank"
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/comments/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
+  <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
+</svg>
+
+
+
+                
+                <span>Comments</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='https://share.umi.im/' target="_blank">
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-share"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M18 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M8.7 10.7l6.6 -3.4" /><path d="M8.7 13.3l6.6 3.4" /></svg>
+                
+                <span>Share</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#a-title教程-hrefhttpjingyanbaiducomarticlee3c78d6460e6893c4c85f5b1html-target_blankefi下win-81ubuntu-1404安装教程a"><a title="教程" href="http://jingyan.baidu.com/article/e3c78d6460e6893c4c85f5b1.html" target="_blank">EFI下Win 8.1+Ubuntu 14.04安装教程</a></a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/it/" style="background-color: ; color: #fff;">
+                折腾
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/ubuntu-windows/">Ubuntu 代替 Windows 的可能性探究</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2014年09月02日</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 4 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <blockquote>
+<p>Ubuntu是一个自由、开源、基于Debian的Linux发行版，发行周期为6个月，由 Canonical 公司和自由软件社区开发。 </p>
+</blockquote>
+<p>不玩游戏、不使用专业大型软件、非程序员用户，试下看能不能用Ubuntu系统代替Windows。</p>
+<h2 id="a-title教程-hrefhttpjingyanbaiducomarticlee3c78d6460e6893c4c85f5b1html-target_blankefi下win-81ubuntu-1404安装教程a">
+    <a href="#a-title%e6%95%99%e7%a8%8b-hrefhttpjingyanbaiducomarticlee3c78d6460e6893c4c85f5b1html-target_blankefi%e4%b8%8bwin-81ubuntu-1404%e5%ae%89%e8%a3%85%e6%95%99%e7%a8%8ba">#</a>
+    <a title="教程" href="http://jingyan.baidu.com/article/e3c78d6460e6893c4c85f5b1.html" target="_blank">EFI下Win 8.1+Ubuntu 14.04安装教程</a>
+</h2><p>参照上面的教程EFI + GPT安装 Windows 8.1 / Ubuntu 14.04 双系统。 只需要一个U盘，很简单，引导是这样的。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/08/ubuntu-boot.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-2880" src="https://umi.im/wp-content/uploads/2014/08/ubuntu-boot.jpg" alt="ubuntu-boot" width="1280" height="960" srcset="https://umi.im/wp-content/uploads/2014/08/ubuntu-boot.jpg 1280w, https://umi.im/wp-content/uploads/2014/08/ubuntu-boot-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-boot-300x225.jpg 300w, https://umi.im/wp-content/uploads/2014/08/ubuntu-boot-1024x768.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></a> Ubuntu的桌面，左边是启动器，状态栏在顶部，这种布局在16:9的显示器下看着很舒服，因为感觉视野大了很多，然后我把Windows的任务栏也固定在左侧了。</p>
+<p>壁纸换成了星空图（自带的），很有Mac OS X的感觉。</p>
+<p>可以用和Win类似的Win键 + 数字键打开任务栏（启动器）的程序。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/08/ubuntu-Desktop.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-2881" src="https://umi.im/wp-content/uploads/2014/08/ubuntu-Desktop.jpg" alt="ubuntu-Desktop" width="1280" height="720" srcset="https://umi.im/wp-content/uploads/2014/08/ubuntu-Desktop.jpg 1280w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Desktop-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Desktop-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Desktop-1024x576.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></a> 版本号14.04 LTS，14.04代表是2014年04月发布，LTS表示长期支持，发布后18个月内的支持。</p>
+<p>设备名 Abyss Gundam，深渊高达 ZGMF-X31S /RGX-02，出自机动战士高达SEED DESTINY，我的智能设备都用高达里面的机体命名，略<del>中二</del>。 <a class="link" href="https://umi.im/wp-content/uploads/2014/08/ubuntu-Version.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-2896" src="https://umi.im/wp-content/uploads/2014/08/ubuntu-Version.png" alt="ubuntu-Version" width="850" height="472" srcset="https://umi.im/wp-content/uploads/2014/08/ubuntu-Version.png 850w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Version-150x83.png 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Version-300x166.png 300w" sizes="(max-width: 850px) 100vw, 850px" /></a></p>
+<p>这个叫什么来着…可以搜索本地和网络的内容，甚至Wikipedia，按Win键（Super L）呼出。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/08/ubuntu-search.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-2893" src="https://umi.im/wp-content/uploads/2014/08/ubuntu-search.jpg" alt="ubuntu-search" width="1141" height="640" srcset="https://umi.im/wp-content/uploads/2014/08/ubuntu-search.jpg 1141w, https://umi.im/wp-content/uploads/2014/08/ubuntu-search-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-search-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/08/ubuntu-search-1024x574.jpg 1024w" sizes="(max-width: 1141px) 100vw, 1141px" /></a> Ubuntu的软件中心，里面的东西少的可怜，排版也不好。</p>
+<p>其实我在想，要是Windows中也有软件中心该多好（Metro那个渣渣商店不算啊），一个MS帐号同步所有安装的软件。<a class="link" href="https://umi.im/wp-content/uploads/2014/08/ubuntu-Software-Center.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-2882" src="https://umi.im/wp-content/uploads/2014/08/ubuntu-Software-Center.png" alt="ubuntu-Software-Center" width="1200" height="828" srcset="https://umi.im/wp-content/uploads/2014/08/ubuntu-Software-Center.png 1200w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Software-Center-150x103.png 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Software-Center-300x207.png 300w, https://umi.im/wp-content/uploads/2014/08/ubuntu-Software-Center-1024x706.png 1024w" sizes="(max-width: 1200px) 100vw, 1200px" /></a> 文件管理器，可以显示flac音频里面的专辑封面哦。 不知为何SSD的两个盘和HDD的盘图标不一样。 而且可以连接Android手机，我以为不可以来着。 <a class="link" href="https://umi.im/wp-content/uploads/2014/09/ubuntu-File-Manager.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-2911" src="https://umi.im/wp-content/uploads/2014/09/ubuntu-File-Manager.png" alt="ubuntu-File-Manager" width="855" height="664" srcset="https://umi.im/wp-content/uploads/2014/09/ubuntu-File-Manager.png 855w, https://umi.im/wp-content/uploads/2014/09/ubuntu-File-Manager-150x116.png 150w, https://umi.im/wp-content/uploads/2014/09/ubuntu-File-Manager-300x232.png 300w, https://umi.im/wp-content/uploads/2014/09/ubuntu-File-Manager-194x150.png 194w" sizes="(max-width: 855px) 100vw, 855px" /></a></p>
+<p>Ubuntu自带的音频播放器，可以播放Flac格式的音乐，软件本身不能设置快捷键，需要到系统设置那里设置。 <a class="link" href="https://umi.im/wp-content/uploads/2014/08/ubuntu-rhythmbox.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-2883" src="https://umi.im/wp-content/uploads/2014/08/ubuntu-rhythmbox.png" alt="ubuntu-rhythmbox" width="790" height="588" srcset="https://umi.im/wp-content/uploads/2014/08/ubuntu-rhythmbox.png 790w, https://umi.im/wp-content/uploads/2014/08/ubuntu-rhythmbox-150x111.png 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-rhythmbox-300x223.png 300w" sizes="(max-width: 790px) 100vw, 790px" /></a></p>
+<p>在linux下有个叫 <a title="wiki" href="http://zh.wikipedia.org/wiki/Wine" target="_blank">Wine</a> 的神器，可以让Ubuntu运行Windows的程序。 成功运行Foobar2000，但是全局快捷键用不了了。 Evernote也能正常运行，终于可以不用Web版的了。 <a class="link" href="https://umi.im/wp-content/uploads/2014/08/ubuntu-wine-foobar2000.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-2887" src="https://umi.im/wp-content/uploads/2014/08/ubuntu-wine-foobar2000.png" alt="ubuntu-wine-foobar2000" width="729" height="438" srcset="https://umi.im/wp-content/uploads/2014/08/ubuntu-wine-foobar2000.png 729w, https://umi.im/wp-content/uploads/2014/08/ubuntu-wine-foobar2000-150x90.png 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-wine-foobar2000-300x180.png 300w" sizes="(max-width: 729px) 100vw, 729px" /></a></p>
+<p>自带Firefox浏览器，Chrome有linux版的，如果没有Chrome我会不知所措的。Ubuntu下的Chrome字体渲染有些奇怪，看起来不太舒服，自动更新到了64位的Chrome 37。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/08/ubuntu-chrome.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-2889" src="https://umi.im/wp-content/uploads/2014/08/ubuntu-chrome.png" alt="ubuntu-chrome" width="1280" height="720" srcset="https://umi.im/wp-content/uploads/2014/08/ubuntu-chrome.png 1280w, https://umi.im/wp-content/uploads/2014/08/ubuntu-chrome-150x84.png 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-chrome-300x168.png 300w, https://umi.im/wp-content/uploads/2014/08/ubuntu-chrome-1024x576.png 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></a> Ubuntu自带的视频播放器，播放1080P的MKV的BDRip，拖动有些慢，应付一般影音需求还是没问题的。 <a class="link" href="https://umi.im/wp-content/uploads/2014/08/ubuntu-video-player.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-2890" src="https://umi.im/wp-content/uploads/2014/08/ubuntu-video-player.jpg" alt="ubuntu-video-player" width="967" height="673" srcset="https://umi.im/wp-content/uploads/2014/08/ubuntu-video-player.jpg 967w, https://umi.im/wp-content/uploads/2014/08/ubuntu-video-player-150x104.jpg 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-video-player-300x208.jpg 300w" sizes="(max-width: 967px) 100vw, 967px" /></a></p>
+<p>Ubuntu还集成了<a title="wikipedia" href="http://zh.wikipedia.org/wiki/LibreOffice" target="_blank">LibreOffice</a>办公套件，非专业人士应付下应该没问题，现在我更多的用Google Docs作表格了，同步起来方便。 <a class="link" href="https://umi.im/wp-content/uploads/2014/08/ubuntu-libreoffice.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-2899" src="https://umi.im/wp-content/uploads/2014/08/ubuntu-libreoffice.png" alt="ubuntu-libreoffice" width="1371" height="866" srcset="https://umi.im/wp-content/uploads/2014/08/ubuntu-libreoffice.png 1371w, https://umi.im/wp-content/uploads/2014/08/ubuntu-libreoffice-150x94.png 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-libreoffice-300x189.png 300w, https://umi.im/wp-content/uploads/2014/08/ubuntu-libreoffice-1024x646.png 1024w" sizes="(max-width: 1371px) 100vw, 1371px" /></a> Ubuntu自带的中文输入法很蛋疼，明明是拼音输入法设置界面确实英文的，而且很多字或词打不出来，比如“qiong”（穹）字。</p>
+<p>好在搜狗拼音输入法有linux版，顺便说一下，在Ubuntu 14.04 LTS版本中只需要双击下载的deb包就能直接安装，在Ubuntu 12.04中安装比较繁琐，甚至我下载linux版搜狗输入法后自动弹出帮助页面介绍安装方法，不过我是没法体验这么繁琐的安装方法了，貌似安装后需要重启才能用，而且没有词库同步功能。</p>
+<p><a title="help" href="http://pinyin.sogou.com/linux/help.php" target="_blank">搜狗输入法 For linux 安装指南</a></p>
+<p>不过有国产厂商能发布linux的软件我已经很欣慰了。ORZ</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/09/Ubuntu-sougou.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-2921" src="https://umi.im/wp-content/uploads/2014/09/Ubuntu-sougou.png" alt="Ubuntu-sougou" width="436" height="313" srcset="https://umi.im/wp-content/uploads/2014/09/Ubuntu-sougou.png 436w, https://umi.im/wp-content/uploads/2014/09/Ubuntu-sougou-150x107.png 150w, https://umi.im/wp-content/uploads/2014/09/Ubuntu-sougou-300x215.png 300w" sizes="(max-width: 436px) 100vw, 436px" /></a></p>
+<p>腾讯曾开发过QQ For linux，那还是09年的时候，现在已经安装不了了。</p>
+<p>导致Ubuntu现在没有原生的QQ客户端，只能使用Web QQ。</p>
+<p>Web QQ没有自定义消息提示音，不能添加自定义表情，甚至不能发送图片，使用后战斗力下降998。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/09/ubuntu-web-qq.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-2919" src="https://umi.im/wp-content/uploads/2014/09/ubuntu-web-qq.jpg" alt="ubuntu-web-qq" width="1280" height="720" srcset="https://umi.im/wp-content/uploads/2014/09/ubuntu-web-qq.jpg 1280w, https://umi.im/wp-content/uploads/2014/09/ubuntu-web-qq-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/09/ubuntu-web-qq-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/09/ubuntu-web-qq-1024x576.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></p>
+<p>费了九牛二虎之力，终于找到了个能用的Wine QQ。</p>
+<p><a title="打开" href="http://www.longene.org/forum/viewtopic.php?t=4700" target="_blank">Linux兼容内核论坛 – wine qq 2013 for linux Ubuntu 64位兼容</a></p>
+<p>可以用全局快捷键，可以截图，可以发送图片（虽然有点麻烦），资源占用有些高。</p>
+<p>而且经常抽，比如打不开主面板，所以我才截聊天窗口的图。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/09/ubuntu-QQ.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-2923" src="https://umi.im/wp-content/uploads/2014/09/ubuntu-QQ.jpg" alt="ubuntu-QQ" width="543" height="516" srcset="https://umi.im/wp-content/uploads/2014/09/ubuntu-QQ.jpg 543w, https://umi.im/wp-content/uploads/2014/09/ubuntu-QQ-150x142.jpg 150w, https://umi.im/wp-content/uploads/2014/09/ubuntu-QQ-300x285.jpg 300w" sizes="(max-width: 543px) 100vw, 543px" /></a></p>
+<p>一星期用下来，感觉发行版的linux使用门坎没传说中那么高。</p>
+<p>至少在Ubuntu中，很多快捷键甚至和Windows的一样，设置界面也比Windows的控制面板易用多了。如果再有原生QQ客户端和更多的软件，当成主力系统也不是什么问题。</p>
+<p><a class="link" href="https://umi.im/wp-content/uploads/2014/09/ubuntu-windows.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-2917" src="https://umi.im/wp-content/uploads/2014/09/ubuntu-windows.jpg" alt="ubuntu-windows" width="655" height="350" srcset="https://umi.im/wp-content/uploads/2014/09/ubuntu-windows.jpg 655w, https://umi.im/wp-content/uploads/2014/09/ubuntu-windows-150x80.jpg 150w, https://umi.im/wp-content/uploads/2014/09/ubuntu-windows-300x160.jpg 300w" sizes="(max-width: 655px) 100vw, 655px" /></a></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/linux/">Linux</a>
+        
+            <a href="/tags/ubuntu/">Ubuntu</a>
+        
+    </section>
+
+
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2014年09月02日 10:47 CST
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/serverstatus/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://umi.im/wp-content/uploads/2023/04/serverstatus-card.png" loading="lazy" data-key="" data-hash="https://umi.im/wp-content/uploads/2023/04/serverstatus-card.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">部署一个轻量高颜值的服务器监控探针 ServerStatus</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/linux-cpulimit/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Linux 下限制某进程的 CPU 使用率</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/vps-ubuntu-wordpress/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">炒土豆丝的 WordPress 新家：VPS ~ Ubuntu &#43; Apache &#43; MySQL &#43; PHP</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/unraid-6.12.10-crack/">
+        
+        
+            <div class="article-image">
+                <img src="/unraid-6.12.10-crack/unraid.bfb8c4fd1d550f352bfe087ebde9f60c.webp" 
+                        width="1200" 
+                        height="630" 
+                        loading="lazy"
+                        alt="Featured image of post UNRAID 6.12.4 米多贝克版升级 UNRAID 6.12.10 毛子开心版"
+                        
+                        data-hash="md5-v7jE/R1VDzUr/gh&#43;ven2DA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">UNRAID 6.12.4 米多贝克版升级 UNRAID 6.12.10 毛子开心版</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/wordpress-to-hugo/">
+        
+        
+            <div class="article-image">
+                <img src="/wordpress-to-hugo/wordpress-to-hugo.9dd8f7b941bbdf2ac48ac46cde33e9e8.webp" 
+                        width="1115" 
+                        height="627" 
+                        loading="lazy"
+                        alt="Featured image of post Wordpress 博客迁移到 HUGO"
+                        
+                        data-hash="md5-ndj3uUG73yrEisRs3jPp6A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Wordpress 博客迁移到 HUGO</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
+<div id="waline" class="waline-container"></div>
+<style>
+    .waline-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+        --waline-font-size: var(--article-font-size);
+    }
+    .waline-container .wl-count {
+        color: var(--card-text-color-main);
+    }
+</style><script>
+    
+    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://npm.elemecdn.com/@waline/emojis@1.1.0/weibo"],"lang":"zh-CN","locale":{"admin":"屋主","placeholder":"欢迎互动！"},"requiredMeta":["name","email","url"],"serverURL":"https://waline.umi.im/"});
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2024 笨蛋屋
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.25.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

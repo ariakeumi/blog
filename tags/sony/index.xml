@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>SONY on 笨蛋屋</title>
+        <link>https://umi.im/tags/sony/</link>
+        <description>Recent content in SONY on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Thu, 25 Oct 2018 05:40:34 +0000</lastBuildDate><atom:link href="https://umi.im/tags/sony/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>SONY Xperia XZ2 国行强刷亚太版 Android 9.0 固件</title>
+        <link>https://umi.im/sony-xperia-xz2/</link>
+        <pubDate>Thu, 25 Oct 2018 05:40:34 +0000</pubDate>
+        
+        <guid>https://umi.im/sony-xperia-xz2/</guid>
+        <description>&lt;p&gt;先来说说为什么 8012 年我还购买这台手机。&lt;/p&gt;
+&lt;p&gt;Xperia XZ2 是索尼的末代 LCD 旗舰手机，而在即将上市的 Xperia XZ3 中将使用 OLED 屏幕。&lt;/p&gt;
+&lt;p&gt;OLED 屏幕因为技术原因采用 PWM 低频调光，相比旗舰手机的 LCD 用的 DC 调光，OLED 屏幕对眼睛伤害更严重。比如之前我所使用的三星 Galaxy S8 ，长时间使用眼睛会非常酸，视力也出现了下降，而 LCD 就看起来舒服很多。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/10/sony-xperia-xz2-1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;749&#34; height=&#34;998&#34; src=&#34;https://umi.im/wp-content/uploads/2018/10/sony-xperia-xz2-1.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5427&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/10/sony-xperia-xz2-1.jpg 749w, https://umi.im/wp-content/uploads/2018/10/sony-xperia-xz2-1-113x150.jpg 113w, https://umi.im/wp-content/uploads/2018/10/sony-xperia-xz2-1-225x300.jpg 225w&#34; sizes=&#34;(max-width: 749px) 100vw, 749px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/10/sony-xperia-xz2-2.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;749&#34; height=&#34;998&#34; src=&#34;https://umi.im/wp-content/uploads/2018/10/sony-xperia-xz2-2.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5428&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/10/sony-xperia-xz2-2.jpg 749w, https://umi.im/wp-content/uploads/2018/10/sony-xperia-xz2-2-113x150.jpg 113w, https://umi.im/wp-content/uploads/2018/10/sony-xperia-xz2-2-225x300.jpg 225w&#34; sizes=&#34;(max-width: 749px) 100vw, 749px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/10/sony-xperia-xz2-3.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;749&#34; height=&#34;998&#34; src=&#34;https://umi.im/wp-content/uploads/2018/10/sony-xperia-xz2-3.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5429&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/10/sony-xperia-xz2-3.jpg 749w, https://umi.im/wp-content/uploads/2018/10/sony-xperia-xz2-3-113x150.jpg 113w, https://umi.im/wp-content/uploads/2018/10/sony-xperia-xz2-3-225x300.jpg 225w&#34; sizes=&#34;(max-width: 749px) 100vw, 749px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;接下来是强刷流程，需要用到以下两个软件：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://forum.xda-developers.com/crossdevice-dev/sony/pc-xperifirm-xperia-firmware-downloader-t2834142/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XperiFirm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://forum.xda-developers.com/crossdevice-dev/sony/progress-newflasher-xperia-command-line-t3619426&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Newflasher&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;先打开 XperiFirm ，国行双卡版的 XZ2 选择 H8296 这个型号，52 数字开头的就是 Android 9.0 的固件，目前只有印度的，就下载它吧。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/10/XperiFirm-XZ2-Android-Pie.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;902&#34; height=&#34;540&#34; src=&#34;https://umi.im/wp-content/uploads/2018/10/XperiFirm-XZ2-Android-Pie.png&#34; alt=&#34;&#34; class=&#34;wp-image-5430&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/10/XperiFirm-XZ2-Android-Pie.png 902w, https://umi.im/wp-content/uploads/2018/10/XperiFirm-XZ2-Android-Pie-150x90.png 150w, https://umi.im/wp-content/uploads/2018/10/XperiFirm-XZ2-Android-Pie-300x180.png 300w, https://umi.im/wp-content/uploads/2018/10/XperiFirm-XZ2-Android-Pie-768x460.png 768w&#34; sizes=&#34;(max-width: 902px) 100vw, 902px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载完成后，把固件目录里面的 simlock.ta 删掉。然后把 Newflasher 程序拷贝进固件的目录。&lt;/p&gt;
+&lt;p&gt;手机关机，按住音量减键并连接电脑进入 Fastboot 模式，这时手机指示灯会变成绿色。&lt;/p&gt;
+&lt;p&gt;然后打开 newflasher.exe ，如果没有 Fastboot 驱动就输入 y ，会自动下载 GordonGate.7z ，解压安装这个驱动，然后会再次询问，再输入 n 无视，就开始刷机了，刷完有提示就可以拔出数据线开机了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/10/Newflasher.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;979&#34; height=&#34;512&#34; src=&#34;https://umi.im/wp-content/uploads/2018/10/Newflasher.png&#34; alt=&#34;&#34; class=&#34;wp-image-5431&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/10/Newflasher.png 979w, https://umi.im/wp-content/uploads/2018/10/Newflasher-150x78.png 150w, https://umi.im/wp-content/uploads/2018/10/Newflasher-300x157.png 300w, https://umi.im/wp-content/uploads/2018/10/Newflasher-768x402.png 768w&#34; sizes=&#34;(max-width: 979px) 100vw, 979px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;教程来源：&lt;a href=&#34;http://bbs.gfan.com/android-9284416-1-1.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://bbs.gfan.com/android-9284416-1-1.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://bbs.gfan.com/android-9284416-1-1.html&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>SONY Xperia Z3C 更换后盖</title>
+        <link>https://umi.im/sony-z3c-cover/</link>
+        <pubDate>Thu, 18 Feb 2016 16:59:45 +0000</pubDate>
+        
+        <guid>https://umi.im/sony-z3c-cover/</guid>
+        <description>&lt;p&gt;大概半年前，我的 Z3C 摔了几次，然后后盖就碎成这样了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/05/Z3C-WW.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1094&#34; height=&#34;730&#34; src=&#34;https://umi.im/wp-content/uploads/2015/05/Z3C-WW.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-3892&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/05/Z3C-WW.jpg 1094w, https://umi.im/wp-content/uploads/2015/05/Z3C-WW-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/05/Z3C-WW-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/05/Z3C-WW-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1094px) 100vw, 1094px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本来还碎的挺好看的，不过后来一些玻璃渣开始掉落，加上裂缝中进了很多灰尘，实在没办法，只能换后盖了，然后发现淘宝竟然有十几块包邮的Z3C后盖，毫不犹豫拍下。&lt;/p&gt;
+&lt;p&gt;直接暴力手段卸开后来，iPad 拍摄渣画质。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2016/02/sony-z3c-cover-1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;778&#34; height=&#34;581&#34; src=&#34;https://umi.im/wp-content/uploads/2016/02/sony-z3c-cover-1.jpg&#34; alt=&#34;sony-z3c-cover-1&#34; class=&#34;wp-image-4782&#34; srcset=&#34;https://umi.im/wp-content/uploads/2016/02/sony-z3c-cover-1.jpg 778w, https://umi.im/wp-content/uploads/2016/02/sony-z3c-cover-1-150x112.jpg 150w, https://umi.im/wp-content/uploads/2016/02/sony-z3c-cover-1-300x224.jpg 300w&#34; sizes=&#34;(max-width: 778px) 100vw, 778px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2016/02/sony-z3c-cover-2.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;778&#34; height=&#34;581&#34; src=&#34;https://umi.im/wp-content/uploads/2016/02/sony-z3c-cover-2.jpg&#34; alt=&#34;sony-z3c-cover-2&#34; class=&#34;wp-image-4783&#34; srcset=&#34;https://umi.im/wp-content/uploads/2016/02/sony-z3c-cover-2.jpg 778w, https://umi.im/wp-content/uploads/2016/02/sony-z3c-cover-2-150x112.jpg 150w, https://umi.im/wp-content/uploads/2016/02/sony-z3c-cover-2-300x224.jpg 300w&#34; sizes=&#34;(max-width: 778px) 100vw, 778px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;和原厂后盖有点色差，不过整体看起来还不错。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2016/02/sony-z3c-cover-3.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;778&#34; height=&#34;581&#34; src=&#34;https://umi.im/wp-content/uploads/2016/02/sony-z3c-cover-3.jpg&#34; alt=&#34;sony-z3c-cover-3&#34; class=&#34;wp-image-4784&#34; srcset=&#34;https://umi.im/wp-content/uploads/2016/02/sony-z3c-cover-3.jpg 778w, https://umi.im/wp-content/uploads/2016/02/sony-z3c-cover-3-150x112.jpg 150w, https://umi.im/wp-content/uploads/2016/02/sony-z3c-cover-3-300x224.jpg 300w&#34; sizes=&#34;(max-width: 778px) 100vw, 778px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>SONY Xperia Z3C 升级 Android 5.1.1 保留 ROOT &amp; REC</title>
+        <link>https://umi.im/sony-xperia-z3c-android-5-1-1-root-rec/</link>
+        <pubDate>Sun, 02 Aug 2015 18:29:58 +0000</pubDate>
+        
+        <guid>https://umi.im/sony-xperia-z3c-android-5-1-1-root-rec/</guid>
+        <description>&lt;p&gt;最近 Z3C 收到了 Android 5.1.1 的 OTA ，因为手机已 ROOT ，无法验证，只能通过卡刷的方式更新，这样才可以保留 ROOT 和 REC 。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;5.1.1 是个很重要的版本，该版本修复了 Lollipop 固件中的内存泄漏 Bug ，在 Android M 还没着落的时候还是先刷上 5.1 先吧。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;索尼的手机折腾起来真的挺麻烦的，ROOT 和 REC 什么的。&lt;/p&gt;
+&lt;p&gt;不打算写详细的教程，汇总下需要的教程再整理下过程。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;/em&gt; 在升级之前请备份手机的重要数据&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4.4.4 和 5.0.2 固件的先 ROOT 和刷入 REC ，如果当前固件没有合适的 ROOT 工具，先用 FlashTool 强刷到合适的版本。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;4.4  ROOT ：&lt;a class=&#34;link&#34; href=&#34;http://bbs.gfan.com/android-7829711-1-1.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;XDA|Z3/Z3C免解锁ROOT|一键ROOT与REC工具|giefroot_v3定制版&lt;/a&gt;{#thread_subject}&lt;/p&gt;
+&lt;p&gt;5.0 ROOT ：&lt;a href=&#34;http://bonnieee.co/2464/root-xperia-lollipop&#34; target=&#34;_blank&#34;&gt;懶人式一鍵ROOT工具 – Xperia Lollipop 5.0專用&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;FlashTool 下载：&lt;a href=&#34;http://bbs.gfan.com/android-8036255-1-1.html&#34; target=&#34;_blank&#34;&gt;索尼Xperia手机刷机工具 &lt;span class=&#34;cred&#34;&gt;FlashTool&lt;/span&gt; 0.9.19.0 汉化优化版&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;强刷教程：&lt;a href=&#34;http://www.anqu.com/study_621/51327/&#34; target=&#34;_blank&#34;&gt;索尼Xperia系列Flashtool强刷图文教程&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;强刷驱动问题：&lt;a href=&#34;http://tieba.baidu.com/p/2227615547&#34; target=&#34;_blank&#34;&gt;解决windows8下不能安装flashtool+fastboot驱动问题&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;下载带 ROOT 和 REC 的 5.1.1 固件卡刷包，进入 REC 三清 Wipe 再刷入，然后关机。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://bbs.gfan.com/android-8026444-1-1.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;索尼5.1 Z3C 带最新root和rec卡刷包&lt;/a&gt;{#thread_subject}&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;下载 5.1.1 的官方固件然后强刷 5.1.1 的官方固件内核。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p id=&#34;_disk_id_23&#34;&gt;
+  &lt;a href=&#34;http://pan.baidu.com/s/1hUb0q&#34; target=&#34;_blank&#34;&gt;Z3C 5.1.1 官方固件（D5803 23.4.A.0.546 Customized BAL）&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://bbs.gfan.com/android-8027318-1-1.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;z3c刷完5.1.1无限重启的的进，你们需要关机强刷下对应的内核&lt;/a&gt;{#thread_subject}&lt;/p&gt;
+&lt;p&gt;官方版的 Xposed 框架暂时还不支持 Android 5.1 ，可以刷其他大牛制作的。&lt;/p&gt;
+&lt;p&gt;下载下面链接里面的 &lt;a href=&#34;http://forum.xda-developers.com/attachment.php?s=65a46e13099e0be34f24bc4db90e1efe&amp;attachmentid=3420636&amp;d=1438030312&#34; target=&#34;_blank&#34;&gt;posed-v68-sdk22-arm-by-romracer&lt;/a&gt; 在 REC 刷入，再安装 Xposed Installer（3.0 alpha4 ），64位手机下载 arm64 的。&lt;/p&gt;
+&lt;h2 id=&#34;a-hrefhttpforumxda-developerscomxposedsuper-alpha-posted-permission-xposed-t3072979-target_blankxposed-for-android-51-8211-v68--20150727--sdk22a&#34;&gt;
+    &lt;a href=&#34;#a-hrefhttpforumxda-developerscomxposedsuper-alpha-posted-permission-xposed-t3072979-target_blankxposed-for-android-51-8211-v68--20150727--sdk22a&#34;&gt;#&lt;/a&gt;
+    &lt;a href=&#34;http://forum.xda-developers.com/xposed/super-alpha-posted-permission-xposed-t3072979&#34; target=&#34;_blank&#34;&gt;Xposed for Android 5.1 – v68 / 20150727 / SDK22&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;经过以上多番折腾，手机终于可以愉快的使用了。&lt;/p&gt;
+&lt;p&gt;5.1.1 固件相比之前 5.0.2 流畅了不少，还有个小变化，下拉菜单可以直接连接 WIFI 或者蓝牙而不用跳转设置。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/sony-xperia-5.1.1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4444&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/sony-xperia-5.1.1.png&#34; alt=&#34;sony-xperia-5.1.1&#34; width=&#34;450&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/sony-xperia-5.1.1.png 450w, https://umi.im/wp-content/uploads/2015/08/sony-xperia-5.1.1-94x150.png 94w, https://umi.im/wp-content/uploads/2015/08/sony-xperia-5.1.1-188x300.png 188w&#34; sizes=&#34;(max-width: 450px) 100vw, 450px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>SONY Xperia Z3 &amp; Z3C 勿劝人入教！</title>
+        <link>https://umi.im/sony-xperia-z3-z3c/</link>
+        <pubDate>Sun, 24 May 2015 04:30:09 +0000</pubDate>
+        
+        <guid>https://umi.im/sony-xperia-z3-z3c/</guid>
+        <description>&lt;p&gt;劝人入教买的Z3，跳水好快，两个月跳了400…&lt;/p&gt;
+&lt;p&gt;先解开网络锁~&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/05/z3-lockun.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3895&#34; src=&#34;https://umi.im/wp-content/uploads/2015/05/z3-lockun.jpg&#34; alt=&#34;z3-lockun&#34; width=&#34;324&#34; height=&#34;576&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/05/z3-lockun.jpg 324w, https://umi.im/wp-content/uploads/2015/05/z3-lockun-84x150.jpg 84w, https://umi.im/wp-content/uploads/2015/05/z3-lockun-169x300.jpg 169w&#34; sizes=&#34;(max-width: 324px) 100vw, 324px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-2.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3887&#34; src=&#34;https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-2.jpg&#34; alt=&#34;SONY-XPERIA-Z3-2&#34; width=&#34;1094&#34; height=&#34;730&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-2.jpg 1094w, https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-2-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-2-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-2-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1094px) 100vw, 1094px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-8.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3888&#34; src=&#34;https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-8.jpg&#34; alt=&#34;SONY-XPERIA-Z3-8&#34; width=&#34;1094&#34; height=&#34;730&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-8.jpg 1094w, https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-8-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-8-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-8-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1094px) 100vw, 1094px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-9.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3889&#34; src=&#34;https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-9.jpg&#34; alt=&#34;SONY-XPERIA-Z3-9&#34; width=&#34;1094&#34; height=&#34;730&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-9.jpg 1094w, https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-9-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-9-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-9-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1094px) 100vw, 1094px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-10.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3890&#34; src=&#34;https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-10.jpg&#34; alt=&#34;SONY-XPERIA-Z3-10&#34; width=&#34;1094&#34; height=&#34;730&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-10.jpg 1094w, https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-10-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-10-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-10-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1094px) 100vw, 1094px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-11.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3891&#34; src=&#34;https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-11.jpg&#34; alt=&#34;SONY-XPERIA-Z3-11&#34; width=&#34;1094&#34; height=&#34;730&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-11.jpg 1094w, https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-11-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-11-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/05/SONY-XPERIA-Z3-11-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1094px) 100vw, 1094px&#34; /&gt;&lt;/a&gt;第二天下午，Z3C在楼梯上摔碎了！！！&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/05/Z3C-WW.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3892&#34; src=&#34;https://umi.im/wp-content/uploads/2015/05/Z3C-WW.jpg&#34; alt=&#34;Z3C-WW&#34; width=&#34;1094&#34; height=&#34;730&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/05/Z3C-WW.jpg 1094w, https://umi.im/wp-content/uploads/2015/05/Z3C-WW-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/05/Z3C-WW-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/05/Z3C-WW-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1094px) 100vw, 1094px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

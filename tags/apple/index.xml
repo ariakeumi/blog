@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Apple on 笨蛋屋</title>
+        <link>https://umi.im/tags/apple/</link>
+        <description>Recent content in Apple on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Thu, 08 Apr 2021 01:23:46 +0000</lastBuildDate><atom:link href="https://umi.im/tags/apple/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>通过 Home Assistant 让 OpenWrt 软路由的 CPU 温度显示在苹果 Homekit 上</title>
+        <link>https://umi.im/homekit-openwrt-cpu-temperature/</link>
+        <pubDate>Thu, 08 Apr 2021 01:23:46 +0000</pubDate>
+        
+        <guid>https://umi.im/homekit-openwrt-cpu-temperature/</guid>
+        <description>&lt;p&gt;通过 Home Assistant 的 Synology 集成我们已经可以让群晖的CPU温度显示在 Homekit 上，我使用的 NanoPi R2S 路由器 CPU 发热很严重，为了方便查看路由器温度决定尝试下看看能不能接入 Home Assistant。&lt;/p&gt;
+&lt;p&gt;Home Assistant 官方有 OpenWrt 集成，可惜那个只能追踪设备。搜了下确实有成功把路由器温度接入 Home Assistant 的案例，一个是 K3 官改固件一个是梅林固件，并没有 OpenWrt 的。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bbs.hassbian.com/thread-9376-1-1.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[技术探讨] 监测K3路由器温度&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bbs.hassbian.com/thread-3517-1-1.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;[进阶教程] 梅林路由器CPU和无线芯片温度接入Home Assistant&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我参考第一个链接通过 Command Line 成功让软路由的温度显示在 Home Assistant 和 Homekit 上。&lt;figure class=&#34;wp-block-image size-large is-resized&#34;&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; src=&#34;https://umi.im/wp-content/uploads/2021/04/homekit-r2s-temperature.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5890&#34; width=&#34;395&#34; height=&#34;640&#34; /&gt;  
+&lt;p&gt;方法如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;打开 Home Assistant 的终端，以我通过群晖 Docker 安装的 Home Assistant 为例，打开 Docker 应用的容器选项，找到 Home Assistant 的容器，点上面的详情，再切换终端机，新建 bash，进入终端界面了。&lt;/li&gt;
+&lt;li&gt;输入 ssh-keygen 回车创建密钥，输入密钥的名字，然后回提示你设置密码，密码留空直接回车两下就创建完成了。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我这里的私钥 id_rsa （图上名字填错）和公钥 id_rsa.pub 都存在 /config 目录下。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;ssh-keygen&lt;/code&gt;&lt;/pre&gt;&lt;figure class=&#34;wp-block-image size-large is-resized&#34;&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; src=&#34;https://umi.im/wp-content/uploads/2021/04/Home-Assistant-Bash.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5888&#34; width=&#34;850&#34; height=&#34;545&#34; /&gt;  
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;输入 cat id_rsa.pub 回车查看公钥，拷贝里面的内容。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;cat id_rsa.pub&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;在 OpenWrt 界面的 系统 – 管理权 – SSH密钥 中粘贴并应用。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;926&#34; height=&#34;603&#34; src=&#34;https://umi.im/wp-content/uploads/2021/04/OpenWrt-RSA.png&#34; alt=&#34;&#34; class=&#34;wp-image-5889&#34; /&gt;  
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;在 Home Assistant 的终端输入下面的命令测试，成功会输出温度数字。如果失败，尝试赋予 id_rsa 私钥文件 700 权限。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;chmod -R 700 id_rsa
+ssh -o StrictHostKeyChecking=no -i /config/id_rsa root@路由器IP cut -c1-2 /sys/class/thermal/thermal_zone0/temp&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;在 Home Assistant 的 configuration.yaml 配置文件添加下面的配置并重启 Home Assistant 服务，就能在 Home Assistant 和 Homekit 里看到路由器温度的传感器了。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;homekit:
+
+sensor:
+  - platform: command_line
+    name: R2S CPU 温度
+    command: &#34;ssh -o StrictHostKeyChecking=no -i /config/id_rsa root@路由器IP cut -c1-2 /sys/class/thermal/thermal_zone0/temp&#34;
+    unit_of_measurement: &#34;°C&#34;
+    scan_interval: 300&lt;/code&gt;&lt;/pre&gt;</description>
+        </item>
+        <item>
+        <title>挖坑：第三方设备接入苹果 Homekit 指南</title>
+        <link>https://umi.im/mijia-to-homekit/</link>
+        <pubDate>Wed, 25 Nov 2020 10:52:34 +0000</pubDate>
+        
+        <guid>https://umi.im/mijia-to-homekit/</guid>
+        <description>&lt;blockquote class=&#34;wp-block-quote is-layout-flow wp-block-quote-is-layout-flow&#34;&gt;
+  &lt;p&gt;
+    HomeKit是苹果公司推出的一个软件框架，它可以让用户使用苹果设备对智能家居电器进行配置、沟通和控制。通过在HomeKit服务中设计房间、物品和动作，用户可以通过对Siri的简单语音命令或通过家庭应用来实现家中的自动动作。&amp;nbsp;
+  &lt;/p&gt;
+&lt;p&gt;&lt;cite&gt;&lt;a href=&#34;https://zh.wikipedia.org/zh-cn/HomeKit&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;维基百科&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;相信很多人已经购买了一些智能家居的产品，这方面国内做得最好的莫过于米家了，性价比高颜值不错，本人也购买了一些米家的产品。&lt;/p&gt;
+&lt;p&gt;既然选择了米家为什么不用 米家 APP 还要接入 Homekit 呢？那当然是米家 APP 不好用，当论功能米家其实比 Homekit 强，但是它的 APP 响应慢启动慢，布局不好，每个设备的操作逻辑都不统一，还经常改，甚至还有广告。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;591&#34; height=&#34;1280&#34; src=&#34;https://umi.im/wp-content/uploads/2020/11/mijia-app.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5789&#34; srcset=&#34;https://umi.im/wp-content/uploads/2020/11/mijia-app.jpg 591w, https://umi.im/wp-content/uploads/2020/11/mijia-app-139x300.jpg 139w, https://umi.im/wp-content/uploads/2020/11/mijia-app-473x1024.jpg 473w, https://umi.im/wp-content/uploads/2020/11/mijia-app-69x150.jpg 69w&#34; sizes=&#34;(max-width: 591px) 100vw, 591px&#34; /&gt;  
+&lt;p&gt;而苹果全家桶用户使用 家庭 APP ，你可以用 Siri 语音控制，或是在 Mac 、Apple TV 上控制。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;591&#34; height=&#34;1280&#34; src=&#34;https://umi.im/wp-content/uploads/2020/11/ios-home-app.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5802&#34; srcset=&#34;https://umi.im/wp-content/uploads/2020/11/ios-home-app.jpg 591w, https://umi.im/wp-content/uploads/2020/11/ios-home-app-139x300.jpg 139w, https://umi.im/wp-content/uploads/2020/11/ios-home-app-473x1024.jpg 473w, https://umi.im/wp-content/uploads/2020/11/ios-home-app-69x150.jpg 69w&#34; sizes=&#34;(max-width: 591px) 100vw, 591px&#34; /&gt;  
+&lt;p&gt;上面得种种原因让我决定放弃米家迁移到 Homekit 上。&lt;/p&gt;
+&lt;p&gt;米家或者绿米 Aqara的几乎所有基于 Zigbee 协议的设备（如各种传感器）都能通过支持 Homekit 的网关原生接入 Homekit ，就是下面三款，个人推荐 Aqara M1S，有扬声器可以报警。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;820&#34; height=&#34;281&#34; src=&#34;https://umi.im/wp-content/uploads/2020/11/mijia-aqara-hub.png&#34; alt=&#34;&#34; class=&#34;wp-image-5791&#34; srcset=&#34;https://umi.im/wp-content/uploads/2020/11/mijia-aqara-hub.png 820w, https://umi.im/wp-content/uploads/2020/11/mijia-aqara-hub-300x103.png 300w, https://umi.im/wp-content/uploads/2020/11/mijia-aqara-hub-150x51.png 150w, https://umi.im/wp-content/uploads/2020/11/mijia-aqara-hub-768x263.png 768w&#34; sizes=&#34;(max-width: 820px) 100vw, 820px&#34; /&gt;  
+&lt;p&gt;还有米家台灯 1S 也是米家为数不多原生接入 Homekit 的设备。&lt;/p&gt;
+&lt;p&gt;接下来就说原生不支持接入 Homekit ，但是可以通过 HomeBridge 桥接的设备：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;米家扫地机器人&lt;/li&gt;
+&lt;li&gt;米家各种空气净化器&lt;/li&gt;
+&lt;li&gt;米家和智米的各种风扇&lt;/li&gt;
+&lt;li&gt;空调伴侣&lt;/li&gt;
+&lt;li&gt;米家各种插座和插线板&lt;/li&gt;
+&lt;li&gt;小佩宠物喂食器Mini&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以上是我用过的或者是我知道的能通过 HomeBridge 桥接的设备。&lt;/p&gt;
+&lt;p&gt;那么除了能桥接到 Homekit 的智能设备，你还需要以下东西：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一台 24 小时运行的群晖 NAS 或者树莓派之类的 Linux 设备&lt;/li&gt;
+&lt;li&gt;一台作为家庭中枢的苹果设备，如 iPad 、HomePod 或者 Apple TV&lt;/li&gt;
+&lt;li&gt;一点点的计算机基础知识&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;本人使用的是群晖 DS218+ ，通过 Docker 运行了 HomeBridge 、Home Assistant 、MQTT ，Home Assistant 和 MQTT 是为了让斐讯的 TC1 插排接入，过程过于繁琐而且需要用到编程器给插排刷固件就不细说了，其他设备都是通过 HomeBridge 接入的。&lt;/p&gt;
+&lt;p&gt;首先我们在群晖的套件中心里安装 Docker ，然后启动 Docker ，在注册表项搜索 HomeBridge ，下载 oznu/homebridge ，标签选择 latest 。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1042&#34; height=&#34;345&#34; src=&#34;https://umi.im/wp-content/uploads/2020/11/synology-docker.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5775&#34; srcset=&#34;https://umi.im/wp-content/uploads/2020/11/synology-docker.jpg 1042w, https://umi.im/wp-content/uploads/2020/11/synology-docker-300x99.jpg 300w, https://umi.im/wp-content/uploads/2020/11/synology-docker-1024x339.jpg 1024w, https://umi.im/wp-content/uploads/2020/11/synology-docker-150x50.jpg 150w, https://umi.im/wp-content/uploads/2020/11/synology-docker-768x254.jpg 768w&#34; sizes=&#34;(max-width: 1042px) 100vw, 1042px&#34; /&gt;  
+&lt;p&gt;下载完成后在 映像 里找到它启动，然后打开“高级设置”，在 “启用自动重新启动” 那里打勾。&lt;/p&gt;
+&lt;p&gt;接着在 “卷” 选项卡里点击 “添加文件夹” 。选择 Docker 目录，创建名为 “homebridge” 的目录，装载路径填 “/homebridge” 。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;644&#34; height=&#34;542&#34; src=&#34;https://umi.im/wp-content/uploads/2020/11/docker-homebridge-folder.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5776&#34; srcset=&#34;https://umi.im/wp-content/uploads/2020/11/docker-homebridge-folder.jpg 644w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-folder-300x252.jpg 300w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-folder-150x126.jpg 150w&#34; sizes=&#34;(max-width: 644px) 100vw, 644px&#34; /&gt;  
+&lt;p&gt;端口设置选项卡里，勾选“使用与Docker Host 相同的网络”。&lt;/p&gt;
+&lt;p&gt;环境选项卡，新增变量“ DSM_HOSTNAME ” ，值那里填你的群晖 NAS 主机名。&lt;/p&gt;
+&lt;p&gt;再新增变量“PACKAGES” ，值填 “ffmpeg” 。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;639&#34; height=&#34;564&#34; src=&#34;https://umi.im/wp-content/uploads/2020/11/docker-homebridge-folder-path.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5777&#34; srcset=&#34;https://umi.im/wp-content/uploads/2020/11/docker-homebridge-folder-path.jpg 639w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-folder-path-300x265.jpg 300w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-folder-path-150x132.jpg 150w&#34; sizes=&#34;(max-width: 639px) 100vw, 639px&#34; /&gt;  
+&lt;p&gt;点击应用就开始启动 HomeBridge 了，启动后选择容器，点击详情，再点击终端机，再点新增，输入 sh 后回车，在终端里输入以下命令安装 &lt;a href=&#34;https://github.com/oznu/homebridge-config-ui-x&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Homebridge Config UI X&lt;/a&gt; 。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;npm install -g --unsafe-perm homebridge-config-ui-x&lt;/code&gt;&lt;/pre&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;855&#34; height=&#34;437&#34; src=&#34;https://umi.im/wp-content/uploads/2020/11/docker-homebridge-sh.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5778&#34; srcset=&#34;https://umi.im/wp-content/uploads/2020/11/docker-homebridge-sh.jpg 855w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-sh-300x153.jpg 300w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-sh-150x77.jpg 150w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-sh-768x393.jpg 768w&#34; sizes=&#34;(max-width: 855px) 100vw, 855px&#34; /&gt;  
+&lt;p&gt;安装完成后，在群晖的 File Station 里打开 docker/homebridge 目录，选择 config.json ，右键用文本编辑器打开，加入以下代码：&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;&#34;platforms&#34;: &amp;#91;
+    {
+      &#34;platform&#34;: &#34;config&#34;,
+      &#34;name&#34;: &#34;Config&#34;,
+      &#34;port&#34;: 8888,
+      &#34;sudo&#34;: false
+    }
+]&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;895&#34; height=&#34;471&#34; src=&#34;https://umi.im/wp-content/uploads/2020/11/docker-homebridge-config-ui-x.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5781&#34; srcset=&#34;https://umi.im/wp-content/uploads/2020/11/docker-homebridge-config-ui-x.jpg 895w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-config-ui-x-300x158.jpg 300w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-config-ui-x-150x79.jpg 150w, https://umi.im/wp-content/uploads/2020/11/docker-homebridge-config-ui-x-768x404.jpg 768w&#34; sizes=&#34;(max-width: 895px) 100vw, 895px&#34; /&gt;  
+&lt;p&gt;再在 Docker 里面重启 Homebridge ，输入 NAS IP:8888 就可以进入 Homebridge 的 Web 界面了。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1320&#34; height=&#34;1038&#34; src=&#34;https://umi.im/wp-content/uploads/2020/11/homebridge-ui-x.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5785&#34; srcset=&#34;https://umi.im/wp-content/uploads/2020/11/homebridge-ui-x.jpg 1320w, https://umi.im/wp-content/uploads/2020/11/homebridge-ui-x-300x236.jpg 300w, https://umi.im/wp-content/uploads/2020/11/homebridge-ui-x-1024x805.jpg 1024w, https://umi.im/wp-content/uploads/2020/11/homebridge-ui-x-150x118.jpg 150w, https://umi.im/wp-content/uploads/2020/11/homebridge-ui-x-768x604.jpg 768w&#34; sizes=&#34;(max-width: 1320px) 100vw, 1320px&#34; /&gt;  
+&lt;p&gt;安装了 HomeBridge config UI X 后就可以很方便的在 WEB 界面安装各种插件。&lt;/p&gt;
+&lt;p&gt;下面来说说我所安装的插件。&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&#34;noreferrer noopener&#34; href=&#34;http://Homebridge Petkit Feeder Mini&#34; target=&#34;_blank&#34;&gt;Homebridge Petkit Feeder Mini&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;小佩宠物自动喂食器mini，可以控制投喂猫粮，还有猫粮没了会提醒。&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://github.com/merdok/homebridge-xiaomi-fan#readme&#34; target=&#34;_blank&#34;&gt;Homebridge Xiaomi Fan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我用来控制米家1X风扇，米家智米的基本都支持。&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://github.com/YinHangCode/homebridge-mi-outlet&#34; target=&#34;_blank&#34;&gt;Homebridge Mi Outlet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;支持米家智能插座基础版、小米智能插座_USB版、米家智能插线板、青米智能插线板_五孔位版、青米智能插线板_USB版、米家智能插座增强版 。&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://github.com/Sunoo/homebridge-camera-ffmpeg#readme&#34; target=&#34;_blank&#34;&gt;Homebridge Camera FFmpeg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;支持 RTSP 推流的监控摄像头都能接入 Homekit ，但只能看预览实时画面，不能看回放。&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://github.com/LASER-Yi/homebridge-mi-acPartner#readme&#34; target=&#34;_blank&#34;&gt;Homebridge Mi Acpartner&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;空调伴侣，可以通过高阶方法支持遥控更多红外设备。&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://github.com/alexgustafsson/homebridge-wol#readme&#34; target=&#34;_blank&#34;&gt;Homebridge WoL&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;网络唤醒插件，通过它就能使用家庭APP启动支持网络唤醒的电脑或者服务器，还是通过SHH发送关机或者睡眠命令，让实现完美的开机关机效果。&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://github.com/pdiegmann/homebridge-synology-diskstation#readme&#34; target=&#34;_blank&#34;&gt;Homebridge Synology Diskstation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;唤醒或者关闭群晖NAS，以及查看系统温度。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Sunoo/homebridge-aqicn&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;homebridge-aqicn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;把本地的空气质量信息显示在 Homekit 上，五线小城市的数据也有。&lt;/p&gt;
+&lt;p&gt;上面就是我自己用到的 Homebridge 插件，附带的 Github 链接都有使用方法，有时间我会挑出几个插件来写下详细的教程。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

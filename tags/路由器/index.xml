@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>路由器 on 笨蛋屋</title>
+        <link>https://umi.im/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/</link>
+        <description>Recent content in 路由器 on 笨蛋屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Sun, 31 Mar 2024 02:49:00 +0000</lastBuildDate><atom:link href="https://umi.im/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>抛弃 AdGuard Home , 直接使用 OpenClash 过滤广告 , OpenWrt 路由器过滤广告最简单的方法！</title>
+        <link>https://umi.im/openclash-adblock/</link>
+        <pubDate>Sun, 31 Mar 2024 02:49:00 +0000</pubDate>
+        
+        <guid>https://umi.im/openclash-adblock/</guid>
+        <description>&lt;h2 id=&#34;前言&#34;&gt;
+    &lt;a href=&#34;#%e5%89%8d%e8%a8%80&#34;&gt;#&lt;/a&gt;
+    前言
+&lt;/h2&gt;&lt;p&gt;在路由器上进行广告过滤可以帮助我在不方便安装广告过滤软件的设备上过滤掉一些简单的广告。&lt;/p&gt;
+&lt;p&gt;我尝试过很多在路由器上过滤广告的方法，最早使用的是 Adbyby ，但它多年没有维护，不能运行在较新的 OpenWrt 固件上了。&lt;/p&gt;
+&lt;h2 id=&#34;抛弃-adguard-home&#34;&gt;
+    &lt;a href=&#34;#%e6%8a%9b%e5%bc%83-adguard-home&#34;&gt;#&lt;/a&gt;
+    抛弃 AdGuard Home
+&lt;/h2&gt;&lt;p&gt;后来换 AdGuard Home 来过滤广告，ADG 有着好看易用的 WEB 界面，经过少许麻烦的配置就可以使用，参考 [红米 AX6000 路由器配置 AdGuard Home + OpenClash][1] 这篇文章，使用后期遇到了斗鱼弹幕无法加载的问题，尝试了各种方法都无法解决。&lt;/p&gt;
+&lt;p&gt;还有类似的 Pi-hole 这样的软件，和 OpenClash 搭配似乎都会遇到些麻烦。&lt;/p&gt;
+&lt;h2 id=&#34;使用-openclash-去广告&#34;&gt;
+    &lt;a href=&#34;#%e4%bd%bf%e7%94%a8-openclash-%e5%8e%bb%e5%b9%bf%e5%91%8a&#34;&gt;#&lt;/a&gt;
+    使用 OpenClash 去广告
+&lt;/h2&gt;&lt;p&gt;开始熟悉 OpenClash 后，我在 Clash 的配置文件里加入广告过滤规则，能获得和 AdGuard Home 差不多的过滤效果。&lt;/p&gt;
+&lt;p&gt;最重要的是我的网络拓扑变得非常简单，出现问题很容易排查，事实上换了这套方案网络一直很稳定。&lt;/p&gt;
+&lt;p&gt;如果你也使用 OpenClash 来进行科学上网，那直接用它来过滤广告最合适不过了。&lt;/p&gt;
+&lt;h2 id=&#34;配置-openclash&#34;&gt;
+    &lt;a href=&#34;#%e9%85%8d%e7%bd%ae-openclash&#34;&gt;#&lt;/a&gt;
+    配置 OpenClash
+&lt;/h2&gt;&lt;p&gt;OpenClash 我使用了 &lt;strong&gt;Meta 内核&lt;/strong&gt; ，&lt;strong&gt;Redir-Host 兼容模式&lt;/strong&gt; 运行，开启了 &lt;strong&gt;仅允许常用端口流量&lt;/strong&gt; ，不要开启 绕过中国大陆 IP ，这样就无法过滤国内的广告了。&lt;/p&gt;
+&lt;p&gt;Clash 配置文件里插入下面的广告过滤规则：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;16
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;17
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;18
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;19
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;20
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;21
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;22
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;23
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;24
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;25
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;26
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;27
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;28
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;29
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;30
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;31
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;32
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;33
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;34
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;35
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;36
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;37
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;38
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;39
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;40
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;41
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;42
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;43
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;44
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;45
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;46
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;47
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;48
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;49
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;50
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;51
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;proxies:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;proxy-groups:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - name: 🛑 广告拦截
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    type: select
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    proxies:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - REJECT
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - DIRECT
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rule-providers: 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  BanAD:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    type: http
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    behavior: classical
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    url: &amp;#34;https://raw.staticdn.net/ACL4SSR/ACL4SSR/master/Clash/Providers/BanAD.yaml&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    path: ./ACL4SSR/BanAD.yaml
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    interval: 86400
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  BanEasyList:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    type: http
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    behavior: classical
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    url: &amp;#34;https://raw.staticdn.net/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyList.yaml&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    path: ./ACL4SSR/BanEasyList.yaml
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    interval: 86400
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  BanEasyListChina:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    type: http
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    behavior: classical
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    url: &amp;#34;https://raw.staticdn.net/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyListChina.yaml&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    path: ./ACL4SSR/BanEasyListChina.yaml
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    interval: 86400
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  BanEasyPrivacy:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    type: http
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    behavior: classical
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    url: &amp;#34;https://raw.staticdn.net/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyPrivacy.yaml&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    path: ./ACL4SSR/BanEasyPrivacy.yaml
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    interval: 86400
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  BanProgramAD:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    type: http
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    behavior: classical
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    url: &amp;#34;https://raw.staticdn.net/ACL4SSR/ACL4SSR/master/Clash/Providers/BanProgramAD.yaml&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    path: ./ACL4SSR/BanProgramAD.yaml
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    interval: 86400
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rules:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - RULE-SET,BanAD,🛑 广告拦截
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - RULE-SET,BanEasyList,🛑 广告拦截
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - RULE-SET,BanEasyListChina,🛑 广告拦截
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - RULE-SET,BanEasyPrivacy,🛑 广告拦截
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - RULE-SET,BanProgramAD,🛑 广告拦截
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;加起来接近七万条广告过滤规则，在 yacd 面板里可以手动更新规则而不重启 OpenClash ，过滤出现问题也可以把 🛑 广告拦截 改成 DIRECT 临时暂停过滤。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://umi.im/wp-content/uploads/2024/03/clash-adb-rules.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;yacd面板&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;缺点&#34;&gt;
+    &lt;a href=&#34;#%e7%bc%ba%e7%82%b9&#34;&gt;#&lt;/a&gt;
+    缺点
+&lt;/h2&gt;&lt;p&gt;因为过滤规则太多，加上国内流量也通过 Clash 内核，CPU 性能太弱的路由器跑起来可能会很吃力。&lt;/p&gt;
+&lt;p&gt;我的 红米 AX6000 跑起来毫无压力，x86 软路由应该也没问题。&lt;/p&gt;
+&lt;p&gt;另外此类过滤方法基本无法过滤视频广告，桌面用户还是得配合 uBlock Origin 等浏览器插件使用。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>路由器 CPU 性能天梯排行榜</title>
+        <link>https://umi.im/router-cpu-coremark/</link>
+        <pubDate>Wed, 20 Sep 2023 23:44:29 +0000</pubDate>
+        
+        <guid>https://umi.im/router-cpu-coremark/</guid>
+        <description>&lt;p&gt;本人为了选购路由器从网络上收集了数个路由器的 CoreMark 跑分， 包括了硬路由、X86 软路由和 ARM 软路由等。CoreMark 分数仅代表了路由器的处理器性能，和路由器的信号、NAT 转发性能等没有关联，仅供选购路由器时参考，更多路由器的拆机评测可以去 &lt;a class=&#34;link&#34; href=&#34;https://www.acwifi.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ACWIFI 网站&lt;/a&gt; 上看。&lt;figure class=&#34;wp-block-pullquote&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;CoreMark是一款专门用于测量嵌入式处理器和微控制器性能的小型基准测试软件。它使用一系列测试程序来测量处理器性能，包括加密解密、压缩解压缩、矩阵操作、排序、字符串操作等多项测试，提供一个标准化的得分称为CoreMark得分。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;如果你有其他的路由器 CoreMark 跑分也可以分享给我。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;芯片厂商&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;处理器型号&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;产品型号&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;规格&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;CoreMark ≈ 分数&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;AMD&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;5800H&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;SER5Pro&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;八核 Zen3&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;300000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;AMD&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;5600H&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;SER5Pro&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;六核 Zen3&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;240000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Intel&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;N305&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;畅网 N305&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;八核 x86&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;199000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Intel&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;N100&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;EQ12&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;四核 x86&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;100000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Rockchip&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;RK3588S&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;NanoPi R6S&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;四核 A76 + 四核 A55&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;99000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Intel&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Celeron N5105&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;N/A&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;四核 x86&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;77000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Intel&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Celeron J4125&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;N/A&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;四核 x86&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;61000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Qualcomm&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;IPQ9570&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;小米万兆路由器&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;四核 A73&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;49000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Rockchip&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;RK3399&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;NanoPi R4S&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;双核 A73 + 四核 A55&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;40000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Intel&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Celeron J1900&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;N/A&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;四核 x86&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;34000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Qualcomm&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;IPQ9554&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;小米 BE7000&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;四核 A73&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;33000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Broadcom&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;BCM2711&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;树莓派 4B&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;四核 A73&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;32500&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Qualcomm&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;IPQ8072A&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;小米 AX9000&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;四核 A53&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;29909&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;MediaTek&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;MT7986A&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;红米 AX6000&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;四核 A53&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;27500&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Rockchip&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;RK3568&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;NanoPi R5S&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;四核 A55&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;26000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Qualcomm&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;IPQ6018&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;360v6&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;四核 A53&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;20000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Qualcomm&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;IPQ8074&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;华硕 RT-AX89X&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;四核 A53&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;N/A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Intel&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Celeron J1800&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;N/A&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;双核 x86&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;18200&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Rockchip&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;RK3328&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;NanoPi R2S&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;四核 A55&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;18000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Amlogic&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;S905D&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;斐讯 N1&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;四核 A53&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;18400&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Qualcomm&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;IPQ8071A&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;红米 AX6&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;四核 A53&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;17500&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Broadcom&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;BCM4908&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;华硕 AX88U&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;四核 A53&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;N/A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Broadcom&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;BCM4709C&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;斐讯 K3&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;双核 A9&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;9700&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;MediaTek&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;MT7622B&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;红米 AX6S&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;双核 A53&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;9300&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;MediaTek&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;MT7621&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;斐讯 K2P A1&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;双核 MIPS&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;4900&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;MediaTek&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;MT7620A&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;斐讯 K2&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;单核 MIPS&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1250&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;MediaTek&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;MT7981B&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;N/A&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;双核 A53&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;N/A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Qualcomm&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;IPQ5018&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;小米 AX6000&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;双核 A53&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;N/A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>红米 AX6000 路由器配置 AdGuard Home &#43; OpenClash</title>
+        <link>https://umi.im/redmi-ax6000-adguard-home-openclash/</link>
+        <pubDate>Sun, 30 Apr 2023 16:33:00 +0000</pubDate>
+        
+        <guid>https://umi.im/redmi-ax6000-adguard-home-openclash/</guid>
+        <description>&lt;p&gt;我现在使用路由器是红米 AX6000 ，使用的固件是 237176253 大佬的 &lt;a href=&#34;https://www.right.com.cn/forum/thread-8261104-1-1.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;红米ax6000闭源驱动op&lt;/a&gt; 固件，之前用的是 广告过滤大师 Plus+ （adbyby），不过它在 237 的新固件上会导致防火墙无法重启，不得已要换到 AdGuard Home 。&lt;/p&gt;
+&lt;p&gt;AdGuard Home + OpenClash 的配置方法花样百出，各种教程看得我这种网络小白头晕，最后我决定参照 OpenClash 原作者&lt;a href=&#34;https://github.com/vernesong/OpenClash/discussions/1420&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;推荐的方法&lt;/a&gt;配置，中间遇到点小插曲，就把过程写一下吧。&lt;/p&gt;
+&lt;h2 id=&#34;openclash-配置&#34;&gt;
+    &lt;a href=&#34;#openclash-%e9%85%8d%e7%bd%ae&#34;&gt;#&lt;/a&gt;
+    OpenClash 配置
+&lt;/h2&gt;&lt;p&gt;OpenClash 运行模式使用 &lt;strong&gt;Redir-Host (兼容) 模式&lt;/strong&gt; 。把 OpenClash 界面的 &lt;strong&gt;插件设置&lt;/strong&gt; – &lt;strong&gt;DNS 设置&lt;/strong&gt; 选项的 &lt;strong&gt;本地 DNS 劫持&lt;/strong&gt; 给停用。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1001&#34; height=&#34;852&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/openclash-conf-1.png&#34; alt=&#34;&#34; class=&#34;wp-image-6551&#34; /&gt;  
+&lt;p&gt;接着把 &lt;strong&gt;覆写设置&lt;/strong&gt; – &lt;strong&gt;DNS 设置&lt;/strong&gt; 的 *&lt;strong&gt;自定义上游 DNS 服务器&lt;/strong&gt; 给勾选，下面的上游 DNS 服务器用默认的配置就行。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;967&#34; height=&#34;732&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/openclash-conf-2.png&#34; alt=&#34;&#34; class=&#34;wp-image-6552&#34; /&gt;  
+&lt;h2 id=&#34;安装-adguard-home&#34;&gt;
+    &lt;a href=&#34;#%e5%ae%89%e8%a3%85-adguard-home&#34;&gt;#&lt;/a&gt;
+    安装 AdGuard Home
+&lt;/h2&gt;&lt;p&gt;因为刷的是 mini 版不带 AdGuard Home ，软件源也没有 luci 界面的，就是 Github 上找了这个：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kongfl888/luci-app-adguardhome&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;kongfl888/luci-app-adguardhome&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;把 .ipk 上传到路由器，在 SSH 上用 opkg 命令安装。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;opkg install luci-app-adguardhome_1.8-20221120_all.ipk
+opkg install luci-i18n-adguardhome-zh-cn_git-22.323.68542-450e04a_all.ipk
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;我再安装完后 OpenWrt 界面 变成了英文，语言设置里只有 auto 选项，要先卸载了中文语言包再重新安装才变回中文。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;opkg update
+opkg remove luci-i18n-base-zh-cn
+opkg install luci-i18n-base-zh-cn&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;配置-adguard-home&#34;&gt;
+    &lt;a href=&#34;#%e9%85%8d%e7%bd%ae-adguard-home&#34;&gt;#&lt;/a&gt;
+    配置 AdGuard Home
+&lt;/h2&gt;&lt;p&gt;在 AdGuard Home 的界面点击更新核心版本，然后进入配置界面。&lt;/p&gt;
+&lt;p&gt;端口保持默认的 3000 就行。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;792&#34; height=&#34;622&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/adg-install-2.png&#34; alt=&#34;&#34; class=&#34;wp-image-6549&#34; /&gt;  
+&lt;p&gt;DNS 端口填 5553 。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;784&#34; height=&#34;646&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/adg-install-3.png&#34; alt=&#34;&#34; class=&#34;wp-image-6550&#34; /&gt;  
+&lt;p&gt;AdGuard Home &lt;strong&gt;设置&lt;/strong&gt; – &lt;strong&gt;DNS 设置&lt;/strong&gt; – &lt;strong&gt;上游 DNS 服务器&lt;/strong&gt; 填写 OpenClash 的 DNS 地址 127.0.0.1:7874 和 114.114.114.114 ，填 114 DNS 是为了防止 OpenClash 关闭时能正常访问国内网站。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1001&#34; height=&#34;638&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/adg-conf.png&#34; alt=&#34;&#34; class=&#34;wp-image-6553&#34; /&gt;  
+&lt;p&gt;回到 AdGuard Home 的 Luci 界面把 5553重定向 改为 重定向53端口到AdGuard Home ，最后启用。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;794&#34; height=&#34;599&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/adg-install-1.png&#34; alt=&#34;&#34; class=&#34;wp-image-6546&#34; /&gt;  
+&lt;p&gt;配置完成后在 OpneWrt 的防火墙里面，可以看到 udp dpt:53 redir ports 5553 这条规则是在 /* DNSMASQ */ udp dpt:53 redir ports 53 下面的。&lt;/p&gt;
+&lt;blockquote class=&#34;wp-block-quote is-layout-flow wp-block-quote-is-layout-flow&#34;&gt;
+  &lt;p&gt;
+    OpenClash 作者提到：
+  &lt;/p&gt;
+&lt;p&gt;&lt;cite&gt;应用配置后确保防火墙中的这条规则在下面那条DNSMASQ规则之前，否则请尝试前往网络-防火墙-自定义规则，注释掉系统默认的转发到53端口的规则。&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;但在 237 大佬编译的 OpenWrt 固件里防火墙自定义规则是空的，一番摸索后发现，把 &lt;strong&gt;DHCP/DNS&lt;/strong&gt; – &lt;strong&gt;服务器设置&lt;/strong&gt; – &lt;strong&gt;常规设置&lt;/strong&gt; 的 &lt;strong&gt;DNS 重定向&lt;/strong&gt; 取消勾选并保存应用，然后重新勾选再保存应用上，防火墙的 udp dpt:53 redir ports 5553 规则就在 /* DNSMASQ */ udp dpt:53 redir ports 53 上面了。&lt;/p&gt;
+&lt;p&gt;有更好设置方法的大佬也可以告诉我下。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;671&#34; height=&#34;304&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/openwrt-firewall.png&#34; alt=&#34;&#34; class=&#34;wp-image-6554&#34; /&gt;  
+&lt;h2 id=&#34;运行效果&#34;&gt;
+    &lt;a href=&#34;#%e8%bf%90%e8%a1%8c%e6%95%88%e6%9e%9c&#34;&gt;#&lt;/a&gt;
+    运行效果
+&lt;/h2&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1325&#34; height=&#34;771&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/adguard-home.png&#34; alt=&#34;&#34; class=&#34;wp-image-6545&#34; /&gt; </description>
+        </item>
+        <item>
+        <title>红米 AX6 路由器刷 Lean OpenWrt 固件简略</title>
+        <link>https://umi.im/ax6-openwrt/</link>
+        <pubDate>Fri, 22 Oct 2021 14:37:24 +0000</pubDate>
+        
+        <guid>https://umi.im/ax6-openwrt/</guid>
+        <description>&lt;p&gt;刷机过程参照了这几篇文章：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.right.com.cn/forum/thread-4560135-1-1.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.right.com.cn/forum/thread-4560135-1-1.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://qust.me/post/hong-mi-ax6-jie-suo-ssh-an-zhuang-shi-yong-shellclash-jiao-cheng/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://qust.me/post/hong-mi-ax6-jie-suo-ssh-an-zhuang-shi-yong-shellclash-jiao-cheng/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://qust.me/post/hong-mi-ax6-jie-suo-ssh-an-zhuang-shi-yong-shellclash-jiao-cheng/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.right.com.cn/forum/thread-4111331-1-1.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.right.com.cn/forum/thread-4111331-1-1.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;固件来自： &lt;a href=&#34;https://www.right.com.cn/forum/forum.php?mod=viewthread&amp;tid=5426438&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D64&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.right.com.cn/forum/forum.php?mod=viewthread&amp;amp;tid=5426438&amp;amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D64&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.right.com.cn/forum/forum.php?mod=viewthread&amp;tid=5426438&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D64&lt;/a&gt;&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;需要准备另外一台刷了 OpenWrt 的无线路由器（软路由不行），一台电脑，和下载链接里固件和工具: &lt;a href=&#34;https://pan.baidu.com/s/1NwnFRVkgHpwkKAm_3vjAtA&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://pan.baidu.com/s/1NwnFRVkgHpwkKAm_3vjAtA&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://pan.baidu.com/s/1NwnFRVkgHpwkKAm_3vjAtA&lt;/a&gt;&lt;/a&gt; 提取码: i21k 。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;登录红米 AX6 路由器后台给把官方固件降级到 1.0.18（miwifi_ra69_firmware_45a77_1.0.18.bin）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;电脑连接 OpenWrt 无线路由器，用 WinSCP 登录 OpenWrt 无线路由器把破解脚本上传到 /tmp 目录，然后 SSH 登录路由器执行下面的命令运行脚本。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;sh /tmp/wireless.sh&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;红米 AX6 路由器有线连接到电脑，登录路由器的 Web 后台，复制浏览器地址栏链接中的 stok（stok=和/之中的字符），然后在浏览器输入下面的链接回车。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;
+http:&amp;#47;&amp;#47;AX6路由器的IP/cgi-bin/luci/;stok=刚刚复制的stok/api/misystem/extendwifi_connect?ssid=MEDIATEK-ARM-IS-GREAT&amp;password=ARE-YOU-OK&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;成功会返回 code 0 ，再次在&lt;span style=&#34;font-size: revert; color: initial;&#34;&gt;浏览器输入下面的 URL 回&lt;/span&gt;车，继续返回 code 0 。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;http:&amp;#47;&amp;#47;AX6路由器的IP/cgi-bin/luci/;stok=刚刚复制的stok/api/xqsystem/oneclick_get_remote_token?username=xxx&amp;password=xxx&amp;nonce=xxx&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后在AX6 路由器 Web 后台的 路由状态 界面，可以点击查看到 5GHz 频段的 WIFI 密码，这个 WIFI 密码变成 root 密码，复制它。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;SSH 登录 AX6 路由器（账号 root ，密码是刚才复制的），执行下面的两条命令。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;mkdir /tmp/syslogbackup/
+dd if=/dev/mtd9 of=/tmp/syslogbackup/mtd9&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;接着在浏览器输入下面的链接下载备份。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;http:&amp;#47;&amp;#47;AX6路由器的IP/backup/log/mtd9&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;将 ax3000.sh 和 fuckax3000 两个文件通过 WinSCP （账号密码同SSH）上传到 AX6 路由器的 /etc 目录。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;接着通过 SSH 登录执行：&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;sh /etc/ax3000.sh unlock&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;执行后路由器自动重启，再次 SSH 登录执行：&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;sh /etc/ax3000.sh hack&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;继续自动重启。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;重启后 SSH 登录路由器，一条一条执行下面的命令。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;nvram set flag_last_success=0
+nvram set flag_boot_rootfs=0
+nvram set flag_boot_success=1
+nvram set flag_try_sys1_failed=0
+nvram set flag_try_sys2_failed=0
+nvram set boot_wait=on
+nvram set uart_en=1
+nvram set telnet_en=1
+nvram set ssh_en=1
+nvram commit&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;通过 WinSCP 把 xiaomimtd12.bin （QSDK固件）上传到 AX6 路由器的 /tmp 目录，SSH执行：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;mtd write /tmp/xiaomimtd12.bin rootfs&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol start=&#34;9&#34;&gt;
+&lt;li&gt;拨电源重新启动路由器，浏览器打开 192.168.1.1 ，看到 OpenWrt 的登录界面就表示成功了，默认密码是 admin 。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;接着用 WinSCP 把固件 a6minbib.bin 上传路由器到 /tmp 目录，SSH 执行下面的两条命令 。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;. /lib/upgrade/platform.sh
+switch_layout boot; do_flash_failsafe_partition a6minbib &#34;0:MIBIB&#34;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;执行完毕后拔电源重启路由器。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol start=&#34;10&#34;&gt;
+&lt;li&gt;再次通过 WinSCP 把最终要刷的 OpenWrt 固件 openwrt-ipq807x-generic-redmi_ax6-squashfs-nand-factory.ubi 上传到 /tmp 目录，然后 SSH 执行下面几条命令。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;ubiformat /dev/mtd13 -y -f /tmp/openwrt-ipq807x-generic-redmi_ax6-squashfs-nand-factory.ubi
+fw_setenv flag_last_success 1
+fw_setenv flag_boot_rootfs 1
+reboot&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;重启后就大功告成了，默认IP是 192.168.10.1 ，登录密码是 password 。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1293&#34; height=&#34;765&#34; src=&#34;https://umi.im/wp-content/uploads/2021/10/AX6-OpenWrt-Luci.png&#34; alt=&#34;&#34; class=&#34;wp-image-5944&#34; /&gt;  
+&lt;p&gt;感叹下，AX6 上的这颗高通 IPQ8071A 真的强，刷上 OpenWrt 如虎添翼，能满足绝大部分人的需求的，不必再追求什么软路由了。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1075&#34; height=&#34;793&#34; src=&#34;https://umi.im/wp-content/uploads/2021/10/AX6-Speedtest.png&#34; alt=&#34;&#34; class=&#34;wp-image-5953&#34; /&gt;  
+&lt;p&gt;后事，还记得那台帮助刷固件的 OpenWrt 无线路由器吗，执行完脚本后它会被更改网络设置，关掉 DHCP 服务和修改 WIFI SSID 及密码。&lt;/p&gt;
+&lt;p&gt;你还需要把连上它把电脑 IP 改成 169.254.31.2 ，子网掩码 255.255.255.0 ，网关 169.254.31.1 ，然后登录 169.254.31.1 把 LAN IP 和 WIFI设置改回来以及开启 DHCP 服务。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>红米 AX6 路由器和群晖 NAS 单网口旁路由设置</title>
+        <link>https://umi.im/nas-openwrt/</link>
+        <pubDate>Wed, 16 Dec 2020 11:23:18 +0000</pubDate>
+        
+        <guid>https://umi.im/nas-openwrt/</guid>
+        <description>&lt;p&gt;因为拼多多打骨折入手了红米 AX6 路由器，终于要用上 WIFI6 路由器了。然而问题来了，红米 AX6 没有第三方固件，没法在路由器上部署翻墙和过滤广告，很不方便。&lt;figure class=&#34;wp-block-image size-large lightbox&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img decoding=&#34;async&#34; src=&#34;https://umi.im/wp-content/uploads/2020/12/AX6-and-K3.jpg&#34; alt=&#34;&#34; /&gt; &lt;figcaption&gt;红米 AX6 和它的前任斐讯 K3&lt;/figcaption&gt;&lt;/p&gt;
+&lt;p&gt;那怎么办？要翻墙，要低成本，要低功耗，还要稳定。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;方案1：K3 当主路由，AX6 当AP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;有些浪费，功耗高，需要设置定时重启，有时候会断网需要重新连接 WAN 口和LAN 口才行，不知道为啥。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;方案2：升级 NAS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;升级到有双网口的 DS720+ 或者 DS920+ ，直接用群晖的虚拟机套件安装 OpenWrt 当做主路由，外接红米 AX6 当做 AP 。&lt;/p&gt;
+&lt;p&gt;缺点是成本过高，旧的 DS218+ 二手价格跌倒 1600 不到，出手就是血亏。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;方案3：X86 软路由&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;J1900 的软路由加上配件都得 500+ ，成本高功耗高对于已有 NAS 的我来说过于浪费。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;方案4：R2S 软路由&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;近期很火的 ARM 软路由，有官方的 OpenWrt 固件，也有 Lean 的，可玩性不错。而且功耗低，价格也只要 199 元。&lt;/p&gt;
+&lt;p&gt;因为 R2S 要等到月底才能发货，于是我尝试了下用 NAS 做旁路由，发现效果还不错，以上方案就 PASS 了。&lt;/p&gt;
+&lt;p&gt;下面简单介绍下怎么搞虚拟机软路由。&lt;/p&gt;
+&lt;p&gt;先看下网络拓扑图，光猫改桥接模式，使用主路由红米 AX6 进行拨号、DHCP分发，旁路由只负责翻墙。&lt;/p&gt;
+&lt;img decoding=&#34;async&#34; src=&#34;https://umi.im/wp-content/uploads/2020/12/my-home-network.png&#34; alt=&#34;&#34; class=&#34;wp-image-5854&#34; /&gt;  
+&lt;p&gt;安装方法参考这篇文章：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.skk.moe/post/nas-dsm-vmm-lede/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;单网口群晖使用 Virtual Machine Manager 安装 Koolshare OpenWRT 作为旁路网关&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;不同的是我使用的固件是 eSir 编译的 &lt;a href=&#34;https://drive.google.com/drive/folders/1eyIxVfyzO4nyzaT1sSr6xWf50_5YJN7g&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;OpenWrt 精品小包固件&lt;/a&gt;，还有个高大全版，因为只用到了翻墙插件还是选个小巧的吧。Koolshare 是必源固件，个人不推荐安装。&lt;/p&gt;
+&lt;p&gt;主路由红米 AX6 的 IP 是 10.0.0.1 ，不需要做其他设置。&lt;/p&gt;
+&lt;p&gt;虚拟机旁路由 IP 是 10.0.0.10 ， LAN 口的设置如下：&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;597&#34; height=&#34;471&#34; src=&#34;https://umi.im/wp-content/uploads/2020/12/Openwrt-Settings-1.png&#34; alt=&#34;&#34; class=&#34;wp-image-5824&#34; srcset=&#34;https://umi.im/wp-content/uploads/2020/12/Openwrt-Settings-1.png 597w, https://umi.im/wp-content/uploads/2020/12/Openwrt-Settings-1-300x237.png 300w, https://umi.im/wp-content/uploads/2020/12/Openwrt-Settings-1-150x118.png 150w&#34; sizes=&#34;(max-width: 597px) 100vw, 597px&#34; /&gt;  
+&lt;p&gt;基本设置里给“忽略此接口”打勾，因为要用主路由提供 DHCP 服务。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;609&#34; height=&#34;207&#34; src=&#34;https://umi.im/wp-content/uploads/2020/12/Openwrt-Settings-2.png&#34; alt=&#34;&#34; class=&#34;wp-image-5825&#34; srcset=&#34;https://umi.im/wp-content/uploads/2020/12/Openwrt-Settings-2.png 609w, https://umi.im/wp-content/uploads/2020/12/Openwrt-Settings-2-300x102.png 300w, https://umi.im/wp-content/uploads/2020/12/Openwrt-Settings-2-150x51.png 150w&#34; sizes=&#34;(max-width: 609px) 100vw, 609px&#34; /&gt;  
+&lt;p&gt;LAN 口的物理设置里的“桥接接口”还要去掉勾，点击保存。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;635&#34; height=&#34;290&#34; src=&#34;https://umi.im/wp-content/uploads/2020/12/Openwrt-Settings-3.png&#34; alt=&#34;&#34; class=&#34;wp-image-5826&#34; srcset=&#34;https://umi.im/wp-content/uploads/2020/12/Openwrt-Settings-3.png 635w, https://umi.im/wp-content/uploads/2020/12/Openwrt-Settings-3-300x137.png 300w, https://umi.im/wp-content/uploads/2020/12/Openwrt-Settings-3-150x69.png 150w&#34; sizes=&#34;(max-width: 635px) 100vw, 635px&#34; /&gt;  
+&lt;p&gt;再在防火墙的自定义规则里添加一段规则，然后重启防火墙和应用设置。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;iptables -t nat -I POSTROUTING -j MASQUERADE&lt;/code&gt;&lt;/pre&gt;&lt;figure class=&#34;wp-block-image size-large lightbox&#34;&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;933&#34; height=&#34;568&#34; src=&#34;https://umi.im/wp-content/uploads/2020/12/Openwrt-Settings-4.png&#34; alt=&#34;&#34; class=&#34;wp-image-5827&#34; srcset=&#34;https://umi.im/wp-content/uploads/2020/12/Openwrt-Settings-4.png 933w, https://umi.im/wp-content/uploads/2020/12/Openwrt-Settings-4-300x183.png 300w, https://umi.im/wp-content/uploads/2020/12/Openwrt-Settings-4-150x91.png 150w, https://umi.im/wp-content/uploads/2020/12/Openwrt-Settings-4-768x468.png 768w&#34; sizes=&#34;(max-width: 933px) 100vw, 933px&#34; /&gt;  
+&lt;p&gt;因为 AX6 的固件不能给设备下发网关和 DNS ，在需要翻墙的设备上需要手动设置网关和 DNS 。如在 iOS 系统的 IP 设置里，路由器指的就是网关，填旁路由的 IP ，DNS 也填旁路由的 IP 。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;406&#34; height=&#34;480&#34; src=&#34;https://umi.im/wp-content/uploads/2020/12/ios-gateway.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5829&#34; srcset=&#34;https://umi.im/wp-content/uploads/2020/12/ios-gateway.jpg 406w, https://umi.im/wp-content/uploads/2020/12/ios-gateway-254x300.jpg 254w, https://umi.im/wp-content/uploads/2020/12/ios-gateway-127x150.jpg 127w&#34; sizes=&#34;(max-width: 406px) 100vw, 406px&#34; /&gt;  &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;480&#34; height=&#34;436&#34; src=&#34;https://umi.im/wp-content/uploads/2020/12/ios-dns-1.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5858&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Windows 设置：&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;465&#34; height=&#34;581&#34; src=&#34;https://umi.im/wp-content/uploads/2020/12/windows-gateway-1.png&#34; alt=&#34;&#34; class=&#34;wp-image-5860&#34; /&gt;  
+&lt;p&gt;没有 NAS 的朋友还是建议买个 R2S 之类的软路由，比 N1 做旁路由更好折腾。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>斐讯 K2 K2P K3 OpenWRT 固件存档</title>
+        <link>https://umi.im/phicomm-openwrt/</link>
+        <pubDate>Sat, 25 May 2019 20:19:32 +0000</pubDate>
+        
+        <guid>https://umi.im/phicomm-openwrt/</guid>
+        <description>&lt;p&gt;近期，多位路由器固件开发者被约谈喝茶，并被迫删除了包含固件下载链接的帖子，因为他们的路由器固件里面包含了能翻墙的组件。&lt;/p&gt;
+&lt;p&gt;受影响的包括斐讯路由器官改固件开发者 abccba94 ，OpenWRT 固件开发者 Lean ，老毛子固件（Padavan）开发者荒野无灯 和 hanwckf 等大神。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;777&#34; height=&#34;419&#34; src=&#34;https://umi.im/wp-content/uploads/2019/05/right-lean.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5536&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/05/right-lean.jpg 777w, https://umi.im/wp-content/uploads/2019/05/right-lean-150x81.jpg 150w, https://umi.im/wp-content/uploads/2019/05/right-lean-300x162.jpg 300w, https://umi.im/wp-content/uploads/2019/05/right-lean-768x414.jpg 768w&#34; sizes=&#34;(max-width: 777px) 100vw, 777px&#34; /&gt;  &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;851&#34; height=&#34;384&#34; src=&#34;https://umi.im/wp-content/uploads/2019/05/right-abc.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5546&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/05/right-abc.jpg 851w, https://umi.im/wp-content/uploads/2019/05/right-abc-150x68.jpg 150w, https://umi.im/wp-content/uploads/2019/05/right-abc-300x135.jpg 300w, https://umi.im/wp-content/uploads/2019/05/right-abc-768x347.jpg 768w&#34; sizes=&#34;(max-width: 851px) 100vw, 851px&#34; /&gt; &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;614&#34; height=&#34;126&#34; src=&#34;https://umi.im/wp-content/uploads/2019/05/p4davan.png&#34; alt=&#34;&#34; class=&#34;wp-image-5544&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/05/p4davan.png 614w, https://umi.im/wp-content/uploads/2019/05/p4davan-150x31.png 150w, https://umi.im/wp-content/uploads/2019/05/p4davan-300x62.png 300w&#34; sizes=&#34;(max-width: 614px) 100vw, 614px&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;本文主要是备份下我所用的路由器的固件，都是以 Lean 的 OpenWRT 固件源码开发的。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;斐讯 K2 PSG1218 A版 （OpenWRT）&lt;/li&gt;
+&lt;li&gt;斐讯 K2P A1 / A2 MTK版 （PandoraBox 和官改固件）&lt;/li&gt;
+&lt;li&gt;斐讯 K3 （OpenWRT）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;OpenWRT 因为其强大的功能，可定制性和 Material Design 主题成为我最喜欢的路由器固件，PandoraBox 也是其分支，设置基本都一样。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2019/05/Image-041.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1161&#34; height=&#34;769&#34; src=&#34;https://umi.im/wp-content/uploads/2019/05/Image-041.png&#34; alt=&#34;&#34; class=&#34;wp-image-5532&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/05/Image-041.png 1161w, https://umi.im/wp-content/uploads/2019/05/Image-041-150x99.png 150w, https://umi.im/wp-content/uploads/2019/05/Image-041-300x199.png 300w, https://umi.im/wp-content/uploads/2019/05/Image-041-768x509.png 768w, https://umi.im/wp-content/uploads/2019/05/Image-041-1024x678.png 1024w&#34; sizes=&#34;(max-width: 1161px) 100vw, 1161px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Lean 的固件里面的翻墙组件 Shadowsocks Plus + 是隐藏的，登录 SSH 输入以下命令回车即可开启。&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;echo 0xDEADBEEF &amp;gt; /etc/config/google_fu_mode&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;K2 和 K2P 都是在 Breed 里面刷入固件的，随便刷。&lt;/p&gt;
+&lt;p&gt;K3 可以直接在官改固件里刷 LEDE 过渡固件，再刷 Lean 的 OpenWRT ，lede-bcm53xx-phicomm-k3-squashfs-factory-20170504.bin 这个是过渡固件。&lt;/p&gt;
+&lt;p&gt;至于 K2 / K2P 怎么刷入 Breed 或者 K3 怎么刷官改固件，恩山上还有很多教程，应该没删。&lt;/p&gt;
+&lt;p&gt;下载链接：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://pan.baidu.com/s/17Ab0uW7R6PxsydfTLAHa4g&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://pan.baidu.com/s/17Ab0uW7R6PxsydfTLAHa4g&lt;/a&gt; 提取码: xepj&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/drive/folders/1IuyyrFJz4GjI7bI7QQS5nZ9-YQe754IV?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://drive.google.com/drive/folders/1IuyyrFJz4GjI7bI7QQS5nZ9-YQe754IV?usp=sharing&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>斐讯 K3 路由器刷官改固件流程</title>
+        <link>https://umi.im/phicomm-k3/</link>
+        <pubDate>Sat, 10 Mar 2018 13:27:42 +0000</pubDate>
+        
+        <guid>https://umi.im/phicomm-k3/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/K3-Router.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;700&#34; height=&#34;648&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/K3-Router.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-4993&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/K3-Router.jpg 700w, https://umi.im/wp-content/uploads/2018/03/K3-Router-150x139.jpg 150w, https://umi.im/wp-content/uploads/2018/03/K3-Router-300x278.jpg 300w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;入手斐讯 K3 快一年了，因为懒一直用官方固件，最近有远程唤醒的需求，所以要找第三方固件刷。&lt;/p&gt;
+&lt;p&gt;K3 的第三方固件有梅林、LEDE、官方固件ROOT版、官改等固件。因为稳定性的原因所以我选择 A 大的官改固件。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.right.com.cn/forum/forum.php?mod=viewthread&amp;tid=259012&amp;extra=page%3D2%26filter%3Dtypeid%26typeid%3D15&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[k3] 【2017-12-20】斐讯K3 官方固件定制版，加adb、酸酸乳、KMS、Aria2等【V1.5】&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下面简单写下刷官改固件的方法。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;我的 K3 路由器已经是最新版本（V21.6.11.58）的固件了，要刷非官方固件只能先降级，按照 &lt;a href=&#34;http://www.right.com.cn/forum/thread-304185-1-1.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;此帖&lt;/a&gt; 的方法，下载 K3_V21.6.11.58P 和 K3_V21.5.37.246  这两个固件，在官方固件的设置里面手动升级。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;先直刷 K3_V21.6.11.58P 固件，升级完成后再刷 K3_V21.5.37.246 固件，这样就降级为了可以简单刷官改固件的低版本官方原生固件。&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a href=&#34;https://pan.baidu.com/s/1TPXzbgWt33xm8414upfgAA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://pan.baidu.com/s/1TPXzbgWt33xm8414upfgAA&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://pan.baidu.com/s/1TPXzbgWt33xm8414upfgAA&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/K3-Updata.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;922&#34; height=&#34;452&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/K3-Updata.png&#34; alt=&#34;&#34; class=&#34;wp-image-4987&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/K3-Updata.png 922w, https://umi.im/wp-content/uploads/2018/03/K3-Updata-150x74.png 150w, https://umi.im/wp-content/uploads/2018/03/K3-Updata-300x147.png 300w, https://umi.im/wp-content/uploads/2018/03/K3-Updata-768x377.png 768w&#34; sizes=&#34;(max-width: 922px) 100vw, 922px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;降级完成后，进入 LAN 设置，把路由器 LAN IP 地址设置为 192.168.2.1 ，然后把电脑本机的 IP 设置为 192.168.2.2 。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/K3-IP.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1004&#34; height=&#34;438&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/K3-IP.png&#34; alt=&#34;&#34; class=&#34;wp-image-4982&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/K3-IP.png 1004w, https://umi.im/wp-content/uploads/2018/03/K3-IP-150x65.png 150w, https://umi.im/wp-content/uploads/2018/03/K3-IP-300x131.png 300w, https://umi.im/wp-content/uploads/2018/03/K3-IP-768x335.png 768w&#34; sizes=&#34;(max-width: 1004px) 100vw, 1004px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;下载 &lt;a href=&#34;http://woo.iytc.net/?dir=uploads/K3%20ROM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;最新的固件和刷机工具&lt;/a&gt; ，刷机工具只需要下载 Tftpd ，解压固件和 Tftpd ，然后把解压后的固件放到 Tftpd 的目录，注意路径不要带中文。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/tftpd-path.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;936&#34; height=&#34;603&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/tftpd-path.png&#34; alt=&#34;&#34; class=&#34;wp-image-4983&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/tftpd-path.png 936w, https://umi.im/wp-content/uploads/2018/03/tftpd-path-150x97.png 150w, https://umi.im/wp-content/uploads/2018/03/tftpd-path-300x193.png 300w, https://umi.im/wp-content/uploads/2018/03/tftpd-path-768x495.png 768w&#34; sizes=&#34;(max-width: 936px) 100vw, 936px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在系统设置里关闭 Windows 的防火墙。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/windows-firewall-disabled.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1204&#34; height=&#34;806&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/windows-firewall-disabled.png&#34; alt=&#34;&#34; class=&#34;wp-image-4988&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/windows-firewall-disabled.png 1204w, https://umi.im/wp-content/uploads/2018/03/windows-firewall-disabled-150x100.png 150w, https://umi.im/wp-content/uploads/2018/03/windows-firewall-disabled-300x201.png 300w, https://umi.im/wp-content/uploads/2018/03/windows-firewall-disabled-768x514.png 768w, https://umi.im/wp-content/uploads/2018/03/windows-firewall-disabled-1024x686.png 1024w&#34; sizes=&#34;(max-width: 1204px) 100vw, 1204px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;按 K3 的电源键关机，拔掉路由器 WAN 的网线，只连接电脑，找牙签之类的东西按住复位键不放，接着按开机键，复位键按住等待10秒松开。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这时候在电脑浏览器输入 192.168.2.1 ，进入 CFE miniWeb 界面。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/CFE-miniWeb.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1057&#34; height=&#34;680&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/CFE-miniWeb.png&#34; alt=&#34;&#34; class=&#34;wp-image-4984&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/CFE-miniWeb.png 1057w, https://umi.im/wp-content/uploads/2018/03/CFE-miniWeb-150x96.png 150w, https://umi.im/wp-content/uploads/2018/03/CFE-miniWeb-300x193.png 300w, https://umi.im/wp-content/uploads/2018/03/CFE-miniWeb-768x494.png 768w, https://umi.im/wp-content/uploads/2018/03/CFE-miniWeb-1024x659.png 1024w&#34; sizes=&#34;(max-width: 1057px) 100vw, 1057px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;启动 TFTPD 软件，选择电脑的网卡（192.168.2.2），然后在浏览器地址栏输入下面的链接并打开：&lt;/p&gt;
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;http://192.168.2.1/do.htm?cmd=flash+-noheader+192.168.2.2:/k3_v16d.bin+nflash0.trx&lt;/pre&gt;
+&lt;p&gt;链接中的 k3_v16d.bin 替换成要刷的固件名。&lt;/p&gt;
+&lt;p&gt;Tftpd 出现进度条说明正在刷写固件，等进度条完成在等五分钟就手动重启就大功告成了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/tftpd.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;433&#34; height=&#34;365&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/tftpd.png&#34; alt=&#34;&#34; class=&#34;wp-image-4985&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/tftpd.png 433w, https://umi.im/wp-content/uploads/2018/03/tftpd-150x126.png 150w, https://umi.im/wp-content/uploads/2018/03/tftpd-300x253.png 300w&#34; sizes=&#34;(max-width: 433px) 100vw, 433px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;官改固件多了 Shadowsocks 、广告屏蔽、远程唤醒等诸多功能，非常值得刷。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/k3-new-rom.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1188&#34; height=&#34;882&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/k3-new-rom.png&#34; alt=&#34;&#34; class=&#34;wp-image-4986&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/k3-new-rom.png 1188w, https://umi.im/wp-content/uploads/2018/03/k3-new-rom-150x111.png 150w, https://umi.im/wp-content/uploads/2018/03/k3-new-rom-300x223.png 300w, https://umi.im/wp-content/uploads/2018/03/k3-new-rom-768x570.png 768w, https://umi.im/wp-content/uploads/2018/03/k3-new-rom-1024x760.png 1024w&#34; sizes=&#34;(max-width: 1188px) 100vw, 1188px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

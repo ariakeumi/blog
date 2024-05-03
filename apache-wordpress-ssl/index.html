@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="传输层安全协议（英语：Transport Layer Security，缩写为 TLS），及其前身安全套接层（Secure Sockets Layer，SSL）是一种安全">
+<title>Apache &#43; WordPress 部署 SSL 加密</title>
+
+<link rel='canonical' href='https://umi.im/apache-wordpress-ssl/'>
+
+<link rel="stylesheet" href="/scss/style.min.859d15a88c4baa095161a679adcf6a0588d393b9603bd708e8e0c634ae102b82.css"><meta property='og:title' content="Apache + WordPress 部署 SSL 加密">
+<meta property='og:description' content="传输层安全协议（英语：Transport Layer Security，缩写为 TLS），及其前身安全套接层（Secure Sockets Layer，SSL）是一种安全">
+<meta property='og:url' content='https://umi.im/apache-wordpress-ssl/'>
+<meta property='og:site_name' content='笨蛋屋'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='VPS' /><meta property='article:tag' content='WordPress' /><meta property='article:published_time' content='2015-06-23T02:11:31&#43;00:00'/><meta property='article:modified_time' content='2015-06-23T02:11:31&#43;00:00'/>
+<meta name="twitter:title" content="Apache + WordPress 部署 SSL 加密">
+<meta name="twitter:description" content="传输层安全协议（英语：Transport Layer Security，缩写为 TLS），及其前身安全套接层（Secure Sockets Layer，SSL）是一种安全">
+    <link rel="shortcut icon" href="/favicon.png" />
+
+  
+
+<meta name="verification" content="9cfa2f7dea5bc4a0">
+<script defer src="https://u.umi.im/replace-me-with-a-random-string" data-website-id="befac8d7-0396-44c8-b151-9c332a5f176f"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5428554628068316"
+     crossorigin="anonymous"></script>
+    
+    
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar-150px_hub3e42f8fb4895a97c7036e2fee26b85a_7312_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">💔</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">笨蛋屋</a></h1>
+            <h2 class="site-description">炒土豆丝 の Blog !</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://s.umi.im/'
+                        target="_blank"
+                        title="ServerStutas"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-server-bolt"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" /><path d="M15 20h-9a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h12" /><path d="M7 8v.01" /><path d="M7 16v.01" /><path d="M20 15l-2 3h3l-2 3" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://m.umi.im/'
+                        target="_blank"
+                        title="Memos"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-feather"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 20l10 -10m0 -5v5h5m-9 -1v5h5m-9 -1v5h5m-5 -5l4 -4l4 -4" /><path d="M19 10c.638 -.636 1 -1.515 1 -2.486a3.515 3.515 0 0 0 -3.517 -3.514c-.97 0 -1.847 .367 -2.483 1m-3 13l4 -4l4 -4" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/ariakeumi'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/998potato'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://umi.im/index.xml'
+                        target="_blank"
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/comments/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
+  <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
+</svg>
+
+
+
+                
+                <span>Comments</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='https://share.umi.im/' target="_blank">
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-share"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M18 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M8.7 10.7l6.6 -3.4" /><path d="M8.7 13.3l6.6 3.4" /></svg>
+                
+                <span>Share</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#a-hrefhttpwwwznteccnarchivesstartsslhtml-target_blank免费的ssl证书提供商startssl详细图文注册教程--小蒋博客a"><a href="http://www.zntec.cn/archives/startssl.html" target="_blank">免费的SSL证书提供商StartSSL详细图文注册教程 | 小蒋博客</a></a></li>
+    <li><a href="#-意外的情况"> Ⅳ 意外的情况</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/it/" style="background-color: ; color: #fff;">
+                折腾
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/apache-wordpress-ssl/">Apache &#43; WordPress 部署 SSL 加密</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2015年06月23日</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 4 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <blockquote>
+<p><strong>传输层安全协议</strong>（<span class="LangWithName">英语：<span lang="en" xml:lang="en">Transport Layer Security</span></span>，缩写为 TLS），及其前身<strong>安全套接层</strong>（<span lang="en" xml:lang="en">Secure Sockets Layer</span>，SSL）是一种<a class="link" href="https://zh.wikipedia.org/wiki/%E5%AE%89%E5%85%A8%E5%8D%8F%E8%AE%AE"  title="安全协议"
+     target="_blank" rel="noopener"
+    >安全协议</a>，目的是为互联网通信，提供安全及数据完整性保障。在<a class="link" href="https://zh.wikipedia.org/wiki/%E7%B6%B2%E6%99%AF"  title="网景"
+     target="_blank" rel="noopener"
+    >网景</a>公司（<span lang="en" xml:lang="en">Netscape</span>）推出首版Web浏览器的同时提出SSL，<a class="link" href="https://zh.wikipedia.org/wiki/IETF"  title="IETF"
+     target="_blank" rel="noopener"
+    >IETF</a>{.mw-redirect}将SSL进行标准化，1999年公布了 TLS标准文件。</p>
+<p style="text-align: left;">
+  SSL包含记录层（Record Layer）和传输层，记录层协议确定了传输层数据的封装格式。传输层安全协议使用<a title="X.509" href="https://zh.wikipedia.org/wiki/X.509">X.509</a>认证，之后利用非对称加密演算来对通信方做身份认证，之后交换对称密钥作为会谈密钥（Session key）。这个会谈密钥是用来将通信两方交换的数据做加密，保证两个应用间通信的保密性和可靠性，使客户与服务器应用之间的通信不被攻击者窃听。
+</p>
+</blockquote>
+<p style="text-align: left;">
+  最近，和谐物分享网站 琉璃神社 弄 TLS/SSL 加密，据说 SSL 加密能有效防范关键字重置，心血来潮我也去搞一个。
+</p>
+<p style="text-align: left;">
+  配置 SSL 加密需要用到 SSL 证书，证书基本是收费的，而且很贵，便宜的像 Godaddy 的都比 .com 域名要贵。
+</p>
+<p style="text-align: left;">
+  好在有一家叫 StartCom 的公司提供免费的 SSL 证书，而且证书受主流浏览器信任。
+</p>
+<h3 style="text-align: left;">
+  Ⅰ SSL 证书的申请
+</h3>
+<h2 id="a-hrefhttpwwwznteccnarchivesstartsslhtml-target_blank免费的ssl证书提供商startssl详细图文注册教程--小蒋博客a">
+    <a href="#a-hrefhttpwwwznteccnarchivesstartsslhtml-target_blank%e5%85%8d%e8%b4%b9%e7%9a%84ssl%e8%af%81%e4%b9%a6%e6%8f%90%e4%be%9b%e5%95%86startssl%e8%af%a6%e7%bb%86%e5%9b%be%e6%96%87%e6%b3%a8%e5%86%8c%e6%95%99%e7%a8%8b--%e5%b0%8f%e8%92%8b%e5%8d%9a%e5%ae%a2a">#</a>
+    <a href="http://www.zntec.cn/archives/startssl.html" target="_blank">免费的SSL证书提供商StartSSL详细图文注册教程 | 小蒋博客</a>
+</h2><p style="text-align: left;">
+  申请挺简单，先填上个人资料注册，收邮件下一步，安装登录用的证书（记得备份），然后证书申请，填域名然后用验证。
+</p>
+<p style="text-align: left;">
+  接着填上私钥密码，得到一串私钥，保存为 ssl.key 。
+</p>
+<p style="text-align: left;">
+  说点插曲，我在 SSH 终端使用 vi 编辑器复制私钥进去保存，因为没有回车换行导致头行前几位字符被吞掉，然后我以为是其它原因配置出错折腾了几小时才发现是私钥错了，坑死爹了！
+</p>
+<p style="text-align: left;">
+  <a class="lightbox" href="https://umi.im/wp-content/uploads/2015/06/private-keys.png"><img loading="lazy" decoding="async" class="alignnone size-full wp-image-4076" src="https://umi.im/wp-content/uploads/2015/06/private-keys.png" alt="private-keys" width="918" height="315" srcset="https://umi.im/wp-content/uploads/2015/06/private-keys.png 918w, https://umi.im/wp-content/uploads/2015/06/private-keys-150x51.png 150w, https://umi.im/wp-content/uploads/2015/06/private-keys-300x103.png 300w" sizes="(max-width: 918px) 100vw, 918px" /></a>
+</p>
+<p style="text-align: left;">
+  得到私钥后需要解密，在终端 cd 到 ssl.key 的目录下，执行：
+</p>
+<pre class="lang:default decode:true  ">openssl rsa -in ssl.key -out ssl.key</pre>
+<p style="text-align: left;">
+  再输入密码就得到了解密的私钥。
+</p>
+<p style="text-align: left;">
+  然后在 StartSSL 网站控制面板的 Tool Box 进入 Retrieve Certificate ，拿到申请的证书信息和公钥，保存为 ssh.crt 。
+</p>
+<p style="text-align: left;">
+  <a class="lightbox" href="https://umi.im/wp-content/uploads/2015/06/Retrieve-Certificate.png"><img loading="lazy" decoding="async" class="alignnone size-full wp-image-4073" src="https://umi.im/wp-content/uploads/2015/06/Retrieve-Certificate.png" alt="Retrieve Certificate" width="797" height="340" srcset="https://umi.im/wp-content/uploads/2015/06/Retrieve-Certificate.png 797w, https://umi.im/wp-content/uploads/2015/06/Retrieve-Certificate-150x64.png 150w, https://umi.im/wp-content/uploads/2015/06/Retrieve-Certificate-300x128.png 300w, https://umi.im/wp-content/uploads/2015/06/Retrieve-Certificate-700x300.png 700w" sizes="(max-width: 797px) 100vw, 797px" /></a>
+</p>
+<p style="text-align: left;">
+  再在 Tool Box 的 StartCom CA Certificates 下载到 ca.pem 和 sub.class1.server.ca.pem 。
+</p>
+<p style="text-align: left;">
+  <a class="lightbox" href="https://umi.im/wp-content/uploads/2015/06/StartCom-CA-Certificates.png"><img loading="lazy" decoding="async" class="alignnone size-full wp-image-4072" src="https://umi.im/wp-content/uploads/2015/06/StartCom-CA-Certificates.png" alt="StartCom CA Certificates" width="1048" height="407" srcset="https://umi.im/wp-content/uploads/2015/06/StartCom-CA-Certificates.png 1048w, https://umi.im/wp-content/uploads/2015/06/StartCom-CA-Certificates-150x58.png 150w, https://umi.im/wp-content/uploads/2015/06/StartCom-CA-Certificates-300x117.png 300w, https://umi.im/wp-content/uploads/2015/06/StartCom-CA-Certificates-1024x398.png 1024w" sizes="(max-width: 1048px) 100vw, 1048px" /></a>
+</p>
+<p style="text-align: left;">
+  这样证书的所有文件就搞定了，如果在文件还在本地就上传到服务器上，ssl.key、ssl.crt、ca.pem 和 sub.class1.server.ca.pem 这四个。
+</p>
+<h3 style="text-align: left;">
+  Ⅱ Apache 配置 SSL
+</h3>
+<h3 style="text-align: left;">
+  <a href="https://wzyboy.im/post/799.html#ch4" target="_blank">Apache + WordPress + SSL 完全指南</a>
+</h3>
+<p style="text-align: left;">
+  用 vi 编辑器修改 Apache 的配置文件，执行：
+</p>
+<pre class="lang:default decode:true ">vi  /etc/apache2/sites-available/default-ssl.conf</pre>
+<p>添加修改下面的内容，证书文件路径改为自己的，我也是照别人放的。</p>
+<pre class="lang:default decode:true ">SSLEngine on
+SSLCertificateFile /etc/pki/tls/certs/ssl.crt
+SSLCertificateKeyFile /etc/pki/tls/private/ssl.key
+SSLCertificateChainFile /etc/pki/tls/sub.class1.server.ca.pem
+SSLCACertificateFile /etc/pki/tls/ca.pem</pre>
+<p>修改保存好 Apache 的配置文件后，执行：</p>
+<pre class="lang:default decode:true">a2ensite
+default-ssl.conf</pre>
+<p style="text-align: left;">
+  确保 mod_ssl 已经开启：
+</p>
+<pre class="lang:default decode:true ">a2enmod ssl</pre>
+<p>最后重启 Apache ：</p>
+<pre class="lang:default decode:true ">service apache2 restart</pre>
+<p>以上只是搞定 SSL 证书的配置，还有 WordPress 方面要折腾。</p>
+<h3 style="text-align: left;">
+  Ⅲ WordPress 配置 SSL
+</h3>
+<p style="text-align: left;">
+  首先得把 WordPress 的设置里面的 Http:// 域名改为 Https:// 的，还要把数据库的文章、图片等链接全都改为 Https:// 的，用 SQL 语句或者 Velvet Blues Update URLs 插件都可以。
+</p>
+<p style="text-align: left;">
+  <a class="lightbox" href="https://umi.im/wp-content/uploads/2015/06/wordpress-http-https.png"><img loading="lazy" decoding="async" class="alignnone size-full wp-image-4074" src="https://umi.im/wp-content/uploads/2015/06/wordpress-http-https.png" alt="wordpress-http-https" width="680" height="613" srcset="https://umi.im/wp-content/uploads/2015/06/wordpress-http-https.png 680w, https://umi.im/wp-content/uploads/2015/06/wordpress-http-https-150x135.png 150w, https://umi.im/wp-content/uploads/2015/06/wordpress-http-https-300x270.png 300w" sizes="(max-width: 680px) 100vw, 680px" /></a>
+</p>
+<p style="text-align: left;">
+  接着设置 Https 跳转，编辑网站目录下的 .htaccess 文件，就是设置 <a title="炒土豆丝的 WordPress 新家：VPS ~ Ubuntu + Apache + MySQL + PHP" href="https://umi.im/vps-ubuntu-wordpress/" target="_blank">伪静态</a> 那个文件，加入下面的字段（自行修改为自己的域名）。
+</p>
+<pre class="lang:default decode:true ">RewriteEngine On
+RewriteCond %{HTTPS} !on [NC]
+RewriteCond %{HTTP_USER_AGENT} !(baiduspider|soso|bing|sogou|yahoo|sohu-search|yodao|robozilla|msnbot|msie|feedburner) [NC]
+RewriteRule (.*) https://umi.im%{REQUEST_URI} [R=301,NC,L]</pre>
+<p>修改完成后再 重启 Apache ：</p>
+<pre class="lang:default decode:true ">service apache2 restart</pre>
+<h2 id="-意外的情况">
+    <a href="#-%e6%84%8f%e5%a4%96%e7%9a%84%e6%83%85%e5%86%b5">#</a>
+     Ⅳ 意外的情况
+</h2><p style="text-align: left;">
+  折腾了这么久应该搞定了啊，可惜的是还没有，又遇到各种突发情况。
+</p>
+<p style="text-align: left;">
+  1. Bilibili 外链视频无法加载，在 Http 链接下正常，只需要把 Html 外链代码的 http://share.acg.tv/flash.swf 替换成 https://static-s.bilibili.com/miniloader.swf ，SQL 语句或者插件批量替换，任君选择。
+</p>
+<p style="text-align: left;">
+  参考：<a href="https://www.aazz.me/https-add-bilibili-videos.html" target="_blank">Https协议下插入BiliBili视频的方法</a>
+</p>
+<p style="text-align: left;">
+  2. 多说插件出错，安装别人做的修改版多说插件（ <a href="https://github.com/yecl/duoshuo-wordpress" target="_blank" data-pjax="#js-repo-pjax-container">duoshuo-wordpress</a>），后台管理不能显示还未解决。
+</p>
+<p style="text-align: left;">
+  参考：<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CB4QFjAA&url=https%3A%2F%2Fyecl.net%2Fssl-duoshuo-github%2F&ei=2a-IVc_yH4eA8gXhmoNA&usg=AFQjCNEVhyYLBPzhhUsxxuGPHiC7c4lHaw&sig2=cYVlAPWdFXZp7wS1IdZ5-g" target="_blank" data-href="https://yecl.net/ssl-duoshuo-github/">支持SSL的多说插件已挂到github | 夜绫千裕</a>
+</p>
+<p style="text-align: left;">
+  3. 需要配置七牛 CDN 加速，进入七牛的管理面板，修改镜像源为 Https 链接的，并设置七牛 Https 域名，再同上修改七牛的 WordPress 加速插件。
+</p>
+<p class="entry-title" style="text-align: left;">
+  参考：<a href="https://tumutanzi.com/archives/12128" target="_blank">试用支持HTTPS SSL的七牛云存储CDN</a>
+</p>
+<p class="entry-title" style="text-align: left;">
+  4. 360 前端公共库不支持 SSL 只能关闭 ，Google 公共库被墙，只好用中科大提供的公共库。
+</p>
+<p class="entry-title" style="text-align: left;">
+  插件下载：<a href="https://wordpress.org/plugins/useso-take-over-google/" target="_blank">Useso take over Google</a>
+</p>
+<h3 class="entry-title" style="text-align: left;">
+  Ⅴ 气死强迫症
+</h3>
+<p class="entry-title" style="text-align: left;">
+  折腾好所有后，地址栏那个绿色的小锁终于出现了。
+</p>
+<p class="entry-title" style="text-align: left;">
+  <a class="lightbox" href="https://umi.im/wp-content/uploads/2015/06/bakahouse-ssl.png"><img loading="lazy" decoding="async" class="alignnone size-full wp-image-4078" src="https://umi.im/wp-content/uploads/2015/06/bakahouse-ssl.png" alt="bakahouse-ssl" width="453" height="429" srcset="https://umi.im/wp-content/uploads/2015/06/bakahouse-ssl.png 453w, https://umi.im/wp-content/uploads/2015/06/bakahouse-ssl-150x142.png 150w, https://umi.im/wp-content/uploads/2015/06/bakahouse-ssl-300x284.png 300w" sizes="(max-width: 453px) 100vw, 453px" /></a>
+</p>
+<p class="entry-title" style="text-align: left;">
+  但是很坑爹，我把出现在首页的两篇带 Flash 视频的文章移除掉才出现绿色的小锁子，不然就是一把灰锁加一个黄色三角形。
+</p>
+<p class="entry-title" style="text-align: left;">
+  在文章页面，因为多说插件不支持 SSL ，所以还是不绿！WTF！
+</p>
+<p class="entry-title" style="text-align: left;">
+  <a class="lightbox" href="https://umi.im/wp-content/uploads/2015/06/https-yellow.png"><img loading="lazy" decoding="async" class="alignnone size-full wp-image-4080" src="https://umi.im/wp-content/uploads/2015/06/https-yellow.png" alt="https-yellow" width="424" height="60" srcset="https://umi.im/wp-content/uploads/2015/06/https-yellow.png 424w, https://umi.im/wp-content/uploads/2015/06/https-yellow-150x21.png 150w, https://umi.im/wp-content/uploads/2015/06/https-yellow-300x42.png 300w" sizes="(max-width: 424px) 100vw, 424px" /></a>
+</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/vps/">VPS</a>
+        
+            <a href="/tags/wordpress/">WordPress</a>
+        
+    </section>
+
+
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2015年06月23日 02:11 CST
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/vps-ubuntu-wordpress/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">炒土豆丝的 WordPress 新家：VPS ~ Ubuntu &#43; Apache &#43; MySQL &#43; PHP</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/wordpress/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">炒土豆丝のWordPress</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/serverstatus/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://umi.im/wp-content/uploads/2023/04/serverstatus-card.png" loading="lazy" data-key="" data-hash="https://umi.im/wp-content/uploads/2023/04/serverstatus-card.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">部署一个轻量高颜值的服务器监控探针 ServerStatus</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog-to-hk/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">博客服务器搬到香港啦</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/aws-ec2/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://umi.im/wp-content/uploads/2022/04/aws-ec2-poster.jpg" loading="lazy" data-key="" data-hash="https://umi.im/wp-content/uploads/2022/04/aws-ec2-poster.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">每月 100GB 流量的免费 VPS – AWS EC2 白嫖</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
+<div id="waline" class="waline-container"></div>
+<style>
+    .waline-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+        --waline-font-size: var(--article-font-size);
+    }
+    .waline-container .wl-count {
+        color: var(--card-text-color-main);
+    }
+</style><script>
+    
+    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://npm.elemecdn.com/@waline/emojis@1.1.0/weibo"],"lang":"zh-CN","locale":{"admin":"屋主","placeholder":"欢迎互动！"},"requiredMeta":["name","email","url"],"serverURL":"https://waline.umi.im/"});
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2024 笨蛋屋
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.25.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
