@@ -387,7 +387,7 @@
         <pubDate>Tue, 09 Apr 2024 22:54:21 +0000</pubDate>
         
         <guid>https://umi.im/dnspod-to-cloudflare/</guid>
-        <description>&lt;img src="https://umi.im/wp-content/uploads/2024/04/CF_MetaImage.webp" alt="Featured image of post 博客域名 NS 从 DNSPOD 转移到 Cloudflare" /&gt;&lt;h2 id=&#34;吐槽&#34;&gt;
+        <description>&lt;img src="https://umi.im/wp-content/uploads/2024/04/cloudflare.webp" alt="Featured image of post 博客域名 NS 从 DNSPOD 转移到 Cloudflare" /&gt;&lt;h2 id=&#34;吐槽&#34;&gt;
     &lt;a href=&#34;#%e5%90%90%e6%a7%bd&#34;&gt;#&lt;/a&gt;
     吐槽
 &lt;/h2&gt;&lt;p&gt;博客的 umi.im 域名 NS 设置在 DNSPOD ，近期经常修改子域名的 DNS 解析，结果每次登录 DNSPOD 都要我输入烦人的验证码，加上眼馋 Cloudflare 的各种免费服务，萌生了转移域名 NS 的想法。&lt;/p&gt;
