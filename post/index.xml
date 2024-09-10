@@ -12,7 +12,7 @@
         <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
         
         <guid>https://umi.im/300gb-traffic-crash-blog/</guid>
-        <description>&lt;h2 id=&#34;博客下线&#34;&gt;
+        <description>&lt;img src="https://umi.im/300gb-traffic-crash-blog/umami-120k.png" alt="Featured image of post 突如其来300GB流量冲击：一次博客服务下线的教训" /&gt;&lt;h2 id=&#34;博客下线&#34;&gt;
     &lt;a href=&#34;#%e5%8d%9a%e5%ae%a2%e4%b8%8b%e7%ba%bf&#34;&gt;#&lt;/a&gt;
     博客下线
 &lt;/h2&gt;&lt;p&gt;2024 年 9 月 1 号凌晨 1 点左右突然睡醒，看了下手机，Uptime Kuma 提示博客下线，Beszel 提示 VPS 磁盘占用达到 80% 。&lt;/p&gt;
