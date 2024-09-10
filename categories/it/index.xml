@@ -6,7 +6,123 @@
         <description>Recent content in 折腾 on 笨蛋屋</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://umi.im/categories/it/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 10 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://umi.im/categories/it/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>突如其来300GB流量冲击：一次博客服务下线的教训</title>
+        <link>https://umi.im/300gb-traffic-crash-blog/</link>
+        <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://umi.im/300gb-traffic-crash-blog/</guid>
+        <description>&lt;h2 id=&#34;博客下线&#34;&gt;
+    &lt;a href=&#34;#%e5%8d%9a%e5%ae%a2%e4%b8%8b%e7%ba%bf&#34;&gt;#&lt;/a&gt;
+    博客下线
+&lt;/h2&gt;&lt;p&gt;2024 年 9 月 1 号凌晨 1 点左右突然睡醒，看了下手机，Uptime Kuma 提示博客下线，Beszel 提示 VPS 磁盘占用达到 80% 。&lt;/p&gt;
+&lt;p&gt;赶紧打开电脑，SSH 连不上 VPS ，VPS 后台显示刚重置的月流量已经用了三百多 GB ，后台重启 VPS 后终于能连上服务器了，博客也重新上线。&lt;/p&gt;
+&lt;h2 id=&#34;流量偷跑&#34;&gt;
+    &lt;a href=&#34;#%e6%b5%81%e9%87%8f%e5%81%b7%e8%b7%91&#34;&gt;#&lt;/a&gt;
+    流量偷跑
+&lt;/h2&gt;&lt;p&gt;运行博客的 VPS 总共 450GB/月 的流量，一觉醒来就没了300GB。&lt;/p&gt;
+&lt;p&gt;首先怀疑是部署在这台 VPS 上的梯子被盗用了，检查 X-UI 发现流量使用很正常，就算把 xray 服务停止了流量还在飞速流逝。&lt;/p&gt;
+&lt;p&gt;接着查看了下 NGINX 的日志，发现是 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/03/uniqlo-sex.mp4&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://umi.im/wp-content/uploads/2023/03/uniqlo-sex.mp4&lt;/a&gt; 被疯狂访问，这是 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/uniqlo-sex/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;三里屯优衣库试衣间事件视频&lt;/a&gt; ，在 2015 年事件爆火时顺便发布在博客的，突然间这么多人访问，第一反应是被人恶意刷流量了。&lt;/p&gt;
+&lt;p&gt;随即把视频挪到了 Cloudflare R2 的对象存储上，流量开始大幅下降，但仅仅在排查的十来分钟里又没了 50GB 流量。&lt;/p&gt;
+&lt;h2 id=&#34;故障原因&#34;&gt;
+    &lt;a href=&#34;#%e6%95%85%e9%9a%9c%e5%8e%9f%e5%9b%a0&#34;&gt;#&lt;/a&gt;
+    故障原因
+&lt;/h2&gt;&lt;p&gt;本博客是部署在 Github Pages 上，再通过一台 CN2GIA 线路的 VPS 进行反代。&lt;/p&gt;
+&lt;p&gt;由于 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/uniqlo-sex/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;三里屯优衣库试衣间事件视频&lt;/a&gt; 被频繁访问，导致 NGINX 的 proxy_temp_dir 目录爆满，这台只有 10GB 硬盘的 VPS 直接寄了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;proxy_temp_dir&lt;/code&gt; 是一个临时目录，用于存储尚未完全接收到的上游响应。当 NGINX 从上游服务器获取响应时，如果响应较大或正在传输过程中，数据会先存储在 &lt;code&gt;proxy_temp_dir&lt;/code&gt; 中。一旦接收完整，数据将被转移到 &lt;code&gt;proxy_cache_dir&lt;/code&gt; 中。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;再把视频挪到对象存储，不再经过 VPS 反代和缓存，以后不会再出现这种情况。&lt;/p&gt;
+&lt;h2 id=&#34;流量来源&#34;&gt;
+    &lt;a href=&#34;#%e6%b5%81%e9%87%8f%e6%9d%a5%e6%ba%90&#34;&gt;#&lt;/a&gt;
+    流量来源
+&lt;/h2&gt;&lt;p&gt;前面说了，怀疑是被人恶意刷流量，毕竟确实有贱人喜欢干这种事。&lt;/p&gt;
+&lt;p&gt;不过当我打开 Umami （网站统计）时，看到了惊人的数据，近一天有 120K 的浏览量，把博客前十年的浏览量加起来还多。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://umi.im/300gb-traffic-crash-blog/umami-120k.png&#34;
+	width=&#34;1461&#34;
+	height=&#34;797&#34;
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;umami-120k&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;183&#34;
+		data-flex-basis=&#34;439px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;主要浏览量来自&lt;a class=&#34;link&#34; href=&#34;https://umi.im/uniqlo-sex/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;三里屯优衣库试衣间事件视频&lt;/a&gt; ，而来源域名几乎全是 t.co ，这是推特的跳转链接域名。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://umi.im/300gb-traffic-crash-blog/umami-source.png&#34;
+	width=&#34;1331&#34;
+	height=&#34;470&#34;
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;umami-source&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;283&#34;
+		data-flex-basis=&#34;679px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;于是我去推特搜索了 “三里屯优衣库” ，终于破案了。&lt;/p&gt;
+&lt;p&gt;一位推特上六十多万粉的 PO 主转发了我这篇老古董博客。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://umi.im/300gb-traffic-crash-blog/uniqlo-sex-x-1.png&#34;
+	width=&#34;661&#34;
+	height=&#34;829&#34;
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;uniqlo-sex-x-1&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;79&#34;
+		data-flex-basis=&#34;191px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://umi.im/300gb-traffic-crash-blog/uniqlo-sex-x-2.png&#34;
+	width=&#34;658&#34;
+	height=&#34;733&#34;
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;uniqlo-sex-x-2&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;89&#34;
+		data-flex-basis=&#34;215px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;赛博菩萨&#34;&gt;
+    &lt;a href=&#34;#%e8%b5%9b%e5%8d%9a%e8%8f%a9%e8%90%a8&#34;&gt;#&lt;/a&gt;
+    赛博菩萨
+&lt;/h2&gt;&lt;p&gt;不得不感叹，色情是第一生产力，流量真的可怕。&lt;/p&gt;
+&lt;p&gt;视频挪到 R2 对象存储十来天后，Cloudflare 已经帮我扛了 2.5TB 的流量了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://umi.im/300gb-traffic-crash-blog/cloudflare-r2-bandwidth.png&#34;
+	width=&#34;1333&#34;
+	height=&#34;707&#34;
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;cloudflare-r2-bandwidth&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;188&#34;
+		data-flex-basis=&#34;452px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>UNRAID 6.12.4 米多贝克版升级 UNRAID 6.12.10 毛子开心版</title>
         <link>https://umi.im/unraid-6.12.10-crack/</link>
         <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
