@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="传输层安全协议（英语：Transport Layer Security，缩写为 TLS），及其前身安全套接层（Secure Sockets Layer，SSL）是一种安全">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" 传输层安全协议（英语：Transport Layer Security，缩写为 TLS），及其前身安全套接层（Secure Sockets Layer，SSL）是一种安全协议，目的是为互联网通信，提供安全及数据完整性保障。在网景公司（Netscape）推出首版Web浏览器的同时提出SSL，IETF{.mw-redirect}将SSL进行标准化，1999年公布了 TLS标准文件。\n">
 <title>Apache &#43; WordPress 部署 SSL 加密</title>
 
 <link rel='canonical' href='https://umi.im/apache-wordpress-ssl/'>
 
-<link rel="stylesheet" href="/scss/style.min.859d15a88c4baa095161a679adcf6a0588d393b9603bd708e8e0c634ae102b82.css"><meta property='og:title' content="Apache + WordPress 部署 SSL 加密">
-<meta property='og:description' content="传输层安全协议（英语：Transport Layer Security，缩写为 TLS），及其前身安全套接层（Secure Sockets Layer，SSL）是一种安全">
+<link rel="stylesheet" href="/scss/style.min.7c6fc62023c4a6953fbe601dd92a600ca1efde85fae06f72201f35c5ad119913.css"><meta property='og:title' content="Apache + WordPress 部署 SSL 加密">
+<meta property='og:description' content=" 传输层安全协议（英语：Transport Layer Security，缩写为 TLS），及其前身安全套接层（Secure Sockets Layer，SSL）是一种安全协议，目的是为互联网通信，提供安全及数据完整性保障。在网景公司（Netscape）推出首版Web浏览器的同时提出SSL，IETF{.mw-redirect}将SSL进行标准化，1999年公布了 TLS标准文件。\n">
 <meta property='og:url' content='https://umi.im/apache-wordpress-ssl/'>
 <meta property='og:site_name' content='笨蛋屋'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='VPS' /><meta property='article:tag' content='WordPress' /><meta property='article:published_time' content='2015-06-23T02:11:31&#43;00:00'/><meta property='article:modified_time' content='2015-06-23T02:11:31&#43;00:00'/>
 <meta name="twitter:title" content="Apache + WordPress 部署 SSL 加密">
-<meta name="twitter:description" content="传输层安全协议（英语：Transport Layer Security，缩写为 TLS），及其前身安全套接层（Secure Sockets Layer，SSL）是一种安全">
+<meta name="twitter:description" content=" 传输层安全协议（英语：Transport Layer Security，缩写为 TLS），及其前身安全套接层（Secure Sockets Layer，SSL）是一种安全协议，目的是为互联网通信，提供安全及数据完整性保障。在网景公司（Netscape）推出首版Web浏览器的同时提出SSL，IETF{.mw-redirect}将SSL进行标准化，1999年公布了 TLS标准文件。\n">
     <link rel="shortcut icon" href="/favicon.png" />
 
-  
-
-<meta name="verification" content="9cfa2f7dea5bc4a0">
-<script defer src="https://u.umi.im/replace-me-with-a-random-string" data-website-id="befac8d7-0396-44c8-b151-9c332a5f176f"></script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5428554628068316"
-     crossorigin="anonymous"></script>
-    
-    
     </head>
     <body class="
     article-page
@@ -66,8 +58,8 @@
                     
                     
                         
-                        <img src="/img/avatar-150px_hub3e42f8fb4895a97c7036e2fee26b85a_7312_300x0_resize_box_3.png" width="300"
-                            height="300" class="site-logo" alt="Avatar">
+                        <img src="/img/avatar-150px_hu_b1565203cde6efd2.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
                 </a>
@@ -326,7 +318,7 @@
 
 
 
-                        <span>Dark Mode</span>
+                        <span>暗色模式</span>
                     </li>
                 
             </ol>
@@ -356,7 +348,7 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#a-hrefhttpwwwznteccnarchivesstartsslhtml-target_blank免费的ssl证书提供商startssl详细图文注册教程--小蒋博客a"><a href="http://www.zntec.cn/archives/startssl.html" target="_blank">免费的SSL证书提供商StartSSL详细图文注册教程 | 小蒋博客</a></a></li>
+    <li><a href="#免费的ssl证书提供商startssl详细图文注册教程--小蒋博客">免费的SSL证书提供商StartSSL详细图文注册教程 | 小蒋博客</a></li>
     <li><a href="#-意外的情况"> Ⅳ 意外的情况</a></li>
   </ol>
 </nav>
@@ -407,7 +399,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2015年06月23日</time>
+                <time class="article-time--published" datetime='2015-06-23T02:11:31Z'>2015年06月23日</time>
             </div>
         
 
@@ -433,7 +425,6 @@
 </div>
 
 </header>
-
 
     <section class="article-content">
     
@@ -462,9 +453,7 @@
 <h3 style="text-align: left;">
   Ⅰ SSL 证书的申请
 </h3>
-<h2 id="a-hrefhttpwwwznteccnarchivesstartsslhtml-target_blank免费的ssl证书提供商startssl详细图文注册教程--小蒋博客a">
-    <a href="#a-hrefhttpwwwznteccnarchivesstartsslhtml-target_blank%e5%85%8d%e8%b4%b9%e7%9a%84ssl%e8%af%81%e4%b9%a6%e6%8f%90%e4%be%9b%e5%95%86startssl%e8%af%a6%e7%bb%86%e5%9b%be%e6%96%87%e6%b3%a8%e5%86%8c%e6%95%99%e7%a8%8b--%e5%b0%8f%e8%92%8b%e5%8d%9a%e5%ae%a2a">#</a>
-    <a href="http://www.zntec.cn/archives/startssl.html" target="_blank">免费的SSL证书提供商StartSSL详细图文注册教程 | 小蒋博客</a>
+<h2 id="免费的ssl证书提供商startssl详细图文注册教程--小蒋博客"><a href="http://www.zntec.cn/archives/startssl.html" target="_blank">免费的SSL证书提供商StartSSL详细图文注册教程 | 小蒋博客</a>
 </h2><p style="text-align: left;">
   申请挺简单，先填上个人资料注册，收邮件下一步，安装登录用的证书（记得备份），然后证书申请，填域名然后用验证。
 </p>
@@ -543,9 +532,7 @@ RewriteCond %{HTTP_USER_AGENT} !(baiduspider|soso|bing|sogou|yahoo|sohu-search|y
 RewriteRule (.*) https://umi.im%{REQUEST_URI} [R=301,NC,L]</pre>
 <p>修改完成后再 重启 Apache ：</p>
 <pre class="lang:default decode:true ">service apache2 restart</pre>
-<h2 id="-意外的情况">
-    <a href="#-%e6%84%8f%e5%a4%96%e7%9a%84%e6%83%85%e5%86%b5">#</a>
-     Ⅳ 意外的情况
+<h2 id="-意外的情况"> Ⅳ 意外的情况
 </h2><p style="text-align: left;">
   折腾了这么久应该搞定了啊，可惜的是还没有，又遇到各种突发情况。
 </p>
@@ -606,19 +593,7 @@ RewriteRule (.*) https://umi.im%{REQUEST_URI} [R=301,NC,L]</pre>
     </section>
 
 
-    <section class="article-lastmod">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-        <span>
-            最后更新于 2015年06月23日 02:11 CST
-        </span>
-    </section></footer>
+    </footer>
 
 
     
@@ -744,12 +719,12 @@ RewriteRule (.*) https://umi.im%{REQUEST_URI} [R=301,NC,L]</pre>
         
             2013 - 
         
-        2024 笨蛋屋
+        2025 笨蛋屋
     </section>
     
     <section class="powerby">
         使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.25.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.33.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
 </footer>
 
@@ -831,6 +806,7 @@ RewriteRule (.*) https://umi.im%{REQUEST_URI} [R=301,NC,L]</pre>
                 rel="stylesheet" 
                 href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
             >
+    
 
             </main>
         </div>
@@ -838,7 +814,7 @@ RewriteRule (.*) https://umi.im%{REQUEST_URI} [R=301,NC,L]</pre>
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.dd94a3a1af72e139795cfeda872cf12861c2c76788276d5544729c40adf97eee.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

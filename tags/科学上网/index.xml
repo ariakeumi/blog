@@ -12,25 +12,17 @@
         <pubDate>Sun, 31 Mar 2024 02:49:00 +0000</pubDate>
         
         <guid>https://umi.im/openclash-adblock/</guid>
-        <description>&lt;h2 id=&#34;前言&#34;&gt;
-    &lt;a href=&#34;#%e5%89%8d%e8%a8%80&#34;&gt;#&lt;/a&gt;
-    前言
+        <description>&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;在路由器上进行广告过滤可以帮助我在不方便安装广告过滤软件的设备上过滤掉一些简单的广告。&lt;/p&gt;
 &lt;p&gt;我尝试过很多在路由器上过滤广告的方法，最早使用的是 Adbyby ，但它多年没有维护，不能运行在较新的 OpenWrt 固件上了。&lt;/p&gt;
-&lt;h2 id=&#34;抛弃-adguard-home&#34;&gt;
-    &lt;a href=&#34;#%e6%8a%9b%e5%bc%83-adguard-home&#34;&gt;#&lt;/a&gt;
-    抛弃 AdGuard Home
+&lt;h2 id=&#34;抛弃-adguard-home&#34;&gt;抛弃 AdGuard Home
 &lt;/h2&gt;&lt;p&gt;后来换 AdGuard Home 来过滤广告，ADG 有着好看易用的 WEB 界面，经过少许麻烦的配置就可以使用，参考 [红米 AX6000 路由器配置 AdGuard Home + OpenClash][1] 这篇文章，使用后期遇到了斗鱼弹幕无法加载的问题，尝试了各种方法都无法解决。&lt;/p&gt;
 &lt;p&gt;还有类似的 Pi-hole 这样的软件，和 OpenClash 搭配似乎都会遇到些麻烦。&lt;/p&gt;
-&lt;h2 id=&#34;使用-openclash-去广告&#34;&gt;
-    &lt;a href=&#34;#%e4%bd%bf%e7%94%a8-openclash-%e5%8e%bb%e5%b9%bf%e5%91%8a&#34;&gt;#&lt;/a&gt;
-    使用 OpenClash 去广告
+&lt;h2 id=&#34;使用-openclash-去广告&#34;&gt;使用 OpenClash 去广告
 &lt;/h2&gt;&lt;p&gt;开始熟悉 OpenClash 后，我在 Clash 的配置文件里加入广告过滤规则，能获得和 AdGuard Home 差不多的过滤效果。&lt;/p&gt;
 &lt;p&gt;最重要的是我的网络拓扑变得非常简单，出现问题很容易排查，事实上换了这套方案网络一直很稳定。&lt;/p&gt;
 &lt;p&gt;如果你也使用 OpenClash 来进行科学上网，那直接用它来过滤广告最合适不过了。&lt;/p&gt;
-&lt;h2 id=&#34;配置-openclash&#34;&gt;
-    &lt;a href=&#34;#%e9%85%8d%e7%bd%ae-openclash&#34;&gt;#&lt;/a&gt;
-    配置 OpenClash
+&lt;h2 id=&#34;配置-openclash&#34;&gt;配置 OpenClash
 &lt;/h2&gt;&lt;p&gt;OpenClash 我使用了 &lt;strong&gt;Meta 内核&lt;/strong&gt; ，&lt;strong&gt;Redir-Host 兼容模式&lt;/strong&gt; 运行，开启了 &lt;strong&gt;仅允许常用端口流量&lt;/strong&gt; ，不要开启 绕过中国大陆 IP ，这样就无法过滤国内的广告了。&lt;/p&gt;
 &lt;p&gt;Clash 配置文件里插入下面的广告过滤规则：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
@@ -170,9 +162,7 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;缺点&#34;&gt;
-    &lt;a href=&#34;#%e7%bc%ba%e7%82%b9&#34;&gt;#&lt;/a&gt;
-    缺点
+&lt;h2 id=&#34;缺点&#34;&gt;缺点
 &lt;/h2&gt;&lt;p&gt;因为过滤规则太多，加上国内流量也通过 Clash 内核，CPU 性能太弱的路由器跑起来可能会很吃力。&lt;/p&gt;
 &lt;p&gt;我的 红米 AX6000 跑起来毫无压力，x86 软路由应该也没问题。&lt;/p&gt;
 &lt;p&gt;另外此类过滤方法基本无法过滤视频广告，桌面用户还是得配合 uBlock Origin 等浏览器插件使用。&lt;/p&gt;

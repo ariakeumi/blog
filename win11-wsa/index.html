@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="加入Windows 预览体验计划的 DEV 通道，更新到 22483.1000 。 开启在BIOS虚拟化SVM，安装Hyper-V虚拟机 1.右键开始-运行-control.e">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="加入Windows 预览体验计划的 DEV 通道，更新到 22483.1000 。\n开启在BIOS虚拟化SVM，安装Hyper-V虚拟机\n1.右键开始-运行-control.exe-程序和功能-开启或关闭 Windows 功能-勾选 Hyper-V\\Windows 虚拟机监控平台，成功后，必须重启系统。\n2.安装Window Subsystem for Android应用，从网盘中下载所需要的文件，然后管理员身份运行了Powershell，执行Add-AppxPackage -Path 下载的文件.Msixbundle即可。\n3.打开Window Subsystem for Android应用开发人员模式\n4.通过ADB安装安卓app\na.解压ADB（platform-tools-latest-windows.zip),在解压后的目录右键选择”在Windows终端中打开“\nb.输入”.\\adb connect 127.0.0.1:58526“\nc.输入”.\\adb install D:\\**.apk“,安装下载的app\n8.在开始菜单可以看到新安装的安卓应用。\n链接:\u00a0https://pan.baidu.com/s/1VzpxkU8UweJM24dse4ND_Q\u00a0提取码: epsd https://bbs.pcbeta.com/viewthread-1908263-1-1.html 装完了 ADB 连上子系统后安装 APK 一直报错，重启电脑一次才安装成功。\n">
 <title>Windows 11 WSA (安卓子系统) 使用体验</title>
 
 <link rel='canonical' href='https://umi.im/win11-wsa/'>
 
-<link rel="stylesheet" href="/scss/style.min.859d15a88c4baa095161a679adcf6a0588d393b9603bd708e8e0c634ae102b82.css"><meta property='og:title' content="Windows 11 WSA (安卓子系统) 使用体验">
-<meta property='og:description' content="加入Windows 预览体验计划的 DEV 通道，更新到 22483.1000 。 开启在BIOS虚拟化SVM，安装Hyper-V虚拟机 1.右键开始-运行-control.e">
+<link rel="stylesheet" href="/scss/style.min.7c6fc62023c4a6953fbe601dd92a600ca1efde85fae06f72201f35c5ad119913.css"><meta property='og:title' content="Windows 11 WSA (安卓子系统) 使用体验">
+<meta property='og:description' content="加入Windows 预览体验计划的 DEV 通道，更新到 22483.1000 。\n开启在BIOS虚拟化SVM，安装Hyper-V虚拟机\n1.右键开始-运行-control.exe-程序和功能-开启或关闭 Windows 功能-勾选 Hyper-V\\Windows 虚拟机监控平台，成功后，必须重启系统。\n2.安装Window Subsystem for Android应用，从网盘中下载所需要的文件，然后管理员身份运行了Powershell，执行Add-AppxPackage -Path 下载的文件.Msixbundle即可。\n3.打开Window Subsystem for Android应用开发人员模式\n4.通过ADB安装安卓app\na.解压ADB（platform-tools-latest-windows.zip),在解压后的目录右键选择”在Windows终端中打开“\nb.输入”.\\adb connect 127.0.0.1:58526“\nc.输入”.\\adb install D:\\**.apk“,安装下载的app\n8.在开始菜单可以看到新安装的安卓应用。\n链接:\u00a0https://pan.baidu.com/s/1VzpxkU8UweJM24dse4ND_Q\u00a0提取码: epsd https://bbs.pcbeta.com/viewthread-1908263-1-1.html 装完了 ADB 连上子系统后安装 APK 一直报错，重启电脑一次才安装成功。\n">
 <meta property='og:url' content='https://umi.im/win11-wsa/'>
 <meta property='og:site_name' content='笨蛋屋'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Windows' /><meta property='article:published_time' content='2021-10-21T15:48:36&#43;00:00'/><meta property='article:modified_time' content='2021-10-21T15:48:36&#43;00:00'/>
 <meta name="twitter:title" content="Windows 11 WSA (安卓子系统) 使用体验">
-<meta name="twitter:description" content="加入Windows 预览体验计划的 DEV 通道，更新到 22483.1000 。 开启在BIOS虚拟化SVM，安装Hyper-V虚拟机 1.右键开始-运行-control.e">
+<meta name="twitter:description" content="加入Windows 预览体验计划的 DEV 通道，更新到 22483.1000 。\n开启在BIOS虚拟化SVM，安装Hyper-V虚拟机\n1.右键开始-运行-control.exe-程序和功能-开启或关闭 Windows 功能-勾选 Hyper-V\\Windows 虚拟机监控平台，成功后，必须重启系统。\n2.安装Window Subsystem for Android应用，从网盘中下载所需要的文件，然后管理员身份运行了Powershell，执行Add-AppxPackage -Path 下载的文件.Msixbundle即可。\n3.打开Window Subsystem for Android应用开发人员模式\n4.通过ADB安装安卓app\na.解压ADB（platform-tools-latest-windows.zip),在解压后的目录右键选择”在Windows终端中打开“\nb.输入”.\\adb connect 127.0.0.1:58526“\nc.输入”.\\adb install D:\\**.apk“,安装下载的app\n8.在开始菜单可以看到新安装的安卓应用。\n链接:\u00a0https://pan.baidu.com/s/1VzpxkU8UweJM24dse4ND_Q\u00a0提取码: epsd https://bbs.pcbeta.com/viewthread-1908263-1-1.html 装完了 ADB 连上子系统后安装 APK 一直报错，重启电脑一次才安装成功。\n">
     <link rel="shortcut icon" href="/favicon.png" />
 
-  
-
-<meta name="verification" content="9cfa2f7dea5bc4a0">
-<script defer src="https://u.umi.im/replace-me-with-a-random-string" data-website-id="befac8d7-0396-44c8-b151-9c332a5f176f"></script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5428554628068316"
-     crossorigin="anonymous"></script>
-    
-    
     </head>
     <body class="
     article-page
@@ -66,8 +58,8 @@
                     
                     
                         
-                        <img src="/img/avatar-150px_hub3e42f8fb4895a97c7036e2fee26b85a_7312_300x0_resize_box_3.png" width="300"
-                            height="300" class="site-logo" alt="Avatar">
+                        <img src="/img/avatar-150px_hu_b1565203cde6efd2.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
                 </a>
@@ -326,7 +318,7 @@
 
 
 
-                        <span>Dark Mode</span>
+                        <span>暗色模式</span>
                     </li>
                 
             </ol>
@@ -379,7 +371,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2021年10月21日</time>
+                <time class="article-time--published" datetime='2021-10-21T15:48:36Z'>2021年10月21日</time>
             </div>
         
 
@@ -405,7 +397,6 @@
 </div>
 
 </header>
-
 
     <section class="article-content">
     
@@ -439,19 +430,7 @@
     </section>
 
 
-    <section class="article-lastmod">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-        <span>
-            最后更新于 2021年10月21日 15:48 CST
-        </span>
-    </section></footer>
+    </footer>
 
 
     
@@ -593,12 +572,12 @@
         
             2013 - 
         
-        2024 笨蛋屋
+        2025 笨蛋屋
     </section>
     
     <section class="powerby">
         使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.25.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.33.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
 </footer>
 
@@ -680,6 +659,7 @@
                 rel="stylesheet" 
                 href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
             >
+    
 
             </main>
         </div>
@@ -687,7 +667,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.dd94a3a1af72e139795cfeda872cf12861c2c76788276d5544729c40adf97eee.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

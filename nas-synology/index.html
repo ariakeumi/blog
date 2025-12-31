@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="10月的时候就打算买一台群晖的NAS了，结果被人忽悠去买iPad了。这个月又有双十一…没钱了，没办法了不能再拖了只好装一台黑群晖了。\n之前在SMZDM（色魔张大妈）看到这两篇这样的文章：\n# 500元 NAS 黑群晖 配置完成（不含硬盘），NAS能做什么？ # NAS群晖DSM 5.0-4458 傻瓜安装教程 正好机箱、电源我都有了，可以更低价搞一个。\n于是，买了富士康的嵌入式CPU的ITX板子（Intel Atom D410、130块），1GB DDR2内存（10块），一张螃蟹千兆网卡（10块），一个U盘（15块），加上已有的电源和机箱，花了183块就搞定了一台黑群晖，配件虽然都是拆机的古董，但是性能比1500块DS213J强。\n到手后我才想起来，这货只有两个SATA啊！嘛，算了，正好阻止了以后买硬盘。\n问别人借的两个蓝盘备份数据，因为群晖的DSM系统使用linux的ext4文件系统，所以安装DSM后需要格式化磁盘。\n最后只备份了不到200GB数据就急忙装上了…\n装好后直接启动，到这里的时候去PC端安装DSM系统。\n使用Synology Assistant找到局域网的黑群晖来安装DSM系统，DSM系统是需要通过pat后辍名的文件安装，可以通过官网下载到。\n# Index of /ftp/DSM/5.0/4493 # 中间再设置NAS名称、密码等。\n很快就装好了，然后通过浏览器登陆。\nDSM系统很像Windows 7，窗口预览、多任务切换、桌面小工具什么的。\n设置什么的就不写了，网上教程很多。\n安装套件能实现各种功能。\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="10月的时候就打算买一台群晖的NAS了，结果被人忽悠去买iPad了。这个月又有双十一…没钱了，没办法了不能再拖了只好装一台黑群晖了。\n之前在SMZDM（色魔张大妈）看到这两篇这样的文章：\n500元 NAS 黑群晖 配置完成（不含硬盘），NAS能做什么？ NAS群晖DSM 5.0-4458 傻瓜安装教程 正好机箱、电源我都有了，可以更低价搞一个。\n于是，买了富士康的嵌入式CPU的ITX板子（Intel Atom D410、130块），1GB DDR2内存（10块），一张螃蟹千兆网卡（10块），一个U盘（15块），加上已有的电源和机箱，花了183块就搞定了一台黑群晖，配件虽然都是拆机的古董，但是性能比1500块DS213J强。\n到手后我才想起来，这货只有两个SATA啊！嘛，算了，正好阻止了以后买硬盘。\n问别人借的两个蓝盘备份数据，因为群晖的DSM系统使用linux的ext4文件系统，所以安装DSM后需要格式化磁盘。\n最后只备份了不到200GB数据就急忙装上了…\n装好后直接启动，到这里的时候去PC端安装DSM系统。\n使用Synology Assistant找到局域网的黑群晖来安装DSM系统，DSM系统是需要通过pat后辍名的文件安装，可以通过官网下载到。\nIndex of /ftp/DSM/5.0/4493 中间再设置NAS名称、密码等。\n很快就装好了，然后通过浏览器登陆。\nDSM系统很像Windows 7，窗口预览、多任务切换、桌面小工具什么的。\n设置什么的就不写了，网上教程很多。\n安装套件能实现各种功能。\n">
 <title>炒土豆丝の黑群晖 NAS</title>
 
 <link rel='canonical' href='https://umi.im/nas-synology/'>
 
-<link rel="stylesheet" href="/scss/style.min.859d15a88c4baa095161a679adcf6a0588d393b9603bd708e8e0c634ae102b82.css"><meta property='og:title' content="炒土豆丝の黑群晖 NAS">
-<meta property='og:description' content="10月的时候就打算买一台群晖的NAS了，结果被人忽悠去买iPad了。这个月又有双十一…没钱了，没办法了不能再拖了只好装一台黑群晖了。\n之前在SMZDM（色魔张大妈）看到这两篇这样的文章：\n# 500元 NAS 黑群晖 配置完成（不含硬盘），NAS能做什么？ # NAS群晖DSM 5.0-4458 傻瓜安装教程 正好机箱、电源我都有了，可以更低价搞一个。\n于是，买了富士康的嵌入式CPU的ITX板子（Intel Atom D410、130块），1GB DDR2内存（10块），一张螃蟹千兆网卡（10块），一个U盘（15块），加上已有的电源和机箱，花了183块就搞定了一台黑群晖，配件虽然都是拆机的古董，但是性能比1500块DS213J强。\n到手后我才想起来，这货只有两个SATA啊！嘛，算了，正好阻止了以后买硬盘。\n问别人借的两个蓝盘备份数据，因为群晖的DSM系统使用linux的ext4文件系统，所以安装DSM后需要格式化磁盘。\n最后只备份了不到200GB数据就急忙装上了…\n装好后直接启动，到这里的时候去PC端安装DSM系统。\n使用Synology Assistant找到局域网的黑群晖来安装DSM系统，DSM系统是需要通过pat后辍名的文件安装，可以通过官网下载到。\n# Index of /ftp/DSM/5.0/4493 # 中间再设置NAS名称、密码等。\n很快就装好了，然后通过浏览器登陆。\nDSM系统很像Windows 7，窗口预览、多任务切换、桌面小工具什么的。\n设置什么的就不写了，网上教程很多。\n安装套件能实现各种功能。\n">
+<link rel="stylesheet" href="/scss/style.min.7c6fc62023c4a6953fbe601dd92a600ca1efde85fae06f72201f35c5ad119913.css"><meta property='og:title' content="炒土豆丝の黑群晖 NAS">
+<meta property='og:description' content="10月的时候就打算买一台群晖的NAS了，结果被人忽悠去买iPad了。这个月又有双十一…没钱了，没办法了不能再拖了只好装一台黑群晖了。\n之前在SMZDM（色魔张大妈）看到这两篇这样的文章：\n500元 NAS 黑群晖 配置完成（不含硬盘），NAS能做什么？ NAS群晖DSM 5.0-4458 傻瓜安装教程 正好机箱、电源我都有了，可以更低价搞一个。\n于是，买了富士康的嵌入式CPU的ITX板子（Intel Atom D410、130块），1GB DDR2内存（10块），一张螃蟹千兆网卡（10块），一个U盘（15块），加上已有的电源和机箱，花了183块就搞定了一台黑群晖，配件虽然都是拆机的古董，但是性能比1500块DS213J强。\n到手后我才想起来，这货只有两个SATA啊！嘛，算了，正好阻止了以后买硬盘。\n问别人借的两个蓝盘备份数据，因为群晖的DSM系统使用linux的ext4文件系统，所以安装DSM后需要格式化磁盘。\n最后只备份了不到200GB数据就急忙装上了…\n装好后直接启动，到这里的时候去PC端安装DSM系统。\n使用Synology Assistant找到局域网的黑群晖来安装DSM系统，DSM系统是需要通过pat后辍名的文件安装，可以通过官网下载到。\nIndex of /ftp/DSM/5.0/4493 中间再设置NAS名称、密码等。\n很快就装好了，然后通过浏览器登陆。\nDSM系统很像Windows 7，窗口预览、多任务切换、桌面小工具什么的。\n设置什么的就不写了，网上教程很多。\n安装套件能实现各种功能。\n">
 <meta property='og:url' content='https://umi.im/nas-synology/'>
 <meta property='og:site_name' content='笨蛋屋'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='NAS' /><meta property='article:tag' content='PC' /><meta property='article:published_time' content='2014-11-12T12:13:20&#43;00:00'/><meta property='article:modified_time' content='2014-11-12T12:13:20&#43;00:00'/>
 <meta name="twitter:title" content="炒土豆丝の黑群晖 NAS">
-<meta name="twitter:description" content="10月的时候就打算买一台群晖的NAS了，结果被人忽悠去买iPad了。这个月又有双十一…没钱了，没办法了不能再拖了只好装一台黑群晖了。\n之前在SMZDM（色魔张大妈）看到这两篇这样的文章：\n# 500元 NAS 黑群晖 配置完成（不含硬盘），NAS能做什么？ # NAS群晖DSM 5.0-4458 傻瓜安装教程 正好机箱、电源我都有了，可以更低价搞一个。\n于是，买了富士康的嵌入式CPU的ITX板子（Intel Atom D410、130块），1GB DDR2内存（10块），一张螃蟹千兆网卡（10块），一个U盘（15块），加上已有的电源和机箱，花了183块就搞定了一台黑群晖，配件虽然都是拆机的古董，但是性能比1500块DS213J强。\n到手后我才想起来，这货只有两个SATA啊！嘛，算了，正好阻止了以后买硬盘。\n问别人借的两个蓝盘备份数据，因为群晖的DSM系统使用linux的ext4文件系统，所以安装DSM后需要格式化磁盘。\n最后只备份了不到200GB数据就急忙装上了…\n装好后直接启动，到这里的时候去PC端安装DSM系统。\n使用Synology Assistant找到局域网的黑群晖来安装DSM系统，DSM系统是需要通过pat后辍名的文件安装，可以通过官网下载到。\n# Index of /ftp/DSM/5.0/4493 # 中间再设置NAS名称、密码等。\n很快就装好了，然后通过浏览器登陆。\nDSM系统很像Windows 7，窗口预览、多任务切换、桌面小工具什么的。\n设置什么的就不写了，网上教程很多。\n安装套件能实现各种功能。\n">
+<meta name="twitter:description" content="10月的时候就打算买一台群晖的NAS了，结果被人忽悠去买iPad了。这个月又有双十一…没钱了，没办法了不能再拖了只好装一台黑群晖了。\n之前在SMZDM（色魔张大妈）看到这两篇这样的文章：\n500元 NAS 黑群晖 配置完成（不含硬盘），NAS能做什么？ NAS群晖DSM 5.0-4458 傻瓜安装教程 正好机箱、电源我都有了，可以更低价搞一个。\n于是，买了富士康的嵌入式CPU的ITX板子（Intel Atom D410、130块），1GB DDR2内存（10块），一张螃蟹千兆网卡（10块），一个U盘（15块），加上已有的电源和机箱，花了183块就搞定了一台黑群晖，配件虽然都是拆机的古董，但是性能比1500块DS213J强。\n到手后我才想起来，这货只有两个SATA啊！嘛，算了，正好阻止了以后买硬盘。\n问别人借的两个蓝盘备份数据，因为群晖的DSM系统使用linux的ext4文件系统，所以安装DSM后需要格式化磁盘。\n最后只备份了不到200GB数据就急忙装上了…\n装好后直接启动，到这里的时候去PC端安装DSM系统。\n使用Synology Assistant找到局域网的黑群晖来安装DSM系统，DSM系统是需要通过pat后辍名的文件安装，可以通过官网下载到。\nIndex of /ftp/DSM/5.0/4493 中间再设置NAS名称、密码等。\n很快就装好了，然后通过浏览器登陆。\nDSM系统很像Windows 7，窗口预览、多任务切换、桌面小工具什么的。\n设置什么的就不写了，网上教程很多。\n安装套件能实现各种功能。\n">
     <link rel="shortcut icon" href="/favicon.png" />
 
-  
-
-<meta name="verification" content="9cfa2f7dea5bc4a0">
-<script defer src="https://u.umi.im/replace-me-with-a-random-string" data-website-id="befac8d7-0396-44c8-b151-9c332a5f176f"></script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5428554628068316"
-     crossorigin="anonymous"></script>
-    
-    
     </head>
     <body class="
     article-page
@@ -66,8 +58,8 @@
                     
                     
                         
-                        <img src="/img/avatar-150px_hub3e42f8fb4895a97c7036e2fee26b85a_7312_300x0_resize_box_3.png" width="300"
-                            height="300" class="site-logo" alt="Avatar">
+                        <img src="/img/avatar-150px_hu_b1565203cde6efd2.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
                 </a>
@@ -326,7 +318,7 @@
 
 
 
-                        <span>Dark Mode</span>
+                        <span>暗色模式</span>
                     </li>
                 
             </ol>
@@ -356,10 +348,10 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#a-title跳转-hrefhttpshowsmzdmcomdetail43425-target_blank500元-nas-黑群晖-配置完成不含硬盘nas能做什么a"><a title="跳转" href="http://show.smzdm.com/detail/43425" target="_blank">500元 NAS 黑群晖 配置完成（不含硬盘），NAS能做什么？</a></a></li>
-    <li><a href="#a-hrefhttpjysmzdmcomdetail20115-target_blanknas群晖dsm-50-4458-傻瓜安装教程a"><a href="http://jy.smzdm.com/detail/20115" target="_blank">NAS群晖DSM 5.0-4458 傻瓜安装教程</a></a></li>
-    <li><a href="#a-titleftp下载-hrefhttpukdlsynologycomftpdsm504493-target_blankindex-of-ftpdsm504493a"><a title="FTP下载" href="http://ukdl.synology.com/ftp/DSM/5.0/4493/" target="_blank">Index of /ftp/DSM/5.0/4493</a></a></li>
-    <li><a href="#img-loadinglazy-decodingasync-classalignnone-size-full-wp-image-3227-srchttpsumiimwp-contentuploads201411dsm-1png-altdsm-1-width696-height608-srcsethttpsumiimwp-contentuploads201411dsm-1png-696w-httpsumiimwp-contentuploads201411dsm-1-150x131png-150w-httpsumiimwp-contentuploads201411dsm-1-300x262png-300w-sizesmax-width-696px-100vw-696px-4"><a href="https://umi.im/wp-content/uploads/2014/11/DSM-1.png"><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3227" src="https://umi.im/wp-content/uploads/2014/11/DSM-1.png" alt="DSM-1" width="696" height="608" srcset="https://umi.im/wp-content/uploads/2014/11/DSM-1.png 696w, https://umi.im/wp-content/uploads/2014/11/DSM-1-150x131.png 150w, https://umi.im/wp-content/uploads/2014/11/DSM-1-300x262.png 300w" sizes="(max-width: 696px) 100vw, 696px" /></a></a></li>
+    <li><a href="#500元-nas-黑群晖-配置完成不含硬盘nas能做什么">500元 NAS 黑群晖 配置完成（不含硬盘），NAS能做什么？</a></li>
+    <li><a href="#nas群晖dsm-50-4458-傻瓜安装教程">NAS群晖DSM 5.0-4458 傻瓜安装教程</a></li>
+    <li><a href="#index-of-ftpdsm504493">Index of /ftp/DSM/5.0/4493</a></li>
+    <li><a href="#"><img class="alignnone size-full wp-image-3227" src="https://umi.im/wp-content/uploads/2014/11/DSM-1.png" alt="DSM-1" width="696" height="608"/></a></li>
   </ol>
 </nav>
         </div>
@@ -409,7 +401,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2014年11月12日</time>
+                <time class="article-time--published" datetime='2014-11-12T12:13:20Z'>2014年11月12日</time>
             </div>
         
 
@@ -436,18 +428,13 @@
 
 </header>
 
-
     <section class="article-content">
     
     
     <p>10月的时候就打算买一台群晖的NAS了，结果被人忽悠去买iPad了。这个月又有双十一…没钱了，没办法了不能再拖了只好装一台黑群晖了。</p>
 <p>之前在SMZDM（色魔张大妈）看到这两篇这样的文章：</p>
-<h2 id="a-title跳转-hrefhttpshowsmzdmcomdetail43425-target_blank500元-nas-黑群晖-配置完成不含硬盘nas能做什么a">
-    <a href="#a-title%e8%b7%b3%e8%bd%ac-hrefhttpshowsmzdmcomdetail43425-target_blank500%e5%85%83-nas-%e9%bb%91%e7%be%a4%e6%99%96-%e9%85%8d%e7%bd%ae%e5%ae%8c%e6%88%90%e4%b8%8d%e5%90%ab%e7%a1%ac%e7%9b%98nas%e8%83%bd%e5%81%9a%e4%bb%80%e4%b9%88a">#</a>
-    <a title="跳转" href="http://show.smzdm.com/detail/43425" target="_blank">500元 NAS 黑群晖 配置完成（不含硬盘），NAS能做什么？</a>
-</h2><h2 id="a-hrefhttpjysmzdmcomdetail20115-target_blanknas群晖dsm-50-4458-傻瓜安装教程a">
-    <a href="#a-hrefhttpjysmzdmcomdetail20115-target_blanknas%e7%be%a4%e6%99%96dsm-50-4458-%e5%82%bb%e7%93%9c%e5%ae%89%e8%a3%85%e6%95%99%e7%a8%8ba">#</a>
-    <a href="http://jy.smzdm.com/detail/20115" target="_blank">NAS群晖DSM 5.0-4458 傻瓜安装教程</a>
+<h2 id="500元-nas-黑群晖-配置完成不含硬盘nas能做什么"><a title="跳转" href="http://show.smzdm.com/detail/43425" target="_blank">500元 NAS 黑群晖 配置完成（不含硬盘），NAS能做什么？</a>
+</h2><h2 id="nas群晖dsm-50-4458-傻瓜安装教程"><a href="http://jy.smzdm.com/detail/20115" target="_blank">NAS群晖DSM 5.0-4458 傻瓜安装教程</a>
 </h2><p>正好机箱、电源我都有了，可以更低价搞一个。</p>
 <p>于是，买了富士康的嵌入式CPU的ITX板子（Intel Atom D410、130块），1GB DDR2内存（10块），一张螃蟹千兆网卡（10块），一个U盘（15块），加上已有的电源和机箱，花了183块就搞定了一台黑群晖，配件虽然都是拆机的古董，但是性能比1500块DS213J强。</p>
 <p>到手后我才想起来，这货只有两个SATA啊！嘛，算了，正好阻止了以后买硬盘。</p>
@@ -461,12 +448,8 @@
 <p><a class="link" href="https://umi.im/wp-content/uploads/2014/11/DSM-BOOT.jpg"  target="_blank" rel="noopener"
     ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3226" src="https://umi.im/wp-content/uploads/2014/11/DSM-BOOT.jpg" alt="DSM-BOOT" width="1280" height="956" srcset="https://umi.im/wp-content/uploads/2014/11/DSM-BOOT.jpg 1280w, https://umi.im/wp-content/uploads/2014/11/DSM-BOOT-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/11/DSM-BOOT-300x224.jpg 300w, https://umi.im/wp-content/uploads/2014/11/DSM-BOOT-1024x764.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></p>
 <p>使用Synology Assistant找到局域网的黑群晖来安装DSM系统，DSM系统是需要通过pat后辍名的文件安装，可以通过官网下载到。</p>
-<h2 id="a-titleftp下载-hrefhttpukdlsynologycomftpdsm504493-target_blankindex-of-ftpdsm504493a">
-    <a href="#a-titleftp%e4%b8%8b%e8%bd%bd-hrefhttpukdlsynologycomftpdsm504493-target_blankindex-of-ftpdsm504493a">#</a>
-    <a title="FTP下载" href="http://ukdl.synology.com/ftp/DSM/5.0/4493/" target="_blank">Index of /ftp/DSM/5.0/4493</a>
-</h2><h2 id="img-loadinglazy-decodingasync-classalignnone-size-full-wp-image-3227-srchttpsumiimwp-contentuploads201411dsm-1png-altdsm-1-width696-height608-srcsethttpsumiimwp-contentuploads201411dsm-1png-696w-httpsumiimwp-contentuploads201411dsm-1-150x131png-150w-httpsumiimwp-contentuploads201411dsm-1-300x262png-300w-sizesmax-width-696px-100vw-696px-4">
-    <a href="#img-loadinglazy-decodingasync-classalignnone-size-full-wp-image-3227-srchttpsumiimwp-contentuploads201411dsm-1png-altdsm-1-width696-height608-srcsethttpsumiimwp-contentuploads201411dsm-1png-696w-httpsumiimwp-contentuploads201411dsm-1-150x131png-150w-httpsumiimwp-contentuploads201411dsm-1-300x262png-300w-sizesmax-width-696px-100vw-696px-4">#</a>
-    <a class="link" href="https://umi.im/wp-content/uploads/2014/11/DSM-1.png"  target="_blank" rel="noopener"
+<h2 id="index-of-ftpdsm504493"><a title="FTP下载" href="http://ukdl.synology.com/ftp/DSM/5.0/4493/" target="_blank">Index of /ftp/DSM/5.0/4493</a>
+</h2><h2 id=""><a class="link" href="https://umi.im/wp-content/uploads/2014/11/DSM-1.png"  target="_blank" rel="noopener"
     ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3227" src="https://umi.im/wp-content/uploads/2014/11/DSM-1.png" alt="DSM-1" width="696" height="608" srcset="https://umi.im/wp-content/uploads/2014/11/DSM-1.png 696w, https://umi.im/wp-content/uploads/2014/11/DSM-1-150x131.png 150w, https://umi.im/wp-content/uploads/2014/11/DSM-1-300x262.png 300w" sizes="(max-width: 696px) 100vw, 696px" /></a>
 </h2><p>中间再设置NAS名称、密码等。</p>
 <p><a class="link" href="https://umi.im/wp-content/uploads/2014/11/DSM-2.png"  target="_blank" rel="noopener"
@@ -523,19 +506,7 @@
     </section>
 
 
-    <section class="article-lastmod">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-        <span>
-            最后更新于 2014年11月12日 12:13 CST
-        </span>
-    </section></footer>
+    </footer>
 
 
     
@@ -666,12 +637,12 @@
         
             2013 - 
         
-        2024 笨蛋屋
+        2025 笨蛋屋
     </section>
     
     <section class="powerby">
         使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.25.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.33.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
 </footer>
 
@@ -753,6 +724,7 @@
                 rel="stylesheet" 
                 href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
             >
+    
 
             </main>
         </div>
@@ -760,7 +732,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.dd94a3a1af72e139795cfeda872cf12861c2c76788276d5544729c40adf97eee.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

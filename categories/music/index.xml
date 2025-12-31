@@ -34,9 +34,7 @@
         <guid>https://umi.im/cloud-music-lrc/</guid>
         <description>&lt;p&gt;网易云音乐是国内最好的音乐平台，歌曲丰富，而且很多外语歌都有双语歌词。但是网易云音乐不提供歌词下载，用手机客户端可以一键获取，但是获取到的歌词并非 LRC 格式的，而且文件名是纯数字，不方便用。&lt;/p&gt;
 &lt;p&gt;在 PC 端，可以通过一段 JS 脚本直接获取到双语的歌词。&lt;/p&gt;
-&lt;h2 id=&#34;使用方法&#34;&gt;
-    &lt;a href=&#34;#%e4%bd%bf%e7%94%a8%e6%96%b9%e6%b3%95&#34;&gt;#&lt;/a&gt;
-    使用方法：
+&lt;h2 id=&#34;使用方法&#34;&gt;使用方法：
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;打开需要下载歌词的歌曲网易云音乐链接，通过地址栏 URL 获取到歌曲 ID 。&lt;/li&gt;
 &lt;/ul&gt;
@@ -128,22 +126,14 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;片头曲&#34;&gt;
-    &lt;a href=&#34;#%e7%89%87%e5%a4%b4%e6%9b%b2&#34;&gt;#&lt;/a&gt;
-    片头曲
-&lt;/h2&gt;&lt;h3 id=&#34;philosophy-of-dear-world&#34;&gt;
-    &lt;a href=&#34;#philosophy-of-dear-world&#34;&gt;#&lt;/a&gt;
-    “Philosophy of Dear World”
+&lt;h2 id=&#34;片头曲&#34;&gt;片头曲
+&lt;/h2&gt;&lt;h3 id=&#34;philosophy-of-dear-world&#34;&gt;“Philosophy of Dear World”
 &lt;/h3&gt;&lt;p&gt;作词、作曲、编曲、主唱：&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/ZAQ&#34;  title=&#34;ZAQ&#34;
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;ZAQ&lt;/a&gt;&lt;br&gt;
 第1话作片尾曲使用。&lt;/p&gt;
-&lt;h2 id=&#34;片尾曲&#34;&gt;
-    &lt;a href=&#34;#%e7%89%87%e5%b0%be%e6%9b%b2&#34;&gt;#&lt;/a&gt;
-    片尾曲
-&lt;/h2&gt;&lt;h3 id=&#34;ailes&#34;&gt;
-    &lt;a href=&#34;#ailes&#34;&gt;#&lt;/a&gt;
-    “ailes”
+&lt;h2 id=&#34;片尾曲&#34;&gt;片尾曲
+&lt;/h2&gt;&lt;h3 id=&#34;ailes&#34;&gt;“ailes”
 &lt;/h3&gt;&lt;p&gt;作词：唐泽美帆，作曲、编曲：加藤达也，主唱：TRUE&lt;/p&gt;
 &lt;div class=&#34;video-wrapper&#34;&gt;
     &lt;iframe loading=&#34;lazy&#34; 
@@ -164,19 +154,11 @@
         <guid>https://umi.im/fate-stay-night-unlimited-blade-works-op-ed/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/fate-stay-night-unlimited-blade-works-op-ed.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3257&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/fate-stay-night-unlimited-blade-works-op-ed.jpg&#34; alt=&#34;fate-stay-night-unlimited-blade-works-op-ed&#34; width=&#34;1000&#34; height=&#34;445&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/fate-stay-night-unlimited-blade-works-op-ed.jpg 1000w, https://umi.im/wp-content/uploads/2014/11/fate-stay-night-unlimited-blade-works-op-ed-150x66.jpg 150w, https://umi.im/wp-content/uploads/2014/11/fate-stay-night-unlimited-blade-works-op-ed-300x133.jpg 300w&#34; sizes=&#34;(max-width: 1000px) 100vw, 1000px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;片头曲&#34;&gt;
-    &lt;a href=&#34;#%e7%89%87%e5%a4%b4%e6%9b%b2&#34;&gt;#&lt;/a&gt;
-    片头曲
-&lt;/h2&gt;&lt;h3 id=&#34;ideal-white&#34;&gt;
-    &lt;a href=&#34;#ideal-white&#34;&gt;#&lt;/a&gt;
-    “ideal white”
+&lt;h2 id=&#34;片头曲&#34;&gt;片头曲
+&lt;/h2&gt;&lt;h3 id=&#34;ideal-white&#34;&gt;“ideal white”
 &lt;/h3&gt;&lt;p&gt;作词：meg rock，作曲：Carlos K.、Toshi-FJ，编曲：Carlos K，主唱：&lt;span class=&#34;ilh-all&#34;&gt;&lt;span class=&#34;ilh-page&#34;&gt;&lt;a class=&#34;new&#34; href=&#34;http://zh.wikipedia.org/w/index.php?title=%E7%B6%BE%E9%87%8E%E7%9C%9F%E7%99%BD&amp;action=edit&amp;redlink=1&#34;&gt;绫野真白&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;h2 id=&#34;片尾曲&#34;&gt;
-    &lt;a href=&#34;#%e7%89%87%e5%b0%be%e6%9b%b2&#34;&gt;#&lt;/a&gt;
-    片尾曲
-&lt;/h2&gt;&lt;h3 id=&#34;believe&#34;&gt;
-    &lt;a href=&#34;#believe&#34;&gt;#&lt;/a&gt;
-    “believe”
+&lt;h2 id=&#34;片尾曲&#34;&gt;片尾曲
+&lt;/h2&gt;&lt;h3 id=&#34;believe&#34;&gt;“believe”
 &lt;/h3&gt;&lt;p&gt;作词、作曲、编曲：&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/%E6%A2%B6%E6%B5%A6%E7%94%B1%E8%A8%98&#34;  title=&#34;梶浦由记&#34;
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;梶浦由记&lt;/a&gt;，主唱：&lt;a class=&#34;link&#34; href=&#34;http://zh.wikipedia.org/wiki/Kalafina&#34;  title=&#34;Kalafina&#34;
@@ -209,12 +191,8 @@
 &lt;/blockquote&gt;
 &lt;p&gt;[hermit auto=”0″ loop=”0″ unexpand=”0″]songlist#:1773611321,1773599569[/hermit]&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
-&lt;h2 id=&#34;a-title极影-hrefhttpbtktxpcomhtml20141025383613html-target_blanktvアニメ天体のメソッドsora-no-methodopテーマstargazerlarval-stage-planning-flacbka&#34;&gt;
-    &lt;a href=&#34;#a-title%e6%9e%81%e5%bd%b1-hrefhttpbtktxpcomhtml20141025383613html-target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1%e5%a4%a9%e4%bd%93%e3%81%ae%e3%83%a1%e3%82%bd%e3%83%83%e3%83%89sora-no-methodop%e3%83%86%e3%83%bc%e3%83%9estargazerlarval-stage-planning-flacbka&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/1025/383613.html&#34; target=&#34;_blank&#34;&gt;TVアニメ「天体のメソッド(Sora no Method)」OPテーマ「Stargazer」／Larval Stage Planning (FLAC+BK)&lt;/a&gt;
-&lt;/h2&gt;&lt;h2 id=&#34;a-title极影-hrefhttpbtktxpcomhtml20141101384485html-target_blanktvアニメ天体のメソッドsora-no-methodedテーマ星屑のインターリュードfhana-flacbka&#34;&gt;
-    &lt;a href=&#34;#a-title%e6%9e%81%e5%bd%b1-hrefhttpbtktxpcomhtml20141101384485html-target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1%e5%a4%a9%e4%bd%93%e3%81%ae%e3%83%a1%e3%82%bd%e3%83%83%e3%83%89sora-no-methoded%e3%83%86%e3%83%bc%e3%83%9e%e6%98%9f%e5%b1%91%e3%81%ae%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%aa%e3%83%a5%e3%83%bc%e3%83%89fhana-flacbka&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/1101/384485.html&#34; target=&#34;_blank&#34;&gt;TVアニメ「天体のメソッド(Sora no Method)」EDテーマ「星屑のインターリュード」／fhana (FLAC+BK)&lt;/a&gt;
+&lt;h2 id=&#34;tvアニメ天体のメソッドsora-no-methodopテーマstargazerlarval-stage-planning-flacbk&#34;&gt;&lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/1025/383613.html&#34; target=&#34;_blank&#34;&gt;TVアニメ「天体のメソッド(Sora no Method)」OPテーマ「Stargazer」／Larval Stage Planning (FLAC+BK)&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;tvアニメ天体のメソッドsora-no-methodedテーマ星屑のインターリュードfhana-flacbk&#34;&gt;&lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/1101/384485.html&#34; target=&#34;_blank&#34;&gt;TVアニメ「天体のメソッド(Sora no Method)」EDテーマ「星屑のインターリュード」／fhana (FLAC+BK)&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>
@@ -225,9 +203,7 @@
         <guid>https://umi.im/akb48-sakuranokininarou/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/AKB48-Sakuranokininarou.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2908&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/AKB48-Sakuranokininarou.jpg&#34; alt=&#34;AKB48-Sakuranokininarou&#34; width=&#34;500&#34; height=&#34;496&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/AKB48-Sakuranokininarou.jpg 500w, https://umi.im/wp-content/uploads/2014/09/AKB48-Sakuranokininarou-150x148.jpg 150w, https://umi.im/wp-content/uploads/2014/09/AKB48-Sakuranokininarou-300x297.jpg 300w, https://umi.im/wp-content/uploads/2014/09/AKB48-Sakuranokininarou-80x80.jpg 80w&#34; sizes=&#34;(max-width: 500px) 100vw, 500px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;变成樱花树&#34;&gt;
-    &lt;a href=&#34;#%e5%8f%98%e6%88%90%e6%a8%b1%e8%8a%b1%e6%a0%91&#34;&gt;#&lt;/a&gt;
-    变成樱花树
+&lt;h2 id=&#34;变成樱花树&#34;&gt;变成樱花树
 &lt;/h2&gt;&lt;p&gt;作词：秋元康、作曲：横健介、编曲：野中”まさ”雄一&lt;/p&gt;
 &lt;div class=&#34;video-wrapper&#34;&gt;
     &lt;iframe loading=&#34;lazy&#34; 
@@ -270,12 +246,8 @@
 &lt;embed src=&#34;http://www.xiami.com/widget/0_1773377275/singlePlayer.swf&#34; type=&#34;application/x-shockwave-flash&#34; width=&#34;257&#34; height=&#34;33&#34;&gt;
 &lt;/embed&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
-&lt;h2 id=&#34;a-title下载-hrefhttpwwwnyaasepageviewtid583304-target_blanktvアニメアルドノアゼロaldnoahzeroopテーマheavenly-bluekalafina-flaca&#34;&gt;
-    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttpwwwnyaasepageviewtid583304-target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1%e3%82%a2%e3%83%ab%e3%83%89%e3%83%8e%e3%82%a2%e3%82%bc%e3%83%adaldnoahzeroop%e3%83%86%e3%83%bc%e3%83%9eheavenly-bluekalafina-flaca&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;下载&#34; href=&#34;http://www.nyaa.se/?page=view&amp;tid=583304&#34; target=&#34;_blank&#34;&gt;TVアニメ「アルドノア・ゼロ(Aldnoah.Zero)」OPテーマ「heavenly blue」／Kalafina (FLAC)&lt;/a&gt;
-&lt;/h2&gt;&lt;h2 id=&#34;a-title下载-hrefhttpwwwnyaasepageviewtid595973-target_blanktvアニメアルドノアゼロaldnoahzeroed1ed2テーマazaliezsawanohiroyukinzk-flacbka&#34;&gt;
-    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttpwwwnyaasepageviewtid595973-target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1%e3%82%a2%e3%83%ab%e3%83%89%e3%83%8e%e3%82%a2%e3%82%bc%e3%83%adaldnoahzeroed1ed2%e3%83%86%e3%83%bc%e3%83%9eazaliezsawanohiroyukinzk-flacbka&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;下载&#34; href=&#34;http://www.nyaa.se/?page=view&amp;tid=595973&#34; target=&#34;_blank&#34;&gt;TVアニメ「アルドノア・ゼロ(Aldnoah.Zero)」ED1&amp;amp;ED2テーマ「A/Z｜aLIEz」／SawanoHiroyuki[nZk] (FLAC+BK)&lt;/a&gt;
+&lt;h2 id=&#34;tvアニメアルドノアゼロaldnoahzeroopテーマheavenly-bluekalafina-flac&#34;&gt;&lt;a title=&#34;下载&#34; href=&#34;http://www.nyaa.se/?page=view&amp;tid=583304&#34; target=&#34;_blank&#34;&gt;TVアニメ「アルドノア・ゼロ(Aldnoah.Zero)」OPテーマ「heavenly blue」／Kalafina (FLAC)&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;tvアニメアルドノアゼロaldnoahzeroed1ed2テーマazaliezsawanohiroyukinzk-flacbk&#34;&gt;&lt;a title=&#34;下载&#34; href=&#34;http://www.nyaa.se/?page=view&amp;tid=595973&#34; target=&#34;_blank&#34;&gt;TVアニメ「アルドノア・ゼロ(Aldnoah.Zero)」ED1&amp;amp;ED2テーマ「A/Z｜aLIEz」／SawanoHiroyuki[nZk] (FLAC+BK)&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>
@@ -292,9 +264,7 @@
 &lt;embed src=&#34;http://www.xiami.com/widget/0_1773281636/singlePlayer.swf&#34; type=&#34;application/x-shockwave-flash&#34; width=&#34;257&#34; height=&#34;33&#34;&gt;
 &lt;/embed&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
-&lt;h2 id=&#34;a-title极影-hrefhttpbtktxpcomhtml20140709369883html-target_blanktvアニメ残響のテロルオリジナルサウンドトラックost-flaca&#34;&gt;
-    &lt;a href=&#34;#a-title%e6%9e%81%e5%bd%b1-hrefhttpbtktxpcomhtml20140709369883html-target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1%e6%ae%8b%e9%9f%bf%e3%81%ae%e3%83%86%e3%83%ad%e3%83%ab%e3%82%aa%e3%83%aa%e3%82%b8%e3%83%8a%e3%83%ab%e3%82%b5%e3%82%a6%e3%83%b3%e3%83%89%e3%83%88%e3%83%a9%e3%83%83%e3%82%afost-flaca&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/0709/369883.html&#34; target=&#34;_blank&#34;&gt;TVアニメ「残響のテロル」オリジナルサウンドトラック(OST) (FLAC)&lt;/a&gt;
+&lt;h2 id=&#34;tvアニメ残響のテロルオリジナルサウンドトラックost-flac&#34;&gt;&lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/0709/369883.html&#34; target=&#34;_blank&#34;&gt;TVアニメ「残響のテロル」オリジナルサウンドトラック(OST) (FLAC)&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>
@@ -329,9 +299,7 @@
 &lt;/blockquote&gt;
 &lt;p&gt;[hermit auto=”0″ loop=”0″ unexpand=”0″]songlist#:1773346762[/hermit]&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
-&lt;h2 id=&#34;a-title极影-hrefhttpbtktxpcomhtml20140806details-373735html-target_blanktvアニメアオハライドao-haru-rideopテーマ世界は恋に落ちているchico-with-honeyworks-320kbka&#34;&gt;
-    &lt;a href=&#34;#a-title%e6%9e%81%e5%bd%b1-hrefhttpbtktxpcomhtml20140806details-373735html-target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1%e3%82%a2%e3%82%aa%e3%83%8f%e3%83%a9%e3%82%a4%e3%83%89ao-haru-rideop%e3%83%86%e3%83%bc%e3%83%9e%e4%b8%96%e7%95%8c%e3%81%af%e6%81%8b%e3%81%ab%e8%90%bd%e3%81%a1%e3%81%a6%e3%81%84%e3%82%8bchico-with-honeyworks-320kbka&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/0806/details-373735.html&#34; target=&#34;_blank&#34;&gt; TVアニメ「アオハライド(Ao Haru Ride)」OPテーマ「世界は恋に落ちている」／CHiCO with HoneyWorks (320K+BK)&lt;/a&gt;
+&lt;h2 id=&#34;tvアニメアオハライドao-haru-rideopテーマ世界は恋に落ちているchico-with-honeyworks-320kbk&#34;&gt;&lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/0806/details-373735.html&#34; target=&#34;_blank&#34;&gt; TVアニメ「アオハライド(Ao Haru Ride)」OPテーマ「世界は恋に落ちている」／CHiCO with HoneyWorks (320K+BK)&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>
@@ -354,12 +322,8 @@
 &lt;embed width=&#34;544&#34; height=&#34;452&#34; type=&#34;application/x-shockwave-flash&#34; src=&#34;https://static-s.bilibili.com/miniloader.swf&#34; quality=&#34;high&#34; allowfullscreen=&#34;allowfullscreen&#34; flashvars=&#34;aid=1266423&amp;page=2&#34; pluginspage=&#34;http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&#34;&gt;
 &lt;/embed&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
-&lt;h2 id=&#34;a-title极影-hrefhttpbtktxpcomhtml20140823376034html-target_blanktvアニメハナヤマタhana-yamataopテーマ花ハ踊レヤいろはにほチームハナヤマタ-flacbka&#34;&gt;
-    &lt;a href=&#34;#a-title%e6%9e%81%e5%bd%b1-hrefhttpbtktxpcomhtml20140823376034html-target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1%e3%83%8f%e3%83%8a%e3%83%a4%e3%83%9e%e3%82%bfhana-yamataop%e3%83%86%e3%83%bc%e3%83%9e%e8%8a%b1%e3%83%8f%e8%b8%8a%e3%83%ac%e3%83%a4%e3%81%84%e3%82%8d%e3%81%af%e3%81%ab%e3%81%bb%e3%83%81%e3%83%bc%e3%83%a0%e3%83%8f%e3%83%8a%e3%83%a4%e3%83%9e%e3%82%bf-flacbka&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/0823/376034.html&#34; target=&#34;_blank&#34;&gt;TVアニメ「ハナヤマタ(Hana Yamata)」OPテーマ「花ハ踊レヤいろはにほ」／チーム・ハナヤマタ (FLAC+BK)&lt;/a&gt;
-&lt;/h2&gt;&lt;h2 id=&#34;a-title极影-hrefhttpbtktxpcomhtml20140823376037html-target_blanktvアニメハナヤマタhana-yamataedテーマ花雪smiley-inc-flacbka&#34;&gt;
-    &lt;a href=&#34;#a-title%e6%9e%81%e5%bd%b1-hrefhttpbtktxpcomhtml20140823376037html-target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1%e3%83%8f%e3%83%8a%e3%83%a4%e3%83%9e%e3%82%bfhana-yamataed%e3%83%86%e3%83%bc%e3%83%9e%e8%8a%b1%e9%9b%aasmiley-inc-flacbka&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/0823/376037.html&#34; target=&#34;_blank&#34;&gt;TVアニメ「ハナヤマタ(Hana Yamata)」EDテーマ「花雪」／smileY inc. (FLAC+BK)&lt;/a&gt;
+&lt;h2 id=&#34;tvアニメハナヤマタhana-yamataopテーマ花ハ踊レヤいろはにほチームハナヤマタ-flacbk&#34;&gt;&lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/0823/376034.html&#34; target=&#34;_blank&#34;&gt;TVアニメ「ハナヤマタ(Hana Yamata)」OPテーマ「花ハ踊レヤいろはにほ」／チーム・ハナヤマタ (FLAC+BK)&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;tvアニメハナヤマタhana-yamataedテーマ花雪smiley-inc-flacbk&#34;&gt;&lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/0823/376037.html&#34; target=&#34;_blank&#34;&gt;TVアニメ「ハナヤマタ(Hana Yamata)」EDテーマ「花雪」／smileY inc. (FLAC+BK)&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>
@@ -373,9 +337,7 @@
 &lt;p&gt;一般新番播出一个月后主题歌的CD就会发售。&lt;/p&gt;
 &lt;p&gt;CD发售后三天左右就能在&lt;a title=&#34;Nyaa&#34; href=&#34;http://www.nyaa.se/&#34; target=&#34;_blank&#34;&gt;Nyaa&lt;/a&gt;和&lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/&#34; target=&#34;_blank&#34;&gt;极影&lt;/a&gt;上找到无损。&lt;/p&gt;
 &lt;p&gt;所以想快点收到无损歌曲就得知道CD的发售时间。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpaobadigi2jpanimenewmusic-target_blankテレビアニメ新番組主題歌cd発売日一覧全国テレビアニメ一覧a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpaobadigi2jpanimenewmusic-target_blank%e3%83%86%e3%83%ac%e3%83%93%e3%82%a2%e3%83%8b%e3%83%a1%e6%96%b0%e7%95%aa%e7%b5%84%e4%b8%bb%e9%a1%8c%e6%ad%8ccd%e7%99%ba%e5%a3%b2%e6%97%a5%e4%b8%80%e8%a6%a7%e5%85%a8%e5%9b%bd%e3%83%86%e3%83%ac%e3%83%93%e3%82%a2%e3%83%8b%e3%83%a1%e4%b8%80%e8%a6%a7a&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://aoba.digi2.jp/anime/new/music/&#34; target=&#34;_blank&#34;&gt;テレビアニメ新番組主題歌CD発売日一覧｜全国テレビアニメ一覧&lt;/a&gt;
+&lt;h2 id=&#34;テレビアニメ新番組主題歌cd発売日一覧全国テレビアニメ一覧&#34;&gt;&lt;a href=&#34;http://aoba.digi2.jp/anime/new/music/&#34; target=&#34;_blank&#34;&gt;テレビアニメ新番組主題歌CD発売日一覧｜全国テレビアニメ一覧&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;上面链接的网站会按新番歌曲CD发售时间排序各种CD并附上购买链接。&lt;/p&gt;
 &lt;p&gt;用浏览器自带的搜索功能（Ctrl + F）搜索歌曲名字或者作品名字就可以快速找到CD的发售时间。&lt;/p&gt;
 &lt;p&gt;搜索的时候要搜索日文，通过Wikipedia可以找到动画的日文原文，直接搜歌名也可以。&lt;/p&gt;
@@ -404,9 +366,7 @@
 &lt;p&gt;2014/08/07 更新&lt;/p&gt;
 &lt;p&gt;[hermit auto=”0″ loop=”0″ unexpand=”0″]songlist#:1773344035[/hermit]&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
-&lt;h2 id=&#34;a-title下载-hrefhttpwwwnyaasepageviewtid582708-target_blanktvアニメグラスリップglasslipopテーマ夏の日と君の声choucho-flacbka&#34;&gt;
-    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttpwwwnyaasepageviewtid582708-target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1%e3%82%b0%e3%83%a9%e3%82%b9%e3%83%aa%e3%83%83%e3%83%97glasslipop%e3%83%86%e3%83%bc%e3%83%9e%e5%a4%8f%e3%81%ae%e6%97%a5%e3%81%a8%e5%90%9b%e3%81%ae%e5%a3%b0choucho-flacbka&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;下载&#34; href=&#34;http://www.nyaa.se/?page=view&amp;tid=582708&#34; target=&#34;_blank&#34;&gt;TVアニメ「グラスリップ(Glasslip)」OPテーマ「夏の日と君の声」／ChouCho (FLAC+BK)&lt;/a&gt;
+&lt;h2 id=&#34;tvアニメグラスリップglasslipopテーマ夏の日と君の声choucho-flacbk&#34;&gt;&lt;a title=&#34;下载&#34; href=&#34;http://www.nyaa.se/?page=view&amp;tid=582708&#34; target=&#34;_blank&#34;&gt;TVアニメ「グラスリップ(Glasslip)」OPテーマ「夏の日と君の声」／ChouCho (FLAC+BK)&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>
@@ -424,9 +384,7 @@
 &lt;/blockquote&gt;
 &lt;p&gt;[hermit auto=”0″ loop=”0″]songlist#:1772913167,1772913166[/hermit]&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
-&lt;h2 id=&#34;a-title极影-hrefhttpbtktxpcomhtml20140525364030html-target_blank140528-tvアニメご注文はうさぎですかopテーマdaydream-cafepetit-rabbit8217s-flacbk-8211-极影a&#34;&gt;
-    &lt;a href=&#34;#a-title%e6%9e%81%e5%bd%b1-hrefhttpbtktxpcomhtml20140525364030html-target_blank140528-tv%e3%82%a2%e3%83%8b%e3%83%a1%e3%81%94%e6%b3%a8%e6%96%87%e3%81%af%e3%81%86%e3%81%95%e3%81%8e%e3%81%a7%e3%81%99%e3%81%8bop%e3%83%86%e3%83%bc%e3%83%9edaydream-cafepetit-rabbit8217s-flacbk-8211-%e6%9e%81%e5%bd%b1a&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/0525/364030.html&#34; target=&#34;_blank&#34;&gt;[140528] TVアニメ「ご注文はうさぎですか？」OPテーマ「Daydream cafe」／Petit Rabbit’s (FLAC+BK) – 极影&lt;/a&gt;
+&lt;h2 id=&#34;140528-tvアニメご注文はうさぎですかopテーマdaydream-cafepetit-rabbit8217s-flacbk-8211-极影&#34;&gt;&lt;a title=&#34;极影&#34; href=&#34;http://bt.ktxp.com/html/2014/0525/364030.html&#34; target=&#34;_blank&#34;&gt;[140528] TVアニメ「ご注文はうさぎですか？」OPテーマ「Daydream cafe」／Petit Rabbit’s (FLAC+BK) – 极影&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>
@@ -444,15 +402,9 @@
 &lt;div&gt;
   下载地址：
 &lt;/div&gt;
-&lt;h2 id=&#34;a-title下载-hrefhttppanbaiducoms1i3gfdqp-target_blankstylips-8211-spicaflaca百度云&#34;&gt;
-    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttppanbaiducoms1i3gfdqp-target_blankstylips-8211-spicaflaca%e7%99%be%e5%ba%a6%e4%ba%91&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;下载&#34; href=&#34;http://pan.baidu.com/s/1i3gfdqP&#34; target=&#34;_blank&#34;&gt;StylipS – Spica..flac&lt;/a&gt;（百度云）
-&lt;/h2&gt;&lt;h2 id=&#34;a-title下载-hrefhttpsdrivegooglecomfiled0b8oh-br_nde1nk9gazjvbgnqaukedituspsharing-target_blankstylips-8211-spicaflacagoogle-drive&#34;&gt;
-    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttpsdrivegooglecomfiled0b8oh-br_nde1nk9gazjvbgnqaukedituspsharing-target_blankstylips-8211-spicaflacagoogle-drive&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;下载&#34; href=&#34;https://drive.google.com/file/d/0B8oh-BR_nDe1Nk9GazJvbGNQaUk/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;StylipS – Spica..flac&lt;/a&gt;（Google Drive）
-&lt;/h2&gt;&lt;h2 id=&#34;span-stylecolor-111111a-title下载-hrefhttpwwwnyaasepageviewtid556731-target_blank純粋なフジュンブツspicastylips-flac-整张专辑anyaaspan&#34;&gt;
-    &lt;a href=&#34;#span-stylecolor-111111a-title%e4%b8%8b%e8%bd%bd-hrefhttpwwwnyaasepageviewtid556731-target_blank%e7%b4%94%e7%b2%8b%e3%81%aa%e3%83%95%e3%82%b8%e3%83%a5%e3%83%b3%e3%83%96%e3%83%84spicastylips-flac-%e6%95%b4%e5%bc%a0%e4%b8%93%e8%be%91anyaaspan&#34;&gt;#&lt;/a&gt;
-    &lt;span style=&#34;color: #111111;&#34;&gt;&lt;a title=&#34;下载&#34; href=&#34;http://www.nyaa.se/?page=view&amp;tid=556731&#34; target=&#34;_blank&#34;&gt;「純粋なフジュンブツ／Spica.」／StylipS (FLAC) 整张专辑 &lt;/a&gt;（Nyaa）&lt;/span&gt;
+&lt;h2 id=&#34;stylips-8211-spicaflac百度云&#34;&gt;&lt;a title=&#34;下载&#34; href=&#34;http://pan.baidu.com/s/1i3gfdqP&#34; target=&#34;_blank&#34;&gt;StylipS – Spica..flac&lt;/a&gt;（百度云）
+&lt;/h2&gt;&lt;h2 id=&#34;stylips-8211-spicaflacgoogle-drive&#34;&gt;&lt;a title=&#34;下载&#34; href=&#34;https://drive.google.com/file/d/0B8oh-BR_nDe1Nk9GazJvbGNQaUk/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;StylipS – Spica..flac&lt;/a&gt;（Google Drive）
+&lt;/h2&gt;&lt;h2 id=&#34;純粋なフジュンブツspicastylips-flac-整张专辑nyaa&#34;&gt;&lt;span style=&#34;color: #111111;&#34;&gt;&lt;a title=&#34;下载&#34; href=&#34;http://www.nyaa.se/?page=view&amp;tid=556731&#34; target=&#34;_blank&#34;&gt;「純粋なフジュンブツ／Spica.」／StylipS (FLAC) 整张专辑 &lt;/a&gt;（Nyaa）&lt;/span&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>
@@ -461,18 +413,12 @@
         <pubDate>Mon, 14 Apr 2014 17:35:23 +0000</pubDate>
         
         <guid>https://umi.im/foobar2000-mobile-kickstarter/</guid>
-        <description>&lt;h2 id=&#34;img-loadinglazy-decodingasync-classalignnone-size-full-wp-image-2075-srchttpsumiimwp-contentuploads201404foobar-kickstarterpng-altfoobar-kickstarter-width945-height114-srcsethttpsumiimwp-contentuploads201404foobar-kickstarterpng-945w-httpsumiimwp-contentuploads201404foobar-kickstarter-150x18png-150w-httpsumiimwp-contentuploads201404foobar-kickstarter-300x36png-300w-sizesmax-width-945px-100vw-945px-1&#34;&gt;
-    &lt;a href=&#34;#img-loadinglazy-decodingasync-classalignnone-size-full-wp-image-2075-srchttpsumiimwp-contentuploads201404foobar-kickstarterpng-altfoobar-kickstarter-width945-height114-srcsethttpsumiimwp-contentuploads201404foobar-kickstarterpng-945w-httpsumiimwp-contentuploads201404foobar-kickstarter-150x18png-150w-httpsumiimwp-contentuploads201404foobar-kickstarter-300x36png-300w-sizesmax-width-945px-100vw-945px-1&#34;&gt;#&lt;/a&gt;
-    &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/foobar-kickstarter.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <description>&lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/foobar-kickstarter.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2075&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/foobar-kickstarter.png&#34; alt=&#34;foobar-kickstarter&#34; width=&#34;945&#34; height=&#34;114&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/foobar-kickstarter.png 945w, https://umi.im/wp-content/uploads/2014/04/foobar-kickstarter-150x18.png 150w, https://umi.im/wp-content/uploads/2014/04/foobar-kickstarter-300x36.png 300w&#34; sizes=&#34;(max-width: 945px) 100vw, 945px&#34; /&gt;&lt;/a&gt;
-&lt;/h2&gt;&lt;h2 id=&#34;foobar2000的革命性pc音频播放器现在的foobar2000将发展到移动电话和平板电脑&#34;&gt;
-    &lt;a href=&#34;#foobar2000%e7%9a%84%e9%9d%a9%e5%91%bd%e6%80%a7pc%e9%9f%b3%e9%a2%91%e6%92%ad%e6%94%be%e5%99%a8%e7%8e%b0%e5%9c%a8%e7%9a%84foobar2000%e5%b0%86%e5%8f%91%e5%b1%95%e5%88%b0%e7%a7%bb%e5%8a%a8%e7%94%b5%e8%af%9d%e5%92%8c%e5%b9%b3%e6%9d%bf%e7%94%b5%e8%84%91&#34;&gt;#&lt;/a&gt;
-    foobar2000的革命性PC音频播放器，现在的foobar2000将发展到移动电话和平板电脑。
+&lt;/h2&gt;&lt;h2 id=&#34;foobar2000的革命性pc音频播放器现在的foobar2000将发展到移动电话和平板电脑&#34;&gt;foobar2000的革命性PC音频播放器，现在的foobar2000将发展到移动电话和平板电脑。
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/04/foobarexample1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2074&#34; src=&#34;https://umi.im/wp-content/uploads/2014/04/foobarexample1.jpg&#34; alt=&#34;foobarexample&#34; width=&#34;700&#34; height=&#34;336&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/04/foobarexample1.jpg 700w, https://umi.im/wp-content/uploads/2014/04/foobarexample1-150x72.jpg 150w, https://umi.im/wp-content/uploads/2014/04/foobarexample1-300x144.jpg 300w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpmobilefoobar2000com-target_blankfoobar-mobile-kickstartera&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpmobilefoobar2000com-target_blankfoobar-mobile-kickstartera&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://mobile.foobar2000.com/&#34; target=&#34;_blank&#34;&gt;Foobar Mobile Kickstarter&lt;/a&gt;
+&lt;h2 id=&#34;foobar-mobile-kickstarter&#34;&gt;&lt;a href=&#34;http://mobile.foobar2000.com/&#34; target=&#34;_blank&#34;&gt;Foobar Mobile Kickstarter&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;Foobar2000正在&lt;a title=&#34;Wikipedia&#34; href=&#34;http://zh.wikipedia.org/wiki/Kickstarter&#34; target=&#34;_blank&#34;&gt;Kickstarter&lt;/a&gt;进行众筹，现在已经筹集了5000美元，根据谷歌翻译获取如下消息。&lt;/p&gt;
 &lt;p&gt;资助80美元可以获得Android或者IOS版的Beta资格。&lt;/p&gt;
 &lt;p&gt;资助195美元可以获得Android或者IOS版的Beta资格以及一款RHA MA750耳机。如下图。&lt;/p&gt;
@@ -562,14 +508,12 @@ JANコード : 4534530074010&lt;/p&gt;
 &lt;p&gt;デートTIME&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;涙星 ~LIVE Ver.~&lt;/p&gt;
+&lt;p&gt;涙星 &lt;del&gt;LIVE Ver.&lt;/del&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;歌 : ミネラル★ミラクル★ミューズ(戸松遥、M・A・O、山崎エリイ)&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
-&lt;h2 id=&#34;a-title百度云-hrefhttppanbaiducomsharelinkshareid2581312114uk908988946-target_blank恋玉コレステロール-wava&#34;&gt;
-    &lt;a href=&#34;#a-title%e7%99%be%e5%ba%a6%e4%ba%91-hrefhttppanbaiducomsharelinkshareid2581312114uk908988946-target_blank%e6%81%8b%e7%8e%89%e3%82%b3%e3%83%ac%e3%82%b9%e3%83%86%e3%83%ad%e3%83%bc%e3%83%ab-wava&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;百度云&#34; href=&#34;http://pan.baidu.com/share/link?shareid=2581312114&amp;uk=908988946&#34; target=&#34;_blank&#34;&gt;恋玉コレステロール WAV&lt;/a&gt;
+&lt;h2 id=&#34;恋玉コレステロール-wav&#34;&gt;&lt;a title=&#34;百度云&#34; href=&#34;http://pan.baidu.com/share/link?shareid=2581312114&amp;uk=908988946&#34; target=&#34;_blank&#34;&gt;恋玉コレステロール WAV&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>
@@ -615,12 +559,8 @@ JANコード : 4562392698549&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
-&lt;h2 id=&#34;a-title百度-hrefhttppanbaiducoms1o6ufnai--target_blanktvアニメpupaedテーマ誰より好きなのにa百度云&#34;&gt;
-    &lt;a href=&#34;#a-title%e7%99%be%e5%ba%a6-hrefhttppanbaiducoms1o6ufnai--target_blanktv%e3%82%a2%e3%83%8b%e3%83%a1pupaed%e3%83%86%e3%83%bc%e3%83%9e%e8%aa%b0%e3%82%88%e3%82%8a%e5%a5%bd%e3%81%8d%e3%81%aa%e3%81%ae%e3%81%aba%e7%99%be%e5%ba%a6%e4%ba%91&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;百度&#34; href=&#34;http://pan.baidu.com/s/1o6ufnAi &#34; target=&#34;_blank&#34;&gt;TVアニメ「pupa」EDテーマ「誰より好きなのに」&lt;/a&gt;（百度云）
-&lt;/h2&gt;&lt;h5 id=&#34;password--t697&#34;&gt;
-    &lt;a href=&#34;#password--t697&#34;&gt;#&lt;/a&gt;
-    Password : t697
+&lt;h2 id=&#34;tvアニメpupaedテーマ誰より好きなのに百度云&#34;&gt;&lt;a title=&#34;百度&#34; href=&#34;http://pan.baidu.com/s/1o6ufnAi &#34; target=&#34;_blank&#34;&gt;TVアニメ「pupa」EDテーマ「誰より好きなのに」&lt;/a&gt;（百度云）
+&lt;/h2&gt;&lt;h5 id=&#34;password--t697&#34;&gt;Password : t697
 &lt;/h5&gt;</description>
         </item>
         <item>
@@ -667,9 +607,7 @@ JANコード : 4562392698549&lt;/p&gt;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1331&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/foobar-Shortcuts.png&#34; alt=&#34;foobar-Shortcuts&#34; width=&#34;754&#34; height=&#34;552&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/foobar-Shortcuts.png 754w, https://umi.im/wp-content/uploads/2014/01/foobar-Shortcuts-150x109.png 150w, https://umi.im/wp-content/uploads/2014/01/foobar-Shortcuts-300x219.png 300w&#34; sizes=&#34;(max-width: 754px) 100vw, 754px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;来源：&lt;a href=&#34;http://tieba.baidu.com/p/2809755383&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;foobox 3，谢谢喜欢foobox的朋友支持&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
-&lt;h2 id=&#34;a-title点击进入下载地址-hrefhttppanbaiducomsharelinkshareid3242916904uk688384401-target_blank-relnoopenerfoobox-3a&#34;&gt;
-    &lt;a href=&#34;#a-title%e7%82%b9%e5%87%bb%e8%bf%9b%e5%85%a5%e4%b8%8b%e8%bd%bd%e5%9c%b0%e5%9d%80-hrefhttppanbaiducomsharelinkshareid3242916904uk688384401-target_blank-relnoopenerfoobox-3a&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;点击进入下载地址&#34; href=&#34;http://pan.baidu.com/share/link?shareid=3242916904&amp;uk=688384401&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Foobox 3&lt;/a&gt;
+&lt;h2 id=&#34;foobox-3&#34;&gt;&lt;a title=&#34;点击进入下载地址&#34; href=&#34;http://pan.baidu.com/share/link?shareid=3242916904&amp;uk=688384401&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Foobox 3&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>
@@ -684,12 +622,8 @@ JANコード : 4562392698549&lt;/p&gt;
 &lt;p&gt;格式都是&lt;a href=&#34;http://zh.wikipedia.org/wiki/FLAC&#34; target=&#34;_blank&#34;&gt;FLAC&lt;/a&gt;格式，绝大部分来源于eD2k网络、BT下载，质量可靠。&lt;/p&gt;
 &lt;p&gt;标签和封面都很完整，整理癖嘛。&lt;/p&gt;
 &lt;p&gt;弄了个网易云音乐的歌单，有几首找不到。&lt;/p&gt;
-&lt;h2 id=&#34;span-stylecolor-99cc00a-title炒土豆丝の音乐-hrefhttpmusic163complaylistid65907389-target_blankspan-stylecolor-99cc00网易云音乐在线听spanaspan&#34;&gt;
-    &lt;a href=&#34;#span-stylecolor-99cc00a-title%e7%82%92%e5%9c%9f%e8%b1%86%e4%b8%9d%e3%81%ae%e9%9f%b3%e4%b9%90-hrefhttpmusic163complaylistid65907389-target_blankspan-stylecolor-99cc00%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90%e5%9c%a8%e7%ba%bf%e5%90%acspanaspan&#34;&gt;#&lt;/a&gt;
-    &lt;span style=&#34;color: #99cc00;&#34;&gt;&lt;a title=&#34;炒土豆丝の音乐&#34; href=&#34;http://music.163.com/#/playlist?id=65907389&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;网易云音乐在线听&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;
-&lt;/h2&gt;&lt;h5 id=&#34;span-stylecolor-99ccffakb48-8211-ひと夏の反抗期span&#34;&gt;
-    &lt;a href=&#34;#span-stylecolor-99ccffakb48-8211-%e3%81%b2%e3%81%a8%e5%a4%8f%e3%81%ae%e5%8f%8d%e6%8a%97%e6%9c%9fspan&#34;&gt;#&lt;/a&gt;
-    &lt;span style=&#34;color: #99ccff;&#34;&gt;AKB48 – ひと夏の反抗期&lt;/span&gt;
+&lt;h2 id=&#34;网易云音乐在线听&#34;&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;&lt;a title=&#34;炒土豆丝の音乐&#34; href=&#34;http://music.163.com/#/playlist?id=65907389&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;网易云音乐在线听&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;/h2&gt;&lt;h5 id=&#34;akb48-8211-ひと夏の反抗期&#34;&gt;&lt;span style=&#34;color: #99ccff;&#34;&gt;AKB48 – ひと夏の反抗期&lt;/span&gt;
 &lt;/h5&gt;&lt;p&gt;&lt;span style=&#34;color: #99ccff;&#34;&gt;AKB48 – 心のプラカード&lt;/span&gt;&lt;br&gt;
 &lt;span style=&#34;color: #99ccff;&#34;&gt;AKB48 – 桜の木になろう&lt;/span&gt;&lt;br&gt;
 &lt;span style=&#34;color: #99ccff;&#34;&gt;ALI PROJECT – 禁じられた遊び&lt;/span&gt;&lt;br&gt;
@@ -798,7 +732,7 @@ JANコード : 4562392698549&lt;/p&gt;
 &lt;span style=&#34;color: #99ccff;&#34;&gt;V6 – Change The World&lt;/span&gt;&lt;br&gt;
 &lt;span style=&#34;color: #99ccff;&#34;&gt;V6 – テイク·ミー·ハイヤー&lt;/span&gt;&lt;br&gt;
 &lt;span style=&#34;color: #99ccff;&#34;&gt;WANDS – 世界が終わるまでは…&lt;/span&gt;&lt;br&gt;
-&lt;span style=&#34;color: #99ccff;&#34;&gt;X Japan – Longing~迹切れたメロディー&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;X Japan – Longing&lt;del&gt;迹切れたメロディー&lt;/span&gt;&lt;br&gt;
 &lt;span style=&#34;color: #99ccff;&#34;&gt;yozuca – サクラサクミライコイユメ&lt;/span&gt;&lt;br&gt;
 &lt;span style=&#34;color: #99ccff;&#34;&gt;Yuuki Ozaki (from Galileo Galilei) – Trigger&lt;/span&gt;&lt;br&gt;
 &lt;span style=&#34;color: #99ccff;&#34;&gt;ZAQ – Philosophy of Dear World&lt;/span&gt;&lt;br&gt;
@@ -904,7 +838,7 @@ JANコード : 4562392698549&lt;/p&gt;
 &lt;span style=&#34;color: #99ccff;&#34;&gt;乃木坂46 – 立ち直り中&lt;/span&gt;&lt;br&gt;
 &lt;span style=&#34;color: #99ccff;&#34;&gt;乃木坂46 – 命は美しい&lt;/span&gt;&lt;br&gt;
 &lt;span style=&#34;color: #99ccff;&#34;&gt;乃木坂46 – 気づいたら片想い&lt;/span&gt;&lt;br&gt;
-&lt;span style=&#34;color: #99ccff;&#34;&gt;妮可·鲁梅露希耶（前田玲奈） – アメフラシの歌~Beautiful Rain~&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color: #99ccff;&#34;&gt;妮可·鲁梅露希耶（前田玲奈） – アメフラシの歌&lt;/del&gt;Beautiful Rain~&lt;/span&gt;&lt;br&gt;
 &lt;span style=&#34;color: #99ccff;&#34;&gt;平野綾 茅原実里 後藤邑子 – レ晴レユカイ&lt;/span&gt;&lt;br&gt;
 &lt;span style=&#34;color: #99ccff;&#34;&gt;平泽唯,秋山澪,田井中律,琴吹䌷 – 天使にふれたよ（卒業式）&lt;/span&gt;&lt;br&gt;
 &lt;span style=&#34;color: #99ccff;&#34;&gt;前田愛 – keep on&lt;/span&gt;&lt;br&gt;
@@ -962,16 +896,10 @@ JANコード : 4562392698549&lt;/p&gt;
 &lt;span style=&#34;color: #99ccff;&#34;&gt;佐藤ひろ美&amp;amp;NANA – 祝福のカンパネラ&lt;/span&gt;&lt;br&gt;
 &lt;span style=&#34;color: #99ccff;&#34;&gt;佐藤朱美 – いとおしい人のために&lt;/span&gt;&lt;br&gt;
 &lt;span style=&#34;color: #99ccff;&#34;&gt;佐香智久 – 僕たちの歌&lt;/span&gt; {.}&lt;/p&gt;
-&lt;h5 id=&#34;span-stylecolor-000000-updated-201539span&#34;&gt;
-    &lt;a href=&#34;#span-stylecolor-000000-updated-201539span&#34;&gt;#&lt;/a&gt;
-    &lt;span style=&#34;color: #000000;&#34;&gt;-Updated 2015/3/9&lt;/span&gt;
+&lt;h5 id=&#34;-updated-201539&#34;&gt;&lt;span style=&#34;color: #000000;&#34;&gt;-Updated 2015/3/9&lt;/span&gt;
 &lt;/h5&gt;&lt;p&gt;下载地址：&lt;/p&gt;
-&lt;h2 id=&#34;span-stylecolor-99cc00delspan-stylecolor-99cc00a-title下载-hrefhttppanbaiducoms1c0acdik-target_blank炒土豆丝の音乐aspandelspan-stylecolor-000000百度云spanbr--span&#34;&gt;
-    &lt;a href=&#34;#span-stylecolor-99cc00delspan-stylecolor-99cc00a-title%e4%b8%8b%e8%bd%bd-hrefhttppanbaiducoms1c0acdik-target_blank%e7%82%92%e5%9c%9f%e8%b1%86%e4%b8%9d%e3%81%ae%e9%9f%b3%e4%b9%90aspandelspan-stylecolor-000000%e7%99%be%e5%ba%a6%e4%ba%91spanbr--span&#34;&gt;#&lt;/a&gt;
-    &lt;span style=&#34;color: #99cc00;&#34;&gt;&lt;del&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;&lt;a title=&#34;下载&#34; href=&#34;http://pan.baidu.com/s/1c0AcdIK&#34; target=&#34;_blank&#34;&gt;炒土豆丝の音乐&lt;/a&gt;&lt;/span&gt;&lt;/del&gt;&lt;span style=&#34;color: #000000;&#34;&gt;（百度云）&lt;/span&gt;&lt;br /&gt; &lt;/span&gt;
-&lt;/h2&gt;&lt;h2 id=&#34;span-stylecolor-99cc00a-titlegoogle-drive-下载-hrefhttpsdrivegooglecomfolderviewid0b8oh-br_nde1c2p3t1nfz09hdw8uspsharing-target_blankspan-stylecolor-99cc00炒土豆丝の音乐spanaspan-stylecolor-000000google-drivespanspan&#34;&gt;
-    &lt;a href=&#34;#span-stylecolor-99cc00a-titlegoogle-drive-%e4%b8%8b%e8%bd%bd-hrefhttpsdrivegooglecomfolderviewid0b8oh-br_nde1c2p3t1nfz09hdw8uspsharing-target_blankspan-stylecolor-99cc00%e7%82%92%e5%9c%9f%e8%b1%86%e4%b8%9d%e3%81%ae%e9%9f%b3%e4%b9%90spanaspan-stylecolor-000000google-drivespanspan&#34;&gt;#&lt;/a&gt;
-    &lt;span style=&#34;color: #99cc00;&#34;&gt;&lt;a title=&#34;Google drive 下载&#34; href=&#34;https://drive.google.com/folderview?id=0B8oh-BR_nDe1c2p3T1NFZ09hdW8&amp;usp=sharing&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;炒土豆丝の音乐&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;color: #000000;&#34;&gt;（Google Drive）&lt;/span&gt;&lt;/span&gt;
+&lt;h2 id=&#34;炒土豆丝の音乐百度云&#34;&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;&lt;del&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;&lt;a title=&#34;下载&#34; href=&#34;http://pan.baidu.com/s/1c0AcdIK&#34; target=&#34;_blank&#34;&gt;炒土豆丝の音乐&lt;/a&gt;&lt;/span&gt;&lt;/del&gt;&lt;span style=&#34;color: #000000;&#34;&gt;（百度云）&lt;/span&gt;&lt;br /&gt; &lt;/span&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;炒土豆丝の音乐google-drive&#34;&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;&lt;a title=&#34;Google drive 下载&#34; href=&#34;https://drive.google.com/folderview?id=0B8oh-BR_nDe1c2p3T1NFZ09hdW8&amp;usp=sharing&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;炒土豆丝の音乐&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;color: #000000;&#34;&gt;（Google Drive）&lt;/span&gt;&lt;/span&gt;
 &lt;/h2&gt;&lt;div class=&#39;alert alert-primary&#39;&gt;
   &lt;span class=&#39;alert-inner--text&#39;&gt;歌曲并没有打包上传，批量下载可能出现错误，请使用&lt;a href=&#34;https://umi.im/?page_id=453&#34; target=&#34;_blank&#34;&gt;百度云（去广告绿色版）&lt;/a&gt;下载。&lt;/span&gt;
 &lt;/div&gt;

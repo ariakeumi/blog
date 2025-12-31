@@ -30,9 +30,7 @@ sudo cp -a Flatabulous-master /usr/share/themes/&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/09/Ubuntu-tweak-tool.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;560&#34; height=&#34;334&#34; src=&#34;https://umi.im/wp-content/uploads/2015/09/Ubuntu-tweak-tool.jpg&#34; alt=&#34;Ubuntu tweak tool&#34; class=&#34;wp-image-4634&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/09/Ubuntu-tweak-tool.jpg 560w, https://umi.im/wp-content/uploads/2015/09/Ubuntu-tweak-tool-150x89.jpg 150w, https://umi.im/wp-content/uploads/2015/09/Ubuntu-tweak-tool-300x179.jpg 300w&#34; sizes=&#34;(max-width: 560px) 100vw, 560px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;作者还分享了个扁平化的图标包，不过我不太喜欢就不转来了，详情访问作者博客。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpsbloganmoljagetiameflatabulous-ubuntu-theme-target_blank-relnoopenerflatabulous--ubuntu-theme-nbspanmol-jagetia8217s-bloga&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpsbloganmoljagetiameflatabulous-ubuntu-theme-target_blank-relnoopenerflatabulous--ubuntu-theme-nbspanmol-jagetia8217s-bloga&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;https://blog.anmoljagetia.me/flatabulous-ubuntu-theme/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flatabulous : Ubuntu Theme / Anmol Jagetia’s Blog!&lt;/a&gt;
+&lt;h2 id=&#34;flatabulous--ubuntu-theme-anmol-jagetia8217s-blog&#34;&gt;&lt;a href=&#34;https://blog.anmoljagetia.me/flatabulous-ubuntu-theme/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flatabulous : Ubuntu Theme / Anmol Jagetia’s Blog!&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>
@@ -45,9 +43,7 @@ sudo cp -a Flatabulous-master /usr/share/themes/&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Ubuntu是一个自由、开源、基于Debian的Linux发行版，发行周期为6个月，由 Canonical 公司和自由软件社区开发。 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;不玩游戏、不使用专业大型软件、非程序员用户，试下看能不能用Ubuntu系统代替Windows。&lt;/p&gt;
-&lt;h2 id=&#34;a-title教程-hrefhttpjingyanbaiducomarticlee3c78d6460e6893c4c85f5b1html-target_blankefi下win-81ubuntu-1404安装教程a&#34;&gt;
-    &lt;a href=&#34;#a-title%e6%95%99%e7%a8%8b-hrefhttpjingyanbaiducomarticlee3c78d6460e6893c4c85f5b1html-target_blankefi%e4%b8%8bwin-81ubuntu-1404%e5%ae%89%e8%a3%85%e6%95%99%e7%a8%8ba&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;教程&#34; href=&#34;http://jingyan.baidu.com/article/e3c78d6460e6893c4c85f5b1.html&#34; target=&#34;_blank&#34;&gt;EFI下Win 8.1+Ubuntu 14.04安装教程&lt;/a&gt;
+&lt;h2 id=&#34;efi下win-81ubuntu-1404安装教程&#34;&gt;&lt;a title=&#34;教程&#34; href=&#34;http://jingyan.baidu.com/article/e3c78d6460e6893c4c85f5b1.html&#34; target=&#34;_blank&#34;&gt;EFI下Win 8.1+Ubuntu 14.04安装教程&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;参照上面的教程EFI + GPT安装 Windows 8.1 / Ubuntu 14.04 双系统。 只需要一个U盘，很简单，引导是这样的。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-boot.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2880&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-boot.jpg&#34; alt=&#34;ubuntu-boot&#34; width=&#34;1280&#34; height=&#34;960&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/ubuntu-boot.jpg 1280w, https://umi.im/wp-content/uploads/2014/08/ubuntu-boot-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/08/ubuntu-boot-300x225.jpg 300w, https://umi.im/wp-content/uploads/2014/08/ubuntu-boot-1024x768.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; Ubuntu的桌面，左边是启动器，状态栏在顶部，这种布局在16:9的显示器下看着很舒服，因为感觉视野大了很多，然后我把Windows的任务栏也固定在左侧了。&lt;/p&gt;

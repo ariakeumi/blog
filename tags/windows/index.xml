@@ -12,9 +12,7 @@
         <pubDate>Mon, 25 Sep 2023 11:41:01 +0000</pubDate>
         
         <guid>https://umi.im/windows-11-rtl8111h-speed/</guid>
-        <description>&lt;h2 id=&#34;发现问题&#34;&gt;
-    &lt;a href=&#34;#%e5%8f%91%e7%8e%b0%e9%97%ae%e9%a2%98&#34;&gt;#&lt;/a&gt;
-    发现问题
+        <description>&lt;h2 id=&#34;发现问题&#34;&gt;发现问题
 &lt;/h2&gt;&lt;p&gt;在 PC 和 NAS 之间拷文件的时候发现速度只有 90MB/s ，起初没太在意，毕竟 NAS 换了 UNRAID 系，可能是 SMB 协议问题，也可能是 UNRAID 的磁盘阵列速度就是慢。&lt;/p&gt;
 &lt;p&gt;再给 NAS 升级了双 NVME SSD 的 ZFS 阵列后，拷贝速度还是一样跑不满千兆，开始排查原因。&lt;/p&gt;
 &lt;p&gt;用 iperf3 测速，速度稳定 780Mbps ，排除 NAS 的硬盘速度的问题。&lt;/p&gt;
@@ -22,22 +20,16 @@
 &lt;p&gt;接着换 Mac mini 跑 iperf3 ，能跑满千兆。&lt;/p&gt;
 &lt;p&gt;那就是 PC 的问题了。&lt;/p&gt;
 &lt;p&gt;我网卡是螃蟹的 RealTek RTL8111H 千兆网卡，用的是 Windows 11 的公版驱动，自从 WIN10 开始我只手动安装显卡驱动，其他的都是微软推送啥我用啥了。&lt;/p&gt;
-&lt;h2 id=&#34;驱动更新&#34;&gt;
-    &lt;a href=&#34;#%e9%a9%b1%e5%8a%a8%e6%9b%b4%e6%96%b0&#34;&gt;#&lt;/a&gt;
-    驱动更新
+&lt;h2 id=&#34;驱动更新&#34;&gt;驱动更新
 &lt;/h2&gt;&lt;p&gt;主板官网上不提供 Windows 11 的有线网卡驱动，还得去螃蟹网站上找，他们网站做的真的很反人类…&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.realtek.com/Download/List?cate_id=584&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Realtek PCIe FE / GBE / 2.5G / 5G Ethernet Family Controller Software&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下载 Win11 Auto Installation Program (NetAdapterCx) 然后安装，速度恢复千兆…&lt;/p&gt;
 &lt;p&gt;Windows Update 推送的驱动真的不可靠啊，不知道是 RTL8111H 网卡特有的问题还是所有螃蟹网卡微软驱动都有问题，建议用微软公版网卡驱动的都测下速度。&lt;/p&gt;
-&lt;h2 id=&#34;微软公版驱动&#34;&gt;
-    &lt;a href=&#34;#%e5%be%ae%e8%bd%af%e5%85%ac%e7%89%88%e9%a9%b1%e5%8a%a8&#34;&gt;#&lt;/a&gt;
-    微软公版驱动
+&lt;h2 id=&#34;微软公版驱动&#34;&gt;微软公版驱动
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/09/ms-lan-driver.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1227&#34; height=&#34;600&#34; src=&#34;https://umi.im/wp-content/uploads/2023/09/ms-lan-driver.png&#34; alt=&#34;&#34; class=&#34;wp-image-6724&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;螃蟹驱动&#34;&gt;
-    &lt;a href=&#34;#%e8%9e%83%e8%9f%b9%e9%a9%b1%e5%8a%a8&#34;&gt;#&lt;/a&gt;
-    螃蟹驱动
+&lt;h2 id=&#34;螃蟹驱动&#34;&gt;螃蟹驱动
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/09/image.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;988&#34; height=&#34;666&#34; src=&#34;https://umi.im/wp-content/uploads/2023/09/image.png&#34; alt=&#34;此图片的alt属性为空；文件名为Realtek-lan-driver.png&#34; class=&#34;wp-image-6726&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -53,9 +45,7 @@
 &lt;p&gt;只需要把安装镜像放在工具目录里的 Source_ISO 目录，再运行 .bat 脚本就可以生成绕过 TPM 检测的 Windows 11 系统安装镜像了。&lt;/p&gt;
 &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;952&#34; height=&#34;628&#34; src=&#34;https://umi.im/wp-content/uploads/2022/10/Training_Win11_ISO_Tools.png&#34; alt=&#34;&#34; class=&#34;wp-image-6200&#34; /&gt;  
 &lt;p&gt;下载：&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttps1drvmsusagj1vu8ayuubgeyrwa7ovlevruueiqeg0ifp5-target_blank-relnoreferrer-noopenertraining-win11-iso-toolsa&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttps1drvmsusagj1vu8ayuubgeyrwa7ovlevruueiqeg0ifp5-target_blank-relnoreferrer-noopenertraining-win11-iso-toolsa&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;https://1drv.ms/u/s!Agj1VU8aYuuBgeYrwa7OVleVruUeiQ?e=g0ifp5&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Training Win11 ISO Tools&lt;/a&gt;
+&lt;h2 id=&#34;training-win11-iso-tools&#34;&gt;&lt;a href=&#34;https://1drv.ms/u/s!Agj1VU8aYuuBgeYrwa7OVleVruUeiQ?e=g0ifp5&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Training Win11 ISO Tools&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>
@@ -135,9 +125,7 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/Win10_KMS_Activation-V3_2_CN_HK_TW_EN-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5002&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/Win10_KMS_Activation-V3_2_CN_HK_TW_EN-1.png&#34; alt=&#34;&#34; width=&#34;682&#34; height=&#34;432&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/Win10_KMS_Activation-V3_2_CN_HK_TW_EN-1.png 682w, https://umi.im/wp-content/uploads/2018/03/Win10_KMS_Activation-V3_2_CN_HK_TW_EN-1-150x95.png 150w, https://umi.im/wp-content/uploads/2018/03/Win10_KMS_Activation-V3_2_CN_HK_TW_EN-1-300x190.png 300w&#34; sizes=&#34;(max-width: 682px) 100vw, 682px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
-&lt;h2 id=&#34;win10_kms_activation-v3_2_cn_hk_tw_en3&#34;&gt;
-    &lt;a href=&#34;#win10_kms_activation-v3_2_cn_hk_tw_en3&#34;&gt;#&lt;/a&gt;
-    &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/Win10_KMS_Activation-V3_2_CN_HK_TW_EN.bat&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;win10_kms_activation-v3_2_cn_hk_tw_&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/Win10_KMS_Activation-V3_2_CN_HK_TW_EN.bat&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Win10_KMS_Activation-V3_2_CN_HK_TW_EN&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
@@ -203,9 +191,7 @@
 &lt;p&gt;微软旨在服务客户，称Windows 10为“有史以来最全面的操作系统（most comprehensive platform ever）”。新系统恢复了类似Windows 7的传统开始按钮，但是在细节上糅合了Windows 8和Windows 8.1的微软“Modern瓷砖”设计。Windows 10作为微软下一代系统的统一品牌名称，将覆盖所有尺寸和品类的Windows设备，可无缝运行于微型计算机（类似英特尔伽利略）、手机（ARM芯片）、平板（ARM和x86芯片）、二合一设备、桌面电脑及服务器等几乎所有硬件。Windows 10贯彻了“移动为先，云为先”的设计思路，三屏一云，多个平台共用一个应用商店，应用统一更新和购买，是跨平台最广的操作系统。新系统的名称跳过了一个数字“9”，标志着它实现了一个飞跃，旨在统一计算和移动设备体验。微软表示，今天发布的Windows 10是一个早期版本，微软仍旧在致力于优化平板电脑上的操作体验。Windows 10是一款为家庭、为企业、为个人量身打造的通用平台操作系统。Windows 10将会在在2015年晚些时候面向用户发售。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;等了一天多终于来了，Windows 10 技术预览版开放下载，64位简体中文的镜像达到了3.9GB。&lt;/p&gt;
-&lt;h2 id=&#34;a-title官方下载-hrefhttpwindowsmicrosoftcomzh-cnwindowspreview-target_blank-relnoopenerspan-classphrasewindows10span-技术预览版官方下载页面a&#34;&gt;
-    &lt;a href=&#34;#a-title%e5%ae%98%e6%96%b9%e4%b8%8b%e8%bd%bd-hrefhttpwindowsmicrosoftcomzh-cnwindowspreview-target_blank-relnoopenerspan-classphrasewindows10span-%e6%8a%80%e6%9c%af%e9%a2%84%e8%a7%88%e7%89%88%e5%ae%98%e6%96%b9%e4%b8%8b%e8%bd%bd%e9%a1%b5%e9%9d%a2a&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;官方下载&#34; href=&#34;http://windows.microsoft.com/zh-cn/windows/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;span class=&#34;phrase&#34;&gt;Windows 10&lt;/span&gt; 技术预览版官方下载页面&lt;/a&gt;
+&lt;h2 id=&#34;windows10-技术预览版官方下载页面&#34;&gt;&lt;a title=&#34;官方下载&#34; href=&#34;http://windows.microsoft.com/zh-cn/windows/preview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;span class=&#34;phrase&#34;&gt;Windows 10&lt;/span&gt; 技术预览版官方下载页面&lt;/a&gt;
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;需要登陆微软账号&lt;/li&gt;
 &lt;/ul&gt;
@@ -242,12 +228,8 @@
 &lt;p&gt;窗口化的Metro应用 – 邮件。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-8.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3056&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-8.png&#34; alt=&#34;windows-10-preview-8&#34; width=&#34;1193&#34; height=&#34;867&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-8.png 1193w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-8-150x109.png 150w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-8-300x218.png 300w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-8-1024x744.png 1024w&#34; sizes=&#34;(max-width: 1193px) 100vw, 1193px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;span-stylecolor-ff0000del带tp的腾讯游戏大量阵亡delspan&#34;&gt;
-    &lt;a href=&#34;#span-stylecolor-ff0000del%e5%b8%a6tp%e7%9a%84%e8%85%be%e8%ae%af%e6%b8%b8%e6%88%8f%e5%a4%a7%e9%87%8f%e9%98%b5%e4%ba%a1delspan&#34;&gt;#&lt;/a&gt;
-    &lt;span style=&#34;color: #ff0000;&#34;&gt; &lt;em&gt;&lt;strong&gt;&lt;del&gt;带TP的腾讯游戏大量阵亡&lt;/del&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;
-&lt;/h1&gt;&lt;h2 id=&#34;span-stylecolor-99cc00使用tgp可以玩lol和dnf但是体验服的dnf不行span&#34;&gt;
-    &lt;a href=&#34;#span-stylecolor-99cc00%e4%bd%bf%e7%94%a8tgp%e5%8f%af%e4%bb%a5%e7%8e%a9lol%e5%92%8cdnf%e4%bd%86%e6%98%af%e4%bd%93%e9%aa%8c%e6%9c%8d%e7%9a%84dnf%e4%b8%8d%e8%a1%8cspan&#34;&gt;#&lt;/a&gt;
-    &lt;span style=&#34;color: #99cc00;&#34;&gt;使用TGP可以玩LOL和DNF，但是体验服的DNF不行。&lt;/span&gt;
+&lt;h1 id=&#34;heading&#34;&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt; &lt;em&gt;&lt;strong&gt;&lt;del&gt;带TP的腾讯游戏大量阵亡&lt;/del&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;
+&lt;/h1&gt;&lt;h2 id=&#34;使用tgp可以玩lol和dnf但是体验服的dnf不行&#34;&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;使用TGP可以玩LOL和DNF，但是体验服的DNF不行。&lt;/span&gt;
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/095938ncx3cclce77ff5rv.jpg.thumb_.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3058&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/095938ncx3cclce77ff5rv.jpg.thumb_.jpg&#34; alt=&#34;095938ncx3cclce77ff5rv.jpg.thumb&#34; width=&#34;640&#34; height=&#34;360&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/095938ncx3cclce77ff5rv.jpg.thumb_.jpg 640w, https://umi.im/wp-content/uploads/2014/10/095938ncx3cclce77ff5rv.jpg.thumb_-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/10/095938ncx3cclce77ff5rv.jpg.thumb_-300x168.jpg 300w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;因为还是第一个预览版，有少量莫名其妙的BUG，比如多任务切换预览变成XP那样的，刚开机弹出1分钟后要重启的。&lt;/p&gt;
@@ -274,9 +256,7 @@ sekurlsa::logonpasswords
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/06/mimikatz.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2578&#34; src=&#34;https://umi.im/wp-content/uploads/2014/06/mimikatz.png&#34; alt=&#34;mimikatz&#34; width=&#34;997&#34; height=&#34;571&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/06/mimikatz.png 997w, https://umi.im/wp-content/uploads/2014/06/mimikatz-150x85.png 150w, https://umi.im/wp-content/uploads/2014/06/mimikatz-300x171.png 300w&#34; sizes=&#34;(max-width: 997px) 100vw, 997px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
-&lt;h2 id=&#34;a-title下载-hrefhttpsgithubcomgentilkiwimimikatzreleases-target_blank-relnoopenermimikatzagithub&#34;&gt;
-    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-hrefhttpsgithubcomgentilkiwimimikatzreleases-target_blank-relnoopenermimikatzagithub&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;下载&#34; href=&#34;https://github.com/gentilkiwi/mimikatz/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mimikatz&lt;/a&gt; （GitHub）
+&lt;h2 id=&#34;mimikatzgithub&#34;&gt;&lt;a title=&#34;下载&#34; href=&#34;https://github.com/gentilkiwi/mimikatz/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mimikatz&lt;/a&gt; （GitHub）
 &lt;/h2&gt;</description>
         </item>
         <item>
@@ -287,9 +267,7 @@ sekurlsa::logonpasswords
         <guid>https://umi.im/windows8-1-update1/</guid>
         <description>&lt;p&gt;据说Windows 8.1 Update1 &lt;a title=&#34;WIKI&#34; href=&#34;http://zh.wikipedia.org/wiki/%E8%BB%9F%E4%BB%B6%E7%89%88%E6%9C%AC%E9%80%B1%E6%9C%9F#RTM&#34; target=&#34;_blank&#34;&gt;RTM&lt;/a&gt; 偷跑了，版本号为Build 9600.17031 。&lt;/p&gt;
 &lt;p&gt;这次通过Windows Update进行更新，不会出现WIN8升级8.1那样KMS激活无法升级的情况。&lt;/p&gt;
-&lt;h2 id=&#34;span-stylecolor-ff0000a-title百度云-hrefhttppanbaiducoms1dd7ouwp-target_blankspan-stylecolor-ff0000windows-81-update1-rtm-下载spanaspan&#34;&gt;
-    &lt;a href=&#34;#span-stylecolor-ff0000a-title%e7%99%be%e5%ba%a6%e4%ba%91-hrefhttppanbaiducoms1dd7ouwp-target_blankspan-stylecolor-ff0000windows-81-update1-rtm-%e4%b8%8b%e8%bd%bdspanaspan&#34;&gt;#&lt;/a&gt;
-    &lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;a title=&#34;百度云&#34; href=&#34;http://pan.baidu.com/s/1dD7oUwp&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;Windows 8.1 Update1 RTM 下载&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;h2 id=&#34;windows-81-update1-rtm-下载&#34;&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;a title=&#34;百度云&#34; href=&#34;http://pan.baidu.com/s/1dD7oUwp&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;Windows 8.1 Update1 RTM 下载&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;
 &lt;/h2&gt;&lt;p&gt;PS：这是补丁，本地补丁，打完这些补丁重启后就是Windows 8.1 Update1 了。&lt;/p&gt;
 &lt;p&gt;首先，把现有的补丁通过Windows Update全部更新好。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -302,9 +280,7 @@ sekurlsa::logonpasswords
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-5.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1818&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-5.png&#34; alt=&#34;Windows8.1 Update1 RTM-5&#34; width=&#34;651&#34; height=&#34;507&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-5.png 651w, https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-5-150x116.png 150w, https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-5-300x233.png 300w, https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-5-194x150.png 194w&#34; sizes=&#34;(max-width: 651px) 100vw, 651px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;安装完重启后就OK了。&lt;/p&gt;
-&lt;h2 id=&#34;span-stylecolor-99cc00新特性span&#34;&gt;
-    &lt;a href=&#34;#span-stylecolor-99cc00%e6%96%b0%e7%89%b9%e6%80%a7span&#34;&gt;#&lt;/a&gt;
-    &lt;span style=&#34;color: #99cc00;&#34;&gt;新特性&lt;/span&gt;
+&lt;h2 id=&#34;新特性&#34;&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;新特性&lt;/span&gt;
 &lt;/h2&gt;&lt;p&gt;可以把Metro应用固定在任务栏，个人感觉用处不大。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-9.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1822&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-9.png&#34; alt=&#34;Windows8.1 Update1 RTM-9&#34; width=&#34;300&#34; height=&#34;39&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-9.png 300w, https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-9-150x19.png 150w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -339,15 +315,9 @@ sekurlsa::logonpasswords
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1249&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/幻灯片6.jpg&#34; alt=&#34;幻灯片6&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/幻灯片6.jpg 1280w, https://umi.im/wp-content/uploads/2014/01/幻灯片6-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/01/幻灯片6-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/01/幻灯片6-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/%e5%b9%bb%e7%81%af%e7%89%877.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1250&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/幻灯片7.jpg&#34; alt=&#34;幻灯片7&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/幻灯片7.jpg 1280w, https://umi.im/wp-content/uploads/2014/01/幻灯片7-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/01/幻灯片7-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/01/幻灯片7-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;delspan-stylecolor-99cc00a-hrefhttppanbaiducoms1gd3ieph-target_blank-relnoopenerwindows-81-for-colg-x64-下载a失效spandel&#34;&gt;
-    &lt;a href=&#34;#delspan-stylecolor-99cc00a-hrefhttppanbaiducoms1gd3ieph-target_blank-relnoopenerwindows-81-for-colg-x64-%e4%b8%8b%e8%bd%bda%e5%a4%b1%e6%95%88spandel&#34;&gt;#&lt;/a&gt;
-    &lt;del&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;&lt;a href=&#34;http://pan.baidu.com/s/1gd3iePH&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Windows 8.1 For  COLG x64 下载&lt;/a&gt; 失效&lt;/span&gt;&lt;/del&gt;
-&lt;/h2&gt;&lt;h2 id=&#34;a-title下载-new-hrefhttppanbaiducoms1bnh5lbh-target_blank-relnoopenerspan-stylecolor-99cc00windows-81-for-colg-x64-下载spana&#34;&gt;
-    &lt;a href=&#34;#a-title%e4%b8%8b%e8%bd%bd-new-hrefhttppanbaiducoms1bnh5lbh-target_blank-relnoopenerspan-stylecolor-99cc00windows-81-for-colg-x64-%e4%b8%8b%e8%bd%bdspana&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;下载 NEW&#34; href=&#34;http://pan.baidu.com/s/1bnH5LBh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;Windows 8.1 For  COLG x64 下载&lt;/span&gt;&lt;/a&gt;
-&lt;/h2&gt;&lt;h2 id=&#34;span-stylecolor-ff0000span-stylecolor-ff0000a-href-httpsumiimwin8-install-target_blank-relnoopener安装方法aspanspan&#34;&gt;
-    &lt;a href=&#34;#span-stylecolor-ff0000span-stylecolor-ff0000a-href-httpsumiimwin8-install-target_blank-relnoopener%e5%ae%89%e8%a3%85%e6%96%b9%e6%b3%95aspanspan&#34;&gt;#&lt;/a&gt;
-    &lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;a href=&#34; https://umi.im/win8-install/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;安装方法&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;h2 id=&#34;windows-81-for-colg-x64-下载失效&#34;&gt;&lt;del&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;&lt;a href=&#34;http://pan.baidu.com/s/1gd3iePH&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Windows 8.1 For  COLG x64 下载&lt;/a&gt; 失效&lt;/span&gt;&lt;/del&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;windows-81-for-colg-x64-下载&#34;&gt;&lt;a title=&#34;下载 NEW&#34; href=&#34;http://pan.baidu.com/s/1bnH5LBh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;Windows 8.1 For  COLG x64 下载&lt;/span&gt;&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;安装方法&#34;&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;a href=&#34; https://umi.im/win8-install/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;安装方法&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>
@@ -645,15 +615,11 @@ sekurlsa::logonpasswords
         <description>&lt;p&gt;常用软件索引，免费软件一般放官网下载页面的链接，付费软件如果有破解版的话会放网盘链接。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;h2 id=&#34;span-stylecolor-ff0000装机必备span&#34;&gt;
-    &lt;a href=&#34;#span-stylecolor-ff0000%e8%a3%85%e6%9c%ba%e5%bf%85%e5%a4%87span&#34;&gt;#&lt;/a&gt;
-    &lt;span style=&#34;color: #ff0000;&#34;&gt;装机必备&lt;/span&gt;
+&lt;h2 id=&#34;装机必备&#34;&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;装机必备&lt;/span&gt;
 &lt;/h2&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; &lt;/p&gt;
-&lt;h2 id=&#34;wox1&#34;&gt;
-    &lt;a href=&#34;#wox1&#34;&gt;#&lt;/a&gt;
-    &lt;a class=&#34;link&#34; href=&#34;http://www.getwox.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;wox&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.getwox.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Wox&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;可以安装插件的快速启动工具，功能更强大。&lt;/p&gt;
 &lt;h3 align=&#34;left&#34;&gt;
@@ -699,9 +665,7 @@ sekurlsa::logonpasswords
   谷歌的图片查看管理软件，配合XnView使用。
 &lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
-&lt;h2 id=&#34;迅雷-9-去侧边栏版2&#34;&gt;
-    &lt;a href=&#34;#%e8%bf%85%e9%9b%b7-9-%e5%8e%bb%e4%be%a7%e8%be%b9%e6%a0%8f%e7%89%882&#34;&gt;#&lt;/a&gt;
-    &lt;a class=&#34;link&#34; href=&#34;http://www.zdfans.com/7337.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;迅雷-9-去侧边栏版&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.zdfans.com/7337.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;迅雷 9 去侧边栏版&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;迅雷极速版被砍，加速被河蟹。原版迅雷9变成带下载功能的浏览器，意见使用修改版。&lt;/p&gt;
 &lt;h3 align=&#34;left&#34;&gt;
@@ -733,9 +697,7 @@ sekurlsa::logonpasswords
 &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;h2 id=&#34;span-stylecolor-3366ffstrong硬件检测strongspan&#34;&gt;
-    &lt;a href=&#34;#span-stylecolor-3366ffstrong%e7%a1%ac%e4%bb%b6%e6%a3%80%e6%b5%8bstrongspan&#34;&gt;#&lt;/a&gt;
-    &lt;span style=&#34;color: #3366ff;&#34;&gt;&lt;strong&gt;硬件检测&lt;/strong&gt;&lt;/span&gt;
+&lt;h2 id=&#34;硬件检测&#34;&gt;&lt;span style=&#34;color: #3366ff;&#34;&gt;&lt;strong&gt;硬件检测&lt;/strong&gt;&lt;/span&gt;
 &lt;/h2&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 align=&#34;left&#34;&gt;
@@ -794,9 +756,7 @@ sekurlsa::logonpasswords
 &lt;p align=&#34;left&#34;&gt;
   著名的硬盘检测软件。
 &lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpsumiimcrystaldiskinfo-target_blank-relnoopenercrystaldiskinfoa&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpsumiimcrystaldiskinfo-target_blank-relnoopenercrystaldiskinfoa&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;https://umi.im/crystaldiskinfo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CrystalDiskInfo&lt;/a&gt;
+&lt;h2 id=&#34;crystaldiskinfo&#34;&gt;&lt;a href=&#34;https://umi.im/crystaldiskinfo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CrystalDiskInfo&lt;/a&gt;
 &lt;/h2&gt;&lt;p align=&#34;left&#34;&gt;
   查看硬盘健康状态，一般用于&lt;a href=&#34;http://zh.wikipedia.org/wiki/%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SSD&lt;/a&gt;。
 &lt;/p&gt;
@@ -814,9 +774,7 @@ sekurlsa::logonpasswords
 &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;h2 id=&#34;span-stylecolor-800080大型软件span&#34;&gt;
-    &lt;a href=&#34;#span-stylecolor-800080%e5%a4%a7%e5%9e%8b%e8%bd%af%e4%bb%b6span&#34;&gt;#&lt;/a&gt;
-    &lt;span style=&#34;color: #800080;&#34;&gt;大型软件&lt;/span&gt;
+&lt;h2 id=&#34;大型软件&#34;&gt;&lt;span style=&#34;color: #800080;&#34;&gt;大型软件&lt;/span&gt;
 &lt;/h2&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 align=&#34;left&#34;&gt;
@@ -845,20 +803,14 @@ sekurlsa::logonpasswords
 &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;h2 id=&#34;span-stylecolor-993300多媒体span&#34;&gt;
-    &lt;a href=&#34;#span-stylecolor-993300%e5%a4%9a%e5%aa%92%e4%bd%93span&#34;&gt;#&lt;/a&gt;
-    &lt;span style=&#34;color: #993300;&#34;&gt;多媒体&lt;/span&gt;
+&lt;h2 id=&#34;多媒体&#34;&gt;&lt;span style=&#34;color: #993300;&#34;&gt;多媒体&lt;/span&gt;
 &lt;/h2&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;a-hrefhttppanbaiducoms1kthneev-target_blank-relnoopenereasy-paint-tool-saia&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttppanbaiducoms1kthneev-target_blank-relnoopenereasy-paint-tool-saia&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://pan.baidu.com/s/1kTHneeV&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Easy Paint Tool SAI&lt;/a&gt;
+&lt;h2 id=&#34;easy-paint-tool-sai&#34;&gt;&lt;a href=&#34;http://pan.baidu.com/s/1kTHneeV&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Easy Paint Tool SAI&lt;/a&gt;
 &lt;/h2&gt;&lt;p align=&#34;left&#34;&gt;
   SAI，日本的一款绘图软件，主要配合数位板来作画。
 &lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttppanbaiducoms1i3gbkc1-target_blank-relnoopenergifcamaa-hrefhttppanbaiducoms1u4nmi-target_blank-relnoopenerulead-gif-animator-5aa-hrefhttppanbaiducoms1kt4voyb-target_blank-relnoopenerxnviewa&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttppanbaiducoms1i3gbkc1-target_blank-relnoopenergifcamaa-hrefhttppanbaiducoms1u4nmi-target_blank-relnoopenerulead-gif-animator-5aa-hrefhttppanbaiducoms1kt4voyb-target_blank-relnoopenerxnviewa&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://pan.baidu.com/s/1i3GBkc1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GifCam&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://pan.baidu.com/s/1u4NMI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ulead GIF Animator 5&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://pan.baidu.com/s/1kT4vOYb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XnView&lt;/a&gt;
+&lt;h2 id=&#34;gifcamulead-gif-animator-5xnview&#34;&gt;&lt;a href=&#34;http://pan.baidu.com/s/1i3GBkc1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GifCam&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://pan.baidu.com/s/1u4NMI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ulead GIF Animator 5&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://pan.baidu.com/s/1kT4vOYb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XnView&lt;/a&gt;
 &lt;/h2&gt;&lt;p align=&#34;left&#34;&gt;
   GIF制作，压缩和查看三件套，&lt;a href=&#34;https://umi.im/gif/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;详细介绍&lt;/a&gt;。
 &lt;/p&gt;
@@ -1111,15 +1063,9 @@ sekurlsa::logonpasswords
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-534&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/20131201042204.jpg&#34; alt=&#34;20131201042204&#34; width=&#34;971&#34; height=&#34;624&#34; /&gt;&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;http://bbs.comicdd.com/thread-431492-1-1.html&#34; target=&#34;_blank&#34;&gt;来源: 动漫东东&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下载地址:&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttppanbaiducoms1mg7bf6o-target_blankwindows-81-pro-dsp版-発売記念-特典a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttppanbaiducoms1mg7bf6o-target_blankwindows-81-pro-dsp%e7%89%88-%e7%99%ba%e5%a3%b2%e8%a8%98%e5%bf%b5-%e7%89%b9%e5%85%b8a&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://pan.baidu.com/s/1mg7bF6o&#34; target=&#34;_blank&#34;&gt;Windows 8.1 Pro (DSP版) 発売記念 特典&lt;/a&gt;
-&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttppanbaiducoms1mgblx0g-target_blankwindows-81-pro-dsp版-発売記念-特典壁纸提取a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttppanbaiducoms1mgblx0g-target_blankwindows-81-pro-dsp%e7%89%88-%e7%99%ba%e5%a3%b2%e8%a8%98%e5%bf%b5-%e7%89%b9%e5%85%b8%e5%a3%81%e7%ba%b8%e6%8f%90%e5%8f%96a&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://pan.baidu.com/s/1mgBLx0G&#34; target=&#34;_blank&#34;&gt;Windows 8.1 Pro (DSP版) 発売記念 特典 (壁纸提取)&lt;/a&gt;
-&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttppanbaiducoms1ddvkcrj-target_blankwindows-81-pro-dsp版-発売記念-特典主题提取a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttppanbaiducoms1ddvkcrj-target_blankwindows-81-pro-dsp%e7%89%88-%e7%99%ba%e5%a3%b2%e8%a8%98%e5%bf%b5-%e7%89%b9%e5%85%b8%e4%b8%bb%e9%a2%98%e6%8f%90%e5%8f%96a&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://pan.baidu.com/s/1dDvKCrJ&#34; target=&#34;_blank&#34;&gt;Windows 8.1 Pro (DSP版) 発売記念 特典 (主题提取)&lt;/a&gt;
+&lt;h2 id=&#34;windows-81-pro-dsp版-発売記念-特典&#34;&gt;&lt;a href=&#34;http://pan.baidu.com/s/1mg7bF6o&#34; target=&#34;_blank&#34;&gt;Windows 8.1 Pro (DSP版) 発売記念 特典&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;windows-81-pro-dsp版-発売記念-特典壁纸提取&#34;&gt;&lt;a href=&#34;http://pan.baidu.com/s/1mgBLx0G&#34; target=&#34;_blank&#34;&gt;Windows 8.1 Pro (DSP版) 発売記念 特典 (壁纸提取)&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;windows-81-pro-dsp版-発売記念-特典主题提取&#34;&gt;&lt;a href=&#34;http://pan.baidu.com/s/1dDvKCrJ&#34; target=&#34;_blank&#34;&gt;Windows 8.1 Pro (DSP版) 発売記念 特典 (主题提取)&lt;/a&gt;
 &lt;/h2&gt;&lt;div class=&#39;alert alert-primary&#39;&gt;
   &lt;span class=&#39;alert-inner--text&#39;&gt;注意: 需要把区域改为日本才能使用特典提取的主题.&lt;/span&gt;
 &lt;/div&gt;
@@ -1166,9 +1112,7 @@ sekurlsa::logonpasswords
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5027&#34; src=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-8.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-8.jpg 1280w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-8-150x84.jpg 150w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-8-300x169.jpg 300w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-8-768x432.jpg 768w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-8-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-9.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5026&#34; src=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-9.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-9.jpg 1280w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-9-150x84.jpg 150w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-9-300x169.jpg 300w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-9-768x432.jpg 768w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-9-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttppanbaiducomsharelinkshareid2481624284uk3191095378dirpath2fwindows20820for20colg-target_blank-relnoopenerwindows-8-for-colg-x64-下载a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttppanbaiducomsharelinkshareid2481624284uk3191095378dirpath2fwindows20820for20colg-target_blank-relnoopenerwindows-8-for-colg-x64-%e4%b8%8b%e8%bd%bda&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://pan.baidu.com/share/link?shareid=2481624284&amp;uk=3191095378#dir/path=%2FWindows%208%20For%20COLG&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Windows 8 For COLG x64 下载&lt;/a&gt;
+&lt;h2 id=&#34;windows-8-for-colg-x64-下载&#34;&gt;&lt;a href=&#34;http://pan.baidu.com/share/link?shareid=2481624284&amp;uk=3191095378#dir/path=%2FWindows%208%20For%20COLG&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Windows 8 For COLG x64 下载&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;安装方法：&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.colg.cn/forum.php?mod=viewthread&amp;tid=3277985&amp;page=1&amp;authorid=335128#pid53627332&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.colg.cn/forum.php?mod=viewthread&amp;amp;tid=3277985&amp;amp;page=1&amp;amp;authorid=335128#pid53627332&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;http://www.colg.cn/forum.php?mod=viewthread&amp;tid=3277985&amp;page=1&amp;authorid=335128#pid53627332&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1317,7 +1261,8 @@ sekurlsa::logonpasswords
   &amp;lt;/h3&amp;gt;
   
   &amp;lt;p&amp;gt;
-    好像好多人用360测试~那老娘也提供个测试网速延迟的网站！~[em84]&amp;lt;br /&amp;gt; &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;img decoding=&amp;quot;async&amp;quot; id=&amp;quot;aimg_HRpbV&amp;quot; class=&amp;quot;zoom&amp;quot; style=&amp;quot;cursor: pointer; word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.speedtest.net/result/2535772119.png&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;a style=&amp;quot;color: #336699; word-wrap: break-word;&amp;quot; href=&amp;quot;http://www.speedtest.net/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;http://www.speedtest.net/&amp;lt;/a&amp;gt;&amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;还有360XX卫士什么的优化功能！~&amp;lt;br /&amp;gt; &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg5/em93.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;我只能说~不优化即是最好的优化~（前提是你用的Windows Vista/7以上的系统！~）&amp;lt;br /&amp;gt; &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg3/em72.GIF&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;目前能想到的就这么多了！还有谁补充么~&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/tbody&amp;gt; &amp;lt;/table&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+    好像好多人用360测试~那老娘也提供个测试网速延迟的网站！~[em84]&amp;lt;br /&amp;gt; &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;img decoding=&amp;quot;async&amp;quot; id=&amp;quot;aimg_HRpbV&amp;quot; class=&amp;quot;zoom&amp;quot; style=&amp;quot;cursor: pointer; word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.speedtest.net/result/2535772119.png&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;a style=&amp;quot;color: #336699; word-wrap: break-word;&amp;quot; href=&amp;quot;http://www.speedtest.net/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;http://www.speedtest.net/&amp;lt;/a&amp;gt;&amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;还有360XX卫士什么的优化功能！~&amp;lt;br /&amp;gt; &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg5/em93.gif&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;我只能说~不优化即是最好的优化~（前提是你用的Windows Vista/7以上的系统！~）&amp;lt;br /&amp;gt; &amp;lt;br style=&amp;quot;word-wrap: break-word;&amp;quot; /&amp;gt;&amp;lt;img decoding=&amp;quot;async&amp;quot; style=&amp;quot;word-wrap: break-word;&amp;quot; src=&amp;quot;http://www.colg.cn/static/image/smiley/colg3/em72.GIF&amp;quot; alt=&amp;quot;&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;目前能想到的就这么多了！还有谁补充么~&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/tbody&amp;gt; &amp;lt;/table&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 </description>
         </item>
         <item>

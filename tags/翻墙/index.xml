@@ -14,16 +14,12 @@
         <guid>https://umi.im/redmi-ax6000-adguard-home-openclash/</guid>
         <description>&lt;p&gt;我现在使用路由器是红米 AX6000 ，使用的固件是 237176253 大佬的 &lt;a href=&#34;https://www.right.com.cn/forum/thread-8261104-1-1.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;红米ax6000闭源驱动op&lt;/a&gt; 固件，之前用的是 广告过滤大师 Plus+ （adbyby），不过它在 237 的新固件上会导致防火墙无法重启，不得已要换到 AdGuard Home 。&lt;/p&gt;
 &lt;p&gt;AdGuard Home + OpenClash 的配置方法花样百出，各种教程看得我这种网络小白头晕，最后我决定参照 OpenClash 原作者&lt;a href=&#34;https://github.com/vernesong/OpenClash/discussions/1420&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;推荐的方法&lt;/a&gt;配置，中间遇到点小插曲，就把过程写一下吧。&lt;/p&gt;
-&lt;h2 id=&#34;openclash-配置&#34;&gt;
-    &lt;a href=&#34;#openclash-%e9%85%8d%e7%bd%ae&#34;&gt;#&lt;/a&gt;
-    OpenClash 配置
+&lt;h2 id=&#34;openclash-配置&#34;&gt;OpenClash 配置
 &lt;/h2&gt;&lt;p&gt;OpenClash 运行模式使用 &lt;strong&gt;Redir-Host (兼容) 模式&lt;/strong&gt; 。把 OpenClash 界面的 &lt;strong&gt;插件设置&lt;/strong&gt; – &lt;strong&gt;DNS 设置&lt;/strong&gt; 选项的 &lt;strong&gt;本地 DNS 劫持&lt;/strong&gt; 给停用。&lt;/p&gt;
 &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1001&#34; height=&#34;852&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/openclash-conf-1.png&#34; alt=&#34;&#34; class=&#34;wp-image-6551&#34; /&gt;  
 &lt;p&gt;接着把 &lt;strong&gt;覆写设置&lt;/strong&gt; – &lt;strong&gt;DNS 设置&lt;/strong&gt; 的 *&lt;strong&gt;自定义上游 DNS 服务器&lt;/strong&gt; 给勾选，下面的上游 DNS 服务器用默认的配置就行。&lt;/p&gt;
 &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;967&#34; height=&#34;732&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/openclash-conf-2.png&#34; alt=&#34;&#34; class=&#34;wp-image-6552&#34; /&gt;  
-&lt;h2 id=&#34;安装-adguard-home&#34;&gt;
-    &lt;a href=&#34;#%e5%ae%89%e8%a3%85-adguard-home&#34;&gt;#&lt;/a&gt;
-    安装 AdGuard Home
+&lt;h2 id=&#34;安装-adguard-home&#34;&gt;安装 AdGuard Home
 &lt;/h2&gt;&lt;p&gt;因为刷的是 mini 版不带 AdGuard Home ，软件源也没有 luci 界面的，就是 Github 上找了这个：&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/kongfl888/luci-app-adguardhome&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;kongfl888/luci-app-adguardhome&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;把 .ipk 上传到路由器，在 SSH 上用 opkg 命令安装。&lt;/p&gt;
@@ -34,9 +30,7 @@ opkg install luci-i18n-adguardhome-zh-cn_git-22.323.68542-450e04a_all.ipk
 &lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;opkg update
 opkg remove luci-i18n-base-zh-cn
 opkg install luci-i18n-base-zh-cn&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;配置-adguard-home&#34;&gt;
-    &lt;a href=&#34;#%e9%85%8d%e7%bd%ae-adguard-home&#34;&gt;#&lt;/a&gt;
-    配置 AdGuard Home
+&lt;h2 id=&#34;配置-adguard-home&#34;&gt;配置 AdGuard Home
 &lt;/h2&gt;&lt;p&gt;在 AdGuard Home 的界面点击更新核心版本，然后进入配置界面。&lt;/p&gt;
 &lt;p&gt;端口保持默认的 3000 就行。&lt;/p&gt;
 &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;792&#34; height=&#34;622&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/adg-install-2.png&#34; alt=&#34;&#34; class=&#34;wp-image-6549&#34; /&gt;  
@@ -56,9 +50,7 @@ opkg install luci-i18n-base-zh-cn&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;但在 237 大佬编译的 OpenWrt 固件里防火墙自定义规则是空的，一番摸索后发现，把 &lt;strong&gt;DHCP/DNS&lt;/strong&gt; – &lt;strong&gt;服务器设置&lt;/strong&gt; – &lt;strong&gt;常规设置&lt;/strong&gt; 的 &lt;strong&gt;DNS 重定向&lt;/strong&gt; 取消勾选并保存应用，然后重新勾选再保存应用上，防火墙的 udp dpt:53 redir ports 5553 规则就在 /* DNSMASQ */ udp dpt:53 redir ports 53 上面了。&lt;/p&gt;
 &lt;p&gt;有更好设置方法的大佬也可以告诉我下。&lt;/p&gt;
 &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;671&#34; height=&#34;304&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/openwrt-firewall.png&#34; alt=&#34;&#34; class=&#34;wp-image-6554&#34; /&gt;  
-&lt;h2 id=&#34;运行效果&#34;&gt;
-    &lt;a href=&#34;#%e8%bf%90%e8%a1%8c%e6%95%88%e6%9e%9c&#34;&gt;#&lt;/a&gt;
-    运行效果
+&lt;h2 id=&#34;运行效果&#34;&gt;运行效果
 &lt;/h2&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1325&#34; height=&#34;771&#34; src=&#34;https://umi.im/wp-content/uploads/2023/04/adguard-home.png&#34; alt=&#34;&#34; class=&#34;wp-image-6545&#34; /&gt; </description>
         </item>
         <item>
@@ -83,13 +75,9 @@ opkg install luci-i18n-base-zh-cn&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/ShadowsocksR-win.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4498&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/ShadowsocksR-win.png&#34; alt=&#34;ShadowsocksR-win&#34; width=&#34;769&#34; height=&#34;535&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/ShadowsocksR-win.png 769w, https://umi.im/wp-content/uploads/2015/08/ShadowsocksR-win-150x104.png 150w, https://umi.im/wp-content/uploads/2015/08/ShadowsocksR-win-300x209.png 300w&#34; sizes=&#34;(max-width: 769px) 100vw, 769px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpsgithubcombreakwa11shadowsocks-csharpreleases-target_blankshadowsocksr-csharp-331a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpsgithubcombreakwa11shadowsocks-csharpreleases-target_blankshadowsocksr-csharp-331a&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;https://github.com/breakwa11/shadowsocks-csharp/releases&#34; target=&#34;_blank&#34;&gt;ShadowsocksR CSharp 3.3.1&lt;/a&gt;
+&lt;h2 id=&#34;shadowsocksr-csharp-331&#34;&gt;&lt;a href=&#34;https://github.com/breakwa11/shadowsocks-csharp/releases&#34; target=&#34;_blank&#34;&gt;ShadowsocksR CSharp 3.3.1&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;GitHub：&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpsgithubcombreakwa11shadowsocks-rss-target_blankbreakwa11shadowsocks-rssa&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpsgithubcombreakwa11shadowsocks-rss-target_blankbreakwa11shadowsocks-rssa&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;https://github.com/breakwa11/shadowsocks-rss&#34; target=&#34;_blank&#34;&gt;breakwa11/shadowsocks-rss&lt;/a&gt;
+&lt;h2 id=&#34;breakwa11shadowsocks-rss&#34;&gt;&lt;a href=&#34;https://github.com/breakwa11/shadowsocks-rss&#34; target=&#34;_blank&#34;&gt;breakwa11/shadowsocks-rss&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
         

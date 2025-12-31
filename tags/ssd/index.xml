@@ -12,17 +12,13 @@
         <pubDate>Sun, 13 Dec 2020 16:45:03 +0000</pubDate>
         
         <guid>https://umi.im/sandisk-ssd/</guid>
-        <description>&lt;img src="https://umi.im/wp-content/uploads/2020/12/Sandisk-SSD-Benchmrak.png" alt="Featured image of post 一块使用六年写入 240TB 的 SSD 是什么样子？" /&gt;&lt;h2 id=&#34;ssd&#34;&gt;
-    &lt;a href=&#34;#ssd&#34;&gt;#&lt;/a&gt;
-    SSD
+        <description>&lt;img src="https://umi.im/wp-content/uploads/2020/12/Sandisk-SSD-Benchmrak.png" alt="Featured image of post 一块使用六年写入 240TB 的 SSD 是什么样子？" /&gt;&lt;h2 id=&#34;ssd&#34;&gt;SSD
 &lt;/h2&gt;&lt;p&gt;这是一块 2014 年 8 月购买的 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/sandisk-128gb-ssd/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;闪迪 至尊高速 128GB SSD&lt;/a&gt; ，它从我的主力机上退役到群晖 NAS 上作系统盘使用，陆陆续续服役了 15306 小时。作为一块 MLC 颗粒的 SSD，我是准备把它当作传家宝一直用下去的。&lt;/p&gt;
 &lt;p&gt;直到有一次在查看 S.M.A.R.T. 的时候，惊讶的发现它已经对闪存写入了 230 TB 的数据。这对一块正常使用的 SSD 来说简直不可思议，什么概念？即使我每天重装一遍系统，写入 20GB 数据，也要接近四年才能写入这么多。&lt;/p&gt;
 &lt;p&gt;那么到底是怎么回事！&lt;/p&gt;
 &lt;img decoding=&#34;async&#34; src=&#34;https://umi.im/wp-content/uploads/2020/12/Sandisk-128GB-SSD.jpg&#34; alt=&#34;&#34; /&gt; 
-&lt;h2 id=&#34;smart&#34;&gt;
-    &lt;a href=&#34;#smart&#34;&gt;#&lt;/a&gt;
-    S.M.A.R.T.
+&lt;h2 id=&#34;smart&#34;&gt;S.M.A.R.T.
 &lt;/h2&gt;&lt;p&gt;这块盘的 SMART 信息显示，对 SSD 的写入量为 40 TB，对 NAND 闪存的写入量是 230TB ，查了下资料说是因为写入放大导致的，罪魁祸首是 SSD 的主控。&lt;/p&gt;
 &lt;blockquote class=&#34;wp-block-quote is-layout-flow wp-block-quote-is-layout-flow&#34;&gt;
   &lt;p&gt;
@@ -35,9 +31,7 @@
 &lt;p&gt;拆下的 SSD 放到电脑上看看吧，CrystalDiskInfo 显示还有 39% 健康度，不愧是 MLC 颗粒。按照 3000PE 的寿命算，还能再写 140 TB，但是这写入放大系数我是不敢再用了。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2020/12/Sandisk-info.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1002&#34; height=&#34;657&#34; src=&#34;https://umi.im/wp-content/uploads/2020/12/Sandisk-info.png&#34; alt=&#34;&#34; class=&#34;wp-image-5814&#34; srcset=&#34;https://umi.im/wp-content/uploads/2020/12/Sandisk-info.png 1002w, https://umi.im/wp-content/uploads/2020/12/Sandisk-info-300x197.png 300w, https://umi.im/wp-content/uploads/2020/12/Sandisk-info-150x98.png 150w, https://umi.im/wp-content/uploads/2020/12/Sandisk-info-768x504.png 768w&#34; sizes=&#34;(max-width: 1002px) 100vw, 1002px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;跑个分&#34;&gt;
-    &lt;a href=&#34;#%e8%b7%91%e4%b8%aa%e5%88%86&#34;&gt;#&lt;/a&gt;
-    跑个分
+&lt;h2 id=&#34;跑个分&#34;&gt;跑个分
 &lt;/h2&gt;&lt;p&gt;测速看下，读取速度没问题，写入速度直接暴跌到 50MB/s ，还不如很多古董机械硬盘。&lt;/p&gt;
 &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1002&#34; height=&#34;552&#34; src=&#34;https://umi.im/wp-content/uploads/2020/12/Sandisk-SSD-Benchmrak.png&#34; alt=&#34;&#34; class=&#34;wp-image-5813&#34; srcset=&#34;https://umi.im/wp-content/uploads/2020/12/Sandisk-SSD-Benchmrak.png 1002w, https://umi.im/wp-content/uploads/2020/12/Sandisk-SSD-Benchmrak-300x165.png 300w, https://umi.im/wp-content/uploads/2020/12/Sandisk-SSD-Benchmrak-150x83.png 150w, https://umi.im/wp-content/uploads/2020/12/Sandisk-SSD-Benchmrak-768x423.png 768w&#34; sizes=&#34;(max-width: 1002px) 100vw, 1002px&#34; /&gt;  
 &lt;p&gt;联想到最近西数的 SN550 、SN750 等 SSD 产品的冷数据掉速问题，而 闪迪早就被西数收购了，不太建议购买 西数\闪迪 家的 SSD 产品。&lt;/p&gt;
@@ -63,12 +57,8 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/04/CrystalDiskInfo.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1002&#34; height=&#34;692&#34; src=&#34;https://umi.im/wp-content/uploads/2018/04/CrystalDiskInfo.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5207&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/04/CrystalDiskInfo.jpg 1002w, https://umi.im/wp-content/uploads/2018/04/CrystalDiskInfo-150x104.jpg 150w, https://umi.im/wp-content/uploads/2018/04/CrystalDiskInfo-300x207.jpg 300w, https://umi.im/wp-content/uploads/2018/04/CrystalDiskInfo-768x530.jpg 768w&#34; sizes=&#34;(max-width: 1002px) 100vw, 1002px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpscrystalmarkinfoendownloadcrystaldiskmark-target_blank-relnoopenercrystaldiskmark-shizukua&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpscrystalmarkinfoendownloadcrystaldiskmark-target_blank-relnoopenercrystaldiskmark-shizukua&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;https://crystalmark.info/en/download/#CrystalDiskMark&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CrystalDiskMark Shizuku&lt;/a&gt;
-&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttpscrystalmarkinfoendownloadcrystaldiskinfo-target_blank-relnoopenercrystaldiskinfonbspkurei-keia&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpscrystalmarkinfoendownloadcrystaldiskinfo-target_blank-relnoopenercrystaldiskinfonbspkurei-keia&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;https://crystalmark.info/en/download/#CrystalDiskInfo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CrystalDiskInfo Kurei Kei&lt;/a&gt;
+&lt;h2 id=&#34;crystaldiskmark-shizuku&#34;&gt;&lt;a href=&#34;https://crystalmark.info/en/download/#CrystalDiskMark&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CrystalDiskMark Shizuku&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;crystaldiskinfokurei-kei&#34;&gt;&lt;a href=&#34;https://crystalmark.info/en/download/#CrystalDiskInfo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CrystalDiskInfo Kurei Kei&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>
@@ -93,9 +83,7 @@
         <guid>https://umi.im/sandisk-128gb-ssd/</guid>
         <description>&lt;p&gt;用回机械硬盘的感觉真艹蛋，果断再买一个SSD。&lt;/p&gt;
 &lt;p&gt;429块入于易迅，易迅真和京东成一家了，不仅配送是用京东自营快递，连发票包装都是京东的。&lt;/p&gt;
-&lt;h2 id=&#34;a-title易迅-hrefhttpitemyixuncomitem-1959265html-target_blank闪迪sandisk至尊高速系列-128gb-25英寸-sata-3固态硬盘sdssdhp-128g-z25a&#34;&gt;
-    &lt;a href=&#34;#a-title%e6%98%93%e8%bf%85-hrefhttpitemyixuncomitem-1959265html-target_blank%e9%97%aa%e8%bf%aasandisk%e8%87%b3%e5%b0%8a%e9%ab%98%e9%80%9f%e7%b3%bb%e5%88%97-128gb-25%e8%8b%b1%e5%af%b8-sata-3%e5%9b%ba%e6%80%81%e7%a1%ac%e7%9b%98sdssdhp-128g-z25a&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;易迅&#34; href=&#34;http://item.yixun.com/item-1959265.html&#34; target=&#34;_blank&#34;&gt;闪迪（SanDisk）至尊高速系列 128GB 2.5英寸 SATA-3固态硬盘(SDSSDHP-128G-Z25)&lt;/a&gt;
+&lt;h2 id=&#34;闪迪sandisk至尊高速系列-128gb-25英寸-sata-3固态硬盘sdssdhp-128g-z25&#34;&gt;&lt;a title=&#34;易迅&#34; href=&#34;http://item.yixun.com/item-1959265.html&#34; target=&#34;_blank&#34;&gt;闪迪（SanDisk）至尊高速系列 128GB 2.5英寸 SATA-3固态硬盘(SDSSDHP-128G-Z25)&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/sandisk-128gb-ssd.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2791&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/sandisk-128gb-ssd.jpg&#34; alt=&#34;sandisk-128gb-ssd&#34; width=&#34;960&#34; height=&#34;1280&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/sandisk-128gb-ssd.jpg 960w, https://umi.im/wp-content/uploads/2014/08/sandisk-128gb-ssd-112x150.jpg 112w, https://umi.im/wp-content/uploads/2014/08/sandisk-128gb-ssd-225x300.jpg 225w, https://umi.im/wp-content/uploads/2014/08/sandisk-128gb-ssd-768x1024.jpg 768w&#34; sizes=&#34;(max-width: 960px) 100vw, 960px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;跑分正常。&lt;/p&gt;

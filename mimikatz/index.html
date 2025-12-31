@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="以为只能获取本地密码么？ 即使是使用Microsoft账户登录依旧能获取密码。 比如我使用的live邮箱。 使用方法很简单。 用管理员身份运行 mimikatz.exe 。 依">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="以为只能获取本地密码么？\n即使是使用Microsoft账户登录依旧能获取密码。\n比如我使用的live邮箱。\n使用方法很简单。\n用管理员身份运行\u00a0mimikatz.exe 。\n依次输入下面两条命令就可以了。\n">
 <title>Windows 密码获取工具 ~ Mimikatz</title>
 
 <link rel='canonical' href='https://umi.im/mimikatz/'>
 
-<link rel="stylesheet" href="/scss/style.min.859d15a88c4baa095161a679adcf6a0588d393b9603bd708e8e0c634ae102b82.css"><meta property='og:title' content="Windows 密码获取工具 ~ Mimikatz">
-<meta property='og:description' content="以为只能获取本地密码么？ 即使是使用Microsoft账户登录依旧能获取密码。 比如我使用的live邮箱。 使用方法很简单。 用管理员身份运行 mimikatz.exe 。 依">
+<link rel="stylesheet" href="/scss/style.min.7c6fc62023c4a6953fbe601dd92a600ca1efde85fae06f72201f35c5ad119913.css"><meta property='og:title' content="Windows 密码获取工具 ~ Mimikatz">
+<meta property='og:description' content="以为只能获取本地密码么？\n即使是使用Microsoft账户登录依旧能获取密码。\n比如我使用的live邮箱。\n使用方法很简单。\n用管理员身份运行\u00a0mimikatz.exe 。\n依次输入下面两条命令就可以了。\n">
 <meta property='og:url' content='https://umi.im/mimikatz/'>
 <meta property='og:site_name' content='笨蛋屋'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Windows' /><meta property='article:tag' content='Windows 软件' /><meta property='article:published_time' content='2014-06-30T08:56:49&#43;00:00'/><meta property='article:modified_time' content='2014-06-30T08:56:49&#43;00:00'/>
 <meta name="twitter:title" content="Windows 密码获取工具 ~ Mimikatz">
-<meta name="twitter:description" content="以为只能获取本地密码么？ 即使是使用Microsoft账户登录依旧能获取密码。 比如我使用的live邮箱。 使用方法很简单。 用管理员身份运行 mimikatz.exe 。 依">
+<meta name="twitter:description" content="以为只能获取本地密码么？\n即使是使用Microsoft账户登录依旧能获取密码。\n比如我使用的live邮箱。\n使用方法很简单。\n用管理员身份运行\u00a0mimikatz.exe 。\n依次输入下面两条命令就可以了。\n">
     <link rel="shortcut icon" href="/favicon.png" />
 
-  
-
-<meta name="verification" content="9cfa2f7dea5bc4a0">
-<script defer src="https://u.umi.im/replace-me-with-a-random-string" data-website-id="befac8d7-0396-44c8-b151-9c332a5f176f"></script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5428554628068316"
-     crossorigin="anonymous"></script>
-    
-    
     </head>
     <body class="
     article-page
@@ -66,8 +58,8 @@
                     
                     
                         
-                        <img src="/img/avatar-150px_hub3e42f8fb4895a97c7036e2fee26b85a_7312_300x0_resize_box_3.png" width="300"
-                            height="300" class="site-logo" alt="Avatar">
+                        <img src="/img/avatar-150px_hu_b1565203cde6efd2.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
                 </a>
@@ -326,7 +318,7 @@
 
 
 
-                        <span>Dark Mode</span>
+                        <span>暗色模式</span>
                     </li>
                 
             </ol>
@@ -356,7 +348,7 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#a-title下载-hrefhttpsgithubcomgentilkiwimimikatzreleases-target_blank-relnoopenermimikatzagithub"><a title="下载" href="https://github.com/gentilkiwi/mimikatz/releases" target="_blank" rel="noopener">Mimikatz</a> （GitHub）</a></li>
+    <li><a href="#mimikatzgithub">Mimikatz （GitHub）</a></li>
   </ol>
 </nav>
         </div>
@@ -406,7 +398,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2014年06月30日</time>
+                <time class="article-time--published" datetime='2014-06-30T08:56:49Z'>2014年06月30日</time>
             </div>
         
 
@@ -433,7 +425,6 @@
 
 </header>
 
-
     <section class="article-content">
     
     
@@ -451,9 +442,7 @@ sekurlsa::logonpasswords
 <p><a class="link" href="https://umi.im/wp-content/uploads/2014/06/mimikatz.png"  target="_blank" rel="noopener"
     ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-2578" src="https://umi.im/wp-content/uploads/2014/06/mimikatz.png" alt="mimikatz" width="997" height="571" srcset="https://umi.im/wp-content/uploads/2014/06/mimikatz.png 997w, https://umi.im/wp-content/uploads/2014/06/mimikatz-150x85.png 150w, https://umi.im/wp-content/uploads/2014/06/mimikatz-300x171.png 300w" sizes="(max-width: 997px) 100vw, 997px" /></a></p>
 <p>下载地址：</p>
-<h2 id="a-title下载-hrefhttpsgithubcomgentilkiwimimikatzreleases-target_blank-relnoopenermimikatzagithub">
-    <a href="#a-title%e4%b8%8b%e8%bd%bd-hrefhttpsgithubcomgentilkiwimimikatzreleases-target_blank-relnoopenermimikatzagithub">#</a>
-    <a title="下载" href="https://github.com/gentilkiwi/mimikatz/releases" target="_blank" rel="noopener">Mimikatz</a> （GitHub）
+<h2 id="mimikatzgithub"><a title="下载" href="https://github.com/gentilkiwi/mimikatz/releases" target="_blank" rel="noopener">Mimikatz</a> （GitHub）
 </h2>
 </section>
 
@@ -469,19 +458,7 @@ sekurlsa::logonpasswords
     </section>
 
 
-    <section class="article-lastmod">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-        <span>
-            最后更新于 2014年06月30日 08:56 CST
-        </span>
-    </section></footer>
+    </footer>
 
 
     
@@ -607,12 +584,12 @@ sekurlsa::logonpasswords
         
             2013 - 
         
-        2024 笨蛋屋
+        2025 笨蛋屋
     </section>
     
     <section class="powerby">
         使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.25.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.33.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
 </footer>
 
@@ -694,6 +671,7 @@ sekurlsa::logonpasswords
                 rel="stylesheet" 
                 href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
             >
+    
 
             </main>
         </div>
@@ -701,7 +679,7 @@ sekurlsa::logonpasswords
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.dd94a3a1af72e139795cfeda872cf12861c2c76788276d5544729c40adf97eee.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

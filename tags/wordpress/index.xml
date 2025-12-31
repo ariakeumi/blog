@@ -13,9 +13,7 @@
         
         <guid>https://umi.im/wordpress-theme-material-design/</guid>
         <description>&lt;p&gt;我现在使用的博客主题是 Bluthemes 开发的 Bliss 主题，极简卡片式的风格，用主题自带的蓝色主题。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpthemeforestnetitembliss-personal-minimalist-wordpress-blog-theme5423780-target_blankbliss--personal-minimalist-wordpress-blog-themea&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpthemeforestnetitembliss-personal-minimalist-wordpress-blog-theme5423780-target_blankbliss--personal-minimalist-wordpress-blog-themea&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://themeforest.net/item/bliss-personal-minimalist-wordpress-blog-theme/5423780&#34; target=&#34;_blank&#34;&gt;Bliss | Personal Minimalist WordPress Blog Theme&lt;/a&gt;
+&lt;h2 id=&#34;bliss--personal-minimalist-wordpress-blog-theme&#34;&gt;&lt;a href=&#34;http://themeforest.net/item/bliss-personal-minimalist-wordpress-blog-theme/5423780&#34; target=&#34;_blank&#34;&gt;Bliss | Personal Minimalist WordPress Blog Theme&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/old-Bliss-wordpress-theme.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4248&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/old-Bliss-wordpress-theme.jpg&#34; alt=&#34;old-Bliss-wordpress-theme&#34; width=&#34;936&#34; height=&#34;686&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/old-Bliss-wordpress-theme.jpg 936w, https://umi.im/wp-content/uploads/2015/06/old-Bliss-wordpress-theme-150x110.jpg 150w, https://umi.im/wp-content/uploads/2015/06/old-Bliss-wordpress-theme-300x220.jpg 300w&#34; sizes=&#34;(max-width: 936px) 100vw, 936px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;最近，在物色  WordPress  主题的时候发现一个 Material Design 的主题的网站 &lt;a href=&#34;http://MaterialWP.com&#34; target=&#34;_blank&#34;&gt;MaterialWP.com&lt;/a&gt; ，很喜欢这网站首页配色。&lt;/p&gt;
@@ -115,9 +113,7 @@
 &lt;h3 style=&#34;text-align: left;&#34;&gt;
   Ⅰ SSL 证书的申请
 &lt;/h3&gt;
-&lt;h2 id=&#34;a-hrefhttpwwwznteccnarchivesstartsslhtml-target_blank免费的ssl证书提供商startssl详细图文注册教程--小蒋博客a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpwwwznteccnarchivesstartsslhtml-target_blank%e5%85%8d%e8%b4%b9%e7%9a%84ssl%e8%af%81%e4%b9%a6%e6%8f%90%e4%be%9b%e5%95%86startssl%e8%af%a6%e7%bb%86%e5%9b%be%e6%96%87%e6%b3%a8%e5%86%8c%e6%95%99%e7%a8%8b--%e5%b0%8f%e8%92%8b%e5%8d%9a%e5%ae%a2a&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://www.zntec.cn/archives/startssl.html&#34; target=&#34;_blank&#34;&gt;免费的SSL证书提供商StartSSL详细图文注册教程 | 小蒋博客&lt;/a&gt;
+&lt;h2 id=&#34;免费的ssl证书提供商startssl详细图文注册教程--小蒋博客&#34;&gt;&lt;a href=&#34;http://www.zntec.cn/archives/startssl.html&#34; target=&#34;_blank&#34;&gt;免费的SSL证书提供商StartSSL详细图文注册教程 | 小蒋博客&lt;/a&gt;
 &lt;/h2&gt;&lt;p style=&#34;text-align: left;&#34;&gt;
   申请挺简单，先填上个人资料注册，收邮件下一步，安装登录用的证书（记得备份），然后证书申请，填域名然后用验证。
 &lt;/p&gt;
@@ -196,9 +192,7 @@ RewriteCond %{HTTP_USER_AGENT} !(baiduspider|soso|bing|sogou|yahoo|sohu-search|y
 RewriteRule (.*) https://umi.im%{REQUEST_URI} [R=301,NC,L]&lt;/pre&gt;
 &lt;p&gt;修改完成后再 重启 Apache ：&lt;/p&gt;
 &lt;pre class=&#34;lang:default decode:true &#34;&gt;service apache2 restart&lt;/pre&gt;
-&lt;h2 id=&#34;-意外的情况&#34;&gt;
-    &lt;a href=&#34;#-%e6%84%8f%e5%a4%96%e7%9a%84%e6%83%85%e5%86%b5&#34;&gt;#&lt;/a&gt;
-     Ⅳ 意外的情况
+&lt;h2 id=&#34;-意外的情况&#34;&gt; Ⅳ 意外的情况
 &lt;/h2&gt;&lt;p style=&#34;text-align: left;&#34;&gt;
   折腾了这么久应该搞定了啊，可惜的是还没有，又遇到各种突发情况。
 &lt;/p&gt;
@@ -259,9 +253,7 @@ RewriteRule (.*) https://umi.im%{REQUEST_URI} [R=301,NC,L]&lt;/pre&gt;
 &lt;p&gt;先设置把旧域名转发到新域名。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3969&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png&#34; alt=&#34;godaddy-Forwarding&#34; width=&#34;533&#34; height=&#34;278&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png 533w, https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding-150x78.png 150w, https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding-300x156.png 300w&#34; sizes=&#34;(max-width: 533px) 100vw, 533px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpwikiubuntuorgcnvps-target_blanklinux-vps-ubuntu-系统配置指南a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpwikiubuntuorgcnvps-target_blanklinux-vps-ubuntu-%e7%b3%bb%e7%bb%9f%e9%85%8d%e7%bd%ae%e6%8c%87%e5%8d%97a&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://wiki.ubuntu.org.cn/Vps&#34; target=&#34;_blank&#34;&gt;Linux VPS Ubuntu 系统配置指南&lt;/a&gt;
+&lt;h2 id=&#34;linux-vps-ubuntu-系统配置指南&#34;&gt;&lt;a href=&#34;http://wiki.ubuntu.org.cn/Vps&#34; target=&#34;_blank&#34;&gt;Linux VPS Ubuntu 系统配置指南&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;VPS 的 Web 环境选择，Ubuntu 的中文 WIKI 写得最详细，所以我选择了 Ubuntu…&lt;/p&gt;
 &lt;p&gt;使用 Apache 搭建站点，对着 WIKI 上的命令一直复制粘贴，返回结果结果都正常，很方便的就配置好了 Apache + MySQL + PHP 。&lt;/p&gt;
 &lt;p&gt;但是测试站点的时候死活打不开，折腾着终于发现我配置的 Web 根目录是 /var/www/html ，而不是 WIKI 上写的 /var/www/ 目录，把文件移动到 /var/www/html 目录后终于能打开测试站点了。&lt;/p&gt;
@@ -276,13 +268,9 @@ RewriteRule (.*) https://umi.im%{REQUEST_URI} [R=301,NC,L]&lt;/pre&gt;
 &lt;p&gt;接着修改 WP-Config 配置文件，把数据库名称、账号、密码等改成现在的 VPS 的。&lt;/p&gt;
 &lt;p&gt;再进入 Phpmyadmin 导入以前的 SQL 数据库备份。&lt;/p&gt;
 &lt;p&gt;因为这次不仅搬主机，还顺便换了下域名，所以 SQL 数据库也需要把老域名改为新域名，执行几句简单的语句就好了。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpwwwdimshadowcomblogprogram-advancedwpwordpress-e690ace5aeb6e68da2e59f9fe5908de697b6sqle99c80e8a681e5819ae79a84e4bfaee694b9html-target_blankwordpress-搬家换域名时sql需要做的修改a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpwwwdimshadowcomblogprogram-advancedwpwordpress-e690ace5aeb6e68da2e59f9fe5908de697b6sqle99c80e8a681e5819ae79a84e4bfaee694b9html-target_blankwordpress-%e6%90%ac%e5%ae%b6%e6%8d%a2%e5%9f%9f%e5%90%8d%e6%97%b6sql%e9%9c%80%e8%a6%81%e5%81%9a%e7%9a%84%e4%bf%ae%e6%94%b9a&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://www.dimshadow.com/blog/program-advanced/wp/wordpress-%E6%90%AC%E5%AE%B6%E6%8D%A2%E5%9F%9F%E5%90%8D%E6%97%B6sql%E9%9C%80%E8%A6%81%E5%81%9A%E7%9A%84%E4%BF%AE%E6%94%B9.html&#34; target=&#34;_blank&#34;&gt;wordpress 搬家换域名时SQL需要做的修改&lt;/a&gt;
+&lt;h2 id=&#34;wordpress-搬家换域名时sql需要做的修改&#34;&gt;&lt;a href=&#34;http://www.dimshadow.com/blog/program-advanced/wp/wordpress-%E6%90%AC%E5%AE%B6%E6%8D%A2%E5%9F%9F%E5%90%8D%E6%97%B6sql%E9%9C%80%E8%A6%81%E5%81%9A%E7%9A%84%E4%BF%AE%E6%94%B9.html&#34; target=&#34;_blank&#34;&gt;wordpress 搬家换域名时SQL需要做的修改&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;正以为大功告成准备休息时，却发现除了主页和后台，其他链接打开都是404。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpwwwwpdaxuecomwordpress-rewriterulehtml-target_blankwordpress-伪静态规则iisapachenginxa&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpwwwwpdaxuecomwordpress-rewriterulehtml-target_blankwordpress-%e4%bc%aa%e9%9d%99%e6%80%81%e8%a7%84%e5%88%99iisapachenginxa&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://www.wpdaxue.com/wordpress-rewriterule.html&#34; target=&#34;_blank&#34;&gt;WordPress 伪静态规则（IIS/Apache/Nginx）&lt;/a&gt;
+&lt;h2 id=&#34;wordpress-伪静态规则iisapachenginx&#34;&gt;&lt;a href=&#34;http://www.wpdaxue.com/wordpress-rewriterule.html&#34; target=&#34;_blank&#34;&gt;WordPress 伪静态规则（IIS/Apache/Nginx）&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;查了下资料说是伪静态问题，在站点根目录建一个 .htaccess 文件，复制如下代码保存：&lt;/p&gt;
 &lt;pre class=&#34;lang:default decode:true &#34;&gt;&amp;lt;IfModule mod_rewrite.c&amp;gt;
 RewriteEngine On
@@ -356,9 +344,7 @@ AllowOverride All&lt;/pre&gt;
         <pubDate>Wed, 11 Dec 2013 05:06:02 +0000</pubDate>
         
         <guid>https://umi.im/wordpress/</guid>
-        <description>&lt;h2 id=&#34;img-loadinglazy-decodingasync-classalignnone-size-full-wp-image-911-srchttpsumiimwp-contentuploads201312wordpressjpg-altwordpress-width960-height520-1&#34;&gt;
-    &lt;a href=&#34;#img-loadinglazy-decodingasync-classalignnone-size-full-wp-image-911-srchttpsumiimwp-contentuploads201312wordpressjpg-altwordpress-width960-height520-1&#34;&gt;#&lt;/a&gt;
-    &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/WordPress.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <description>&lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/WordPress.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-911&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/WordPress.jpg&#34; alt=&#34;WordPress&#34; width=&#34;960&#34; height=&#34;520&#34; /&gt;&lt;/a&gt;
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt; 域名&lt;/li&gt;
@@ -369,9 +355,7 @@ AllowOverride All&lt;/pre&gt;
 &lt;p&gt;2018 年 3 月，因为抢注 bakawu.com 这个域名失败，决定放弃使用 .com 的顶级域名。并在当月注册 umi.im 这个国别域名。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;h2 id=&#34;主机&#34;&gt;
-    &lt;a href=&#34;#%e4%b8%bb%e6%9c%ba&#34;&gt;#&lt;/a&gt;
-    主机
+&lt;h2 id=&#34;主机&#34;&gt;主机
 &lt;/h2&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;2013 年的时候我用的是 &lt;a href=&#34;http://www.kilu.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kilu&lt;/a&gt; 的免费空间，10GB无限流量，速度一般，没有伪静态不能固定链接。本来打算一直用下去，后来有人愿意给我提供 &lt;a href=&#34;http://blog.wpjam.com/article/media-temple/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Media Temple主机&lt;/a&gt; 。&lt;/p&gt;
@@ -385,82 +369,50 @@ AllowOverride All&lt;/pre&gt;
     &gt;搬瓦工 VPS&lt;/a&gt; ，博客也顺便搬了过去，速度不错价格便宜，打算常驻。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;h2 id=&#34;主题&#34;&gt;
-    &lt;a href=&#34;#%e4%b8%bb%e9%a2%98&#34;&gt;#&lt;/a&gt;
-    主题
+&lt;h2 id=&#34;主题&#34;&gt;主题
 &lt;/h2&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;a-hrefhttpwwwtystudionet20130907bliss-wordpress-thememore-1009-target_blank-relnoopenerwordpress博客主题bliss深度汉化分享a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpwwwtystudionet20130907bliss-wordpress-thememore-1009-target_blank-relnoopenerwordpress%e5%8d%9a%e5%ae%a2%e4%b8%bb%e9%a2%98bliss%e6%b7%b1%e5%ba%a6%e6%b1%89%e5%8c%96%e5%88%86%e4%ba%aba&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://www.tystudio.net/2013/09/07/bliss-wordpress-theme/#more-1009&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WordPress博客主题Bliss深度汉化分享&lt;/a&gt;
+&lt;h2 id=&#34;wordpress博客主题bliss深度汉化分享&#34;&gt;&lt;a href=&#34;http://www.tystudio.net/2013/09/07/bliss-wordpress-theme/#more-1009&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WordPress博客主题Bliss深度汉化分享&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;本站使用的是由&lt;a href=&#34;http://weibo.com/signup/signup.php?inviteCode=3152350884&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;天屹&lt;/a&gt;汉化的&lt;a href=&#34;http://themeforest.net/item/bliss-personal-minimalist-wordpress-blog-theme/5423780&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bliss主题&lt;/a&gt;，功能方面非常强大。&lt;/p&gt;
 &lt;p&gt;主题里面还有两个插件，需要自行安装。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;h2 id=&#34;插件&#34;&gt;
-    &lt;a href=&#34;#%e6%8f%92%e4%bb%b6&#34;&gt;#&lt;/a&gt;
-    插件
+&lt;h2 id=&#34;插件&#34;&gt;插件
 &lt;/h2&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;a-hrefhttpblogwpjamcomarticlegoogle-xml-sitemaps-target_blank-relnoopenergoogle-xml-sitemapsa&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpblogwpjamcomarticlegoogle-xml-sitemaps-target_blank-relnoopenergoogle-xml-sitemapsa&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://blog.wpjam.com/article/google-xml-sitemaps/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google XML Sitemaps&lt;/a&gt;
+&lt;h2 id=&#34;google-xml-sitemaps&#34;&gt;&lt;a href=&#34;http://blog.wpjam.com/article/google-xml-sitemaps/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google XML Sitemaps&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;WordPress必备插件，自动生成网站地图，方便搜索引擎抓取提高排名。&lt;/p&gt;
-&lt;h2 id=&#34;dela-hrefhttpwordpressorgpluginsduoshuo-target_blank-relnoopener多说社会化评论框adel&#34;&gt;
-    &lt;a href=&#34;#dela-hrefhttpwordpressorgpluginsduoshuo-target_blank-relnoopener%e5%a4%9a%e8%af%b4%e7%a4%be%e4%bc%9a%e5%8c%96%e8%af%84%e8%ae%ba%e6%a1%86adel&#34;&gt;#&lt;/a&gt;
-    &lt;del&gt;&lt;a href=&#34;http://wordpress.org/plugins/duoshuo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;多说社会化评论框&lt;/a&gt;&lt;/del&gt;
+&lt;h2 id=&#34;多说社会化评论框&#34;&gt;&lt;del&gt;&lt;a href=&#34;http://wordpress.org/plugins/duoshuo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;多说社会化评论框&lt;/a&gt;&lt;/del&gt;
 &lt;/h2&gt;&lt;p&gt;&lt;del&gt;可以用QQ，微博甚至G+帐号登录评论，在其他安装了多说的网站登录后就可以在任何有多说插件的网站里留言而不必再次登录。&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;&lt;del&gt;而且竟然有我非常喜欢的喜悠候和柏夫的表情。&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;&lt;del&gt;缺点也很明显，部分用户可能很难看到提醒。&lt;/del&gt;&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpwwwbrunoxucomuseso-take-over-googlehtml-target_blank-relnoopenercrayon-syntax-highlightera&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpwwwbrunoxucomuseso-take-over-googlehtml-target_blank-relnoopenercrayon-syntax-highlightera&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://www.brunoxu.com/useso-take-over-google.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crayon Syntax Highlighter&lt;/a&gt;
+&lt;h2 id=&#34;crayon-syntax-highlighter&#34;&gt;&lt;a href=&#34;http://www.brunoxu.com/useso-take-over-google.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crayon Syntax Highlighter&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;代码高亮插件。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpswordpressorgpluginssi-captcha-for-wordpress-target_blank-relnoopenersi-captcha-anti-spama&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpswordpressorgpluginssi-captcha-for-wordpress-target_blank-relnoopenersi-captcha-anti-spama&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;https://wordpress.org/plugins/si-captcha-for-wordpress/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SI Captcha Anti-Spam&lt;/a&gt;
+&lt;h2 id=&#34;si-captcha-anti-spam&#34;&gt;&lt;a href=&#34;https://wordpress.org/plugins/si-captcha-for-wordpress/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SI Captcha Anti-Spam&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;给用户注册、登录和回复添加验证码，有效防止垃圾评论。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpwordpressorgpluginscomment-reply-notification-target_blank-relnoopenercomment-reply-notificationa&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpwordpressorgpluginscomment-reply-notification-target_blank-relnoopenercomment-reply-notificationa&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://wordpress.org/plugins/comment-reply-notification/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Comment Reply Notification&lt;/a&gt;
+&lt;h2 id=&#34;comment-reply-notification&#34;&gt;&lt;a href=&#34;http://wordpress.org/plugins/comment-reply-notification/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Comment Reply Notification&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;WordPress必备插件，回复别人的留言时能自动发送邮件给留言者，如果用了多说就不需要它了。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttppanbaiducomsharelinkshareid2161015992uk3191095378-target_blank-relnoopenershow-useragenta&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttppanbaiducomsharelinkshareid2161015992uk3191095378-target_blank-relnoopenershow-useragenta&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://pan.baidu.com/share/link?shareid=2161015992&amp;uk=3191095378&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Show-Useragent&lt;/a&gt;
+&lt;h2 id=&#34;show-useragent&#34;&gt;&lt;a href=&#34;http://pan.baidu.com/share/link?shareid=2161015992&amp;uk=3191095378&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Show-Useragent&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;在评论里面显示评论者的国籍，浏览器，操作系统的信息。&lt;/p&gt;
 &lt;p&gt;传了修改版的，原版暂时还没法识别WIN8.1。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpihacklogcomposthacklog-downloadmanagerhtml-target_blank-relnoopenerhacklog-downloadmanagera&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpihacklogcomposthacklog-downloadmanagerhtml-target_blank-relnoopenerhacklog-downloadmanagera&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://ihacklog.com/post/hacklog-downloadmanager.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hacklog-DownloadManager&lt;/a&gt;
+&lt;h2 id=&#34;hacklog-downloadmanager&#34;&gt;&lt;a href=&#34;http://ihacklog.com/post/hacklog-downloadmanager.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hacklog-DownloadManager&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;下载管理插件，WordPress默认是不允许上传种子文件的，有了它就可以上传种子还可以统计下载信息设置下载权限等。我在另一个网站里有用到。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpwordpressorgsupportpluginbackwpup-target_blank-relnoopenerbackwpupa&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpwordpressorgsupportpluginbackwpup-target_blank-relnoopenerbackwpupa&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://wordpress.org/support/plugin/backwpup&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BackWPup&lt;/a&gt;
+&lt;h2 id=&#34;backwpup&#34;&gt;&lt;a href=&#34;http://wordpress.org/support/plugin/backwpup&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BackWPup&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;功能超级强大的备份插件，支持自动备份到邮箱和&lt;a href=&#34;http://dropbox.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DropBox&lt;/a&gt;，能把网站网站备份。&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpwordpressorgpluginsgoogle-search-cse-target_blank-relnoopenerwordpress-google-searcha&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpwordpressorgpluginsgoogle-search-cse-target_blank-relnoopenerwordpress-google-searcha&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://wordpress.org/plugins/google-search-cse/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WordPress Google Search&lt;/a&gt;
+&lt;h2 id=&#34;wordpress-google-search&#34;&gt;&lt;a href=&#34;http://wordpress.org/plugins/google-search-cse/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WordPress Google Search&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;谷歌自定义搜索插件，WordPress自带的搜索不仅占用服务器资源而且不够精准。&lt;/p&gt;
 &lt;p&gt;在&lt;a href=&#34;http://www.google.com/cse/?hl=zh-CN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;谷歌自定义搜索&lt;/a&gt;中注册自己网站，然后固定小工具位置，不需要设置就可使用。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpwordpressorgpluginsall-in-one-seo-pack-target_blank-relnoopenerall-in-one-seo-packa&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpwordpressorgpluginsall-in-one-seo-pack-target_blank-relnoopenerall-in-one-seo-packa&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://wordpress.org/plugins/all-in-one-seo-pack/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;All In One SEO Pack&lt;/a&gt;
+&lt;h2 id=&#34;all-in-one-seo-pack&#34;&gt;&lt;a href=&#34;http://wordpress.org/plugins/all-in-one-seo-pack/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;All In One SEO Pack&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;著名的SEO插件。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpswordpressorgpluginshermit-target_blank-relnoopenerhermita&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpswordpressorgpluginshermit-target_blank-relnoopenerhermita&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;https://wordpress.org/plugins/hermit/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hermit&lt;/a&gt;
+&lt;h2 id=&#34;hermit&#34;&gt;&lt;a href=&#34;https://wordpress.org/plugins/hermit/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hermit&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;在文章中嵌入虾米音乐。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;服务&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;a-hrefhttpblogwpjamcomprojectwpjam-qiniutek-target_blank-relnoopener七牛云储存a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpblogwpjamcomprojectwpjam-qiniutek-target_blank-relnoopener%e4%b8%83%e7%89%9b%e4%ba%91%e5%82%a8%e5%ad%98a&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://blog.wpjam.com/project/wpjam-qiniutek/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;七牛云储存&lt;/a&gt;
+&lt;h2 id=&#34;七牛云储存&#34;&gt;&lt;a href=&#34;http://blog.wpjam.com/project/wpjam-qiniutek/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;七牛云储存&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;把静态文件放在七牛云空间上实现CDN加速。免费帐号有10BG空间，每月也10GB流量，够大多数人用了。&lt;/p&gt;
-&lt;h2 id=&#34;dela-hrefhttpwwwfreehao123comcloudflare-cdn-target_blank-relnoopenercloudflareadel&#34;&gt;
-    &lt;a href=&#34;#dela-hrefhttpwwwfreehao123comcloudflare-cdn-target_blank-relnoopenercloudflareadel&#34;&gt;#&lt;/a&gt;
-    &lt;del&gt;&lt;a href=&#34;http://www.freehao123.com/cloudflare-cdn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CloudFlare&lt;/a&gt;&lt;/del&gt;
+&lt;h2 id=&#34;cloudflare&#34;&gt;&lt;del&gt;&lt;a href=&#34;http://www.freehao123.com/cloudflare-cdn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CloudFlare&lt;/a&gt;&lt;/del&gt;
 &lt;/h2&gt;&lt;p&gt;&lt;del&gt;免费的CDN加速服务，屋主在用Kilu空间时使用，效果不错，使用起来也很简单。&lt;/del&gt;&lt;/p&gt;
 </description>
         </item>

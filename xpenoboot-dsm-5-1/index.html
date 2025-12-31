@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="群晖的NAS系统DSM 5.1终于被破解了，由原来的Nanoboot开发者发布。 保留文件升级方法和DSM 4.2升级DSM 5.0一样，很简单，下">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="群晖的NAS系统DSM 5.1终于被破解了，由原来的Nanoboot开发者发布。\n保留文件升级方法和DSM 4.2升级DSM 5.0一样，很简单，下载XPEnoboot的引导镜像（img格式）和群晖\u00a0DS3615xs的官方PAT安装文件。\n">
 <title>XPEnoboot DSM 5.1-5022.2 黑群晖升级安装</title>
 
 <link rel='canonical' href='https://umi.im/xpenoboot-dsm-5-1/'>
 
-<link rel="stylesheet" href="/scss/style.min.859d15a88c4baa095161a679adcf6a0588d393b9603bd708e8e0c634ae102b82.css"><meta property='og:title' content="XPEnoboot DSM 5.1-5022.2 黑群晖升级安装">
-<meta property='og:description' content="群晖的NAS系统DSM 5.1终于被破解了，由原来的Nanoboot开发者发布。 保留文件升级方法和DSM 4.2升级DSM 5.0一样，很简单，下">
+<link rel="stylesheet" href="/scss/style.min.7c6fc62023c4a6953fbe601dd92a600ca1efde85fae06f72201f35c5ad119913.css"><meta property='og:title' content="XPEnoboot DSM 5.1-5022.2 黑群晖升级安装">
+<meta property='og:description' content="群晖的NAS系统DSM 5.1终于被破解了，由原来的Nanoboot开发者发布。\n保留文件升级方法和DSM 4.2升级DSM 5.0一样，很简单，下载XPEnoboot的引导镜像（img格式）和群晖\u00a0DS3615xs的官方PAT安装文件。\n">
 <meta property='og:url' content='https://umi.im/xpenoboot-dsm-5-1/'>
 <meta property='og:site_name' content='笨蛋屋'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='NAS' /><meta property='article:tag' content='黑群晖' /><meta property='article:published_time' content='2015-02-18T16:42:18&#43;00:00'/><meta property='article:modified_time' content='2015-02-18T16:42:18&#43;00:00'/>
 <meta name="twitter:title" content="XPEnoboot DSM 5.1-5022.2 黑群晖升级安装">
-<meta name="twitter:description" content="群晖的NAS系统DSM 5.1终于被破解了，由原来的Nanoboot开发者发布。 保留文件升级方法和DSM 4.2升级DSM 5.0一样，很简单，下">
+<meta name="twitter:description" content="群晖的NAS系统DSM 5.1终于被破解了，由原来的Nanoboot开发者发布。\n保留文件升级方法和DSM 4.2升级DSM 5.0一样，很简单，下载XPEnoboot的引导镜像（img格式）和群晖\u00a0DS3615xs的官方PAT安装文件。\n">
     <link rel="shortcut icon" href="/favicon.png" />
 
-  
-
-<meta name="verification" content="9cfa2f7dea5bc4a0">
-<script defer src="https://u.umi.im/replace-me-with-a-random-string" data-website-id="befac8d7-0396-44c8-b151-9c332a5f176f"></script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5428554628068316"
-     crossorigin="anonymous"></script>
-    
-    
     </head>
     <body class="
     article-page
@@ -66,8 +58,8 @@
                     
                     
                         
-                        <img src="/img/avatar-150px_hub3e42f8fb4895a97c7036e2fee26b85a_7312_300x0_resize_box_3.png" width="300"
-                            height="300" class="site-logo" alt="Avatar">
+                        <img src="/img/avatar-150px_hu_b1565203cde6efd2.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
                 </a>
@@ -326,7 +318,7 @@
 
 
 
-                        <span>Dark Mode</span>
+                        <span>暗色模式</span>
                     </li>
                 
             </ol>
@@ -356,9 +348,9 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#a-hrefhttpnanobooteuorgdownload-target_blankxpenoboot-引导镜像-下载a"><a href="http://nanoboot.eu.org/download" target="_blank">XPEnoboot 引导镜像 下载</a></a></li>
-    <li><a href="#a-hrefhttpswwwsynologycomzh-cnsupportdownloadds3615xs-target_blankds3615xs-安装文件-下载a"><a href="https://www.synology.com/zh-cn/support/download/DS3615xs" target="_blank">DS3615xs 安装文件 下载</a></a></li>
-    <li><a href="#a-hrefhttpswwwsynologycomzh-cndsm51-target_blankdiskstation-manager-51a"><a href="https://www.synology.com/zh-cn/dsm/5.1" target="_blank">DiskStation Manager 5.1</a></a></li>
+    <li><a href="#xpenoboot-引导镜像-下载">XPEnoboot 引导镜像 下载</a></li>
+    <li><a href="#ds3615xs-安装文件-下载">DS3615xs 安装文件 下载</a></li>
+    <li><a href="#diskstation-manager-51">DiskStation Manager 5.1</a></li>
   </ol>
 </nav>
         </div>
@@ -408,7 +400,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2015年02月18日</time>
+                <time class="article-time--published" datetime='2015-02-18T16:42:18Z'>2015年02月18日</time>
             </div>
         
 
@@ -435,7 +427,6 @@
 
 </header>
 
-
     <section class="article-content">
     
     
@@ -443,12 +434,8 @@
 <p><a class="link" href="https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1.png"  target="_blank" rel="noopener"
     ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3505" src="https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1.png" alt="xpenoboot-dsm-5-1" width="841" height="547" srcset="https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1.png 841w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-150x98.png 150w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-300x195.png 300w" sizes="(max-width: 841px) 100vw, 841px" /></a></p>
 <p>保留文件升级方法和DSM 4.2升级DSM 5.0一样，很简单，下载XPEnoboot的引导镜像（img格式）和群晖 DS3615xs的官方PAT安装文件。</p>
-<h2 id="a-hrefhttpnanobooteuorgdownload-target_blankxpenoboot-引导镜像-下载a">
-    <a href="#a-hrefhttpnanobooteuorgdownload-target_blankxpenoboot-%e5%bc%95%e5%af%bc%e9%95%9c%e5%83%8f-%e4%b8%8b%e8%bd%bda">#</a>
-    <a href="http://nanoboot.eu.org/download" target="_blank">XPEnoboot 引导镜像 下载</a>
-</h2><h2 id="a-hrefhttpswwwsynologycomzh-cnsupportdownloadds3615xs-target_blankds3615xs-安装文件-下载a">
-    <a href="#a-hrefhttpswwwsynologycomzh-cnsupportdownloadds3615xs-target_blankds3615xs-%e5%ae%89%e8%a3%85%e6%96%87%e4%bb%b6-%e4%b8%8b%e8%bd%bda">#</a>
-    <a href="https://www.synology.com/zh-cn/support/download/DS3615xs" target="_blank">DS3615xs 安装文件 下载</a>
+<h2 id="xpenoboot-引导镜像-下载"><a href="http://nanoboot.eu.org/download" target="_blank">XPEnoboot 引导镜像 下载</a>
+</h2><h2 id="ds3615xs-安装文件-下载"><a href="https://www.synology.com/zh-cn/support/download/DS3615xs" target="_blank">DS3615xs 安装文件 下载</a>
 </h2><p>用Win32 Disk Imager把XPEnoboot的引导镜像写入U盘。</p>
 <p><a class="link" href="https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2.png"  target="_blank" rel="noopener"
     ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3506" src="https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2.png" alt="xpenoboot-dsm-5-1-2" width="421" height="214" srcset="https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2.png 421w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2-150x76.png 150w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2-300x152.png 300w" sizes="(max-width: 421px) 100vw, 421px" /></a></p>
@@ -462,9 +449,7 @@
 <p>安装完成自动重启，然后就OK了。</p>
 <p>相对于DSM 4.2到DSM 5.0，DSM 5.1只能算是很小的更新。</p>
 <p>主要多了Note Station功能，一个私有云笔记，和Evernote相比没什么优势，甚至可能还没有Evernote安全。</p>
-<h2 id="a-hrefhttpswwwsynologycomzh-cndsm51-target_blankdiskstation-manager-51a">
-    <a href="#a-hrefhttpswwwsynologycomzh-cndsm51-target_blankdiskstation-manager-51a">#</a>
-    <a href="https://www.synology.com/zh-cn/dsm/5.1" target="_blank">DiskStation Manager 5.1</a>
+<h2 id="diskstation-manager-51"><a href="https://www.synology.com/zh-cn/dsm/5.1" target="_blank">DiskStation Manager 5.1</a>
 </h2>
 </section>
 
@@ -480,19 +465,7 @@
     </section>
 
 
-    <section class="article-lastmod">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-        <span>
-            最后更新于 2015年02月18日 16:42 CST
-        </span>
-    </section></footer>
+    </footer>
 
 
     
@@ -623,12 +596,12 @@
         
             2013 - 
         
-        2024 笨蛋屋
+        2025 笨蛋屋
     </section>
     
     <section class="powerby">
         使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.25.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.33.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
 </footer>
 
@@ -710,6 +683,7 @@
                 rel="stylesheet" 
                 href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
             >
+    
 
             </main>
         </div>
@@ -717,7 +691,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.dd94a3a1af72e139795cfeda872cf12861c2c76788276d5544729c40adf97eee.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

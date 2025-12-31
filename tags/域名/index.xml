@@ -12,28 +12,20 @@
         <pubDate>Tue, 09 Apr 2024 22:54:21 +0000</pubDate>
         
         <guid>https://umi.im/dnspod-to-cloudflare/</guid>
-        <description>&lt;img src="https://umi.im/wp-content/uploads/2024/04/cloudflare.webp" alt="Featured image of post 博客域名 NS 从 DNSPOD 转移到 Cloudflare" /&gt;&lt;h2 id=&#34;吐槽&#34;&gt;
-    &lt;a href=&#34;#%e5%90%90%e6%a7%bd&#34;&gt;#&lt;/a&gt;
-    吐槽
+        <description>&lt;img src="https://umi.im/wp-content/uploads/2024/04/cloudflare.webp" alt="Featured image of post 博客域名 NS 从 DNSPOD 转移到 Cloudflare" /&gt;&lt;h2 id=&#34;吐槽&#34;&gt;吐槽
 &lt;/h2&gt;&lt;p&gt;博客的 umi.im 域名 NS 设置在 DNSPOD ，近期经常修改子域名的 DNS 解析，结果每次登录 DNSPOD 都要我输入烦人的验证码，加上眼馋 Cloudflare 的各种免费服务，萌生了转移域名 NS 的想法。&lt;/p&gt;
-&lt;h2 id=&#34;cloudflare-ns-的优点&#34;&gt;
-    &lt;a href=&#34;#cloudflare-ns-%e7%9a%84%e4%bc%98%e7%82%b9&#34;&gt;#&lt;/a&gt;
-    Cloudflare NS 的优点
+&lt;h2 id=&#34;cloudflare-ns-的优点&#34;&gt;Cloudflare NS 的优点
 &lt;/h2&gt;&lt;p&gt;Cloudflare Pages 、R2 对象存储和 Tunnels 等服务可以绑定到子域名，很快我就把 &lt;a href=&#34;https://me.umi.im/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Contact me&lt;/a&gt; 和 &lt;a class=&#34;link&#34; href=&#34;https://dnf.umi.im/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;DNF土豆服PVP排行榜&lt;/a&gt; 两个页面挂到了 CF Pages 上，再用 Cloudflare Workers 弄了个 &lt;a href=&#34;https://ip.umi.im/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;IP-Check&lt;/a&gt; 接口。&lt;/p&gt;
 &lt;p&gt;当然最重要的是被 DDOS 的时候可以马上直接套 CF 的 CDN ，可惜没人攻击我网站。&lt;/p&gt;
-&lt;h2 id=&#34;转移过程&#34;&gt;
-    &lt;a href=&#34;#%e8%bd%ac%e7%a7%bb%e8%bf%87%e7%a8%8b&#34;&gt;#&lt;/a&gt;
-    转移过程
+&lt;h2 id=&#34;转移过程&#34;&gt;转移过程
 &lt;/h2&gt;&lt;p&gt;在 Cloudflare 添加网站，会提示你去修改域名 NS ，接着去购买域名的网站把 NS 改成 CF 的，选择 Free 套餐。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2024/04/change-cloudflare-ns.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;666&#34; height=&#34;479&#34; src=&#34;https://umi.im/wp-content/uploads/2024/04/change-cloudflare-ns.png&#34; alt=&#34;&#34; class=&#34;wp-image-6804&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;由于 DNS 记录很多，还需要从 DNSPOD 导出域名记录，导出格式选 ZONE 文件，就可以把 DNS 记录都导入 CF 了。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2024/04/dnspod-export.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;695&#34; height=&#34;347&#34; src=&#34;https://umi.im/wp-content/uploads/2024/04/dnspod-export.png&#34; alt=&#34;&#34; class=&#34;wp-image-6805&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;中国大陆解析情况&#34;&gt;
-    &lt;a href=&#34;#%e4%b8%ad%e5%9b%bd%e5%a4%a7%e9%99%86%e8%a7%a3%e6%9e%90%e6%83%85%e5%86%b5&#34;&gt;#&lt;/a&gt;
-    中国大陆解析情况
+&lt;h2 id=&#34;中国大陆解析情况&#34;&gt;中国大陆解析情况
 &lt;/h2&gt;&lt;p&gt;其实很早就想把 NS 改成 CF 的了，但听说中国大陆地区有很多地方解析不了。&lt;/p&gt;
 &lt;p&gt;用 ITDOG 的测试看了下，只有重庆的运营商 DNS 解析错误，泉州无法访问是防火墙白名单的原因。&lt;/p&gt;
 &lt;p&gt;本来就是 1IP 博客，不差这点流量。&lt;/p&gt;
@@ -124,9 +116,7 @@
 &lt;p&gt;先设置把旧域名转发到新域名。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3969&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png&#34; alt=&#34;godaddy-Forwarding&#34; width=&#34;533&#34; height=&#34;278&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png 533w, https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding-150x78.png 150w, https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding-300x156.png 300w&#34; sizes=&#34;(max-width: 533px) 100vw, 533px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpwikiubuntuorgcnvps-target_blanklinux-vps-ubuntu-系统配置指南a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpwikiubuntuorgcnvps-target_blanklinux-vps-ubuntu-%e7%b3%bb%e7%bb%9f%e9%85%8d%e7%bd%ae%e6%8c%87%e5%8d%97a&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://wiki.ubuntu.org.cn/Vps&#34; target=&#34;_blank&#34;&gt;Linux VPS Ubuntu 系统配置指南&lt;/a&gt;
+&lt;h2 id=&#34;linux-vps-ubuntu-系统配置指南&#34;&gt;&lt;a href=&#34;http://wiki.ubuntu.org.cn/Vps&#34; target=&#34;_blank&#34;&gt;Linux VPS Ubuntu 系统配置指南&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;VPS 的 Web 环境选择，Ubuntu 的中文 WIKI 写得最详细，所以我选择了 Ubuntu…&lt;/p&gt;
 &lt;p&gt;使用 Apache 搭建站点，对着 WIKI 上的命令一直复制粘贴，返回结果结果都正常，很方便的就配置好了 Apache + MySQL + PHP 。&lt;/p&gt;
 &lt;p&gt;但是测试站点的时候死活打不开，折腾着终于发现我配置的 Web 根目录是 /var/www/html ，而不是 WIKI 上写的 /var/www/ 目录，把文件移动到 /var/www/html 目录后终于能打开测试站点了。&lt;/p&gt;
@@ -141,13 +131,9 @@
 &lt;p&gt;接着修改 WP-Config 配置文件，把数据库名称、账号、密码等改成现在的 VPS 的。&lt;/p&gt;
 &lt;p&gt;再进入 Phpmyadmin 导入以前的 SQL 数据库备份。&lt;/p&gt;
 &lt;p&gt;因为这次不仅搬主机，还顺便换了下域名，所以 SQL 数据库也需要把老域名改为新域名，执行几句简单的语句就好了。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpwwwdimshadowcomblogprogram-advancedwpwordpress-e690ace5aeb6e68da2e59f9fe5908de697b6sqle99c80e8a681e5819ae79a84e4bfaee694b9html-target_blankwordpress-搬家换域名时sql需要做的修改a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpwwwdimshadowcomblogprogram-advancedwpwordpress-e690ace5aeb6e68da2e59f9fe5908de697b6sqle99c80e8a681e5819ae79a84e4bfaee694b9html-target_blankwordpress-%e6%90%ac%e5%ae%b6%e6%8d%a2%e5%9f%9f%e5%90%8d%e6%97%b6sql%e9%9c%80%e8%a6%81%e5%81%9a%e7%9a%84%e4%bf%ae%e6%94%b9a&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://www.dimshadow.com/blog/program-advanced/wp/wordpress-%E6%90%AC%E5%AE%B6%E6%8D%A2%E5%9F%9F%E5%90%8D%E6%97%B6sql%E9%9C%80%E8%A6%81%E5%81%9A%E7%9A%84%E4%BF%AE%E6%94%B9.html&#34; target=&#34;_blank&#34;&gt;wordpress 搬家换域名时SQL需要做的修改&lt;/a&gt;
+&lt;h2 id=&#34;wordpress-搬家换域名时sql需要做的修改&#34;&gt;&lt;a href=&#34;http://www.dimshadow.com/blog/program-advanced/wp/wordpress-%E6%90%AC%E5%AE%B6%E6%8D%A2%E5%9F%9F%E5%90%8D%E6%97%B6sql%E9%9C%80%E8%A6%81%E5%81%9A%E7%9A%84%E4%BF%AE%E6%94%B9.html&#34; target=&#34;_blank&#34;&gt;wordpress 搬家换域名时SQL需要做的修改&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;正以为大功告成准备休息时，却发现除了主页和后台，其他链接打开都是404。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpwwwwpdaxuecomwordpress-rewriterulehtml-target_blankwordpress-伪静态规则iisapachenginxa&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpwwwwpdaxuecomwordpress-rewriterulehtml-target_blankwordpress-%e4%bc%aa%e9%9d%99%e6%80%81%e8%a7%84%e5%88%99iisapachenginxa&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://www.wpdaxue.com/wordpress-rewriterule.html&#34; target=&#34;_blank&#34;&gt;WordPress 伪静态规则（IIS/Apache/Nginx）&lt;/a&gt;
+&lt;h2 id=&#34;wordpress-伪静态规则iisapachenginx&#34;&gt;&lt;a href=&#34;http://www.wpdaxue.com/wordpress-rewriterule.html&#34; target=&#34;_blank&#34;&gt;WordPress 伪静态规则（IIS/Apache/Nginx）&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;查了下资料说是伪静态问题，在站点根目录建一个 .htaccess 文件，复制如下代码保存：&lt;/p&gt;
 &lt;pre class=&#34;lang:default decode:true &#34;&gt;&amp;lt;IfModule mod_rewrite.c&amp;gt;
 RewriteEngine On
@@ -193,9 +179,7 @@ AllowOverride All&lt;/pre&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/12/godaddy-up-taobao.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3329&#34; src=&#34;https://umi.im/wp-content/uploads/2014/12/godaddy-up-taobao.png&#34; alt=&#34;godaddy-up-taobao&#34; width=&#34;885&#34; height=&#34;193&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/12/godaddy-up-taobao.png 885w, https://umi.im/wp-content/uploads/2014/12/godaddy-up-taobao-150x32.png 150w, https://umi.im/wp-content/uploads/2014/12/godaddy-up-taobao-300x65.png 300w&#34; sizes=&#34;(max-width: 885px) 100vw, 885px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Google最近也推出了域名注册服务 Google Domains ，测试中，需要邀请码才能注册，如果价格合适的话考虑以后把域名迁到那。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpsdomainsgooglecom-target_blankgoogle-domainsa&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpsdomainsgooglecom-target_blankgoogle-domainsa&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;https://domains.google.com/&#34; target=&#34;_blank&#34;&gt;Google Domains&lt;/a&gt;
+&lt;h2 id=&#34;google-domains&#34;&gt;&lt;a href=&#34;https://domains.google.com/&#34; target=&#34;_blank&#34;&gt;Google Domains&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
         

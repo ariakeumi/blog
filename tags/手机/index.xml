@@ -76,9 +76,7 @@
     &gt;z3c刷完5.1.1无限重启的的进，你们需要关机强刷下对应的内核&lt;/a&gt;{#thread_subject}&lt;/p&gt;
 &lt;p&gt;官方版的 Xposed 框架暂时还不支持 Android 5.1 ，可以刷其他大牛制作的。&lt;/p&gt;
 &lt;p&gt;下载下面链接里面的 &lt;a href=&#34;http://forum.xda-developers.com/attachment.php?s=65a46e13099e0be34f24bc4db90e1efe&amp;attachmentid=3420636&amp;d=1438030312&#34; target=&#34;_blank&#34;&gt;posed-v68-sdk22-arm-by-romracer&lt;/a&gt; 在 REC 刷入，再安装 Xposed Installer（3.0 alpha4 ），64位手机下载 arm64 的。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpforumxda-developerscomxposedsuper-alpha-posted-permission-xposed-t3072979-target_blankxposed-for-android-51-8211-v68--20150727--sdk22a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpforumxda-developerscomxposedsuper-alpha-posted-permission-xposed-t3072979-target_blankxposed-for-android-51-8211-v68--20150727--sdk22a&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://forum.xda-developers.com/xposed/super-alpha-posted-permission-xposed-t3072979&#34; target=&#34;_blank&#34;&gt;Xposed for Android 5.1 – v68 / 20150727 / SDK22&lt;/a&gt;
+&lt;h2 id=&#34;xposed-for-android-51-8211-v68--20150727--sdk22&#34;&gt;&lt;a href=&#34;http://forum.xda-developers.com/xposed/super-alpha-posted-permission-xposed-t3072979&#34; target=&#34;_blank&#34;&gt;Xposed for Android 5.1 – v68 / 20150727 / SDK22&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;经过以上多番折腾，手机终于可以愉快的使用了。&lt;/p&gt;
 &lt;p&gt;5.1.1 固件相比之前 5.0.2 流畅了不少，还有个小变化，下拉菜单可以直接连接 WIFI 或者蓝牙而不用跳转设置。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/sony-xperia-5.1.1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -147,9 +145,7 @@
 &lt;p&gt;就这样活生生的被算计了。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/caonima-5.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3538&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/caonima-5.jpg&#34; alt=&#34;caonima-5&#34; width=&#34;1680&#34; height=&#34;1260&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/caonima-5.jpg 1680w, https://umi.im/wp-content/uploads/2015/03/caonima-5-150x113.jpg 150w, https://umi.im/wp-content/uploads/2015/03/caonima-5-300x225.jpg 300w, https://umi.im/wp-content/uploads/2015/03/caonima-5-1024x768.jpg 1024w&#34; sizes=&#34;(max-width: 1680px) 100vw, 1680px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;熊家通讯馆吔屎啦&#34;&gt;
-    &lt;a href=&#34;#%e7%86%8a%e5%ae%b6%e9%80%9a%e8%ae%af%e9%a6%86%e5%90%94%e5%b1%8e%e5%95%a6&#34;&gt;#&lt;/a&gt;
-    &lt;strong&gt;熊家通讯馆，吔屎啦！&lt;/strong&gt;
+&lt;h2 id=&#34;熊家通讯馆吔屎啦&#34;&gt;&lt;strong&gt;熊家通讯馆，吔屎啦！&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;还好还剩点钱，不够买Z3，但是够买Z3 Compact，天意，上吧，找家客服态度好的就上了。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/caonima-6.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3539&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/caonima-6.png&#34; alt=&#34;caonima-6&#34; width=&#34;925&#34; height=&#34;183&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/caonima-6.png 925w, https://umi.im/wp-content/uploads/2015/03/caonima-6-150x30.png 150w, https://umi.im/wp-content/uploads/2015/03/caonima-6-300x59.png 300w&#34; sizes=&#34;(max-width: 925px) 100vw, 925px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -172,15 +168,11 @@
         
         <guid>https://umi.im/futuremark-dxomark-gsmarena/</guid>
         <description>&lt;p&gt;平时收集的几个对选购移动设备可能比较有帮助的网站，以数字评分来量化手机参数，如果发现新的还会更新。&lt;/p&gt;
-&lt;h2 id=&#34;cpugpu性能a-hrefhttpcnfuturemarkcomhardwaremobile-target_blankfuturemark-hardware-mobilea&#34;&gt;
-    &lt;a href=&#34;#cpugpu%e6%80%a7%e8%83%bda-hrefhttpcnfuturemarkcomhardwaremobile-target_blankfuturemark-hardware-mobilea&#34;&gt;#&lt;/a&gt;
-    CPU&amp;amp;GPU性能：&lt;a href=&#34;http://cn.futuremark.com/hardware/mobile&#34; target=&#34;_blank&#34;&gt;Futuremark Hardware Mobile&lt;/a&gt;
+&lt;h2 id=&#34;cpugpu性能futuremark-hardware-mobile&#34;&gt;CPU&amp;amp;GPU性能：&lt;a href=&#34;http://cn.futuremark.com/hardware/mobile&#34; target=&#34;_blank&#34;&gt;Futuremark Hardware Mobile&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;关于Futuremark，Windows上著名的跑分软件PC Mark和3D Mark都是这家出品，现在Futuremark开始推出移动端的跑分软件，而且公布了跑分排行榜。作为测试CPU和GPU性能的老牌软件，应该比安兔兔之流可信很多。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/09/Futuremark-Hardware-Mobile.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3040&#34; src=&#34;https://umi.im/wp-content/uploads/2014/09/Futuremark-Hardware-Mobile.png&#34; alt=&#34;Futuremark Hardware Mobile&#34; width=&#34;1165&#34; height=&#34;960&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/09/Futuremark-Hardware-Mobile.png 1165w, https://umi.im/wp-content/uploads/2014/09/Futuremark-Hardware-Mobile-150x123.png 150w, https://umi.im/wp-content/uploads/2014/09/Futuremark-Hardware-Mobile-300x247.png 300w, https://umi.im/wp-content/uploads/2014/09/Futuremark-Hardware-Mobile-1024x843.png 1024w&#34; sizes=&#34;(max-width: 1165px) 100vw, 1165px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;相机性能a-hrefhttpwwwdxomarkcommobiles-target_blankdxomark-mobilea&#34;&gt;
-    &lt;a href=&#34;#%e7%9b%b8%e6%9c%ba%e6%80%a7%e8%83%bda-hrefhttpwwwdxomarkcommobiles-target_blankdxomark-mobilea&#34;&gt;#&lt;/a&gt;
-    相机性能：&lt;a href=&#34;http://www.dxomark.com/Mobiles&#34; target=&#34;_blank&#34;&gt;DxOMark Mobile&lt;/a&gt;
+&lt;h2 id=&#34;相机性能dxomark-mobile&#34;&gt;相机性能：&lt;a href=&#34;http://www.dxomark.com/Mobiles&#34; target=&#34;_blank&#34;&gt;DxOMark Mobile&lt;/a&gt;
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;DxOMark是一家专业的相机测试机构，对相机传感器的测试一直都被认为是&lt;a class=&#34; wrap external&#34; href=&#34;http://tech.hexun.com/it/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noreferrer&#34;&gt;业界&lt;i class=&#34;icon-external&#34;&gt;&lt;/i&gt;&lt;/a&gt;标杆，已经成为全世界范围内相机杂志及媒体用于测评相机的标准系统，同时在DSC厂商、相机芯片厂商、手机厂商等业界享有盛誉。&lt;br&gt;
 &lt;span style=&#34;color: #999999;&#34;&gt;&lt;span style=&#34;font-size: small;&#34;&gt;– 和讯 &lt;/span&gt;&lt;span style=&#34;font-size: small;&#34;&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/p&gt;
@@ -255,16 +247,12 @@
         <guid>https://umi.im/xperia-miku/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/MIKU.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-734&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/MIKU.jpg&#34; alt=&#34;MIKU&#34; width=&#34;1267&#34; height=&#34;742&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;span-stylecolor-99cc00xperia--初音ミク-コラボスマホ登場span&#34;&gt;
-    &lt;a href=&#34;#span-stylecolor-99cc00xperia--%e5%88%9d%e9%9f%b3%e3%83%9f%e3%82%af-%e3%82%b3%e3%83%a9%e3%83%9c%e3%82%b9%e3%83%9e%e3%83%9b%e7%99%bb%e5%a0%b4span&#34;&gt;#&lt;/a&gt;
-    &lt;span style=&#34;color: #99cc00;&#34;&gt;Xperia™ × 初音ミク コラボスマホ登場&lt;/span&gt;
+&lt;h2 id=&#34;xperia--初音ミク-コラボスマホ登場&#34;&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;Xperia™ × 初音ミク コラボスマホ登場&lt;/span&gt;
 &lt;/h2&gt;&lt;p&gt;製品名：Xperia™ feat. HATSUNE MIKU&lt;br&gt;
 好評発売中&lt;br&gt;
 販売台数：限定39,000台&lt;/p&gt;
 &lt;p&gt;「Xperia™ A」の人気機能を全て搭載枚数制限がなく（※1）撮り続けられる「連写モード」や、ミニチュア・魚眼レンズ等9種類の撮影効果を撮影前に一覧でプレビューできる「ピクチャーエフェクト」、「クイック起動」など、充実のカメラ機能を搭載。防水・防塵（※2) やおサイフケータイ、ワンセグ、NOTTVにも、もちろん対応。&lt;/p&gt;
-&lt;h2 id=&#34;开机动画&#34;&gt;
-    &lt;a href=&#34;#%e5%bc%80%e6%9c%ba%e5%8a%a8%e7%94%bb&#34;&gt;#&lt;/a&gt;
-    开机动画
+&lt;h2 id=&#34;开机动画&#34;&gt;开机动画
 &lt;/h2&gt;&lt;p&gt;先是XPREIA的LOGO，然后是NTT Docomo（日本电信电话）的LOGO，接着SONY的通用开机动画，然后MIKU的画面，最后要提醒盖好MicroUSB口才能防水。&lt;/p&gt;
 &lt;p&gt;随便吐槽下CM的开机画面真是丑啊。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/MIKU-BOOT.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -275,15 +263,11 @@
 &lt;p&gt;使用方法：用&lt;a href=&#34;http://www.wandoujia.com/apps/com.speedsoftware.rootexplorer&#34; target=&#34;_blank&#34;&gt;RE管理器&lt;/a&gt;（需ROOT）把 bootanimation.zip 文件复制到system/media/替换（挂载读写），重启就可以了。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/Screenshot_2013-12-15-20-51-24.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-723&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/Screenshot_2013-12-15-20-51-24.png&#34; alt=&#34;Screenshot_2013-12-15-20-51-24&#34; width=&#34;320&#34; height=&#34;480&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;壁纸&#34;&gt;
-    &lt;a href=&#34;#%e5%a3%81%e7%ba%b8&#34;&gt;#&lt;/a&gt;
-    壁纸
+&lt;h2 id=&#34;壁纸&#34;&gt;壁纸
 &lt;/h2&gt;&lt;p&gt;说实话觉得好一般。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/MIKU-wallpapers.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-725&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/MIKU-wallpapers.jpg&#34; alt=&#34;MIKU- wallpapers&#34; width=&#34;1006&#34; height=&#34;513&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;铃声&#34;&gt;
-    &lt;a href=&#34;#%e9%93%83%e5%a3%b0&#34;&gt;#&lt;/a&gt;
-    铃声
+&lt;h2 id=&#34;铃声&#34;&gt;铃声
 &lt;/h2&gt;&lt;p&gt;来电话这个铃声挺好的。&lt;/p&gt;
 &lt;!--[if lt IE 9]&gt;&lt;![endif]--&gt;&lt;audio class=&#34;wp-audio-shortcode&#34; id=&#34;audio-712-1&#34; preload=&#34;none&#34; style=&#34;width: 100%;&#34; controls=&#34;controls&#34;&gt;&lt;source type=&#34;audio/ogg&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/14\_Miku\_denwa-dayoh\_001.ogg?\_=1&#34; /&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/14_Miku_denwa-dayoh_001.ogg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -292,18 +276,10 @@
 &lt;p&gt;来源: &lt;a href=&#34;http://bbs.blueshow.net/thread-1920574-1-1.html&#34; target=&#34;_blank&#34;&gt;「Xperia A」初音限量版-壁纸、铃声和开机动画下载 &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[divider type=”white|thin|thick|short|dotted|dashed” spacing=”10″]&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
-&lt;h2 id=&#34;a-titlemiku-开机动画-720p-hrefhttppanbaiducomsharelinkshareid1416488631uk3456234991-target_blankxperia-a-开机画面-720pa&#34;&gt;
-    &lt;a href=&#34;#a-titlemiku-%e5%bc%80%e6%9c%ba%e5%8a%a8%e7%94%bb-720p-hrefhttppanbaiducomsharelinkshareid1416488631uk3456234991-target_blankxperia-a-%e5%bc%80%e6%9c%ba%e7%94%bb%e9%9d%a2-720pa&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;MIKU 开机动画 720P&#34; href=&#34;http://pan.baidu.com/share/link?shareid=1416488631&amp;uk=3456234991&#34; target=&#34;_blank&#34;&gt;Xperia A 开机画面 720P&lt;/a&gt;
-&lt;/h2&gt;&lt;h2 id=&#34;a-titlemiku-开机动画-1080p-hrefhttppanbaiducomsharelinkshareid4041613026uk1594262254-target_blankxperia-a-开机画面-1080pa&#34;&gt;
-    &lt;a href=&#34;#a-titlemiku-%e5%bc%80%e6%9c%ba%e5%8a%a8%e7%94%bb-1080p-hrefhttppanbaiducomsharelinkshareid4041613026uk1594262254-target_blankxperia-a-%e5%bc%80%e6%9c%ba%e7%94%bb%e9%9d%a2-1080pa&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;MIKU 开机动画 1080P&#34; href=&#34;http://pan.baidu.com/share/link?shareid=4041613026&amp;uk=1594262254&#34; target=&#34;_blank&#34;&gt;Xperia A 开机画面 1080P&lt;/a&gt;
-&lt;/h2&gt;&lt;h2 id=&#34;a-titlemiku-wallpapers-hrefhttppanbaiducomsharelinkshareid1793585118uk3456234991-target_blankxperia-a-miku-壁纸a&#34;&gt;
-    &lt;a href=&#34;#a-titlemiku-wallpapers-hrefhttppanbaiducomsharelinkshareid1793585118uk3456234991-target_blankxperia-a-miku-%e5%a3%81%e7%ba%b8a&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;MIKU Wallpapers&#34; href=&#34;http://pan.baidu.com/share/link?shareid=1793585118&amp;uk=3456234991&#34; target=&#34;_blank&#34;&gt;Xperia A MIKU 壁纸&lt;/a&gt;
-&lt;/h2&gt;&lt;h2 id=&#34;a-titlemiku-铃声-hrefhttppanbaiducomsharelinkshareid1806792120uk3456234991-target_blankxperia-a-miku-铃声a&#34;&gt;
-    &lt;a href=&#34;#a-titlemiku-%e9%93%83%e5%a3%b0-hrefhttppanbaiducomsharelinkshareid1806792120uk3456234991-target_blankxperia-a-miku-%e9%93%83%e5%a3%b0a&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;MIKU 铃声&#34; href=&#34;http://pan.baidu.com/share/link?shareid=1806792120&amp;uk=3456234991&#34; target=&#34;_blank&#34;&gt;Xperia A MIKU 铃声&lt;/a&gt;
+&lt;h2 id=&#34;xperia-a-开机画面-720p&#34;&gt;&lt;a title=&#34;MIKU 开机动画 720P&#34; href=&#34;http://pan.baidu.com/share/link?shareid=1416488631&amp;uk=3456234991&#34; target=&#34;_blank&#34;&gt;Xperia A 开机画面 720P&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;xperia-a-开机画面-1080p&#34;&gt;&lt;a title=&#34;MIKU 开机动画 1080P&#34; href=&#34;http://pan.baidu.com/share/link?shareid=4041613026&amp;uk=1594262254&#34; target=&#34;_blank&#34;&gt;Xperia A 开机画面 1080P&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;xperia-a-miku-壁纸&#34;&gt;&lt;a title=&#34;MIKU Wallpapers&#34; href=&#34;http://pan.baidu.com/share/link?shareid=1793585118&amp;uk=3456234991&#34; target=&#34;_blank&#34;&gt;Xperia A MIKU 壁纸&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;xperia-a-miku-铃声&#34;&gt;&lt;a title=&#34;MIKU 铃声&#34; href=&#34;http://pan.baidu.com/share/link?shareid=1806792120&amp;uk=3456234991&#34; target=&#34;_blank&#34;&gt;Xperia A MIKU 铃声&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>

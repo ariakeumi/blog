@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="# 发现问题 在 PC 和 NAS 之间拷文件的时候发现速度只有 90MB/s ，起初没太在意，毕竟 NAS 换了 UNRAID 系，可能是 SMB 协议问题，也可能是 UNRAID 的磁盘阵列速度就是慢。 再给 NAS 升级">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="发现问题 在 PC 和 NAS 之间拷文件的时候发现速度只有 90MB/s ，起初没太在意，毕竟 NAS 换了 UNRAID 系，可能是 SMB 协议问题，也可能是 UNRAID 的磁盘阵列速度就是慢。\n再给 NAS 升级了双 NVME SSD 的 ZFS 阵列后，拷贝速度还是一样跑不满千兆，开始排查原因。\n">
 <title>Windows 11 系统的 RealTek RTL8111H 千兆有线网卡的微软公版驱动无法满速问题</title>
 
 <link rel='canonical' href='https://umi.im/windows-11-rtl8111h-speed/'>
 
-<link rel="stylesheet" href="/scss/style.min.859d15a88c4baa095161a679adcf6a0588d393b9603bd708e8e0c634ae102b82.css"><meta property='og:title' content="Windows 11 系统的 RealTek RTL8111H 千兆有线网卡的微软公版驱动无法满速问题">
-<meta property='og:description' content="# 发现问题 在 PC 和 NAS 之间拷文件的时候发现速度只有 90MB/s ，起初没太在意，毕竟 NAS 换了 UNRAID 系，可能是 SMB 协议问题，也可能是 UNRAID 的磁盘阵列速度就是慢。 再给 NAS 升级">
+<link rel="stylesheet" href="/scss/style.min.7c6fc62023c4a6953fbe601dd92a600ca1efde85fae06f72201f35c5ad119913.css"><meta property='og:title' content="Windows 11 系统的 RealTek RTL8111H 千兆有线网卡的微软公版驱动无法满速问题">
+<meta property='og:description' content="发现问题 在 PC 和 NAS 之间拷文件的时候发现速度只有 90MB/s ，起初没太在意，毕竟 NAS 换了 UNRAID 系，可能是 SMB 协议问题，也可能是 UNRAID 的磁盘阵列速度就是慢。\n再给 NAS 升级了双 NVME SSD 的 ZFS 阵列后，拷贝速度还是一样跑不满千兆，开始排查原因。\n">
 <meta property='og:url' content='https://umi.im/windows-11-rtl8111h-speed/'>
 <meta property='og:site_name' content='笨蛋屋'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Windows' /><meta property='article:published_time' content='2023-09-25T11:41:01&#43;00:00'/><meta property='article:modified_time' content='2023-09-25T11:41:01&#43;00:00'/>
 <meta name="twitter:title" content="Windows 11 系统的 RealTek RTL8111H 千兆有线网卡的微软公版驱动无法满速问题">
-<meta name="twitter:description" content="# 发现问题 在 PC 和 NAS 之间拷文件的时候发现速度只有 90MB/s ，起初没太在意，毕竟 NAS 换了 UNRAID 系，可能是 SMB 协议问题，也可能是 UNRAID 的磁盘阵列速度就是慢。 再给 NAS 升级">
+<meta name="twitter:description" content="发现问题 在 PC 和 NAS 之间拷文件的时候发现速度只有 90MB/s ，起初没太在意，毕竟 NAS 换了 UNRAID 系，可能是 SMB 协议问题，也可能是 UNRAID 的磁盘阵列速度就是慢。\n再给 NAS 升级了双 NVME SSD 的 ZFS 阵列后，拷贝速度还是一样跑不满千兆，开始排查原因。\n">
     <link rel="shortcut icon" href="/favicon.png" />
 
-  
-
-<meta name="verification" content="9cfa2f7dea5bc4a0">
-<script defer src="https://u.umi.im/replace-me-with-a-random-string" data-website-id="befac8d7-0396-44c8-b151-9c332a5f176f"></script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5428554628068316"
-     crossorigin="anonymous"></script>
-    
-    
     </head>
     <body class="
     article-page
@@ -66,8 +58,8 @@
                     
                     
                         
-                        <img src="/img/avatar-150px_hub3e42f8fb4895a97c7036e2fee26b85a_7312_300x0_resize_box_3.png" width="300"
-                            height="300" class="site-logo" alt="Avatar">
+                        <img src="/img/avatar-150px_hu_b1565203cde6efd2.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
                 </a>
@@ -326,7 +318,7 @@
 
 
 
-                        <span>Dark Mode</span>
+                        <span>暗色模式</span>
                     </li>
                 
             </ol>
@@ -409,7 +401,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2023年09月25日</time>
+                <time class="article-time--published" datetime='2023-09-25T11:41:01Z'>2023年09月25日</time>
             </div>
         
 
@@ -436,13 +428,10 @@
 
 </header>
 
-
     <section class="article-content">
     
     
-    <h2 id="发现问题">
-    <a href="#%e5%8f%91%e7%8e%b0%e9%97%ae%e9%a2%98">#</a>
-    发现问题
+    <h2 id="发现问题">发现问题
 </h2><p>在 PC 和 NAS 之间拷文件的时候发现速度只有 90MB/s ，起初没太在意，毕竟 NAS 换了 UNRAID 系，可能是 SMB 协议问题，也可能是 UNRAID 的磁盘阵列速度就是慢。</p>
 <p>再给 NAS 升级了双 NVME SSD 的 ZFS 阵列后，拷贝速度还是一样跑不满千兆，开始排查原因。</p>
 <p>用 iperf3 测速，速度稳定 780Mbps ，排除 NAS 的硬盘速度的问题。</p>
@@ -450,22 +439,16 @@
 <p>接着换 Mac mini 跑 iperf3 ，能跑满千兆。</p>
 <p>那就是 PC 的问题了。</p>
 <p>我网卡是螃蟹的 RealTek RTL8111H 千兆网卡，用的是 Windows 11 的公版驱动，自从 WIN10 开始我只手动安装显卡驱动，其他的都是微软推送啥我用啥了。</p>
-<h2 id="驱动更新">
-    <a href="#%e9%a9%b1%e5%8a%a8%e6%9b%b4%e6%96%b0">#</a>
-    驱动更新
+<h2 id="驱动更新">驱动更新
 </h2><p>主板官网上不提供 Windows 11 的有线网卡驱动，还得去螃蟹网站上找，他们网站做的真的很反人类…</p>
-<p><a class="link" href="https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software"  target="_blank" rel="noopener"
+<p><a class="link" href="https://www.realtek.com/Download/List?cate_id=584"  target="_blank" rel="noopener"
     >Realtek PCIe FE / GBE / 2.5G / 5G Ethernet Family Controller Software</a></p>
 <p>下载 Win11 Auto Installation Program (NetAdapterCx) 然后安装，速度恢复千兆…</p>
 <p>Windows Update 推送的驱动真的不可靠啊，不知道是 RTL8111H 网卡特有的问题还是所有螃蟹网卡微软驱动都有问题，建议用微软公版网卡驱动的都测下速度。</p>
-<h2 id="微软公版驱动">
-    <a href="#%e5%be%ae%e8%bd%af%e5%85%ac%e7%89%88%e9%a9%b1%e5%8a%a8">#</a>
-    微软公版驱动
+<h2 id="微软公版驱动">微软公版驱动
 </h2><p><a class="link" href="https://umi.im/wp-content/uploads/2023/09/ms-lan-driver.png"  target="_blank" rel="noopener"
     ><img loading="lazy" decoding="async" width="1227" height="600" src="https://umi.im/wp-content/uploads/2023/09/ms-lan-driver.png" alt="" class="wp-image-6724" /></a></p>
-<h2 id="螃蟹驱动">
-    <a href="#%e8%9e%83%e8%9f%b9%e9%a9%b1%e5%8a%a8">#</a>
-    螃蟹驱动
+<h2 id="螃蟹驱动">螃蟹驱动
 </h2><p><a class="link" href="https://umi.im/wp-content/uploads/2023/09/image.png"  target="_blank" rel="noopener"
     ><img loading="lazy" decoding="async" width="988" height="666" src="https://umi.im/wp-content/uploads/2023/09/image.png" alt="此图片的alt属性为空；文件名为Realtek-lan-driver.png" class="wp-image-6726" /></a></p>
 
@@ -481,19 +464,7 @@
     </section>
 
 
-    <section class="article-lastmod">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-        <span>
-            最后更新于 2023年09月25日 11:41 CST
-        </span>
-    </section></footer>
+    </footer>
 
 
     
@@ -607,12 +578,12 @@
         
             2013 - 
         
-        2024 笨蛋屋
+        2025 笨蛋屋
     </section>
     
     <section class="powerby">
         使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.25.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.33.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
 </footer>
 
@@ -694,6 +665,7 @@
                 rel="stylesheet" 
                 href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
             >
+    
 
             </main>
         </div>
@@ -701,7 +673,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.dd94a3a1af72e139795cfeda872cf12861c2c76788276d5544729c40adf97eee.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

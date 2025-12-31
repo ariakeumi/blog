@@ -88,9 +88,7 @@
     &gt;z3c刷完5.1.1无限重启的的进，你们需要关机强刷下对应的内核&lt;/a&gt;{#thread_subject}&lt;/p&gt;
 &lt;p&gt;官方版的 Xposed 框架暂时还不支持 Android 5.1 ，可以刷其他大牛制作的。&lt;/p&gt;
 &lt;p&gt;下载下面链接里面的 &lt;a href=&#34;http://forum.xda-developers.com/attachment.php?s=65a46e13099e0be34f24bc4db90e1efe&amp;attachmentid=3420636&amp;d=1438030312&#34; target=&#34;_blank&#34;&gt;posed-v68-sdk22-arm-by-romracer&lt;/a&gt; 在 REC 刷入，再安装 Xposed Installer（3.0 alpha4 ），64位手机下载 arm64 的。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpforumxda-developerscomxposedsuper-alpha-posted-permission-xposed-t3072979-target_blankxposed-for-android-51-8211-v68--20150727--sdk22a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpforumxda-developerscomxposedsuper-alpha-posted-permission-xposed-t3072979-target_blankxposed-for-android-51-8211-v68--20150727--sdk22a&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://forum.xda-developers.com/xposed/super-alpha-posted-permission-xposed-t3072979&#34; target=&#34;_blank&#34;&gt;Xposed for Android 5.1 – v68 / 20150727 / SDK22&lt;/a&gt;
+&lt;h2 id=&#34;xposed-for-android-51-8211-v68--20150727--sdk22&#34;&gt;&lt;a href=&#34;http://forum.xda-developers.com/xposed/super-alpha-posted-permission-xposed-t3072979&#34; target=&#34;_blank&#34;&gt;Xposed for Android 5.1 – v68 / 20150727 / SDK22&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;经过以上多番折腾，手机终于可以愉快的使用了。&lt;/p&gt;
 &lt;p&gt;5.1.1 固件相比之前 5.0.2 流畅了不少，还有个小变化，下拉菜单可以直接连接 WIFI 或者蓝牙而不用跳转设置。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/sony-xperia-5.1.1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

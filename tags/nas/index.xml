@@ -12,9 +12,7 @@
         <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
         
         <guid>https://umi.im/unraid-6.12.10-crack/</guid>
-        <description>&lt;img src="https://umi.im/unraid-6.12.10-crack/unraid.webp" alt="Featured image of post UNRAID 6.12.4 米多贝克版升级 UNRAID 6.12.10 毛子开心版" /&gt;&lt;h2 id=&#34;终极大无语事件&#34;&gt;
-    &lt;a href=&#34;#%e7%bb%88%e6%9e%81%e5%a4%a7%e6%97%a0%e8%af%ad%e4%ba%8b%e4%bb%b6&#34;&gt;#&lt;/a&gt;
-    终极大无语事件
+        <description>&lt;img src="https://umi.im/unraid-6.12.10-crack/unraid.webp" alt="Featured image of post UNRAID 6.12.4 米多贝克版升级 UNRAID 6.12.10 毛子开心版" /&gt;&lt;h2 id=&#34;终极大无语事件&#34;&gt;终极大无语事件
 &lt;/h2&gt;&lt;p&gt;年初听说了 UNRAID 系统要变成订阅制，便一直关注，想着涨价的话就趁着末班车入正，真的挺好用的。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Q：新付费模式的价格是否会提前通知用户并给到缓冲时间？&lt;/p&gt;
@@ -27,9 +25,7 @@
 &lt;p&gt;不出意外就出意外了，他博客的 RSS 抽了，当我刷到 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.jackiewu.top/article/unraid-new-license-keys#b28e5c50abb84ef7b26b9340ff40fc21&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;2024 Unraid 新付费制解读&lt;/a&gt;&lt;/strong&gt; 这篇文章的时候 UNRAID 价格已经翻倍了 😭😭😭！&lt;/p&gt;
 &lt;p&gt;那就先继续用着开心版吧。&lt;/p&gt;
-&lt;h2 id=&#34;下载开心版&#34;&gt;
-    &lt;a href=&#34;#%e4%b8%8b%e8%bd%bd%e5%bc%80%e5%bf%83%e7%89%88&#34;&gt;#&lt;/a&gt;
-    下载开心版
+&lt;h2 id=&#34;下载开心版&#34;&gt;下载开心版
 &lt;/h2&gt;&lt;p&gt;目前我使用的 Tank电玩&amp;amp;米多贝克 的 &lt;a class=&#34;link&#34; href=&#34;https://www.mi-d.cn/9519&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;UNRAID 6.12.4 开心版&lt;/a&gt; ，官方版已经更新到了 6.12.10 了，他家的半年没更新了。&lt;/p&gt;
 &lt;p&gt;去毛子论坛看了下，毛子版本更新到了 6.12.9 ，订阅了那个帖子，没几天就更新了 6.12.10 ，但我懒癌发作拖到今天才升级。&lt;/p&gt;
@@ -48,9 +44,7 @@
 &lt;p&gt;UNRAID 6.12.4 和 6.12.10 隔的几个小版本都是以 BUG 修复为主，直接升级应该问题不大，下载链接：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://softoroom.org/topic89043s150.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;unRAID Server Pro 6.12.10, ОС и ваши данные в безопасности, OS performance, VMs&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;安装升级&#34;&gt;
-    &lt;a href=&#34;#%e5%ae%89%e8%a3%85%e5%8d%87%e7%ba%a7&#34;&gt;#&lt;/a&gt;
-    安装升级
+&lt;h2 id=&#34;安装升级&#34;&gt;安装升级
 &lt;/h2&gt;&lt;p&gt;切记，升级前先备份 U 盘。&lt;/p&gt;
 &lt;p&gt;把 unraid_crack/unraid-new/ 目录的 hook.so 和 unraider 两个文件拷贝到原系统 U 盘的 config 目录内。&lt;/p&gt;
 &lt;p&gt;删除原系统 U 盘除 config 目录之外的其他所有目录和文件。&lt;/p&gt;
@@ -68,7 +62,7 @@
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/bin/bash
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;export UNRAID_GUID&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;填你U盘的GUID
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export UNRAID_GUID&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;填你U盘的GUID
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export UNRAID_NAME&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Tower
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export UNRAID_DATE&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1654646400&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export UNRAID_VERSION&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Pro
@@ -102,9 +96,7 @@
         
         <guid>https://umi.im/my-unraid-array/</guid>
         <description>&lt;p&gt;应该是绿联 DX4600 NAS 折腾 UNRAID 系统系列的最后一篇了，后期再添加一块 10TB 硬盘也算毕业了。&lt;/p&gt;
-&lt;h2 id=&#34;升级内容&#34;&gt;
-    &lt;a href=&#34;#%e5%8d%87%e7%ba%a7%e5%86%85%e5%ae%b9&#34;&gt;#&lt;/a&gt;
-    升级内容
+&lt;h2 id=&#34;升级内容&#34;&gt;升级内容
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;原 10TB +2TB 的存储空间，再添加一个 10TB 存储盘和一个 10TB 校验盘&lt;/li&gt;
 &lt;li&gt;原 256GB 的 ZFS 镜像系统盘，升级到1TB&lt;/li&gt;
@@ -115,9 +107,7 @@
 &lt;p&gt;海力士 Gold P31 ，1TB NVME SSD ，京东首发 370 元，号称最强 PCI-E 3.0 的 SSD。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/10/new-hard-drive.webp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;2016&#34; height=&#34;1512&#34; src=&#34;https://umi.im/wp-content/uploads/2023/10/new-hard-drive.webp&#34; alt=&#34;&#34; class=&#34;wp-image-6741&#34; srcset=&#34;https://umi.im/wp-content/uploads/2023/10/new-hard-drive.webp 2016w, https://umi.im/wp-content/uploads/2023/10/new-hard-drive-1536x1152.webp 1536w&#34; sizes=&#34;(max-width: 2016px) 100vw, 2016px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;zfs-镜像阵列升级&#34;&gt;
-    &lt;a href=&#34;#zfs-%e9%95%9c%e5%83%8f%e9%98%b5%e5%88%97%e5%8d%87%e7%ba%a7&#34;&gt;#&lt;/a&gt;
-    ZFS 镜像阵列升级
+&lt;h2 id=&#34;zfs-镜像阵列升级&#34;&gt;ZFS 镜像阵列升级
 &lt;/h2&gt;&lt;p&gt;原来的是两个 256GB SSD 的 ZFS 镜像，先备份了数据，然后拆下一块 256GB SSD，把新买的海力士 P31 替换上去。&lt;/p&gt;
 &lt;p&gt;镜像同步速度 720MB/s 左右， P31 最高温度是 57 度，比我想象的要高。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/10/zfs-mirror-sync.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -128,9 +118,7 @@
 &lt;p&gt;这 1TB 的存储空间直接作为 docker 和 虚拟机数据盘的同时，还作为 UNRAID 阵列的缓存。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/10/new-zfs-mirror.webp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1504&#34; height=&#34;1340&#34; src=&#34;https://umi.im/wp-content/uploads/2023/10/new-zfs-mirror.webp&#34; alt=&#34;&#34; class=&#34;wp-image-6744&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;添加校验盘&#34;&gt;
-    &lt;a href=&#34;#%e6%b7%bb%e5%8a%a0%e6%a0%a1%e9%aa%8c%e7%9b%98&#34;&gt;#&lt;/a&gt;
-    添加校验盘
+&lt;h2 id=&#34;添加校验盘&#34;&gt;添加校验盘
 &lt;/h2&gt;&lt;p&gt;原来的阵列是一块 10TB 5200 转的 HE10 氦气盘和 2TB 紫盘，后期要升级的话就是把 2TB 的紫盘替换成 10TB 的。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/10/new-drive-array.webp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;2016&#34; height=&#34;1512&#34; src=&#34;https://umi.im/wp-content/uploads/2023/10/new-drive-array.webp&#34; alt=&#34;&#34; class=&#34;wp-image-6745&#34; style=&#34;aspect-ratio:1.3333333333333333;width:840px;height:auto&#34; srcset=&#34;https://umi.im/wp-content/uploads/2023/10/new-drive-array.webp 2016w, https://umi.im/wp-content/uploads/2023/10/new-drive-array-1536x1152.webp 1536w&#34; sizes=&#34;(max-width: 2016px) 100vw, 2016px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/10/unraid-array-add.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -139,9 +127,7 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/10/unraid-array-check.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;637&#34; height=&#34;762&#34; src=&#34;https://umi.im/wp-content/uploads/2023/10/unraid-array-check.png&#34; alt=&#34;&#34; class=&#34;wp-image-6747&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/10/unraid-array.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1270&#34; height=&#34;673&#34; src=&#34;https://umi.im/wp-content/uploads/2023/10/unraid-array.png&#34; alt=&#34;&#34; class=&#34;wp-image-6746&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;硬盘温度&#34;&gt;
-    &lt;a href=&#34;#%e7%a1%ac%e7%9b%98%e6%b8%a9%e5%ba%a6&#34;&gt;#&lt;/a&gt;
-    硬盘温度
+&lt;h2 id=&#34;硬盘温度&#34;&gt;硬盘温度
 &lt;/h2&gt;&lt;p&gt;在室温 30.5 度的情况下， 海力士 P31 待机(超低负载) 温度在 47 度左右，尚可接受，没有 DRAM 缓存的 大华 C900 PLUS 就低很多了。&lt;/p&gt;
 &lt;p&gt;到机械盘这边，无论是 5200转 还是 7200 转的10TB 氦气盘，待机温度都在 40 度以内，表现优秀。&lt;/p&gt;
 &lt;p&gt;10TB 空气盘的 HC330 则非常糟糕，待机 (无读写) 就 44 到 45 度，比氦气盘高了五六度，在进行校验的时候我必须把风扇转速拉满，不然突破五十度是肯定的。&lt;/p&gt;
@@ -159,9 +145,7 @@
 &lt;p&gt;此时我的 NAS 上有 4 块硬盘，一块 M.2 NVME SSD，一块 2.5寸 SSD，一块 2.5寸 HDD，一块 3.5寸 HDD。&lt;/p&gt;
 &lt;p&gt;NVME SSD 上建立的 appdata 、system 和 domains 目录存放 Docker 和 虚拟机文件，2.5寸 SSD 直通给黑群晖虚拟机，存放杂乱资料和音乐、照片等，2.5寸 HDD 备份 UNRAID 和黑群晖文件，3.5寸 HDD 存放电影电视剧和色情影片等视频。&lt;/p&gt;
 &lt;p&gt;最近朋友送了块 M.2 NVME SSD 给我，容量和 NAS 上的一样是 256GB 的，正好打算组个 RAID1 阵列，保证 NAS 上的部署的 Docker 和虚拟机文件的安全，下面介绍怎么添加 ZFS 阵列。&lt;/p&gt;
-&lt;h2 id=&#34;brtfs-raid-和-zfs-mirror&#34;&gt;
-    &lt;a href=&#34;#brtfs-raid-%e5%92%8c-zfs-mirror&#34;&gt;#&lt;/a&gt;
-    Brtfs RAID 和 ZFS Mirror
+&lt;h2 id=&#34;brtfs-raid-和-zfs-mirror&#34;&gt;Brtfs RAID 和 ZFS Mirror
 &lt;/h2&gt;&lt;p&gt;UNRAID 6.12 系统支持添加 Brtfs 文件系统的 RAID1 和 ZFS 文件系统的 Mirror 两种镜像阵列。&lt;/p&gt;
 &lt;p&gt;我简单测试了下两个不同文件系统的写入速度，发现还是 ZFS Mirror 速度更快。&lt;/p&gt;
 &lt;p&gt;Brtfs RAID1 写入性能&lt;/p&gt;
@@ -216,9 +200,7 @@ root@Unraid:/mnt# time dd if=/dev/zero of=/mnt/ssd/test bs=10M count=1000
 real    0m3.421s
 user    0m0.002s
 sys     0m0.880s&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;添加-zfs-镜像阵列&#34;&gt;
-    &lt;a href=&#34;#%e6%b7%bb%e5%8a%a0-zfs-%e9%95%9c%e5%83%8f%e9%98%b5%e5%88%97&#34;&gt;#&lt;/a&gt;
-    添加 ZFS 镜像阵列
+&lt;h2 id=&#34;添加-zfs-镜像阵列&#34;&gt;添加 ZFS 镜像阵列
 &lt;/h2&gt;&lt;p&gt;先备份好 appdata 、system 和 domains 目录。&lt;/p&gt;
 &lt;p&gt;在 主界面 的池设备里添加两个插槽的存储池，命名随意。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/09/unraid-ssd-pool-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -229,9 +211,7 @@ sys     0m0.880s&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;添加共享目录，主存储空间选择刚才建立名为 SSD 的 ZFS 阵列。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/09/unraid-ssd-domains.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1164&#34; height=&#34;521&#34; src=&#34;https://umi.im/wp-content/uploads/2023/09/unraid-ssd-domains.png&#34; alt=&#34;&#34; class=&#34;wp-image-6713&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;修改-docker-和虚拟机文件路径&#34;&gt;
-    &lt;a href=&#34;#%e4%bf%ae%e6%94%b9-docker-%e5%92%8c%e8%99%9a%e6%8b%9f%e6%9c%ba%e6%96%87%e4%bb%b6%e8%b7%af%e5%be%84&#34;&gt;#&lt;/a&gt;
-    修改 Docker 和虚拟机文件路径
+&lt;h2 id=&#34;修改-docker-和虚拟机文件路径&#34;&gt;修改 Docker 和虚拟机文件路径
 &lt;/h2&gt;&lt;p&gt;把备份好的 appdata 、system 和 domains 目录拷贝回新建立的 /mnt/ssd 目录里。&lt;/p&gt;
 &lt;p&gt;在 设置 – 虚拟机管理器 的 Libvirt 存储位置，由原来的 /mnt/user/system/libvirt/libvirt.img 改为 /mnt/ssd/system/libvirt/libvirt.img 。默认虚拟机存储路径同上。&lt;/p&gt;
 &lt;p&gt;设置 – Docker – Docker虚拟磁盘大小 目录也改成 /mnt/ssd/system/docker/docker.img ，默认应用数据存储位置 同上。&lt;/p&gt;
@@ -246,21 +226,15 @@ sys     0m0.880s&lt;/code&gt;&lt;/pre&gt;
         <pubDate>Mon, 04 Sep 2023 01:25:19 +0000</pubDate>
         
         <guid>https://umi.im/synology-photos-ai/</guid>
-        <description>&lt;h2 id=&#34;群晖相册&#34;&gt;
-    &lt;a href=&#34;#%e7%be%a4%e6%99%96%e7%9b%b8%e5%86%8c&#34;&gt;#&lt;/a&gt;
-    群晖相册
+        <description>&lt;h2 id=&#34;群晖相册&#34;&gt;群晖相册
 &lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://www.synology.cn/zh-cn/dsm/feature/photos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Synology Photos&lt;/a&gt; 是群晖系统的相册应用，他的前身 Memonts 应用有个对象识别功能，可以帮你自动分类相册，就像 Google Photos 那样。&lt;/p&gt;
 &lt;p&gt;在升级 DSM 7.0 后群晖砍了掉这个功能，近期又在 Synology Photos 1.5.0-0488 版本里更新了这个功能。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/09/synologo-photos-ai.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;981&#34; height=&#34;589&#34; src=&#34;https://umi.im/wp-content/uploads/2023/09/synologo-photos-ai.png&#34; alt=&#34;&#34; class=&#34;wp-image-6679&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;虽然识别错误不少，但是找猫图还是方便多了。&lt;/p&gt;
-&lt;h2 id=&#34;硬件要求&#34;&gt;
-    &lt;a href=&#34;#%e7%a1%ac%e4%bb%b6%e8%a6%81%e6%b1%82&#34;&gt;#&lt;/a&gt;
-    硬件要求
+&lt;h2 id=&#34;硬件要求&#34;&gt;硬件要求
 &lt;/h2&gt;&lt;p&gt;黑群晖最常用的引导是 DS918+ 、DS920+ 和 DS3617xs 这几个型号，如果是 DS918+ 和 DS920+ 引导的黑群晖，需要最低 4GB 内存才能开启对象识别功能，而 DS3617xs 则需要 8GB 内存，白群晖也一样。&lt;/p&gt;
-&lt;h2 id=&#34;人脸识别补丁&#34;&gt;
-    &lt;a href=&#34;#%e4%ba%ba%e8%84%b8%e8%af%86%e5%88%ab%e8%a1%a5%e4%b8%81&#34;&gt;#&lt;/a&gt;
-    人脸识别补丁
+&lt;h2 id=&#34;人脸识别补丁&#34;&gt;人脸识别补丁
 &lt;/h2&gt;&lt;p&gt;对象识别功能需要调用核显 GPU 来实现，如果是没有核显的黑群晖，需要打上人脸识别补丁，让它调用 CPU 来识别。&lt;/p&gt;
 &lt;p&gt;先停用 Synology Photos ，进 SSH 执行下面几行代码。&lt;/p&gt;
 &lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;wget http://code.imnks.com/face/PatchELFSharp
@@ -281,30 +255,22 @@ chmod +x PatchELFSharp
         <guid>https://umi.im/synology-vmm-to-unraid/</guid>
         <description>&lt;p&gt;原来有一台部署在群晖 Virtual Machine Manager (VMM) 平台的 &lt;a href=&#34;https://umi.im/dnf-server/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;DNF 私服&lt;/a&gt; 游戏服务器，它运行的是 CentOS 5.9 系统，以前是从 VMware 迁移过去的，由于没有再玩 DNF 了就吃灰很久了。&lt;/p&gt;
 &lt;p&gt;最近升级了 &lt;a href=&#34;https://umi.im/dx4600-unraid/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;DX4600 NAS&lt;/a&gt; 后想着也把它也迁移到 UNRAID 上，水平太菜一路上踩了不少坑，简单记录过程…&lt;/p&gt;
-&lt;h2 id=&#34;导出-vmm-虚拟机&#34;&gt;
-    &lt;a href=&#34;#%e5%af%bc%e5%87%ba-vmm-%e8%99%9a%e6%8b%9f%e6%9c%ba&#34;&gt;#&lt;/a&gt;
-    导出 VMM 虚拟机
+&lt;h2 id=&#34;导出-vmm-虚拟机&#34;&gt;导出 VMM 虚拟机
 &lt;/h2&gt;&lt;p&gt;直接导出为常规 OVA 就行了。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/synology-vmm-export.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1074&#34; height=&#34;669&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/synology-vmm-export.png&#34; alt=&#34;&#34; class=&#34;wp-image-6643&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;转换镜像格式&#34;&gt;
-    &lt;a href=&#34;#%e8%bd%ac%e6%8d%a2%e9%95%9c%e5%83%8f%e6%a0%bc%e5%bc%8f&#34;&gt;#&lt;/a&gt;
-    转换镜像格式
+&lt;h2 id=&#34;转换镜像格式&#34;&gt;转换镜像格式
 &lt;/h2&gt;&lt;p&gt;把导出的 OVA 镜像拷贝到 UNRAID 上，进入 UNRAID 系统的终端，先用 tar xvf 命令解包，再把得到 vmdk 镜像转换为 qcow2 镜像。&lt;/p&gt;
 &lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;tar xvf dnf.ova
 qemu-img convert -f vmdk -O qcow2 dnf-disk1.vmdk dnf.qcow2&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;解包 OVA 镜像后还会出线一个 ovf 的虚拟机配置文件，可能需要参考它来配置新的虚拟机。&lt;/p&gt;
-&lt;h2 id=&#34;配置虚拟机&#34;&gt;
-    &lt;a href=&#34;#%e9%85%8d%e7%bd%ae%e8%99%9a%e6%8b%9f%e6%9c%ba&#34;&gt;#&lt;/a&gt;
-    配置虚拟机
+&lt;h2 id=&#34;配置虚拟机&#34;&gt;配置虚拟机
 &lt;/h2&gt;&lt;p&gt;因为是很老的系统，所以机器选择 i440fx ，BIOS 选择 SeaBIOS 。&lt;/p&gt;
 &lt;p&gt;主要虚拟磁盘位置，设置为手动，路径填转换好的 qcow2 镜像的路径。&lt;/p&gt;
 &lt;p&gt;虚拟磁盘总线照 ovf 配置文件填的 SATA ，网卡 E1000 和 Virtio 都可以，其他默认就行。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-dnf-server.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;907&#34; height=&#34;666&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-dnf-server.png&#34; alt=&#34;&#34; class=&#34;wp-image-6645&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;dnf启动&#34;&gt;
-    &lt;a href=&#34;#dnf%e5%90%af%e5%8a%a8&#34;&gt;#&lt;/a&gt;
-    DNF！启动！
+&lt;h2 id=&#34;dnf启动&#34;&gt;DNF！启动！
 &lt;/h2&gt;&lt;p&gt;看到老游戏又跑起来了还是有点小开心的。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/DNF-Start.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1645&#34; height=&#34;813&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/DNF-Start.png&#34; alt=&#34;&#34; class=&#34;wp-image-6646&#34; srcset=&#34;https://umi.im/wp-content/uploads/2023/06/DNF-Start.png 1645w, https://umi.im/wp-content/uploads/2023/06/DNF-Start-1536x759.png 1536w&#34; sizes=&#34;(max-width: 1645px) 100vw, 1645px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -316,9 +282,7 @@ qemu-img convert -f vmdk -O qcow2 dnf-disk1.vmdk dnf.qcow2&lt;/code&gt;&lt;/pre&
         <pubDate>Sat, 03 Jun 2023 11:07:22 +0000</pubDate>
         
         <guid>https://umi.im/dx4600-unraid/</guid>
-        <description>&lt;img src="https://umi.im/wp-content/uploads/2023/06/dx4600-unraid-poster.jpg" alt="Featured image of post 绿联 DX4600 安装 UNRAID 系统" /&gt;&lt;h2 id=&#34;开篇废话&#34;&gt;
-    &lt;a href=&#34;#%e5%bc%80%e7%af%87%e5%ba%9f%e8%af%9d&#34;&gt;#&lt;/a&gt;
-    开篇废话
+        <description>&lt;img src="https://umi.im/wp-content/uploads/2023/06/dx4600-unraid-poster.jpg" alt="Featured image of post 绿联 DX4600 安装 UNRAID 系统" /&gt;&lt;h2 id=&#34;开篇废话&#34;&gt;开篇废话
 &lt;/h2&gt;&lt;p&gt;我是个十年群晖老用户，14 年在 SMZDM 上看到黑群晖的文章就折腾这个，&lt;a class=&#34;link&#34; href=&#34;https://umi.im/nas-synology/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;第一台黑群晖&lt;/a&gt; 配置还是 Intel Atom D410 的，在 2019 年升级到了白裙一直用到现在，目前用的白裙是 DS220+ ，CPU 是双核的赛扬 J4025，性能已经太不够用了打算更新，而今年群晖推出的新品很让人失望，新 NAS 不再考虑群晖，下面再列出几个我要放弃群晖的理由：&lt;/p&gt;
 &lt;ul&gt;
@@ -338,35 +302,21 @@ qemu-img convert -f vmdk -O qcow2 dnf-disk1.vmdk dnf.qcow2&lt;/code&gt;&lt;/pre&
 &lt;/ul&gt;
 &lt;p&gt;DSM 7.2 开放了 NVME 存储池的功能，有 M.2 接口的 DS920+ 可以把 Docker 和虚拟机都吃磁盘 IO 性能的软件安装到 M.2 NVME 的储存池上，这样可以省个 3.5 寸硬盘位装 SSD ，别想的美，只能购买群晖自家出的死贵死贵还买不到的 NVME SSD 才能用作储存池，第三方的不可以！！！&lt;/p&gt;
 &lt;p&gt;当然，群晖的 Synolog Photos 、 Audio Station 还没有更好的替代品，所以我会在虚拟机装个黑群晖。&lt;/p&gt;
-&lt;h2 id=&#34;新-nas-的选择&#34;&gt;
-    &lt;a href=&#34;#%e6%96%b0-nas-%e7%9a%84%e9%80%89%e6%8b%a9&#34;&gt;#&lt;/a&gt;
-    新 NAS 的选择
+&lt;h2 id=&#34;新-nas-的选择&#34;&gt;新 NAS 的选择
 &lt;/h2&gt;&lt;p&gt;我的 NAS 需求是四盘位左右，外观小巧，颜值高，低功耗，静音，电源靠谱。&lt;/p&gt;
-&lt;h2 id=&#34;diy-nas&#34;&gt;
-    &lt;a href=&#34;#diy-nas&#34;&gt;#&lt;/a&gt;
-    DIY NAS
+&lt;h2 id=&#34;diy-nas&#34;&gt;DIY NAS
 &lt;/h2&gt;&lt;p&gt;作为 ITX 机箱爱好者个人是比较抗拒 DIY NAS 的，主要是机箱不好选，相比成品 NAS 来说都太大太丑了，像乔思伯 N2 这种好看的机箱要五六百，加上 ITX主板 + SFX 电源一套下来价格也不低，暂时不考虑。&lt;/p&gt;
-&lt;h2 id=&#34;qnas&#34;&gt;
-    &lt;a href=&#34;#qnas&#34;&gt;#&lt;/a&gt;
-    QNAS
+&lt;h2 id=&#34;qnas&#34;&gt;QNAS
 &lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Kg411z7EG/?spm_id_from=333.337.search-card.all.click&amp;vd_source=18bff3de1dac07e2a9fb0eac3f260a1d&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;超迷你QNAS4盘位NAS机箱 3D打印FDM&lt;/a&gt; ，一个开源的 NAS 机箱项目，尺寸和颜值都挺符合我的需求，不过电源不太好选，配套 X86-P2 规格主板只出到 J4125 处理器的，加入备选。&lt;/p&gt;
-&lt;h2 id=&#34;mini-主机--外置硬盘&#34;&gt;
-    &lt;a href=&#34;#mini-%e4%b8%bb%e6%9c%ba--%e5%a4%96%e7%bd%ae%e7%a1%ac%e7%9b%98&#34;&gt;#&lt;/a&gt;
-    mini 主机 + 外置硬盘
+&lt;h2 id=&#34;mini-主机--外置硬盘&#34;&gt;mini 主机 + 外置硬盘
 &lt;/h2&gt;&lt;p&gt;选择 mini 主机的好处是最新的 N100 处理器的小主机都出货了，比如零刻 EQ12 的价格是 750 元左右，加上内存不会超过 1000 元。&lt;/p&gt;
 &lt;p&gt;但是外置硬盘柜不太好选，搭配便宜的奥睿科硬盘柜怕数据火葬场，靠谱牌子世特力的硬盘柜直接比成品 NAS 还贵，加上 USB 连接本身还会更消耗 CPU 性能，先 PASS 。&lt;/p&gt;
-&lt;h2 id=&#34;威联通-or-极空间&#34;&gt;
-    &lt;a href=&#34;#%e5%a8%81%e8%81%94%e9%80%9a-or-%e6%9e%81%e7%a9%ba%e9%97%b4&#34;&gt;#&lt;/a&gt;
-    威联通 or 极空间
+&lt;h2 id=&#34;威联通-or-极空间&#34;&gt;威联通 or 极空间
 &lt;/h2&gt;&lt;p&gt;群晖已经看不上了，威联通系统还不如群晖，极空间更适合不愿意折腾的新手。&lt;/p&gt;
-&lt;h2 id=&#34;绿联-dx4600&#34;&gt;
-    &lt;a href=&#34;#%e7%bb%bf%e8%81%94-dx4600&#34;&gt;#&lt;/a&gt;
-    绿联 DX4600
+&lt;h2 id=&#34;绿联-dx4600&#34;&gt;绿联 DX4600
 &lt;/h2&gt;&lt;p&gt;最终选择了绿联 DX4600 这款成品 NAS ，无它，阳极氧化铝的外壳，两个 M.2 NVME 硬盘插槽，两个 DDR4 笔记本内存插槽，双 2.5G 网卡，3 个 USB 接口，长城代工的 120W DC 电源，扩展性正好适合我。&lt;/p&gt;
 &lt;p&gt;它最大的优点是主板有个 HDMI 接口，可以进 BIOS 修改启动项来安装其他系统，后面会详细介绍它。&lt;/p&gt;
-&lt;h2 id=&#34;装啥系统&#34;&gt;
-    &lt;a href=&#34;#%e8%a3%85%e5%95%a5%e7%b3%bb%e7%bb%9f&#34;&gt;#&lt;/a&gt;
-    装啥系统
+&lt;h2 id=&#34;装啥系统&#34;&gt;装啥系统
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;OpenMediaVault&lt;/li&gt;
 &lt;/ul&gt;
@@ -389,17 +339,13 @@ qemu-img convert -f vmdk -O qcow2 dnf-disk1.vmdk dnf.qcow2&lt;/code&gt;&lt;/pre&
 &lt;p&gt;我的最终选择，社区良好教程多，虚拟机性能强大可折腾，文件系统很适合个人的媒体服务器，加拿大白嫖王也用的这个。&lt;/p&gt;
 &lt;p&gt;关于 Unraid 更多详细介绍可以看这个视频。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1M64y117DY/?spm_id_from=333.337.search-card.all.click&amp;vd_source=18bff3de1dac07e2a9fb0eac3f260a1d&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Unraid开荒教程01——Unraid特色 适合谁 对比群晖OMV等&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;绿联-dx4600-开箱&#34;&gt;
-    &lt;a href=&#34;#%e7%bb%bf%e8%81%94-dx4600-%e5%bc%80%e7%ae%b1&#34;&gt;#&lt;/a&gt;
-    绿联 DX4600 开箱
+&lt;h2 id=&#34;绿联-dx4600-开箱&#34;&gt;绿联 DX4600 开箱
 &lt;/h2&gt;&lt;p&gt;京东 1950 入手的绿联 DX4600 ，错过了更低的价格，其实 2000元 以内的价格我觉得都 OK 。&lt;/p&gt;
 &lt;p&gt;做工没有让我失望，完爆所有 DIY NAS 和其他成品 NAS 。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/UGREEN-DX4600-front.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;960&#34; height=&#34;916&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/UGREEN-DX4600-front.png&#34; alt=&#34;&#34; class=&#34;wp-image-6617&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;背面的两个 USB 3.0 和一个不知道什么速率的 USB-C 接口，一个用来接 Unraid 的系统引导 U 盘，一个用来外接 USB 硬盘盒备份资料，USB-C 加了个转接头接上 UPS 。&lt;/p&gt;
-&lt;h2 id=&#34;安装-unraid-系统&#34;&gt;
-    &lt;a href=&#34;#%e5%ae%89%e8%a3%85-unraid-%e7%b3%bb%e7%bb%9f&#34;&gt;#&lt;/a&gt;
-    安装 Unraid 系统
+&lt;h2 id=&#34;安装-unraid-系统&#34;&gt;安装 Unraid 系统
 &lt;/h2&gt;&lt;p&gt;首先用 Unraid 官方的 USB Creator 写盘工具将系统写入 U 盘，黑群晖系统的操作同理。&lt;/p&gt;
 &lt;p&gt;为了能让 Unraid 的控制 PWM 风扇调速，需要修改 Unraid U 盘的 config 目录里面的 go 文件，用文本编辑器打开它，加上最下面的两行然后保存。&lt;/p&gt;
 &lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;#!/bin/bash
@@ -414,53 +360,31 @@ modprobe it87 force_id=0x8620&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;两秒左右机器会重启，再次狂按 DEL 键，听到滴声，准备设置 U 盘启动。&lt;/p&gt;
 &lt;p&gt;→ → → → ↓ ↓ ↓ 回车 ↓ ↓ ↓ ↓ ↓ 回车 F10 回车 ，完成后机器会再次重启并进入 U 盘引导的系统。&lt;/p&gt;
 &lt;p&gt;如果没有成功，按 F9 重置 BIOS 设置再重复上面的操作。&lt;/p&gt;
-&lt;h2 id=&#34;unraid-的部分初始化配置&#34;&gt;
-    &lt;a href=&#34;#unraid-%e7%9a%84%e9%83%a8%e5%88%86%e5%88%9d%e5%a7%8b%e5%8c%96%e9%85%8d%e7%bd%ae&#34;&gt;#&lt;/a&gt;
-    Unraid 的部分初始化配置
+&lt;h2 id=&#34;unraid-的部分初始化配置&#34;&gt;Unraid 的部分初始化配置
 &lt;/h2&gt;&lt;p&gt;使用 Unraid 确保你的网络自带科学上网环境，不然会遇到很多问题。&lt;/p&gt;
-&lt;h2 id=&#34;安装官方-app-源&#34;&gt;
-    &lt;a href=&#34;#%e5%ae%89%e8%a3%85%e5%ae%98%e6%96%b9-app-%e6%ba%90&#34;&gt;#&lt;/a&gt;
-    安装官方 APP 源
+&lt;h2 id=&#34;安装官方-app-源&#34;&gt;安装官方 APP 源
 &lt;/h2&gt;&lt;p&gt;在 &lt;strong&gt;PLUGINS&lt;/strong&gt; 选项卡里 &lt;strong&gt;install plugin&lt;/strong&gt; ，填入下面的源并安装。&lt;/p&gt;
 &lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;https:&amp;#47;&amp;#47;raw.githubusercontent.com/Squidly271/community.applications/master/plugins/community.applications.plg&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;安装官方中文语言包&#34;&gt;
-    &lt;a href=&#34;#%e5%ae%89%e8%a3%85%e5%ae%98%e6%96%b9%e4%b8%ad%e6%96%87%e8%af%ad%e8%a8%80%e5%8c%85&#34;&gt;#&lt;/a&gt;
-    安装官方中文语言包
+&lt;h2 id=&#34;安装官方中文语言包&#34;&gt;安装官方中文语言包
 &lt;/h2&gt;&lt;p&gt;先完成第一步，再到 &lt;strong&gt;APPS&lt;/strong&gt; 选项卡里，左侧选 &lt;strong&gt;languages&lt;/strong&gt; ，再里面找到 &lt;strong&gt;简体中文语言包&lt;/strong&gt; 选择安装并切换。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-chinese.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;460&#34; height=&#34;339&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-chinese.png&#34; alt=&#34;&#34; class=&#34;wp-image-6615&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;硬盘加入阵列&#34;&gt;
-    &lt;a href=&#34;#%e7%a1%ac%e7%9b%98%e5%8a%a0%e5%85%a5%e9%98%b5%e5%88%97&#34;&gt;#&lt;/a&gt;
-    硬盘加入阵列
+&lt;h2 id=&#34;硬盘加入阵列&#34;&gt;硬盘加入阵列
 &lt;/h2&gt;&lt;p&gt;在 Main （主界面） 选项卡，添加你的硬盘并加入阵列，然后启动阵列，接着会提示你格式化硬盘。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-array.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;962&#34; height=&#34;629&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-array.png&#34; alt=&#34;&#34; class=&#34;wp-image-6628&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;unraid-必备插件&#34;&gt;
-    &lt;a href=&#34;#unraid-%e5%bf%85%e5%a4%87%e6%8f%92%e4%bb%b6&#34;&gt;#&lt;/a&gt;
-    Unraid 必备插件
-&lt;/h2&gt;&lt;h3 id=&#34;dynamix-auto-fan-control&#34;&gt;
-    &lt;a href=&#34;#dynamix-auto-fan-control&#34;&gt;#&lt;/a&gt;
-    &lt;strong&gt;Dynamix Auto Fan Control&lt;/strong&gt;
+&lt;h2 id=&#34;unraid-必备插件&#34;&gt;Unraid 必备插件
+&lt;/h2&gt;&lt;h3 id=&#34;dynamix-auto-fan-control&#34;&gt;&lt;strong&gt;Dynamix Auto Fan Control&lt;/strong&gt;
 &lt;/h3&gt;&lt;p&gt;控制风扇转速，PWM controller 选择 “it8620 – pwm3”，点击 PWM fan 后的 DETECT 按钮，此时能听到风扇加速转动，等检测结束继续检测“Minimum PWM value”，依次设置后续项并启用即可。&lt;/p&gt;
-&lt;h3 id=&#34;dynamix-system-temperature&#34;&gt;
-    &lt;a href=&#34;#dynamix-system-temperature&#34;&gt;#&lt;/a&gt;
-    Dynamix System Temperature
+&lt;h3 id=&#34;dynamix-system-temperature&#34;&gt;Dynamix System Temperature
 &lt;/h3&gt;&lt;p&gt;在主页显示 CPU 主板温度等信息。&lt;/p&gt;
-&lt;h3 id=&#34;dynamix-file-manager&#34;&gt;
-    &lt;a href=&#34;#dynamix-file-manager&#34;&gt;#&lt;/a&gt;
-    Dynamix File Manager
+&lt;h3 id=&#34;dynamix-file-manager&#34;&gt;Dynamix File Manager
 &lt;/h3&gt;&lt;p&gt;在 WEB 页面进行简单的文件管理操作。&lt;/p&gt;
-&lt;h3 id=&#34;unassigned-devices&#34;&gt;
-    &lt;a href=&#34;#unassigned-devices&#34;&gt;#&lt;/a&gt;
-    Unassigned Devices
+&lt;h3 id=&#34;unassigned-devices&#34;&gt;Unassigned Devices
 &lt;/h3&gt;&lt;p&gt;用来挂载外置 USB 硬盘，这样不用加入阵列也能读写硬盘。&lt;/p&gt;
-&lt;h3 id=&#34;libvirt-hotplug-usb&#34;&gt;
-    &lt;a href=&#34;#libvirt-hotplug-usb&#34;&gt;#&lt;/a&gt;
-    &lt;strong&gt;Libvirt Hotplug USB&lt;/strong&gt;
+&lt;h3 id=&#34;libvirt-hotplug-usb&#34;&gt;&lt;strong&gt;Libvirt Hotplug USB&lt;/strong&gt;
 &lt;/h3&gt;&lt;p&gt;给虚拟机挂载 USB 设备。&lt;/p&gt;
-&lt;h2 id=&#34;虚拟机安装黑群晖&#34;&gt;
-    &lt;a href=&#34;#%e8%99%9a%e6%8b%9f%e6%9c%ba%e5%ae%89%e8%a3%85%e9%bb%91%e7%be%a4%e6%99%96&#34;&gt;#&lt;/a&gt;
-    虚拟机安装黑群晖
+&lt;h2 id=&#34;虚拟机安装黑群晖&#34;&gt;虚拟机安装黑群晖
 &lt;/h2&gt;&lt;p&gt;我打算直接把白群晖拆下的其中一块硬盘直通给虚拟机，所以系统我选择和白裙相同的 DSM 7.2 – 64561 系统，引导直接用 GXNAS 编译的 DS920+_7.2-64561 引导，在 &lt;a href=&#34;https://dl.gxnas.com:1443/?dir=/%E9%BB%91%E7%BE%A4%E6%99%96/%E9%BB%91%E7%BE%A4%E6%99%96DSM6.24%E5%92%8CDSM7.x%E6%B5%8B%E8%AF%95%E7%89%88&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;GXNAS网盘&lt;/a&gt; 可以下载到。&lt;/p&gt;
 &lt;p&gt;把引导上传到你的 Unraid NAS 上，新建一个 Linux 虚拟机。&lt;/p&gt;
 &lt;p&gt;自动启动打开，直通 CPU ，核心数随意，机器选 &lt;strong&gt;i440fx-6.0&lt;/strong&gt; ，方便用 virtio 网卡。&lt;/p&gt;
@@ -477,9 +401,7 @@ modprobe it87 force_id=0x8620&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;因为直通了硬盘，无损的把白裙迁移到了虚拟机黑裙上，配置完好。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-vm-dsm-remove.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1053&#34; height=&#34;617&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-vm-dsm-remove.png&#34; alt=&#34;&#34; class=&#34;wp-image-6612&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;network-ups-配置&#34;&gt;
-    &lt;a href=&#34;#network-ups-%e9%85%8d%e7%bd%ae&#34;&gt;#&lt;/a&gt;
-    Network UPS 配置
+&lt;h2 id=&#34;network-ups-配置&#34;&gt;Network UPS 配置
 &lt;/h2&gt;&lt;p&gt;Unraid 系统自带 UPS 功能，不过我使用的 APC BK650M2-CH 在 Unraid 上有 BUG，会一直显示正在使用电池供电，并且这个 BUG 几年没修了，可能是因为这款 UPS 只在大陆发售。&lt;/p&gt;
 &lt;p&gt;BK650M2-CH 之前在群晖上是正常使用的，所以我把 UPS 直通给了群晖的虚拟机，然后用 NUT 连接群晖的网络 UPS 服务器。&lt;/p&gt;
 &lt;p&gt;群晖的 &lt;strong&gt;控制面板&lt;/strong&gt; – &lt;strong&gt;硬件和电源&lt;/strong&gt; ，启动 UPS 支持，启动网络 UPS ，允许的 Synology NAS 设备里的 IP 地址填写 Unraid 的。&lt;/p&gt;
@@ -494,9 +416,7 @@ modprobe it87 force_id=0x8620&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;我设置的 20% 电量关闭 UPS，仅供参考。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-nut.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1199&#34; height=&#34;766&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-nut.png&#34; alt=&#34;&#34; class=&#34;wp-image-6614&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;试用版升级开心版&#34;&gt;
-    &lt;a href=&#34;#%e8%af%95%e7%94%a8%e7%89%88%e5%8d%87%e7%ba%a7%e5%bc%80%e5%bf%83%e7%89%88&#34;&gt;#&lt;/a&gt;
-    试用版升级开心版
+&lt;h2 id=&#34;试用版升级开心版&#34;&gt;试用版升级开心版
 &lt;/h2&gt;&lt;p&gt;本来打算购入正版的，Unraid 系统 6 盘位的许可证是 60 美元，大陆用户有五折优惠，折合人民币 200 来块，是比较合适的价格，不过在用试用版的时候发现外接的 USB 硬盘也是算作盘位的，如果 DX4600 塞满了硬盘买 6 盘位的许可证就不够用了，所以先用着开心版凑合一下吧。&lt;/p&gt;
 &lt;p&gt;首先在主界面（MAIN）选项卡里找到你引导设备，点击 Flash 进入 U盘(Flash)设备设置 ，再点 Flash 备份，顺便记录下 U 盘的 GUID ，然后关机取下 U 盘接到电脑上。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-flash-backup.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -514,19 +434,13 @@ export UNRAID_VERSION=Pro
 /lib64/ld-linux-x86-64.so.2 /boot/config/unraider
 /usr/local/sbin/emhttp &amp;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;推出 U 盘并接回 NAS 上，这样试用版就无损升级为了 Unraid OS Pro 了。&lt;/p&gt;
-&lt;h2 id=&#34;nginx-反向代理&#34;&gt;
-    &lt;a href=&#34;#nginx-%e5%8f%8d%e5%90%91%e4%bb%a3%e7%90%86&#34;&gt;#&lt;/a&gt;
-    Nginx 反向代理
+&lt;h2 id=&#34;nginx-反向代理&#34;&gt;Nginx 反向代理
 &lt;/h2&gt;&lt;p&gt;在配置反代的时候遇到了几个坑，得详细说下，我使用的是 Nginx Proxy Manager 这个 Docker 容器来配置反代的，使用起来比较简单。因为家里宽带封了 80 443 端口，我通过 单个域名 + 多个端口来反代，所以 Docker 的网络模式选择了 Unraid 默认的 IPVLAN ，给 Nginx Proxy Manager 分配一个内网 IP ，然后通过路由器把端口转发给 Nginx Proxy Manager 的 内网 IP 。&lt;/p&gt;
 &lt;p&gt;首先需要在 Unraid 的 Docker 设置里把 &lt;strong&gt;主机访问自定义网络&lt;/strong&gt; 和 &lt;strong&gt;保留用户定义网络&lt;/strong&gt; 打开，不然反代不了 Unraid 本机！&lt;/p&gt;
-&lt;h3 id=&#34;安装-nginx-proxy-manager&#34;&gt;
-    &lt;a href=&#34;#%e5%ae%89%e8%a3%85-nginx-proxy-manager&#34;&gt;#&lt;/a&gt;
-    安装 Nginx Proxy Manager
+&lt;h3 id=&#34;安装-nginx-proxy-manager&#34;&gt;安装 Nginx Proxy Manager
 &lt;/h3&gt;&lt;p&gt;我使用的是 chishin/nginx-proxy-manager-zh 这个镜像，直接通过终端来安装。&lt;/p&gt;
 &lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;docker run -d --restart=always --name=npm --net=br0 --ip 任意内网IP  -v /mnt/user/appdata/npm/data:/data -v /mnt/user/appdata/npm/letsencrypt:/etc/letsencrypt -l net.unraid.docker.icon=&#39;https://nginxproxymanager.com/icon.png&#39; chishin/nginx-proxy-manager-zh:latest&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;添加反代&#34;&gt;
-    &lt;a href=&#34;#%e6%b7%bb%e5%8a%a0%e5%8f%8d%e4%bb%a3&#34;&gt;#&lt;/a&gt;
-    添加反代
+&lt;h3 id=&#34;添加反代&#34;&gt;添加反代
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;仪表盘&lt;/strong&gt; – &lt;strong&gt;代理服务&lt;/strong&gt; – &lt;strong&gt;添加代理服务&lt;/strong&gt;，域名填 反代域名+端口号 ，主机即你要转发的内网 IP 。&lt;/p&gt;
 &lt;p&gt;因为没有使用标准的 80/443 端口，所以添加反代的时候还需要在 &lt;strong&gt;代理服务&lt;/strong&gt; – &lt;strong&gt;高级&lt;/strong&gt; 设置里的 &lt;strong&gt;自定义 Nginx 配置&lt;/strong&gt; 加上需要监听的端口。&lt;/p&gt;
 &lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;
@@ -535,9 +449,7 @@ listen &amp;#91;::]:要监听的端口 ssl http2;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/npm-port.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;485&#34; height=&#34;336&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/npm-port.png&#34; alt=&#34;&#34; class=&#34;wp-image-6624&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;unraid-管理面板的反代配置&#34;&gt;
-    &lt;a href=&#34;#unraid-%e7%ae%a1%e7%90%86%e9%9d%a2%e6%9d%bf%e7%9a%84%e5%8f%8d%e4%bb%a3%e9%85%8d%e7%bd%ae&#34;&gt;#&lt;/a&gt;
-    Unraid 管理面板的反代配置
+&lt;h3 id=&#34;unraid-管理面板的反代配置&#34;&gt;Unraid 管理面板的反代配置
 &lt;/h3&gt;&lt;p&gt;如果不配置此参数，反代后的 Unraid 管理页面不会正确跳转。&lt;/p&gt;
 &lt;p&gt;先把 &lt;strong&gt;详细内容&lt;/strong&gt; 里面的 &lt;strong&gt;支持WebSockets&lt;/strong&gt; 勾选。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/npm-unraid.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -569,9 +481,7 @@ location / {
 &lt;p&gt;这样就能愉快在外网访问 Unraid 了，记得设置高强度密码。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-dashboard.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1513&#34; height=&#34;1073&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-dashboard.png&#34; alt=&#34;&#34; class=&#34;wp-image-6626&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;参考资料&#34;&gt;
-    &lt;a href=&#34;#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99&#34;&gt;#&lt;/a&gt;
-    参考资料
+&lt;h2 id=&#34;参考资料&#34;&gt;参考资料
 &lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://www.v2ex.com/t/895046&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;绿联 DX4600 使用 Unraid 流水账&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/read/cv20106439/?jump_opus=1&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;绿联DX4600 unraid风扇转速控制&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://post.smzdm.com/talk/p/az6rq8on/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;绿联DX4600 BIOS关闭Watchdog&lt;/a&gt;&lt;/p&gt;
@@ -723,9 +633,7 @@ location / {
         <description>&lt;p&gt;GTA5开始了预下载，游戏总量达到恐怖的62GB，128GB的SSD肯定是放不下的了。&lt;/p&gt;
 &lt;p&gt;为了GTA5，决定升级下NAS，之前的D410平台的NAS是百兆板载网卡的，加了独立网卡就不能使用网络唤醒了，唯有升级板载千兆网卡的。&lt;/p&gt;
 &lt;p&gt;于是找到了这块Intel原厂的D510MO，在淘宝170块购入二手。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttparkintelcomzh-cnproducts42645intel-desktop-board-d510mo-target_blankintel-desktop-board-d510moa&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttparkintelcomzh-cnproducts42645intel-desktop-board-d510mo-target_blankintel-desktop-board-d510moa&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://ark.intel.com/zh-cn/products/42645/Intel-Desktop-Board-D510MO&#34; target=&#34;_blank&#34;&gt;Intel® Desktop Board D510MO&lt;/a&gt;
+&lt;h2 id=&#34;intel-desktop-board-d510mo&#34;&gt;&lt;a href=&#34;http://ark.intel.com/zh-cn/products/42645/Intel-Desktop-Board-D510MO&#34; target=&#34;_blank&#34;&gt;Intel® Desktop Board D510MO&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;相比D410，D510的频率不变，但是升级为了双核四线程了，L2缓存也变成了1MB，TDP又10W涨到了13W。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/intel-atom-d510.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3664&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/intel-atom-d510.png&#34; alt=&#34;intel-atom-d510&#34; width=&#34;754&#34; height=&#34;657&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/intel-atom-d510.png 754w, https://umi.im/wp-content/uploads/2015/04/intel-atom-d510-150x131.png 150w, https://umi.im/wp-content/uploads/2015/04/intel-atom-d510-300x261.png 300w&#34; sizes=&#34;(max-width: 754px) 100vw, 754px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -738,9 +646,7 @@ location / {
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3682&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-3.png&#34; alt=&#34;Intel-d510mo-3&#34; width=&#34;463&#34; height=&#34;302&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-3.png 463w, https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-3-150x98.png 150w, https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-3-300x196.png 300w&#34; sizes=&#34;(max-width: 463px) 100vw, 463px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-4.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3683&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-4.png&#34; alt=&#34;Intel-d510mo-4&#34; width=&#34;463&#34; height=&#34;302&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-4.png 463w, https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-4-150x98.png 150w, https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-4-300x196.png 300w&#34; sizes=&#34;(max-width: 463px) 100vw, 463px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[divider type=”white|thin|thick|short|dotted|dashed” spacing=”10″]&lt;/p&gt;
-&lt;h2 id=&#34;a-titlewiki-hrefhttpzhwikipediaorgwikiiscsi-target_blankiscsia&#34;&gt;
-    &lt;a href=&#34;#a-titlewiki-hrefhttpzhwikipediaorgwikiiscsi-target_blankiscsia&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;WIKI&#34; href=&#34;http://zh.wikipedia.org/wiki/ISCSI&#34; target=&#34;_blank&#34;&gt;iSCSI&lt;/a&gt;
+&lt;h2 id=&#34;iscsi&#34;&gt;&lt;a title=&#34;WIKI&#34; href=&#34;http://zh.wikipedia.org/wiki/ISCSI&#34; target=&#34;_blank&#34;&gt;iSCSI&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;游戏不能安装在NAS映射的网络驱动器上，这时候就需要用到“ISCSI”了，建立一个iSCSI分卷可以最大程度的模拟本地硬盘，也就可以安装运行各种游戏了。&lt;/p&gt;
 &lt;p&gt;打开DSM系统的“存储空间管理员”的“iSCSI LUN”项，点击“新增”，选择“iSCSI（一般文件）”，下一步。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -780,12 +686,8 @@ location / {
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3505&#34; src=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1.png&#34; alt=&#34;xpenoboot-dsm-5-1&#34; width=&#34;841&#34; height=&#34;547&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1.png 841w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-150x98.png 150w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-300x195.png 300w&#34; sizes=&#34;(max-width: 841px) 100vw, 841px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;保留文件升级方法和DSM 4.2升级DSM 5.0一样，很简单，下载XPEnoboot的引导镜像（img格式）和群晖 DS3615xs的官方PAT安装文件。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpnanobooteuorgdownload-target_blankxpenoboot-引导镜像-下载a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpnanobooteuorgdownload-target_blankxpenoboot-%e5%bc%95%e5%af%bc%e9%95%9c%e5%83%8f-%e4%b8%8b%e8%bd%bda&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://nanoboot.eu.org/download&#34; target=&#34;_blank&#34;&gt;XPEnoboot 引导镜像 下载&lt;/a&gt;
-&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttpswwwsynologycomzh-cnsupportdownloadds3615xs-target_blankds3615xs-安装文件-下载a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpswwwsynologycomzh-cnsupportdownloadds3615xs-target_blankds3615xs-%e5%ae%89%e8%a3%85%e6%96%87%e4%bb%b6-%e4%b8%8b%e8%bd%bda&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;https://www.synology.com/zh-cn/support/download/DS3615xs&#34; target=&#34;_blank&#34;&gt;DS3615xs 安装文件 下载&lt;/a&gt;
+&lt;h2 id=&#34;xpenoboot-引导镜像-下载&#34;&gt;&lt;a href=&#34;http://nanoboot.eu.org/download&#34; target=&#34;_blank&#34;&gt;XPEnoboot 引导镜像 下载&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;ds3615xs-安装文件-下载&#34;&gt;&lt;a href=&#34;https://www.synology.com/zh-cn/support/download/DS3615xs&#34; target=&#34;_blank&#34;&gt;DS3615xs 安装文件 下载&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;用Win32 Disk Imager把XPEnoboot的引导镜像写入U盘。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3506&#34; src=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2.png&#34; alt=&#34;xpenoboot-dsm-5-1-2&#34; width=&#34;421&#34; height=&#34;214&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2.png 421w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2-150x76.png 150w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2-300x152.png 300w&#34; sizes=&#34;(max-width: 421px) 100vw, 421px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -799,9 +701,7 @@ location / {
 &lt;p&gt;安装完成自动重启，然后就OK了。&lt;/p&gt;
 &lt;p&gt;相对于DSM 4.2到DSM 5.0，DSM 5.1只能算是很小的更新。&lt;/p&gt;
 &lt;p&gt;主要多了Note Station功能，一个私有云笔记，和Evernote相比没什么优势，甚至可能还没有Evernote安全。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpswwwsynologycomzh-cndsm51-target_blankdiskstation-manager-51a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpswwwsynologycomzh-cndsm51-target_blankdiskstation-manager-51a&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;https://www.synology.com/zh-cn/dsm/5.1&#34; target=&#34;_blank&#34;&gt;DiskStation Manager 5.1&lt;/a&gt;
+&lt;h2 id=&#34;diskstation-manager-51&#34;&gt;&lt;a href=&#34;https://www.synology.com/zh-cn/dsm/5.1&#34; target=&#34;_blank&#34;&gt;DiskStation Manager 5.1&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>
@@ -812,12 +712,8 @@ location / {
         <guid>https://umi.im/nas-synology/</guid>
         <description>&lt;p&gt;10月的时候就打算买一台群晖的NAS了，结果被人忽悠去买iPad了。这个月又有双十一…没钱了，没办法了不能再拖了只好装一台黑群晖了。&lt;/p&gt;
 &lt;p&gt;之前在SMZDM（色魔张大妈）看到这两篇这样的文章：&lt;/p&gt;
-&lt;h2 id=&#34;a-title跳转-hrefhttpshowsmzdmcomdetail43425-target_blank500元-nas-黑群晖-配置完成不含硬盘nas能做什么a&#34;&gt;
-    &lt;a href=&#34;#a-title%e8%b7%b3%e8%bd%ac-hrefhttpshowsmzdmcomdetail43425-target_blank500%e5%85%83-nas-%e9%bb%91%e7%be%a4%e6%99%96-%e9%85%8d%e7%bd%ae%e5%ae%8c%e6%88%90%e4%b8%8d%e5%90%ab%e7%a1%ac%e7%9b%98nas%e8%83%bd%e5%81%9a%e4%bb%80%e4%b9%88a&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;跳转&#34; href=&#34;http://show.smzdm.com/detail/43425&#34; target=&#34;_blank&#34;&gt;500元 NAS 黑群晖 配置完成（不含硬盘），NAS能做什么？&lt;/a&gt;
-&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttpjysmzdmcomdetail20115-target_blanknas群晖dsm-50-4458-傻瓜安装教程a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpjysmzdmcomdetail20115-target_blanknas%e7%be%a4%e6%99%96dsm-50-4458-%e5%82%bb%e7%93%9c%e5%ae%89%e8%a3%85%e6%95%99%e7%a8%8ba&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://jy.smzdm.com/detail/20115&#34; target=&#34;_blank&#34;&gt;NAS群晖DSM 5.0-4458 傻瓜安装教程&lt;/a&gt;
+&lt;h2 id=&#34;500元-nas-黑群晖-配置完成不含硬盘nas能做什么&#34;&gt;&lt;a title=&#34;跳转&#34; href=&#34;http://show.smzdm.com/detail/43425&#34; target=&#34;_blank&#34;&gt;500元 NAS 黑群晖 配置完成（不含硬盘），NAS能做什么？&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;nas群晖dsm-50-4458-傻瓜安装教程&#34;&gt;&lt;a href=&#34;http://jy.smzdm.com/detail/20115&#34; target=&#34;_blank&#34;&gt;NAS群晖DSM 5.0-4458 傻瓜安装教程&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;正好机箱、电源我都有了，可以更低价搞一个。&lt;/p&gt;
 &lt;p&gt;于是，买了富士康的嵌入式CPU的ITX板子（Intel Atom D410、130块），1GB DDR2内存（10块），一张螃蟹千兆网卡（10块），一个U盘（15块），加上已有的电源和机箱，花了183块就搞定了一台黑群晖，配件虽然都是拆机的古董，但是性能比1500块DS213J强。&lt;/p&gt;
 &lt;p&gt;到手后我才想起来，这货只有两个SATA啊！嘛，算了，正好阻止了以后买硬盘。&lt;/p&gt;
@@ -831,12 +727,8 @@ location / {
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-BOOT.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3226&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-BOOT.jpg&#34; alt=&#34;DSM-BOOT&#34; width=&#34;1280&#34; height=&#34;956&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-BOOT.jpg 1280w, https://umi.im/wp-content/uploads/2014/11/DSM-BOOT-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/11/DSM-BOOT-300x224.jpg 300w, https://umi.im/wp-content/uploads/2014/11/DSM-BOOT-1024x764.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;使用Synology Assistant找到局域网的黑群晖来安装DSM系统，DSM系统是需要通过pat后辍名的文件安装，可以通过官网下载到。&lt;/p&gt;
-&lt;h2 id=&#34;a-titleftp下载-hrefhttpukdlsynologycomftpdsm504493-target_blankindex-of-ftpdsm504493a&#34;&gt;
-    &lt;a href=&#34;#a-titleftp%e4%b8%8b%e8%bd%bd-hrefhttpukdlsynologycomftpdsm504493-target_blankindex-of-ftpdsm504493a&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;FTP下载&#34; href=&#34;http://ukdl.synology.com/ftp/DSM/5.0/4493/&#34; target=&#34;_blank&#34;&gt;Index of /ftp/DSM/5.0/4493&lt;/a&gt;
-&lt;/h2&gt;&lt;h2 id=&#34;img-loadinglazy-decodingasync-classalignnone-size-full-wp-image-3227-srchttpsumiimwp-contentuploads201411dsm-1png-altdsm-1-width696-height608-srcsethttpsumiimwp-contentuploads201411dsm-1png-696w-httpsumiimwp-contentuploads201411dsm-1-150x131png-150w-httpsumiimwp-contentuploads201411dsm-1-300x262png-300w-sizesmax-width-696px-100vw-696px-4&#34;&gt;
-    &lt;a href=&#34;#img-loadinglazy-decodingasync-classalignnone-size-full-wp-image-3227-srchttpsumiimwp-contentuploads201411dsm-1png-altdsm-1-width696-height608-srcsethttpsumiimwp-contentuploads201411dsm-1png-696w-httpsumiimwp-contentuploads201411dsm-1-150x131png-150w-httpsumiimwp-contentuploads201411dsm-1-300x262png-300w-sizesmax-width-696px-100vw-696px-4&#34;&gt;#&lt;/a&gt;
-    &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;index-of-ftpdsm504493&#34;&gt;&lt;a title=&#34;FTP下载&#34; href=&#34;http://ukdl.synology.com/ftp/DSM/5.0/4493/&#34; target=&#34;_blank&#34;&gt;Index of /ftp/DSM/5.0/4493&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3227&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-1.png&#34; alt=&#34;DSM-1&#34; width=&#34;696&#34; height=&#34;608&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-1.png 696w, https://umi.im/wp-content/uploads/2014/11/DSM-1-150x131.png 150w, https://umi.im/wp-content/uploads/2014/11/DSM-1-300x262.png 300w&#34; sizes=&#34;(max-width: 696px) 100vw, 696px&#34; /&gt;&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;中间再设置NAS名称、密码等。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

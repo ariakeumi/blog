@@ -12,21 +12,15 @@
         <pubDate>Mon, 04 Sep 2023 01:25:19 +0000</pubDate>
         
         <guid>https://umi.im/synology-photos-ai/</guid>
-        <description>&lt;h2 id=&#34;群晖相册&#34;&gt;
-    &lt;a href=&#34;#%e7%be%a4%e6%99%96%e7%9b%b8%e5%86%8c&#34;&gt;#&lt;/a&gt;
-    群晖相册
+        <description>&lt;h2 id=&#34;群晖相册&#34;&gt;群晖相册
 &lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://www.synology.cn/zh-cn/dsm/feature/photos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Synology Photos&lt;/a&gt; 是群晖系统的相册应用，他的前身 Memonts 应用有个对象识别功能，可以帮你自动分类相册，就像 Google Photos 那样。&lt;/p&gt;
 &lt;p&gt;在升级 DSM 7.0 后群晖砍了掉这个功能，近期又在 Synology Photos 1.5.0-0488 版本里更新了这个功能。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/09/synologo-photos-ai.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;981&#34; height=&#34;589&#34; src=&#34;https://umi.im/wp-content/uploads/2023/09/synologo-photos-ai.png&#34; alt=&#34;&#34; class=&#34;wp-image-6679&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;虽然识别错误不少，但是找猫图还是方便多了。&lt;/p&gt;
-&lt;h2 id=&#34;硬件要求&#34;&gt;
-    &lt;a href=&#34;#%e7%a1%ac%e4%bb%b6%e8%a6%81%e6%b1%82&#34;&gt;#&lt;/a&gt;
-    硬件要求
+&lt;h2 id=&#34;硬件要求&#34;&gt;硬件要求
 &lt;/h2&gt;&lt;p&gt;黑群晖最常用的引导是 DS918+ 、DS920+ 和 DS3617xs 这几个型号，如果是 DS918+ 和 DS920+ 引导的黑群晖，需要最低 4GB 内存才能开启对象识别功能，而 DS3617xs 则需要 8GB 内存，白群晖也一样。&lt;/p&gt;
-&lt;h2 id=&#34;人脸识别补丁&#34;&gt;
-    &lt;a href=&#34;#%e4%ba%ba%e8%84%b8%e8%af%86%e5%88%ab%e8%a1%a5%e4%b8%81&#34;&gt;#&lt;/a&gt;
-    人脸识别补丁
+&lt;h2 id=&#34;人脸识别补丁&#34;&gt;人脸识别补丁
 &lt;/h2&gt;&lt;p&gt;对象识别功能需要调用核显 GPU 来实现，如果是没有核显的黑群晖，需要打上人脸识别补丁，让它调用 CPU 来识别。&lt;/p&gt;
 &lt;p&gt;先停用 Synology Photos ，进 SSH 执行下面几行代码。&lt;/p&gt;
 &lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;wget http://code.imnks.com/face/PatchELFSharp
@@ -67,9 +61,7 @@ chmod +x PatchELFSharp
         <description>&lt;p&gt;GTA5开始了预下载，游戏总量达到恐怖的62GB，128GB的SSD肯定是放不下的了。&lt;/p&gt;
 &lt;p&gt;为了GTA5，决定升级下NAS，之前的D410平台的NAS是百兆板载网卡的，加了独立网卡就不能使用网络唤醒了，唯有升级板载千兆网卡的。&lt;/p&gt;
 &lt;p&gt;于是找到了这块Intel原厂的D510MO，在淘宝170块购入二手。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttparkintelcomzh-cnproducts42645intel-desktop-board-d510mo-target_blankintel-desktop-board-d510moa&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttparkintelcomzh-cnproducts42645intel-desktop-board-d510mo-target_blankintel-desktop-board-d510moa&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://ark.intel.com/zh-cn/products/42645/Intel-Desktop-Board-D510MO&#34; target=&#34;_blank&#34;&gt;Intel® Desktop Board D510MO&lt;/a&gt;
+&lt;h2 id=&#34;intel-desktop-board-d510mo&#34;&gt;&lt;a href=&#34;http://ark.intel.com/zh-cn/products/42645/Intel-Desktop-Board-D510MO&#34; target=&#34;_blank&#34;&gt;Intel® Desktop Board D510MO&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;相比D410，D510的频率不变，但是升级为了双核四线程了，L2缓存也变成了1MB，TDP又10W涨到了13W。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/intel-atom-d510.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3664&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/intel-atom-d510.png&#34; alt=&#34;intel-atom-d510&#34; width=&#34;754&#34; height=&#34;657&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/intel-atom-d510.png 754w, https://umi.im/wp-content/uploads/2015/04/intel-atom-d510-150x131.png 150w, https://umi.im/wp-content/uploads/2015/04/intel-atom-d510-300x261.png 300w&#34; sizes=&#34;(max-width: 754px) 100vw, 754px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -82,9 +74,7 @@ chmod +x PatchELFSharp
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3682&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-3.png&#34; alt=&#34;Intel-d510mo-3&#34; width=&#34;463&#34; height=&#34;302&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-3.png 463w, https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-3-150x98.png 150w, https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-3-300x196.png 300w&#34; sizes=&#34;(max-width: 463px) 100vw, 463px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-4.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3683&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-4.png&#34; alt=&#34;Intel-d510mo-4&#34; width=&#34;463&#34; height=&#34;302&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-4.png 463w, https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-4-150x98.png 150w, https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-4-300x196.png 300w&#34; sizes=&#34;(max-width: 463px) 100vw, 463px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[divider type=”white|thin|thick|short|dotted|dashed” spacing=”10″]&lt;/p&gt;
-&lt;h2 id=&#34;a-titlewiki-hrefhttpzhwikipediaorgwikiiscsi-target_blankiscsia&#34;&gt;
-    &lt;a href=&#34;#a-titlewiki-hrefhttpzhwikipediaorgwikiiscsi-target_blankiscsia&#34;&gt;#&lt;/a&gt;
-    &lt;a title=&#34;WIKI&#34; href=&#34;http://zh.wikipedia.org/wiki/ISCSI&#34; target=&#34;_blank&#34;&gt;iSCSI&lt;/a&gt;
+&lt;h2 id=&#34;iscsi&#34;&gt;&lt;a title=&#34;WIKI&#34; href=&#34;http://zh.wikipedia.org/wiki/ISCSI&#34; target=&#34;_blank&#34;&gt;iSCSI&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;游戏不能安装在NAS映射的网络驱动器上，这时候就需要用到“ISCSI”了，建立一个iSCSI分卷可以最大程度的模拟本地硬盘，也就可以安装运行各种游戏了。&lt;/p&gt;
 &lt;p&gt;打开DSM系统的“存储空间管理员”的“iSCSI LUN”项，点击“新增”，选择“iSCSI（一般文件）”，下一步。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -124,12 +114,8 @@ chmod +x PatchELFSharp
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3505&#34; src=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1.png&#34; alt=&#34;xpenoboot-dsm-5-1&#34; width=&#34;841&#34; height=&#34;547&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1.png 841w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-150x98.png 150w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-300x195.png 300w&#34; sizes=&#34;(max-width: 841px) 100vw, 841px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;保留文件升级方法和DSM 4.2升级DSM 5.0一样，很简单，下载XPEnoboot的引导镜像（img格式）和群晖 DS3615xs的官方PAT安装文件。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpnanobooteuorgdownload-target_blankxpenoboot-引导镜像-下载a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpnanobooteuorgdownload-target_blankxpenoboot-%e5%bc%95%e5%af%bc%e9%95%9c%e5%83%8f-%e4%b8%8b%e8%bd%bda&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;http://nanoboot.eu.org/download&#34; target=&#34;_blank&#34;&gt;XPEnoboot 引导镜像 下载&lt;/a&gt;
-&lt;/h2&gt;&lt;h2 id=&#34;a-hrefhttpswwwsynologycomzh-cnsupportdownloadds3615xs-target_blankds3615xs-安装文件-下载a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpswwwsynologycomzh-cnsupportdownloadds3615xs-target_blankds3615xs-%e5%ae%89%e8%a3%85%e6%96%87%e4%bb%b6-%e4%b8%8b%e8%bd%bda&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;https://www.synology.com/zh-cn/support/download/DS3615xs&#34; target=&#34;_blank&#34;&gt;DS3615xs 安装文件 下载&lt;/a&gt;
+&lt;h2 id=&#34;xpenoboot-引导镜像-下载&#34;&gt;&lt;a href=&#34;http://nanoboot.eu.org/download&#34; target=&#34;_blank&#34;&gt;XPEnoboot 引导镜像 下载&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;ds3615xs-安装文件-下载&#34;&gt;&lt;a href=&#34;https://www.synology.com/zh-cn/support/download/DS3615xs&#34; target=&#34;_blank&#34;&gt;DS3615xs 安装文件 下载&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;用Win32 Disk Imager把XPEnoboot的引导镜像写入U盘。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3506&#34; src=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2.png&#34; alt=&#34;xpenoboot-dsm-5-1-2&#34; width=&#34;421&#34; height=&#34;214&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2.png 421w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2-150x76.png 150w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2-300x152.png 300w&#34; sizes=&#34;(max-width: 421px) 100vw, 421px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -143,9 +129,7 @@ chmod +x PatchELFSharp
 &lt;p&gt;安装完成自动重启，然后就OK了。&lt;/p&gt;
 &lt;p&gt;相对于DSM 4.2到DSM 5.0，DSM 5.1只能算是很小的更新。&lt;/p&gt;
 &lt;p&gt;主要多了Note Station功能，一个私有云笔记，和Evernote相比没什么优势，甚至可能还没有Evernote安全。&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefhttpswwwsynologycomzh-cndsm51-target_blankdiskstation-manager-51a&#34;&gt;
-    &lt;a href=&#34;#a-hrefhttpswwwsynologycomzh-cndsm51-target_blankdiskstation-manager-51a&#34;&gt;#&lt;/a&gt;
-    &lt;a href=&#34;https://www.synology.com/zh-cn/dsm/5.1&#34; target=&#34;_blank&#34;&gt;DiskStation Manager 5.1&lt;/a&gt;
+&lt;h2 id=&#34;diskstation-manager-51&#34;&gt;&lt;a href=&#34;https://www.synology.com/zh-cn/dsm/5.1&#34; target=&#34;_blank&#34;&gt;DiskStation Manager 5.1&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
         
