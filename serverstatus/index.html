@@ -502,13 +502,13 @@ nohup ./status-client -dsn="username:password@yourip:35601" -vnstat &</code></pr
 <p>在 <a rel="noreferrer noopener" href="https://github.com/cokemine/ServerStatus-goclient/releases" target="_blank">ServerStatus-goclient/releases</a> 下载对应的二进制客户端并解压到任意目录，通过 Powershell 运行以下命令后台运行，路径和用户名密码 IP 记得替换。</p>
 <pre class="wp-block-code"><code>Start-Process -FilePath "C:\Users\Umi\Desktop\status-client.exe" -ArgumentList '-dsn="username:password@yourip:35601"' -WindowStyle Hidden -Verb RunAs</code></pre>
 <p>如果需要开机自启动配置个 vbs 脚本并在计划任务里设置登录自动打开就行：</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Set objShell = CreateObject(&#34;WScript.Shell&#34;)
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Set objShell = CreateObject(&#34;WScript.Shell&#34;)
 </span></span><span style="display:flex;"><span>objShell.Run &#34;&#34;&#34;C:\Users\Documents\scrutiny\status-client.exe&#34;&#34; -dsn=&#34;&#34;username:password@yourip:3560&#34;&#34;&#34;, 0, False
 </span></span></code></pre></td></tr></table>
 </div>
