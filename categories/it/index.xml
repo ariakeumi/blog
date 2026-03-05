@@ -19,6 +19,7 @@
     &gt;gotify-desktop-macos&lt;/a&gt; ，赶紧下来试用一下，发现是用 Tauri (Rust) + React 开发的，会启动一个 Webkit 进程，几个进程加起来占用了四五百兆内存，UI 也不怎么好看，还得自己动手。&lt;/p&gt;
 &lt;h2 id=&#34;开发环境&#34;&gt;开发环境
 &lt;/h2&gt;&lt;p&gt;目前最火的 AI 编程工具是 Claude Code ，不过它是 CLI 界面的，作为零基础小白，我选择了 OpenAI 的 Codex ，至少它还有中文 GUI 和够用的免费额度&amp;hellip;&lt;/p&gt;
+&lt;p&gt;模型用默认的 GPT-5.3-Codex 。&lt;/p&gt;
 &lt;p&gt;当然，开发 macOS APP 还得安装 CodeX ，安装过程就不说了，很简单。&lt;/p&gt;
 &lt;h2 id=&#34;开始-vibe-coding&#34;&gt;开始 Vibe Coding
 &lt;/h2&gt;&lt;p&gt;我先问了 Gemini 开发 APP 要用啥提示词。&lt;/p&gt;
@@ -175,6 +176,9 @@
 &lt;p&gt;除了解决登录那里卡了一会，几十分钟就能整出一个完成度很高的 macOS APP 了。&lt;/p&gt;
 &lt;p&gt;时代真的变了，零基础小白一两小时就能开发一个桌面 APP 了。&lt;/p&gt;
 &lt;p&gt;现在不差程序员了，只差一个产品经理。&lt;/p&gt;
+&lt;h2 id=&#34;源代码&#34;&gt;源代码
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ariakeumi/Gotify-Swift&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Gotify-Swift&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
