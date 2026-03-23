@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://umi.im/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>JAV 自动翻译工具</title>
+        <title>JAV 字幕自动翻译工具</title>
         <link>https://umi.im/jav%E2%80%94atuo-translation/</link>
         <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
         
@@ -40,8 +40,6 @@
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;image-20260323195314752&#34;
-	
 	
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;112&#34;
@@ -55,8 +53,6 @@
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;image-20260323195605878&#34;
-	
 	
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;112&#34;
@@ -68,8 +64,6 @@
 	height=&#34;1952&#34;
 	
 	loading=&#34;lazy&#34;
-	
-		alt=&#34;image-20260323200518810&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
