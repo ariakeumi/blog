@@ -8,14 +8,13 @@
         <language>zh-cn</language>
         <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://umi.im/categories/xxx/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>JAV 字幕自动翻译工具</title>
-        <link>https://umi.im/jav%E2%80%94atuo-translation/</link>
+        <link>https://umi.im/jav-atuo-translation/</link>
         <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
         
-        <guid>https://umi.im/jav%E2%80%94atuo-translation/</guid>
-        <description>&lt;h1 id=&#34;jav-自动翻译工具&#34;&gt;JAV 自动翻译工具
-&lt;/h1&gt;&lt;p&gt;今天刷 V2EX 看到有人做了个【&lt;a class=&#34;link&#34; href=&#34;https://www.v2ex.com/t/1200245&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://umi.im/jav-atuo-translation/</guid>
+        <description>&lt;img src="https://umi.im/jav%E2%80%94atuo-translation.webp" alt="Featured image of post JAV 字幕自动翻译工具" /&gt;&lt;p&gt;今天刷 V2EX 看到有人做了个【&lt;a class=&#34;link&#34; href=&#34;https://www.v2ex.com/t/1200245&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;日本小电影提取字幕并翻译的工具&lt;/a&gt;】，而且编译了 macOS 的版本，正好有几部喜欢的片子没字幕的，直接试试。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/jav%E2%80%94atuo-translation/image-20260323194747928.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://umi.im/jav-atuo-translation/image-20260323194747928.png&#34;
 	width=&#34;1972&#34;
 	height=&#34;900&#34;
 	
@@ -34,7 +33,7 @@
 &lt;h2 id=&#34;使用&#34;&gt;使用
 &lt;/h2&gt;&lt;p&gt;这个用起来相当傻瓜了，字幕提取模型选默认的 large-v3-trubo 就行，能直接从中国大陆的镜像源下载。&lt;/p&gt;
 &lt;p&gt;我的是 M4 MacBook Air ，提取这部 MSFH-010 的字幕大约花了十几分钟，效率还是很高的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/jav%E2%80%94atuo-translation/image-20260323195314752.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://umi.im/jav-atuo-translation/image-20260323195314752.png&#34;
 	width=&#34;2304&#34;
 	height=&#34;2042&#34;
 	
@@ -47,7 +46,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;翻译模型我用了 gemini-3.1-flash-lite ，直接用 Google AI Studio 的免费 API ，翻译了 116 行字幕调用了 9 次 API，免费额度是完全够用的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/jav%E2%80%94atuo-translation/image-20260323195605878.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://umi.im/jav-atuo-translation/image-20260323195605878.png&#34;
 	width=&#34;2304&#34;
 	height=&#34;2042&#34;
 	
@@ -59,7 +58,7 @@
 		data-flex-basis=&#34;270px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/jav%E2%80%94atuo-translation/image-20260323200518810.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://umi.im/jav-atuo-translation/image-20260323200518810.png&#34;
 	width=&#34;2458&#34;
 	height=&#34;1952&#34;
 	
@@ -72,8 +71,8 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;下载&#34;&gt;下载
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/cddqssc/Caption-Trans/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Caption-Trans&lt;/a&gt;&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/cddqssc/Caption-Trans/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Caption-Trans&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
