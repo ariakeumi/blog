@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>博客 on 笨蛋屋</title>
-        <link>https://umi.im/tags/%E5%8D%9A%E5%AE%A2/</link>
+        <link>https://baka.li/tags/%E5%8D%9A%E5%AE%A2/</link>
         <description>Recent content in 博客 on 笨蛋屋</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 10 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://umi.im/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 10 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://baka.li/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>突如其来300GB流量冲击：一次博客服务下线的教训</title>
-        <link>https://umi.im/300gb-traffic-crash-blog/</link>
+        <link>https://baka.li/300gb-traffic-crash-blog/</link>
         <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://umi.im/300gb-traffic-crash-blog/</guid>
-        <description>&lt;img src="https://umi.im/300gb-traffic-crash-blog/umami-120k.png" alt="Featured image of post 突如其来300GB流量冲击：一次博客服务下线的教训" /&gt;&lt;h2 id=&#34;博客下线&#34;&gt;博客下线
+        <guid>https://baka.li/300gb-traffic-crash-blog/</guid>
+        <description>&lt;img src="https://baka.li/300gb-traffic-crash-blog/umami-120k.png" alt="Featured image of post 突如其来300GB流量冲击：一次博客服务下线的教训" /&gt;&lt;h2 id=&#34;博客下线&#34;&gt;博客下线
 &lt;/h2&gt;&lt;p&gt;2024 年 9 月 1 号凌晨 1 点左右突然睡醒，看了下手机，Uptime Kuma 提示博客下线，Beszel 提示 VPS 磁盘占用达到 80% 。&lt;/p&gt;
 &lt;p&gt;赶紧打开电脑，SSH 连不上 VPS ，VPS 后台显示刚重置的月流量已经用了三百多 GB ，后台重启 VPS 后终于能连上服务器了，博客也重新上线。&lt;/p&gt;
 &lt;h2 id=&#34;流量偷跑&#34;&gt;流量偷跑
 &lt;/h2&gt;&lt;p&gt;运行博客的 VPS 总共 450GB/月 的流量，一觉醒来就没了300GB。&lt;/p&gt;
 &lt;p&gt;首先怀疑是部署在这台 VPS 上的梯子被盗用了，检查 X-UI 发现流量使用很正常，就算把 xray 服务停止了流量还在飞速流逝。&lt;/p&gt;
-&lt;p&gt;接着查看了下 NGINX 的日志，发现是 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/03/uniqlo-sex.mp4&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://umi.im/wp-content/uploads/2023/03/uniqlo-sex.mp4&lt;/a&gt; 被疯狂访问，这是 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/uniqlo-sex/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;p&gt;接着查看了下 NGINX 的日志，发现是 &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/03/uniqlo-sex.mp4&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://baka.li/wp-content/uploads/2023/03/uniqlo-sex.mp4&lt;/a&gt; 被疯狂访问，这是 &lt;a class=&#34;link&#34; href=&#34;https://baka.li/uniqlo-sex/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;三里屯优衣库试衣间事件视频&lt;/a&gt; ，在 2015 年事件爆火时顺便发布在博客的，突然间这么多人访问，第一反应是被人恶意刷流量了。&lt;/p&gt;
 &lt;p&gt;随即把视频挪到了 Cloudflare R2 的对象存储上，流量开始大幅下降，但仅仅在排查的十来分钟里又没了 50GB 流量。&lt;/p&gt;
 &lt;h2 id=&#34;故障原因&#34;&gt;故障原因
 &lt;/h2&gt;&lt;p&gt;本博客是部署在 Github Pages 上，再通过一台 CN2GIA 线路的 VPS 进行反代。&lt;/p&gt;
-&lt;p&gt;由于 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/uniqlo-sex/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;p&gt;由于 &lt;a class=&#34;link&#34; href=&#34;https://baka.li/uniqlo-sex/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;三里屯优衣库试衣间事件视频&lt;/a&gt; 被频繁访问，导致 NGINX 的 proxy_temp_dir 目录爆满，这台只有 10GB 硬盘的 VPS 直接寄了。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;proxy_temp_dir&lt;/code&gt; 是一个临时目录，用于存储尚未完全接收到的上游响应。当 NGINX 从上游服务器获取响应时，如果响应较大或正在传输过程中，数据会先存储在 &lt;code&gt;proxy_temp_dir&lt;/code&gt; 中。一旦接收完整，数据将被转移到 &lt;code&gt;proxy_cache_dir&lt;/code&gt; 中。&lt;/p&gt;
@@ -33,7 +33,7 @@
 &lt;h2 id=&#34;流量来源&#34;&gt;流量来源
 &lt;/h2&gt;&lt;p&gt;前面说了，怀疑是被人恶意刷流量，毕竟确实有贱人喜欢干这种事。&lt;/p&gt;
 &lt;p&gt;不过当我打开 Umami （网站统计）时，看到了惊人的数据，近一天有 120K 的浏览量，把博客前十年的浏览量加起来还多。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/300gb-traffic-crash-blog/umami-120k.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/300gb-traffic-crash-blog/umami-120k.png&#34;
 	width=&#34;1461&#34;
 	height=&#34;797&#34;
 	
@@ -47,9 +47,9 @@
 		data-flex-basis=&#34;439px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;主要浏览量来自&lt;a class=&#34;link&#34; href=&#34;https://umi.im/uniqlo-sex/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;p&gt;主要浏览量来自&lt;a class=&#34;link&#34; href=&#34;https://baka.li/uniqlo-sex/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;三里屯优衣库试衣间事件视频&lt;/a&gt; ，而来源域名几乎全是 t.co ，这是推特的跳转链接域名。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/300gb-traffic-crash-blog/umami-source.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/300gb-traffic-crash-blog/umami-source.png&#34;
 	width=&#34;1331&#34;
 	height=&#34;470&#34;
 	
@@ -65,7 +65,7 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;于是我去推特搜索了 “三里屯优衣库” ，终于破案了。&lt;/p&gt;
 &lt;p&gt;一位推特上六十多万粉的 PO 主转发了我这篇老古董博客。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/300gb-traffic-crash-blog/uniqlo-sex-x-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/300gb-traffic-crash-blog/uniqlo-sex-x-1.png&#34;
 	width=&#34;661&#34;
 	height=&#34;829&#34;
 	
@@ -79,7 +79,7 @@
 		data-flex-basis=&#34;191px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/300gb-traffic-crash-blog/uniqlo-sex-x-2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/300gb-traffic-crash-blog/uniqlo-sex-x-2.png&#34;
 	width=&#34;658&#34;
 	height=&#34;733&#34;
 	
@@ -96,7 +96,7 @@
 &lt;h2 id=&#34;赛博菩萨&#34;&gt;赛博菩萨
 &lt;/h2&gt;&lt;p&gt;不得不感叹，色情是第一生产力，流量真的可怕。&lt;/p&gt;
 &lt;p&gt;视频挪到 R2 对象存储十来天后，Cloudflare 已经帮我扛了 2.5TB 的流量了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/300gb-traffic-crash-blog/cloudflare-r2-bandwidth.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/300gb-traffic-crash-blog/cloudflare-r2-bandwidth.png&#34;
 	width=&#34;1333&#34;
 	height=&#34;707&#34;
 	
@@ -114,16 +114,16 @@
         </item>
         <item>
         <title>Wordpress 博客迁移到 HUGO</title>
-        <link>https://umi.im/wordpress-to-hugo/</link>
+        <link>https://baka.li/wordpress-to-hugo/</link>
         <pubDate>Tue, 23 Apr 2024 23:37:52 +0800</pubDate>
         
-        <guid>https://umi.im/wordpress-to-hugo/</guid>
-        <description>&lt;img src="https://umi.im/wordpress-to-hugo/wordpress-to-hugo.webp" alt="Featured image of post Wordpress 博客迁移到 HUGO" /&gt;&lt;h2 id=&#34;缘起&#34;&gt;缘起
+        <guid>https://baka.li/wordpress-to-hugo/</guid>
+        <description>&lt;img src="https://baka.li/wordpress-to-hugo/wordpress-to-hugo.webp" alt="Featured image of post Wordpress 博客迁移到 HUGO" /&gt;&lt;h2 id=&#34;缘起&#34;&gt;缘起
 &lt;/h2&gt;&lt;p&gt;无意中看到一个博客，主题非常好看，第一眼就喜欢上了。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hugo Theme Stack&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;这是一个 Hugo 博客主题，作者 CaiJimmy ，在 Github 上有 4.3K 的 Star 。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/wordpress-to-hugo/hugo-theme-stack.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/wordpress-to-hugo/hugo-theme-stack.png&#34;
 	width=&#34;1555&#34;
 	height=&#34;846&#34;
 	
@@ -139,7 +139,7 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;主题风格像谷歌的 Material You，我搜了 Wordpres 相关的主题，都是旧的 Material Design 2 的主题，如 &lt;a class=&#34;link&#34; href=&#34;https://github.com/yrccondor/mdx&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;MDx&lt;/a&gt; ，不如新的好看，而且大多不维护了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/wordpress-to-hugo/md-2-vs-md-3.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/wordpress-to-hugo/md-2-vs-md-3.jpg&#34;
 	width=&#34;1000&#34;
 	height=&#34;562&#34;
 	
@@ -159,11 +159,11 @@
 &lt;h2 id=&#34;尝试-halo&#34;&gt;尝试 Halo
 &lt;/h2&gt;&lt;p&gt;为了用上喜欢的主题，我决定试一下 Halo 。&lt;/p&gt;
 &lt;p&gt;Halo 部署起来非常方便，两三下就搞定了，把 Wordpress 文章导入 Halo 后发现不对劲了。&lt;/p&gt;
-&lt;p&gt;我在 WP 中使用的固定链接格式是 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/post&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://umi.im/post&lt;/a&gt; ，这样很简洁。&lt;/p&gt;
-&lt;p&gt;而 Halo 无法设置这种固定链接，会在文章名前面加上 ?p= 符号，导致 URL 变成 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/?p=post&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://umi.im/?p=post&lt;/a&gt; ，这会影响网站的 SEO 。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/wordpress-to-hugo/halo-url.png&#34;
+&lt;p&gt;我在 WP 中使用的固定链接格式是 &lt;a class=&#34;link&#34; href=&#34;https://baka.li/post&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://baka.li/post&lt;/a&gt; ，这样很简洁。&lt;/p&gt;
+&lt;p&gt;而 Halo 无法设置这种固定链接，会在文章名前面加上 ?p= 符号，导致 URL 变成 &lt;a class=&#34;link&#34; href=&#34;https://baka.li/?p=post&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://baka.li/?p=post&lt;/a&gt; ，这会影响网站的 SEO 。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/wordpress-to-hugo/halo-url.png&#34;
 	width=&#34;560&#34;
 	height=&#34;250&#34;
 	
@@ -186,9 +186,9 @@
 &lt;p&gt;我的 VPS 都是单核 1GB 内存的，运行起来真的很吃力，编辑器很难用，让人没有写博客的欲望。&lt;/p&gt;
 &lt;p&gt;最最最重要的是，WP 实在缺好看的个人博客主题。&lt;a class=&#34;link&#34; href=&#34;https://github.com/solstice23/argon-theme&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Argon-Theme&lt;/a&gt; 是我为数不多喜欢的，可惜作者已经弃坑，就趁着这机会迁移到 Hugo 吧。&lt;/p&gt;
-&lt;p&gt;存图纪念一下，感谢 &lt;a class=&#34;link&#34; href=&#34;https://web.archive.org/web/20240314122423/https://umi.im/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;p&gt;存图纪念一下，感谢 &lt;a class=&#34;link&#34; href=&#34;https://web.archive.org/web/20240314122423/https://baka.li/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;archive.org&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/wordpress-to-hugo/rip-wordpress.webp&#34;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/wordpress-to-hugo/rip-wordpress.webp&#34;
 	width=&#34;1704&#34;
 	height=&#34;925&#34;
 	
@@ -229,7 +229,7 @@
 &lt;p&gt;wp-content 是 WP 的文件目录，主要是图片，把它拷贝到 Hugo 的 content 目录。&lt;/p&gt;
 &lt;p&gt;posts 目录内的是转换成 Markdown 格式的 WP 文章，拷贝到 content/post 目录。&lt;/p&gt;
 &lt;p&gt;剩下的几个目录是我的 WP 页面，拷贝到 content/page 目录，config.yaml 记录了网站名和描述，这个不用拷贝过去，用 Stack 主题自带的 exampleSite 配置 config.yaml 就行。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/wordpress-to-hugo/hugo-export.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/wordpress-to-hugo/hugo-export.png&#34;
 	width=&#34;981&#34;
 	height=&#34;638&#34;
 	
@@ -273,7 +273,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;运行-hugo&#34;&gt;运行 Hugo
 &lt;/h3&gt;&lt;p&gt;把本机的 hugo 博客目录打包上传到 VPS 上，在 hugo 目录运行：&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;hugo server --appendPort=false --baseURL=&amp;quot;https://umi.im&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hugo server --appendPort=false --baseURL=&amp;quot;https://baka.li&amp;quot;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;如果不加 &amp;ndash;appendPort  参数会导致搜索无法使用。&lt;/p&gt;
 &lt;p&gt;运行后会在 hugo 目录生成 public 目录，用 Nginx 配置的静态网站指向这个目录，再配置好证书就可以访问了。&lt;/p&gt;
 &lt;h2 id=&#34;评论系统&#34;&gt;评论系统
@@ -288,10 +288,10 @@
 &lt;p&gt;参考 &lt;a class=&#34;link&#34; href=&#34;https://ceeji.net/blog/migrate-from-wordpress-to-hugo/#%E4%BB%8E-wordpress-%E8%AF%84%E8%AE%BA%E8%BF%81%E7%A7%BB%E5%88%B0-waline&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;从 Wordpress 评论迁移到 Waline&lt;/a&gt; 这篇文章。&lt;/p&gt;
 &lt;p&gt;不过把转换好后台导入后发现 URL 有问题。&lt;/p&gt;
-&lt;p&gt;需要把 url 字段的域名去掉，例如我需要批量把 &amp;ldquo;url&amp;rdquo;: &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/about/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://umi.im/about/&#34;&lt;/a&gt; 改成 &amp;ldquo;url&amp;rdquo;: &amp;ldquo;/about/&amp;rdquo; ，然后再重新导入 Waline 。&lt;/p&gt;
+&lt;p&gt;需要把 url 字段的域名去掉，例如我需要批量把 &amp;ldquo;url&amp;rdquo;: &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/about/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://baka.li/about/&#34;&lt;/a&gt; 改成 &amp;ldquo;url&amp;rdquo;: &amp;ldquo;/about/&amp;rdquo; ，然后再重新导入 Waline 。&lt;/p&gt;
 &lt;p&gt;1500多条评论成功迁移。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/wordpress-to-hugo/waline-comment.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/wordpress-to-hugo/waline-comment.png&#34;
 	width=&#34;1161&#34;
 	height=&#34;838&#34;
 	
@@ -309,7 +309,7 @@
 &lt;/h2&gt;&lt;p&gt;成功部署到 VPS 后发现想修改文章或者主题有点麻烦，可能这也是更多人选择用 Github 部署的原因吧。&lt;/p&gt;
 &lt;p&gt;为了方便，我安装了 Syncthing 在服务器和本机上双向同步 Hugo 目录。&lt;/p&gt;
 &lt;p&gt;这样修改了内容基本秒是同步的，记得排除掉 VPS 的 public/* 目录。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/wordpress-to-hugo/syncthing-hugo.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/wordpress-to-hugo/syncthing-hugo.png&#34;
 	width=&#34;1350&#34;
 	height=&#34;737&#34;
 	
@@ -327,7 +327,7 @@
 &lt;/h2&gt;&lt;p&gt;一个字，快！&lt;/p&gt;
 &lt;p&gt;才发现自己的网站也可以这么快！没有 Wordpress 这种便秘的感觉了。&lt;/p&gt;
 &lt;p&gt;用 Typora 在本机写东西也很舒服。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/wordpress-to-hugo/hugo-pagespped.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/wordpress-to-hugo/hugo-pagespped.png&#34;
 	width=&#34;854&#34;
 	height=&#34;751&#34;
 	

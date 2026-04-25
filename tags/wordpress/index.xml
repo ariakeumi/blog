@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>WordPress on 笨蛋屋</title>
-        <link>https://umi.im/tags/wordpress/</link>
+        <link>https://baka.li/tags/wordpress/</link>
         <description>Recent content in WordPress on 笨蛋屋</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Fri, 26 Jun 2015 19:58:46 +0000</lastBuildDate><atom:link href="https://umi.im/tags/wordpress/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 26 Jun 2015 19:58:46 +0000</lastBuildDate><atom:link href="https://baka.li/tags/wordpress/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>WordPress 主题 Bliss 修改 Material Design 配色</title>
-        <link>https://umi.im/wordpress-theme-material-design/</link>
+        <link>https://baka.li/wordpress-theme-material-design/</link>
         <pubDate>Fri, 26 Jun 2015 19:58:46 +0000</pubDate>
         
-        <guid>https://umi.im/wordpress-theme-material-design/</guid>
+        <guid>https://baka.li/wordpress-theme-material-design/</guid>
         <description>&lt;p&gt;我现在使用的博客主题是 Bluthemes 开发的 Bliss 主题，极简卡片式的风格，用主题自带的蓝色主题。&lt;/p&gt;
 &lt;h2 id=&#34;bliss--personal-minimalist-wordpress-blog-theme&#34;&gt;&lt;a href=&#34;http://themeforest.net/item/bliss-personal-minimalist-wordpress-blog-theme/5423780&#34; target=&#34;_blank&#34;&gt;Bliss | Personal Minimalist WordPress Blog Theme&lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/old-Bliss-wordpress-theme.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4248&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/old-Bliss-wordpress-theme.jpg&#34; alt=&#34;old-Bliss-wordpress-theme&#34; width=&#34;936&#34; height=&#34;686&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/old-Bliss-wordpress-theme.jpg 936w, https://umi.im/wp-content/uploads/2015/06/old-Bliss-wordpress-theme-150x110.jpg 150w, https://umi.im/wp-content/uploads/2015/06/old-Bliss-wordpress-theme-300x220.jpg 300w&#34; sizes=&#34;(max-width: 936px) 100vw, 936px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/06/old-Bliss-wordpress-theme.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4248&#34; src=&#34;https://baka.li/wp-content/uploads/2015/06/old-Bliss-wordpress-theme.jpg&#34; alt=&#34;old-Bliss-wordpress-theme&#34; width=&#34;936&#34; height=&#34;686&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/06/old-Bliss-wordpress-theme.jpg 936w, https://baka.li/wp-content/uploads/2015/06/old-Bliss-wordpress-theme-150x110.jpg 150w, https://baka.li/wp-content/uploads/2015/06/old-Bliss-wordpress-theme-300x220.jpg 300w&#34; sizes=&#34;(max-width: 936px) 100vw, 936px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;最近，在物色  WordPress  主题的时候发现一个 Material Design 的主题的网站 &lt;a href=&#34;http://MaterialWP.com&#34; target=&#34;_blank&#34;&gt;MaterialWP.com&lt;/a&gt; ，很喜欢这网站首页配色。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/materialwp-com.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4250&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/materialwp-com.png&#34; alt=&#34;materialwp-com&#34; width=&#34;1081&#34; height=&#34;782&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/materialwp-com.png 1081w, https://umi.im/wp-content/uploads/2015/06/materialwp-com-150x109.png 150w, https://umi.im/wp-content/uploads/2015/06/materialwp-com-300x217.png 300w, https://umi.im/wp-content/uploads/2015/06/materialwp-com-1024x741.png 1024w&#34; sizes=&#34;(max-width: 1081px) 100vw, 1081px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/06/materialwp-com.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4250&#34; src=&#34;https://baka.li/wp-content/uploads/2015/06/materialwp-com.png&#34; alt=&#34;materialwp-com&#34; width=&#34;1081&#34; height=&#34;782&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/06/materialwp-com.png 1081w, https://baka.li/wp-content/uploads/2015/06/materialwp-com-150x109.png 150w, https://baka.li/wp-content/uploads/2015/06/materialwp-com-300x217.png 300w, https://baka.li/wp-content/uploads/2015/06/materialwp-com-1024x741.png 1024w&#34; sizes=&#34;(max-width: 1081px) 100vw, 1081px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;开始研究怎么把 Bliss 主题改成那种配色，首先得知道人家网站的颜色的 Hex 颜色代码，用 QQ 截图把光标移动到需要的颜色上能得到 RGB 颜色代码（ 48,63,159 ）。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/QQ-RGB-HEX.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4252&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/QQ-RGB-HEX.png&#34; alt=&#34;QQ-RGB-HEX&#34; width=&#34;579&#34; height=&#34;334&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/QQ-RGB-HEX.png 579w, https://umi.im/wp-content/uploads/2015/06/QQ-RGB-HEX-150x87.png 150w, https://umi.im/wp-content/uploads/2015/06/QQ-RGB-HEX-300x173.png 300w&#34; sizes=&#34;(max-width: 579px) 100vw, 579px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/06/QQ-RGB-HEX.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4252&#34; src=&#34;https://baka.li/wp-content/uploads/2015/06/QQ-RGB-HEX.png&#34; alt=&#34;QQ-RGB-HEX&#34; width=&#34;579&#34; height=&#34;334&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/06/QQ-RGB-HEX.png 579w, https://baka.li/wp-content/uploads/2015/06/QQ-RGB-HEX-150x87.png 150w, https://baka.li/wp-content/uploads/2015/06/QQ-RGB-HEX-300x173.png 300w&#34; sizes=&#34;(max-width: 579px) 100vw, 579px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;用在线工具把 RGB 代码转换成为 Hex 代码（ #303F9F ）。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/RGB-TO-HEX.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4254&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/RGB-TO-HEX.png&#34; alt=&#34;RGB-TO-HEX&#34; width=&#34;884&#34; height=&#34;423&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/RGB-TO-HEX.png 884w, https://umi.im/wp-content/uploads/2015/06/RGB-TO-HEX-150x72.png 150w, https://umi.im/wp-content/uploads/2015/06/RGB-TO-HEX-300x144.png 300w&#34; sizes=&#34;(max-width: 884px) 100vw, 884px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/06/RGB-TO-HEX.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4254&#34; src=&#34;https://baka.li/wp-content/uploads/2015/06/RGB-TO-HEX.png&#34; alt=&#34;RGB-TO-HEX&#34; width=&#34;884&#34; height=&#34;423&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/06/RGB-TO-HEX.png 884w, https://baka.li/wp-content/uploads/2015/06/RGB-TO-HEX-150x72.png 150w, https://baka.li/wp-content/uploads/2015/06/RGB-TO-HEX-300x144.png 300w&#34; sizes=&#34;(max-width: 884px) 100vw, 884px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;然后修改 Style.css ，技术太渣，怎么改都没用。&lt;/p&gt;
 &lt;p&gt;用最笨的方法，我找到了 Bliss 主题自定义 CSS 的文件，在主题目录下的 inc 目录的 custom-css.php ，在此文件的第 44 行开始。&lt;/p&gt;
 &lt;pre class=&#34;lang:php decode:true&#34;&gt;case &#39;default&#39;;	
@@ -79,16 +79,16 @@
 &lt;/pre&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;装修好后特意上 OS X 上截个图，黑苹果的妙用…&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/2015-Baka-House.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4241&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/2015-Baka-House.png&#34; alt=&#34;2015-Baka-House&#34; width=&#34;1408&#34; height=&#34;1059&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/2015-Baka-House.png 1408w, https://umi.im/wp-content/uploads/2015/06/2015-Baka-House-150x113.png 150w, https://umi.im/wp-content/uploads/2015/06/2015-Baka-House-300x226.png 300w, https://umi.im/wp-content/uploads/2015/06/2015-Baka-House-1024x770.png 1024w&#34; sizes=&#34;(max-width: 1408px) 100vw, 1408px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/06/2015-Baka-House.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4241&#34; src=&#34;https://baka.li/wp-content/uploads/2015/06/2015-Baka-House.png&#34; alt=&#34;2015-Baka-House&#34; width=&#34;1408&#34; height=&#34;1059&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/06/2015-Baka-House.png 1408w, https://baka.li/wp-content/uploads/2015/06/2015-Baka-House-150x113.png 150w, https://baka.li/wp-content/uploads/2015/06/2015-Baka-House-300x226.png 300w, https://baka.li/wp-content/uploads/2015/06/2015-Baka-House-1024x770.png 1024w&#34; sizes=&#34;(max-width: 1408px) 100vw, 1408px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Apache &#43; WordPress 部署 SSL 加密</title>
-        <link>https://umi.im/apache-wordpress-ssl/</link>
+        <link>https://baka.li/apache-wordpress-ssl/</link>
         <pubDate>Tue, 23 Jun 2015 02:11:31 +0000</pubDate>
         
-        <guid>https://umi.im/apache-wordpress-ssl/</guid>
+        <guid>https://baka.li/apache-wordpress-ssl/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;传输层安全协议&lt;/strong&gt;（&lt;span class=&#34;LangWithName&#34;&gt;英语：&lt;span lang=&#34;en&#34; xml:lang=&#34;en&#34;&gt;Transport Layer Security&lt;/span&gt;&lt;/span&gt;，缩写为 TLS），及其前身&lt;strong&gt;安全套接层&lt;/strong&gt;（&lt;span lang=&#34;en&#34; xml:lang=&#34;en&#34;&gt;Secure Sockets Layer&lt;/span&gt;，SSL）是一种&lt;a class=&#34;link&#34; href=&#34;https://zh.wikipedia.org/wiki/%E5%AE%89%E5%85%A8%E5%8D%8F%E8%AE%AE&#34;  title=&#34;安全协议&#34;
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -124,7 +124,7 @@
   说点插曲，我在 SSH 终端使用 vi 编辑器复制私钥进去保存，因为没有回车换行导致头行前几位字符被吞掉，然后我以为是其它原因配置出错折腾了几小时才发现是私钥错了，坑死爹了！
 &lt;/p&gt;
 &lt;p style=&#34;text-align: left;&#34;&gt;
-  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/private-keys.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4076&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/private-keys.png&#34; alt=&#34;private-keys&#34; width=&#34;918&#34; height=&#34;315&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/private-keys.png 918w, https://umi.im/wp-content/uploads/2015/06/private-keys-150x51.png 150w, https://umi.im/wp-content/uploads/2015/06/private-keys-300x103.png 300w&#34; sizes=&#34;(max-width: 918px) 100vw, 918px&#34; /&gt;&lt;/a&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2015/06/private-keys.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4076&#34; src=&#34;https://baka.li/wp-content/uploads/2015/06/private-keys.png&#34; alt=&#34;private-keys&#34; width=&#34;918&#34; height=&#34;315&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/06/private-keys.png 918w, https://baka.li/wp-content/uploads/2015/06/private-keys-150x51.png 150w, https://baka.li/wp-content/uploads/2015/06/private-keys-300x103.png 300w&#34; sizes=&#34;(max-width: 918px) 100vw, 918px&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p style=&#34;text-align: left;&#34;&gt;
   得到私钥后需要解密，在终端 cd 到 ssl.key 的目录下，执行：
@@ -137,13 +137,13 @@
   然后在 StartSSL 网站控制面板的 Tool Box 进入 Retrieve Certificate ，拿到申请的证书信息和公钥，保存为 ssh.crt 。
 &lt;/p&gt;
 &lt;p style=&#34;text-align: left;&#34;&gt;
-  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/Retrieve-Certificate.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4073&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/Retrieve-Certificate.png&#34; alt=&#34;Retrieve Certificate&#34; width=&#34;797&#34; height=&#34;340&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/Retrieve-Certificate.png 797w, https://umi.im/wp-content/uploads/2015/06/Retrieve-Certificate-150x64.png 150w, https://umi.im/wp-content/uploads/2015/06/Retrieve-Certificate-300x128.png 300w, https://umi.im/wp-content/uploads/2015/06/Retrieve-Certificate-700x300.png 700w&#34; sizes=&#34;(max-width: 797px) 100vw, 797px&#34; /&gt;&lt;/a&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2015/06/Retrieve-Certificate.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4073&#34; src=&#34;https://baka.li/wp-content/uploads/2015/06/Retrieve-Certificate.png&#34; alt=&#34;Retrieve Certificate&#34; width=&#34;797&#34; height=&#34;340&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/06/Retrieve-Certificate.png 797w, https://baka.li/wp-content/uploads/2015/06/Retrieve-Certificate-150x64.png 150w, https://baka.li/wp-content/uploads/2015/06/Retrieve-Certificate-300x128.png 300w, https://baka.li/wp-content/uploads/2015/06/Retrieve-Certificate-700x300.png 700w&#34; sizes=&#34;(max-width: 797px) 100vw, 797px&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p style=&#34;text-align: left;&#34;&gt;
   再在 Tool Box 的 StartCom CA Certificates 下载到 ca.pem 和 sub.class1.server.ca.pem 。
 &lt;/p&gt;
 &lt;p style=&#34;text-align: left;&#34;&gt;
-  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/StartCom-CA-Certificates.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4072&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/StartCom-CA-Certificates.png&#34; alt=&#34;StartCom CA Certificates&#34; width=&#34;1048&#34; height=&#34;407&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/StartCom-CA-Certificates.png 1048w, https://umi.im/wp-content/uploads/2015/06/StartCom-CA-Certificates-150x58.png 150w, https://umi.im/wp-content/uploads/2015/06/StartCom-CA-Certificates-300x117.png 300w, https://umi.im/wp-content/uploads/2015/06/StartCom-CA-Certificates-1024x398.png 1024w&#34; sizes=&#34;(max-width: 1048px) 100vw, 1048px&#34; /&gt;&lt;/a&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2015/06/StartCom-CA-Certificates.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4072&#34; src=&#34;https://baka.li/wp-content/uploads/2015/06/StartCom-CA-Certificates.png&#34; alt=&#34;StartCom CA Certificates&#34; width=&#34;1048&#34; height=&#34;407&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/06/StartCom-CA-Certificates.png 1048w, https://baka.li/wp-content/uploads/2015/06/StartCom-CA-Certificates-150x58.png 150w, https://baka.li/wp-content/uploads/2015/06/StartCom-CA-Certificates-300x117.png 300w, https://baka.li/wp-content/uploads/2015/06/StartCom-CA-Certificates-1024x398.png 1024w&#34; sizes=&#34;(max-width: 1048px) 100vw, 1048px&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p style=&#34;text-align: left;&#34;&gt;
   这样证书的所有文件就搞定了，如果在文件还在本地就上传到服务器上，ssl.key、ssl.crt、ca.pem 和 sub.class1.server.ca.pem 这四个。
@@ -181,15 +181,15 @@ default-ssl.conf&lt;/pre&gt;
   首先得把 WordPress 的设置里面的 Http:// 域名改为 Https:// 的，还要把数据库的文章、图片等链接全都改为 Https:// 的，用 SQL 语句或者 Velvet Blues Update URLs 插件都可以。
 &lt;/p&gt;
 &lt;p style=&#34;text-align: left;&#34;&gt;
-  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/wordpress-http-https.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4074&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/wordpress-http-https.png&#34; alt=&#34;wordpress-http-https&#34; width=&#34;680&#34; height=&#34;613&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/wordpress-http-https.png 680w, https://umi.im/wp-content/uploads/2015/06/wordpress-http-https-150x135.png 150w, https://umi.im/wp-content/uploads/2015/06/wordpress-http-https-300x270.png 300w&#34; sizes=&#34;(max-width: 680px) 100vw, 680px&#34; /&gt;&lt;/a&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2015/06/wordpress-http-https.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4074&#34; src=&#34;https://baka.li/wp-content/uploads/2015/06/wordpress-http-https.png&#34; alt=&#34;wordpress-http-https&#34; width=&#34;680&#34; height=&#34;613&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/06/wordpress-http-https.png 680w, https://baka.li/wp-content/uploads/2015/06/wordpress-http-https-150x135.png 150w, https://baka.li/wp-content/uploads/2015/06/wordpress-http-https-300x270.png 300w&#34; sizes=&#34;(max-width: 680px) 100vw, 680px&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p style=&#34;text-align: left;&#34;&gt;
-  接着设置 Https 跳转，编辑网站目录下的 .htaccess 文件，就是设置 &lt;a title=&#34;炒土豆丝的 WordPress 新家：VPS ~ Ubuntu + Apache + MySQL + PHP&#34; href=&#34;https://umi.im/vps-ubuntu-wordpress/&#34; target=&#34;_blank&#34;&gt;伪静态&lt;/a&gt; 那个文件，加入下面的字段（自行修改为自己的域名）。
+  接着设置 Https 跳转，编辑网站目录下的 .htaccess 文件，就是设置 &lt;a title=&#34;炒土豆丝的 WordPress 新家：VPS ~ Ubuntu + Apache + MySQL + PHP&#34; href=&#34;https://baka.li/vps-ubuntu-wordpress/&#34; target=&#34;_blank&#34;&gt;伪静态&lt;/a&gt; 那个文件，加入下面的字段（自行修改为自己的域名）。
 &lt;/p&gt;
 &lt;pre class=&#34;lang:default decode:true &#34;&gt;RewriteEngine On
 RewriteCond %{HTTPS} !on [NC]
 RewriteCond %{HTTP_USER_AGENT} !(baiduspider|soso|bing|sogou|yahoo|sohu-search|yodao|robozilla|msnbot|msie|feedburner) [NC]
-RewriteRule (.*) https://umi.im%{REQUEST_URI} [R=301,NC,L]&lt;/pre&gt;
+RewriteRule (.*) https://baka.li%{REQUEST_URI} [R=301,NC,L]&lt;/pre&gt;
 &lt;p&gt;修改完成后再 重启 Apache ：&lt;/p&gt;
 &lt;pre class=&#34;lang:default decode:true &#34;&gt;service apache2 restart&lt;/pre&gt;
 &lt;h2 id=&#34;-意外的情况&#34;&gt; Ⅳ 意外的情况
@@ -227,7 +227,7 @@ RewriteRule (.*) https://umi.im%{REQUEST_URI} [R=301,NC,L]&lt;/pre&gt;
   折腾好所有后，地址栏那个绿色的小锁终于出现了。
 &lt;/p&gt;
 &lt;p class=&#34;entry-title&#34; style=&#34;text-align: left;&#34;&gt;
-  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/bakahouse-ssl.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4078&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/bakahouse-ssl.png&#34; alt=&#34;bakahouse-ssl&#34; width=&#34;453&#34; height=&#34;429&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/bakahouse-ssl.png 453w, https://umi.im/wp-content/uploads/2015/06/bakahouse-ssl-150x142.png 150w, https://umi.im/wp-content/uploads/2015/06/bakahouse-ssl-300x284.png 300w&#34; sizes=&#34;(max-width: 453px) 100vw, 453px&#34; /&gt;&lt;/a&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2015/06/bakahouse-ssl.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4078&#34; src=&#34;https://baka.li/wp-content/uploads/2015/06/bakahouse-ssl.png&#34; alt=&#34;bakahouse-ssl&#34; width=&#34;453&#34; height=&#34;429&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/06/bakahouse-ssl.png 453w, https://baka.li/wp-content/uploads/2015/06/bakahouse-ssl-150x142.png 150w, https://baka.li/wp-content/uploads/2015/06/bakahouse-ssl-300x284.png 300w&#34; sizes=&#34;(max-width: 453px) 100vw, 453px&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p class=&#34;entry-title&#34; style=&#34;text-align: left;&#34;&gt;
   但是很坑爹，我把出现在首页的两篇带 Flash 视频的文章移除掉才出现绿色的小锁子，不然就是一把灰锁加一个黄色三角形。
@@ -236,30 +236,30 @@ RewriteRule (.*) https://umi.im%{REQUEST_URI} [R=301,NC,L]&lt;/pre&gt;
   在文章页面，因为多说插件不支持 SSL ，所以还是不绿！WTF！
 &lt;/p&gt;
 &lt;p class=&#34;entry-title&#34; style=&#34;text-align: left;&#34;&gt;
-  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/https-yellow.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4080&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/https-yellow.png&#34; alt=&#34;https-yellow&#34; width=&#34;424&#34; height=&#34;60&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/https-yellow.png 424w, https://umi.im/wp-content/uploads/2015/06/https-yellow-150x21.png 150w, https://umi.im/wp-content/uploads/2015/06/https-yellow-300x42.png 300w&#34; sizes=&#34;(max-width: 424px) 100vw, 424px&#34; /&gt;&lt;/a&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2015/06/https-yellow.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4080&#34; src=&#34;https://baka.li/wp-content/uploads/2015/06/https-yellow.png&#34; alt=&#34;https-yellow&#34; width=&#34;424&#34; height=&#34;60&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/06/https-yellow.png 424w, https://baka.li/wp-content/uploads/2015/06/https-yellow-150x21.png 150w, https://baka.li/wp-content/uploads/2015/06/https-yellow-300x42.png 300w&#34; sizes=&#34;(max-width: 424px) 100vw, 424px&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 </description>
         </item>
         <item>
         <title>炒土豆丝的 WordPress 新家：VPS ~ Ubuntu &#43; Apache &#43; MySQL &#43; PHP</title>
-        <link>https://umi.im/vps-ubuntu-wordpress/</link>
+        <link>https://baka.li/vps-ubuntu-wordpress/</link>
         <pubDate>Sat, 06 Jun 2015 12:10:54 +0000</pubDate>
         
-        <guid>https://umi.im/vps-ubuntu-wordpress/</guid>
+        <guid>https://baka.li/vps-ubuntu-wordpress/</guid>
         <description>&lt;p&gt;接上文，拿到 &lt;a href=&#34;http://bbs.colg.cn/home.php?mod=space&amp;uid=601303&#34; target=&#34;_blank&#34;&gt;@茄子泥焗黃魚&lt;/a&gt; 土豪的 VPS 后…&lt;/p&gt;
-&lt;p&gt;折腾好 Shadowsocks 服务端，就打算把网站搬到 VPS 上，之前的&lt;a href=&#34;https://umi.im/2014-web-hosting/&#34; target=&#34;_blank&#34;&gt;虚拟主机&lt;/a&gt;虽然便宜，但速度真的不怎么样，偶尔还会抽风。像我这种日访问量在个位数的网站，搬到这种配置的 VPS 上应该会很爽。&lt;/p&gt;
+&lt;p&gt;折腾好 Shadowsocks 服务端，就打算把网站搬到 VPS 上，之前的&lt;a href=&#34;https://baka.li/2014-web-hosting/&#34; target=&#34;_blank&#34;&gt;虚拟主机&lt;/a&gt;虽然便宜，但速度真的不怎么样，偶尔还会抽风。像我这种日访问量在个位数的网站，搬到这种配置的 VPS 上应该会很爽。&lt;/p&gt;
 &lt;p&gt;既然要搬家，那就顺便换个域名吧。&lt;/p&gt;
-&lt;p&gt;原域名 &lt;a href=&#34;http://bakatd.com/&#34; target=&#34;_blank&#34;&gt;bakatd.com&lt;/a&gt; ，虽然简短，但是不能通读，所以换成了现在的 &lt;a href=&#34;https://umi.im/&#34; target=&#34;_blank&#34;&gt;bakahouse.com&lt;/a&gt; ，读音：巴卡豪斯…意译：笨蛋公寓，参考了白宫的域名 &lt;a href=&#34;https://www.whitehouse.gov/&#34; target=&#34;_blank&#34;&gt;whitehouse.gov&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;原域名 &lt;a href=&#34;http://bakatd.com/&#34; target=&#34;_blank&#34;&gt;bakatd.com&lt;/a&gt; ，虽然简短，但是不能通读，所以换成了现在的 &lt;a href=&#34;https://baka.li/&#34; target=&#34;_blank&#34;&gt;bakahouse.com&lt;/a&gt; ，读音：巴卡豪斯…意译：笨蛋公寓，参考了白宫的域名 &lt;a href=&#34;https://www.whitehouse.gov/&#34; target=&#34;_blank&#34;&gt;whitehouse.gov&lt;/a&gt; 。&lt;/p&gt;
 &lt;p&gt;先设置把旧域名转发到新域名。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3969&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png&#34; alt=&#34;godaddy-Forwarding&#34; width=&#34;533&#34; height=&#34;278&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png 533w, https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding-150x78.png 150w, https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding-300x156.png 300w&#34; sizes=&#34;(max-width: 533px) 100vw, 533px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/06/godaddy-Forwarding.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3969&#34; src=&#34;https://baka.li/wp-content/uploads/2015/06/godaddy-Forwarding.png&#34; alt=&#34;godaddy-Forwarding&#34; width=&#34;533&#34; height=&#34;278&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/06/godaddy-Forwarding.png 533w, https://baka.li/wp-content/uploads/2015/06/godaddy-Forwarding-150x78.png 150w, https://baka.li/wp-content/uploads/2015/06/godaddy-Forwarding-300x156.png 300w&#34; sizes=&#34;(max-width: 533px) 100vw, 533px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;linux-vps-ubuntu-系统配置指南&#34;&gt;&lt;a href=&#34;http://wiki.ubuntu.org.cn/Vps&#34; target=&#34;_blank&#34;&gt;Linux VPS Ubuntu 系统配置指南&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;VPS 的 Web 环境选择，Ubuntu 的中文 WIKI 写得最详细，所以我选择了 Ubuntu…&lt;/p&gt;
 &lt;p&gt;使用 Apache 搭建站点，对着 WIKI 上的命令一直复制粘贴，返回结果结果都正常，很方便的就配置好了 Apache + MySQL + PHP 。&lt;/p&gt;
 &lt;p&gt;但是测试站点的时候死活打不开，折腾着终于发现我配置的 Web 根目录是 /var/www/html ，而不是 WIKI 上写的 /var/www/ 目录，把文件移动到 /var/www/html 目录后终于能打开测试站点了。&lt;/p&gt;
 &lt;p&gt;测试站点：&lt;a href=&#34;http://www.yahei.net/&#34; target=&#34;_blank&#34;&gt;雅黑PHP探针&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/tz-php.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3964&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/tz-php.png&#34; alt=&#34;tz-php&#34; width=&#34;927&#34; height=&#34;455&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/tz-php.png 927w, https://umi.im/wp-content/uploads/2015/06/tz-php-150x74.png 150w, https://umi.im/wp-content/uploads/2015/06/tz-php-300x147.png 300w&#34; sizes=&#34;(max-width: 927px) 100vw, 927px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/06/tz-php.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3964&#34; src=&#34;https://baka.li/wp-content/uploads/2015/06/tz-php.png&#34; alt=&#34;tz-php&#34; width=&#34;927&#34; height=&#34;455&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/06/tz-php.png 927w, https://baka.li/wp-content/uploads/2015/06/tz-php-150x74.png 150w, https://baka.li/wp-content/uploads/2015/06/tz-php-300x147.png 300w&#34; sizes=&#34;(max-width: 927px) 100vw, 927px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;测试完成，Phpmyadmin 也安装完成后，就可以给网站搬家了。&lt;/p&gt;
 &lt;p&gt;我的 WordPress 网站文件备份在 Dropbox ，通过 Dropbox 分享链接，然后用 wget 命令下载。&lt;/p&gt;
 &lt;pre class=&#34;lang:default decode:true &#34;&gt;wget http://***.com/**/backwpup_bfbdbe_2015-06-05_10-08-58.tar.gz?dl=0&lt;/pre&gt;
@@ -295,57 +295,57 @@ AllowOverride All&lt;/pre&gt;
 &lt;p&gt;保存并退出，重启 Apache2 。&lt;/p&gt;
 &lt;pre class=&#34;lang:default decode:true &#34;&gt;service apache2 restart&lt;/pre&gt;
 &lt;p&gt;这次真的就大功告成了，遇到以上几个小问题，多搜索下就能找到解决办法了，至于到底哪个地方出错导致的问题我也不清楚，不管了。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/index-photo.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3962&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/index-photo.jpg&#34; alt=&#34;index-photo&#34; width=&#34;440&#34; height=&#34;473&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/06/index-photo.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3962&#34; src=&#34;https://baka.li/wp-content/uploads/2015/06/index-photo.jpg&#34; alt=&#34;index-photo&#34; width=&#34;440&#34; height=&#34;473&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>搬家到老薛主机了</title>
-        <link>https://umi.im/2014-web-hosting/</link>
+        <link>https://baka.li/2014-web-hosting/</link>
         <pubDate>Tue, 18 Feb 2014 20:42:15 +0000</pubDate>
         
-        <guid>https://umi.im/2014-web-hosting/</guid>
-        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/2014-Web-Hosting.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1574&#34; alt=&#34;2014-Web-Hosting&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/2014-Web-Hosting.jpg&#34; width=&#34;1017&#34; height=&#34;629&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/2014-Web-Hosting.jpg 1017w, https://umi.im/wp-content/uploads/2014/02/2014-Web-Hosting-150x92.jpg 150w, https://umi.im/wp-content/uploads/2014/02/2014-Web-Hosting-300x185.jpg 300w&#34; sizes=&#34;(max-width: 1017px) 100vw, 1017px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://umi.im/work-host/&#34; target=&#34;_blank&#34;&gt;之前说过&lt;/a&gt;，给我提供免费MT主机的站长准备迁移到云主机，25号主机就到期了。&lt;/p&gt;
+        <guid>https://baka.li/2014-web-hosting/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/02/2014-Web-Hosting.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1574&#34; alt=&#34;2014-Web-Hosting&#34; src=&#34;https://baka.li/wp-content/uploads/2014/02/2014-Web-Hosting.jpg&#34; width=&#34;1017&#34; height=&#34;629&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/02/2014-Web-Hosting.jpg 1017w, https://baka.li/wp-content/uploads/2014/02/2014-Web-Hosting-150x92.jpg 150w, https://baka.li/wp-content/uploads/2014/02/2014-Web-Hosting-300x185.jpg 300w&#34; sizes=&#34;(max-width: 1017px) 100vw, 1017px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://baka.li/work-host/&#34; target=&#34;_blank&#34;&gt;之前说过&lt;/a&gt;，给我提供免费MT主机的站长准备迁移到云主机，25号主机就到期了。&lt;/p&gt;
 &lt;p&gt;搬家迫在眉睫，数据备份好后，发现手头分文不剩。&lt;/p&gt;
 &lt;p&gt;赶紧问&lt;a href=&#34;http://www.colg.cn/home.php?mod=space&amp;uid=362702&#34; target=&#34;_blank&#34;&gt;某人&lt;/a&gt;借钱，穷你妹啊！&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/Zihao-Borrow-money.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1564&#34; alt=&#34;Zihao-Borrow-money&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/Zihao-Borrow-money.png&#34; width=&#34;522&#34; height=&#34;227&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/Zihao-Borrow-money.png 522w, https://umi.im/wp-content/uploads/2014/02/Zihao-Borrow-money-150x65.png 150w, https://umi.im/wp-content/uploads/2014/02/Zihao-Borrow-money-300x130.png 300w&#34; sizes=&#34;(max-width: 522px) 100vw, 522px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/02/Zihao-Borrow-money.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1564&#34; alt=&#34;Zihao-Borrow-money&#34; src=&#34;https://baka.li/wp-content/uploads/2014/02/Zihao-Borrow-money.png&#34; width=&#34;522&#34; height=&#34;227&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/02/Zihao-Borrow-money.png 522w, https://baka.li/wp-content/uploads/2014/02/Zihao-Borrow-money-150x65.png 150w, https://baka.li/wp-content/uploads/2014/02/Zihao-Borrow-money-300x130.png 300w&#34; sizes=&#34;(max-width: 522px) 100vw, 522px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;钱不多，租不起知名主机，发现&lt;a title=&#34;庙&#34; href=&#34;http://miao.in/&#34; target=&#34;_blank&#34;&gt;有人&lt;/a&gt;专门提供MT主机合租服务，价格不贵，168一年。&lt;/p&gt;
 &lt;p&gt;不过一看规定傻眼了，4条命中3条，倒地不起。_(:3ゝ∠)_&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/miao.in-rules.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1582&#34; alt=&#34;miao.in-rules&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/miao.in-rules.png&#34; width=&#34;1282&#34; height=&#34;580&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/miao.in-rules.png 1282w, https://umi.im/wp-content/uploads/2014/02/miao.in-rules-150x67.png 150w, https://umi.im/wp-content/uploads/2014/02/miao.in-rules-300x135.png 300w, https://umi.im/wp-content/uploads/2014/02/miao.in-rules-1024x463.png 1024w&#34; sizes=&#34;(max-width: 1282px) 100vw, 1282px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/02/miao.in-rules.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1582&#34; alt=&#34;miao.in-rules&#34; src=&#34;https://baka.li/wp-content/uploads/2014/02/miao.in-rules.png&#34; width=&#34;1282&#34; height=&#34;580&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/02/miao.in-rules.png 1282w, https://baka.li/wp-content/uploads/2014/02/miao.in-rules-150x67.png 150w, https://baka.li/wp-content/uploads/2014/02/miao.in-rules-300x135.png 300w, https://baka.li/wp-content/uploads/2014/02/miao.in-rules-1024x463.png 1024w&#34; sizes=&#34;(max-width: 1282px) 100vw, 1282px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;后来经人推荐&lt;a title=&#34;老薛主机&#34; href=&#34;http://laoxuehost.com/&#34; target=&#34;_blank&#34;&gt;老薛主机&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;进老薛主机网站首页一看，哎哟！美国主机50一年 ~ 碉堡了。&lt;/p&gt;
 &lt;p&gt;看到流量和空间就痿了，哪里够用啊！&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/laoxuehost.com_.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1567&#34; alt=&#34;laoxuehost.com&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/laoxuehost.com_.png&#34; width=&#34;963&#34; height=&#34;610&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/laoxuehost.com_.png 963w, https://umi.im/wp-content/uploads/2014/02/laoxuehost.com_-150x95.png 150w, https://umi.im/wp-content/uploads/2014/02/laoxuehost.com_-300x190.png 300w&#34; sizes=&#34;(max-width: 963px) 100vw, 963px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/02/laoxuehost.com_.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1567&#34; alt=&#34;laoxuehost.com&#34; src=&#34;https://baka.li/wp-content/uploads/2014/02/laoxuehost.com_.png&#34; width=&#34;963&#34; height=&#34;610&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/02/laoxuehost.com_.png 963w, https://baka.li/wp-content/uploads/2014/02/laoxuehost.com_-150x95.png 150w, https://baka.li/wp-content/uploads/2014/02/laoxuehost.com_-300x190.png 300w&#34; sizes=&#34;(max-width: 963px) 100vw, 963px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;不过好在提供附加包，加个1GB空间和10GB流量的包包就够用了。⊂((・▽・))⊃&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/laoxuehost-Additional-services.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1568&#34; alt=&#34;laoxuehost-Additional-services&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/laoxuehost-Additional-services.png&#34; width=&#34;934&#34; height=&#34;606&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/laoxuehost-Additional-services.png 934w, https://umi.im/wp-content/uploads/2014/02/laoxuehost-Additional-services-150x97.png 150w, https://umi.im/wp-content/uploads/2014/02/laoxuehost-Additional-services-300x194.png 300w&#34; sizes=&#34;(max-width: 934px) 100vw, 934px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/02/laoxuehost-Additional-services.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1568&#34; alt=&#34;laoxuehost-Additional-services&#34; src=&#34;https://baka.li/wp-content/uploads/2014/02/laoxuehost-Additional-services.png&#34; width=&#34;934&#34; height=&#34;606&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/02/laoxuehost-Additional-services.png 934w, https://baka.li/wp-content/uploads/2014/02/laoxuehost-Additional-services-150x97.png 150w, https://baka.li/wp-content/uploads/2014/02/laoxuehost-Additional-services-300x194.png 300w&#34; sizes=&#34;(max-width: 934px) 100vw, 934px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;买了一年主机，两个附加包一个月，因为钱不够嘛。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/laoxuehost-email.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1569&#34; alt=&#34;laoxuehost-email&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/laoxuehost-email.png&#34; width=&#34;837&#34; height=&#34;599&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/laoxuehost-email.png 837w, https://umi.im/wp-content/uploads/2014/02/laoxuehost-email-150x107.png 150w, https://umi.im/wp-content/uploads/2014/02/laoxuehost-email-300x214.png 300w&#34; sizes=&#34;(max-width: 837px) 100vw, 837px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/02/laoxuehost-email.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1569&#34; alt=&#34;laoxuehost-email&#34; src=&#34;https://baka.li/wp-content/uploads/2014/02/laoxuehost-email.png&#34; width=&#34;837&#34; height=&#34;599&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/02/laoxuehost-email.png 837w, https://baka.li/wp-content/uploads/2014/02/laoxuehost-email-150x107.png 150w, https://baka.li/wp-content/uploads/2014/02/laoxuehost-email-300x214.png 300w&#34; sizes=&#34;(max-width: 837px) 100vw, 837px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;老薛主机提供cPanel中文控制面板，很方便，以前一直没用过。&lt;/p&gt;
 &lt;p&gt;用&lt;a href=&#34;http://wordpress.org/support/plugin/backwpup&#34; target=&#34;_blank&#34;&gt;BackWPup&lt;/a&gt;把文件直接备份到新主机的FTP上，然后在cPanel里面直接解压，超级方便！&lt;/p&gt;
 &lt;p&gt;不过中间因为出了些问题，删除文件重新解压就好了。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/laoxue-banjia-trouble.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1570&#34; alt=&#34;laoxue-banjia-trouble&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/laoxue-banjia-trouble.png&#34; width=&#34;1042&#34; height=&#34;633&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/laoxue-banjia-trouble.png 1042w, https://umi.im/wp-content/uploads/2014/02/laoxue-banjia-trouble-150x91.png 150w, https://umi.im/wp-content/uploads/2014/02/laoxue-banjia-trouble-300x182.png 300w, https://umi.im/wp-content/uploads/2014/02/laoxue-banjia-trouble-1024x622.png 1024w&#34; sizes=&#34;(max-width: 1042px) 100vw, 1042px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/02/laoxue-banjia-trouble.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1570&#34; alt=&#34;laoxue-banjia-trouble&#34; src=&#34;https://baka.li/wp-content/uploads/2014/02/laoxue-banjia-trouble.png&#34; width=&#34;1042&#34; height=&#34;633&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/02/laoxue-banjia-trouble.png 1042w, https://baka.li/wp-content/uploads/2014/02/laoxue-banjia-trouble-150x91.png 150w, https://baka.li/wp-content/uploads/2014/02/laoxue-banjia-trouble-300x182.png 300w, https://baka.li/wp-content/uploads/2014/02/laoxue-banjia-trouble-1024x622.png 1024w&#34; sizes=&#34;(max-width: 1042px) 100vw, 1042px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;cPanel上的统计，如果用的流量少下个月就不用买流量附加包了。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/laoxuehost-cPanel.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1571&#34; alt=&#34;laoxuehost-cPanel&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/laoxuehost-cPanel.png&#34; width=&#34;243&#34; height=&#34;433&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/laoxuehost-cPanel.png 243w, https://umi.im/wp-content/uploads/2014/02/laoxuehost-cPanel-84x150.png 84w, https://umi.im/wp-content/uploads/2014/02/laoxuehost-cPanel-168x300.png 168w&#34; sizes=&#34;(max-width: 243px) 100vw, 243px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/02/laoxuehost-cPanel.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1571&#34; alt=&#34;laoxuehost-cPanel&#34; src=&#34;https://baka.li/wp-content/uploads/2014/02/laoxuehost-cPanel.png&#34; width=&#34;243&#34; height=&#34;433&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/02/laoxuehost-cPanel.png 243w, https://baka.li/wp-content/uploads/2014/02/laoxuehost-cPanel-84x150.png 84w, https://baka.li/wp-content/uploads/2014/02/laoxuehost-cPanel-168x300.png 168w&#34; sizes=&#34;(max-width: 243px) 100vw, 243px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;关于老薛主机的评价，以后再写，反正价格很实惠，适合我这种小屋主。&lt;/p&gt;
 &lt;p&gt;搬完家写完文章发现快凌晨5点了，卧槽！赶紧睡觉 ~ zzzZZZ&lt;/p&gt;</description>
         </item>
         <item>
         <title>炒土豆丝のWordPress</title>
-        <link>https://umi.im/wordpress/</link>
+        <link>https://baka.li/wordpress/</link>
         <pubDate>Wed, 11 Dec 2013 05:06:02 +0000</pubDate>
         
-        <guid>https://umi.im/wordpress/</guid>
-        <description>&lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/WordPress.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-911&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/WordPress.jpg&#34; alt=&#34;WordPress&#34; width=&#34;960&#34; height=&#34;520&#34; /&gt;&lt;/a&gt;
+        <guid>https://baka.li/wordpress/</guid>
+        <description>&lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2013/12/WordPress.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-911&#34; src=&#34;https://baka.li/wp-content/uploads/2013/12/WordPress.jpg&#34; alt=&#34;WordPress&#34; width=&#34;960&#34; height=&#34;520&#34; /&gt;&lt;/a&gt;
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt; 域名&lt;/li&gt;
 &lt;/ul&gt;
@@ -359,13 +359,13 @@ AllowOverride All&lt;/pre&gt;
 &lt;/h2&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;2013 年的时候我用的是 &lt;a href=&#34;http://www.kilu.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kilu&lt;/a&gt; 的免费空间，10GB无限流量，速度一般，没有伪静态不能固定链接。本来打算一直用下去，后来有人愿意给我提供 &lt;a href=&#34;http://blog.wpjam.com/article/media-temple/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Media Temple主机&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/QQJieTu20131210194451.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-617&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/QQJieTu20131210194451.png&#34; alt=&#34;QQ截图20131210194451&#34; width=&#34;389&#34; height=&#34;173&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2013/12/QQJieTu20131210194451.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-617&#34; src=&#34;https://baka.li/wp-content/uploads/2013/12/QQJieTu20131210194451.png&#34; alt=&#34;QQ截图20131210194451&#34; width=&#34;389&#34; height=&#34;173&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;在准备搬家到MT时，屋主所在的20号服务器宕机了。&lt;/p&gt;
-&lt;p&gt;2014 年初，MT主机提供者迁移到阿里云主机。同年二月被迫搬家到了&lt;a href=&#34;https://umi.im/2014-web-hosting/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;老薛主机&lt;/a&gt;，价格便宜，流量美国主机+ 1G空间附加包不到100元。&lt;/p&gt;
-&lt;p&gt;2015 年 6 月，朋友购买 &lt;a href=&#34;https://umi.im/vps-ubuntu-wordpress/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DigitalOcean VPS&lt;/a&gt; 搭建 &lt;a title=&#34;DigitalOcean VPS 安装 Shadowsocks&#34; href=&#34;https://umi.im/digitalocean-vps-shadowsocks/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shadowsocks&lt;/a&gt; 代理，我顺便搬了过去。&lt;/p&gt;
+&lt;p&gt;2014 年初，MT主机提供者迁移到阿里云主机。同年二月被迫搬家到了&lt;a href=&#34;https://baka.li/2014-web-hosting/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;老薛主机&lt;/a&gt;，价格便宜，流量美国主机+ 1G空间附加包不到100元。&lt;/p&gt;
+&lt;p&gt;2015 年 6 月，朋友购买 &lt;a href=&#34;https://baka.li/vps-ubuntu-wordpress/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DigitalOcean VPS&lt;/a&gt; 搭建 &lt;a title=&#34;DigitalOcean VPS 安装 Shadowsocks&#34; href=&#34;https://baka.li/digitalocean-vps-shadowsocks/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shadowsocks&lt;/a&gt; 代理，我顺便搬了过去。&lt;/p&gt;
 &lt;p&gt;2015 年 8 月 25 日，搬到了 BudgetVM 的廉价 VPS 上。&lt;/p&gt;
-&lt;p&gt;2017 年，为了看 Twitch 搭建 Shadowsocks 翻墙购下了 CN2 线路的 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/bandwagon/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;p&gt;2017 年，为了看 Twitch 搭建 Shadowsocks 翻墙购下了 CN2 线路的 &lt;a class=&#34;link&#34; href=&#34;https://baka.li/bandwagon/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;搬瓦工 VPS&lt;/a&gt; ，博客也顺便搬了过去，速度不错价格便宜，打算常驻。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -418,10 +418,10 @@ AllowOverride All&lt;/pre&gt;
         </item>
         <item>
         <title>通宵奋战两夜～终于搞定Blog了！</title>
-        <link>https://umi.im/tudou-blog/</link>
+        <link>https://baka.li/tudou-blog/</link>
         <pubDate>Sun, 10 Nov 2013 22:33:56 +0000</pubDate>
         
-        <guid>https://umi.im/tudou-blog/</guid>
+        <guid>https://baka.li/tudou-blog/</guid>
         <description>&lt;p&gt;自从接触互联网后，就一直希望可以有一个自己的网站！&lt;/p&gt;
 &lt;p&gt;不过建自己的网站好像又没有什么用途，而且麻烦的要死。&lt;/p&gt;
 &lt;p&gt;后来上网多了，接触到了各种blog，感觉无聊写点东西也不错。国内各大门户都能建blog，不过我不大喜欢国内门户的blog。&lt;/p&gt;

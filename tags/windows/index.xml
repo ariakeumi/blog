@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Windows on 笨蛋屋</title>
-        <link>https://umi.im/tags/windows/</link>
+        <link>https://baka.li/tags/windows/</link>
         <description>Recent content in Windows on 笨蛋屋</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Mon, 25 Sep 2023 11:41:01 +0000</lastBuildDate><atom:link href="https://umi.im/tags/windows/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 25 Sep 2023 11:41:01 +0000</lastBuildDate><atom:link href="https://baka.li/tags/windows/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Windows 11 系统的 RealTek RTL8111H 千兆有线网卡的微软公版驱动无法满速问题</title>
-        <link>https://umi.im/windows-11-rtl8111h-speed/</link>
+        <link>https://baka.li/windows-11-rtl8111h-speed/</link>
         <pubDate>Mon, 25 Sep 2023 11:41:01 +0000</pubDate>
         
-        <guid>https://umi.im/windows-11-rtl8111h-speed/</guid>
+        <guid>https://baka.li/windows-11-rtl8111h-speed/</guid>
         <description>&lt;h2 id=&#34;发现问题&#34;&gt;发现问题
 &lt;/h2&gt;&lt;p&gt;在 PC 和 NAS 之间拷文件的时候发现速度只有 90MB/s ，起初没太在意，毕竟 NAS 换了 UNRAID 系，可能是 SMB 协议问题，也可能是 UNRAID 的磁盘阵列速度就是慢。&lt;/p&gt;
 &lt;p&gt;再给 NAS 升级了双 NVME SSD 的 ZFS 阵列后，拷贝速度还是一样跑不满千兆，开始排查原因。&lt;/p&gt;
@@ -27,33 +27,33 @@
 &lt;p&gt;下载 Win11 Auto Installation Program (NetAdapterCx) 然后安装，速度恢复千兆…&lt;/p&gt;
 &lt;p&gt;Windows Update 推送的驱动真的不可靠啊，不知道是 RTL8111H 网卡特有的问题还是所有螃蟹网卡微软驱动都有问题，建议用微软公版网卡驱动的都测下速度。&lt;/p&gt;
 &lt;h2 id=&#34;微软公版驱动&#34;&gt;微软公版驱动
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/09/ms-lan-driver.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1227&#34; height=&#34;600&#34; src=&#34;https://umi.im/wp-content/uploads/2023/09/ms-lan-driver.png&#34; alt=&#34;&#34; class=&#34;wp-image-6724&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/09/ms-lan-driver.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1227&#34; height=&#34;600&#34; src=&#34;https://baka.li/wp-content/uploads/2023/09/ms-lan-driver.png&#34; alt=&#34;&#34; class=&#34;wp-image-6724&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;螃蟹驱动&#34;&gt;螃蟹驱动
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/09/image.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;988&#34; height=&#34;666&#34; src=&#34;https://umi.im/wp-content/uploads/2023/09/image.png&#34; alt=&#34;此图片的alt属性为空；文件名为Realtek-lan-driver.png&#34; class=&#34;wp-image-6726&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/09/image.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;988&#34; height=&#34;666&#34; src=&#34;https://baka.li/wp-content/uploads/2023/09/image.png&#34; alt=&#34;此图片的alt属性为空；文件名为Realtek-lan-driver.png&#34; class=&#34;wp-image-6726&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>制作绕过 TPM 检测的 Windows 11 系统安装镜像</title>
-        <link>https://umi.im/training-win11-iso-tools/</link>
+        <link>https://baka.li/training-win11-iso-tools/</link>
         <pubDate>Mon, 10 Oct 2022 17:47:42 +0000</pubDate>
         
-        <guid>https://umi.im/training-win11-iso-tools/</guid>
+        <guid>https://baka.li/training-win11-iso-tools/</guid>
         <description>&lt;p&gt;微软给最新的 Windows 11 系统的安装上做了些限制，如果你的电脑配置过低或者不支持 TPM2.0 （可信平台模块），那你将无法继续安装。&lt;/p&gt;
 &lt;p&gt;我们可以用 &lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://www.heu8.net/&#34; target=&#34;_blank&#34;&gt;知己而知彼&lt;/a&gt; 开发的 Training Win11 ISO Tools 工具制作绕过 TPM 检测和微软账号在线登录 Win11 系统安装镜像。&lt;/p&gt;
 &lt;p&gt;只需要把安装镜像放在工具目录里的 Source_ISO 目录，再运行 .bat 脚本就可以生成绕过 TPM 检测的 Windows 11 系统安装镜像了。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;952&#34; height=&#34;628&#34; src=&#34;https://umi.im/wp-content/uploads/2022/10/Training_Win11_ISO_Tools.png&#34; alt=&#34;&#34; class=&#34;wp-image-6200&#34; /&gt;  
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;952&#34; height=&#34;628&#34; src=&#34;https://baka.li/wp-content/uploads/2022/10/Training_Win11_ISO_Tools.png&#34; alt=&#34;&#34; class=&#34;wp-image-6200&#34; /&gt;  
 &lt;p&gt;下载：&lt;/p&gt;
 &lt;h2 id=&#34;training-win11-iso-tools&#34;&gt;&lt;a href=&#34;https://1drv.ms/u/s!Agj1VU8aYuuBgeYrwa7OVleVruUeiQ?e=g0ifp5&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Training Win11 ISO Tools&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>
         <title>给 Windows 11 22H2 的资源管理器加上多标签页功能</title>
-        <link>https://umi.im/win11-explorer/</link>
+        <link>https://baka.li/win11-explorer/</link>
         <pubDate>Thu, 31 Mar 2022 19:22:17 +0000</pubDate>
         
-        <guid>https://umi.im/win11-explorer/</guid>
+        <guid>https://baka.li/win11-explorer/</guid>
         <description>&lt;p&gt;时隔多年，微软终于再次给 Windows 的资源管理器加上多标签页，最新的 Win11 DEV 预览版 22H2 Build 22581 隐藏了这项功能，开启很简单。&lt;/p&gt;
 &lt;div class=&#34;wp-block-argon-github github-info-card card shadow-sm github-info-card-full&#34; data-author=&#34;thebookisclosed&#34; data-project=&#34;vive&#34;&gt;
   &lt;div class=&#34;github-info-card-header&#34;&gt;
@@ -78,19 +78,19 @@
 #删除文件资源管理器标签页功能
 .\vivetool delconfig 34370472 2
 #操作完成必须重启系统才能生效&lt;/code&gt;&lt;/pre&gt;
-&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;905&#34; height=&#34;616&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/vivetool-addconfig.png&#34; alt=&#34;&#34; class=&#34;wp-image-6114&#34; /&gt;  
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;905&#34; height=&#34;616&#34; src=&#34;https://baka.li/wp-content/uploads/2022/04/vivetool-addconfig.png&#34; alt=&#34;&#34; class=&#34;wp-image-6114&#34; /&gt;  
 &lt;p&gt;多标签页的快捷键基本和 Chrome 一样， Ctrl + T 新建标签页，Ctrl + W 关闭标签页，Ctrl + N 在新窗口打开资源管理器，Ctrl + Tab 和 Ctrl + Shift + Tab 是左右切换标签页。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1116&#34; height=&#34;823&#34; src=&#34;https://umi.im/wp-content/uploads/2022/04/win11-explorer.png&#34; alt=&#34;&#34; class=&#34;wp-image-6112&#34; /&gt;  
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1116&#34; height=&#34;823&#34; src=&#34;https://baka.li/wp-content/uploads/2022/04/win11-explorer.png&#34; alt=&#34;&#34; class=&#34;wp-image-6112&#34; /&gt;  
 &lt;p&gt;说起来在很早以前，我通过一个叫 &lt;a rel=&#34;noreferrer noopener&#34; href=&#34;http://cn.ejie.me/&#34; target=&#34;_blank&#34;&gt;Clover&lt;/a&gt; 的软件在资源管理器加上类似 Chrome 的多标签页功能，不过好景不长，软件的开发者把项目卖掉了，然后 Clover 就越来越难用了，在 Win10 上经常卡死，不得不回到打开一堆资源管理器窗口的日子，然后也尝试了 QTTabBar 这种类似的软件，但还是不习惯用。&lt;/p&gt;
 &lt;p&gt;希望这功能不要微软被砍掉…&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Windows 11 WSA (安卓子系统) 使用体验</title>
-        <link>https://umi.im/win11-wsa/</link>
+        <link>https://baka.li/win11-wsa/</link>
         <pubDate>Thu, 21 Oct 2021 15:48:36 +0000</pubDate>
         
-        <guid>https://umi.im/win11-wsa/</guid>
+        <guid>https://baka.li/win11-wsa/</guid>
         <description>&lt;p&gt;加入Windows 预览体验计划的 DEV 通道，更新到 22483.1000 。&lt;figure class=&#34;wp-block-table&#34;&gt;&lt;/p&gt;
 &lt;table&gt;
   &lt;tr&gt;
@@ -101,40 +101,40 @@
 &lt;/table&gt;&lt;figcaption&gt;https://bbs.pcbeta.com/viewthread-1908263-1-1.html&lt;/figcaption&gt; 
 &lt;p&gt;装完了 ADB 连上子系统后安装 APK 一直报错，重启电脑一次才安装成功。&lt;/p&gt;
 &lt;p&gt;第一次启动就像你的安卓手机开机一样慢。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;622&#34; height=&#34;381&#34; src=&#34;https://umi.im/wp-content/uploads/2021/10/WSA-boot.png&#34; alt=&#34;&#34; class=&#34;wp-image-5939&#34; /&gt;  
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;622&#34; height=&#34;381&#34; src=&#34;https://baka.li/wp-content/uploads/2021/10/WSA-boot.png&#34; alt=&#34;&#34; class=&#34;wp-image-5939&#34; /&gt;  
 &lt;p&gt;大部分 APP 都运行正常，我的八代移动双核处理器 (i3-8109U) 跑安兔兔CPU分数和骁龙845相当，虚拟化效率挺高的，GPU 暂时没法驱动。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1600&#34; height=&#34;900&#34; src=&#34;https://umi.im/wp-content/uploads/2021/10/WSA-APP.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5937&#34; srcset=&#34;https://umi.im/wp-content/uploads/2021/10/WSA-APP.jpg 1600w, https://umi.im/wp-content/uploads/2021/10/WSA-APP-1536x864.jpg 1536w&#34; sizes=&#34;(max-width: 1600px) 100vw, 1600px&#34; /&gt;  
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1600&#34; height=&#34;900&#34; src=&#34;https://baka.li/wp-content/uploads/2021/10/WSA-APP.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5937&#34; srcset=&#34;https://baka.li/wp-content/uploads/2021/10/WSA-APP.jpg 1600w, https://baka.li/wp-content/uploads/2021/10/WSA-APP-1536x864.jpg 1536w&#34; sizes=&#34;(max-width: 1600px) 100vw, 1600px&#34; /&gt;  
 &lt;p&gt;WSA 一运行，基本就会吃掉 2GB 的内存，8GB 内存很勉强了。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;885&#34; height=&#34;753&#34; src=&#34;https://umi.im/wp-content/uploads/2021/10/WSA-RAM.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5938&#34; /&gt;  
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;885&#34; height=&#34;753&#34; src=&#34;https://baka.li/wp-content/uploads/2021/10/WSA-RAM.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5938&#34; /&gt;  
 &lt;p&gt;个人评价，暂时没比其他安卓模拟器体验好很多，还是等正式版到来再看看吧。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Windows 10 教育版 KSM激活工具</title>
-        <link>https://umi.im/win10-edu-kms/</link>
+        <link>https://baka.li/win10-edu-kms/</link>
         <pubDate>Sun, 11 Mar 2018 20:41:33 +0000</pubDate>
         
-        <guid>https://umi.im/win10-edu-kms/</guid>
+        <guid>https://baka.li/win10-edu-kms/</guid>
         <description>&lt;p&gt;今天我的 Windows 10 专业版 的 KMS 激活到期了，向往常一样打开 KMS Auto Net 准备继续 KMS 激活 180 天。&lt;/p&gt;
 &lt;p&gt;然而这次激活失败了，试了多次还是不行，接着又换了几个知名的 KMS 激活工具，均激活失败。&lt;/p&gt;
 &lt;p&gt;重启电脑，认真一看，我的 Windows 10 专业版变成了教育版？？？&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/Win10-EducationKMS-1-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5003&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/Win10-EducationKMS-1-1.png&#34; alt=&#34;&#34; width=&#34;1121&#34; height=&#34;788&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/Win10-EducationKMS-1-1.png 1121w, https://umi.im/wp-content/uploads/2018/03/Win10-EducationKMS-1-1-150x105.png 150w, https://umi.im/wp-content/uploads/2018/03/Win10-EducationKMS-1-1-300x211.png 300w, https://umi.im/wp-content/uploads/2018/03/Win10-EducationKMS-1-1-768x540.png 768w, https://umi.im/wp-content/uploads/2018/03/Win10-EducationKMS-1-1-1024x720.png 1024w&#34; sizes=&#34;(max-width: 1121px) 100vw, 1121px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2018/03/Win10-EducationKMS-1-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5003&#34; src=&#34;https://baka.li/wp-content/uploads/2018/03/Win10-EducationKMS-1-1.png&#34; alt=&#34;&#34; width=&#34;1121&#34; height=&#34;788&#34; srcset=&#34;https://baka.li/wp-content/uploads/2018/03/Win10-EducationKMS-1-1.png 1121w, https://baka.li/wp-content/uploads/2018/03/Win10-EducationKMS-1-1-150x105.png 150w, https://baka.li/wp-content/uploads/2018/03/Win10-EducationKMS-1-1-300x211.png 300w, https://baka.li/wp-content/uploads/2018/03/Win10-EducationKMS-1-1-768x540.png 768w, https://baka.li/wp-content/uploads/2018/03/Win10-EducationKMS-1-1-1024x720.png 1024w&#34; sizes=&#34;(max-width: 1121px) 100vw, 1121px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;搜了一下好像有人遇到和我类似的情况，激活失败系统变成教育版。&lt;/p&gt;
 &lt;p&gt;最后找到了 Win10_KMS_Activation-V3_2_CN_HK_TW_EN.bat 这个批处理激活脚本才激活成功。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/Win10_KMS_Activation-V3_2_CN_HK_TW_EN-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5002&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/Win10_KMS_Activation-V3_2_CN_HK_TW_EN-1.png&#34; alt=&#34;&#34; width=&#34;682&#34; height=&#34;432&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/Win10_KMS_Activation-V3_2_CN_HK_TW_EN-1.png 682w, https://umi.im/wp-content/uploads/2018/03/Win10_KMS_Activation-V3_2_CN_HK_TW_EN-1-150x95.png 150w, https://umi.im/wp-content/uploads/2018/03/Win10_KMS_Activation-V3_2_CN_HK_TW_EN-1-300x190.png 300w&#34; sizes=&#34;(max-width: 682px) 100vw, 682px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2018/03/Win10_KMS_Activation-V3_2_CN_HK_TW_EN-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5002&#34; src=&#34;https://baka.li/wp-content/uploads/2018/03/Win10_KMS_Activation-V3_2_CN_HK_TW_EN-1.png&#34; alt=&#34;&#34; width=&#34;682&#34; height=&#34;432&#34; srcset=&#34;https://baka.li/wp-content/uploads/2018/03/Win10_KMS_Activation-V3_2_CN_HK_TW_EN-1.png 682w, https://baka.li/wp-content/uploads/2018/03/Win10_KMS_Activation-V3_2_CN_HK_TW_EN-1-150x95.png 150w, https://baka.li/wp-content/uploads/2018/03/Win10_KMS_Activation-V3_2_CN_HK_TW_EN-1-300x190.png 300w&#34; sizes=&#34;(max-width: 682px) 100vw, 682px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
-&lt;h2 id=&#34;win10_kms_activation-v3_2_cn_hk_tw_&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/Win10_KMS_Activation-V3_2_CN_HK_TW_EN.bat&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;win10_kms_activation-v3_2_cn_hk_tw_&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2018/03/Win10_KMS_Activation-V3_2_CN_HK_TW_EN.bat&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Win10_KMS_Activation-V3_2_CN_HK_TW_EN&lt;/a&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>
         <title>数码相框改造 PC 硬件资源监视器</title>
-        <link>https://umi.im/aida64-usb-display/</link>
+        <link>https://baka.li/aida64-usb-display/</link>
         <pubDate>Mon, 11 Apr 2016 15:17:44 +0000</pubDate>
         
-        <guid>https://umi.im/aida64-usb-display/</guid>
+        <guid>https://baka.li/aida64-usb-display/</guid>
         <description>&lt;p&gt;最近逛 NAS 论坛发现个有趣的东西，用于显示硬件资源信息的数码相框。&lt;/p&gt;
 &lt;p&gt;因为淘宝突然出现了一批 AX206 主控的 2.4 寸数码相框，刷一下固件就变成一个 USB 显示器了，这样在 Windows 设备上就可以通过 Aida64 输出硬件信息到 USB 显示器（数码相框）上，在 Linux 设备（NAS、路由器等）上可以通过 LCD4linux 输出，Aida64 有图形化的配置界面，折腾起来方便很多。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://item.taobao.com/item.htm?spm=a1z09.2.0.0.uObntS&amp;id=528645541681&amp;_u=b1pv401q5d48&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2.4寸数码相框 openwrt路由器显示设备 LCD2USB USB2LCD AX206 （淘宝）&lt;/a&gt;&lt;/p&gt;
@@ -148,44 +148,44 @@
 &lt;p&gt;直接抄卖家的教程，很简单。&lt;/p&gt;
 &lt;p&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;* 如果 ax206_lcd_driver.zip 的驱动无法安装，下载 &lt;a href=&#34;http://pan.baidu.com/s/1eQjAezS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DPFWIN 整合包&lt;/a&gt; ，解压，运行 USB_Display_Driver 目录下的 dpscat.exe ，再运行 dpinst64.exe 或者 dpinst32.exe 安装驱动。&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;然后就可以打开 Aida64 配置了，在 设置 的 LCD 项里面启用 AX206 LCD 支持就可以了，接着就调整要输出的信息，还可以自定义背景图片，这个也很简单就是要稍微花点时间，只有在运行着 Aida64 的情况下才有信号输出，所以要把 Aida64 设置为开机启动。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2016/04/aida64-lcd.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1042&#34; height=&#34;637&#34; src=&#34;https://umi.im/wp-content/uploads/2016/04/aida64-lcd.png&#34; alt=&#34;&#34; class=&#34;wp-image-4820&#34; srcset=&#34;https://umi.im/wp-content/uploads/2016/04/aida64-lcd.png 1042w, https://umi.im/wp-content/uploads/2016/04/aida64-lcd-150x92.png 150w, https://umi.im/wp-content/uploads/2016/04/aida64-lcd-300x183.png 300w, https://umi.im/wp-content/uploads/2016/04/aida64-lcd-768x469.png 768w, https://umi.im/wp-content/uploads/2016/04/aida64-lcd-1024x626.png 1024w&#34; sizes=&#34;(max-width: 1042px) 100vw, 1042px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2016/04/aida64-lcd.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1042&#34; height=&#34;637&#34; src=&#34;https://baka.li/wp-content/uploads/2016/04/aida64-lcd.png&#34; alt=&#34;&#34; class=&#34;wp-image-4820&#34; srcset=&#34;https://baka.li/wp-content/uploads/2016/04/aida64-lcd.png 1042w, https://baka.li/wp-content/uploads/2016/04/aida64-lcd-150x92.png 150w, https://baka.li/wp-content/uploads/2016/04/aida64-lcd-300x183.png 300w, https://baka.li/wp-content/uploads/2016/04/aida64-lcd-768x469.png 768w, https://baka.li/wp-content/uploads/2016/04/aida64-lcd-1024x626.png 1024w&#34; sizes=&#34;(max-width: 1042px) 100vw, 1042px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;最后，效果图，电脑关机或者 Aida64 被关闭时数码相框会熄灭。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2016/04/ax206-usb-display.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;968&#34; height=&#34;1280&#34; src=&#34;https://umi.im/wp-content/uploads/2016/04/ax206-usb-display.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-4821&#34; srcset=&#34;https://umi.im/wp-content/uploads/2016/04/ax206-usb-display.jpg 968w, https://umi.im/wp-content/uploads/2016/04/ax206-usb-display-113x150.jpg 113w, https://umi.im/wp-content/uploads/2016/04/ax206-usb-display-227x300.jpg 227w, https://umi.im/wp-content/uploads/2016/04/ax206-usb-display-768x1016.jpg 768w, https://umi.im/wp-content/uploads/2016/04/ax206-usb-display-774x1024.jpg 774w&#34; sizes=&#34;(max-width: 968px) 100vw, 968px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2016/04/ax206-usb-display.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;968&#34; height=&#34;1280&#34; src=&#34;https://baka.li/wp-content/uploads/2016/04/ax206-usb-display.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-4821&#34; srcset=&#34;https://baka.li/wp-content/uploads/2016/04/ax206-usb-display.jpg 968w, https://baka.li/wp-content/uploads/2016/04/ax206-usb-display-113x150.jpg 113w, https://baka.li/wp-content/uploads/2016/04/ax206-usb-display-227x300.jpg 227w, https://baka.li/wp-content/uploads/2016/04/ax206-usb-display-768x1016.jpg 768w, https://baka.li/wp-content/uploads/2016/04/ax206-usb-display-774x1024.jpg 774w&#34; sizes=&#34;(max-width: 968px) 100vw, 968px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>吐槽：Windows 10 技术预览版 Build 10061</title>
-        <link>https://umi.im/windows-10-build-10061/</link>
+        <link>https://baka.li/windows-10-build-10061/</link>
         <pubDate>Sat, 25 Apr 2015 16:44:48 +0000</pubDate>
         
-        <guid>https://umi.im/windows-10-build-10061/</guid>
+        <guid>https://baka.li/windows-10-build-10061/</guid>
         <description>&lt;p&gt;10051升级10061。&lt;/p&gt;
 &lt;p&gt;桌面，回收站图标又换了，还是好丑…&lt;/p&gt;
 &lt;p&gt;任务栏变成默认黑色半透明（相对Build 10041等），在设置项的个性化里面可以设置随壁纸色调变化。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-desktop.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3741&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-desktop.jpg&#34; alt=&#34;windows-10-build-10061-desktop&#34; width=&#34;1280&#34; height=&#34;800&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-desktop.jpg 1280w, https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-desktop-150x94.jpg 150w, https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-desktop-300x188.jpg 300w, https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-desktop-1024x640.jpg 1024w, https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-desktop-400x250.jpg 400w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-desktop.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3741&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-desktop.jpg&#34; alt=&#34;windows-10-build-10061-desktop&#34; width=&#34;1280&#34; height=&#34;800&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-desktop.jpg 1280w, https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-desktop-150x94.jpg 150w, https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-desktop-300x188.jpg 300w, https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-desktop-1024x640.jpg 1024w, https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-desktop-400x250.jpg 400w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;开始菜单小改，把电源选项隐藏到 “功率” 内，这里好像翻译错了，应该是电源（Power）。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-startmenu.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3742&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-startmenu.jpg&#34; alt=&#34;windows-10-build-10061-startmenu&#34; width=&#34;777&#34; height=&#34;637&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-startmenu.jpg 777w, https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-startmenu-150x123.jpg 150w, https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-startmenu-300x246.jpg 300w&#34; sizes=&#34;(max-width: 777px) 100vw, 777px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-startmenu.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3742&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-startmenu.jpg&#34; alt=&#34;windows-10-build-10061-startmenu&#34; width=&#34;777&#34; height=&#34;637&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-startmenu.jpg 777w, https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-startmenu-150x123.jpg 150w, https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-startmenu-300x246.jpg 300w&#34; sizes=&#34;(max-width: 777px) 100vw, 777px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;日历好看了很多，要是再能看到节假日就好了。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-Calendar.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3746&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-Calendar.png&#34; alt=&#34;windows-10-build-10061-Calendar&#34; width=&#34;486&#34; height=&#34;599&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-Calendar.png 486w, https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-Calendar-122x150.png 122w, https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-Calendar-243x300.png 243w&#34; sizes=&#34;(max-width: 486px) 100vw, 486px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-Calendar.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3746&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-Calendar.png&#34; alt=&#34;windows-10-build-10061-Calendar&#34; width=&#34;486&#34; height=&#34;599&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-Calendar.png 486w, https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-Calendar-122x150.png 122w, https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-Calendar-243x300.png 243w&#34; sizes=&#34;(max-width: 486px) 100vw, 486px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;应用程序窗口边框不能随壁纸变换色调了，统一变成浅灰色，非焦点窗口为深灰色，好丑！&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-appbar.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34; size-full wp-image-3743 alignleft&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-appbar.jpg&#34; alt=&#34;windows-10-build-10061-appbar&#34; width=&#34;676&#34; height=&#34;1300&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-appbar.jpg 676w, https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-appbar-78x150.jpg 78w, https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-appbar-156x300.jpg 156w, https://umi.im/wp-content/uploads/2015/04/windows-10-build-10061-appbar-532x1024.jpg 532w&#34; sizes=&#34;(max-width: 676px) 100vw, 676px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-appbar.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34; size-full wp-image-3743 alignleft&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-appbar.jpg&#34; alt=&#34;windows-10-build-10061-appbar&#34; width=&#34;676&#34; height=&#34;1300&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-appbar.jpg 676w, https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-appbar-78x150.jpg 78w, https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-appbar-156x300.jpg 156w, https://baka.li/wp-content/uploads/2015/04/windows-10-build-10061-appbar-532x1024.jpg 532w&#34; sizes=&#34;(max-width: 676px) 100vw, 676px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Windows 10 技术预览版 体验</title>
-        <link>https://umi.im/windows-10-preview/</link>
+        <link>https://baka.li/windows-10-preview/</link>
         <pubDate>Thu, 02 Oct 2014 07:11:08 +0000</pubDate>
         
-        <guid>https://umi.im/windows-10-preview/</guid>
-        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3062&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview.jpg&#34; alt=&#34;windows-10-preview&#34; width=&#34;640&#34; height=&#34;440&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview.jpg 640w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-150x103.jpg 150w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-300x206.jpg 300w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <guid>https://baka.li/windows-10-preview/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3062&#34; src=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview.jpg&#34; alt=&#34;windows-10-preview&#34; width=&#34;640&#34; height=&#34;440&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview.jpg 640w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-150x103.jpg 150w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-300x206.jpg 300w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;10月1日，微软开发布会宣布新一代操作系统Windows 10，而不是盛传已久的Windows, Windows TH, Windows X, Windows One，甚至是Windows9。在开发阶段曾泄露出新一代Windows内部代号为Windows Threshold。&lt;/p&gt;
 &lt;p&gt;微软旨在服务客户，称Windows 10为“有史以来最全面的操作系统（most comprehensive platform ever）”。新系统恢复了类似Windows 7的传统开始按钮，但是在细节上糅合了Windows 8和Windows 8.1的微软“Modern瓷砖”设计。Windows 10作为微软下一代系统的统一品牌名称，将覆盖所有尺寸和品类的Windows设备，可无缝运行于微型计算机（类似英特尔伽利略）、手机（ARM芯片）、平板（ARM和x86芯片）、二合一设备、桌面电脑及服务器等几乎所有硬件。Windows 10贯彻了“移动为先，云为先”的设计思路，三屏一云，多个平台共用一个应用商店，应用统一更新和购买，是跨平台最广的操作系统。新系统的名称跳过了一个数字“9”，标志着它实现了一个飞跃，旨在统一计算和移动设备体验。微软表示，今天发布的Windows 10是一个早期版本，微软仍旧在致力于优化平板电脑上的操作体验。Windows 10是一款为家庭、为企业、为个人量身打造的通用平台操作系统。Windows 10将会在在2015年晚些时候面向用户发售。&lt;/p&gt;
@@ -199,49 +199,49 @@
 &lt;p&gt;家里的EFI + GPT的机子安装失败了，提示安装源有问题，F**K！&lt;/p&gt;
 &lt;p&gt;在MBR的机子安装成功，安装起来和Windows8/8.1一模一样。&lt;/p&gt;
 &lt;p&gt;安装完成后进入桌面，那个Welcome to Tech Previ..的图标只是一个网页链接。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3046&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-1.png&#34; alt=&#34;windows-10-preview-1&#34; width=&#34;1024&#34; height=&#34;768&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-1.png 1024w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-1-150x112.png 150w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-1-300x225.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3046&#34; src=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-1.png&#34; alt=&#34;windows-10-preview-1&#34; width=&#34;1024&#34; height=&#34;768&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-1.png 1024w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-1-150x112.png 150w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-1-300x225.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;之前关于Windows 10的爆料已经很多了，虚拟桌面、开始菜单、Metro应用窗口化什么的都知道了。&lt;/p&gt;
 &lt;p&gt;但是安装完成后还是让我很兴奋。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-Kaiser.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3047&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-Kaiser.png&#34; alt=&#34;windows-10-preview-Kaiser&#34; width=&#34;600&#34; height=&#34;326&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-Kaiser.png 600w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-Kaiser-150x81.png 150w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-Kaiser-300x163.png 300w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-Kaiser.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3047&#34; src=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-Kaiser.png&#34; alt=&#34;windows-10-preview-Kaiser&#34; width=&#34;600&#34; height=&#34;326&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-Kaiser.png 600w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-Kaiser-150x81.png 150w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-Kaiser-300x163.png 300w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;最明显的一点，应用程序的边框像智能手机一样超薄了。&lt;/p&gt;
 &lt;p&gt;下图很明显看出左右两侧和底部变得很窄了，这个简直比Aero Glass更惊喜。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3048&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-2.png&#34; alt=&#34;windows-10-preview-2&#34; width=&#34;676&#34; height=&#34;920&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-2.png 676w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-2-110x150.png 110w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-2-220x300.png 220w&#34; sizes=&#34;(max-width: 676px) 100vw, 676px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3048&#34; src=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-2.png&#34; alt=&#34;windows-10-preview-2&#34; width=&#34;676&#34; height=&#34;920&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-2.png 676w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-2-110x150.png 110w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-2-220x300.png 220w&#34; sizes=&#34;(max-width: 676px) 100vw, 676px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;预览版什么的是不用激活的，连安装序列号都不用，2015年4月16日过期，那时候估计RTM就出了。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3049&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-3.png&#34; alt=&#34;windows-10-preview-3&#34; width=&#34;973&#34; height=&#34;724&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-3.png 973w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-3-150x111.png 150w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-3-300x223.png 300w&#34; sizes=&#34;(max-width: 973px) 100vw, 973px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3049&#34; src=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-3.png&#34; alt=&#34;windows-10-preview-3&#34; width=&#34;973&#34; height=&#34;724&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-3.png 973w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-3-150x111.png 150w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-3-300x223.png 300w&#34; sizes=&#34;(max-width: 973px) 100vw, 973px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;资源管理器中多了个主页，显示最近浏览文件、最常使用文件夹和收藏夹，使用快捷键Win + E默认打开资源管理器的主页，非常不适应！！！&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-4.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3050&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-4.png&#34; alt=&#34;windows-10-preview-4&#34; width=&#34;972&#34; height=&#34;724&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-4.png 972w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-4-150x111.png 150w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-4-300x223.png 300w&#34; sizes=&#34;(max-width: 972px) 100vw, 972px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-4.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3050&#34; src=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-4.png&#34; alt=&#34;windows-10-preview-4&#34; width=&#34;972&#34; height=&#34;724&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-4.png 972w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-4-150x111.png 150w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-4-300x223.png 300w&#34; sizes=&#34;(max-width: 972px) 100vw, 972px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;最人性化 的多任务切换视图（Task View），当任务多时会变成多排显示，单个视图大小也是随动的。&lt;/p&gt;
 &lt;p&gt;在Windows Vista/7/8/8.1中的多任务切换视图预览图非常小，对近视者来说非常反人类，甚至不如Windows XP中的纯图标视图来得方便。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-5.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3051&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-5.jpg&#34; alt=&#34;windows-10-preview-5&#34; width=&#34;1280&#34; height=&#34;984&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-5.jpg 1280w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-5-150x115.jpg 150w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-5-300x230.jpg 300w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-5-1024x787.jpg 1024w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-5-194x150.jpg 194w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-5.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3051&#34; src=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-5.jpg&#34; alt=&#34;windows-10-preview-5&#34; width=&#34;1280&#34; height=&#34;984&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-5.jpg 1280w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-5-150x115.jpg 150w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-5-300x230.jpg 300w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-5-1024x787.jpg 1024w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-5-194x150.jpg 194w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;传闻中的虚拟桌面（多重桌面），不怎么感冒。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-6.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3054&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-6.jpg&#34; alt=&#34;windows-10-preview-6&#34; width=&#34;1280&#34; height=&#34;1024&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-6.jpg 1280w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-6-150x120.jpg 150w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-6-300x240.jpg 300w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-6-1024x819.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-6.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3054&#34; src=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-6.jpg&#34; alt=&#34;windows-10-preview-6&#34; width=&#34;1280&#34; height=&#34;1024&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-6.jpg 1280w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-6-150x120.jpg 150w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-6-300x240.jpg 300w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-6-1024x819.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;新的开始菜单，对我来说就是用来搜索。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-7.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3055&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-7.png&#34; alt=&#34;windows-10-preview-7&#34; width=&#34;783&#34; height=&#34;560&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-7.png 783w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-7-150x107.png 150w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-7-300x214.png 300w&#34; sizes=&#34;(max-width: 783px) 100vw, 783px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-7.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3055&#34; src=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-7.png&#34; alt=&#34;windows-10-preview-7&#34; width=&#34;783&#34; height=&#34;560&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-7.png 783w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-7-150x107.png 150w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-7-300x214.png 300w&#34; sizes=&#34;(max-width: 783px) 100vw, 783px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;窗口化的Metro应用 – 邮件。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-8.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3056&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-8.png&#34; alt=&#34;windows-10-preview-8&#34; width=&#34;1193&#34; height=&#34;867&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/windows-10-preview-8.png 1193w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-8-150x109.png 150w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-8-300x218.png 300w, https://umi.im/wp-content/uploads/2014/10/windows-10-preview-8-1024x744.png 1024w&#34; sizes=&#34;(max-width: 1193px) 100vw, 1193px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-8.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3056&#34; src=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-8.png&#34; alt=&#34;windows-10-preview-8&#34; width=&#34;1193&#34; height=&#34;867&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/10/windows-10-preview-8.png 1193w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-8-150x109.png 150w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-8-300x218.png 300w, https://baka.li/wp-content/uploads/2014/10/windows-10-preview-8-1024x744.png 1024w&#34; sizes=&#34;(max-width: 1193px) 100vw, 1193px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;heading&#34;&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt; &lt;em&gt;&lt;strong&gt;&lt;del&gt;带TP的腾讯游戏大量阵亡&lt;/del&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;
 &lt;/h1&gt;&lt;h2 id=&#34;使用tgp可以玩lol和dnf但是体验服的dnf不行&#34;&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;使用TGP可以玩LOL和DNF，但是体验服的DNF不行。&lt;/span&gt;
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/10/095938ncx3cclce77ff5rv.jpg.thumb_.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3058&#34; src=&#34;https://umi.im/wp-content/uploads/2014/10/095938ncx3cclce77ff5rv.jpg.thumb_.jpg&#34; alt=&#34;095938ncx3cclce77ff5rv.jpg.thumb&#34; width=&#34;640&#34; height=&#34;360&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/10/095938ncx3cclce77ff5rv.jpg.thumb_.jpg 640w, https://umi.im/wp-content/uploads/2014/10/095938ncx3cclce77ff5rv.jpg.thumb_-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/10/095938ncx3cclce77ff5rv.jpg.thumb_-300x168.jpg 300w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/10/095938ncx3cclce77ff5rv.jpg.thumb_.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3058&#34; src=&#34;https://baka.li/wp-content/uploads/2014/10/095938ncx3cclce77ff5rv.jpg.thumb_.jpg&#34; alt=&#34;095938ncx3cclce77ff5rv.jpg.thumb&#34; width=&#34;640&#34; height=&#34;360&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/10/095938ncx3cclce77ff5rv.jpg.thumb_.jpg 640w, https://baka.li/wp-content/uploads/2014/10/095938ncx3cclce77ff5rv.jpg.thumb_-150x84.jpg 150w, https://baka.li/wp-content/uploads/2014/10/095938ncx3cclce77ff5rv.jpg.thumb_-300x168.jpg 300w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;因为还是第一个预览版，有少量莫名其妙的BUG，比如多任务切换预览变成XP那样的，刚开机弹出1分钟后要重启的。&lt;/p&gt;
 &lt;p&gt;我所使用的软件全部兼容Windows 10，传说中的通知中心和Cortana并没有出现，再过一段时间等新的预览版再安装比较好。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Windows 密码获取工具 ~ Mimikatz</title>
-        <link>https://umi.im/mimikatz/</link>
+        <link>https://baka.li/mimikatz/</link>
         <pubDate>Mon, 30 Jun 2014 08:56:49 +0000</pubDate>
         
-        <guid>https://umi.im/mimikatz/</guid>
+        <guid>https://baka.li/mimikatz/</guid>
         <description>&lt;p&gt;以为只能获取本地密码么？&lt;/p&gt;
 &lt;p&gt;即使是使用Microsoft账户登录依旧能获取密码。&lt;/p&gt;
 &lt;p&gt;比如我使用的live邮箱。&lt;/p&gt;
@@ -253,43 +253,43 @@
 sekurlsa::logonpasswords
 
 &lt;/pre&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/06/mimikatz.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2578&#34; src=&#34;https://umi.im/wp-content/uploads/2014/06/mimikatz.png&#34; alt=&#34;mimikatz&#34; width=&#34;997&#34; height=&#34;571&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/06/mimikatz.png 997w, https://umi.im/wp-content/uploads/2014/06/mimikatz-150x85.png 150w, https://umi.im/wp-content/uploads/2014/06/mimikatz-300x171.png 300w&#34; sizes=&#34;(max-width: 997px) 100vw, 997px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/06/mimikatz.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2578&#34; src=&#34;https://baka.li/wp-content/uploads/2014/06/mimikatz.png&#34; alt=&#34;mimikatz&#34; width=&#34;997&#34; height=&#34;571&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/06/mimikatz.png 997w, https://baka.li/wp-content/uploads/2014/06/mimikatz-150x85.png 150w, https://baka.li/wp-content/uploads/2014/06/mimikatz-300x171.png 300w&#34; sizes=&#34;(max-width: 997px) 100vw, 997px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
 &lt;h2 id=&#34;mimikatzgithub&#34;&gt;&lt;a title=&#34;下载&#34; href=&#34;https://github.com/gentilkiwi/mimikatz/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mimikatz&lt;/a&gt; （GitHub）
 &lt;/h2&gt;</description>
         </item>
         <item>
         <title>Windows 8.1 Update1 RTM</title>
-        <link>https://umi.im/windows8-1-update1/</link>
+        <link>https://baka.li/windows8-1-update1/</link>
         <pubDate>Sat, 22 Mar 2014 04:10:18 +0000</pubDate>
         
-        <guid>https://umi.im/windows8-1-update1/</guid>
+        <guid>https://baka.li/windows8-1-update1/</guid>
         <description>&lt;p&gt;据说Windows 8.1 Update1 &lt;a title=&#34;WIKI&#34; href=&#34;http://zh.wikipedia.org/wiki/%E8%BB%9F%E4%BB%B6%E7%89%88%E6%9C%AC%E9%80%B1%E6%9C%9F#RTM&#34; target=&#34;_blank&#34;&gt;RTM&lt;/a&gt; 偷跑了，版本号为Build 9600.17031 。&lt;/p&gt;
 &lt;p&gt;这次通过Windows Update进行更新，不会出现WIN8升级8.1那样KMS激活无法升级的情况。&lt;/p&gt;
 &lt;h2 id=&#34;windows-81-update1-rtm-下载&#34;&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;a title=&#34;百度云&#34; href=&#34;http://pan.baidu.com/s/1dD7oUwp&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;Windows 8.1 Update1 RTM 下载&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;
 &lt;/h2&gt;&lt;p&gt;PS：这是补丁，本地补丁，打完这些补丁重启后就是Windows 8.1 Update1 了。&lt;/p&gt;
 &lt;p&gt;首先，把现有的补丁通过Windows Update全部更新好。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1814&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-1.png&#34; alt=&#34;Windows8.1 Update1 RTM-1&#34; width=&#34;637&#34; height=&#34;258&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-1.png 637w, https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-1-150x60.png 150w, https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-1-300x121.png 300w&#34; sizes=&#34;(max-width: 637px) 100vw, 637px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1814&#34; src=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-1.png&#34; alt=&#34;Windows8.1 Update1 RTM-1&#34; width=&#34;637&#34; height=&#34;258&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-1.png 637w, https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-1-150x60.png 150w, https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-1-300x121.png 300w&#34; sizes=&#34;(max-width: 637px) 100vw, 637px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;然后下载Windows 8.1 Update1的安装补丁，64位系统下载64的，32位下载86的，由名字顺序小到大开始安装。（一定要按顺序，不然麻烦了。）&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1815&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-2.png&#34; alt=&#34;Windows8.1 Update1 RTM-2&#34; width=&#34;774&#34; height=&#34;184&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-2.png 774w, https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-2-150x35.png 150w, https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-2-300x71.png 300w&#34; sizes=&#34;(max-width: 774px) 100vw, 774px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1816&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-3.png&#34; alt=&#34;Windows8.1 Update1 RTM-3&#34; width=&#34;384&#34; height=&#34;144&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-3.png 384w, https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-3-150x56.png 150w, https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-3-300x112.png 300w&#34; sizes=&#34;(max-width: 384px) 100vw, 384px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-5.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1818&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-5.png&#34; alt=&#34;Windows8.1 Update1 RTM-5&#34; width=&#34;651&#34; height=&#34;507&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-5.png 651w, https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-5-150x116.png 150w, https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-5-300x233.png 300w, https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-5-194x150.png 194w&#34; sizes=&#34;(max-width: 651px) 100vw, 651px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1815&#34; src=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-2.png&#34; alt=&#34;Windows8.1 Update1 RTM-2&#34; width=&#34;774&#34; height=&#34;184&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-2.png 774w, https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-2-150x35.png 150w, https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-2-300x71.png 300w&#34; sizes=&#34;(max-width: 774px) 100vw, 774px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1816&#34; src=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-3.png&#34; alt=&#34;Windows8.1 Update1 RTM-3&#34; width=&#34;384&#34; height=&#34;144&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-3.png 384w, https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-3-150x56.png 150w, https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-3-300x112.png 300w&#34; sizes=&#34;(max-width: 384px) 100vw, 384px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-5.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1818&#34; src=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-5.png&#34; alt=&#34;Windows8.1 Update1 RTM-5&#34; width=&#34;651&#34; height=&#34;507&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-5.png 651w, https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-5-150x116.png 150w, https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-5-300x233.png 300w, https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-5-194x150.png 194w&#34; sizes=&#34;(max-width: 651px) 100vw, 651px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;安装完重启后就OK了。&lt;/p&gt;
 &lt;h2 id=&#34;新特性&#34;&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;新特性&lt;/span&gt;
 &lt;/h2&gt;&lt;p&gt;可以把Metro应用固定在任务栏，个人感觉用处不大。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-9.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1822&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-9.png&#34; alt=&#34;Windows8.1 Update1 RTM-9&#34; width=&#34;300&#34; height=&#34;39&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-9.png 300w, https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-9-150x19.png 150w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-9.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1822&#34; src=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-9.png&#34; alt=&#34;Windows8.1 Update1 RTM-9&#34; width=&#34;300&#34; height=&#34;39&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-9.png 300w, https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-9-150x19.png 150w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;在开始菜单右上角显示电源键和搜索键，一点用都没有，不过感觉好看了些。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-7.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1820&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-7.png&#34; alt=&#34;Windows8.1 Update1 RTM-7&#34; width=&#34;362&#34; height=&#34;169&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-7.png 362w, https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-7-150x70.png 150w, https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-7-300x140.png 300w&#34; sizes=&#34;(max-width: 362px) 100vw, 362px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-7.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1820&#34; src=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-7.png&#34; alt=&#34;Windows8.1 Update1 RTM-7&#34; width=&#34;362&#34; height=&#34;169&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-7.png 362w, https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-7-150x70.png 150w, https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-7-300x140.png 300w&#34; sizes=&#34;(max-width: 362px) 100vw, 362px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;开始菜单右键改成桌面那样的了，好用了很多。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-8.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1821&#34; src=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-8.png&#34; alt=&#34;Windows8.1 Update1 RTM-8&#34; width=&#34;386&#34; height=&#34;259&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-8.png 386w, https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-8-150x100.png 150w, https://umi.im/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-8-300x201.png 300w&#34; sizes=&#34;(max-width: 386px) 100vw, 386px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-8.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1821&#34; src=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-8.png&#34; alt=&#34;Windows8.1 Update1 RTM-8&#34; width=&#34;386&#34; height=&#34;259&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-8.png 386w, https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-8-150x100.png 150w, https://baka.li/wp-content/uploads/2014/03/Windows8.1-Update1-RTM-8-300x201.png 300w&#34; sizes=&#34;(max-width: 386px) 100vw, 386px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[divider type=”thick”]&lt;/p&gt;
 &lt;p&gt;好吧，就这点变化，其他没感觉，略失望。&lt;/p&gt;
 &lt;p&gt;浪费好多时间弄更新，坑爹，还是等推送吧，过两个星期估计就有了。&lt;/p&gt;
@@ -297,43 +297,43 @@ sekurlsa::logonpasswords
         </item>
         <item>
         <title>Windows 8.1 For COLG x64</title>
-        <link>https://umi.im/windows-8-1-for-colg-x64/</link>
+        <link>https://baka.li/windows-8-1-for-colg-x64/</link>
         <pubDate>Wed, 08 Jan 2014 05:57:58 +0000</pubDate>
         
-        <guid>https://umi.im/windows-8-1-for-colg-x64/</guid>
-        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/%e5%b9%bb%e7%81%af%e7%89%871.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1244&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/幻灯片1.jpg&#34; alt=&#34;幻灯片1&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/幻灯片1.jpg 1280w, https://umi.im/wp-content/uploads/2014/01/幻灯片1-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/01/幻灯片1-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/01/幻灯片1-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/%e5%b9%bb%e7%81%af%e7%89%872.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1245&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/幻灯片2.jpg&#34; alt=&#34;幻灯片2&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/幻灯片2.jpg 1280w, https://umi.im/wp-content/uploads/2014/01/幻灯片2-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/01/幻灯片2-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/01/幻灯片2-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/%e5%b9%bb%e7%81%af%e7%89%873.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1246&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/幻灯片3.jpg&#34; alt=&#34;幻灯片3&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/幻灯片3.jpg 1280w, https://umi.im/wp-content/uploads/2014/01/幻灯片3-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/01/幻灯片3-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/01/幻灯片3-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/%e5%b9%bb%e7%81%af%e7%89%874.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1247&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/幻灯片4.jpg&#34; alt=&#34;幻灯片4&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/幻灯片4.jpg 1280w, https://umi.im/wp-content/uploads/2014/01/幻灯片4-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/01/幻灯片4-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/01/幻灯片4-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/%e5%b9%bb%e7%81%af%e7%89%875.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1248&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/幻灯片5.jpg&#34; alt=&#34;幻灯片5&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/幻灯片5.jpg 1280w, https://umi.im/wp-content/uploads/2014/01/幻灯片5-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/01/幻灯片5-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/01/幻灯片5-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/%e5%b9%bb%e7%81%af%e7%89%876.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1249&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/幻灯片6.jpg&#34; alt=&#34;幻灯片6&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/幻灯片6.jpg 1280w, https://umi.im/wp-content/uploads/2014/01/幻灯片6-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/01/幻灯片6-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/01/幻灯片6-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/%e5%b9%bb%e7%81%af%e7%89%877.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1250&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/幻灯片7.jpg&#34; alt=&#34;幻灯片7&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/幻灯片7.jpg 1280w, https://umi.im/wp-content/uploads/2014/01/幻灯片7-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/01/幻灯片7-300x168.jpg 300w, https://umi.im/wp-content/uploads/2014/01/幻灯片7-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <guid>https://baka.li/windows-8-1-for-colg-x64/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/%e5%b9%bb%e7%81%af%e7%89%871.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1244&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/幻灯片1.jpg&#34; alt=&#34;幻灯片1&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/幻灯片1.jpg 1280w, https://baka.li/wp-content/uploads/2014/01/幻灯片1-150x84.jpg 150w, https://baka.li/wp-content/uploads/2014/01/幻灯片1-300x168.jpg 300w, https://baka.li/wp-content/uploads/2014/01/幻灯片1-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/%e5%b9%bb%e7%81%af%e7%89%872.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1245&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/幻灯片2.jpg&#34; alt=&#34;幻灯片2&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/幻灯片2.jpg 1280w, https://baka.li/wp-content/uploads/2014/01/幻灯片2-150x84.jpg 150w, https://baka.li/wp-content/uploads/2014/01/幻灯片2-300x168.jpg 300w, https://baka.li/wp-content/uploads/2014/01/幻灯片2-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/%e5%b9%bb%e7%81%af%e7%89%873.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1246&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/幻灯片3.jpg&#34; alt=&#34;幻灯片3&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/幻灯片3.jpg 1280w, https://baka.li/wp-content/uploads/2014/01/幻灯片3-150x84.jpg 150w, https://baka.li/wp-content/uploads/2014/01/幻灯片3-300x168.jpg 300w, https://baka.li/wp-content/uploads/2014/01/幻灯片3-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/%e5%b9%bb%e7%81%af%e7%89%874.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1247&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/幻灯片4.jpg&#34; alt=&#34;幻灯片4&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/幻灯片4.jpg 1280w, https://baka.li/wp-content/uploads/2014/01/幻灯片4-150x84.jpg 150w, https://baka.li/wp-content/uploads/2014/01/幻灯片4-300x168.jpg 300w, https://baka.li/wp-content/uploads/2014/01/幻灯片4-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/%e5%b9%bb%e7%81%af%e7%89%875.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1248&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/幻灯片5.jpg&#34; alt=&#34;幻灯片5&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/幻灯片5.jpg 1280w, https://baka.li/wp-content/uploads/2014/01/幻灯片5-150x84.jpg 150w, https://baka.li/wp-content/uploads/2014/01/幻灯片5-300x168.jpg 300w, https://baka.li/wp-content/uploads/2014/01/幻灯片5-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/%e5%b9%bb%e7%81%af%e7%89%876.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1249&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/幻灯片6.jpg&#34; alt=&#34;幻灯片6&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/幻灯片6.jpg 1280w, https://baka.li/wp-content/uploads/2014/01/幻灯片6-150x84.jpg 150w, https://baka.li/wp-content/uploads/2014/01/幻灯片6-300x168.jpg 300w, https://baka.li/wp-content/uploads/2014/01/幻灯片6-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/%e5%b9%bb%e7%81%af%e7%89%877.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1250&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/幻灯片7.jpg&#34; alt=&#34;幻灯片7&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/幻灯片7.jpg 1280w, https://baka.li/wp-content/uploads/2014/01/幻灯片7-150x84.jpg 150w, https://baka.li/wp-content/uploads/2014/01/幻灯片7-300x168.jpg 300w, https://baka.li/wp-content/uploads/2014/01/幻灯片7-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;windows-81-for-colg-x64-下载失效&#34;&gt;&lt;del&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;&lt;a href=&#34;http://pan.baidu.com/s/1gd3iePH&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Windows 8.1 For  COLG x64 下载&lt;/a&gt; 失效&lt;/span&gt;&lt;/del&gt;
 &lt;/h2&gt;&lt;h2 id=&#34;windows-81-for-colg-x64-下载&#34;&gt;&lt;a title=&#34;下载 NEW&#34; href=&#34;http://pan.baidu.com/s/1bnH5LBh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;Windows 8.1 For  COLG x64 下载&lt;/span&gt;&lt;/a&gt;
-&lt;/h2&gt;&lt;h2 id=&#34;安装方法&#34;&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;a href=&#34; https://umi.im/win8-install/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;安装方法&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;安装方法&#34;&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;a href=&#34; https://baka.li/win8-install/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;安装方法&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>
         <title>Windows 8 For COLG 安装方法×3</title>
-        <link>https://umi.im/win8-install/</link>
+        <link>https://baka.li/win8-install/</link>
         <pubDate>Wed, 08 Jan 2014 05:43:18 +0000</pubDate>
         
-        <guid>https://umi.im/win8-install/</guid>
+        <guid>https://baka.li/win8-install/</guid>
         <description>&lt;p align=&#34;left&#34;&gt;
-  &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1238&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install.jpg&#34; alt=&#34;win8-install&#34; width=&#34;1021&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install.jpg 1021w, https://umi.im/wp-content/uploads/2014/01/win8-install-150x105.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-300x211.jpg 300w&#34; sizes=&#34;(max-width: 1021px) 100vw, 1021px&#34; /&gt;&lt;/a&gt;
+  &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1238&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install.jpg&#34; alt=&#34;win8-install&#34; width=&#34;1021&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install.jpg 1021w, https://baka.li/wp-content/uploads/2014/01/win8-install-150x105.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-300x211.jpg 300w&#34; sizes=&#34;(max-width: 1021px) 100vw, 1021px&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p align=&#34;left&#34;&gt;
   作者：&lt;a href=&#34;http://www.colg.cn/home.php?mod=space&amp;uid=335128&#34;&gt;炒土豆丝&lt;/a&gt;
 &lt;/p&gt;
 &lt;p align=&#34;left&#34;&gt;
-  Blog：&lt;a href=&#34;https://umi.im/&#34;&gt;炒土豆丝の部屋&lt;/a&gt;
+  Blog：&lt;a href=&#34;https://baka.li/&#34;&gt;炒土豆丝の部屋&lt;/a&gt;
 &lt;/p&gt;
 &lt;p align=&#34;left&#34;&gt;
   &lt;p align=&#34;left&#34;&gt;
@@ -355,7 +355,7 @@ sekurlsa::logonpasswords
     这就是我们要使用的安装镜像。
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-1.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1205&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-1.png&#34; alt=&#34;win8-install-1&#34; width=&#34;229&#34; height=&#34;64&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-1.png 229w, https://umi.im/wp-content/uploads/2014/01/win8-install-1-150x41.png 150w&#34; sizes=&#34;(max-width: 229px) 100vw, 229px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-1.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1205&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-1.png&#34; alt=&#34;win8-install-1&#34; width=&#34;229&#34; height=&#34;64&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-1.png 229w, https://baka.li/wp-content/uploads/2014/01/win8-install-1-150x41.png 150w&#34; sizes=&#34;(max-width: 229px) 100vw, 229px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
     [divider type=&amp;#8221;thick&amp;#8221;]
@@ -381,25 +381,25 @@ sekurlsa::logonpasswords
     这次要解压在&lt;span style=&#34;color: #ff0000;&#34;&gt;非系统盘的根目录&lt;/span&gt;上，如图。
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-2.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1206&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-2.jpg&#34; alt=&#34;win8-install-2&#34; width=&#34;547&#34; height=&#34;460&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-2.jpg 547w, https://umi.im/wp-content/uploads/2014/01/win8-install-2-150x126.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-2-300x252.jpg 300w&#34; sizes=&#34;(max-width: 547px) 100vw, 547px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-2.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1206&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-2.jpg&#34; alt=&#34;win8-install-2&#34; width=&#34;547&#34; height=&#34;460&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-2.jpg 547w, https://baka.li/wp-content/uploads/2014/01/win8-install-2-150x126.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-2-300x252.jpg 300w&#34; sizes=&#34;(max-width: 547px) 100vw, 547px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
     解压后可以看到这堆文件，装完系统后这些文件是可以删除的。
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-3.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1207&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-3.jpg&#34; alt=&#34;win8-install-3&#34; width=&#34;589&#34; height=&#34;378&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-3.jpg 589w, https://umi.im/wp-content/uploads/2014/01/win8-install-3-150x96.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-3-300x192.jpg 300w&#34; sizes=&#34;(max-width: 589px) 100vw, 589px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-3.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1207&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-3.jpg&#34; alt=&#34;win8-install-3&#34; width=&#34;589&#34; height=&#34;378&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-3.jpg 589w, https://baka.li/wp-content/uploads/2014/01/win8-install-3-150x96.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-3-300x192.jpg 300w&#34; sizes=&#34;(max-width: 589px) 100vw, 589px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
     然后打开NT6 HDD Installer，按1或者直接点击安装。
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-4.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1208&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-4.png&#34; alt=&#34;win8-install-4&#34; width=&#34;658&#34; height=&#34;442&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-4.png 658w, https://umi.im/wp-content/uploads/2014/01/win8-install-4-150x100.png 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-4-300x201.png 300w&#34; sizes=&#34;(max-width: 658px) 100vw, 658px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-4.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1208&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-4.png&#34; alt=&#34;win8-install-4&#34; width=&#34;658&#34; height=&#34;442&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-4.png 658w, https://baka.li/wp-content/uploads/2014/01/win8-install-4-150x100.png 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-4-300x201.png 300w&#34; sizes=&#34;(max-width: 658px) 100vw, 658px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
     然后按2或者直接点击重启。
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-5.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1210&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-5.png&#34; alt=&#34;win8-install-5&#34; width=&#34;660&#34; height=&#34;443&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-5.png 660w, https://umi.im/wp-content/uploads/2014/01/win8-install-5-150x100.png 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-5-300x201.png 300w&#34; sizes=&#34;(max-width: 660px) 100vw, 660px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-5.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1210&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-5.png&#34; alt=&#34;win8-install-5&#34; width=&#34;660&#34; height=&#34;443&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-5.png 660w, https://baka.li/wp-content/uploads/2014/01/win8-install-5-150x100.png 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-5-300x201.png 300w&#34; sizes=&#34;(max-width: 660px) 100vw, 660px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
     重启出现这样的画面（因为没有WIN7/XP虚拟机，所以随便在网上拉了张图片，事实上应该有两个NT6的选项，推荐选择Mode 1）。
@@ -408,25 +408,25 @@ sekurlsa::logonpasswords
     选择&lt;span style=&#34;color: #ff0000;&#34;&gt;NT6 hdd Installer mode 1&lt;/span&gt; 回车后出现WIN8引导画面。
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-5.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1209&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-5.jpg&#34; alt=&#34;win8-install-5&#34; width=&#34;616&#34; height=&#34;462&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-5.jpg 616w, https://umi.im/wp-content/uploads/2014/01/win8-install-5-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-5-300x225.jpg 300w&#34; sizes=&#34;(max-width: 616px) 100vw, 616px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-5.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1209&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-5.jpg&#34; alt=&#34;win8-install-5&#34; width=&#34;616&#34; height=&#34;462&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-5.jpg 616w, https://baka.li/wp-content/uploads/2014/01/win8-install-5-150x112.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-5-300x225.jpg 300w&#34; sizes=&#34;(max-width: 616px) 100vw, 616px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
     然后的很简单了。
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-6.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1211&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-6.jpg&#34; alt=&#34;win8-install-6&#34; width=&#34;605&#34; height=&#34;454&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-6.jpg 605w, https://umi.im/wp-content/uploads/2014/01/win8-install-6-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-6-300x225.jpg 300w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-6.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1211&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-6.jpg&#34; alt=&#34;win8-install-6&#34; width=&#34;605&#34; height=&#34;454&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-6.jpg 605w, https://baka.li/wp-content/uploads/2014/01/win8-install-6-150x112.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-6-300x225.jpg 300w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-7.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1212&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-7.jpg&#34; alt=&#34;win8-install-7&#34; width=&#34;605&#34; height=&#34;454&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-7.jpg 605w, https://umi.im/wp-content/uploads/2014/01/win8-install-7-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-7-300x225.jpg 300w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-7.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1212&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-7.jpg&#34; alt=&#34;win8-install-7&#34; width=&#34;605&#34; height=&#34;454&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-7.jpg 605w, https://baka.li/wp-content/uploads/2014/01/win8-install-7-150x112.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-7-300x225.jpg 300w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-8.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1213&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-8.jpg&#34; alt=&#34;win8-install-8&#34; width=&#34;605&#34; height=&#34;454&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-8.jpg 605w, https://umi.im/wp-content/uploads/2014/01/win8-install-8-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-8-300x225.jpg 300w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-8.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1213&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-8.jpg&#34; alt=&#34;win8-install-8&#34; width=&#34;605&#34; height=&#34;454&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-8.jpg 605w, https://baka.li/wp-content/uploads/2014/01/win8-install-8-150x112.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-8-300x225.jpg 300w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
     这里请选择 &lt;span style=&#34;color: #ff0000;&#34;&gt;自定义: 仅安装Windows (高级)&lt;/span&gt; 。
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-9.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1214&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-9.jpg&#34; alt=&#34;win8-install-9&#34; width=&#34;605&#34; height=&#34;454&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-9.jpg 605w, https://umi.im/wp-content/uploads/2014/01/win8-install-9-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-9-300x225.jpg 300w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-9.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1214&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-9.jpg&#34; alt=&#34;win8-install-9&#34; width=&#34;605&#34; height=&#34;454&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-9.jpg 605w, https://baka.li/wp-content/uploads/2014/01/win8-install-9-150x112.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-9-300x225.jpg 300w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
     选择C盘，点击&lt;span style=&#34;color: #ff0000;&#34;&gt;驱动器选项&lt;/span&gt;。（也可以安装在其他盘完成双系统）
@@ -435,13 +435,13 @@ sekurlsa::logonpasswords
     这里好像没指出盘符，一般除去系统保留分区后的第一个分区是C盘，如果不确定的话记住C盘的大小和可用空间来辨别也可以。
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-10.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1215&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-10.jpg&#34; alt=&#34;win8-install-10&#34; width=&#34;605&#34; height=&#34;454&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-10.jpg 605w, https://umi.im/wp-content/uploads/2014/01/win8-install-10-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-10-300x225.jpg 300w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-10.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1215&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-10.jpg&#34; alt=&#34;win8-install-10&#34; width=&#34;605&#34; height=&#34;454&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-10.jpg 605w, https://baka.li/wp-content/uploads/2014/01/win8-install-10-150x112.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-10-300x225.jpg 300w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
     然后&lt;span style=&#34;color: #ff0000;&#34;&gt;格式化&lt;/span&gt;，再下一步。
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-11.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1216&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-11.jpg&#34; alt=&#34;win8-install-11&#34; width=&#34;605&#34; height=&#34;454&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-11.jpg 605w, https://umi.im/wp-content/uploads/2014/01/win8-install-11-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-11-300x225.jpg 300w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-11.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1216&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-11.jpg&#34; alt=&#34;win8-install-11&#34; width=&#34;605&#34; height=&#34;454&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-11.jpg 605w, https://baka.li/wp-content/uploads/2014/01/win8-install-11-150x112.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-11-300x225.jpg 300w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
     也可以不格式化，不格式化会在C盘留下个old.windows的文件夹，可删除。个人推荐格式化了！
@@ -450,7 +450,7 @@ sekurlsa::logonpasswords
     接下来的都是自动完成，大约10分钟后就可以见到这个界面了！爱酱大胜利~
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-12.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1217&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-12.png&#34; alt=&#34;win8-install-12&#34; width=&#34;553&#34; height=&#34;311&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-12.png 553w, https://umi.im/wp-content/uploads/2014/01/win8-install-12-150x84.png 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-12-300x168.png 300w&#34; sizes=&#34;(max-width: 553px) 100vw, 553px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-12.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1217&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-12.png&#34; alt=&#34;win8-install-12&#34; width=&#34;553&#34; height=&#34;311&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-12.png 553w, https://baka.li/wp-content/uploads/2014/01/win8-install-12-150x84.png 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-12-300x168.png 300w&#34; sizes=&#34;(max-width: 553px) 100vw, 553px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p align=&#34;left&#34;&gt;
     [divider type=&amp;#8221;thick&amp;#8221;]
@@ -480,10 +480,10 @@ sekurlsa::logonpasswords
     打开UltraISO，用它打开下载并解压好的ISO文件。
   &lt;/p&gt;
   &lt;p&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-13.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1218&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-13.jpg&#34; alt=&#34;win8-install-13&#34; width=&#34;623&#34; height=&#34;453&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-13.jpg 623w, https://umi.im/wp-content/uploads/2014/01/win8-install-13-150x109.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-13-300x218.jpg 300w&#34; sizes=&#34;(max-width: 623px) 100vw, 623px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-13.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1218&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-13.jpg&#34; alt=&#34;win8-install-13&#34; width=&#34;623&#34; height=&#34;453&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-13.jpg 623w, https://baka.li/wp-content/uploads/2014/01/win8-install-13-150x109.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-13-300x218.jpg 300w&#34; sizes=&#34;(max-width: 623px) 100vw, 623px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-14.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1219&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-14.jpg&#34; alt=&#34;win8-install-14&#34; width=&#34;623&#34; height=&#34;453&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-14.jpg 623w, https://umi.im/wp-content/uploads/2014/01/win8-install-14-150x109.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-14-300x218.jpg 300w&#34; sizes=&#34;(max-width: 623px) 100vw, 623px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-14.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1219&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-14.jpg&#34; alt=&#34;win8-install-14&#34; width=&#34;623&#34; height=&#34;453&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-14.jpg 623w, https://baka.li/wp-content/uploads/2014/01/win8-install-14-150x109.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-14-300x218.jpg 300w&#34; sizes=&#34;(max-width: 623px) 100vw, 623px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p&gt;
     点击&lt;span style=&#34;color: #ff0000;&#34;&gt;启动&lt;/span&gt; – &lt;span style=&#34;color: #ff0000;&#34;&gt;写入硬盘映像&lt;/span&gt;。
@@ -492,16 +492,16 @@ sekurlsa::logonpasswords
     确定你的U盘，点写入。刚开始程序会无响应，别管，过会就开始写入了。
   &lt;/p&gt;
   &lt;p&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-15.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1220&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-15.jpg&#34; alt=&#34;win8-install-15&#34; width=&#34;623&#34; height=&#34;453&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-15.jpg 623w, https://umi.im/wp-content/uploads/2014/01/win8-install-15-150x109.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-15-300x218.jpg 300w&#34; sizes=&#34;(max-width: 623px) 100vw, 623px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-15.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1220&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-15.jpg&#34; alt=&#34;win8-install-15&#34; width=&#34;623&#34; height=&#34;453&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-15.jpg 623w, https://baka.li/wp-content/uploads/2014/01/win8-install-15-150x109.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-15-300x218.jpg 300w&#34; sizes=&#34;(max-width: 623px) 100vw, 623px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-16.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1221&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-16.png&#34; alt=&#34;win8-install-16&#34; width=&#34;553&#34; height=&#34;504&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-16.png 553w, https://umi.im/wp-content/uploads/2014/01/win8-install-16-150x136.png 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-16-300x273.png 300w&#34; sizes=&#34;(max-width: 553px) 100vw, 553px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-16.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1221&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-16.png&#34; alt=&#34;win8-install-16&#34; width=&#34;553&#34; height=&#34;504&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-16.png 553w, https://baka.li/wp-content/uploads/2014/01/win8-install-16-150x136.png 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-16-300x273.png 300w&#34; sizes=&#34;(max-width: 553px) 100vw, 553px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p&gt;
     写入完成后你的U盘就变成这样了，U盘启动盘就制作好了。
   &lt;/p&gt;
   &lt;p&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-17.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1222&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-17.png&#34; alt=&#34;win8-install-17&#34; width=&#34;280&#34; height=&#34;79&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-17.png 280w, https://umi.im/wp-content/uploads/2014/01/win8-install-17-150x42.png 150w&#34; sizes=&#34;(max-width: 280px) 100vw, 280px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-17.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1222&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-17.png&#34; alt=&#34;win8-install-17&#34; width=&#34;280&#34; height=&#34;79&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-17.png 280w, https://baka.li/wp-content/uploads/2014/01/win8-install-17-150x42.png 150w&#34; sizes=&#34;(max-width: 280px) 100vw, 280px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p&gt;
     接下来开始用U盘装系统吧！
@@ -513,7 +513,7 @@ sekurlsa::logonpasswords
     选择 &lt;span style=&#34;color: #ff0000;&#34;&gt;USB： ××（xx是U盘名字） &lt;/span&gt; 直接回车，我的山寨的U盘所以这名字_(:3ゝ∠)_
   &lt;/p&gt;
   &lt;p&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-20.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1225&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-20.jpg&#34; alt=&#34;win8-install-20&#34; width=&#34;600&#34; height=&#34;450&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-20.jpg 600w, https://umi.im/wp-content/uploads/2014/01/win8-install-20-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-20-300x225.jpg 300w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-20.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1225&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-20.jpg&#34; alt=&#34;win8-install-20&#34; width=&#34;600&#34; height=&#34;450&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-20.jpg 600w, https://baka.li/wp-content/uploads/2014/01/win8-install-20-150x112.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-20-300x225.jpg 300w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p&gt;
     然后直接跳到选择分区那里，因为上边写了，所以不写了。
@@ -525,19 +525,19 @@ sekurlsa::logonpasswords
     开机自检按&lt;span style=&#34;color: #ff0000;&#34;&gt;F2&lt;/span&gt;或者&lt;span style=&#34;color: #ff0000;&#34;&gt;Del&lt;/span&gt;进去BIOS / UEFI，找到&lt;span style=&#34;color: #ff0000;&#34;&gt;BOOT&lt;/span&gt;项，以华擎UEFI为例。
   &lt;/p&gt;
   &lt;p&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-22.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1227&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-22.jpg&#34; alt=&#34;win8-install-22&#34; width=&#34;605&#34; height=&#34;454&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-22.jpg 605w, https://umi.im/wp-content/uploads/2014/01/win8-install-22-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-22-300x225.jpg 300w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-22.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1227&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-22.jpg&#34; alt=&#34;win8-install-22&#34; width=&#34;605&#34; height=&#34;454&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-22.jpg 605w, https://baka.li/wp-content/uploads/2014/01/win8-install-22-150x112.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-22-300x225.jpg 300w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p&gt;
     第一启动项设置为U盘。
   &lt;/p&gt;
   &lt;p&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-21.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1226&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-21.jpg&#34; alt=&#34;win8-install-21&#34; width=&#34;605&#34; height=&#34;454&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-21.jpg 605w, https://umi.im/wp-content/uploads/2014/01/win8-install-21-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-21-300x225.jpg 300w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-21.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1226&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-21.jpg&#34; alt=&#34;win8-install-21&#34; width=&#34;605&#34; height=&#34;454&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-21.jpg 605w, https://baka.li/wp-content/uploads/2014/01/win8-install-21-150x112.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-21-300x225.jpg 300w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p&gt;
     然后按&lt;span style=&#34;color: #ff0000;&#34;&gt;F10&lt;/span&gt;保存设置，&lt;span style=&#34;color: #ff0000;&#34;&gt;Yes&lt;/span&gt;。自动重启。
   &lt;/p&gt;
   &lt;p&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-23.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1228&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-23.jpg&#34; alt=&#34;win8-install-23&#34; width=&#34;605&#34; height=&#34;454&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-23.jpg 605w, https://umi.im/wp-content/uploads/2014/01/win8-install-23-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-23-300x225.jpg 300w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-23.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1228&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-23.jpg&#34; alt=&#34;win8-install-23&#34; width=&#34;605&#34; height=&#34;454&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-23.jpg 605w, https://baka.li/wp-content/uploads/2014/01/win8-install-23-150x112.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-23-300x225.jpg 300w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p&gt;
     不同BIOS设置U盘启动的方法不同，但是又都差不多。
@@ -588,16 +588,16 @@ sekurlsa::logonpasswords
     双击打开 &lt;span style=&#34;color: #ff0000;&#34;&gt;setup.exe&lt;/span&gt; 。
   &lt;/p&gt;
   &lt;p&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-28.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1235&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-28.png&#34; alt=&#34;win8-install-28&#34; width=&#34;750&#34; height=&#34;226&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-28.png 750w, https://umi.im/wp-content/uploads/2014/01/win8-install-28-150x45.png 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-28-300x90.png 300w&#34; sizes=&#34;(max-width: 750px) 100vw, 750px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-28.png&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1235&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-28.png&#34; alt=&#34;win8-install-28&#34; width=&#34;750&#34; height=&#34;226&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-28.png 750w, https://baka.li/wp-content/uploads/2014/01/win8-install-28-150x45.png 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-28-300x90.png 300w&#34; sizes=&#34;(max-width: 750px) 100vw, 750px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-25.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1230&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-25.jpg&#34; alt=&#34;win8-install-25&#34; width=&#34;672&#34; height=&#34;378&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-25.jpg 672w, https://umi.im/wp-content/uploads/2014/01/win8-install-25-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-25-300x168.jpg 300w&#34; sizes=&#34;(max-width: 672px) 100vw, 672px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-25.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1230&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-25.jpg&#34; alt=&#34;win8-install-25&#34; width=&#34;672&#34; height=&#34;378&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-25.jpg 672w, https://baka.li/wp-content/uploads/2014/01/win8-install-25-150x84.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-25-300x168.jpg 300w&#34; sizes=&#34;(max-width: 672px) 100vw, 672px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-26.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1231&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-26.jpg&#34; alt=&#34;win8-install-26&#34; width=&#34;672&#34; height=&#34;378&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-26.jpg 672w, https://umi.im/wp-content/uploads/2014/01/win8-install-26-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-26-300x168.jpg 300w&#34; sizes=&#34;(max-width: 672px) 100vw, 672px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-26.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1231&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-26.jpg&#34; alt=&#34;win8-install-26&#34; width=&#34;672&#34; height=&#34;378&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-26.jpg 672w, https://baka.li/wp-content/uploads/2014/01/win8-install-26-150x84.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-26-300x168.jpg 300w&#34; sizes=&#34;(max-width: 672px) 100vw, 672px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p&gt;
-    &lt;a class=&#34;lightbox&#34; href=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-27.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1232&#34; src=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-27.jpg&#34; alt=&#34;win8-install-27&#34; width=&#34;672&#34; height=&#34;378&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/01/win8-install-27.jpg 672w, https://umi.im/wp-content/uploads/2014/01/win8-install-27-150x84.jpg 150w, https://umi.im/wp-content/uploads/2014/01/win8-install-27-300x168.jpg 300w&#34; sizes=&#34;(max-width: 672px) 100vw, 672px&#34; /&gt;&lt;/a&gt;
+    &lt;a class=&#34;lightbox&#34; href=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-27.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-1232&#34; src=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-27.jpg&#34; alt=&#34;win8-install-27&#34; width=&#34;672&#34; height=&#34;378&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/01/win8-install-27.jpg 672w, https://baka.li/wp-content/uploads/2014/01/win8-install-27-150x84.jpg 150w, https://baka.li/wp-content/uploads/2014/01/win8-install-27-300x168.jpg 300w&#34; sizes=&#34;(max-width: 672px) 100vw, 672px&#34; /&gt;&lt;/a&gt;
   &lt;/p&gt;
   &lt;p&gt;
     &lt;span style=&#34;color: #ff0000;&#34;&gt;TMD能找到比这更简单的安装方法么！！！！！！&lt;/span&gt;
@@ -608,10 +608,10 @@ sekurlsa::logonpasswords
         </item>
         <item>
         <title>炒土豆丝の软件（Windows）</title>
-        <link>https://umi.im/win-software/</link>
+        <link>https://baka.li/win-software/</link>
         <pubDate>Thu, 12 Dec 2013 17:19:05 +0000</pubDate>
         
-        <guid>https://umi.im/win-software/</guid>
+        <guid>https://baka.li/win-software/</guid>
         <description>&lt;p&gt;常用软件索引，免费软件一般放官网下载页面的链接，付费软件如果有破解版的话会放网盘链接。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -623,13 +623,13 @@ sekurlsa::logonpasswords
     &gt;Wox&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;可以安装插件的快速启动工具，功能更强大。&lt;/p&gt;
 &lt;h3 align=&#34;left&#34;&gt;
-  &lt;a href=&#34;https://umi.im/google-chrome-updater/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Chorme&lt;/a&gt;
+  &lt;a href=&#34;https://baka.li/google-chrome-updater/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Chorme&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p align=&#34;left&#34;&gt;
   三大浏览器之一，扩展程序功能接近FF，速度干掉IE，还有强大的同步功能+跨平台，除了比较占内存和字体渲染不够好基本没有其他缺点。
 &lt;/p&gt;
 &lt;p align=&#34;left&#34;&gt;
-  &lt;a href=&#34;https://umi.im/chrome-extensions/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;炒土豆丝のChrome扩展程序&lt;/a&gt;
+  &lt;a href=&#34;https://baka.li/chrome-extensions/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;炒土豆丝のChrome扩展程序&lt;/a&gt;
 &lt;/p&gt;
 &lt;h3 align=&#34;left&#34;&gt;
   &lt;a title=&#34;官网下载&#34; href=&#34;http://potplayer.daum.net/?lang=zh_CN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PotPlayer&lt;/a&gt;
@@ -756,7 +756,7 @@ sekurlsa::logonpasswords
 &lt;p align=&#34;left&#34;&gt;
   著名的硬盘检测软件。
 &lt;/p&gt;
-&lt;h2 id=&#34;crystaldiskinfo&#34;&gt;&lt;a href=&#34;https://umi.im/crystaldiskinfo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CrystalDiskInfo&lt;/a&gt;
+&lt;h2 id=&#34;crystaldiskinfo&#34;&gt;&lt;a href=&#34;https://baka.li/crystaldiskinfo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CrystalDiskInfo&lt;/a&gt;
 &lt;/h2&gt;&lt;p align=&#34;left&#34;&gt;
   查看硬盘健康状态，一般用于&lt;a href=&#34;http://zh.wikipedia.org/wiki/%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SSD&lt;/a&gt;。
 &lt;/p&gt;
@@ -778,7 +778,7 @@ sekurlsa::logonpasswords
 &lt;/h2&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 align=&#34;left&#34;&gt;
-  &lt;strong&gt;&lt;a href=&#34;https://umi.im/adobe&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adobe系列软件绿色汉化版&lt;/a&gt;&lt;br /&gt; &lt;/strong&gt;
+  &lt;strong&gt;&lt;a href=&#34;https://baka.li/adobe&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adobe系列软件绿色汉化版&lt;/a&gt;&lt;br /&gt; &lt;/strong&gt;
 &lt;/h3&gt;
 &lt;p align=&#34;left&#34;&gt;
   有PS，PR，AE等众所周知的软件。
@@ -812,7 +812,7 @@ sekurlsa::logonpasswords
 &lt;/p&gt;
 &lt;h2 id=&#34;gifcamulead-gif-animator-5xnview&#34;&gt;&lt;a href=&#34;http://pan.baidu.com/s/1i3GBkc1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GifCam&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://pan.baidu.com/s/1u4NMI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ulead GIF Animator 5&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://pan.baidu.com/s/1kT4vOYb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XnView&lt;/a&gt;
 &lt;/h2&gt;&lt;p align=&#34;left&#34;&gt;
-  GIF制作，压缩和查看三件套，&lt;a href=&#34;https://umi.im/gif/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;详细介绍&lt;/a&gt;。
+  GIF制作，压缩和查看三件套，&lt;a href=&#34;https://baka.li/gif/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;详细介绍&lt;/a&gt;。
 &lt;/p&gt;
 &lt;h3 align=&#34;left&#34;&gt;
   &lt;a href=&#34;http://pan.baidu.com/s/1qWO40bi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Riot&lt;/a&gt;
@@ -877,7 +877,7 @@ sekurlsa::logonpasswords
     不过我是简洁党所以并没有使用它。（桌面只有回收站的图标）
   &lt;/p&gt;
   &lt;h3&gt;
-    &lt;a href=&#34;https://umi.im/oblytile&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OblyTile&lt;/a&gt;
+    &lt;a href=&#34;https://baka.li/oblytile&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OblyTile&lt;/a&gt;
   &lt;/h3&gt;
   &lt;p&gt;
     修改WIN8中的开始菜单磁贴图片的小软件。
@@ -908,7 +908,7 @@ sekurlsa::logonpasswords
     绿色版，运行绿化后，去&lt;a href=&#34;http://www.flvcd.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;官网&lt;/a&gt;输入视频链接就可以下载视频。
   &lt;/p&gt;
   &lt;h3 align=&#34;left&#34;&gt;
-    &lt;a href=&#34;https://umi.im/mangameeya/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MangaMeeya&lt;/a&gt;
+    &lt;a href=&#34;https://baka.li/mangameeya/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MangaMeeya&lt;/a&gt;
   &lt;/h3&gt;
   &lt;p align=&#34;left&#34;&gt;
     本地漫画阅读器，用看图软件看漫画是非常不明智的选择。
@@ -944,13 +944,13 @@ sekurlsa::logonpasswords
     非常简单好用的系统安装工具。
   &lt;/p&gt;
   &lt;h3 align=&#34;left&#34;&gt;
-    &lt;a href=&#34;https://umi.im/windows-dism/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dism管理器&lt;/a&gt;
+    &lt;a href=&#34;https://baka.li/windows-dism/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dism管理器&lt;/a&gt;
   &lt;/h3&gt;
   &lt;p align=&#34;left&#34;&gt;
     清理WIN8/8.1更新后的残留文件。
   &lt;/p&gt;
   &lt;h3 align=&#34;left&#34;&gt;
-    &lt;a href=&#34;https://umi.im/shadowsocksr-csharp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ShadowsocksR&lt;/a&gt;
+    &lt;a href=&#34;https://baka.li/shadowsocksr-csharp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ShadowsocksR&lt;/a&gt;
   &lt;/h3&gt;
   &lt;p align=&#34;left&#34;&gt;
     第三方 SS 客户端，翻墙工具，自备服务器。
@@ -992,7 +992,7 @@ sekurlsa::logonpasswords
     在任务栏显示流量监控的小程序，WIN8需要右键“兼容性疑难解答” &amp;#8211; “测试程序” 然后才正常安装。
   &lt;/p&gt;
   &lt;h3 align=&#34;left&#34;&gt;
-    &lt;a href=&#34;https://umi.im/tournament-table/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tournament-Table&lt;/a&gt;
+    &lt;a href=&#34;https://baka.li/tournament-table/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tournament-Table&lt;/a&gt;
   &lt;/h3&gt;
   &lt;p align=&#34;left&#34;&gt;
     一个比赛对阵视图软甲，由我个人汉化。
@@ -1004,13 +1004,13 @@ sekurlsa::logonpasswords
     啊咧，好像混进了奇怪的东西。。。
   &lt;/p&gt;
   &lt;h3 align=&#34;left&#34;&gt;
-    &lt;a href=&#34;https://umi.im/qingqingyidian/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;轻轻一点&lt;/a&gt;
+    &lt;a href=&#34;https://baka.li/qingqingyidian/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;轻轻一点&lt;/a&gt;
   &lt;/h3&gt;
   &lt;p align=&#34;left&#34;&gt;
     轻轻一点找里番。
   &lt;/p&gt;
   &lt;h3 align=&#34;left&#34;&gt;
-    &lt;a href=&#34;https://umi.im/everaver-renamer-emdb/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EverAver Renamer &amp; EMDB&lt;/a&gt;
+    &lt;a href=&#34;https://baka.li/everaver-renamer-emdb/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EverAver Renamer &amp; EMDB&lt;/a&gt;
   &lt;/h3&gt;
   &lt;p align=&#34;left&#34;&gt;
     AV媒体库。
@@ -1029,7 +1029,7 @@ sekurlsa::logonpasswords
     &lt;del&gt;快速启动工具，Windows的任务栏可以放常用软件，靠 Win键 + 数字键启动，对于那些不常用的，用Launchy比用开始菜单或者切到桌面打开快捷方式更简便，只需要记住软件的名字的前几个字符就可以了。&lt;/del&gt;
   &lt;/p&gt;
   &lt;h3 align=&#34;left&#34;&gt;
-    &lt;del&gt;&lt;a href=&#34;https://umi.im/thunder-speed/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;迅雷极速版&lt;/a&gt;&lt;/del&gt;
+    &lt;del&gt;&lt;a href=&#34;https://baka.li/thunder-speed/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;迅雷极速版&lt;/a&gt;&lt;/del&gt;
   &lt;/h3&gt;
   &lt;p&gt;
     &lt;del&gt;比原版小巧很多。&lt;/del&gt;
@@ -1049,18 +1049,18 @@ sekurlsa::logonpasswords
         </item>
         <item>
         <title>Microsoft Windows 8.1 Pro (DSP版) 64bit 日本語 発売記念 特典</title>
-        <link>https://umi.im/microsoft-windows-8-1-pro/</link>
+        <link>https://baka.li/microsoft-windows-8-1-pro/</link>
         <pubDate>Sat, 30 Nov 2013 17:08:48 +0000</pubDate>
         
-        <guid>https://umi.im/microsoft-windows-8-1-pro/</guid>
+        <guid>https://baka.li/microsoft-windows-8-1-pro/</guid>
         <description>&lt;p&gt;DSP版 Windows 8.1 Pro 64bit 発売記念パック オリジナルイラストマウス付き。数量限定パックです。 日本国内で7年連続シェアNo,1のAOSファイナルパソコンデータ引越しソフト9+ のライセンスキー付き。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/mobile01-1b7679238643d09a282caffed33fb751.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-524&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/mobile01-1b7679238643d09a282caffed33fb751.jpg&#34; alt=&#34;mobile01-1b7679238643d09a282caffed33fb751&#34; width=&#34;600&#34; height=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2013/12/mobile01-1b7679238643d09a282caffed33fb751.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-524&#34; src=&#34;https://baka.li/wp-content/uploads/2013/12/mobile01-1b7679238643d09a282caffed33fb751.jpg&#34; alt=&#34;mobile01-1b7679238643d09a282caffed33fb751&#34; width=&#34;600&#34; height=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;iso文件1.63G，包含大量图片、草图、psd、人设图以及数个主题等（梦蝉幸舞阳花殇 提供）&lt;br&gt;
 两个压缩包（73.3M+58M）分别提取了不包含草图、人设图的纯图片，以及只包含主题&lt;br&gt;
 主题有4个，都是两张同样的壁纸，声音都有所不同。官方的萌娘主题声音一直是卖点。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/20131201042204.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-534&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/20131201042204.jpg&#34; alt=&#34;20131201042204&#34; width=&#34;971&#34; height=&#34;624&#34; /&gt;&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2013/12/20131201042204.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-534&#34; src=&#34;https://baka.li/wp-content/uploads/2013/12/20131201042204.jpg&#34; alt=&#34;20131201042204&#34; width=&#34;971&#34; height=&#34;624&#34; /&gt;&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;http://bbs.comicdd.com/thread-431492-1-1.html&#34; target=&#34;_blank&#34;&gt;来源: 动漫东东&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下载地址:&lt;/p&gt;
 &lt;h2 id=&#34;windows-81-pro-dsp版-発売記念-特典&#34;&gt;&lt;a href=&#34;http://pan.baidu.com/s/1mg7bF6o&#34; target=&#34;_blank&#34;&gt;Windows 8.1 Pro (DSP版) 発売記念 特典&lt;/a&gt;
@@ -1073,10 +1073,10 @@ sekurlsa::logonpasswords
         </item>
         <item>
         <title>分区表挂了 QAQ</title>
-        <link>https://umi.im/%E5%88%86%E5%8C%BA%E8%A1%A8%E6%8C%82%E4%BA%86-qaq/</link>
+        <link>https://baka.li/%E5%88%86%E5%8C%BA%E8%A1%A8%E6%8C%82%E4%BA%86-qaq/</link>
         <pubDate>Thu, 21 Nov 2013 01:20:43 +0000</pubDate>
         
-        <guid>https://umi.im/%E5%88%86%E5%8C%BA%E8%A1%A8%E6%8C%82%E4%BA%86-qaq/</guid>
+        <guid>https://baka.li/%E5%88%86%E5%8C%BA%E8%A1%A8%E6%8C%82%E4%BA%86-qaq/</guid>
         <description>&lt;p&gt;心中无数只草泥马滚过啊！！！！！！！！！！！！！！！！！！！！&lt;/p&gt;
 &lt;p&gt;1.3T的Anime！！！！！&lt;/p&gt;
 &lt;p&gt;各种无损！！！!&lt;/p&gt;
@@ -1097,20 +1097,20 @@ sekurlsa::logonpasswords
         </item>
         <item>
         <title>Windows 8 For COLG by 炒土豆丝</title>
-        <link>https://umi.im/windows-8-for-colg/</link>
+        <link>https://baka.li/windows-8-for-colg/</link>
         <pubDate>Mon, 16 Sep 2013 17:51:47 +0000</pubDate>
         
-        <guid>https://umi.im/windows-8-for-colg/</guid>
-        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5034&#34; src=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-1.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-1.jpg 1280w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-1-150x84.jpg 150w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-1-300x169.jpg 300w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-1-768x432.jpg 768w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-1-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-2.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5033&#34; src=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-2.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-2.jpg 1280w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-2-150x84.jpg 150w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-2-300x169.jpg 300w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-2-768x432.jpg 768w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-2-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-3.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5032&#34; src=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-3.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-3.jpg 1280w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-3-150x84.jpg 150w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-3-300x169.jpg 300w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-3-768x432.jpg 768w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-3-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-4.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5031&#34; src=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-4.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-4.jpg 1280w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-4-150x84.jpg 150w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-4-300x169.jpg 300w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-4-768x432.jpg 768w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-4-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-6.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5029&#34; src=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-6.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-6.jpg 1280w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-6-150x84.jpg 150w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-6-300x169.jpg 300w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-6-768x432.jpg 768w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-6-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-5.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5030&#34; src=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-5.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-5.jpg 1280w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-5-150x84.jpg 150w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-5-300x169.jpg 300w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-5-768x432.jpg 768w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-5-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-7.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5028&#34; src=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-7.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-7.jpg 1280w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-7-150x84.jpg 150w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-7-300x169.jpg 300w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-7-768x432.jpg 768w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-7-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-8.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5027&#34; src=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-8.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-8.jpg 1280w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-8-150x84.jpg 150w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-8-300x169.jpg 300w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-8-768x432.jpg 768w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-8-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-9.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5026&#34; src=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-9.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-9.jpg 1280w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-9-150x84.jpg 150w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-9-300x169.jpg 300w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-9-768x432.jpg 768w, https://umi.im/wp-content/uploads/2013/09/windows-8-for-colg-9-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <guid>https://baka.li/windows-8-for-colg/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5034&#34; src=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-1.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-1.jpg 1280w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-1-150x84.jpg 150w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-1-300x169.jpg 300w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-1-768x432.jpg 768w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-1-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-2.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5033&#34; src=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-2.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-2.jpg 1280w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-2-150x84.jpg 150w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-2-300x169.jpg 300w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-2-768x432.jpg 768w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-2-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-3.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5032&#34; src=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-3.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-3.jpg 1280w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-3-150x84.jpg 150w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-3-300x169.jpg 300w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-3-768x432.jpg 768w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-3-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-4.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5031&#34; src=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-4.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-4.jpg 1280w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-4-150x84.jpg 150w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-4-300x169.jpg 300w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-4-768x432.jpg 768w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-4-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-6.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5029&#34; src=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-6.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-6.jpg 1280w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-6-150x84.jpg 150w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-6-300x169.jpg 300w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-6-768x432.jpg 768w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-6-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-5.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5030&#34; src=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-5.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-5.jpg 1280w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-5-150x84.jpg 150w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-5-300x169.jpg 300w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-5-768x432.jpg 768w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-5-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-7.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5028&#34; src=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-7.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-7.jpg 1280w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-7-150x84.jpg 150w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-7-300x169.jpg 300w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-7-768x432.jpg 768w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-7-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-8.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5027&#34; src=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-8.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-8.jpg 1280w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-8-150x84.jpg 150w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-8-300x169.jpg 300w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-8-768x432.jpg 768w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-8-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-9.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-5026&#34; src=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-9.jpg&#34; alt=&#34;&#34; width=&#34;1280&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-9.jpg 1280w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-9-150x84.jpg 150w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-9-300x169.jpg 300w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-9-768x432.jpg 768w, https://baka.li/wp-content/uploads/2013/09/windows-8-for-colg-9-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
 &lt;h2 id=&#34;windows-8-for-colg-x64-下载&#34;&gt;&lt;a href=&#34;http://pan.baidu.com/share/link?shareid=2481624284&amp;uk=3191095378#dir/path=%2FWindows%208%20For%20COLG&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Windows 8 For COLG x64 下载&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;安装方法：&lt;/p&gt;
@@ -1120,10 +1120,10 @@ sekurlsa::logonpasswords
         </item>
         <item>
         <title>干掉360</title>
-        <link>https://umi.im/kill-360/</link>
+        <link>https://baka.li/kill-360/</link>
         <pubDate>Tue, 26 Feb 2013 01:29:00 +0000</pubDate>
         
-        <guid>https://umi.im/kill-360/</guid>
+        <guid>https://baka.li/kill-360/</guid>
         <description>&lt;table class=&#34; alignleft&#34; style=&#34;background-color: white; border-collapse: collapse; color: #444444; empty-cells: show; font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, Verdana, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22.39583396911621px; table-layout: fixed; width: 1035.3333740234375px; word-wrap: break-word;&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;
   &lt;tr style=&#34;word-wrap: break-word;&#34;&gt;
     &lt;td id=&#34;postmessage_47563357&#34; class=&#34;t_f&#34; style=&#34;word-wrap: break-word;&#34;&gt;
@@ -1165,7 +1165,7 @@ sekurlsa::logonpasswords
   &amp;lt;/p&amp;gt;
   
   &amp;lt;h3 class=&amp;quot;entry-title&amp;quot; style=&amp;quot;font-weight: 400;&amp;quot;&amp;gt;
-    &amp;lt;a style=&amp;quot;color: #333333;&amp;quot; href=&amp;quot;https://umi.im/chrome-extensions/&amp;quot;&amp;gt;玩转Google Chrome第一弹 ～ 炒土豆丝のChrome扩展程序&amp;lt;/a&amp;gt;
+    &amp;lt;a style=&amp;quot;color: #333333;&amp;quot; href=&amp;quot;https://baka.li/chrome-extensions/&amp;quot;&amp;gt;玩转Google Chrome第一弹 ～ 炒土豆丝のChrome扩展程序&amp;lt;/a&amp;gt;
   &amp;lt;/h3&amp;gt;
   
   &amp;lt;p&amp;gt;
@@ -1267,10 +1267,10 @@ sekurlsa::logonpasswords
         </item>
         <item>
         <title>★★★ Windows 8 MSDN 简体中文 各版本下载 ★★★</title>
-        <link>https://umi.im/windows-8-msdn/</link>
+        <link>https://baka.li/windows-8-msdn/</link>
         <pubDate>Tue, 29 Jan 2013 14:34:00 +0000</pubDate>
         
-        <guid>https://umi.im/windows-8-msdn/</guid>
+        <guid>https://baka.li/windows-8-msdn/</guid>
         <description>&lt;p&gt;&lt;span style=&#34;background-color: white; color: #444444; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px;&#34;&gt;专业版&lt;/span&gt;&lt;br&gt;
 &lt;span style=&#34;background-color: white; color: #444444; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px;&#34;&gt;x86：&lt;/span&gt;&lt;a href=&#34;//|file|cn_windows_8_x86_dvd_915414.iso|2679801856|9AF10141BFD61BC66D9D6459758D7749|/&#34; id=&#34;ed2k_qyY&#34; style=&#34;background-color: white; color: #2265a9; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px; word-wrap: break-word;&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cn_windows_8_x86_dvd_915414.iso (2.5 GB)&lt;/a&gt;&lt;br&gt;
 &lt;span style=&#34;background-color: white; color: #444444; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px;&#34;&gt;x64：&lt;/span&gt;&lt;a href=&#34;//|file|cn_windows_8_x64_dvd_915407.iso|3652950016|5C7F8C212BD3A1827866563773A431C2|/&#34; id=&#34;ed2k_tws&#34; style=&#34;background-color: white; color: #2265a9; font-family: &#39;Lucida Grande&#39;, 微软雅黑; font-size: 14px; word-wrap: break-word;&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cn_windows_8_x64_dvd_915407.iso (3.4 GB)&lt;/a&gt;&lt;br&gt;

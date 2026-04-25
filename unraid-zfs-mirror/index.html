@@ -4,11 +4,11 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="UNRAID 系统双 NVME SSD 组 ZFS 镜像阵列">
 <title>绿联 DX4600 的 UNRAID 系统折腾后篇</title>
 
-<link rel='canonical' href='https://umi.im/unraid-zfs-mirror/'>
+<link rel='canonical' href='https://baka.li/unraid-zfs-mirror/'>
 
 <link rel="stylesheet" href="/scss/style.min.7c6fc62023c4a6953fbe601dd92a600ca1efde85fae06f72201f35c5ad119913.css"><meta property='og:title' content="绿联 DX4600 的 UNRAID 系统折腾后篇">
 <meta property='og:description' content="UNRAID 系统双 NVME SSD 组 ZFS 镜像阵列">
-<meta property='og:url' content='https://umi.im/unraid-zfs-mirror/'>
+<meta property='og:url' content='https://baka.li/unraid-zfs-mirror/'>
 <meta property='og:site_name' content='笨蛋屋'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='NAS' /><meta property='article:published_time' content='2023-10-04T04:07:00&#43;00:00'/><meta property='article:modified_time' content='2023-10-04T04:07:00&#43;00:00'/>
 <meta name="twitter:title" content="绿联 DX4600 的 UNRAID 系统折腾后篇">
@@ -408,7 +408,7 @@
     <section class="article-content">
     
     
-    <p>在上一篇的 《<a href="https://umi.im/dx4600-unraid/" target="_blank" rel="noreferrer noopener">绿联 DX4600 安装 UNRAID 系统</a>》 里我介绍了安装 UNRAID 系统、启动阵列和插件相关的内容。</p>
+    <p>在上一篇的 《<a href="https://baka.li/dx4600-unraid/" target="_blank" rel="noreferrer noopener">绿联 DX4600 安装 UNRAID 系统</a>》 里我介绍了安装 UNRAID 系统、启动阵列和插件相关的内容。</p>
 <p>此时我的 NAS 上有 4 块硬盘，一块 M.2 NVME SSD，一块 2.5寸 SSD，一块 2.5寸 HDD，一块 3.5寸 HDD。</p>
 <p>NVME SSD 上建立的 appdata 、system 和 domains 目录存放 Docker 和 虚拟机文件，2.5寸 SSD 直通给黑群晖虚拟机，存放杂乱资料和音乐、照片等，2.5寸 HDD 备份 UNRAID 和黑群晖文件，3.5寸 HDD 存放电影电视剧和色情影片等视频。</p>
 <p>最近朋友送了块 M.2 NVME SSD 给我，容量和 NAS 上的一样是 256GB 的，正好打算组个 RAID1 阵列，保证 NAS 上的部署的 Docker 和虚拟机文件的安全，下面介绍怎么添加 ZFS 阵列。</p>
@@ -470,21 +470,21 @@ sys     0m0.880s</code></pre>
 <h2 id="添加-zfs-镜像阵列">添加 ZFS 镜像阵列
 </h2><p>先备份好 appdata 、system 和 domains 目录。</p>
 <p>在 主界面 的池设备里添加两个插槽的存储池，命名随意。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2023/09/unraid-ssd-pool-1.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" width="759" height="379" src="https://umi.im/wp-content/uploads/2023/09/unraid-ssd-pool-1.png" alt="" class="wp-image-6719" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2023/09/unraid-ssd-pool-1.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="759" height="379" src="https://baka.li/wp-content/uploads/2023/09/unraid-ssd-pool-1.png" alt="" class="wp-image-6719" /></a></p>
 <p>文件系统类型选择 ZFS 镜像，一组两设备，其他默认，格式化然后启动阵列。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2023/09/unraid-ssd-zfs-pool.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" width="1315" height="706" src="https://umi.im/wp-content/uploads/2023/09/unraid-ssd-zfs-pool.png" alt="" class="wp-image-6712" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2023/09/unraid-ssd-zfs-pool.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1315" height="706" src="https://baka.li/wp-content/uploads/2023/09/unraid-ssd-zfs-pool.png" alt="" class="wp-image-6712" /></a></p>
 <p>添加共享目录，主存储空间选择刚才建立名为 SSD 的 ZFS 阵列。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2023/09/unraid-ssd-domains.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" width="1164" height="521" src="https://umi.im/wp-content/uploads/2023/09/unraid-ssd-domains.png" alt="" class="wp-image-6713" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2023/09/unraid-ssd-domains.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1164" height="521" src="https://baka.li/wp-content/uploads/2023/09/unraid-ssd-domains.png" alt="" class="wp-image-6713" /></a></p>
 <h2 id="修改-docker-和虚拟机文件路径">修改 Docker 和虚拟机文件路径
 </h2><p>把备份好的 appdata 、system 和 domains 目录拷贝回新建立的 /mnt/ssd 目录里。</p>
 <p>在 设置 – 虚拟机管理器 的 Libvirt 存储位置，由原来的 /mnt/user/system/libvirt/libvirt.img 改为 /mnt/ssd/system/libvirt/libvirt.img 。默认虚拟机存储路径同上。</p>
 <p>设置 – Docker – Docker虚拟磁盘大小 目录也改成 /mnt/ssd/system/docker/docker.img ，默认应用数据存储位置 同上。</p>
 <p>简单几下，就把 UNRAID 的单盘文件迁移到镜像阵列里了，不用再担心 SSD 突然挂掉导致应用配置丢失。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2023/09/unraid-dashboard-2023.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" width="1265" height="744" src="https://umi.im/wp-content/uploads/2023/09/unraid-dashboard-2023.png" alt="" class="wp-image-6716" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2023/09/unraid-dashboard-2023.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1265" height="744" src="https://baka.li/wp-content/uploads/2023/09/unraid-dashboard-2023.png" alt="" class="wp-image-6716" /></a></p>
 
 </section>
 
@@ -581,7 +581,7 @@ sys     0m0.880s</code></pre>
         
             <div class="article-image">
                 
-                    <img src="https://umi.im/wp-content/uploads/2023/04/serverstatus-card.png" loading="lazy" data-key="" data-hash="https://umi.im/wp-content/uploads/2023/04/serverstatus-card.png"/>
+                    <img src="https://baka.li/wp-content/uploads/2023/04/serverstatus-card.png" loading="lazy" data-key="" data-hash="https://baka.li/wp-content/uploads/2023/04/serverstatus-card.png"/>
                 
             </div>
         

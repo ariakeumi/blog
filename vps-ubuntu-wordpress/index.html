@@ -4,11 +4,11 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="接上文，拿到\u00a0@茄子泥焗黃魚\u00a0土豪的 VPS 后…\n折腾好 Shadowsocks 服务端，就打算把网站搬到 VPS 上，之前的虚拟主机虽然便宜，但速度真的不怎么样，偶尔还会抽风。像我这种日访问量在个位数的网站，搬到这种配置的 VPS 上应该会很爽。\n既然要搬家，那就顺便换个域名吧。\n原域名 bakatd.com ，虽然简短，但是不能通读，所以换成了现在的 bakahouse.com ，读音：巴卡豪斯…意译：笨蛋公寓，参考了白宫的域名\u00a0whitehouse.gov\u00a0。\n">
 <title>炒土豆丝的 WordPress 新家：VPS ~ Ubuntu &#43; Apache &#43; MySQL &#43; PHP</title>
 
-<link rel='canonical' href='https://umi.im/vps-ubuntu-wordpress/'>
+<link rel='canonical' href='https://baka.li/vps-ubuntu-wordpress/'>
 
 <link rel="stylesheet" href="/scss/style.min.7c6fc62023c4a6953fbe601dd92a600ca1efde85fae06f72201f35c5ad119913.css"><meta property='og:title' content="炒土豆丝的 WordPress 新家：VPS ~ Ubuntu + Apache + MySQL + PHP">
 <meta property='og:description' content="接上文，拿到\u00a0@茄子泥焗黃魚\u00a0土豪的 VPS 后…\n折腾好 Shadowsocks 服务端，就打算把网站搬到 VPS 上，之前的虚拟主机虽然便宜，但速度真的不怎么样，偶尔还会抽风。像我这种日访问量在个位数的网站，搬到这种配置的 VPS 上应该会很爽。\n既然要搬家，那就顺便换个域名吧。\n原域名 bakatd.com ，虽然简短，但是不能通读，所以换成了现在的 bakahouse.com ，读音：巴卡豪斯…意译：笨蛋公寓，参考了白宫的域名\u00a0whitehouse.gov\u00a0。\n">
-<meta property='og:url' content='https://umi.im/vps-ubuntu-wordpress/'>
+<meta property='og:url' content='https://baka.li/vps-ubuntu-wordpress/'>
 <meta property='og:site_name' content='笨蛋屋'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Linux' /><meta property='article:tag' content='VPS' /><meta property='article:tag' content='WordPress' /><meta property='article:tag' content='域名' /><meta property='article:published_time' content='2015-06-06T12:10:54&#43;00:00'/><meta property='article:modified_time' content='2015-06-06T12:10:54&#43;00:00'/>
 <meta name="twitter:title" content="炒土豆丝的 WordPress 新家：VPS ~ Ubuntu + Apache + MySQL + PHP">
@@ -401,19 +401,19 @@
     
     
     <p>接上文，拿到 <a href="http://bbs.colg.cn/home.php?mod=space&uid=601303" target="_blank">@茄子泥焗黃魚</a> 土豪的 VPS 后…</p>
-<p>折腾好 Shadowsocks 服务端，就打算把网站搬到 VPS 上，之前的<a href="https://umi.im/2014-web-hosting/" target="_blank">虚拟主机</a>虽然便宜，但速度真的不怎么样，偶尔还会抽风。像我这种日访问量在个位数的网站，搬到这种配置的 VPS 上应该会很爽。</p>
+<p>折腾好 Shadowsocks 服务端，就打算把网站搬到 VPS 上，之前的<a href="https://baka.li/2014-web-hosting/" target="_blank">虚拟主机</a>虽然便宜，但速度真的不怎么样，偶尔还会抽风。像我这种日访问量在个位数的网站，搬到这种配置的 VPS 上应该会很爽。</p>
 <p>既然要搬家，那就顺便换个域名吧。</p>
-<p>原域名 <a href="http://bakatd.com/" target="_blank">bakatd.com</a> ，虽然简短，但是不能通读，所以换成了现在的 <a href="https://umi.im/" target="_blank">bakahouse.com</a> ，读音：巴卡豪斯…意译：笨蛋公寓，参考了白宫的域名 <a href="https://www.whitehouse.gov/" target="_blank">whitehouse.gov</a> 。</p>
+<p>原域名 <a href="http://bakatd.com/" target="_blank">bakatd.com</a> ，虽然简短，但是不能通读，所以换成了现在的 <a href="https://baka.li/" target="_blank">bakahouse.com</a> ，读音：巴卡豪斯…意译：笨蛋公寓，参考了白宫的域名 <a href="https://www.whitehouse.gov/" target="_blank">whitehouse.gov</a> 。</p>
 <p>先设置把旧域名转发到新域名。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3969" src="https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png" alt="godaddy-Forwarding" width="533" height="278" srcset="https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding.png 533w, https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding-150x78.png 150w, https://umi.im/wp-content/uploads/2015/06/godaddy-Forwarding-300x156.png 300w" sizes="(max-width: 533px) 100vw, 533px" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2015/06/godaddy-Forwarding.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3969" src="https://baka.li/wp-content/uploads/2015/06/godaddy-Forwarding.png" alt="godaddy-Forwarding" width="533" height="278" srcset="https://baka.li/wp-content/uploads/2015/06/godaddy-Forwarding.png 533w, https://baka.li/wp-content/uploads/2015/06/godaddy-Forwarding-150x78.png 150w, https://baka.li/wp-content/uploads/2015/06/godaddy-Forwarding-300x156.png 300w" sizes="(max-width: 533px) 100vw, 533px" /></a></p>
 <h2 id="linux-vps-ubuntu-系统配置指南"><a href="http://wiki.ubuntu.org.cn/Vps" target="_blank">Linux VPS Ubuntu 系统配置指南</a>
 </h2><p>VPS 的 Web 环境选择，Ubuntu 的中文 WIKI 写得最详细，所以我选择了 Ubuntu…</p>
 <p>使用 Apache 搭建站点，对着 WIKI 上的命令一直复制粘贴，返回结果结果都正常，很方便的就配置好了 Apache + MySQL + PHP 。</p>
 <p>但是测试站点的时候死活打不开，折腾着终于发现我配置的 Web 根目录是 /var/www/html ，而不是 WIKI 上写的 /var/www/ 目录，把文件移动到 /var/www/html 目录后终于能打开测试站点了。</p>
 <p>测试站点：<a href="http://www.yahei.net/" target="_blank">雅黑PHP探针</a></p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2015/06/tz-php.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3964" src="https://umi.im/wp-content/uploads/2015/06/tz-php.png" alt="tz-php" width="927" height="455" srcset="https://umi.im/wp-content/uploads/2015/06/tz-php.png 927w, https://umi.im/wp-content/uploads/2015/06/tz-php-150x74.png 150w, https://umi.im/wp-content/uploads/2015/06/tz-php-300x147.png 300w" sizes="(max-width: 927px) 100vw, 927px" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2015/06/tz-php.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3964" src="https://baka.li/wp-content/uploads/2015/06/tz-php.png" alt="tz-php" width="927" height="455" srcset="https://baka.li/wp-content/uploads/2015/06/tz-php.png 927w, https://baka.li/wp-content/uploads/2015/06/tz-php-150x74.png 150w, https://baka.li/wp-content/uploads/2015/06/tz-php-300x147.png 300w" sizes="(max-width: 927px) 100vw, 927px" /></a></p>
 <p>测试完成，Phpmyadmin 也安装完成后，就可以给网站搬家了。</p>
 <p>我的 WordPress 网站文件备份在 Dropbox ，通过 Dropbox 分享链接，然后用 wget 命令下载。</p>
 <pre class="lang:default decode:true ">wget http://***.com/**/backwpup_bfbdbe_2015-06-05_10-08-58.tar.gz?dl=0</pre>
@@ -449,8 +449,8 @@ AllowOverride All</pre>
 <p>保存并退出，重启 Apache2 。</p>
 <pre class="lang:default decode:true ">service apache2 restart</pre>
 <p>这次真的就大功告成了，遇到以上几个小问题，多搜索下就能找到解决办法了，至于到底哪个地方出错导致的问题我也不清楚，不管了。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2015/06/index-photo.jpg"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3962" src="https://umi.im/wp-content/uploads/2015/06/index-photo.jpg" alt="index-photo" width="440" height="473" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2015/06/index-photo.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3962" src="https://baka.li/wp-content/uploads/2015/06/index-photo.jpg" alt="index-photo" width="440" height="473" /></a></p>
 
 </section>
 
@@ -492,7 +492,7 @@ AllowOverride All</pre>
         
             <div class="article-image">
                 
-                    <img src="https://umi.im/wp-content/uploads/2023/04/serverstatus-card.png" loading="lazy" data-key="" data-hash="https://umi.im/wp-content/uploads/2023/04/serverstatus-card.png"/>
+                    <img src="https://baka.li/wp-content/uploads/2023/04/serverstatus-card.png" loading="lazy" data-key="" data-hash="https://baka.li/wp-content/uploads/2023/04/serverstatus-card.png"/>
                 
             </div>
         
@@ -537,7 +537,7 @@ AllowOverride All</pre>
         
             <div class="article-image">
                 
-                    <img src="https://umi.im/wp-content/uploads/2024/04/cloudflare.webp" loading="lazy" data-key="" data-hash="https://umi.im/wp-content/uploads/2024/04/cloudflare.webp"/>
+                    <img src="https://baka.li/wp-content/uploads/2024/04/cloudflare.webp" loading="lazy" data-key="" data-hash="https://baka.li/wp-content/uploads/2024/04/cloudflare.webp"/>
                 
             </div>
         

@@ -4,11 +4,11 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="最近逛 NAS 论坛发现个有趣的东西，用于显示硬件资源信息的数码相框。\n因为淘宝突然出现了一批 AX206 主控的 2.4 寸数码相框，刷一下固件就变成一个 USB 显示器了，这样在 Windows 设备上就可以通过 Aida64 输出硬件信息到 USB 显示器（数码相框）上，在 Linux 设备（NAS、路由器等）上可以通过\u00a0LCD4linux 输出，Aida64 有图形化的配置界面，折腾起来方便很多。\n">
 <title>数码相框改造 PC 硬件资源监视器</title>
 
-<link rel='canonical' href='https://umi.im/aida64-usb-display/'>
+<link rel='canonical' href='https://baka.li/aida64-usb-display/'>
 
 <link rel="stylesheet" href="/scss/style.min.7c6fc62023c4a6953fbe601dd92a600ca1efde85fae06f72201f35c5ad119913.css"><meta property='og:title' content="数码相框改造 PC 硬件资源监视器">
 <meta property='og:description' content="最近逛 NAS 论坛发现个有趣的东西，用于显示硬件资源信息的数码相框。\n因为淘宝突然出现了一批 AX206 主控的 2.4 寸数码相框，刷一下固件就变成一个 USB 显示器了，这样在 Windows 设备上就可以通过 Aida64 输出硬件信息到 USB 显示器（数码相框）上，在 Linux 设备（NAS、路由器等）上可以通过\u00a0LCD4linux 输出，Aida64 有图形化的配置界面，折腾起来方便很多。\n">
-<meta property='og:url' content='https://umi.im/aida64-usb-display/'>
+<meta property='og:url' content='https://baka.li/aida64-usb-display/'>
 <meta property='og:site_name' content='笨蛋屋'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Windows' /><meta property='article:published_time' content='2016-04-11T15:17:44&#43;00:00'/><meta property='article:modified_time' content='2016-04-11T15:17:44&#43;00:00'/>
 <meta name="twitter:title" content="数码相框改造 PC 硬件资源监视器">
@@ -380,11 +380,11 @@
 <p>直接抄卖家的教程，很简单。</p>
 <p><span style="color: #ff0000;">* 如果 ax206_lcd_driver.zip 的驱动无法安装，下载 <a href="http://pan.baidu.com/s/1eQjAezS" target="_blank" rel="noopener">DPFWIN 整合包</a> ，解压，运行 USB_Display_Driver 目录下的 dpscat.exe ，再运行 dpinst64.exe 或者 dpinst32.exe 安装驱动。</span></p>
 <p>然后就可以打开 Aida64 配置了，在 设置 的 LCD 项里面启用 AX206 LCD 支持就可以了，接着就调整要输出的信息，还可以自定义背景图片，这个也很简单就是要稍微花点时间，只有在运行着 Aida64 的情况下才有信号输出，所以要把 Aida64 设置为开机启动。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2016/04/aida64-lcd.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" width="1042" height="637" src="https://umi.im/wp-content/uploads/2016/04/aida64-lcd.png" alt="" class="wp-image-4820" srcset="https://umi.im/wp-content/uploads/2016/04/aida64-lcd.png 1042w, https://umi.im/wp-content/uploads/2016/04/aida64-lcd-150x92.png 150w, https://umi.im/wp-content/uploads/2016/04/aida64-lcd-300x183.png 300w, https://umi.im/wp-content/uploads/2016/04/aida64-lcd-768x469.png 768w, https://umi.im/wp-content/uploads/2016/04/aida64-lcd-1024x626.png 1024w" sizes="(max-width: 1042px) 100vw, 1042px" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2016/04/aida64-lcd.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1042" height="637" src="https://baka.li/wp-content/uploads/2016/04/aida64-lcd.png" alt="" class="wp-image-4820" srcset="https://baka.li/wp-content/uploads/2016/04/aida64-lcd.png 1042w, https://baka.li/wp-content/uploads/2016/04/aida64-lcd-150x92.png 150w, https://baka.li/wp-content/uploads/2016/04/aida64-lcd-300x183.png 300w, https://baka.li/wp-content/uploads/2016/04/aida64-lcd-768x469.png 768w, https://baka.li/wp-content/uploads/2016/04/aida64-lcd-1024x626.png 1024w" sizes="(max-width: 1042px) 100vw, 1042px" /></a></p>
 <p>最后，效果图，电脑关机或者 Aida64 被关闭时数码相框会熄灭。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2016/04/ax206-usb-display.jpg"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" width="968" height="1280" src="https://umi.im/wp-content/uploads/2016/04/ax206-usb-display.jpg" alt="" class="wp-image-4821" srcset="https://umi.im/wp-content/uploads/2016/04/ax206-usb-display.jpg 968w, https://umi.im/wp-content/uploads/2016/04/ax206-usb-display-113x150.jpg 113w, https://umi.im/wp-content/uploads/2016/04/ax206-usb-display-227x300.jpg 227w, https://umi.im/wp-content/uploads/2016/04/ax206-usb-display-768x1016.jpg 768w, https://umi.im/wp-content/uploads/2016/04/ax206-usb-display-774x1024.jpg 774w" sizes="(max-width: 968px) 100vw, 968px" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2016/04/ax206-usb-display.jpg"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="968" height="1280" src="https://baka.li/wp-content/uploads/2016/04/ax206-usb-display.jpg" alt="" class="wp-image-4821" srcset="https://baka.li/wp-content/uploads/2016/04/ax206-usb-display.jpg 968w, https://baka.li/wp-content/uploads/2016/04/ax206-usb-display-113x150.jpg 113w, https://baka.li/wp-content/uploads/2016/04/ax206-usb-display-227x300.jpg 227w, https://baka.li/wp-content/uploads/2016/04/ax206-usb-display-768x1016.jpg 768w, https://baka.li/wp-content/uploads/2016/04/ax206-usb-display-774x1024.jpg 774w" sizes="(max-width: 968px) 100vw, 968px" /></a></p>
 
 </section>
 

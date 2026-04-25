@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>NAS on 笨蛋屋</title>
-        <link>https://umi.im/tags/nas/</link>
+        <link>https://baka.li/tags/nas/</link>
         <description>Recent content in NAS on 笨蛋屋</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://umi.im/tags/nas/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://baka.li/tags/nas/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>UNRAID 6.12.4 米多贝克版升级 UNRAID 6.12.10 毛子开心版</title>
-        <link>https://umi.im/unraid-6.12.10-crack/</link>
+        <link>https://baka.li/unraid-6.12.10-crack/</link>
         <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://umi.im/unraid-6.12.10-crack/</guid>
-        <description>&lt;img src="https://umi.im/unraid-6.12.10-crack/unraid.webp" alt="Featured image of post UNRAID 6.12.4 米多贝克版升级 UNRAID 6.12.10 毛子开心版" /&gt;&lt;h2 id=&#34;终极大无语事件&#34;&gt;终极大无语事件
+        <guid>https://baka.li/unraid-6.12.10-crack/</guid>
+        <description>&lt;img src="https://baka.li/unraid-6.12.10-crack/unraid.webp" alt="Featured image of post UNRAID 6.12.4 米多贝克版升级 UNRAID 6.12.10 毛子开心版" /&gt;&lt;h2 id=&#34;终极大无语事件&#34;&gt;终极大无语事件
 &lt;/h2&gt;&lt;p&gt;年初听说了 UNRAID 系统要变成订阅制，便一直关注，想着涨价的话就趁着末班车入正，真的挺好用的。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Q：新付费模式的价格是否会提前通知用户并给到缓冲时间？&lt;/p&gt;
@@ -29,7 +29,7 @@
 &lt;/h2&gt;&lt;p&gt;目前我使用的 Tank电玩&amp;amp;米多贝克 的 &lt;a class=&#34;link&#34; href=&#34;https://www.mi-d.cn/9519&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;UNRAID 6.12.4 开心版&lt;/a&gt; ，官方版已经更新到了 6.12.10 了，他家的半年没更新了。&lt;/p&gt;
 &lt;p&gt;去毛子论坛看了下，毛子版本更新到了 6.12.9 ，订阅了那个帖子，没几天就更新了 6.12.10 ，但我懒癌发作拖到今天才升级。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/unraid-6.12.10-crack/softoroom-unraid-mail.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/unraid-6.12.10-crack/softoroom-unraid-mail.png&#34;
 	width=&#34;852&#34;
 	height=&#34;468&#34;
 	
@@ -73,7 +73,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;把 unRAIDServer-6.12.10-x86_64.zip 解压，删除掉 config 目录后把所有文件和目录都拷贝进 U 盘根目录即可。&lt;/p&gt;
 &lt;p&gt;不出意外就升级成功了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/unraid-6.12.10-crack/unraid-pro-6.12.10.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/unraid-6.12.10-crack/unraid-pro-6.12.10.png&#34;
 	width=&#34;1268&#34;
 	height=&#34;788&#34;
 	
@@ -91,10 +91,10 @@
         </item>
         <item>
         <title>UNRAID 系统添加校验盘和 ZFS 镜像阵列升级</title>
-        <link>https://umi.im/my-unraid-array/</link>
+        <link>https://baka.li/my-unraid-array/</link>
         <pubDate>Sun, 29 Oct 2023 05:16:46 +0000</pubDate>
         
-        <guid>https://umi.im/my-unraid-array/</guid>
+        <guid>https://baka.li/my-unraid-array/</guid>
         <description>&lt;p&gt;应该是绿联 DX4600 NAS 折腾 UNRAID 系统系列的最后一篇了，后期再添加一块 10TB 硬盘也算毕业了。&lt;/p&gt;
 &lt;h2 id=&#34;升级内容&#34;&gt;升级内容
 &lt;/h2&gt;&lt;ol&gt;
@@ -105,28 +105,28 @@
 &lt;p&gt;西数 HC330 ，10TB 空气盘，海康 OEM 版本，PDD 880 元购入 。&lt;/p&gt;
 &lt;p&gt;西数 HC510 ，10TB 氦气盘，服务器拆机，通电 3000 小时，淘宝北京某商家 550 元购入。&lt;/p&gt;
 &lt;p&gt;海力士 Gold P31 ，1TB NVME SSD ，京东首发 370 元，号称最强 PCI-E 3.0 的 SSD。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/10/new-hard-drive.webp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;2016&#34; height=&#34;1512&#34; src=&#34;https://umi.im/wp-content/uploads/2023/10/new-hard-drive.webp&#34; alt=&#34;&#34; class=&#34;wp-image-6741&#34; srcset=&#34;https://umi.im/wp-content/uploads/2023/10/new-hard-drive.webp 2016w, https://umi.im/wp-content/uploads/2023/10/new-hard-drive-1536x1152.webp 1536w&#34; sizes=&#34;(max-width: 2016px) 100vw, 2016px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/10/new-hard-drive.webp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;2016&#34; height=&#34;1512&#34; src=&#34;https://baka.li/wp-content/uploads/2023/10/new-hard-drive.webp&#34; alt=&#34;&#34; class=&#34;wp-image-6741&#34; srcset=&#34;https://baka.li/wp-content/uploads/2023/10/new-hard-drive.webp 2016w, https://baka.li/wp-content/uploads/2023/10/new-hard-drive-1536x1152.webp 1536w&#34; sizes=&#34;(max-width: 2016px) 100vw, 2016px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;zfs-镜像阵列升级&#34;&gt;ZFS 镜像阵列升级
 &lt;/h2&gt;&lt;p&gt;原来的是两个 256GB SSD 的 ZFS 镜像，先备份了数据，然后拆下一块 256GB SSD，把新买的海力士 P31 替换上去。&lt;/p&gt;
 &lt;p&gt;镜像同步速度 720MB/s 左右， P31 最高温度是 57 度，比我想象的要高。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/10/zfs-mirror-sync.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;826&#34; height=&#34;453&#34; src=&#34;https://umi.im/wp-content/uploads/2023/10/zfs-mirror-sync.png&#34; alt=&#34;&#34; class=&#34;wp-image-6743&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/10/zfs-mirror-speed.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1295&#34; height=&#34;589&#34; src=&#34;https://umi.im/wp-content/uploads/2023/10/zfs-mirror-speed.png&#34; alt=&#34;&#34; class=&#34;wp-image-6742&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/10/zfs-mirror-sync.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;826&#34; height=&#34;453&#34; src=&#34;https://baka.li/wp-content/uploads/2023/10/zfs-mirror-sync.png&#34; alt=&#34;&#34; class=&#34;wp-image-6743&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/10/zfs-mirror-speed.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1295&#34; height=&#34;589&#34; src=&#34;https://baka.li/wp-content/uploads/2023/10/zfs-mirror-speed.png&#34; alt=&#34;&#34; class=&#34;wp-image-6742&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;镜像同步完成后再替换上另一块 1TB 的 SSD，这块大华 C900 PLUS 是我电脑上拆下的，无缓盘，PDD 200元的历史低点购入，据说容易掉盘，所以搭配上了一块以可靠性著称的 P31 。&lt;/p&gt;
 &lt;p&gt;等镜像同步完后存储空间就直接从 256GB 变成 1TB 了。&lt;/p&gt;
 &lt;p&gt;这 1TB 的存储空间直接作为 docker 和 虚拟机数据盘的同时，还作为 UNRAID 阵列的缓存。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/10/new-zfs-mirror.webp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1504&#34; height=&#34;1340&#34; src=&#34;https://umi.im/wp-content/uploads/2023/10/new-zfs-mirror.webp&#34; alt=&#34;&#34; class=&#34;wp-image-6744&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/10/new-zfs-mirror.webp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1504&#34; height=&#34;1340&#34; src=&#34;https://baka.li/wp-content/uploads/2023/10/new-zfs-mirror.webp&#34; alt=&#34;&#34; class=&#34;wp-image-6744&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;添加校验盘&#34;&gt;添加校验盘
 &lt;/h2&gt;&lt;p&gt;原来的阵列是一块 10TB 5200 转的 HE10 氦气盘和 2TB 紫盘，后期要升级的话就是把 2TB 的紫盘替换成 10TB 的。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/10/new-drive-array.webp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;2016&#34; height=&#34;1512&#34; src=&#34;https://umi.im/wp-content/uploads/2023/10/new-drive-array.webp&#34; alt=&#34;&#34; class=&#34;wp-image-6745&#34; style=&#34;aspect-ratio:1.3333333333333333;width:840px;height:auto&#34; srcset=&#34;https://umi.im/wp-content/uploads/2023/10/new-drive-array.webp 2016w, https://umi.im/wp-content/uploads/2023/10/new-drive-array-1536x1152.webp 1536w&#34; sizes=&#34;(max-width: 2016px) 100vw, 2016px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/10/unraid-array-add.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1067&#34; height=&#34;590&#34; src=&#34;https://umi.im/wp-content/uploads/2023/10/unraid-array-add.png&#34; alt=&#34;&#34; class=&#34;wp-image-6750&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/10/new-drive-array.webp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;2016&#34; height=&#34;1512&#34; src=&#34;https://baka.li/wp-content/uploads/2023/10/new-drive-array.webp&#34; alt=&#34;&#34; class=&#34;wp-image-6745&#34; style=&#34;aspect-ratio:1.3333333333333333;width:840px;height:auto&#34; srcset=&#34;https://baka.li/wp-content/uploads/2023/10/new-drive-array.webp 2016w, https://baka.li/wp-content/uploads/2023/10/new-drive-array-1536x1152.webp 1536w&#34; sizes=&#34;(max-width: 2016px) 100vw, 2016px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/10/unraid-array-add.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1067&#34; height=&#34;590&#34; src=&#34;https://baka.li/wp-content/uploads/2023/10/unraid-array-add.png&#34; alt=&#34;&#34; class=&#34;wp-image-6750&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;添加完硬盘后开始进行奇偶校验，以前校验的速度只有 100MB/s 出头，因为速度受限于最慢的那块西数 2TB 紫盘，当校验超过 2TB 后，速度开始达到 200MB/s ，不过最后校验完还是花了 18 小时。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/10/unraid-array-check.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;637&#34; height=&#34;762&#34; src=&#34;https://umi.im/wp-content/uploads/2023/10/unraid-array-check.png&#34; alt=&#34;&#34; class=&#34;wp-image-6747&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/10/unraid-array.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1270&#34; height=&#34;673&#34; src=&#34;https://umi.im/wp-content/uploads/2023/10/unraid-array.png&#34; alt=&#34;&#34; class=&#34;wp-image-6746&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/10/unraid-array-check.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;637&#34; height=&#34;762&#34; src=&#34;https://baka.li/wp-content/uploads/2023/10/unraid-array-check.png&#34; alt=&#34;&#34; class=&#34;wp-image-6747&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/10/unraid-array.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1270&#34; height=&#34;673&#34; src=&#34;https://baka.li/wp-content/uploads/2023/10/unraid-array.png&#34; alt=&#34;&#34; class=&#34;wp-image-6746&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;硬盘温度&#34;&gt;硬盘温度
 &lt;/h2&gt;&lt;p&gt;在室温 30.5 度的情况下， 海力士 P31 待机(超低负载) 温度在 47 度左右，尚可接受，没有 DRAM 缓存的 大华 C900 PLUS 就低很多了。&lt;/p&gt;
 &lt;p&gt;到机械盘这边，无论是 5200转 还是 7200 转的10TB 氦气盘，待机温度都在 40 度以内，表现优秀。&lt;/p&gt;
@@ -137,11 +137,11 @@
         </item>
         <item>
         <title>绿联 DX4600 的 UNRAID 系统折腾后篇</title>
-        <link>https://umi.im/unraid-zfs-mirror/</link>
+        <link>https://baka.li/unraid-zfs-mirror/</link>
         <pubDate>Wed, 04 Oct 2023 04:07:00 +0000</pubDate>
         
-        <guid>https://umi.im/unraid-zfs-mirror/</guid>
-        <description>&lt;p&gt;在上一篇的 《&lt;a href=&#34;https://umi.im/dx4600-unraid/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;绿联 DX4600 安装 UNRAID 系统&lt;/a&gt;》 里我介绍了安装 UNRAID 系统、启动阵列和插件相关的内容。&lt;/p&gt;
+        <guid>https://baka.li/unraid-zfs-mirror/</guid>
+        <description>&lt;p&gt;在上一篇的 《&lt;a href=&#34;https://baka.li/dx4600-unraid/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;绿联 DX4600 安装 UNRAID 系统&lt;/a&gt;》 里我介绍了安装 UNRAID 系统、启动阵列和插件相关的内容。&lt;/p&gt;
 &lt;p&gt;此时我的 NAS 上有 4 块硬盘，一块 M.2 NVME SSD，一块 2.5寸 SSD，一块 2.5寸 HDD，一块 3.5寸 HDD。&lt;/p&gt;
 &lt;p&gt;NVME SSD 上建立的 appdata 、system 和 domains 目录存放 Docker 和 虚拟机文件，2.5寸 SSD 直通给黑群晖虚拟机，存放杂乱资料和音乐、照片等，2.5寸 HDD 备份 UNRAID 和黑群晖文件，3.5寸 HDD 存放电影电视剧和色情影片等视频。&lt;/p&gt;
 &lt;p&gt;最近朋友送了块 M.2 NVME SSD 给我，容量和 NAS 上的一样是 256GB 的，正好打算组个 RAID1 阵列，保证 NAS 上的部署的 Docker 和虚拟机文件的安全，下面介绍怎么添加 ZFS 阵列。&lt;/p&gt;
@@ -203,34 +203,34 @@ sys     0m0.880s&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;添加-zfs-镜像阵列&#34;&gt;添加 ZFS 镜像阵列
 &lt;/h2&gt;&lt;p&gt;先备份好 appdata 、system 和 domains 目录。&lt;/p&gt;
 &lt;p&gt;在 主界面 的池设备里添加两个插槽的存储池，命名随意。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/09/unraid-ssd-pool-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;759&#34; height=&#34;379&#34; src=&#34;https://umi.im/wp-content/uploads/2023/09/unraid-ssd-pool-1.png&#34; alt=&#34;&#34; class=&#34;wp-image-6719&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/09/unraid-ssd-pool-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;759&#34; height=&#34;379&#34; src=&#34;https://baka.li/wp-content/uploads/2023/09/unraid-ssd-pool-1.png&#34; alt=&#34;&#34; class=&#34;wp-image-6719&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;文件系统类型选择 ZFS 镜像，一组两设备，其他默认，格式化然后启动阵列。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/09/unraid-ssd-zfs-pool.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1315&#34; height=&#34;706&#34; src=&#34;https://umi.im/wp-content/uploads/2023/09/unraid-ssd-zfs-pool.png&#34; alt=&#34;&#34; class=&#34;wp-image-6712&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/09/unraid-ssd-zfs-pool.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1315&#34; height=&#34;706&#34; src=&#34;https://baka.li/wp-content/uploads/2023/09/unraid-ssd-zfs-pool.png&#34; alt=&#34;&#34; class=&#34;wp-image-6712&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;添加共享目录，主存储空间选择刚才建立名为 SSD 的 ZFS 阵列。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/09/unraid-ssd-domains.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1164&#34; height=&#34;521&#34; src=&#34;https://umi.im/wp-content/uploads/2023/09/unraid-ssd-domains.png&#34; alt=&#34;&#34; class=&#34;wp-image-6713&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/09/unraid-ssd-domains.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1164&#34; height=&#34;521&#34; src=&#34;https://baka.li/wp-content/uploads/2023/09/unraid-ssd-domains.png&#34; alt=&#34;&#34; class=&#34;wp-image-6713&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;修改-docker-和虚拟机文件路径&#34;&gt;修改 Docker 和虚拟机文件路径
 &lt;/h2&gt;&lt;p&gt;把备份好的 appdata 、system 和 domains 目录拷贝回新建立的 /mnt/ssd 目录里。&lt;/p&gt;
 &lt;p&gt;在 设置 – 虚拟机管理器 的 Libvirt 存储位置，由原来的 /mnt/user/system/libvirt/libvirt.img 改为 /mnt/ssd/system/libvirt/libvirt.img 。默认虚拟机存储路径同上。&lt;/p&gt;
 &lt;p&gt;设置 – Docker – Docker虚拟磁盘大小 目录也改成 /mnt/ssd/system/docker/docker.img ，默认应用数据存储位置 同上。&lt;/p&gt;
 &lt;p&gt;简单几下，就把 UNRAID 的单盘文件迁移到镜像阵列里了，不用再担心 SSD 突然挂掉导致应用配置丢失。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/09/unraid-dashboard-2023.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1265&#34; height=&#34;744&#34; src=&#34;https://umi.im/wp-content/uploads/2023/09/unraid-dashboard-2023.png&#34; alt=&#34;&#34; class=&#34;wp-image-6716&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/09/unraid-dashboard-2023.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1265&#34; height=&#34;744&#34; src=&#34;https://baka.li/wp-content/uploads/2023/09/unraid-dashboard-2023.png&#34; alt=&#34;&#34; class=&#34;wp-image-6716&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>黑群晖开启 Synology Photos 的 AI 对象识别功能</title>
-        <link>https://umi.im/synology-photos-ai/</link>
+        <link>https://baka.li/synology-photos-ai/</link>
         <pubDate>Mon, 04 Sep 2023 01:25:19 +0000</pubDate>
         
-        <guid>https://umi.im/synology-photos-ai/</guid>
+        <guid>https://baka.li/synology-photos-ai/</guid>
         <description>&lt;h2 id=&#34;群晖相册&#34;&gt;群晖相册
 &lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://www.synology.cn/zh-cn/dsm/feature/photos&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;Synology Photos&lt;/a&gt; 是群晖系统的相册应用，他的前身 Memonts 应用有个对象识别功能，可以帮你自动分类相册，就像 Google Photos 那样。&lt;/p&gt;
 &lt;p&gt;在升级 DSM 7.0 后群晖砍了掉这个功能，近期又在 Synology Photos 1.5.0-0488 版本里更新了这个功能。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/09/synologo-photos-ai.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;981&#34; height=&#34;589&#34; src=&#34;https://umi.im/wp-content/uploads/2023/09/synologo-photos-ai.png&#34; alt=&#34;&#34; class=&#34;wp-image-6679&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/09/synologo-photos-ai.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;981&#34; height=&#34;589&#34; src=&#34;https://baka.li/wp-content/uploads/2023/09/synologo-photos-ai.png&#34; alt=&#34;&#34; class=&#34;wp-image-6679&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;虽然识别错误不少，但是找猫图还是方便多了。&lt;/p&gt;
 &lt;h2 id=&#34;硬件要求&#34;&gt;硬件要求
 &lt;/h2&gt;&lt;p&gt;黑群晖最常用的引导是 DS918+ 、DS920+ 和 DS3617xs 这几个型号，如果是 DS918+ 和 DS920+ 引导的黑群晖，需要最低 4GB 内存才能开启对象识别功能，而 DS3617xs 则需要 8GB 内存，白群晖也一样。&lt;/p&gt;
@@ -241,24 +241,24 @@ sys     0m0.880s&lt;/code&gt;&lt;/pre&gt;
 chmod +x PatchELFSharp
 ./PatchELFSharp &#34;/var/packages/SynologyPhotos/target/usr/lib/libsynophoto-plugin-model.so.1.0&#34; &#34;_ZN9synophoto6plugin7network9IeNetwork11IsSupportedEv&#34; &#34;B8 00 00 00 00 C3&#34;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;重新启动 Synology Photos 后进设置勾选 ”在个人空间中启动主题相册“ ，再重建索引就行。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/09/synologo-photos-set.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;615&#34; height=&#34;581&#34; src=&#34;https://umi.im/wp-content/uploads/2023/09/synologo-photos-set.png&#34; alt=&#34;&#34; class=&#34;wp-image-6680&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/09/synologo-photos-set.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;615&#34; height=&#34;581&#34; src=&#34;https://baka.li/wp-content/uploads/2023/09/synologo-photos-set.png&#34; alt=&#34;&#34; class=&#34;wp-image-6680&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;人脸识别补丁来自 我不是矿神 博客：&lt;a class=&#34;link&#34; href=&#34;https://imnks.com/4069.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;黑群晖DSM7.0/7.1/7.2 Synology Photos人脸识别补丁&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>群晖 VMM 虚拟机迁移到 UNRAID 平台</title>
-        <link>https://umi.im/synology-vmm-to-unraid/</link>
+        <link>https://baka.li/synology-vmm-to-unraid/</link>
         <pubDate>Thu, 08 Jun 2023 17:32:55 +0000</pubDate>
         
-        <guid>https://umi.im/synology-vmm-to-unraid/</guid>
-        <description>&lt;p&gt;原来有一台部署在群晖 Virtual Machine Manager (VMM) 平台的 &lt;a href=&#34;https://umi.im/dnf-server/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;DNF 私服&lt;/a&gt; 游戏服务器，它运行的是 CentOS 5.9 系统，以前是从 VMware 迁移过去的，由于没有再玩 DNF 了就吃灰很久了。&lt;/p&gt;
-&lt;p&gt;最近升级了 &lt;a href=&#34;https://umi.im/dx4600-unraid/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;DX4600 NAS&lt;/a&gt; 后想着也把它也迁移到 UNRAID 上，水平太菜一路上踩了不少坑，简单记录过程…&lt;/p&gt;
+        <guid>https://baka.li/synology-vmm-to-unraid/</guid>
+        <description>&lt;p&gt;原来有一台部署在群晖 Virtual Machine Manager (VMM) 平台的 &lt;a href=&#34;https://baka.li/dnf-server/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;DNF 私服&lt;/a&gt; 游戏服务器，它运行的是 CentOS 5.9 系统，以前是从 VMware 迁移过去的，由于没有再玩 DNF 了就吃灰很久了。&lt;/p&gt;
+&lt;p&gt;最近升级了 &lt;a href=&#34;https://baka.li/dx4600-unraid/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;DX4600 NAS&lt;/a&gt; 后想着也把它也迁移到 UNRAID 上，水平太菜一路上踩了不少坑，简单记录过程…&lt;/p&gt;
 &lt;h2 id=&#34;导出-vmm-虚拟机&#34;&gt;导出 VMM 虚拟机
 &lt;/h2&gt;&lt;p&gt;直接导出为常规 OVA 就行了。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/synology-vmm-export.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1074&#34; height=&#34;669&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/synology-vmm-export.png&#34; alt=&#34;&#34; class=&#34;wp-image-6643&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/06/synology-vmm-export.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1074&#34; height=&#34;669&#34; src=&#34;https://baka.li/wp-content/uploads/2023/06/synology-vmm-export.png&#34; alt=&#34;&#34; class=&#34;wp-image-6643&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;转换镜像格式&#34;&gt;转换镜像格式
 &lt;/h2&gt;&lt;p&gt;把导出的 OVA 镜像拷贝到 UNRAID 上，进入 UNRAID 系统的终端，先用 tar xvf 命令解包，再把得到 vmdk 镜像转换为 qcow2 镜像。&lt;/p&gt;
 &lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;tar xvf dnf.ova
@@ -268,22 +268,22 @@ qemu-img convert -f vmdk -O qcow2 dnf-disk1.vmdk dnf.qcow2&lt;/code&gt;&lt;/pre&
 &lt;/h2&gt;&lt;p&gt;因为是很老的系统，所以机器选择 i440fx ，BIOS 选择 SeaBIOS 。&lt;/p&gt;
 &lt;p&gt;主要虚拟磁盘位置，设置为手动，路径填转换好的 qcow2 镜像的路径。&lt;/p&gt;
 &lt;p&gt;虚拟磁盘总线照 ovf 配置文件填的 SATA ，网卡 E1000 和 Virtio 都可以，其他默认就行。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-dnf-server.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;907&#34; height=&#34;666&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-dnf-server.png&#34; alt=&#34;&#34; class=&#34;wp-image-6645&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/06/unraid-dnf-server.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;907&#34; height=&#34;666&#34; src=&#34;https://baka.li/wp-content/uploads/2023/06/unraid-dnf-server.png&#34; alt=&#34;&#34; class=&#34;wp-image-6645&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;dnf启动&#34;&gt;DNF！启动！
 &lt;/h2&gt;&lt;p&gt;看到老游戏又跑起来了还是有点小开心的。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/DNF-Start.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1645&#34; height=&#34;813&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/DNF-Start.png&#34; alt=&#34;&#34; class=&#34;wp-image-6646&#34; srcset=&#34;https://umi.im/wp-content/uploads/2023/06/DNF-Start.png 1645w, https://umi.im/wp-content/uploads/2023/06/DNF-Start-1536x759.png 1536w&#34; sizes=&#34;(max-width: 1645px) 100vw, 1645px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/06/DNF-Start.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1645&#34; height=&#34;813&#34; src=&#34;https://baka.li/wp-content/uploads/2023/06/DNF-Start.png&#34; alt=&#34;&#34; class=&#34;wp-image-6646&#34; srcset=&#34;https://baka.li/wp-content/uploads/2023/06/DNF-Start.png 1645w, https://baka.li/wp-content/uploads/2023/06/DNF-Start-1536x759.png 1536w&#34; sizes=&#34;(max-width: 1645px) 100vw, 1645px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>绿联 DX4600 安装 UNRAID 系统</title>
-        <link>https://umi.im/dx4600-unraid/</link>
+        <link>https://baka.li/dx4600-unraid/</link>
         <pubDate>Sat, 03 Jun 2023 11:07:22 +0000</pubDate>
         
-        <guid>https://umi.im/dx4600-unraid/</guid>
-        <description>&lt;img src="https://umi.im/wp-content/uploads/2023/06/dx4600-unraid-poster.jpg" alt="Featured image of post 绿联 DX4600 安装 UNRAID 系统" /&gt;&lt;h2 id=&#34;开篇废话&#34;&gt;开篇废话
-&lt;/h2&gt;&lt;p&gt;我是个十年群晖老用户，14 年在 SMZDM 上看到黑群晖的文章就折腾这个，&lt;a class=&#34;link&#34; href=&#34;https://umi.im/nas-synology/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://baka.li/dx4600-unraid/</guid>
+        <description>&lt;img src="https://baka.li/wp-content/uploads/2023/06/dx4600-unraid-poster.jpg" alt="Featured image of post 绿联 DX4600 安装 UNRAID 系统" /&gt;&lt;h2 id=&#34;开篇废话&#34;&gt;开篇废话
+&lt;/h2&gt;&lt;p&gt;我是个十年群晖老用户，14 年在 SMZDM 上看到黑群晖的文章就折腾这个，&lt;a class=&#34;link&#34; href=&#34;https://baka.li/nas-synology/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;第一台黑群晖&lt;/a&gt; 配置还是 Intel Atom D410 的，在 2019 年升级到了白裙一直用到现在，目前用的白裙是 DS220+ ，CPU 是双核的赛扬 J4025，性能已经太不够用了打算更新，而今年群晖推出的新品很让人失望，新 NAS 不再考虑群晖，下面再列出几个我要放弃群晖的理由：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;硬件反向升级&lt;/li&gt;
@@ -342,8 +342,8 @@ qemu-img convert -f vmdk -O qcow2 dnf-disk1.vmdk dnf.qcow2&lt;/code&gt;&lt;/pre&
 &lt;h2 id=&#34;绿联-dx4600-开箱&#34;&gt;绿联 DX4600 开箱
 &lt;/h2&gt;&lt;p&gt;京东 1950 入手的绿联 DX4600 ，错过了更低的价格，其实 2000元 以内的价格我觉得都 OK 。&lt;/p&gt;
 &lt;p&gt;做工没有让我失望，完爆所有 DIY NAS 和其他成品 NAS 。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/UGREEN-DX4600-front.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;960&#34; height=&#34;916&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/UGREEN-DX4600-front.png&#34; alt=&#34;&#34; class=&#34;wp-image-6617&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/06/UGREEN-DX4600-front.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;960&#34; height=&#34;916&#34; src=&#34;https://baka.li/wp-content/uploads/2023/06/UGREEN-DX4600-front.png&#34; alt=&#34;&#34; class=&#34;wp-image-6617&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;背面的两个 USB 3.0 和一个不知道什么速率的 USB-C 接口，一个用来接 Unraid 的系统引导 U 盘，一个用来外接 USB 硬盘盒备份资料，USB-C 加了个转接头接上 UPS 。&lt;/p&gt;
 &lt;h2 id=&#34;安装-unraid-系统&#34;&gt;安装 Unraid 系统
 &lt;/h2&gt;&lt;p&gt;首先用 Unraid 官方的 USB Creator 写盘工具将系统写入 U 盘，黑群晖系统的操作同理。&lt;/p&gt;
@@ -367,12 +367,12 @@ modprobe it87 force_id=0x8620&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;https:&amp;#47;&amp;#47;raw.githubusercontent.com/Squidly271/community.applications/master/plugins/community.applications.plg&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;安装官方中文语言包&#34;&gt;安装官方中文语言包
 &lt;/h2&gt;&lt;p&gt;先完成第一步，再到 &lt;strong&gt;APPS&lt;/strong&gt; 选项卡里，左侧选 &lt;strong&gt;languages&lt;/strong&gt; ，再里面找到 &lt;strong&gt;简体中文语言包&lt;/strong&gt; 选择安装并切换。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-chinese.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;460&#34; height=&#34;339&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-chinese.png&#34; alt=&#34;&#34; class=&#34;wp-image-6615&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/06/unraid-chinese.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;460&#34; height=&#34;339&#34; src=&#34;https://baka.li/wp-content/uploads/2023/06/unraid-chinese.png&#34; alt=&#34;&#34; class=&#34;wp-image-6615&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;硬盘加入阵列&#34;&gt;硬盘加入阵列
 &lt;/h2&gt;&lt;p&gt;在 Main （主界面） 选项卡，添加你的硬盘并加入阵列，然后启动阵列，接着会提示你格式化硬盘。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-array.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;962&#34; height=&#34;629&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-array.png&#34; alt=&#34;&#34; class=&#34;wp-image-6628&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/06/unraid-array.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;962&#34; height=&#34;629&#34; src=&#34;https://baka.li/wp-content/uploads/2023/06/unraid-array.png&#34; alt=&#34;&#34; class=&#34;wp-image-6628&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;unraid-必备插件&#34;&gt;Unraid 必备插件
 &lt;/h2&gt;&lt;h3 id=&#34;dynamix-auto-fan-control&#34;&gt;&lt;strong&gt;Dynamix Auto Fan Control&lt;/strong&gt;
 &lt;/h3&gt;&lt;p&gt;控制风扇转速，PWM controller 选择 “it8620 – pwm3”，点击 PWM fan 后的 DETECT 按钮，此时能听到风扇加速转动，等检测结束继续检测“Minimum PWM value”，依次设置后续项并启用即可。&lt;/p&gt;
@@ -392,21 +392,21 @@ modprobe it87 force_id=0x8620&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;再添加一块磁盘，2nd 虚拟磁盘位置 ，选择 &lt;strong&gt;手动&lt;/strong&gt; ，填入要直通的硬盘路径 ，总线选 SATA 。&lt;/p&gt;
 &lt;p&gt;在终端输入 ls /dev/disk/by-id 命令查看硬盘的 id ，拷贝下来，@和@后面的字符去掉，在前面加上 /dev/disk/by-id/ ，就是直通硬盘的路径，比如我的铠侠 SSD 路径：&lt;/p&gt;
 &lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;/dev/disk/by-id/ata-KIOXIA-EXCERIA_SATA_SSD_608C10T4E581&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-vm-dsm.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;905&#34; height=&#34;767&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-vm-dsm.png&#34; alt=&#34;&#34; class=&#34;wp-image-6610&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/06/unraid-vm-dsm.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;905&#34; height=&#34;767&#34; src=&#34;https://baka.li/wp-content/uploads/2023/06/unraid-vm-dsm.png&#34; alt=&#34;&#34; class=&#34;wp-image-6610&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;网卡选择 virtio-net ，它比 E1000 更加高效，顺便我把 UPS 也直通给了群晖。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-vm-dsm-vm.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-vm-dsm-vm.png&#34; alt=&#34;&#34; class=&#34;wp-image-6611&#34; width=&#34;794&#34; height=&#34;542&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/06/unraid-vm-dsm-vm.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; src=&#34;https://baka.li/wp-content/uploads/2023/06/unraid-vm-dsm-vm.png&#34; alt=&#34;&#34; class=&#34;wp-image-6611&#34; width=&#34;794&#34; height=&#34;542&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;配置好直接启动虚拟机，进入 VNC 界面，按提示操作就能引导进入系统了。&lt;/p&gt;
 &lt;p&gt;因为直通了硬盘，无损的把白裙迁移到了虚拟机黑裙上，配置完好。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-vm-dsm-remove.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1053&#34; height=&#34;617&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-vm-dsm-remove.png&#34; alt=&#34;&#34; class=&#34;wp-image-6612&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/06/unraid-vm-dsm-remove.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1053&#34; height=&#34;617&#34; src=&#34;https://baka.li/wp-content/uploads/2023/06/unraid-vm-dsm-remove.png&#34; alt=&#34;&#34; class=&#34;wp-image-6612&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;network-ups-配置&#34;&gt;Network UPS 配置
 &lt;/h2&gt;&lt;p&gt;Unraid 系统自带 UPS 功能，不过我使用的 APC BK650M2-CH 在 Unraid 上有 BUG，会一直显示正在使用电池供电，并且这个 BUG 几年没修了，可能是因为这款 UPS 只在大陆发售。&lt;/p&gt;
 &lt;p&gt;BK650M2-CH 之前在群晖上是正常使用的，所以我把 UPS 直通给了群晖的虚拟机，然后用 NUT 连接群晖的网络 UPS 服务器。&lt;/p&gt;
 &lt;p&gt;群晖的 &lt;strong&gt;控制面板&lt;/strong&gt; – &lt;strong&gt;硬件和电源&lt;/strong&gt; ，启动 UPS 支持，启动网络 UPS ，允许的 Synology NAS 设备里的 IP 地址填写 Unraid 的。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/dsm-ups-nut.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1132&#34; height=&#34;697&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/dsm-ups-nut.png&#34; alt=&#34;&#34; class=&#34;wp-image-6613&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/06/dsm-ups-nut.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1132&#34; height=&#34;697&#34; src=&#34;https://baka.li/wp-content/uploads/2023/06/dsm-ups-nut.png&#34; alt=&#34;&#34; class=&#34;wp-image-6613&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Unriad 安装 NUT – Network UPS Tools 插件，设置如下：&lt;/p&gt;
 &lt;p&gt;UPS Mode: Slave&lt;/p&gt;
 &lt;p&gt;UPS IP Addresss: 群晖虚拟机 IP&lt;/p&gt;
@@ -414,13 +414,13 @@ modprobe it87 force_id=0x8620&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;UPS Monitor Username: monuser&lt;/p&gt;
 &lt;p&gt;UPS Monitor Password: secret&lt;/p&gt;
 &lt;p&gt;我设置的 20% 电量关闭 UPS，仅供参考。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-nut.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1199&#34; height=&#34;766&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-nut.png&#34; alt=&#34;&#34; class=&#34;wp-image-6614&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/06/unraid-nut.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1199&#34; height=&#34;766&#34; src=&#34;https://baka.li/wp-content/uploads/2023/06/unraid-nut.png&#34; alt=&#34;&#34; class=&#34;wp-image-6614&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;试用版升级开心版&#34;&gt;试用版升级开心版
 &lt;/h2&gt;&lt;p&gt;本来打算购入正版的，Unraid 系统 6 盘位的许可证是 60 美元，大陆用户有五折优惠，折合人民币 200 来块，是比较合适的价格，不过在用试用版的时候发现外接的 USB 硬盘也是算作盘位的，如果 DX4600 塞满了硬盘买 6 盘位的许可证就不够用了，所以先用着开心版凑合一下吧。&lt;/p&gt;
 &lt;p&gt;首先在主界面（MAIN）选项卡里找到你引导设备，点击 Flash 进入 U盘(Flash)设备设置 ，再点 Flash 备份，顺便记录下 U 盘的 GUID ，然后关机取下 U 盘接到电脑上。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-flash-backup.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;785&#34; height=&#34;550&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-flash-backup.png&#34; alt=&#34;&#34; class=&#34;wp-image-6622&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/06/unraid-flash-backup.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;785&#34; height=&#34;550&#34; src=&#34;https://baka.li/wp-content/uploads/2023/06/unraid-flash-backup.png&#34; alt=&#34;&#34; class=&#34;wp-image-6622&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;在 &lt;a href=&#34;https://softoroom.org/topic89043.html?pid=599575&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;unRAID Server Pro 6.11.5, ОС и ваши данные в безопасности, OS performance, VMs&lt;/a&gt; 这个帖子里下载 Unraid 开心版文件并解压，解压后的目录里面的 unRAIDServer-6.11.5-x86_64.zip 就是 Unraid 官方的系统文件，因为我的 U 盘已经写好了系统就不用管了。&lt;/p&gt;
 &lt;p&gt;进入 unRAID Server Pro 6.11.5_SoftoRooM\crack 目录，把 unraider 这个文件拷贝到 U 盘的 config 目录，再把 crack 目录里面 unraider-main.tar.gz 文件解压，进入 unRAID Server Pro 6.11.5_SoftoRooM\crack\unraider-main\unraider\src 目录，把里面的 hook.c 文件拷贝到 U 盘的 config 目录 。&lt;/p&gt;
 &lt;p&gt;接下来用文本编辑器打开 U 盘 config 目录里面的 go 文件，修改成下面这样并保存。&lt;/p&gt;
@@ -447,13 +447,13 @@ export UNRAID_VERSION=Pro
 listen 要监听的端口 ssl http2;
 listen &amp;#91;::]:要监听的端口 ssl http2;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/npm-port.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;485&#34; height=&#34;336&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/npm-port.png&#34; alt=&#34;&#34; class=&#34;wp-image-6624&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/06/npm-port.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;485&#34; height=&#34;336&#34; src=&#34;https://baka.li/wp-content/uploads/2023/06/npm-port.png&#34; alt=&#34;&#34; class=&#34;wp-image-6624&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;unraid-管理面板的反代配置&#34;&gt;Unraid 管理面板的反代配置
 &lt;/h3&gt;&lt;p&gt;如果不配置此参数，反代后的 Unraid 管理页面不会正确跳转。&lt;/p&gt;
 &lt;p&gt;先把 &lt;strong&gt;详细内容&lt;/strong&gt; 里面的 &lt;strong&gt;支持WebSockets&lt;/strong&gt; 勾选。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/npm-unraid.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;483&#34; height=&#34;449&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/npm-unraid.png&#34; alt=&#34;&#34; class=&#34;wp-image-6625&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/06/npm-unraid.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;483&#34; height=&#34;449&#34; src=&#34;https://baka.li/wp-content/uploads/2023/06/npm-unraid.png&#34; alt=&#34;&#34; class=&#34;wp-image-6625&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;再在 &lt;strong&gt;高级&lt;/strong&gt; 设置 &lt;strong&gt;自定义 Nginx 配置&lt;/strong&gt; 里添加反代配置：&lt;/p&gt;
 &lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;listen 要监听的端口 ssl http2;
 listen &amp;#91;::]:要监听的端口 ssl http2;
@@ -479,8 +479,8 @@ location / {
 
 }&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;这样就能愉快在外网访问 Unraid 了，记得设置高强度密码。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-dashboard.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1513&#34; height=&#34;1073&#34; src=&#34;https://umi.im/wp-content/uploads/2023/06/unraid-dashboard.png&#34; alt=&#34;&#34; class=&#34;wp-image-6626&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2023/06/unraid-dashboard.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1513&#34; height=&#34;1073&#34; src=&#34;https://baka.li/wp-content/uploads/2023/06/unraid-dashboard.png&#34; alt=&#34;&#34; class=&#34;wp-image-6626&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;参考资料&#34;&gt;参考资料
 &lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://www.v2ex.com/t/895046&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;绿联 DX4600 使用 Unraid 流水账&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/read/cv20106439/?jump_opus=1&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;绿联DX4600 unraid风扇转速控制&lt;/a&gt;&lt;/p&gt;
@@ -497,11 +497,11 @@ location / {
         </item>
         <item>
         <title>黑裙到白裙 DS218&#43;开箱</title>
-        <link>https://umi.im/ds218/</link>
+        <link>https://baka.li/ds218/</link>
         <pubDate>Tue, 05 Nov 2019 14:02:50 +0000</pubDate>
         
-        <guid>https://umi.im/ds218/</guid>
-        <description>&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1138&#34; height=&#34;640&#34; src=&#34;https://umi.im/wp-content/uploads/2019/10/DS218_1.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5634&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/10/DS218_1.jpg 1138w, https://umi.im/wp-content/uploads/2019/10/DS218_1-150x84.jpg 150w, https://umi.im/wp-content/uploads/2019/10/DS218_1-300x169.jpg 300w, https://umi.im/wp-content/uploads/2019/10/DS218_1-768x432.jpg 768w, https://umi.im/wp-content/uploads/2019/10/DS218_1-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1138px) 100vw, 1138px&#34; /&gt; 
+        <guid>https://baka.li/ds218/</guid>
+        <description>&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1138&#34; height=&#34;640&#34; src=&#34;https://baka.li/wp-content/uploads/2019/10/DS218_1.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5634&#34; srcset=&#34;https://baka.li/wp-content/uploads/2019/10/DS218_1.jpg 1138w, https://baka.li/wp-content/uploads/2019/10/DS218_1-150x84.jpg 150w, https://baka.li/wp-content/uploads/2019/10/DS218_1-300x169.jpg 300w, https://baka.li/wp-content/uploads/2019/10/DS218_1-768x432.jpg 768w, https://baka.li/wp-content/uploads/2019/10/DS218_1-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1138px) 100vw, 1138px&#34; /&gt; 
 &lt;p&gt;开箱之前先废话一顿，说说为什么要买白群晖&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;白群晖的优势和劣势&lt;/li&gt;
@@ -521,75 +521,75 @@ location / {
 &lt;/ul&gt;
 &lt;p&gt;DS218+ 是群晖推出的入门级双盘位 NAS ，搭配了 Intel Celeron J3355 双核处理器，2GB DDR3L 1866MHz 内存，单千兆网卡。&lt;/p&gt;
 &lt;p&gt;整体非常小巧，两侧都有镂空的 Synology LOGO ，整体质感不错。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1138&#34; height=&#34;640&#34; src=&#34;https://umi.im/wp-content/uploads/2019/10/DS218_2.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5635&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/10/DS218_2.jpg 1138w, https://umi.im/wp-content/uploads/2019/10/DS218_2-150x84.jpg 150w, https://umi.im/wp-content/uploads/2019/10/DS218_2-300x169.jpg 300w, https://umi.im/wp-content/uploads/2019/10/DS218_2-768x432.jpg 768w, https://umi.im/wp-content/uploads/2019/10/DS218_2-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1138px) 100vw, 1138px&#34; /&gt;  
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1138&#34; height=&#34;640&#34; src=&#34;https://baka.li/wp-content/uploads/2019/10/DS218_2.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5635&#34; srcset=&#34;https://baka.li/wp-content/uploads/2019/10/DS218_2.jpg 1138w, https://baka.li/wp-content/uploads/2019/10/DS218_2-150x84.jpg 150w, https://baka.li/wp-content/uploads/2019/10/DS218_2-300x169.jpg 300w, https://baka.li/wp-content/uploads/2019/10/DS218_2-768x432.jpg 768w, https://baka.li/wp-content/uploads/2019/10/DS218_2-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1138px) 100vw, 1138px&#34; /&gt;  
 &lt;p&gt;菊花，后置 9CM 散热风扇，噪音很小，两个 USB 3.0 接口，一个千兆网口和 eSATA 接口等。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;640&#34; height=&#34;951&#34; src=&#34;https://umi.im/wp-content/uploads/2019/10/DS218_4.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5637&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/10/DS218_4.jpg 640w, https://umi.im/wp-content/uploads/2019/10/DS218_4-101x150.jpg 101w, https://umi.im/wp-content/uploads/2019/10/DS218_4-202x300.jpg 202w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;  
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;640&#34; height=&#34;951&#34; src=&#34;https://baka.li/wp-content/uploads/2019/10/DS218_4.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5637&#34; srcset=&#34;https://baka.li/wp-content/uploads/2019/10/DS218_4.jpg 640w, https://baka.li/wp-content/uploads/2019/10/DS218_4-101x150.jpg 101w, https://baka.li/wp-content/uploads/2019/10/DS218_4-202x300.jpg 202w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;  
 &lt;p&gt;磨砂+镜面材质的前面板，质感看起来还可以，是用橡胶固定的。&lt;/p&gt;
 &lt;p&gt;四个调节亮度的指示灯，一个 USB 3.0 接口，一个备份键和电源键。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;868&#34; height=&#34;1280&#34; src=&#34;https://umi.im/wp-content/uploads/2019/10/DS218Plus.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5663&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/10/DS218Plus.jpg 868w, https://umi.im/wp-content/uploads/2019/10/DS218Plus-102x150.jpg 102w, https://umi.im/wp-content/uploads/2019/10/DS218Plus-203x300.jpg 203w, https://umi.im/wp-content/uploads/2019/10/DS218Plus-768x1133.jpg 768w, https://umi.im/wp-content/uploads/2019/10/DS218Plus-694x1024.jpg 694w&#34; sizes=&#34;(max-width: 868px) 100vw, 868px&#34; /&gt;  
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;868&#34; height=&#34;1280&#34; src=&#34;https://baka.li/wp-content/uploads/2019/10/DS218Plus.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5663&#34; srcset=&#34;https://baka.li/wp-content/uploads/2019/10/DS218Plus.jpg 868w, https://baka.li/wp-content/uploads/2019/10/DS218Plus-102x150.jpg 102w, https://baka.li/wp-content/uploads/2019/10/DS218Plus-203x300.jpg 203w, https://baka.li/wp-content/uploads/2019/10/DS218Plus-768x1133.jpg 768w, https://baka.li/wp-content/uploads/2019/10/DS218Plus-694x1024.jpg 694w&#34; sizes=&#34;(max-width: 868px) 100vw, 868px&#34; /&gt;  
 &lt;p&gt;卸下前面板就能看到硬盘托架。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;788&#34; height=&#34;1111&#34; src=&#34;https://umi.im/wp-content/uploads/2019/10/DS218_3.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5636&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/10/DS218_3.jpg 788w, https://umi.im/wp-content/uploads/2019/10/DS218_3-106x150.jpg 106w, https://umi.im/wp-content/uploads/2019/10/DS218_3-213x300.jpg 213w, https://umi.im/wp-content/uploads/2019/10/DS218_3-768x1083.jpg 768w, https://umi.im/wp-content/uploads/2019/10/DS218_3-726x1024.jpg 726w&#34; sizes=&#34;(max-width: 788px) 100vw, 788px&#34; /&gt;  
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;788&#34; height=&#34;1111&#34; src=&#34;https://baka.li/wp-content/uploads/2019/10/DS218_3.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5636&#34; srcset=&#34;https://baka.li/wp-content/uploads/2019/10/DS218_3.jpg 788w, https://baka.li/wp-content/uploads/2019/10/DS218_3-106x150.jpg 106w, https://baka.li/wp-content/uploads/2019/10/DS218_3-213x300.jpg 213w, https://baka.li/wp-content/uploads/2019/10/DS218_3-768x1083.jpg 768w, https://baka.li/wp-content/uploads/2019/10/DS218_3-726x1024.jpg 726w&#34; sizes=&#34;(max-width: 788px) 100vw, 788px&#34; /&gt;  
 &lt;p&gt;抽出硬盘托架可以安装 DDR3 笔记本内存，内存槽标注了 1.5V DDR3 ，我就装上了黑裙用的标压 1.5V DDR3 内存，无法启动，还以为是内存槽有问题，后面看官网只写了扩展 DDR3L 内存，白瞎一顿搞。&lt;/p&gt;
 &lt;p&gt;自带的内存是 1.35V 的低电压 DDR3L 内存，1866MHz 频率，市面上比较少，建议升级 1600MHz 的 DDR3L 内存，便宜不少，频率低点就低点。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;640&#34; height=&#34;1138&#34; src=&#34;https://umi.im/wp-content/uploads/2019/10/DS218_5.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5638&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/10/DS218_5.jpg 640w, https://umi.im/wp-content/uploads/2019/10/DS218_5-84x150.jpg 84w, https://umi.im/wp-content/uploads/2019/10/DS218_5-169x300.jpg 169w, https://umi.im/wp-content/uploads/2019/10/DS218_5-576x1024.jpg 576w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;  
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;640&#34; height=&#34;1138&#34; src=&#34;https://baka.li/wp-content/uploads/2019/10/DS218_5.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5638&#34; srcset=&#34;https://baka.li/wp-content/uploads/2019/10/DS218_5.jpg 640w, https://baka.li/wp-content/uploads/2019/10/DS218_5-84x150.jpg 84w, https://baka.li/wp-content/uploads/2019/10/DS218_5-169x300.jpg 169w, https://baka.li/wp-content/uploads/2019/10/DS218_5-576x1024.jpg 576w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;  
 &lt;ul&gt;
 &lt;li&gt;NAS 迁移&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;拆下黑裙的硬盘，乔思伯 U2 的ITX机箱，比 DS218+ 大很多，里面全是猫毛。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;865&#34; height=&#34;486&#34; src=&#34;https://umi.im/wp-content/uploads/2019/10/DS218_6.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5639&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/10/DS218_6.jpg 865w, https://umi.im/wp-content/uploads/2019/10/DS218_6-150x84.jpg 150w, https://umi.im/wp-content/uploads/2019/10/DS218_6-300x169.jpg 300w, https://umi.im/wp-content/uploads/2019/10/DS218_6-768x432.jpg 768w&#34; sizes=&#34;(max-width: 865px) 100vw, 865px&#34; /&gt;  
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;865&#34; height=&#34;486&#34; src=&#34;https://baka.li/wp-content/uploads/2019/10/DS218_6.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5639&#34; srcset=&#34;https://baka.li/wp-content/uploads/2019/10/DS218_6.jpg 865w, https://baka.li/wp-content/uploads/2019/10/DS218_6-150x84.jpg 150w, https://baka.li/wp-content/uploads/2019/10/DS218_6-300x169.jpg 300w, https://baka.li/wp-content/uploads/2019/10/DS218_6-768x432.jpg 768w&#34; sizes=&#34;(max-width: 865px) 100vw, 865px&#34; /&gt;  
 &lt;p&gt;免工具安装的硬盘托架，2.5 寸硬盘安装还是要用螺丝。SSD 主要用来存放碎片文件，以后存储空间不够了再替换成大容量的 HDD 。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1138&#34; height=&#34;640&#34; src=&#34;https://umi.im/wp-content/uploads/2019/10/DS218_7.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5640&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/10/DS218_7.jpg 1138w, https://umi.im/wp-content/uploads/2019/10/DS218_7-150x84.jpg 150w, https://umi.im/wp-content/uploads/2019/10/DS218_7-300x169.jpg 300w, https://umi.im/wp-content/uploads/2019/10/DS218_7-768x432.jpg 768w, https://umi.im/wp-content/uploads/2019/10/DS218_7-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1138px) 100vw, 1138px&#34; /&gt;  
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1138&#34; height=&#34;640&#34; src=&#34;https://baka.li/wp-content/uploads/2019/10/DS218_7.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5640&#34; srcset=&#34;https://baka.li/wp-content/uploads/2019/10/DS218_7.jpg 1138w, https://baka.li/wp-content/uploads/2019/10/DS218_7-150x84.jpg 150w, https://baka.li/wp-content/uploads/2019/10/DS218_7-300x169.jpg 300w, https://baka.li/wp-content/uploads/2019/10/DS218_7-768x432.jpg 768w, https://baka.li/wp-content/uploads/2019/10/DS218_7-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1138px) 100vw, 1138px&#34; /&gt;  
 &lt;p&gt;按照黑裙的硬盘顺序把硬盘安装在新机器上，开机并打开 DSM 引导页面，会提示数据迁移，选保留数据和设置就很方便无损迁移到了白裙。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;785&#34; height=&#34;607&#34; src=&#34;https://umi.im/wp-content/uploads/2019/10/DS3617xs-move-DS218.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5626&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/10/DS3617xs-move-DS218.jpg 785w, https://umi.im/wp-content/uploads/2019/10/DS3617xs-move-DS218-150x116.jpg 150w, https://umi.im/wp-content/uploads/2019/10/DS3617xs-move-DS218-300x232.jpg 300w, https://umi.im/wp-content/uploads/2019/10/DS3617xs-move-DS218-768x594.jpg 768w, https://umi.im/wp-content/uploads/2019/10/DS3617xs-move-DS218-194x150.jpg 194w&#34; sizes=&#34;(max-width: 785px) 100vw, 785px&#34; /&gt;  &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;882&#34; height=&#34;499&#34; src=&#34;https://umi.im/wp-content/uploads/2019/10/move-DS218.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5627&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/10/move-DS218.jpg 882w, https://umi.im/wp-content/uploads/2019/10/move-DS218-150x85.jpg 150w, https://umi.im/wp-content/uploads/2019/10/move-DS218-300x170.jpg 300w, https://umi.im/wp-content/uploads/2019/10/move-DS218-768x435.jpg 768w&#34; sizes=&#34;(max-width: 882px) 100vw, 882px&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;785&#34; height=&#34;607&#34; src=&#34;https://baka.li/wp-content/uploads/2019/10/DS3617xs-move-DS218.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5626&#34; srcset=&#34;https://baka.li/wp-content/uploads/2019/10/DS3617xs-move-DS218.jpg 785w, https://baka.li/wp-content/uploads/2019/10/DS3617xs-move-DS218-150x116.jpg 150w, https://baka.li/wp-content/uploads/2019/10/DS3617xs-move-DS218-300x232.jpg 300w, https://baka.li/wp-content/uploads/2019/10/DS3617xs-move-DS218-768x594.jpg 768w, https://baka.li/wp-content/uploads/2019/10/DS3617xs-move-DS218-194x150.jpg 194w&#34; sizes=&#34;(max-width: 785px) 100vw, 785px&#34; /&gt;  &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;882&#34; height=&#34;499&#34; src=&#34;https://baka.li/wp-content/uploads/2019/10/move-DS218.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5627&#34; srcset=&#34;https://baka.li/wp-content/uploads/2019/10/move-DS218.jpg 882w, https://baka.li/wp-content/uploads/2019/10/move-DS218-150x85.jpg 150w, https://baka.li/wp-content/uploads/2019/10/move-DS218-300x170.jpg 300w, https://baka.li/wp-content/uploads/2019/10/move-DS218-768x435.jpg 768w&#34; sizes=&#34;(max-width: 882px) 100vw, 882px&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;使用体验&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;第一时间安全更新到最新系统让人感到舒适，不再折腾引导提醒吊胆。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;672&#34; height=&#34;325&#34; src=&#34;https://umi.im/wp-content/uploads/2019/10/DS218_update.png&#34; alt=&#34;&#34; class=&#34;wp-image-5644&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/10/DS218_update.png 672w, https://umi.im/wp-content/uploads/2019/10/DS218_update-150x73.png 150w, https://umi.im/wp-content/uploads/2019/10/DS218_update-300x145.png 300w&#34; sizes=&#34;(max-width: 672px) 100vw, 672px&#34; /&gt;  
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;672&#34; height=&#34;325&#34; src=&#34;https://baka.li/wp-content/uploads/2019/10/DS218_update.png&#34; alt=&#34;&#34; class=&#34;wp-image-5644&#34; srcset=&#34;https://baka.li/wp-content/uploads/2019/10/DS218_update.png 672w, https://baka.li/wp-content/uploads/2019/10/DS218_update-150x73.png 150w, https://baka.li/wp-content/uploads/2019/10/DS218_update-300x145.png 300w&#34; sizes=&#34;(max-width: 672px) 100vw, 672px&#34; /&gt;  
 &lt;p&gt;Video Station 在线转码 4K 24帧 视频 CPU 使用率不到一半，观看流畅。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1067&#34; height=&#34;586&#34; src=&#34;https://umi.im/wp-content/uploads/2019/10/DS218_4K.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5629&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/10/DS218_4K.jpg 1067w, https://umi.im/wp-content/uploads/2019/10/DS218_4K-150x82.jpg 150w, https://umi.im/wp-content/uploads/2019/10/DS218_4K-300x165.jpg 300w, https://umi.im/wp-content/uploads/2019/10/DS218_4K-768x422.jpg 768w, https://umi.im/wp-content/uploads/2019/10/DS218_4K-1024x562.jpg 1024w&#34; sizes=&#34;(max-width: 1067px) 100vw, 1067px&#34; /&gt;  
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1067&#34; height=&#34;586&#34; src=&#34;https://baka.li/wp-content/uploads/2019/10/DS218_4K.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5629&#34; srcset=&#34;https://baka.li/wp-content/uploads/2019/10/DS218_4K.jpg 1067w, https://baka.li/wp-content/uploads/2019/10/DS218_4K-150x82.jpg 150w, https://baka.li/wp-content/uploads/2019/10/DS218_4K-300x165.jpg 300w, https://baka.li/wp-content/uploads/2019/10/DS218_4K-768x422.jpg 768w, https://baka.li/wp-content/uploads/2019/10/DS218_4K-1024x562.jpg 1024w&#34; sizes=&#34;(max-width: 1067px) 100vw, 1067px&#34; /&gt;  
 &lt;p&gt;移动设备通知推送，对于群晖管家、DS Chat、DS CAM 等 APP 很有用。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;823&#34; height=&#34;565&#34; src=&#34;https://umi.im/wp-content/uploads/2019/10/DSM-APP-Push.png&#34; alt=&#34;&#34; class=&#34;wp-image-5645&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/10/DSM-APP-Push.png 823w, https://umi.im/wp-content/uploads/2019/10/DSM-APP-Push-150x103.png 150w, https://umi.im/wp-content/uploads/2019/10/DSM-APP-Push-300x206.png 300w, https://umi.im/wp-content/uploads/2019/10/DSM-APP-Push-768x527.png 768w&#34; sizes=&#34;(max-width: 823px) 100vw, 823px&#34; /&gt;  
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;823&#34; height=&#34;565&#34; src=&#34;https://baka.li/wp-content/uploads/2019/10/DSM-APP-Push.png&#34; alt=&#34;&#34; class=&#34;wp-image-5645&#34; srcset=&#34;https://baka.li/wp-content/uploads/2019/10/DSM-APP-Push.png 823w, https://baka.li/wp-content/uploads/2019/10/DSM-APP-Push-150x103.png 150w, https://baka.li/wp-content/uploads/2019/10/DSM-APP-Push-300x206.png 300w, https://baka.li/wp-content/uploads/2019/10/DSM-APP-Push-768x527.png 768w&#34; sizes=&#34;(max-width: 823px) 100vw, 823px&#34; /&gt;  
 &lt;p&gt;其它白裙才能用的特性如 Quickconnect 对有公网 IP 的没啥用就不细说了。&lt;/p&gt;
 &lt;p&gt;另外整体功耗低了大概 5W 这么多，少两个物理核心，低压单通道也算省点电。&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1152&#34; height=&#34;864&#34; src=&#34;https://umi.im/wp-content/uploads/2019/10/DS218Backup.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5667&#34; srcset=&#34;https://umi.im/wp-content/uploads/2019/10/DS218Backup.jpg 1152w, https://umi.im/wp-content/uploads/2019/10/DS218Backup-150x113.jpg 150w, https://umi.im/wp-content/uploads/2019/10/DS218Backup-300x225.jpg 300w, https://umi.im/wp-content/uploads/2019/10/DS218Backup-768x576.jpg 768w, https://umi.im/wp-content/uploads/2019/10/DS218Backup-1024x768.jpg 1024w&#34; sizes=&#34;(max-width: 1152px) 100vw, 1152px&#34; /&gt;  
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1152&#34; height=&#34;864&#34; src=&#34;https://baka.li/wp-content/uploads/2019/10/DS218Backup.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5667&#34; srcset=&#34;https://baka.li/wp-content/uploads/2019/10/DS218Backup.jpg 1152w, https://baka.li/wp-content/uploads/2019/10/DS218Backup-150x113.jpg 150w, https://baka.li/wp-content/uploads/2019/10/DS218Backup-300x225.jpg 300w, https://baka.li/wp-content/uploads/2019/10/DS218Backup-768x576.jpg 768w, https://baka.li/wp-content/uploads/2019/10/DS218Backup-1024x768.jpg 1024w&#34; sizes=&#34;(max-width: 1152px) 100vw, 1152px&#34; /&gt;  
 &lt;p&gt;总的来说群晖 DS218+ 给我的使用感受还是不错的，两千出头的价格也还可以接受吧，不差钱建议上 DS918+ 一步退烧。&lt;/p&gt;</description>
         </item>
         <item>
         <title>黑群晖 NAS 远程网络唤醒设置</title>
-        <link>https://umi.im/nas-wol/</link>
+        <link>https://baka.li/nas-wol/</link>
         <pubDate>Wed, 06 Jun 2018 11:41:41 +0000</pubDate>
         
-        <guid>https://umi.im/nas-wol/</guid>
-        <description>&lt;p&gt;之前的 &lt;a class=&#34;link&#34; href=&#34;https://umi.im/phicomm-k3/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://baka.li/nas-wol/</guid>
+        <description>&lt;p&gt;之前的 &lt;a class=&#34;link&#34; href=&#34;https://baka.li/phicomm-k3/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;斐讯 K3 路由器刷官改固件流程&lt;/a&gt; 文章讲到了 K3 官改固件的网络唤醒功能 （WOL , Wake-on-LAN），因为我的黑群晖 NAS 并不是 24 小时运行的，那么远程网络唤醒 NAS 就必须得搞定。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;DDNS 设置&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;因为家庭宽带的 IP 地址不是固定的，要外网的网络唤醒得知道自己当前公网 IP 地址，通过设置动态 DNS （DDNS）可以随时通过 DDNS 地址外网访问自己的路由器和 NAS 。&lt;/p&gt;
 &lt;p&gt;我用的是公云的 DDNS 服务，打开他们的网站 &lt;a href=&#34;http://www.pubyun.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pubyun.com&lt;/a&gt; ， 注册一个账号，然后登陆进控制面板，点击 [动态域名] – [创建动态域名] ，输入自己想要的动态域名并注册。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/pubyun-ddns.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;978&#34; height=&#34;781&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/pubyun-ddns.png&#34; alt=&#34;&#34; class=&#34;wp-image-5013&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/pubyun-ddns.png 978w, https://umi.im/wp-content/uploads/2018/03/pubyun-ddns-150x120.png 150w, https://umi.im/wp-content/uploads/2018/03/pubyun-ddns-300x240.png 300w, https://umi.im/wp-content/uploads/2018/03/pubyun-ddns-768x613.png 768w&#34; sizes=&#34;(max-width: 978px) 100vw, 978px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2018/03/pubyun-ddns.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;978&#34; height=&#34;781&#34; src=&#34;https://baka.li/wp-content/uploads/2018/03/pubyun-ddns.png&#34; alt=&#34;&#34; class=&#34;wp-image-5013&#34; srcset=&#34;https://baka.li/wp-content/uploads/2018/03/pubyun-ddns.png 978w, https://baka.li/wp-content/uploads/2018/03/pubyun-ddns-150x120.png 150w, https://baka.li/wp-content/uploads/2018/03/pubyun-ddns-300x240.png 300w, https://baka.li/wp-content/uploads/2018/03/pubyun-ddns-768x613.png 768w&#34; sizes=&#34;(max-width: 978px) 100vw, 978px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;注册成功后，进入路由器的 [动态DNS] 设置，填写自己的 DDNS 服务提供商，比如我上面注册的公云。&lt;/p&gt;
 &lt;p&gt;填上自己公云的用户名和登录密码，主机名称填写刚才注册的 **.3322.net 的动态域名并保存。&lt;/p&gt;
 &lt;p&gt;接着在 [远程管理] 设置里打开远程管理并填写远程端口号，设置完成后通过 **.3322.net:端口号 就可以在外网访问到路由器 Web 界面了。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/K3-DDNS.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;531&#34; height=&#34;451&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/K3-DDNS.png&#34; alt=&#34;&#34; class=&#34;wp-image-5014&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/K3-DDNS.png 531w, https://umi.im/wp-content/uploads/2018/03/K3-DDNS-150x127.png 150w, https://umi.im/wp-content/uploads/2018/03/K3-DDNS-300x255.png 300w&#34; sizes=&#34;(max-width: 531px) 100vw, 531px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2018/03/K3-DDNS.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;531&#34; height=&#34;451&#34; src=&#34;https://baka.li/wp-content/uploads/2018/03/K3-DDNS.png&#34; alt=&#34;&#34; class=&#34;wp-image-5014&#34; srcset=&#34;https://baka.li/wp-content/uploads/2018/03/K3-DDNS.png 531w, https://baka.li/wp-content/uploads/2018/03/K3-DDNS-150x127.png 150w, https://baka.li/wp-content/uploads/2018/03/K3-DDNS-300x255.png 300w&#34; sizes=&#34;(max-width: 531px) 100vw, 531px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;BIOS 设置&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;进 BIOS 开启 WOL ，Disabled 改成 Enabled 。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/bios-wake-on-lan.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;369&#34; height=&#34;304&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/bios-wake-on-lan.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5008&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/bios-wake-on-lan.jpg 369w, https://umi.im/wp-content/uploads/2018/03/bios-wake-on-lan-150x124.jpg 150w, https://umi.im/wp-content/uploads/2018/03/bios-wake-on-lan-300x247.jpg 300w&#34; sizes=&#34;(max-width: 369px) 100vw, 369px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2018/03/bios-wake-on-lan.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;369&#34; height=&#34;304&#34; src=&#34;https://baka.li/wp-content/uploads/2018/03/bios-wake-on-lan.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5008&#34; srcset=&#34;https://baka.li/wp-content/uploads/2018/03/bios-wake-on-lan.jpg 369w, https://baka.li/wp-content/uploads/2018/03/bios-wake-on-lan-150x124.jpg 150w, https://baka.li/wp-content/uploads/2018/03/bios-wake-on-lan-300x247.jpg 300w&#34; sizes=&#34;(max-width: 369px) 100vw, 369px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;如果 BIOS 开启了 ErP Ready，请关闭，改成 Disabled 。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/NAS-BIOS-ERP.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img decoding=&#34;async&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/NAS-BIOS-ERP.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5009&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2018/03/NAS-BIOS-ERP.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img decoding=&#34;async&#34; src=&#34;https://baka.li/wp-content/uploads/2018/03/NAS-BIOS-ERP.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-5009&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;DSM 设置&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;进入 NAS Web 界面的控制面，启动局域网的局域网唤醒。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/NAS-DSM-WOL.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1020&#34; height=&#34;585&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/NAS-DSM-WOL.png&#34; alt=&#34;&#34; class=&#34;wp-image-5010&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/NAS-DSM-WOL.png 1020w, https://umi.im/wp-content/uploads/2018/03/NAS-DSM-WOL-150x86.png 150w, https://umi.im/wp-content/uploads/2018/03/NAS-DSM-WOL-300x172.png 300w, https://umi.im/wp-content/uploads/2018/03/NAS-DSM-WOL-768x440.png 768w&#34; sizes=&#34;(max-width: 1020px) 100vw, 1020px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2018/03/NAS-DSM-WOL.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1020&#34; height=&#34;585&#34; src=&#34;https://baka.li/wp-content/uploads/2018/03/NAS-DSM-WOL.png&#34; alt=&#34;&#34; class=&#34;wp-image-5010&#34; srcset=&#34;https://baka.li/wp-content/uploads/2018/03/NAS-DSM-WOL.png 1020w, https://baka.li/wp-content/uploads/2018/03/NAS-DSM-WOL-150x86.png 150w, https://baka.li/wp-content/uploads/2018/03/NAS-DSM-WOL-300x172.png 300w, https://baka.li/wp-content/uploads/2018/03/NAS-DSM-WOL-768x440.png 768w&#34; sizes=&#34;(max-width: 1020px) 100vw, 1020px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;找到硬件的网卡 MAC 地址&lt;/li&gt;
 &lt;/ul&gt;
@@ -597,24 +597,24 @@ location / {
 &lt;p&gt;直接 SSH 登录 NAS ，输入 dmesg|grep eth 回车即可查询到真实的网卡 MAC 地址。&lt;/p&gt;
 &lt;p&gt;如果这样查询不到，可以去看看主板的网卡的贴纸上有没有写着，或者进 BIOS 看。&lt;/p&gt;
 &lt;p&gt;因为这个假的 MAC 地址让我以为自己哪里弄错了走了很多弯路，一定要注意这部。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/NAS-MAC-Address.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;987&#34; height=&#34;751&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/NAS-MAC-Address.png&#34; alt=&#34;&#34; class=&#34;wp-image-5006&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/NAS-MAC-Address.png 987w, https://umi.im/wp-content/uploads/2018/03/NAS-MAC-Address-150x114.png 150w, https://umi.im/wp-content/uploads/2018/03/NAS-MAC-Address-300x228.png 300w, https://umi.im/wp-content/uploads/2018/03/NAS-MAC-Address-768x584.png 768w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2018/03/NAS-MAC-Address.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;987&#34; height=&#34;751&#34; src=&#34;https://baka.li/wp-content/uploads/2018/03/NAS-MAC-Address.png&#34; alt=&#34;&#34; class=&#34;wp-image-5006&#34; srcset=&#34;https://baka.li/wp-content/uploads/2018/03/NAS-MAC-Address.png 987w, https://baka.li/wp-content/uploads/2018/03/NAS-MAC-Address-150x114.png 150w, https://baka.li/wp-content/uploads/2018/03/NAS-MAC-Address-300x228.png 300w, https://baka.li/wp-content/uploads/2018/03/NAS-MAC-Address-768x584.png 768w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;找到真正的 MAC 地址后，就可以进路由器 Web 界面设置的网络唤醒里，填上 MAC地址并发送就能成功唤醒黑群晖 NAS 了。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2018/03/K3-MAC-WOL.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;503&#34; height=&#34;297&#34; src=&#34;https://umi.im/wp-content/uploads/2018/03/K3-MAC-WOL.png&#34; alt=&#34;&#34; class=&#34;wp-image-5011&#34; srcset=&#34;https://umi.im/wp-content/uploads/2018/03/K3-MAC-WOL.png 503w, https://umi.im/wp-content/uploads/2018/03/K3-MAC-WOL-150x89.png 150w, https://umi.im/wp-content/uploads/2018/03/K3-MAC-WOL-300x177.png 300w&#34; sizes=&#34;(max-width: 503px) 100vw, 503px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;激动的录了个视频。&lt;figure class=&#34;wp-block-video&#34;&gt;&lt;video controls src=&#34;https://umi.im/wp-content/uploads/2018/03/NAS-WOL.mp4&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2018/03/K3-MAC-WOL.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;503&#34; height=&#34;297&#34; src=&#34;https://baka.li/wp-content/uploads/2018/03/K3-MAC-WOL.png&#34; alt=&#34;&#34; class=&#34;wp-image-5011&#34; srcset=&#34;https://baka.li/wp-content/uploads/2018/03/K3-MAC-WOL.png 503w, https://baka.li/wp-content/uploads/2018/03/K3-MAC-WOL-150x89.png 150w, https://baka.li/wp-content/uploads/2018/03/K3-MAC-WOL-300x177.png 300w&#34; sizes=&#34;(max-width: 503px) 100vw, 503px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;激动的录了个视频。&lt;figure class=&#34;wp-block-video&#34;&gt;&lt;video controls src=&#34;https://baka.li/wp-content/uploads/2018/03/NAS-WOL.mp4&#34;&gt;&lt;/video&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>黑群晖 NAS 遭到 SSH 密码暴力穷举攻击</title>
-        <link>https://umi.im/nas-ssh-attack/</link>
+        <link>https://baka.li/nas-ssh-attack/</link>
         <pubDate>Thu, 13 Aug 2015 10:43:43 +0000</pubDate>
         
-        <guid>https://umi.im/nas-ssh-attack/</guid>
+        <guid>https://baka.li/nas-ssh-attack/</guid>
         <description>&lt;p&gt;今天登陆 DSM 弹出一堆警告信息，原来有大量不明 IP 地址 SSH 登录失败被封锁了。&lt;/p&gt;
 &lt;p&gt;我的黑群晖设置了 DDNS ，方便远程访问，SSH 偶尔会用所以没关，结果被黑客盯上。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/08/Host-was-blocked-via-SSH.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1078&#34; height=&#34;687&#34; src=&#34;https://umi.im/wp-content/uploads/2015/08/Host-was-blocked-via-SSH.png&#34; alt=&#34;Host was blocked via SSH&#34; class=&#34;wp-image-4516&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/08/Host-was-blocked-via-SSH.png 1078w, https://umi.im/wp-content/uploads/2015/08/Host-was-blocked-via-SSH-150x96.png 150w, https://umi.im/wp-content/uploads/2015/08/Host-was-blocked-via-SSH-300x191.png 300w, https://umi.im/wp-content/uploads/2015/08/Host-was-blocked-via-SSH-1024x653.png 1024w&#34; sizes=&#34;(max-width: 1078px) 100vw, 1078px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/08/Host-was-blocked-via-SSH.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1078&#34; height=&#34;687&#34; src=&#34;https://baka.li/wp-content/uploads/2015/08/Host-was-blocked-via-SSH.png&#34; alt=&#34;Host was blocked via SSH&#34; class=&#34;wp-image-4516&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/08/Host-was-blocked-via-SSH.png 1078w, https://baka.li/wp-content/uploads/2015/08/Host-was-blocked-via-SSH-150x96.png 150w, https://baka.li/wp-content/uploads/2015/08/Host-was-blocked-via-SSH-300x191.png 300w, https://baka.li/wp-content/uploads/2015/08/Host-was-blocked-via-SSH-1024x653.png 1024w&#34; sizes=&#34;(max-width: 1078px) 100vw, 1078px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;好在我开启了自动封锁（控制面板 – 安全性），5分钟内登录失败5次就会封锁 IP ，有23个 IP 被封锁，也就是说黑客穷举了至少 115 个密码。&lt;/p&gt;
 &lt;p&gt;前段时间有新闻说群晖系统遭入侵，硬盘数据被加密，如果不按要求支付比特币给黑客数据就会被销毁。所以，做好安全防护吧。&lt;/p&gt;
 &lt;ul&gt;
@@ -626,78 +626,78 @@ location / {
         </item>
         <item>
         <title>Intel Atom D510MO 黑群晖系统</title>
-        <link>https://umi.im/intel-atom-d510mo-nas/</link>
+        <link>https://baka.li/intel-atom-d510mo-nas/</link>
         <pubDate>Wed, 08 Apr 2015 12:19:32 +0000</pubDate>
         
-        <guid>https://umi.im/intel-atom-d510mo-nas/</guid>
+        <guid>https://baka.li/intel-atom-d510mo-nas/</guid>
         <description>&lt;p&gt;GTA5开始了预下载，游戏总量达到恐怖的62GB，128GB的SSD肯定是放不下的了。&lt;/p&gt;
 &lt;p&gt;为了GTA5，决定升级下NAS，之前的D410平台的NAS是百兆板载网卡的，加了独立网卡就不能使用网络唤醒了，唯有升级板载千兆网卡的。&lt;/p&gt;
 &lt;p&gt;于是找到了这块Intel原厂的D510MO，在淘宝170块购入二手。&lt;/p&gt;
 &lt;h2 id=&#34;intel-desktop-board-d510mo&#34;&gt;&lt;a href=&#34;http://ark.intel.com/zh-cn/products/42645/Intel-Desktop-Board-D510MO&#34; target=&#34;_blank&#34;&gt;Intel® Desktop Board D510MO&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;相比D410，D510的频率不变，但是升级为了双核四线程了，L2缓存也变成了1MB，TDP又10W涨到了13W。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/intel-atom-d510.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3664&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/intel-atom-d510.png&#34; alt=&#34;intel-atom-d510&#34; width=&#34;754&#34; height=&#34;657&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/intel-atom-d510.png 754w, https://umi.im/wp-content/uploads/2015/04/intel-atom-d510-150x131.png 150w, https://umi.im/wp-content/uploads/2015/04/intel-atom-d510-300x261.png 300w&#34; sizes=&#34;(max-width: 754px) 100vw, 754px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/intel-atom-d510mo-1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3665&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/intel-atom-d510mo-1.jpg&#34; alt=&#34;intel-atom-d510mo-1&#34; width=&#34;1440&#34; height=&#34;960&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/intel-atom-d510mo-1.jpg 1440w, https://umi.im/wp-content/uploads/2015/04/intel-atom-d510mo-1-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/04/intel-atom-d510mo-1-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/04/intel-atom-d510mo-1-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1440px) 100vw, 1440px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/intel-atom-d510mo-21.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3667&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/intel-atom-d510mo-21.jpg&#34; alt=&#34;intel-atom-d510mo-2&#34; width=&#34;1440&#34; height=&#34;960&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/intel-atom-d510mo-21.jpg 1440w, https://umi.im/wp-content/uploads/2015/04/intel-atom-d510mo-21-150x100.jpg 150w, https://umi.im/wp-content/uploads/2015/04/intel-atom-d510mo-21-300x200.jpg 300w, https://umi.im/wp-content/uploads/2015/04/intel-atom-d510mo-21-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1440px) 100vw, 1440px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/intel-atom-d510.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3664&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/intel-atom-d510.png&#34; alt=&#34;intel-atom-d510&#34; width=&#34;754&#34; height=&#34;657&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/intel-atom-d510.png 754w, https://baka.li/wp-content/uploads/2015/04/intel-atom-d510-150x131.png 150w, https://baka.li/wp-content/uploads/2015/04/intel-atom-d510-300x261.png 300w&#34; sizes=&#34;(max-width: 754px) 100vw, 754px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/intel-atom-d510mo-1.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3665&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/intel-atom-d510mo-1.jpg&#34; alt=&#34;intel-atom-d510mo-1&#34; width=&#34;1440&#34; height=&#34;960&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/intel-atom-d510mo-1.jpg 1440w, https://baka.li/wp-content/uploads/2015/04/intel-atom-d510mo-1-150x100.jpg 150w, https://baka.li/wp-content/uploads/2015/04/intel-atom-d510mo-1-300x200.jpg 300w, https://baka.li/wp-content/uploads/2015/04/intel-atom-d510mo-1-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1440px) 100vw, 1440px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/intel-atom-d510mo-21.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3667&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/intel-atom-d510mo-21.jpg&#34; alt=&#34;intel-atom-d510mo-2&#34; width=&#34;1440&#34; height=&#34;960&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/intel-atom-d510mo-21.jpg 1440w, https://baka.li/wp-content/uploads/2015/04/intel-atom-d510mo-21-150x100.jpg 150w, https://baka.li/wp-content/uploads/2015/04/intel-atom-d510mo-21-300x200.jpg 300w, https://baka.li/wp-content/uploads/2015/04/intel-atom-d510mo-21-1024x683.jpg 1024w&#34; sizes=&#34;(max-width: 1440px) 100vw, 1440px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;升级后读取&amp;amp;写入速度得到巨大提升，稳定100MB/s左右。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3682&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-3.png&#34; alt=&#34;Intel-d510mo-3&#34; width=&#34;463&#34; height=&#34;302&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-3.png 463w, https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-3-150x98.png 150w, https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-3-300x196.png 300w&#34; sizes=&#34;(max-width: 463px) 100vw, 463px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-4.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3683&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-4.png&#34; alt=&#34;Intel-d510mo-4&#34; width=&#34;463&#34; height=&#34;302&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-4.png 463w, https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-4-150x98.png 150w, https://umi.im/wp-content/uploads/2015/04/Intel-d510mo-4-300x196.png 300w&#34; sizes=&#34;(max-width: 463px) 100vw, 463px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/Intel-d510mo-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3682&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/Intel-d510mo-3.png&#34; alt=&#34;Intel-d510mo-3&#34; width=&#34;463&#34; height=&#34;302&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/Intel-d510mo-3.png 463w, https://baka.li/wp-content/uploads/2015/04/Intel-d510mo-3-150x98.png 150w, https://baka.li/wp-content/uploads/2015/04/Intel-d510mo-3-300x196.png 300w&#34; sizes=&#34;(max-width: 463px) 100vw, 463px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/Intel-d510mo-4.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3683&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/Intel-d510mo-4.png&#34; alt=&#34;Intel-d510mo-4&#34; width=&#34;463&#34; height=&#34;302&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/Intel-d510mo-4.png 463w, https://baka.li/wp-content/uploads/2015/04/Intel-d510mo-4-150x98.png 150w, https://baka.li/wp-content/uploads/2015/04/Intel-d510mo-4-300x196.png 300w&#34; sizes=&#34;(max-width: 463px) 100vw, 463px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[divider type=”white|thin|thick|short|dotted|dashed” spacing=”10″]&lt;/p&gt;
 &lt;h2 id=&#34;iscsi&#34;&gt;&lt;a title=&#34;WIKI&#34; href=&#34;http://zh.wikipedia.org/wiki/ISCSI&#34; target=&#34;_blank&#34;&gt;iSCSI&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;游戏不能安装在NAS映射的网络驱动器上，这时候就需要用到“ISCSI”了，建立一个iSCSI分卷可以最大程度的模拟本地硬盘，也就可以安装运行各种游戏了。&lt;/p&gt;
 &lt;p&gt;打开DSM系统的“存储空间管理员”的“iSCSI LUN”项，点击“新增”，选择“iSCSI（一般文件）”，下一步。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3668&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-1.png&#34; alt=&#34;ISCSI-1&#34; width=&#34;963&#34; height=&#34;601&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-1.png 963w, https://umi.im/wp-content/uploads/2015/04/ISCSI-1-150x94.png 150w, https://umi.im/wp-content/uploads/2015/04/ISCSI-1-300x187.png 300w, https://umi.im/wp-content/uploads/2015/04/ISCSI-1-400x250.png 400w&#34; sizes=&#34;(max-width: 963px) 100vw, 963px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;设置容量，后期是可以修改的。&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3669&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-2.png&#34; alt=&#34;ISCSI-2&#34; width=&#34;962&#34; height=&#34;600&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-2.png 962w, https://umi.im/wp-content/uploads/2015/04/ISCSI-2-150x94.png 150w, https://umi.im/wp-content/uploads/2015/04/ISCSI-2-300x187.png 300w, https://umi.im/wp-content/uploads/2015/04/ISCSI-2-400x250.png 400w&#34; sizes=&#34;(max-width: 962px) 100vw, 962px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3670&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-3.png&#34; alt=&#34;ISCSI-3&#34; width=&#34;966&#34; height=&#34;603&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-3.png 966w, https://umi.im/wp-content/uploads/2015/04/ISCSI-3-150x94.png 150w, https://umi.im/wp-content/uploads/2015/04/ISCSI-3-300x187.png 300w, https://umi.im/wp-content/uploads/2015/04/ISCSI-3-400x250.png 400w&#34; sizes=&#34;(max-width: 966px) 100vw, 966px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-4.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3671&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-4.png&#34; alt=&#34;ISCSI-4&#34; width=&#34;966&#34; height=&#34;603&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-4.png 966w, https://umi.im/wp-content/uploads/2015/04/ISCSI-4-150x94.png 150w, https://umi.im/wp-content/uploads/2015/04/ISCSI-4-300x187.png 300w, https://umi.im/wp-content/uploads/2015/04/ISCSI-4-400x250.png 400w&#34; sizes=&#34;(max-width: 966px) 100vw, 966px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-5.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3672&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-5.png&#34; alt=&#34;ISCSI-5&#34; width=&#34;964&#34; height=&#34;602&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-5.png 964w, https://umi.im/wp-content/uploads/2015/04/ISCSI-5-150x94.png 150w, https://umi.im/wp-content/uploads/2015/04/ISCSI-5-300x187.png 300w, https://umi.im/wp-content/uploads/2015/04/ISCSI-5-400x250.png 400w&#34; sizes=&#34;(max-width: 964px) 100vw, 964px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3668&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-1.png&#34; alt=&#34;ISCSI-1&#34; width=&#34;963&#34; height=&#34;601&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-1.png 963w, https://baka.li/wp-content/uploads/2015/04/ISCSI-1-150x94.png 150w, https://baka.li/wp-content/uploads/2015/04/ISCSI-1-300x187.png 300w, https://baka.li/wp-content/uploads/2015/04/ISCSI-1-400x250.png 400w&#34; sizes=&#34;(max-width: 963px) 100vw, 963px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;设置容量，后期是可以修改的。&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3669&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-2.png&#34; alt=&#34;ISCSI-2&#34; width=&#34;962&#34; height=&#34;600&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-2.png 962w, https://baka.li/wp-content/uploads/2015/04/ISCSI-2-150x94.png 150w, https://baka.li/wp-content/uploads/2015/04/ISCSI-2-300x187.png 300w, https://baka.li/wp-content/uploads/2015/04/ISCSI-2-400x250.png 400w&#34; sizes=&#34;(max-width: 962px) 100vw, 962px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3670&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-3.png&#34; alt=&#34;ISCSI-3&#34; width=&#34;966&#34; height=&#34;603&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-3.png 966w, https://baka.li/wp-content/uploads/2015/04/ISCSI-3-150x94.png 150w, https://baka.li/wp-content/uploads/2015/04/ISCSI-3-300x187.png 300w, https://baka.li/wp-content/uploads/2015/04/ISCSI-3-400x250.png 400w&#34; sizes=&#34;(max-width: 966px) 100vw, 966px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-4.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3671&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-4.png&#34; alt=&#34;ISCSI-4&#34; width=&#34;966&#34; height=&#34;603&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-4.png 966w, https://baka.li/wp-content/uploads/2015/04/ISCSI-4-150x94.png 150w, https://baka.li/wp-content/uploads/2015/04/ISCSI-4-300x187.png 300w, https://baka.li/wp-content/uploads/2015/04/ISCSI-4-400x250.png 400w&#34; sizes=&#34;(max-width: 966px) 100vw, 966px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-5.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3672&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-5.png&#34; alt=&#34;ISCSI-5&#34; width=&#34;964&#34; height=&#34;602&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-5.png 964w, https://baka.li/wp-content/uploads/2015/04/ISCSI-5-150x94.png 150w, https://baka.li/wp-content/uploads/2015/04/ISCSI-5-300x187.png 300w, https://baka.li/wp-content/uploads/2015/04/ISCSI-5-400x250.png 400w&#34; sizes=&#34;(max-width: 964px) 100vw, 964px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;完成后打开“iSCSI发起程序”。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-6.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3673&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-6.png&#34; alt=&#34;ISCSI-6&#34; width=&#34;1049&#34; height=&#34;767&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-6.png 1049w, https://umi.im/wp-content/uploads/2015/04/ISCSI-6-150x110.png 150w, https://umi.im/wp-content/uploads/2015/04/ISCSI-6-300x219.png 300w, https://umi.im/wp-content/uploads/2015/04/ISCSI-6-1024x749.png 1024w&#34; sizes=&#34;(max-width: 1049px) 100vw, 1049px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-6.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3673&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-6.png&#34; alt=&#34;ISCSI-6&#34; width=&#34;1049&#34; height=&#34;767&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-6.png 1049w, https://baka.li/wp-content/uploads/2015/04/ISCSI-6-150x110.png 150w, https://baka.li/wp-content/uploads/2015/04/ISCSI-6-300x219.png 300w, https://baka.li/wp-content/uploads/2015/04/ISCSI-6-1024x749.png 1024w&#34; sizes=&#34;(max-width: 1049px) 100vw, 1049px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;点击“发现”项的“发现门户”。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-7.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3674&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-7.png&#34; alt=&#34;ISCSI-7&#34; width=&#34;497&#34; height=&#34;670&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-7.png 497w, https://umi.im/wp-content/uploads/2015/04/ISCSI-7-111x150.png 111w, https://umi.im/wp-content/uploads/2015/04/ISCSI-7-223x300.png 223w&#34; sizes=&#34;(max-width: 497px) 100vw, 497px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-7.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3674&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-7.png&#34; alt=&#34;ISCSI-7&#34; width=&#34;497&#34; height=&#34;670&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-7.png 497w, https://baka.li/wp-content/uploads/2015/04/ISCSI-7-111x150.png 111w, https://baka.li/wp-content/uploads/2015/04/ISCSI-7-223x300.png 223w&#34; sizes=&#34;(max-width: 497px) 100vw, 497px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;输入NAS的IP地址，端口默认。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-8.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3675&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-8.png&#34; alt=&#34;ISCSI-8&#34; width=&#34;497&#34; height=&#34;670&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-8.png 497w, https://umi.im/wp-content/uploads/2015/04/ISCSI-8-111x150.png 111w, https://umi.im/wp-content/uploads/2015/04/ISCSI-8-223x300.png 223w&#34; sizes=&#34;(max-width: 497px) 100vw, 497px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-8.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3675&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-8.png&#34; alt=&#34;ISCSI-8&#34; width=&#34;497&#34; height=&#34;670&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-8.png 497w, https://baka.li/wp-content/uploads/2015/04/ISCSI-8-111x150.png 111w, https://baka.li/wp-content/uploads/2015/04/ISCSI-8-223x300.png 223w&#34; sizes=&#34;(max-width: 497px) 100vw, 497px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;然后连接。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-9.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3676&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-9.png&#34; alt=&#34;ISCSI-9&#34; width=&#34;497&#34; height=&#34;670&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-9.png 497w, https://umi.im/wp-content/uploads/2015/04/ISCSI-9-111x150.png 111w, https://umi.im/wp-content/uploads/2015/04/ISCSI-9-223x300.png 223w&#34; sizes=&#34;(max-width: 497px) 100vw, 497px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;打开Windows的磁盘管理，初始化磁盘后建立分区就有了一个新的本地磁盘。&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-10.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3677&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-10.png&#34; alt=&#34;ISCSI-10&#34; width=&#34;640&#34; height=&#34;452&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/ISCSI-10.png 640w, https://umi.im/wp-content/uploads/2015/04/ISCSI-10-150x106.png 150w, https://umi.im/wp-content/uploads/2015/04/ISCSI-10-300x212.png 300w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/iSCSI-11.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3679&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/iSCSI-11.png&#34; alt=&#34;iSCSI-11&#34; width=&#34;1049&#34; height=&#34;800&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/iSCSI-11.png 1049w, https://umi.im/wp-content/uploads/2015/04/iSCSI-11-150x114.png 150w, https://umi.im/wp-content/uploads/2015/04/iSCSI-11-300x229.png 300w, https://umi.im/wp-content/uploads/2015/04/iSCSI-11-1024x781.png 1024w&#34; sizes=&#34;(max-width: 1049px) 100vw, 1049px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;大功告成，挂机下载GTA。&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/04/steam-gta5-download.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3680&#34; src=&#34;https://umi.im/wp-content/uploads/2015/04/steam-gta5-download.jpg&#34; alt=&#34;steam-gta5-download&#34; width=&#34;1920&#34; height=&#34;1080&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/04/steam-gta5-download.jpg 1920w, https://umi.im/wp-content/uploads/2015/04/steam-gta5-download-150x84.jpg 150w, https://umi.im/wp-content/uploads/2015/04/steam-gta5-download-300x169.jpg 300w, https://umi.im/wp-content/uploads/2015/04/steam-gta5-download-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1920px) 100vw, 1920px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-9.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3676&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-9.png&#34; alt=&#34;ISCSI-9&#34; width=&#34;497&#34; height=&#34;670&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-9.png 497w, https://baka.li/wp-content/uploads/2015/04/ISCSI-9-111x150.png 111w, https://baka.li/wp-content/uploads/2015/04/ISCSI-9-223x300.png 223w&#34; sizes=&#34;(max-width: 497px) 100vw, 497px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;打开Windows的磁盘管理，初始化磁盘后建立分区就有了一个新的本地磁盘。&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-10.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3677&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-10.png&#34; alt=&#34;ISCSI-10&#34; width=&#34;640&#34; height=&#34;452&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/ISCSI-10.png 640w, https://baka.li/wp-content/uploads/2015/04/ISCSI-10-150x106.png 150w, https://baka.li/wp-content/uploads/2015/04/ISCSI-10-300x212.png 300w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/iSCSI-11.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3679&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/iSCSI-11.png&#34; alt=&#34;iSCSI-11&#34; width=&#34;1049&#34; height=&#34;800&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/iSCSI-11.png 1049w, https://baka.li/wp-content/uploads/2015/04/iSCSI-11-150x114.png 150w, https://baka.li/wp-content/uploads/2015/04/iSCSI-11-300x229.png 300w, https://baka.li/wp-content/uploads/2015/04/iSCSI-11-1024x781.png 1024w&#34; sizes=&#34;(max-width: 1049px) 100vw, 1049px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;大功告成，挂机下载GTA。&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/04/steam-gta5-download.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3680&#34; src=&#34;https://baka.li/wp-content/uploads/2015/04/steam-gta5-download.jpg&#34; alt=&#34;steam-gta5-download&#34; width=&#34;1920&#34; height=&#34;1080&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/04/steam-gta5-download.jpg 1920w, https://baka.li/wp-content/uploads/2015/04/steam-gta5-download-150x84.jpg 150w, https://baka.li/wp-content/uploads/2015/04/steam-gta5-download-300x169.jpg 300w, https://baka.li/wp-content/uploads/2015/04/steam-gta5-download-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1920px) 100vw, 1920px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>XPEnoboot DSM 5.1-5022.2 黑群晖升级安装</title>
-        <link>https://umi.im/xpenoboot-dsm-5-1/</link>
+        <link>https://baka.li/xpenoboot-dsm-5-1/</link>
         <pubDate>Wed, 18 Feb 2015 16:42:18 +0000</pubDate>
         
-        <guid>https://umi.im/xpenoboot-dsm-5-1/</guid>
+        <guid>https://baka.li/xpenoboot-dsm-5-1/</guid>
         <description>&lt;p&gt;群晖的NAS系统DSM 5.1终于被破解了，由原来的Nanoboot开发者发布。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3505&#34; src=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1.png&#34; alt=&#34;xpenoboot-dsm-5-1&#34; width=&#34;841&#34; height=&#34;547&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1.png 841w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-150x98.png 150w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-300x195.png 300w&#34; sizes=&#34;(max-width: 841px) 100vw, 841px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3505&#34; src=&#34;https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1.png&#34; alt=&#34;xpenoboot-dsm-5-1&#34; width=&#34;841&#34; height=&#34;547&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1.png 841w, https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-150x98.png 150w, https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-300x195.png 300w&#34; sizes=&#34;(max-width: 841px) 100vw, 841px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;保留文件升级方法和DSM 4.2升级DSM 5.0一样，很简单，下载XPEnoboot的引导镜像（img格式）和群晖 DS3615xs的官方PAT安装文件。&lt;/p&gt;
 &lt;h2 id=&#34;xpenoboot-引导镜像-下载&#34;&gt;&lt;a href=&#34;http://nanoboot.eu.org/download&#34; target=&#34;_blank&#34;&gt;XPEnoboot 引导镜像 下载&lt;/a&gt;
 &lt;/h2&gt;&lt;h2 id=&#34;ds3615xs-安装文件-下载&#34;&gt;&lt;a href=&#34;https://www.synology.com/zh-cn/support/download/DS3615xs&#34; target=&#34;_blank&#34;&gt;DS3615xs 安装文件 下载&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;用Win32 Disk Imager把XPEnoboot的引导镜像写入U盘。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3506&#34; src=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2.png&#34; alt=&#34;xpenoboot-dsm-5-1-2&#34; width=&#34;421&#34; height=&#34;214&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2.png 421w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2-150x76.png 150w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2-300x152.png 300w&#34; sizes=&#34;(max-width: 421px) 100vw, 421px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3506&#34; src=&#34;https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2.png&#34; alt=&#34;xpenoboot-dsm-5-1-2&#34; width=&#34;421&#34; height=&#34;214&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2.png 421w, https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2-150x76.png 150w, https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-2-300x152.png 300w&#34; sizes=&#34;(max-width: 421px) 100vw, 421px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;然后BIOS设置U盘启动，选择 DSM 5.1(install/upgrade) ，然后在浏览器打开DSM的Web页面，或者用群晖助手辅助，&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3507&#34; src=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-3.png&#34; alt=&#34;xpenoboot-dsm-5-1-3&#34; width=&#34;1363&#34; height=&#34;936&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-3.png 1363w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-3-150x103.png 150w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-3-300x206.png 300w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-3-1024x703.png 1024w&#34; sizes=&#34;(max-width: 1363px) 100vw, 1363px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;选择刚才下载的DS3615xs 安装文件。&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-4.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3508&#34; src=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-4.png&#34; alt=&#34;xpenoboot-dsm-5-1-4&#34; width=&#34;1363&#34; height=&#34;936&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-4.png 1363w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-4-150x103.png 150w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-4-300x206.png 300w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-4-1024x703.png 1024w&#34; sizes=&#34;(max-width: 1363px) 100vw, 1363px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-5.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3509&#34; src=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-5.png&#34; alt=&#34;xpenoboot-dsm-5-1-5&#34; width=&#34;1363&#34; height=&#34;936&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-5.png 1363w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-5-150x103.png 150w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-5-300x206.png 300w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-5-1024x703.png 1024w&#34; sizes=&#34;(max-width: 1363px) 100vw, 1363px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-6.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3510&#34; src=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-6.png&#34; alt=&#34;xpenoboot-dsm-5-1-6&#34; width=&#34;1363&#34; height=&#34;936&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-6.png 1363w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-6-150x103.png 150w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-6-300x206.png 300w, https://umi.im/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-6-1024x703.png 1024w&#34; sizes=&#34;(max-width: 1363px) 100vw, 1363px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3507&#34; src=&#34;https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-3.png&#34; alt=&#34;xpenoboot-dsm-5-1-3&#34; width=&#34;1363&#34; height=&#34;936&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-3.png 1363w, https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-3-150x103.png 150w, https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-3-300x206.png 300w, https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-3-1024x703.png 1024w&#34; sizes=&#34;(max-width: 1363px) 100vw, 1363px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;选择刚才下载的DS3615xs 安装文件。&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-4.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3508&#34; src=&#34;https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-4.png&#34; alt=&#34;xpenoboot-dsm-5-1-4&#34; width=&#34;1363&#34; height=&#34;936&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-4.png 1363w, https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-4-150x103.png 150w, https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-4-300x206.png 300w, https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-4-1024x703.png 1024w&#34; sizes=&#34;(max-width: 1363px) 100vw, 1363px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-5.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3509&#34; src=&#34;https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-5.png&#34; alt=&#34;xpenoboot-dsm-5-1-5&#34; width=&#34;1363&#34; height=&#34;936&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-5.png 1363w, https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-5-150x103.png 150w, https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-5-300x206.png 300w, https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-5-1024x703.png 1024w&#34; sizes=&#34;(max-width: 1363px) 100vw, 1363px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-6.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3510&#34; src=&#34;https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-6.png&#34; alt=&#34;xpenoboot-dsm-5-1-6&#34; width=&#34;1363&#34; height=&#34;936&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-6.png 1363w, https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-6-150x103.png 150w, https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-6-300x206.png 300w, https://baka.li/wp-content/uploads/2015/02/xpenoboot-dsm-5-1-6-1024x703.png 1024w&#34; sizes=&#34;(max-width: 1363px) 100vw, 1363px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;安装完成自动重启，然后就OK了。&lt;/p&gt;
 &lt;p&gt;相对于DSM 4.2到DSM 5.0，DSM 5.1只能算是很小的更新。&lt;/p&gt;
 &lt;p&gt;主要多了Note Station功能，一个私有云笔记，和Evernote相比没什么优势，甚至可能还没有Evernote安全。&lt;/p&gt;
@@ -706,10 +706,10 @@ location / {
         </item>
         <item>
         <title>炒土豆丝の黑群晖 NAS</title>
-        <link>https://umi.im/nas-synology/</link>
+        <link>https://baka.li/nas-synology/</link>
         <pubDate>Wed, 12 Nov 2014 12:13:20 +0000</pubDate>
         
-        <guid>https://umi.im/nas-synology/</guid>
+        <guid>https://baka.li/nas-synology/</guid>
         <description>&lt;p&gt;10月的时候就打算买一台群晖的NAS了，结果被人忽悠去买iPad了。这个月又有双十一…没钱了，没办法了不能再拖了只好装一台黑群晖了。&lt;/p&gt;
 &lt;p&gt;之前在SMZDM（色魔张大妈）看到这两篇这样的文章：&lt;/p&gt;
 &lt;h2 id=&#34;500元-nas-黑群晖-配置完成不含硬盘nas能做什么&#34;&gt;&lt;a title=&#34;跳转&#34; href=&#34;http://show.smzdm.com/detail/43425&#34; target=&#34;_blank&#34;&gt;500元 NAS 黑群晖 配置完成（不含硬盘），NAS能做什么？&lt;/a&gt;
@@ -717,52 +717,52 @@ location / {
 &lt;/h2&gt;&lt;p&gt;正好机箱、电源我都有了，可以更低价搞一个。&lt;/p&gt;
 &lt;p&gt;于是，买了富士康的嵌入式CPU的ITX板子（Intel Atom D410、130块），1GB DDR2内存（10块），一张螃蟹千兆网卡（10块），一个U盘（15块），加上已有的电源和机箱，花了183块就搞定了一台黑群晖，配件虽然都是拆机的古董，但是性能比1500块DS213J强。&lt;/p&gt;
 &lt;p&gt;到手后我才想起来，这货只有两个SATA啊！嘛，算了，正好阻止了以后买硬盘。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/FOX-ATOM-D410-MB.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3223&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/FOX-ATOM-D410-MB.jpg&#34; alt=&#34;FOX-ATOM-D410-MB&#34; width=&#34;850&#34; height=&#34;960&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/FOX-ATOM-D410-MB.jpg 850w, https://umi.im/wp-content/uploads/2014/11/FOX-ATOM-D410-MB-132x150.jpg 132w, https://umi.im/wp-content/uploads/2014/11/FOX-ATOM-D410-MB-265x300.jpg 265w&#34; sizes=&#34;(max-width: 850px) 100vw, 850px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/11/FOX-ATOM-D410-MB.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3223&#34; src=&#34;https://baka.li/wp-content/uploads/2014/11/FOX-ATOM-D410-MB.jpg&#34; alt=&#34;FOX-ATOM-D410-MB&#34; width=&#34;850&#34; height=&#34;960&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/11/FOX-ATOM-D410-MB.jpg 850w, https://baka.li/wp-content/uploads/2014/11/FOX-ATOM-D410-MB-132x150.jpg 132w, https://baka.li/wp-content/uploads/2014/11/FOX-ATOM-D410-MB-265x300.jpg 265w&#34; sizes=&#34;(max-width: 850px) 100vw, 850px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;问别人借的两个蓝盘备份数据，因为群晖的DSM系统使用linux的ext4文件系统，所以安装DSM后需要格式化磁盘。&lt;/p&gt;
 &lt;p&gt;最后只备份了不到200GB数据就急忙装上了…&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/WD-BULE-X2.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3225&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/WD-BULE-X2.jpg&#34; alt=&#34;WD-BULE-X2&#34; width=&#34;1280&#34; height=&#34;956&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/WD-BULE-X2.jpg 1280w, https://umi.im/wp-content/uploads/2014/11/WD-BULE-X2-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/11/WD-BULE-X2-300x224.jpg 300w, https://umi.im/wp-content/uploads/2014/11/WD-BULE-X2-1024x764.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/11/WD-BULE-X2.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3225&#34; src=&#34;https://baka.li/wp-content/uploads/2014/11/WD-BULE-X2.jpg&#34; alt=&#34;WD-BULE-X2&#34; width=&#34;1280&#34; height=&#34;956&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/11/WD-BULE-X2.jpg 1280w, https://baka.li/wp-content/uploads/2014/11/WD-BULE-X2-150x112.jpg 150w, https://baka.li/wp-content/uploads/2014/11/WD-BULE-X2-300x224.jpg 300w, https://baka.li/wp-content/uploads/2014/11/WD-BULE-X2-1024x764.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;装好后直接启动，到这里的时候去PC端安装DSM系统。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-BOOT.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3226&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-BOOT.jpg&#34; alt=&#34;DSM-BOOT&#34; width=&#34;1280&#34; height=&#34;956&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-BOOT.jpg 1280w, https://umi.im/wp-content/uploads/2014/11/DSM-BOOT-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/11/DSM-BOOT-300x224.jpg 300w, https://umi.im/wp-content/uploads/2014/11/DSM-BOOT-1024x764.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-BOOT.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3226&#34; src=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-BOOT.jpg&#34; alt=&#34;DSM-BOOT&#34; width=&#34;1280&#34; height=&#34;956&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-BOOT.jpg 1280w, https://baka.li/wp-content/uploads/2014/11/DSM-BOOT-150x112.jpg 150w, https://baka.li/wp-content/uploads/2014/11/DSM-BOOT-300x224.jpg 300w, https://baka.li/wp-content/uploads/2014/11/DSM-BOOT-1024x764.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;使用Synology Assistant找到局域网的黑群晖来安装DSM系统，DSM系统是需要通过pat后辍名的文件安装，可以通过官网下载到。&lt;/p&gt;
 &lt;h2 id=&#34;index-of-ftpdsm504493&#34;&gt;&lt;a title=&#34;FTP下载&#34; href=&#34;http://ukdl.synology.com/ftp/DSM/5.0/4493/&#34; target=&#34;_blank&#34;&gt;Index of /ftp/DSM/5.0/4493&lt;/a&gt;
-&lt;/h2&gt;&lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3227&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-1.png&#34; alt=&#34;DSM-1&#34; width=&#34;696&#34; height=&#34;608&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-1.png 696w, https://umi.im/wp-content/uploads/2014/11/DSM-1-150x131.png 150w, https://umi.im/wp-content/uploads/2014/11/DSM-1-300x262.png 300w&#34; sizes=&#34;(max-width: 696px) 100vw, 696px&#34; /&gt;&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3227&#34; src=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-1.png&#34; alt=&#34;DSM-1&#34; width=&#34;696&#34; height=&#34;608&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-1.png 696w, https://baka.li/wp-content/uploads/2014/11/DSM-1-150x131.png 150w, https://baka.li/wp-content/uploads/2014/11/DSM-1-300x262.png 300w&#34; sizes=&#34;(max-width: 696px) 100vw, 696px&#34; /&gt;&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;中间再设置NAS名称、密码等。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3228&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-2.png&#34; alt=&#34;DSM-2&#34; width=&#34;802&#34; height=&#34;632&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-2.png 802w, https://umi.im/wp-content/uploads/2014/11/DSM-2-150x118.png 150w, https://umi.im/wp-content/uploads/2014/11/DSM-2-300x236.png 300w&#34; sizes=&#34;(max-width: 802px) 100vw, 802px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3228&#34; src=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-2.png&#34; alt=&#34;DSM-2&#34; width=&#34;802&#34; height=&#34;632&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-2.png 802w, https://baka.li/wp-content/uploads/2014/11/DSM-2-150x118.png 150w, https://baka.li/wp-content/uploads/2014/11/DSM-2-300x236.png 300w&#34; sizes=&#34;(max-width: 802px) 100vw, 802px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;很快就装好了，然后通过浏览器登陆。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-3.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3229&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-3.jpg&#34; alt=&#34;DSM-3&#34; width=&#34;483&#34; height=&#34;426&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-3.jpg 483w, https://umi.im/wp-content/uploads/2014/11/DSM-3-150x132.jpg 150w, https://umi.im/wp-content/uploads/2014/11/DSM-3-300x264.jpg 300w&#34; sizes=&#34;(max-width: 483px) 100vw, 483px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-3.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3229&#34; src=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-3.jpg&#34; alt=&#34;DSM-3&#34; width=&#34;483&#34; height=&#34;426&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-3.jpg 483w, https://baka.li/wp-content/uploads/2014/11/DSM-3-150x132.jpg 150w, https://baka.li/wp-content/uploads/2014/11/DSM-3-300x264.jpg 300w&#34; sizes=&#34;(max-width: 483px) 100vw, 483px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;DSM系统很像Windows 7，窗口预览、多任务切换、桌面小工具什么的。&lt;/p&gt;
 &lt;p&gt;设置什么的就不写了，网上教程很多。&lt;/p&gt;
 &lt;p&gt;安装套件能实现各种功能。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-4.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3230&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-4.jpg&#34; alt=&#34;DSM-4&#34; width=&#34;1280&#34; height=&#34;702&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-4.jpg 1280w, https://umi.im/wp-content/uploads/2014/11/DSM-4-150x82.jpg 150w, https://umi.im/wp-content/uploads/2014/11/DSM-4-300x164.jpg 300w, https://umi.im/wp-content/uploads/2014/11/DSM-4-1024x561.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-4.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3230&#34; src=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-4.jpg&#34; alt=&#34;DSM-4&#34; width=&#34;1280&#34; height=&#34;702&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-4.jpg 1280w, https://baka.li/wp-content/uploads/2014/11/DSM-4-150x82.jpg 150w, https://baka.li/wp-content/uploads/2014/11/DSM-4-300x164.jpg 300w, https://baka.li/wp-content/uploads/2014/11/DSM-4-1024x561.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;因为是黑群晖的原因，型号被识别位DS3612xs，CPU…i3…&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-6.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3232&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-6.png&#34; alt=&#34;DSM-6&#34; width=&#34;995&#34; height=&#34;571&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-6.png 995w, https://umi.im/wp-content/uploads/2014/11/DSM-6-150x86.png 150w, https://umi.im/wp-content/uploads/2014/11/DSM-6-300x172.png 300w&#34; sizes=&#34;(max-width: 995px) 100vw, 995px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-6.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3232&#34; src=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-6.png&#34; alt=&#34;DSM-6&#34; width=&#34;995&#34; height=&#34;571&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-6.png 995w, https://baka.li/wp-content/uploads/2014/11/DSM-6-150x86.png 150w, https://baka.li/wp-content/uploads/2014/11/DSM-6-300x172.png 300w&#34; sizes=&#34;(max-width: 995px) 100vw, 995px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;拷贝速度，最多只有64MB/s，不知道什么原因，网卡、网线、路由都是千兆的。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-5.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3231&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-5.png&#34; alt=&#34;DSM-5&#34; width=&#34;452&#34; height=&#34;307&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-5.png 452w, https://umi.im/wp-content/uploads/2014/11/DSM-5-150x101.png 150w, https://umi.im/wp-content/uploads/2014/11/DSM-5-300x203.png 300w&#34; sizes=&#34;(max-width: 452px) 100vw, 452px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-5.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3231&#34; src=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-5.png&#34; alt=&#34;DSM-5&#34; width=&#34;452&#34; height=&#34;307&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-5.png 452w, https://baka.li/wp-content/uploads/2014/11/DSM-5-150x101.png 150w, https://baka.li/wp-content/uploads/2014/11/DSM-5-300x203.png 300w&#34; sizes=&#34;(max-width: 452px) 100vw, 452px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下载管理，支持迅雷离线，百度云的内容也可以下载，不过要先提取正确的链接。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-DOWNLOAD.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3236&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-DOWNLOAD.png&#34; alt=&#34;DSM-DOWNLOAD&#34; width=&#34;982&#34; height=&#34;582&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-DOWNLOAD.png 982w, https://umi.im/wp-content/uploads/2014/11/DSM-DOWNLOAD-150x88.png 150w, https://umi.im/wp-content/uploads/2014/11/DSM-DOWNLOAD-300x177.png 300w&#34; sizes=&#34;(max-width: 982px) 100vw, 982px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-DOWNLOAD.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3236&#34; src=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-DOWNLOAD.png&#34; alt=&#34;DSM-DOWNLOAD&#34; width=&#34;982&#34; height=&#34;582&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-DOWNLOAD.png 982w, https://baka.li/wp-content/uploads/2014/11/DSM-DOWNLOAD-150x88.png 150w, https://baka.li/wp-content/uploads/2014/11/DSM-DOWNLOAD-300x177.png 300w&#34; sizes=&#34;(max-width: 982px) 100vw, 982px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;磁盘映射。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-7.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3240&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-7.png&#34; alt=&#34;DSM-7&#34; width=&#34;827&#34; height=&#34;288&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-7.png 827w, https://umi.im/wp-content/uploads/2014/11/DSM-7-150x52.png 150w, https://umi.im/wp-content/uploads/2014/11/DSM-7-300x104.png 300w&#34; sizes=&#34;(max-width: 827px) 100vw, 827px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-7.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3240&#34; src=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-7.png&#34; alt=&#34;DSM-7&#34; width=&#34;827&#34; height=&#34;288&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-7.png 827w, https://baka.li/wp-content/uploads/2014/11/DSM-7-150x52.png 150w, https://baka.li/wp-content/uploads/2014/11/DSM-7-300x104.png 300w&#34; sizes=&#34;(max-width: 827px) 100vw, 827px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Android的DS File文件管理APP，遵循Android Design规范，业界良心。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-FILE-APP.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3233&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-FILE-APP.png&#34; alt=&#34;DSM-FILE-APP&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-FILE-APP.png 768w, https://umi.im/wp-content/uploads/2014/11/DSM-FILE-APP-90x150.png 90w, https://umi.im/wp-content/uploads/2014/11/DSM-FILE-APP-180x300.png 180w, https://umi.im/wp-content/uploads/2014/11/DSM-FILE-APP-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-FILE-APP.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3233&#34; src=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-FILE-APP.png&#34; alt=&#34;DSM-FILE-APP&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-FILE-APP.png 768w, https://baka.li/wp-content/uploads/2014/11/DSM-FILE-APP-90x150.png 90w, https://baka.li/wp-content/uploads/2014/11/DSM-FILE-APP-180x300.png 180w, https://baka.li/wp-content/uploads/2014/11/DSM-FILE-APP-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;iOS的DS Photo+相册APP，再iOS中截图完成后通过这个APP上传图片然后在PC的资源管理器中打开路径上传到此篇文章上，方便。&lt;/p&gt;
 &lt;p&gt;打算把各种同人志漫画资源也扔到相册目录然后通过DS Photo+看，节省iPad的存储空间。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-PHOTO-.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3241&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-PHOTO-.jpg&#34; alt=&#34;DSM-PHOTO+&#34; width=&#34;1280&#34; height=&#34;960&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-PHOTO-.jpg 1280w, https://umi.im/wp-content/uploads/2014/11/DSM-PHOTO--150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/11/DSM-PHOTO--300x225.jpg 300w, https://umi.im/wp-content/uploads/2014/11/DSM-PHOTO--1024x768.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-PHOTO-.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3241&#34; src=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-PHOTO-.jpg&#34; alt=&#34;DSM-PHOTO+&#34; width=&#34;1280&#34; height=&#34;960&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-PHOTO-.jpg 1280w, https://baka.li/wp-content/uploads/2014/11/DSM-PHOTO--150x112.jpg 150w, https://baka.li/wp-content/uploads/2014/11/DSM-PHOTO--300x225.jpg 300w, https://baka.li/wp-content/uploads/2014/11/DSM-PHOTO--1024x768.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;通过小米盒子访问。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-8.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3242&#34; src=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-8.jpg&#34; alt=&#34;DSM-8&#34; width=&#34;1280&#34; height=&#34;956&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/11/DSM-8.jpg 1280w, https://umi.im/wp-content/uploads/2014/11/DSM-8-150x112.jpg 150w, https://umi.im/wp-content/uploads/2014/11/DSM-8-300x224.jpg 300w, https://umi.im/wp-content/uploads/2014/11/DSM-8-1024x764.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-8.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3242&#34; src=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-8.jpg&#34; alt=&#34;DSM-8&#34; width=&#34;1280&#34; height=&#34;956&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/11/DSM-8.jpg 1280w, https://baka.li/wp-content/uploads/2014/11/DSM-8-150x112.jpg 150w, https://baka.li/wp-content/uploads/2014/11/DSM-8-300x224.jpg 300w, https://baka.li/wp-content/uploads/2014/11/DSM-8-1024x764.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;还有好多功能没玩，累死了，不能再写了。&lt;/p&gt;
 &lt;p&gt;电源声音有点吵，打算以后换个DC电源和1U机箱。&lt;/p&gt;
 &lt;p&gt;参考资料：&lt;/p&gt;
@@ -774,28 +774,28 @@ location / {
         </item>
         <item>
         <title>想买的东西</title>
-        <link>https://umi.im/2014-06-13/</link>
+        <link>https://baka.li/2014-06-13/</link>
         <pubDate>Thu, 12 Jun 2014 21:54:45 +0000</pubDate>
         
-        <guid>https://umi.im/2014-06-13/</guid>
+        <guid>https://baka.li/2014-06-13/</guid>
         <description>&lt;p&gt;&lt;a title=&#34;JD&#34; href=&#34;http://item.jd.com/1007095.html&#34; target=&#34;_blank&#34;&gt;NAS&lt;/a&gt; + &lt;a title=&#34;JD&#34; href=&#34;http://item.jd.com/933212.html&#34; target=&#34;_blank&#34;&gt;路由器&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/06/2014-06-13-NAS.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2494&#34; src=&#34;https://umi.im/wp-content/uploads/2014/06/2014-06-13-NAS.jpg&#34; alt=&#34;2014-06-13-NAS&#34; width=&#34;600&#34; height=&#34;539&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/06/2014-06-13-NAS.jpg 600w, https://umi.im/wp-content/uploads/2014/06/2014-06-13-NAS-150x134.jpg 150w, https://umi.im/wp-content/uploads/2014/06/2014-06-13-NAS-300x269.jpg 300w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/06/2014-06-13-R6300.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2495&#34; src=&#34;https://umi.im/wp-content/uploads/2014/06/2014-06-13-R6300.jpg&#34; alt=&#34;2014-06-13-R6300&#34; width=&#34;600&#34; height=&#34;398&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/06/2014-06-13-R6300.jpg 600w, https://umi.im/wp-content/uploads/2014/06/2014-06-13-R6300-150x99.jpg 150w, https://umi.im/wp-content/uploads/2014/06/2014-06-13-R6300-300x199.jpg 300w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/06/2014-06-13-NAS.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2494&#34; src=&#34;https://baka.li/wp-content/uploads/2014/06/2014-06-13-NAS.jpg&#34; alt=&#34;2014-06-13-NAS&#34; width=&#34;600&#34; height=&#34;539&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/06/2014-06-13-NAS.jpg 600w, https://baka.li/wp-content/uploads/2014/06/2014-06-13-NAS-150x134.jpg 150w, https://baka.li/wp-content/uploads/2014/06/2014-06-13-NAS-300x269.jpg 300w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/06/2014-06-13-R6300.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2495&#34; src=&#34;https://baka.li/wp-content/uploads/2014/06/2014-06-13-R6300.jpg&#34; alt=&#34;2014-06-13-R6300&#34; width=&#34;600&#34; height=&#34;398&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/06/2014-06-13-R6300.jpg 600w, https://baka.li/wp-content/uploads/2014/06/2014-06-13-R6300-150x99.jpg 150w, https://baka.li/wp-content/uploads/2014/06/2014-06-13-R6300-300x199.jpg 300w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;JD&#34; href=&#34;http://item.jd.com/932289.html&#34; target=&#34;_blank&#34;&gt;机箱&lt;/a&gt; + &lt;a title=&#34;JD&#34; href=&#34;http://item.jd.com/958058.html&#34; target=&#34;_blank&#34;&gt;SSD&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/06/jonsbo-u2.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2496&#34; src=&#34;https://umi.im/wp-content/uploads/2014/06/jonsbo-u2.jpg&#34; alt=&#34;jonsbo-u2&#34; width=&#34;600&#34; height=&#34;489&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/06/jonsbo-u2.jpg 600w, https://umi.im/wp-content/uploads/2014/06/jonsbo-u2-150x122.jpg 150w, https://umi.im/wp-content/uploads/2014/06/jonsbo-u2-300x244.jpg 300w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/06/samsung-ssd-840-evo.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2497&#34; src=&#34;https://umi.im/wp-content/uploads/2014/06/samsung-ssd-840-evo.jpg&#34; alt=&#34;samsung-ssd-840-evo&#34; width=&#34;620&#34; height=&#34;340&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/06/samsung-ssd-840-evo.jpg 620w, https://umi.im/wp-content/uploads/2014/06/samsung-ssd-840-evo-150x82.jpg 150w, https://umi.im/wp-content/uploads/2014/06/samsung-ssd-840-evo-300x164.jpg 300w&#34; sizes=&#34;(max-width: 620px) 100vw, 620px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/06/jonsbo-u2.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2496&#34; src=&#34;https://baka.li/wp-content/uploads/2014/06/jonsbo-u2.jpg&#34; alt=&#34;jonsbo-u2&#34; width=&#34;600&#34; height=&#34;489&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/06/jonsbo-u2.jpg 600w, https://baka.li/wp-content/uploads/2014/06/jonsbo-u2-150x122.jpg 150w, https://baka.li/wp-content/uploads/2014/06/jonsbo-u2-300x244.jpg 300w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/06/samsung-ssd-840-evo.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2497&#34; src=&#34;https://baka.li/wp-content/uploads/2014/06/samsung-ssd-840-evo.jpg&#34; alt=&#34;samsung-ssd-840-evo&#34; width=&#34;620&#34; height=&#34;340&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/06/samsung-ssd-840-evo.jpg 620w, https://baka.li/wp-content/uploads/2014/06/samsung-ssd-840-evo-150x82.jpg 150w, https://baka.li/wp-content/uploads/2014/06/samsung-ssd-840-evo-300x164.jpg 300w&#34; sizes=&#34;(max-width: 620px) 100vw, 620px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;淘宝&#34; href=&#34;http://item.taobao.com/item.htm?spm=a1z0k.6846101.1130973605.d4915205.TL1p4G&amp;id=36132347234&amp;_u=d1pv401q732e&#34; target=&#34;_blank&#34;&gt;PS4&lt;/a&gt; + GTA5&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/06/PlayStation-4-623-80.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2498&#34; src=&#34;https://umi.im/wp-content/uploads/2014/06/PlayStation-4-623-80.png&#34; alt=&#34;PlayStation 4-623-80&#34; width=&#34;623&#34; height=&#34;350&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/06/PlayStation-4-623-80.png 623w, https://umi.im/wp-content/uploads/2014/06/PlayStation-4-623-80-150x84.png 150w, https://umi.im/wp-content/uploads/2014/06/PlayStation-4-623-80-300x168.png 300w&#34; sizes=&#34;(max-width: 623px) 100vw, 623px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/06/2014-06-13-gta5.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2499&#34; src=&#34;https://umi.im/wp-content/uploads/2014/06/2014-06-13-gta5.jpg&#34; alt=&#34;2014-06-13-gta5&#34; width=&#34;600&#34; height=&#34;300&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/06/2014-06-13-gta5.jpg 600w, https://umi.im/wp-content/uploads/2014/06/2014-06-13-gta5-150x75.jpg 150w, https://umi.im/wp-content/uploads/2014/06/2014-06-13-gta5-300x150.jpg 300w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/06/PlayStation-4-623-80.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2498&#34; src=&#34;https://baka.li/wp-content/uploads/2014/06/PlayStation-4-623-80.png&#34; alt=&#34;PlayStation 4-623-80&#34; width=&#34;623&#34; height=&#34;350&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/06/PlayStation-4-623-80.png 623w, https://baka.li/wp-content/uploads/2014/06/PlayStation-4-623-80-150x84.png 150w, https://baka.li/wp-content/uploads/2014/06/PlayStation-4-623-80-300x168.png 300w&#34; sizes=&#34;(max-width: 623px) 100vw, 623px&#34; /&gt;&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/06/2014-06-13-gta5.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2499&#34; src=&#34;https://baka.li/wp-content/uploads/2014/06/2014-06-13-gta5.jpg&#34; alt=&#34;2014-06-13-gta5&#34; width=&#34;600&#34; height=&#34;300&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/06/2014-06-13-gta5.jpg 600w, https://baka.li/wp-content/uploads/2014/06/2014-06-13-gta5-150x75.jpg 150w, https://baka.li/wp-content/uploads/2014/06/2014-06-13-gta5-300x150.jpg 300w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;感觉很有必要买台NAS。&lt;/p&gt;
 &lt;p&gt;[blockquote source=”炒土豆丝”]&lt;/p&gt;
 &lt;p&gt;应用场景①：&lt;/p&gt;
 &lt;p&gt;在外（或者在床上不想开电脑）按手机，朋友突然M&lt;del&gt;我&lt;/del&gt;说找不到部好片，种子发来，马上用群晖的&lt;a title=&#34;Google Play&#34; href=&#34;https://play.google.com/store/apps/details?id=com.synology.DSdownload&#34; target=&#34;_blank&#34;&gt;DS download&lt;/a&gt;远程离线下载，这样回到家就可以马上打开电视看新鲜的片子了。&lt;/p&gt;
 &lt;p&gt;应用场景②：&lt;/p&gt;
-&lt;p&gt;硬盘上&lt;a href=&#34;https://umi.im/tudou-moe-image/&#34; target=&#34;_blank&#34;&gt;很多图片&lt;/a&gt;，有时候想去找几张图片当手机的壁纸什么的，就可以用&lt;a title=&#34;Google Play&#34; href=&#34;https://play.google.com/store/apps/details?id=com.synology.dsphoto&#34; target=&#34;_blank&#34;&gt;DS photo+&lt;/a&gt;去找图片，听歌看视频什么的当然也没问题。&lt;/blockquote&gt;&lt;/p&gt;
+&lt;p&gt;硬盘上&lt;a href=&#34;https://baka.li/tudou-moe-image/&#34; target=&#34;_blank&#34;&gt;很多图片&lt;/a&gt;，有时候想去找几张图片当手机的壁纸什么的，就可以用&lt;a title=&#34;Google Play&#34; href=&#34;https://play.google.com/store/apps/details?id=com.synology.dsphoto&#34; target=&#34;_blank&#34;&gt;DS photo+&lt;/a&gt;去找图片，听歌看视频什么的当然也没问题。&lt;/blockquote&gt;&lt;/p&gt;
 </description>
         </item>
         

@@ -4,11 +4,11 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="原来有一台部署在群晖 Virtual Machine Manager (VMM) 平台的 DNF 私服 游戏服务器，它运行的是 CentOS 5.9 系统，以前是从 VMware 迁移过去的，由于没有再玩 DNF 了就吃灰很久了。\n最近升级了 DX4600 NAS 后想着也把它也迁移到 UNRAID 上，水平太菜一路上踩了不少坑，简单记录过程…\n">
 <title>群晖 VMM 虚拟机迁移到 UNRAID 平台</title>
 
-<link rel='canonical' href='https://umi.im/synology-vmm-to-unraid/'>
+<link rel='canonical' href='https://baka.li/synology-vmm-to-unraid/'>
 
 <link rel="stylesheet" href="/scss/style.min.7c6fc62023c4a6953fbe601dd92a600ca1efde85fae06f72201f35c5ad119913.css"><meta property='og:title' content="群晖 VMM 虚拟机迁移到 UNRAID 平台">
 <meta property='og:description' content="原来有一台部署在群晖 Virtual Machine Manager (VMM) 平台的 DNF 私服 游戏服务器，它运行的是 CentOS 5.9 系统，以前是从 VMware 迁移过去的，由于没有再玩 DNF 了就吃灰很久了。\n最近升级了 DX4600 NAS 后想着也把它也迁移到 UNRAID 上，水平太菜一路上踩了不少坑，简单记录过程…\n">
-<meta property='og:url' content='https://umi.im/synology-vmm-to-unraid/'>
+<meta property='og:url' content='https://baka.li/synology-vmm-to-unraid/'>
 <meta property='og:site_name' content='笨蛋屋'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='NAS' /><meta property='article:published_time' content='2023-06-08T17:32:55&#43;00:00'/><meta property='article:modified_time' content='2023-06-08T17:32:55&#43;00:00'/>
 <meta name="twitter:title" content="群晖 VMM 虚拟机迁移到 UNRAID 平台">
@@ -401,12 +401,12 @@
     <section class="article-content">
     
     
-    <p>原来有一台部署在群晖 Virtual Machine Manager (VMM) 平台的 <a href="https://umi.im/dnf-server/" target="_blank" rel="noreferrer noopener">DNF 私服</a> 游戏服务器，它运行的是 CentOS 5.9 系统，以前是从 VMware 迁移过去的，由于没有再玩 DNF 了就吃灰很久了。</p>
-<p>最近升级了 <a href="https://umi.im/dx4600-unraid/" target="_blank" rel="noreferrer noopener">DX4600 NAS</a> 后想着也把它也迁移到 UNRAID 上，水平太菜一路上踩了不少坑，简单记录过程…</p>
+    <p>原来有一台部署在群晖 Virtual Machine Manager (VMM) 平台的 <a href="https://baka.li/dnf-server/" target="_blank" rel="noreferrer noopener">DNF 私服</a> 游戏服务器，它运行的是 CentOS 5.9 系统，以前是从 VMware 迁移过去的，由于没有再玩 DNF 了就吃灰很久了。</p>
+<p>最近升级了 <a href="https://baka.li/dx4600-unraid/" target="_blank" rel="noreferrer noopener">DX4600 NAS</a> 后想着也把它也迁移到 UNRAID 上，水平太菜一路上踩了不少坑，简单记录过程…</p>
 <h2 id="导出-vmm-虚拟机">导出 VMM 虚拟机
 </h2><p>直接导出为常规 OVA 就行了。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2023/06/synology-vmm-export.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" width="1074" height="669" src="https://umi.im/wp-content/uploads/2023/06/synology-vmm-export.png" alt="" class="wp-image-6643" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2023/06/synology-vmm-export.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1074" height="669" src="https://baka.li/wp-content/uploads/2023/06/synology-vmm-export.png" alt="" class="wp-image-6643" /></a></p>
 <h2 id="转换镜像格式">转换镜像格式
 </h2><p>把导出的 OVA 镜像拷贝到 UNRAID 上，进入 UNRAID 系统的终端，先用 tar xvf 命令解包，再把得到 vmdk 镜像转换为 qcow2 镜像。</p>
 <pre class="wp-block-code"><code>tar xvf dnf.ova
@@ -416,12 +416,12 @@ qemu-img convert -f vmdk -O qcow2 dnf-disk1.vmdk dnf.qcow2</code></pre>
 </h2><p>因为是很老的系统，所以机器选择 i440fx ，BIOS 选择 SeaBIOS 。</p>
 <p>主要虚拟磁盘位置，设置为手动，路径填转换好的 qcow2 镜像的路径。</p>
 <p>虚拟磁盘总线照 ovf 配置文件填的 SATA ，网卡 E1000 和 Virtio 都可以，其他默认就行。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2023/06/unraid-dnf-server.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" width="907" height="666" src="https://umi.im/wp-content/uploads/2023/06/unraid-dnf-server.png" alt="" class="wp-image-6645" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2023/06/unraid-dnf-server.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="907" height="666" src="https://baka.li/wp-content/uploads/2023/06/unraid-dnf-server.png" alt="" class="wp-image-6645" /></a></p>
 <h2 id="dnf启动">DNF！启动！
 </h2><p>看到老游戏又跑起来了还是有点小开心的。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2023/06/DNF-Start.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" width="1645" height="813" src="https://umi.im/wp-content/uploads/2023/06/DNF-Start.png" alt="" class="wp-image-6646" srcset="https://umi.im/wp-content/uploads/2023/06/DNF-Start.png 1645w, https://umi.im/wp-content/uploads/2023/06/DNF-Start-1536x759.png 1536w" sizes="(max-width: 1645px) 100vw, 1645px" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2023/06/DNF-Start.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1645" height="813" src="https://baka.li/wp-content/uploads/2023/06/DNF-Start.png" alt="" class="wp-image-6646" srcset="https://baka.li/wp-content/uploads/2023/06/DNF-Start.png 1645w, https://baka.li/wp-content/uploads/2023/06/DNF-Start-1536x759.png 1536w" sizes="(max-width: 1645px) 100vw, 1645px" /></a></p>
 
 </section>
 

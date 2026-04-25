@@ -4,11 +4,11 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="今天登陆 DSM 弹出一堆警告信息，原来有大量不明 IP 地址 SSH 登录失败被封锁了。\n我的黑群晖设置了 DDNS ，方便远程访问，SSH 偶尔会用所以没关，结果被黑客盯上。\n">
 <title>黑群晖 NAS 遭到 SSH 密码暴力穷举攻击</title>
 
-<link rel='canonical' href='https://umi.im/nas-ssh-attack/'>
+<link rel='canonical' href='https://baka.li/nas-ssh-attack/'>
 
 <link rel="stylesheet" href="/scss/style.min.7c6fc62023c4a6953fbe601dd92a600ca1efde85fae06f72201f35c5ad119913.css"><meta property='og:title' content="黑群晖 NAS 遭到 SSH 密码暴力穷举攻击">
 <meta property='og:description' content="今天登陆 DSM 弹出一堆警告信息，原来有大量不明 IP 地址 SSH 登录失败被封锁了。\n我的黑群晖设置了 DDNS ，方便远程访问，SSH 偶尔会用所以没关，结果被黑客盯上。\n">
-<meta property='og:url' content='https://umi.im/nas-ssh-attack/'>
+<meta property='og:url' content='https://baka.li/nas-ssh-attack/'>
 <meta property='og:site_name' content='笨蛋屋'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='NAS' /><meta property='article:tag' content='黑群晖' /><meta property='article:published_time' content='2015-08-13T10:43:43&#43;00:00'/><meta property='article:modified_time' content='2015-08-13T10:43:43&#43;00:00'/>
 <meta name="twitter:title" content="黑群晖 NAS 遭到 SSH 密码暴力穷举攻击">
@@ -369,8 +369,8 @@
     
     <p>今天登陆 DSM 弹出一堆警告信息，原来有大量不明 IP 地址 SSH 登录失败被封锁了。</p>
 <p>我的黑群晖设置了 DDNS ，方便远程访问，SSH 偶尔会用所以没关，结果被黑客盯上。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2015/08/Host-was-blocked-via-SSH.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" width="1078" height="687" src="https://umi.im/wp-content/uploads/2015/08/Host-was-blocked-via-SSH.png" alt="Host was blocked via SSH" class="wp-image-4516" srcset="https://umi.im/wp-content/uploads/2015/08/Host-was-blocked-via-SSH.png 1078w, https://umi.im/wp-content/uploads/2015/08/Host-was-blocked-via-SSH-150x96.png 150w, https://umi.im/wp-content/uploads/2015/08/Host-was-blocked-via-SSH-300x191.png 300w, https://umi.im/wp-content/uploads/2015/08/Host-was-blocked-via-SSH-1024x653.png 1024w" sizes="(max-width: 1078px) 100vw, 1078px" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2015/08/Host-was-blocked-via-SSH.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="1078" height="687" src="https://baka.li/wp-content/uploads/2015/08/Host-was-blocked-via-SSH.png" alt="Host was blocked via SSH" class="wp-image-4516" srcset="https://baka.li/wp-content/uploads/2015/08/Host-was-blocked-via-SSH.png 1078w, https://baka.li/wp-content/uploads/2015/08/Host-was-blocked-via-SSH-150x96.png 150w, https://baka.li/wp-content/uploads/2015/08/Host-was-blocked-via-SSH-300x191.png 300w, https://baka.li/wp-content/uploads/2015/08/Host-was-blocked-via-SSH-1024x653.png 1024w" sizes="(max-width: 1078px) 100vw, 1078px" /></a></p>
 <p>好在我开启了自动封锁（控制面板 – 安全性），5分钟内登录失败5次就会封锁 IP ，有23个 IP 被封锁，也就是说黑客穷举了至少 115 个密码。</p>
 <p>前段时间有新闻说群晖系统遭入侵，硬盘数据被加密，如果不按要求支付比特币给黑客数据就会被销毁。所以，做好安全防护吧。</p>
 <ul>

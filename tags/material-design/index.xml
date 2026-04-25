@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Material Design on 笨蛋屋</title>
-        <link>https://umi.im/tags/material-design/</link>
+        <link>https://baka.li/tags/material-design/</link>
         <description>Recent content in Material Design on 笨蛋屋</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Fri, 26 Jun 2015 19:58:46 +0000</lastBuildDate><atom:link href="https://umi.im/tags/material-design/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 26 Jun 2015 19:58:46 +0000</lastBuildDate><atom:link href="https://baka.li/tags/material-design/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>WordPress 主题 Bliss 修改 Material Design 配色</title>
-        <link>https://umi.im/wordpress-theme-material-design/</link>
+        <link>https://baka.li/wordpress-theme-material-design/</link>
         <pubDate>Fri, 26 Jun 2015 19:58:46 +0000</pubDate>
         
-        <guid>https://umi.im/wordpress-theme-material-design/</guid>
+        <guid>https://baka.li/wordpress-theme-material-design/</guid>
         <description>&lt;p&gt;我现在使用的博客主题是 Bluthemes 开发的 Bliss 主题，极简卡片式的风格，用主题自带的蓝色主题。&lt;/p&gt;
 &lt;h2 id=&#34;bliss--personal-minimalist-wordpress-blog-theme&#34;&gt;&lt;a href=&#34;http://themeforest.net/item/bliss-personal-minimalist-wordpress-blog-theme/5423780&#34; target=&#34;_blank&#34;&gt;Bliss | Personal Minimalist WordPress Blog Theme&lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/old-Bliss-wordpress-theme.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4248&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/old-Bliss-wordpress-theme.jpg&#34; alt=&#34;old-Bliss-wordpress-theme&#34; width=&#34;936&#34; height=&#34;686&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/old-Bliss-wordpress-theme.jpg 936w, https://umi.im/wp-content/uploads/2015/06/old-Bliss-wordpress-theme-150x110.jpg 150w, https://umi.im/wp-content/uploads/2015/06/old-Bliss-wordpress-theme-300x220.jpg 300w&#34; sizes=&#34;(max-width: 936px) 100vw, 936px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/06/old-Bliss-wordpress-theme.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4248&#34; src=&#34;https://baka.li/wp-content/uploads/2015/06/old-Bliss-wordpress-theme.jpg&#34; alt=&#34;old-Bliss-wordpress-theme&#34; width=&#34;936&#34; height=&#34;686&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/06/old-Bliss-wordpress-theme.jpg 936w, https://baka.li/wp-content/uploads/2015/06/old-Bliss-wordpress-theme-150x110.jpg 150w, https://baka.li/wp-content/uploads/2015/06/old-Bliss-wordpress-theme-300x220.jpg 300w&#34; sizes=&#34;(max-width: 936px) 100vw, 936px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;最近，在物色  WordPress  主题的时候发现一个 Material Design 的主题的网站 &lt;a href=&#34;http://MaterialWP.com&#34; target=&#34;_blank&#34;&gt;MaterialWP.com&lt;/a&gt; ，很喜欢这网站首页配色。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/materialwp-com.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4250&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/materialwp-com.png&#34; alt=&#34;materialwp-com&#34; width=&#34;1081&#34; height=&#34;782&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/materialwp-com.png 1081w, https://umi.im/wp-content/uploads/2015/06/materialwp-com-150x109.png 150w, https://umi.im/wp-content/uploads/2015/06/materialwp-com-300x217.png 300w, https://umi.im/wp-content/uploads/2015/06/materialwp-com-1024x741.png 1024w&#34; sizes=&#34;(max-width: 1081px) 100vw, 1081px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/06/materialwp-com.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4250&#34; src=&#34;https://baka.li/wp-content/uploads/2015/06/materialwp-com.png&#34; alt=&#34;materialwp-com&#34; width=&#34;1081&#34; height=&#34;782&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/06/materialwp-com.png 1081w, https://baka.li/wp-content/uploads/2015/06/materialwp-com-150x109.png 150w, https://baka.li/wp-content/uploads/2015/06/materialwp-com-300x217.png 300w, https://baka.li/wp-content/uploads/2015/06/materialwp-com-1024x741.png 1024w&#34; sizes=&#34;(max-width: 1081px) 100vw, 1081px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;开始研究怎么把 Bliss 主题改成那种配色，首先得知道人家网站的颜色的 Hex 颜色代码，用 QQ 截图把光标移动到需要的颜色上能得到 RGB 颜色代码（ 48,63,159 ）。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/QQ-RGB-HEX.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4252&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/QQ-RGB-HEX.png&#34; alt=&#34;QQ-RGB-HEX&#34; width=&#34;579&#34; height=&#34;334&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/QQ-RGB-HEX.png 579w, https://umi.im/wp-content/uploads/2015/06/QQ-RGB-HEX-150x87.png 150w, https://umi.im/wp-content/uploads/2015/06/QQ-RGB-HEX-300x173.png 300w&#34; sizes=&#34;(max-width: 579px) 100vw, 579px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/06/QQ-RGB-HEX.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4252&#34; src=&#34;https://baka.li/wp-content/uploads/2015/06/QQ-RGB-HEX.png&#34; alt=&#34;QQ-RGB-HEX&#34; width=&#34;579&#34; height=&#34;334&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/06/QQ-RGB-HEX.png 579w, https://baka.li/wp-content/uploads/2015/06/QQ-RGB-HEX-150x87.png 150w, https://baka.li/wp-content/uploads/2015/06/QQ-RGB-HEX-300x173.png 300w&#34; sizes=&#34;(max-width: 579px) 100vw, 579px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;用在线工具把 RGB 代码转换成为 Hex 代码（ #303F9F ）。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/RGB-TO-HEX.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4254&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/RGB-TO-HEX.png&#34; alt=&#34;RGB-TO-HEX&#34; width=&#34;884&#34; height=&#34;423&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/RGB-TO-HEX.png 884w, https://umi.im/wp-content/uploads/2015/06/RGB-TO-HEX-150x72.png 150w, https://umi.im/wp-content/uploads/2015/06/RGB-TO-HEX-300x144.png 300w&#34; sizes=&#34;(max-width: 884px) 100vw, 884px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/06/RGB-TO-HEX.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4254&#34; src=&#34;https://baka.li/wp-content/uploads/2015/06/RGB-TO-HEX.png&#34; alt=&#34;RGB-TO-HEX&#34; width=&#34;884&#34; height=&#34;423&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/06/RGB-TO-HEX.png 884w, https://baka.li/wp-content/uploads/2015/06/RGB-TO-HEX-150x72.png 150w, https://baka.li/wp-content/uploads/2015/06/RGB-TO-HEX-300x144.png 300w&#34; sizes=&#34;(max-width: 884px) 100vw, 884px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;然后修改 Style.css ，技术太渣，怎么改都没用。&lt;/p&gt;
 &lt;p&gt;用最笨的方法，我找到了 Bliss 主题自定义 CSS 的文件，在主题目录下的 inc 目录的 custom-css.php ，在此文件的第 44 行开始。&lt;/p&gt;
 &lt;pre class=&#34;lang:php decode:true&#34;&gt;case &#39;default&#39;;	
@@ -79,18 +79,18 @@
 &lt;/pre&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;装修好后特意上 OS X 上截个图，黑苹果的妙用…&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/06/2015-Baka-House.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4241&#34; src=&#34;https://umi.im/wp-content/uploads/2015/06/2015-Baka-House.png&#34; alt=&#34;2015-Baka-House&#34; width=&#34;1408&#34; height=&#34;1059&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/06/2015-Baka-House.png 1408w, https://umi.im/wp-content/uploads/2015/06/2015-Baka-House-150x113.png 150w, https://umi.im/wp-content/uploads/2015/06/2015-Baka-House-300x226.png 300w, https://umi.im/wp-content/uploads/2015/06/2015-Baka-House-1024x770.png 1024w&#34; sizes=&#34;(max-width: 1408px) 100vw, 1408px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/06/2015-Baka-House.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-4241&#34; src=&#34;https://baka.li/wp-content/uploads/2015/06/2015-Baka-House.png&#34; alt=&#34;2015-Baka-House&#34; width=&#34;1408&#34; height=&#34;1059&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/06/2015-Baka-House.png 1408w, https://baka.li/wp-content/uploads/2015/06/2015-Baka-House-150x113.png 150w, https://baka.li/wp-content/uploads/2015/06/2015-Baka-House-300x226.png 300w, https://baka.li/wp-content/uploads/2015/06/2015-Baka-House-1024x770.png 1024w&#34; sizes=&#34;(max-width: 1408px) 100vw, 1408px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Material Design图标包应用 ~ ColorShamu</title>
-        <link>https://umi.im/colorshamu/</link>
+        <link>https://baka.li/colorshamu/</link>
         <pubDate>Mon, 02 Mar 2015 10:39:17 +0000</pubDate>
         
-        <guid>https://umi.im/colorshamu/</guid>
-        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3524&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu.png&#34; alt=&#34;colorshamu&#34; width=&#34;809&#34; height=&#34;250&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu.png 809w, https://umi.im/wp-content/uploads/2015/03/colorshamu-150x46.png 150w, https://umi.im/wp-content/uploads/2015/03/colorshamu-300x93.png 300w&#34; sizes=&#34;(max-width: 809px) 100vw, 809px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <guid>https://baka.li/colorshamu/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/03/colorshamu.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3524&#34; src=&#34;https://baka.li/wp-content/uploads/2015/03/colorshamu.png&#34; alt=&#34;colorshamu&#34; width=&#34;809&#34; height=&#34;250&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/03/colorshamu.png 809w, https://baka.li/wp-content/uploads/2015/03/colorshamu-150x46.png 150w, https://baka.li/wp-content/uploads/2015/03/colorshamu-300x93.png 300w&#34; sizes=&#34;(max-width: 809px) 100vw, 809px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;ColorShamu是一個根據Material Design風格設計的高分辨率圖標包。每一個圖標都經過精心設計，帶給你真正的Material Design。&lt;br&gt;
 適配以下桌面啟動器：&lt;br&gt;
@@ -101,14 +101,14 @@ Go Launcher&lt;br&gt;
 Holo Launcher&lt;br&gt;
 Sony Tablet&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3525&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu-1.png&#34; alt=&#34;colorshamu-1&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu-1.png 768w, https://umi.im/wp-content/uploads/2015/03/colorshamu-1-90x150.png 90w, https://umi.im/wp-content/uploads/2015/03/colorshamu-1-180x300.png 180w, https://umi.im/wp-content/uploads/2015/03/colorshamu-1-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/03/colorshamu-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3525&#34; src=&#34;https://baka.li/wp-content/uploads/2015/03/colorshamu-1.png&#34; alt=&#34;colorshamu-1&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/03/colorshamu-1.png 768w, https://baka.li/wp-content/uploads/2015/03/colorshamu-1-90x150.png 90w, https://baka.li/wp-content/uploads/2015/03/colorshamu-1-180x300.png 180w, https://baka.li/wp-content/uploads/2015/03/colorshamu-1-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;修改前，QQ的图标太坑爹了。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3526&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu2.png&#34; alt=&#34;colorshamu2&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu2.png 768w, https://umi.im/wp-content/uploads/2015/03/colorshamu2-90x150.png 90w, https://umi.im/wp-content/uploads/2015/03/colorshamu2-180x300.png 180w, https://umi.im/wp-content/uploads/2015/03/colorshamu2-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/03/colorshamu2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3526&#34; src=&#34;https://baka.li/wp-content/uploads/2015/03/colorshamu2.png&#34; alt=&#34;colorshamu2&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/03/colorshamu2.png 768w, https://baka.li/wp-content/uploads/2015/03/colorshamu2-90x150.png 90w, https://baka.li/wp-content/uploads/2015/03/colorshamu2-180x300.png 180w, https://baka.li/wp-content/uploads/2015/03/colorshamu2-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;修改后，有几个图标是自己替换的，比如淘宝换成了Amazon的。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3527&#34; src=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu-3.png&#34; alt=&#34;colorshamu-3&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://umi.im/wp-content/uploads/2015/03/colorshamu-3.png 768w, https://umi.im/wp-content/uploads/2015/03/colorshamu-3-90x150.png 90w, https://umi.im/wp-content/uploads/2015/03/colorshamu-3-180x300.png 180w, https://umi.im/wp-content/uploads/2015/03/colorshamu-3-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2015/03/colorshamu-3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-3527&#34; src=&#34;https://baka.li/wp-content/uploads/2015/03/colorshamu-3.png&#34; alt=&#34;colorshamu-3&#34; width=&#34;432&#34; height=&#34;720&#34; srcset=&#34;https://baka.li/wp-content/uploads/2015/03/colorshamu-3.png 768w, https://baka.li/wp-content/uploads/2015/03/colorshamu-3-90x150.png 90w, https://baka.li/wp-content/uploads/2015/03/colorshamu-3-180x300.png 180w, https://baka.li/wp-content/uploads/2015/03/colorshamu-3-614x1024.png 614w&#34; sizes=&#34;(max-width: 432px) 100vw, 432px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
 &lt;h2 id=&#34;colorshamugoogle-play&#34;&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.shiunghanching.colorshamu&#34; target=&#34;_blank&#34;&gt;ColorShamu&lt;/a&gt;（Google Play）
 &lt;/h2&gt;&lt;h2 id=&#34;colorshamu酷安&#34;&gt;&lt;a href=&#34;http://coolapk.com/apk/com.shiunghanching.colorshamu&#34; target=&#34;_blank&#34;&gt;ColorShamu&lt;/a&gt;（酷安）
@@ -116,17 +116,17 @@ Sony Tablet&lt;/p&gt;
         </item>
         <item>
         <title>QQ in Material Design by Definitely Maybe</title>
-        <link>https://umi.im/qq-in-material-design-by-definitely-maybe/</link>
+        <link>https://baka.li/qq-in-material-design-by-definitely-maybe/</link>
         <pubDate>Sun, 17 Aug 2014 20:29:43 +0000</pubDate>
         
-        <guid>https://umi.im/qq-in-material-design-by-definitely-maybe/</guid>
+        <guid>https://baka.li/qq-in-material-design-by-definitely-maybe/</guid>
         <description>&lt;p&gt;接上期关于Android版QQ的UI。&lt;/p&gt;
 &lt;p&gt;知乎用户&lt;a href=&#34;http://www.zhihu.com/people/abinarylifestyle&#34; target=&#34;_blank&#34;&gt;Definitely Maybe&lt;/a&gt;设计的Material Design版QQ，仅供观赏。&lt;/p&gt;
 &lt;p&gt;&lt;del&gt;目测5年内我们就能用上Material Design的Android QQ了！&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/qq-in-material-design.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2813&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/qq-in-material-design.png&#34; alt=&#34;qq-in-material-design&#34; width=&#34;600&#34; height=&#34;4000&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/qq-in-material-design.png 600w, https://umi.im/wp-content/uploads/2014/08/qq-in-material-design-45x300.png 45w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/08/Introducing-Q-zone-international.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2827&#34; src=&#34;https://umi.im/wp-content/uploads/2014/08/Introducing-Q-zone-international.jpg&#34; alt=&#34;Introducing Q-zone international&#34; width=&#34;600&#34; height=&#34;1950&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/08/Introducing-Q-zone-international.jpg 600w, https://umi.im/wp-content/uploads/2014/08/Introducing-Q-zone-international-46x150.jpg 46w, https://umi.im/wp-content/uploads/2014/08/Introducing-Q-zone-international-92x300.jpg 92w, https://umi.im/wp-content/uploads/2014/08/Introducing-Q-zone-international-315x1024.jpg 315w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/08/qq-in-material-design.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2813&#34; src=&#34;https://baka.li/wp-content/uploads/2014/08/qq-in-material-design.png&#34; alt=&#34;qq-in-material-design&#34; width=&#34;600&#34; height=&#34;4000&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/08/qq-in-material-design.png 600w, https://baka.li/wp-content/uploads/2014/08/qq-in-material-design-45x300.png 45w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/08/Introducing-Q-zone-international.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2827&#34; src=&#34;https://baka.li/wp-content/uploads/2014/08/Introducing-Q-zone-international.jpg&#34; alt=&#34;Introducing Q-zone international&#34; width=&#34;600&#34; height=&#34;1950&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/08/Introducing-Q-zone-international.jpg 600w, https://baka.li/wp-content/uploads/2014/08/Introducing-Q-zone-international-46x150.jpg 46w, https://baka.li/wp-content/uploads/2014/08/Introducing-Q-zone-international-92x300.jpg 92w, https://baka.li/wp-content/uploads/2014/08/Introducing-Q-zone-international-315x1024.jpg 315w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;来源：&lt;a title=&#34;知乎&#34; href=&#34;http://www.zhihu.com/question/24709267&#34; target=&#34;_blank&#34;&gt;如何评价手机 QQ 安卓平台 5.0 版？&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>

@@ -4,11 +4,11 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="前几天朋友共享的 Shadowsocks 账号挂了，貌似是提供商 Shadowcheap 跑路了。为了翻墙需求，他准备买台VPS，由我打理。\n虚拟专用服务器（英语：Virtual private server，缩写为 VPS），是指通过虚拟化技术在独立服务器中运行的专用服务器。每个使用VPS技术的虚拟独立服务器拥有各自独立的公网IP地址、操作系统、硬盘空间、内存空间、CPU资源等，还可以进行安装程序、重启服务器等操作，与运行一台独立服务器完全相同。\n">
 <title>DigitalOcean VPS 安装 Shadowsocks</title>
 
-<link rel='canonical' href='https://umi.im/digitalocean-vps-shadowsocks/'>
+<link rel='canonical' href='https://baka.li/digitalocean-vps-shadowsocks/'>
 
 <link rel="stylesheet" href="/scss/style.min.7c6fc62023c4a6953fbe601dd92a600ca1efde85fae06f72201f35c5ad119913.css"><meta property='og:title' content="DigitalOcean VPS 安装 Shadowsocks">
 <meta property='og:description' content="前几天朋友共享的 Shadowsocks 账号挂了，貌似是提供商 Shadowcheap 跑路了。为了翻墙需求，他准备买台VPS，由我打理。\n虚拟专用服务器（英语：Virtual private server，缩写为 VPS），是指通过虚拟化技术在独立服务器中运行的专用服务器。每个使用VPS技术的虚拟独立服务器拥有各自独立的公网IP地址、操作系统、硬盘空间、内存空间、CPU资源等，还可以进行安装程序、重启服务器等操作，与运行一台独立服务器完全相同。\n">
-<meta property='og:url' content='https://umi.im/digitalocean-vps-shadowsocks/'>
+<meta property='og:url' content='https://baka.li/digitalocean-vps-shadowsocks/'>
 <meta property='og:site_name' content='笨蛋屋'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Shadowsocks' /><meta property='article:tag' content='VPS' /><meta property='article:published_time' content='2015-06-04T11:29:30&#43;00:00'/><meta property='article:modified_time' content='2015-06-04T11:29:30&#43;00:00'/>
 <meta name="twitter:title" content="DigitalOcean VPS 安装 Shadowsocks">
@@ -408,11 +408,11 @@
 <p>还好这方面的教程很多，安装 Shadowsocks 服务端也不算难。</p>
 <h2 id="digitalocean的droplet怎么添加ssh-key和使用ssh-key登录"><a href="https://www.zxc.so/do-ssh-key.html" target="_blank">DigitalOcean的Droplet怎么添加SSH Key和使用SSH Key登录</a>
 </h2><p>当前我使用的是SSH Key登录，用 PuTTY Key Generator 生成公钥和私钥，VPS添加公钥，登录的时候用私钥验证，不用输入密码，挺方便的。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2015/06/putty-host.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3947" src="https://umi.im/wp-content/uploads/2015/06/putty-host.png" alt="putty-host" width="452" height="437" srcset="https://umi.im/wp-content/uploads/2015/06/putty-host.png 452w, https://umi.im/wp-content/uploads/2015/06/putty-host-150x145.png 150w, https://umi.im/wp-content/uploads/2015/06/putty-host-300x290.png 300w" sizes="(max-width: 452px) 100vw, 452px" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2015/06/putty-host.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3947" src="https://baka.li/wp-content/uploads/2015/06/putty-host.png" alt="putty-host" width="452" height="437" srcset="https://baka.li/wp-content/uploads/2015/06/putty-host.png 452w, https://baka.li/wp-content/uploads/2015/06/putty-host-150x145.png 150w, https://baka.li/wp-content/uploads/2015/06/putty-host-300x290.png 300w" sizes="(max-width: 452px) 100vw, 452px" /></a></p>
 <p>CPU好YY，系统一不小心安装了Ubuntu…本来想装Debian的，因为我的笔记本就是Debian。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2015/06/digitalocean-vps-1.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3920" src="https://umi.im/wp-content/uploads/2015/06/digitalocean-vps-1.png" alt="digitalocean-vps-1" width="661" height="482" srcset="https://umi.im/wp-content/uploads/2015/06/digitalocean-vps-1.png 661w, https://umi.im/wp-content/uploads/2015/06/digitalocean-vps-1-150x109.png 150w, https://umi.im/wp-content/uploads/2015/06/digitalocean-vps-1-300x219.png 300w" sizes="(max-width: 661px) 100vw, 661px" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2015/06/digitalocean-vps-1.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3920" src="https://baka.li/wp-content/uploads/2015/06/digitalocean-vps-1.png" alt="digitalocean-vps-1" width="661" height="482" srcset="https://baka.li/wp-content/uploads/2015/06/digitalocean-vps-1.png 661w, https://baka.li/wp-content/uploads/2015/06/digitalocean-vps-1-150x109.png 150w, https://baka.li/wp-content/uploads/2015/06/digitalocean-vps-1-300x219.png 300w" sizes="(max-width: 661px) 100vw, 661px" /></a></p>
 <h2 id="ubuntu-安装-shadowsocks">Ubuntu 安装 Shadowsocks
 </h2><p>不是Root用户的首先切换，然后分别运行下面三条命令：</p>
 <pre class="lang:default decode:true ">apt-get update
@@ -445,18 +445,18 @@ user=nobody</pre>
 <pre class="lang:default decode:true ">ssserver -c /etc/shadowsocks.json -d start</pre>
 <p>总体来说安装起来还是挺简单的，不需要什么linux知识，多搜索下就好了。</p>
 <p>测速，在美国西海岸带宽好给力。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3943" src="https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2.png" alt="DigitalOcean-VPS-speed-2" width="661" height="482" srcset="https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2.png 661w, https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2-150x109.png 150w, https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2-300x219.png 300w" sizes="(max-width: 661px) 100vw, 661px" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3943" src="https://baka.li/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2.png" alt="DigitalOcean-VPS-speed-2" width="661" height="482" srcset="https://baka.li/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2.png 661w, https://baka.li/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2-150x109.png 150w, https://baka.li/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-2-300x219.png 300w" sizes="(max-width: 661px) 100vw, 661px" /></a></p>
 <p>广东电信，看Youtube 720P视频毫无压力。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" class=" size-full wp-image-3944 alignleft" src="https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed.png" alt="DigitalOcean-VPS-speed" width="300" height="135" srcset="https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed.png 300w, https://umi.im/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-150x68.png 150w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2015/06/DigitalOcean-VPS-speed.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class=" size-full wp-image-3944 alignleft" src="https://baka.li/wp-content/uploads/2015/06/DigitalOcean-VPS-speed.png" alt="DigitalOcean-VPS-speed" width="300" height="135" srcset="https://baka.li/wp-content/uploads/2015/06/DigitalOcean-VPS-speed.png 300w, https://baka.li/wp-content/uploads/2015/06/DigitalOcean-VPS-speed-150x68.png 150w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
 <p> </p>
 <p> </p>
 <p> </p>
 <p> </p>
 <p>最后，祝波多尔斯基生日快乐。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2015/06/1985-06-04.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3949" src="https://umi.im/wp-content/uploads/2015/06/1985-06-04.png" alt="1985-06-04" width="589" height="302" srcset="https://umi.im/wp-content/uploads/2015/06/1985-06-04.png 589w, https://umi.im/wp-content/uploads/2015/06/1985-06-04-150x77.png 150w, https://umi.im/wp-content/uploads/2015/06/1985-06-04-300x154.png 300w" sizes="(max-width: 589px) 100vw, 589px" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2015/06/1985-06-04.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-3949" src="https://baka.li/wp-content/uploads/2015/06/1985-06-04.png" alt="1985-06-04" width="589" height="302" srcset="https://baka.li/wp-content/uploads/2015/06/1985-06-04.png 589w, https://baka.li/wp-content/uploads/2015/06/1985-06-04-150x77.png 150w, https://baka.li/wp-content/uploads/2015/06/1985-06-04-300x154.png 300w" sizes="(max-width: 589px) 100vw, 589px" /></a></p>
 
 </section>
 
@@ -494,7 +494,7 @@ user=nobody</pre>
         
             <div class="article-image">
                 
-                    <img src="https://umi.im/wp-content/uploads/2023/04/serverstatus-card.png" loading="lazy" data-key="" data-hash="https://umi.im/wp-content/uploads/2023/04/serverstatus-card.png"/>
+                    <img src="https://baka.li/wp-content/uploads/2023/04/serverstatus-card.png" loading="lazy" data-key="" data-hash="https://baka.li/wp-content/uploads/2023/04/serverstatus-card.png"/>
                 
             </div>
         
@@ -526,7 +526,7 @@ user=nobody</pre>
         
             <div class="article-image">
                 
-                    <img src="https://umi.im/wp-content/uploads/2022/04/aws-ec2-poster.jpg" loading="lazy" data-key="" data-hash="https://umi.im/wp-content/uploads/2022/04/aws-ec2-poster.jpg"/>
+                    <img src="https://baka.li/wp-content/uploads/2022/04/aws-ec2-poster.jpg" loading="lazy" data-key="" data-hash="https://baka.li/wp-content/uploads/2022/04/aws-ec2-poster.jpg"/>
                 
             </div>
         

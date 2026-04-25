@@ -4,11 +4,11 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="加入Windows 预览体验计划的 DEV 通道，更新到 22483.1000 。\n开启在BIOS虚拟化SVM，安装Hyper-V虚拟机\n1.右键开始-运行-control.exe-程序和功能-开启或关闭 Windows 功能-勾选 Hyper-V\\Windows 虚拟机监控平台，成功后，必须重启系统。\n2.安装Window Subsystem for Android应用，从网盘中下载所需要的文件，然后管理员身份运行了Powershell，执行Add-AppxPackage -Path 下载的文件.Msixbundle即可。\n3.打开Window Subsystem for Android应用开发人员模式\n4.通过ADB安装安卓app\na.解压ADB（platform-tools-latest-windows.zip),在解压后的目录右键选择”在Windows终端中打开“\nb.输入”.\\adb connect 127.0.0.1:58526“\nc.输入”.\\adb install D:\\**.apk“,安装下载的app\n8.在开始菜单可以看到新安装的安卓应用。\n链接:\u00a0https://pan.baidu.com/s/1VzpxkU8UweJM24dse4ND_Q\u00a0提取码: epsd https://bbs.pcbeta.com/viewthread-1908263-1-1.html 装完了 ADB 连上子系统后安装 APK 一直报错，重启电脑一次才安装成功。\n">
 <title>Windows 11 WSA (安卓子系统) 使用体验</title>
 
-<link rel='canonical' href='https://umi.im/win11-wsa/'>
+<link rel='canonical' href='https://baka.li/win11-wsa/'>
 
 <link rel="stylesheet" href="/scss/style.min.7c6fc62023c4a6953fbe601dd92a600ca1efde85fae06f72201f35c5ad119913.css"><meta property='og:title' content="Windows 11 WSA (安卓子系统) 使用体验">
 <meta property='og:description' content="加入Windows 预览体验计划的 DEV 通道，更新到 22483.1000 。\n开启在BIOS虚拟化SVM，安装Hyper-V虚拟机\n1.右键开始-运行-control.exe-程序和功能-开启或关闭 Windows 功能-勾选 Hyper-V\\Windows 虚拟机监控平台，成功后，必须重启系统。\n2.安装Window Subsystem for Android应用，从网盘中下载所需要的文件，然后管理员身份运行了Powershell，执行Add-AppxPackage -Path 下载的文件.Msixbundle即可。\n3.打开Window Subsystem for Android应用开发人员模式\n4.通过ADB安装安卓app\na.解压ADB（platform-tools-latest-windows.zip),在解压后的目录右键选择”在Windows终端中打开“\nb.输入”.\\adb connect 127.0.0.1:58526“\nc.输入”.\\adb install D:\\**.apk“,安装下载的app\n8.在开始菜单可以看到新安装的安卓应用。\n链接:\u00a0https://pan.baidu.com/s/1VzpxkU8UweJM24dse4ND_Q\u00a0提取码: epsd https://bbs.pcbeta.com/viewthread-1908263-1-1.html 装完了 ADB 连上子系统后安装 APK 一直报错，重启电脑一次才安装成功。\n">
-<meta property='og:url' content='https://umi.im/win11-wsa/'>
+<meta property='og:url' content='https://baka.li/win11-wsa/'>
 <meta property='og:site_name' content='笨蛋屋'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Windows' /><meta property='article:published_time' content='2021-10-21T15:48:36&#43;00:00'/><meta property='article:modified_time' content='2021-10-21T15:48:36&#43;00:00'/>
 <meta name="twitter:title" content="Windows 11 WSA (安卓子系统) 使用体验">
@@ -381,11 +381,11 @@
 </table></div><figcaption>https://bbs.pcbeta.com/viewthread-1908263-1-1.html</figcaption> 
 <p>装完了 ADB 连上子系统后安装 APK 一直报错，重启电脑一次才安装成功。</p>
 <p>第一次启动就像你的安卓手机开机一样慢。</p>
-<img loading="lazy" decoding="async" width="622" height="381" src="https://umi.im/wp-content/uploads/2021/10/WSA-boot.png" alt="" class="wp-image-5939" />  
+<img loading="lazy" decoding="async" width="622" height="381" src="https://baka.li/wp-content/uploads/2021/10/WSA-boot.png" alt="" class="wp-image-5939" />  
 <p>大部分 APP 都运行正常，我的八代移动双核处理器 (i3-8109U) 跑安兔兔CPU分数和骁龙845相当，虚拟化效率挺高的，GPU 暂时没法驱动。</p>
-<img loading="lazy" decoding="async" width="1600" height="900" src="https://umi.im/wp-content/uploads/2021/10/WSA-APP.jpg" alt="" class="wp-image-5937" srcset="https://umi.im/wp-content/uploads/2021/10/WSA-APP.jpg 1600w, https://umi.im/wp-content/uploads/2021/10/WSA-APP-1536x864.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px" />  
+<img loading="lazy" decoding="async" width="1600" height="900" src="https://baka.li/wp-content/uploads/2021/10/WSA-APP.jpg" alt="" class="wp-image-5937" srcset="https://baka.li/wp-content/uploads/2021/10/WSA-APP.jpg 1600w, https://baka.li/wp-content/uploads/2021/10/WSA-APP-1536x864.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px" />  
 <p>WSA 一运行，基本就会吃掉 2GB 的内存，8GB 内存很勉强了。</p>
-<img loading="lazy" decoding="async" width="885" height="753" src="https://umi.im/wp-content/uploads/2021/10/WSA-RAM.jpg" alt="" class="wp-image-5938" />  
+<img loading="lazy" decoding="async" width="885" height="753" src="https://baka.li/wp-content/uploads/2021/10/WSA-RAM.jpg" alt="" class="wp-image-5938" />  
 <p>个人评价，暂时没比其他安卓模拟器体验好很多，还是等正式版到来再看看吧。</p>
 
 </section>
@@ -496,7 +496,7 @@
         
             <div class="article-image">
                 
-                    <img src="https://umi.im/wp-content/uploads/2023/04/serverstatus-card.png" loading="lazy" data-key="" data-hash="https://umi.im/wp-content/uploads/2023/04/serverstatus-card.png"/>
+                    <img src="https://baka.li/wp-content/uploads/2023/04/serverstatus-card.png" loading="lazy" data-key="" data-hash="https://baka.li/wp-content/uploads/2023/04/serverstatus-card.png"/>
                 
             </div>
         

@@ -4,11 +4,11 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="群晖相册 Synology Photos 是群晖系统的相册应用，他的前身 Memonts 应用有个对象识别功能，可以帮你自动分类相册，就像 Google Photos 那样。\n在升级 DSM 7.0 后群晖砍了掉这个功能，近期又在 Synology Photos 1.5.0-0488 版本里更新了这个功能。\n">
 <title>黑群晖开启 Synology Photos 的 AI 对象识别功能</title>
 
-<link rel='canonical' href='https://umi.im/synology-photos-ai/'>
+<link rel='canonical' href='https://baka.li/synology-photos-ai/'>
 
 <link rel="stylesheet" href="/scss/style.min.7c6fc62023c4a6953fbe601dd92a600ca1efde85fae06f72201f35c5ad119913.css"><meta property='og:title' content="黑群晖开启 Synology Photos 的 AI 对象识别功能">
 <meta property='og:description' content="群晖相册 Synology Photos 是群晖系统的相册应用，他的前身 Memonts 应用有个对象识别功能，可以帮你自动分类相册，就像 Google Photos 那样。\n在升级 DSM 7.0 后群晖砍了掉这个功能，近期又在 Synology Photos 1.5.0-0488 版本里更新了这个功能。\n">
-<meta property='og:url' content='https://umi.im/synology-photos-ai/'>
+<meta property='og:url' content='https://baka.li/synology-photos-ai/'>
 <meta property='og:site_name' content='笨蛋屋'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='NAS' /><meta property='article:tag' content='黑群晖' /><meta property='article:published_time' content='2023-09-04T01:25:19&#43;00:00'/><meta property='article:modified_time' content='2023-09-04T01:25:19&#43;00:00'/>
 <meta name="twitter:title" content="黑群晖开启 Synology Photos 的 AI 对象识别功能">
@@ -403,8 +403,8 @@
     <h2 id="群晖相册">群晖相册
 </h2><p><a href="https://www.synology.cn/zh-cn/dsm/feature/photos" target="_blank" rel="noreferrer noopener">Synology Photos</a> 是群晖系统的相册应用，他的前身 Memonts 应用有个对象识别功能，可以帮你自动分类相册，就像 Google Photos 那样。</p>
 <p>在升级 DSM 7.0 后群晖砍了掉这个功能，近期又在 Synology Photos 1.5.0-0488 版本里更新了这个功能。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2023/09/synologo-photos-ai.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" width="981" height="589" src="https://umi.im/wp-content/uploads/2023/09/synologo-photos-ai.png" alt="" class="wp-image-6679" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2023/09/synologo-photos-ai.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="981" height="589" src="https://baka.li/wp-content/uploads/2023/09/synologo-photos-ai.png" alt="" class="wp-image-6679" /></a></p>
 <p>虽然识别错误不少，但是找猫图还是方便多了。</p>
 <h2 id="硬件要求">硬件要求
 </h2><p>黑群晖最常用的引导是 DS918+ 、DS920+ 和 DS3617xs 这几个型号，如果是 DS918+ 和 DS920+ 引导的黑群晖，需要最低 4GB 内存才能开启对象识别功能，而 DS3617xs 则需要 8GB 内存，白群晖也一样。</p>
@@ -415,8 +415,8 @@
 chmod +x PatchELFSharp
 ./PatchELFSharp "/var/packages/SynologyPhotos/target/usr/lib/libsynophoto-plugin-model.so.1.0" "_ZN9synophoto6plugin7network9IeNetwork11IsSupportedEv" "B8 00 00 00 00 C3"</code></pre>
 <p>重新启动 Synology Photos 后进设置勾选 ”在个人空间中启动主题相册“ ，再重建索引就行。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2023/09/synologo-photos-set.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" width="615" height="581" src="https://umi.im/wp-content/uploads/2023/09/synologo-photos-set.png" alt="" class="wp-image-6680" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2023/09/synologo-photos-set.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="615" height="581" src="https://baka.li/wp-content/uploads/2023/09/synologo-photos-set.png" alt="" class="wp-image-6680" /></a></p>
 <p>人脸识别补丁来自 我不是矿神 博客：<a class="link" href="https://imnks.com/4069.html"  target="_blank" rel="noopener"
     >黑群晖DSM7.0/7.1/7.2 Synology Photos人脸识别补丁</a></p>
 

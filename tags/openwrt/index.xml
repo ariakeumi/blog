@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>OpenWrt on 笨蛋屋</title>
-        <link>https://umi.im/tags/openwrt/</link>
+        <link>https://baka.li/tags/openwrt/</link>
         <description>Recent content in OpenWrt on 笨蛋屋</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sun, 31 Mar 2024 02:49:00 +0000</lastBuildDate><atom:link href="https://umi.im/tags/openwrt/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 31 Mar 2024 02:49:00 +0000</lastBuildDate><atom:link href="https://baka.li/tags/openwrt/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>抛弃 AdGuard Home , 直接使用 OpenClash 过滤广告 , OpenWrt 路由器过滤广告最简单的方法！</title>
-        <link>https://umi.im/openclash-adblock/</link>
+        <link>https://baka.li/openclash-adblock/</link>
         <pubDate>Sun, 31 Mar 2024 02:49:00 +0000</pubDate>
         
-        <guid>https://umi.im/openclash-adblock/</guid>
+        <guid>https://baka.li/openclash-adblock/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;在路由器上进行广告过滤可以帮助我在不方便安装广告过滤软件的设备上过滤掉一些简单的广告。&lt;/p&gt;
 &lt;p&gt;我尝试过很多在路由器上过滤广告的方法，最早使用的是 Adbyby ，但它多年没有维护，不能运行在较新的 OpenWrt 固件上了。&lt;/p&gt;
@@ -152,7 +152,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;加起来接近七万条广告过滤规则，在 yacd 面板里可以手动更新规则而不重启 OpenClash ，过滤出现问题也可以把 🛑 广告拦截 改成 DIRECT 临时暂停过滤。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://umi.im/wp-content/uploads/2024/03/clash-adb-rules.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/wp-content/uploads/2024/03/clash-adb-rules.png&#34;
 	
 	
 	
@@ -170,10 +170,10 @@
         </item>
         <item>
         <title>路由器 CPU 性能天梯排行榜</title>
-        <link>https://umi.im/router-cpu-coremark/</link>
+        <link>https://baka.li/router-cpu-coremark/</link>
         <pubDate>Wed, 20 Sep 2023 23:44:29 +0000</pubDate>
         
-        <guid>https://umi.im/router-cpu-coremark/</guid>
+        <guid>https://baka.li/router-cpu-coremark/</guid>
         <description>&lt;p&gt;本人为了选购路由器从网络上收集了数个路由器的 CoreMark 跑分， 包括了硬路由、X86 软路由和 ARM 软路由等。CoreMark 分数仅代表了路由器的处理器性能，和路由器的信号、NAT 转发性能等没有关联，仅供选购路由器时参考，更多路由器的拆机评测可以去 &lt;a class=&#34;link&#34; href=&#34;https://www.acwifi.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;ACWIFI 网站&lt;/a&gt; 上看。&lt;figure class=&#34;wp-block-pullquote&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;

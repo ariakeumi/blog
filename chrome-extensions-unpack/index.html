@@ -4,11 +4,11 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" Chrome的同步功能非常强大，扩展什么的自然不在话下。\n但有时候Google会清理Chrome应用商店的扩展，虽然清理后扩展依旧会继续同步。\n如果想要把扩展分享给别人就不行了。\n所以这次来介绍如何打包扩展程序，非常的简单。\n">
 <title>玩转Google Chrome第二弹 ～ 打包Chrome扩展程序到本地</title>
 
-<link rel='canonical' href='https://umi.im/chrome-extensions-unpack/'>
+<link rel='canonical' href='https://baka.li/chrome-extensions-unpack/'>
 
 <link rel="stylesheet" href="/scss/style.min.7c6fc62023c4a6953fbe601dd92a600ca1efde85fae06f72201f35c5ad119913.css"><meta property='og:title' content="玩转Google Chrome第二弹 ～ 打包Chrome扩展程序到本地">
 <meta property='og:description' content=" Chrome的同步功能非常强大，扩展什么的自然不在话下。\n但有时候Google会清理Chrome应用商店的扩展，虽然清理后扩展依旧会继续同步。\n如果想要把扩展分享给别人就不行了。\n所以这次来介绍如何打包扩展程序，非常的简单。\n">
-<meta property='og:url' content='https://umi.im/chrome-extensions-unpack/'>
+<meta property='og:url' content='https://baka.li/chrome-extensions-unpack/'>
 <meta property='og:site_name' content='笨蛋屋'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Chrome' /><meta property='article:published_time' content='2013-12-29T18:58:42&#43;00:00'/><meta property='article:modified_time' content='2013-12-29T18:58:42&#43;00:00'/>
 <meta name="twitter:title" content="玩转Google Chrome第二弹 ～ 打包Chrome扩展程序到本地">
@@ -368,7 +368,7 @@
     
     
     <address>
-  <a class="lightbox" href="https://umi.im/wp-content/uploads/2013/12/chrome-extensions-unpack.jpg"><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1084" src="https://umi.im/wp-content/uploads/2013/12/chrome-extensions-unpack.jpg" alt="chrome-extensions-unpack" width="1024" height="630" srcset="https://umi.im/wp-content/uploads/2013/12/chrome-extensions-unpack.jpg 1024w, https://umi.im/wp-content/uploads/2013/12/chrome-extensions-unpack-300x184.jpg 300w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
+  <a class="lightbox" href="https://baka.li/wp-content/uploads/2013/12/chrome-extensions-unpack.jpg"><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1084" src="https://baka.li/wp-content/uploads/2013/12/chrome-extensions-unpack.jpg" alt="chrome-extensions-unpack" width="1024" height="630" srcset="https://baka.li/wp-content/uploads/2013/12/chrome-extensions-unpack.jpg 1024w, https://baka.li/wp-content/uploads/2013/12/chrome-extensions-unpack-300x184.jpg 300w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
 </address>
 <p>Chrome的同步功能非常强大，扩展什么的自然不在话下。</p>
 <p>但有时候Google会清理<a title="Chrome应用商店" href="https://chrome.google.com/webstore/category/home" target="_blank" rel="noopener">Chrome应用商店</a>的扩展，虽然清理后扩展依旧会继续同步。</p>
@@ -376,27 +376,27 @@
 <p>所以这次来介绍如何打包扩展程序，非常的简单。</p>
 <p>首先，地址栏输入 <a href="chrome://extensions/" target="_blank" rel="noopener">chrome://extensions/</a> 回车，到达扩展程序设置页面。</p>
 <p>在右上角的开发者模式上打勾。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2013/12/chrome-extensions-developer.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1078" src="https://umi.im/wp-content/uploads/2013/12/chrome-extensions-developer.png" alt="chrome-extensions-developer" width="751" height="114" srcset="https://umi.im/wp-content/uploads/2013/12/chrome-extensions-developer.png 751w, https://umi.im/wp-content/uploads/2013/12/chrome-extensions-developer-300x45.png 300w" sizes="(max-width: 751px) 100vw, 751px" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2013/12/chrome-extensions-developer.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1078" src="https://baka.li/wp-content/uploads/2013/12/chrome-extensions-developer.png" alt="chrome-extensions-developer" width="751" height="114" srcset="https://baka.li/wp-content/uploads/2013/12/chrome-extensions-developer.png 751w, https://baka.li/wp-content/uploads/2013/12/chrome-extensions-developer-300x45.png 300w" sizes="(max-width: 751px) 100vw, 751px" /></a></p>
 <p>以<a href="https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom" target="_blank" rel="noopener">Adblock</a>为例，拷贝它的ID。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2013/12/Adblock-extensions.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1079" src="https://umi.im/wp-content/uploads/2013/12/Adblock-extensions.png" alt="Adblock-extensions" width="751" height="179" srcset="https://umi.im/wp-content/uploads/2013/12/Adblock-extensions.png 751w, https://umi.im/wp-content/uploads/2013/12/Adblock-extensions-300x71.png 300w" sizes="(max-width: 751px) 100vw, 751px" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2013/12/Adblock-extensions.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1079" src="https://baka.li/wp-content/uploads/2013/12/Adblock-extensions.png" alt="Adblock-extensions" width="751" height="179" srcset="https://baka.li/wp-content/uploads/2013/12/Adblock-extensions.png 751w, https://baka.li/wp-content/uploads/2013/12/Adblock-extensions-300x71.png 300w" sizes="(max-width: 751px) 100vw, 751px" /></a></p>
 <p>[syntax type=”html|php|js|css”]C:\Users%username%\AppData\Local\Google\Chrome\User Data\Default\Extensions\extensions-ID[/syntax]</p>
 <p>把“extensions-ID” 替换成要打包的程序的ID，如：</p>
 <p>[syntax type=”html|php|js|css”]C:\Users%username%\AppData\Local\Google\Chrome\User Data\Default\Extensions\gighmmpiobklfepjocnamgkkbiglidom[/syntax]</p>
 <p>拷贝地址到地址栏打开，打开后就是一个版本号，把这个文件夹拷贝到其他地方，如桌面。</p>
 <p>这是Chrome默认安装路径的扩展程序路径，如果安装在其他地方请自行修改。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2013/12/dakaihou.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1080" src="https://umi.im/wp-content/uploads/2013/12/dakaihou.png" alt="dakaihou" width="634" height="133" srcset="https://umi.im/wp-content/uploads/2013/12/dakaihou.png 634w, https://umi.im/wp-content/uploads/2013/12/dakaihou-300x62.png 300w" sizes="(max-width: 634px) 100vw, 634px" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2013/12/dakaihou.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1080" src="https://baka.li/wp-content/uploads/2013/12/dakaihou.png" alt="dakaihou" width="634" height="133" srcset="https://baka.li/wp-content/uploads/2013/12/dakaihou.png 634w, https://baka.li/wp-content/uploads/2013/12/dakaihou-300x62.png 300w" sizes="(max-width: 634px) 100vw, 634px" /></a></p>
 <p>点击开发者模式的打包扩展程序，选择刚才拷贝出来的文件夹，打包可以了。</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2013/12/extensions-unpack.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1081" src="https://umi.im/wp-content/uploads/2013/12/extensions-unpack.png" alt="extensions-unpack" width="583" height="199" srcset="https://umi.im/wp-content/uploads/2013/12/extensions-unpack.png 583w, https://umi.im/wp-content/uploads/2013/12/extensions-unpack-300x102.png 300w" sizes="(max-width: 583px) 100vw, 583px" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2013/12/extensions-unpack.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1081" src="https://baka.li/wp-content/uploads/2013/12/extensions-unpack.png" alt="extensions-unpack" width="583" height="199" srcset="https://baka.li/wp-content/uploads/2013/12/extensions-unpack.png 583w, https://baka.li/wp-content/uploads/2013/12/extensions-unpack-300x102.png 300w" sizes="(max-width: 583px) 100vw, 583px" /></a></p>
 <p>打包完成后能看到一个CRX后辍的，这个就是打包好了的扩展程序，还有PEM后辍的，这个是私钥，不需要。</p>
 <p>最后测试下打包好的扩展程序吧。</p>
 <p>把CRX拖拽进Chrome的扩展程序设置页面（必须拽入这个页面，不然提示无法添加）。</p>
 <p>成功了，是不是很简单！～</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2013/12/Adblock-unpack.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1082" src="https://umi.im/wp-content/uploads/2013/12/Adblock-unpack.png" alt="Adblock-unpack" width="387" height="228" srcset="https://umi.im/wp-content/uploads/2013/12/Adblock-unpack.png 387w, https://umi.im/wp-content/uploads/2013/12/Adblock-unpack-300x176.png 300w" sizes="(max-width: 387px) 100vw, 387px" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2013/12/Adblock-unpack.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1082" src="https://baka.li/wp-content/uploads/2013/12/Adblock-unpack.png" alt="Adblock-unpack" width="387" height="228" srcset="https://baka.li/wp-content/uploads/2013/12/Adblock-unpack.png 387w, https://baka.li/wp-content/uploads/2013/12/Adblock-unpack-300x176.png 300w" sizes="(max-width: 387px) 100vw, 387px" /></a></p>
 
 </section>
 

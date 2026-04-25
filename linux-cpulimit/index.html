@@ -4,11 +4,11 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="最近游戏服务器出了点小问题，某个日志文件以每秒数 MB 的速度增大，最后达到 28GB 吃满了磁盘…\n这个叫 Secagent 的进程都不知道是干嘛的，日志都是重复这两句错误。\n">
 <title>Linux 下限制某进程的 CPU 使用率</title>
 
-<link rel='canonical' href='https://umi.im/linux-cpulimit/'>
+<link rel='canonical' href='https://baka.li/linux-cpulimit/'>
 
 <link rel="stylesheet" href="/scss/style.min.7c6fc62023c4a6953fbe601dd92a600ca1efde85fae06f72201f35c5ad119913.css"><meta property='og:title' content="Linux 下限制某进程的 CPU 使用率">
 <meta property='og:description' content="最近游戏服务器出了点小问题，某个日志文件以每秒数 MB 的速度增大，最后达到 28GB 吃满了磁盘…\n这个叫 Secagent 的进程都不知道是干嘛的，日志都是重复这两句错误。\n">
-<meta property='og:url' content='https://umi.im/linux-cpulimit/'>
+<meta property='og:url' content='https://baka.li/linux-cpulimit/'>
 <meta property='og:site_name' content='笨蛋屋'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Linux' /><meta property='article:published_time' content='2015-12-10T05:44:21&#43;00:00'/><meta property='article:modified_time' content='2015-12-10T05:44:21&#43;00:00'/>
 <meta name="twitter:title" content="Linux 下限制某进程的 CPU 使用率">
@@ -368,8 +368,8 @@
     
     
     <p>最近游戏服务器出了点小问题，某个日志文件以每秒数 MB 的速度增大，最后达到 28GB 吃满了磁盘…</p>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2015/12/secagent-log.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" width="551" height="237" src="https://umi.im/wp-content/uploads/2015/12/secagent-log.png" alt="secagent-log" class="wp-image-4751" srcset="https://umi.im/wp-content/uploads/2015/12/secagent-log.png 551w, https://umi.im/wp-content/uploads/2015/12/secagent-log-150x65.png 150w, https://umi.im/wp-content/uploads/2015/12/secagent-log-300x129.png 300w" sizes="(max-width: 551px) 100vw, 551px" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2015/12/secagent-log.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="551" height="237" src="https://baka.li/wp-content/uploads/2015/12/secagent-log.png" alt="secagent-log" class="wp-image-4751" srcset="https://baka.li/wp-content/uploads/2015/12/secagent-log.png 551w, https://baka.li/wp-content/uploads/2015/12/secagent-log-150x65.png 150w, https://baka.li/wp-content/uploads/2015/12/secagent-log-300x129.png 300w" sizes="(max-width: 551px) 100vw, 551px" /></a></p>
 <p>这个叫 Secagent 的进程都不知道是干嘛的，日志都是重复这两句错误。</p>
 <p>貌似是很专业的东西，能搜到的资料太少，删掉 log 文件夹就好了…</p>
 <pre class="wp-block-code"><code>&#91;zenlib] 1 Pipe is full or data small?,Some data can't put to pipe. Please increase and check. nodesize=120, freesize=38
@@ -385,8 +385,8 @@ sudo cp src/cpulimit /usr/bin</code></pre>
 <p>ps 我的 Linux 端连 wget 和 zip 都被精简掉了，只好解压好才传过去。</p>
 <p>安装好 Cpulimit 后，使用 top 命令查看进程的 PID ，然后就可以用它来限制进程的 CPU 使用率了：</p>
 <pre class="wp-block-code"><code>cpulimit -l 0.1 -p 1346    #0.1指CPU使用率限制为0.1%，1346是进程PID</code></pre>
-<p><a class="link" href="https://umi.im/wp-content/uploads/2015/12/linux-cpulimit.png"  target="_blank" rel="noopener"
-    ><img loading="lazy" decoding="async" width="719" height="400" src="https://umi.im/wp-content/uploads/2015/12/linux-cpulimit.png" alt="linux-cpulimit" class="wp-image-4750" srcset="https://umi.im/wp-content/uploads/2015/12/linux-cpulimit.png 719w, https://umi.im/wp-content/uploads/2015/12/linux-cpulimit-150x83.png 150w, https://umi.im/wp-content/uploads/2015/12/linux-cpulimit-300x167.png 300w" sizes="(max-width: 719px) 100vw, 719px" /></a></p>
+<p><a class="link" href="https://baka.li/wp-content/uploads/2015/12/linux-cpulimit.png"  target="_blank" rel="noopener"
+    ><img loading="lazy" decoding="async" width="719" height="400" src="https://baka.li/wp-content/uploads/2015/12/linux-cpulimit.png" alt="linux-cpulimit" class="wp-image-4750" srcset="https://baka.li/wp-content/uploads/2015/12/linux-cpulimit.png 719w, https://baka.li/wp-content/uploads/2015/12/linux-cpulimit-150x83.png 150w, https://baka.li/wp-content/uploads/2015/12/linux-cpulimit-300x167.png 300w" sizes="(max-width: 719px) 100vw, 719px" /></a></p>
 <p>限制了 CPU 使用率后日志的问题也随之解决了。</p>
 
 </section>
@@ -423,7 +423,7 @@ sudo cp src/cpulimit /usr/bin</code></pre>
         
             <div class="article-image">
                 
-                    <img src="https://umi.im/wp-content/uploads/2023/04/serverstatus-card.png" loading="lazy" data-key="" data-hash="https://umi.im/wp-content/uploads/2023/04/serverstatus-card.png"/>
+                    <img src="https://baka.li/wp-content/uploads/2023/04/serverstatus-card.png" loading="lazy" data-key="" data-hash="https://baka.li/wp-content/uploads/2023/04/serverstatus-card.png"/>
                 
             </div>
         

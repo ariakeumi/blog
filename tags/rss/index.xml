@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>RSS on 笨蛋屋</title>
-        <link>https://umi.im/tags/rss/</link>
+        <link>https://baka.li/tags/rss/</link>
         <description>Recent content in RSS on 笨蛋屋</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 01 May 2014 13:10:32 +0000</lastBuildDate><atom:link href="https://umi.im/tags/rss/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 01 May 2014 13:10:32 +0000</lastBuildDate><atom:link href="https://baka.li/tags/rss/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>炒土豆丝のRSS订阅</title>
-        <link>https://umi.im/rss-feed/</link>
+        <link>https://baka.li/rss-feed/</link>
         <pubDate>Thu, 01 May 2014 13:10:32 +0000</pubDate>
         
-        <guid>https://umi.im/rss-feed/</guid>
-        <description>&lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/05/rss-feed.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2241&#34; src=&#34;https://umi.im/wp-content/uploads/2014/05/rss-feed.jpg&#34; alt=&#34;rss-feed&#34; width=&#34;996&#34; height=&#34;718&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/05/rss-feed.jpg 996w, https://umi.im/wp-content/uploads/2014/05/rss-feed-150x108.jpg 150w, https://umi.im/wp-content/uploads/2014/05/rss-feed-300x216.jpg 300w&#34; sizes=&#34;(max-width: 996px) 100vw, 996px&#34; /&gt;&lt;/a&gt;
+        <guid>https://baka.li/rss-feed/</guid>
+        <description>&lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/05/rss-feed.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2241&#34; src=&#34;https://baka.li/wp-content/uploads/2014/05/rss-feed.jpg&#34; alt=&#34;rss-feed&#34; width=&#34;996&#34; height=&#34;718&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/05/rss-feed.jpg 996w, https://baka.li/wp-content/uploads/2014/05/rss-feed-150x108.jpg 150w, https://baka.li/wp-content/uploads/2014/05/rss-feed-300x216.jpg 300w&#34; sizes=&#34;(max-width: 996px) 100vw, 996px&#34; /&gt;&lt;/a&gt;
 &lt;/h2&gt;&lt;h2 id=&#34;何为rss&#34;&gt;何为RSS？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;RSS（简易信息聚合）是一种消息来源格式规范，用以聚合经常发布更新数据的网站，例如博客文章、新闻、音频或视频的网摘。&lt;/p&gt;
@@ -68,21 +68,21 @@
 &lt;p&gt;如何订阅？&lt;/p&gt;
 &lt;p&gt;使用Feedly订阅，登录Feedly后，右上角的搜索。&lt;/p&gt;
 &lt;p&gt;找到订阅源后点“+Feedly”就订阅了，虽然界面全英文都是上手很容易。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/05/rss-feed-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2238&#34; src=&#34;https://umi.im/wp-content/uploads/2014/05/rss-feed-1.png&#34; alt=&#34;rss-feed-1&#34; width=&#34;373&#34; height=&#34;330&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/05/rss-feed-1.png 373w, https://umi.im/wp-content/uploads/2014/05/rss-feed-1-150x132.png 150w, https://umi.im/wp-content/uploads/2014/05/rss-feed-1-300x265.png 300w&#34; sizes=&#34;(max-width: 373px) 100vw, 373px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/05/rss-feed-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-2238&#34; src=&#34;https://baka.li/wp-content/uploads/2014/05/rss-feed-1.png&#34; alt=&#34;rss-feed-1&#34; width=&#34;373&#34; height=&#34;330&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/05/rss-feed-1.png 373w, https://baka.li/wp-content/uploads/2014/05/rss-feed-1-150x132.png 150w, https://baka.li/wp-content/uploads/2014/05/rss-feed-1-300x265.png 300w&#34; sizes=&#34;(max-width: 373px) 100vw, 373px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;手机是非常适合看RSS的，建议使用&lt;a title=&#34;酷安&#34; href=&#34;http://www.coolapk.com/apk/com.twentyfivesquares.press&#34; target=&#34;_blank&#34;&gt;Press&lt;/a&gt;阅读，体验绝佳。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2014/02/Android-Press.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone wp-image-1624 size-large&#34; src=&#34;https://umi.im/wp-content/uploads/2014/02/Android-Press.png&#34; alt=&#34;Android-Press&#34; width=&#34;614&#34; height=&#34;1024&#34; srcset=&#34;https://umi.im/wp-content/uploads/2014/02/Android-Press.png 768w, https://umi.im/wp-content/uploads/2014/02/Android-Press-90x150.png 90w, https://umi.im/wp-content/uploads/2014/02/Android-Press-180x300.png 180w, https://umi.im/wp-content/uploads/2014/02/Android-Press-614x1024.png 614w&#34; sizes=&#34;(max-width: 614px) 100vw, 614px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/02/Android-Press.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone wp-image-1624 size-large&#34; src=&#34;https://baka.li/wp-content/uploads/2014/02/Android-Press.png&#34; alt=&#34;Android-Press&#34; width=&#34;614&#34; height=&#34;1024&#34; srcset=&#34;https://baka.li/wp-content/uploads/2014/02/Android-Press.png 768w, https://baka.li/wp-content/uploads/2014/02/Android-Press-90x150.png 90w, https://baka.li/wp-content/uploads/2014/02/Android-Press-180x300.png 180w, https://baka.li/wp-content/uploads/2014/02/Android-Press-614x1024.png 614w&#34; sizes=&#34;(max-width: 614px) 100vw, 614px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>从FeedDemon转战鲜果 ~ 炒土豆丝のRSS阅读器</title>
-        <link>https://umi.im/rss-reader/</link>
+        <link>https://baka.li/rss-reader/</link>
         <pubDate>Sun, 22 Dec 2013 17:08:03 +0000</pubDate>
         
-        <guid>https://umi.im/rss-reader/</guid>
-        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/rss-reader.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-875&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/rss-reader.jpg&#34; alt=&#34;rss-reader&#34; width=&#34;960&#34; height=&#34;470&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <guid>https://baka.li/rss-reader/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2013/12/rss-reader.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-875&#34; src=&#34;https://baka.li/wp-content/uploads/2013/12/rss-reader.jpg&#34; alt=&#34;rss-reader&#34; width=&#34;960&#34; height=&#34;470&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;屋主我是个Google关闭&lt;a href=&#34;http://www.williamlong.info/archives/3408.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Reader&lt;/a&gt;之后才开始订阅&lt;a href=&#34;http://zh.wikipedia.org/wiki/RSS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RSS&lt;/a&gt;的人。&lt;/p&gt;
 &lt;p&gt;关注很多个人部落格，但是关注的多了经常忘了打开某些网站而错过某些事物。&lt;/p&gt;
 &lt;p&gt;RSS阅读器可以帮我快捷高效的找到我所需要的信息。&lt;/p&gt;
@@ -100,14 +100,14 @@
 &lt;p&gt;因此，我开始寻找一款适合自己的阅读器。&lt;/p&gt;
 &lt;p&gt;第一次尝试的阅读器是&lt;a href=&#34;http://feedly.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Feedly&lt;/a&gt;，因为GR关闭后很多人都推荐它。&lt;/p&gt;
 &lt;p&gt;个人也很喜欢它简洁的界面，不过由于链接经常被重置，打开速度不理想，而且没有中文界面，我开始放弃Feedly了。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/Feedly.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-872&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/Feedly.png&#34; alt=&#34;Feedly&#34; width=&#34;1203&#34; height=&#34;602&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2013/12/Feedly.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-872&#34; src=&#34;https://baka.li/wp-content/uploads/2013/12/Feedly.png&#34; alt=&#34;Feedly&#34; width=&#34;1203&#34; height=&#34;602&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;然后我开始尝试使用本地的RSS阅读器，在&lt;a href=&#34;http://www.appinn.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;小众软件&lt;/a&gt;的&lt;a href=&#34;http://www.appinn.com/windows-rss-reader/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Windows/OS X 下的 RSS 阅读器推荐&lt;/a&gt;一文中，发现FeedDemon的人气最高。&lt;/p&gt;
 &lt;p&gt;从此我开始使用FeedDemon来阅读文章，并且成为了我每天的习惯。&lt;/p&gt;
 &lt;p&gt;不过好景不长，几个月后我发现FeedDemon出现了点问题。&lt;/p&gt;
 &lt;p&gt;部分已读的文章依旧会在列表显示未读，这让我很难忍受。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/FeedDemon.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-868&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/FeedDemon.jpg&#34; alt=&#34;FeedDemon&#34; width=&#34;959&#34; height=&#34;590&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2013/12/FeedDemon.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-868&#34; src=&#34;https://baka.li/wp-content/uploads/2013/12/FeedDemon.jpg&#34; alt=&#34;FeedDemon&#34; width=&#34;959&#34; height=&#34;590&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;所以我开始寻找下一个阅读器，因为正好装了Office，所以用Outlock 20113来试试。&lt;/p&gt;
 &lt;p&gt;和FeedDemon相比Outlock的打开速度简直像蜗牛一样。&lt;/p&gt;
 &lt;p&gt;而且不够简洁，排版不喜欢，感觉严重挤压了阅读空间。&lt;/p&gt;
@@ -118,8 +118,8 @@
 &lt;p&gt;唯一让我担心的是信息安全，万一哪天鲜果放弃RSS阅读业务怎么办。&lt;/p&gt;
 &lt;p&gt;Google提供三个月告知GR会关闭，并且提供内容导出服务。&lt;/p&gt;
 &lt;p&gt;国内企业如果要放弃某项业务肯定说句对不起然后就拍拍屁股走人了。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umi.im/wp-content/uploads/2013/12/xianguo.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-870&#34; src=&#34;https://umi.im/wp-content/uploads/2013/12/xianguo.png&#34; alt=&#34;xianguo&#34; width=&#34;1920&#34; height=&#34;954&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2013/12/xianguo.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;alignnone size-full wp-image-870&#34; src=&#34;https://baka.li/wp-content/uploads/2013/12/xianguo.png&#34; alt=&#34;xianguo&#34; width=&#34;1920&#34; height=&#34;954&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         
