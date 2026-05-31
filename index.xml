@@ -23,8 +23,6 @@
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;saw-email&#34;
-	
 	
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;163&#34;
@@ -48,8 +46,6 @@
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;/&#34;
-	
 	
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;78&#34;
@@ -62,8 +58,6 @@
 	height=&#34;1784&#34;
 	
 	loading=&#34;lazy&#34;
-	
-		alt=&#34;escrow-item&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -81,8 +75,6 @@
 	height=&#34;1260&#34;
 	
 	loading=&#34;lazy&#34;
-	
-		alt=&#34;escrow-transfer&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -104,8 +96,6 @@
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;escrow-boc&#34;
-	
 	
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;83&#34;
@@ -122,8 +112,6 @@
 	height=&#34;1596&#34;
 	
 	loading=&#34;lazy&#34;
-	
-		alt=&#34;new-umi.im&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
