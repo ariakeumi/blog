@@ -6,7 +6,123 @@
         <description>Recent content in 域名 on 笨蛋屋</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 09 Apr 2024 22:54:21 +0000</lastBuildDate><atom:link href="https://baka.li/tags/%E5%9F%9F%E5%90%8D/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 01 Jun 2026 06:00:00 +0800</lastBuildDate><atom:link href="https://baka.li/tags/%E5%9F%9F%E5%90%8D/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>通过 Escrow 交易域名</title>
+        <link>https://baka.li/escrow-domain-transaction/</link>
+        <pubDate>Mon, 01 Jun 2026 06:00:00 +0800</pubDate>
+        
+        <guid>https://baka.li/escrow-domain-transaction/</guid>
+        <description>&lt;h2 id=&#34;邮件询价&#34;&gt;邮件询价
+&lt;/h2&gt;&lt;p&gt;4 月 8 号，我的域名邮箱收到了封邮件，一个自称是 Saw.com 的域名中介向我的域名 umi.im 开价 5000 美元收购。&lt;/p&gt;
+&lt;p&gt;从 2018 年注册这个域名开始到现在这 8 年，还从来没有人向我的域名询价，更别说直接开价 5000 美元。&lt;/p&gt;
+&lt;p&gt;这域名注册的时候才 12.99 美元一年，后面注册局换到 Spaceship 后更是低到 6.73 美元一年。怎么可能有人要出 5000 美元来买，首先感觉就是诈骗邮件。&lt;/p&gt;
+&lt;p&gt;邮件是通过 sawbrokers.com 的企业邮箱发来的，Gemini 说确实是 Saw.com (知名域名中介) 的邮件，Kris Hou (侯宇) 确实是该公司的资深经纪人。&lt;/p&gt;
+&lt;p&gt;先尝试交流一下。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/escrow-domain-transaction/saw-email.png&#34;
+	width=&#34;1512&#34;
+	height=&#34;926&#34;
+	
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;163&#34;
+		data-flex-basis=&#34;391px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;交易方案&#34;&gt;交易方案
+&lt;/h2&gt;&lt;p&gt;后续几轮交流确定了最终价格并加上了中介的微信，着手开始交易。&lt;/p&gt;
+&lt;p&gt;在这之前我没有域名交易的经验，中介推荐我通过 &lt;a class=&#34;link&#34; href=&#34;https://www.escrow.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Escrow&lt;/a&gt; 交易。&lt;/p&gt;
+&lt;p&gt;查了下 Escrow  ，美国一家第三方担保交易平台，类似淘宝，发起交易后买家打钱给担保平台，卖家把域名转移码发送给买家，买家确认收货后平台打款给卖家。&lt;/p&gt;
+&lt;p&gt;Escrow 甚至能交易房产，还有人做外贸也用这个，比较靠谱。&lt;/p&gt;
+&lt;h2 id=&#34;交易过程&#34;&gt;交易过程
+&lt;/h2&gt;&lt;p&gt;首先我注册 Escrow 账号，用真实资料注册，不需要 KYC。&lt;/p&gt;
+&lt;p&gt;把 Escrow 账号告诉给中介，由他发起交易，然后会收到 Escrow 的邮件，检查交易事项接着填写收款方式。&lt;/p&gt;
+&lt;p&gt;收款方式选择电汇 (Wire Transfer)，我用的是中国银行，需要填写拼音名，名在前姓在后，还需要填写银行的 SWIFT Code ，八位字母，中行的是 BKCHCNBJ 。&lt;/p&gt;
+&lt;p&gt;备注我填了 Domain Name Sale Proceeds 。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/escrow-domain-transaction/escrow-remittance.png&#34;
+	width=&#34;1410&#34;
+	height=&#34;1788&#34;
+	
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;78&#34;
+		data-flex-basis=&#34;189px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;完事后等待卖家付款。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/escrow-domain-transaction/escrow-item.png&#34;
+	width=&#34;1534&#34;
+	height=&#34;1784&#34;
+	
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;85&#34;
+		data-flex-basis=&#34;206px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;经过几天等待，买家终于付款了，要去域名注册商后台申请域名转移码发给买家让他来接收域名。&lt;/p&gt;
+&lt;p&gt;按理说应该在 Escrow 的交易页面填写域名转移码，但是这也没有地方填。&lt;/p&gt;
+&lt;p&gt;中介通过微信让我把域名转移码直接微信发他，这时我感觉有点不对劲。&lt;/p&gt;
+&lt;p&gt;Escrow 的交易说明也只写了 “请将域名转移说明发送至下方邮箱” ，很模糊的说明。&lt;/p&gt;
+&lt;p&gt;保险起见，把域名转移码通过邮件发送给了交易页面显示的 saw.com 的邮箱，再微信让中介去邮件查看。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/escrow-domain-transaction/escrow-transfer-0265031.png&#34;
+	width=&#34;1434&#34;
+	height=&#34;1260&#34;
+	
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;113&#34;
+		data-flex-basis=&#34;273px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;经过几天的拉扯，交易终于完成。&lt;/p&gt;
+&lt;p&gt;在交易完成前我还不太信这域名真的能卖出去，交易完成当天火急火燎的买了新域名并完成博客的迁移。&lt;/p&gt;
+&lt;p&gt;没有做好 301 跳转导致 SEO 全废了，流量暴跌，好在不靠这个赚钱。&lt;/p&gt;
+&lt;h2 id=&#34;银行到账&#34;&gt;银行到账
+&lt;/h2&gt;&lt;p&gt;电汇的到账需要 1 ~ 3 个工作日，4 月 30 号收到中行的电话，让我提交 &lt;strong&gt;资金来源用途证明材料&lt;/strong&gt;，还需要一份 &lt;strong&gt;资金来源说明&lt;/strong&gt; 并附上签名，可手写，再把邮箱给他，他会发一封邮件过来，通过邮件提交。&lt;/p&gt;
+&lt;p&gt;资金来源用途证明材料 直接用  Escrow 的交易详情截图，资金来源说明 我直接手写，说这是域名交易的个人服务合法收入之类的，写完拍照直接发。&lt;/p&gt;
+&lt;p&gt;由于五一假期银行放假，过一个多星期才收到了汇款。&lt;/p&gt;
+&lt;p&gt;收到汇款后还要在中行 APP 进行结汇才能最终变成人民币存款。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/escrow-domain-transaction/escrow-boc.jpg&#34;
+	width=&#34;828&#34;
+	height=&#34;995&#34;
+	
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;83&#34;
+		data-flex-basis=&#34;199px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;胡言乱语&#34;&gt;胡言乱语
+&lt;/h2&gt;&lt;p&gt;仅此记录，简中互联网通过 Escrow 交易域名的内容很有限，很多我都得问 AI 操作。&lt;/p&gt;
+&lt;p&gt;域名出售几天后，卖家终于上线了 &lt;a class=&#34;link&#34; href=&#34;https://umi.im&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;umi.im&lt;/a&gt; ，一个叫 UMI 的即时通讯 APP 的官网，怪不得要买我的 .im 域名。&lt;/p&gt;
+&lt;p&gt;😭 看样子他们公司也不小，感觉卖便宜了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://baka.li/escrow-domain-transaction/new-umi.im.webp&#34;
+	width=&#34;2570&#34;
+	height=&#34;1596&#34;
+	
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;161&#34;
+		data-flex-basis=&#34;386px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>博客域名 NS 从 DNSPOD 转移到 Cloudflare</title>
         <link>https://baka.li/dnspod-to-cloudflare/</link>
         <pubDate>Tue, 09 Apr 2024 22:54:21 +0000</pubDate>

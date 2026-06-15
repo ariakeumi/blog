@@ -3,18 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://baka.li/categories/</loc>
-    <lastmod>2026-04-29T00:00:00+04:20</lastmod>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://baka.li/post/</loc>
-    <lastmod>2026-04-29T00:00:00+04:20</lastmod>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://baka.li/tags/</loc>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://baka.li/</loc>
-    <lastmod>2026-04-29T00:00:00+04:20</lastmod>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://baka.li/new-domain-baka.li/</loc>
-    <lastmod>2026-04-29T00:00:00+04:20</lastmod>
+    <loc>https://baka.li/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://baka.li/anytls-snell-vpn/</loc>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://baka.li/categories/it/</loc>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://baka.li/escrow-domain-transaction/</loc>
+    <lastmod>2026-06-01T06:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://baka.li/tags/%E5%9F%9F%E5%90%8D/</loc>
+    <lastmod>2026-06-01T06:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://baka.li/new-domain-baka.li/</loc>
     <lastmod>2026-04-29T00:00:00+04:20</lastmod>
   </url><url>
     <loc>https://baka.li/jav-auto-translation/</loc>
@@ -28,9 +43,6 @@
   </url><url>
     <loc>https://baka.li/back-to-home-vpn/</loc>
     <lastmod>2025-12-31T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://baka.li/tags/</loc>
-    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://baka.li/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>
@@ -53,13 +65,7 @@
     <loc>https://baka.li/dnspod-to-cloudflare/</loc>
     <lastmod>2024-04-09T22:54:21+00:00</lastmod>
   </url><url>
-    <loc>https://baka.li/tags/%E5%9F%9F%E5%90%8D/</loc>
-    <lastmod>2024-04-09T22:54:21+00:00</lastmod>
-  </url><url>
     <loc>https://baka.li/tags/openwrt/</loc>
-    <lastmod>2024-03-31T02:49:00+00:00</lastmod>
-  </url><url>
-    <loc>https://baka.li/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
     <lastmod>2024-03-31T02:49:00+00:00</lastmod>
   </url><url>
     <loc>https://baka.li/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/</loc>

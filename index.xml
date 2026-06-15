@@ -6,7 +6,160 @@
         <description>Recent content on 笨蛋屋</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Mon, 01 Jun 2026 06:00:00 +0800</lastBuildDate><atom:link href="https://baka.li/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 15 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://baka.li/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>一键安装配置 Anytls 和 Snell v5 协议</title>
+        <link>https://baka.li/anytls-snell-vpn/</link>
+        <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://baka.li/anytls-snell-vpn/</guid>
+        <description>&lt;img src="https://baka.li/anytls-snell-vpn/gfw.png" alt="Featured image of post 一键安装配置 Anytls 和 Snell v5 协议" /&gt;&lt;h2 id=&#34;记录&#34;&gt;记录
+&lt;/h2&gt;&lt;p&gt;今年的 64 大考没过，有两台 VPS 的 IP 被封。&lt;/p&gt;
+&lt;p&gt;6 月 3 号下午 4 点，DMIT IP 被封，当天同一时段有大量 DMIT 和 BWG 的 IP 被封禁，导致能免费更换 IP 的 DMIT 已经没有 IP 给用户换了，IP 在七天后解封。&lt;/p&gt;
+&lt;p&gt;6 月 9 号下午 1点，xTom IP 被封，都过了几天了依旧被封让我很震惊，五天后解封。&lt;/p&gt;
+&lt;h2 id=&#34;协议对比&#34;&gt;协议对比
+&lt;/h2&gt;&lt;p&gt;两台 VPS 上都通过 3x-ui 部署了 Trojan 和 Vless (xtls-rprx-vision) 协议，过去几年都顺过度过 64 ，最严重的情况也就是 Trojan 所用的端口被封禁。&lt;/p&gt;
+&lt;p&gt;今年的情况前所未有，明年肯定是不能再用这三板斧了。&lt;/p&gt;
+&lt;p&gt;了解了下最新的流行的协议，让 ChatGPT 总结了优缺点：&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;协议&lt;/th&gt;
+					&lt;th&gt;优点&lt;/th&gt;
+					&lt;th&gt;缺点&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Hysteria 2&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;• 基于 QUIC/UDP，速度快• 抗丢包能力强• 高延迟线路表现优秀• 支持 UDP（游戏、语音）&lt;/td&gt;
+					&lt;td&gt;• 依赖 UDP 质量• 部分网络会限速 UDP• 流量特征较明显&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;AnyTLS&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;• 流量最接近正常 HTTPS• 隐蔽性较好• 配置简单• TCP 网络稳定&lt;/td&gt;
+					&lt;td&gt;• 丢包环境性能一般• 客户端生态较小&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Snell v5&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;• 部署极其简单• 性能优秀• 延迟低、资源占用小• Surge 生态支持好&lt;/td&gt;
+					&lt;td&gt;• 闭源协议• 官方实现独家维护• 客户端选择较少• 伪装能力不如 AnyTLS&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;首先排除 Hysteria 2 ，我的机器都是优化线路，不要 UDP 暴力发包，隐匿性更重要。&lt;/p&gt;
+&lt;p&gt;Snell 是 Surge 作者开发的，风评有点差，PASS 掉，最终选择了 AnyTLS 。&lt;/p&gt;
+&lt;h2 id=&#34;anytls-配置&#34;&gt;AnyTLS 配置
+&lt;/h2&gt;&lt;p&gt;我选择自己最喜欢的 Docker 方式安装，一行命令完整部署，最方便。&lt;/p&gt;
+&lt;p&gt;首先安装 Docker :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -sSL https://get.docker.com/ | sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;systemctl start docker
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;systemctl enable docker
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;安装 AnyTLS 服务端&lt;/p&gt;
+&lt;p&gt;只需要把 密码 (MIMA) 和 端口 (PORT) 替换成自己的就可以了。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;7
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker run -d \
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  --name anytls \
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  --restart always \
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  --network host \
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  -e TZ=Asia/Shanghai \
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  -e MIMA=dWV02S8KQzVMmr \
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  -e PORT=5443 \
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  jonnyan404/anytls
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;客户端我选择的 mihomo ，配置也很简单，填 IP 端口密码就行，也不再需要证书和域名什么的。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;7
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - name: Anytls
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    type: anytls
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    server: IP地址
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    port: 端口
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    password: &amp;#34;密码&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    client-fingerprint: chrome
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    udp: true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    skip-cert-verify: true
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;snell-v5-配置&#34;&gt;Snell v5 配置
+&lt;/h2&gt;&lt;p&gt;用了几天 AnyTLS ，没什么大问题，就是延迟测试的时候相比其他协议不太稳定，忽高忽低。&lt;/p&gt;
+&lt;p&gt;据说现在机场很爱用 AnyTLS ，感觉以后会被重点关照。&lt;/p&gt;
+&lt;p&gt;决定再部署个  Snell  ，客户端方面 mihomo 都支持 Snell v5 ，不一定要用 Surge 。&lt;/p&gt;
+&lt;p&gt;Snell v6 已经出了，等客户端跟上再升级。&lt;/p&gt;
+&lt;p&gt;同样通过 Docker 安装，替换端口和 PSK (8-16 位随机数)就行。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker run -d --name snell \
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  --restart unless-stopped \
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  --network host \
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  -e SNELL_PORT=5443 \
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  -e SNELL_PSK=xxxx826535a6197fdbe28715e88cxxxx \
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  -e SNELL_VER=v5 \
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  jinqians/snell-server:latest
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;客户端配置：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - name: Snell
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    type: snell
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    server: IP 地址
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    port: 4443
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    psk: xxxx826535a6197fdbe28715e88cxxxx
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    version: 5
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    udp: true
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        </item>
+        <item>
         <title>通过 Escrow 交易域名</title>
         <link>https://baka.li/escrow-domain-transaction/</link>
         <pubDate>Mon, 01 Jun 2026 06:00:00 +0800</pubDate>
@@ -1390,213 +1543,213 @@ sys     0m0.880s&lt;/code&gt;&lt;/pre&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;如果你有其他的路由器 CoreMark 跑分也可以分享给我。&lt;/p&gt;
 &lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;芯片厂商&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;处理器型号&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;产品型号&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;规格&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;CoreMark ≈ 分数&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;AMD&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;5800H&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;SER5Pro&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;八核 Zen3&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;300000&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;AMD&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;5600H&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;SER5Pro&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;六核 Zen3&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;240000&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Intel&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;N305&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;畅网 N305&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;八核 x86&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;199000&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Intel&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;N100&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;EQ12&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;四核 x86&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;100000&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Rockchip&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;RK3588S&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;NanoPi R6S&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;四核 A76 + 四核 A55&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;99000&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Intel&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Celeron N5105&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;N/A&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;四核 x86&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;77000&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Intel&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Celeron J4125&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;N/A&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;四核 x86&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;61000&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Qualcomm&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;IPQ9570&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;小米万兆路由器&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;四核 A73&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;49000&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Rockchip&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;RK3399&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;NanoPi R4S&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;双核 A73 + 四核 A55&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;40000&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Intel&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Celeron J1900&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;N/A&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;四核 x86&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;34000&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Qualcomm&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;IPQ9554&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;小米 BE7000&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;四核 A73&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;33000&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Broadcom&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;BCM2711&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;树莓派 4B&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;四核 A73&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;32500&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Qualcomm&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;IPQ8072A&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;小米 AX9000&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;四核 A53&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;29909&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;MediaTek&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;MT7986A&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;红米 AX6000&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;四核 A53&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;27500&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Rockchip&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;RK3568&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;NanoPi R5S&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;四核 A55&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;26000&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Qualcomm&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;IPQ6018&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;360v6&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;四核 A53&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;20000&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Qualcomm&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;IPQ8074&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;华硕 RT-AX89X&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;四核 A53&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;N/A&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Intel&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Celeron J1800&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;N/A&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;双核 x86&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;18200&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Rockchip&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;RK3328&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;NanoPi R2S&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;四核 A55&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;18000&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Amlogic&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;S905D&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;斐讯 N1&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;四核 A53&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;18400&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Qualcomm&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;IPQ8071A&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;红米 AX6&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;四核 A53&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;17500&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Broadcom&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;BCM4908&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;华硕 AX88U&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;四核 A53&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;N/A&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Broadcom&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;BCM4709C&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;斐讯 K3&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;双核 A9&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;9700&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;MediaTek&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;MT7622B&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;红米 AX6S&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;双核 A53&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;9300&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;MediaTek&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;MT7981&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;360 T7&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;双核 A53&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;8800&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;MediaTek&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;MT7621&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;斐讯 K2P A1&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;双核 MIPS&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;4900&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;MediaTek&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;MT7620A&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;斐讯 K2&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;单核 MIPS&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;1250&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Qualcomm&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;IPQ5018&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;小米 AX6000&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;双核 A53&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;N/A&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th style=&#34;text-align: left&#34;&gt;芯片厂商&lt;/th&gt;
+					&lt;th style=&#34;text-align: left&#34;&gt;处理器型号&lt;/th&gt;
+					&lt;th style=&#34;text-align: left&#34;&gt;产品型号&lt;/th&gt;
+					&lt;th style=&#34;text-align: left&#34;&gt;规格&lt;/th&gt;
+					&lt;th style=&#34;text-align: left&#34;&gt;CoreMark ≈ 分数&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;AMD&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;5800H&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;SER5Pro&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;八核 Zen3&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;300000&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;AMD&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;5600H&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;SER5Pro&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;六核 Zen3&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;240000&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Intel&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;N305&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;畅网 N305&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;八核 x86&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;199000&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Intel&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;N100&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;EQ12&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;四核 x86&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;100000&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Rockchip&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;RK3588S&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;NanoPi R6S&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;四核 A76 + 四核 A55&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;99000&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Intel&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Celeron N5105&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;N/A&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;四核 x86&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;77000&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Intel&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Celeron J4125&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;N/A&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;四核 x86&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;61000&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Qualcomm&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;IPQ9570&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;小米万兆路由器&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;四核 A73&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;49000&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Rockchip&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;RK3399&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;NanoPi R4S&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;双核 A73 + 四核 A55&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;40000&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Intel&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Celeron J1900&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;N/A&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;四核 x86&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;34000&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Qualcomm&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;IPQ9554&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;小米 BE7000&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;四核 A73&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;33000&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Broadcom&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;BCM2711&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;树莓派 4B&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;四核 A73&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;32500&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Qualcomm&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;IPQ8072A&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;小米 AX9000&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;四核 A53&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;29909&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;MediaTek&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;MT7986A&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;红米 AX6000&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;四核 A53&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;27500&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Rockchip&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;RK3568&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;NanoPi R5S&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;四核 A55&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;26000&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Qualcomm&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;IPQ6018&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;360v6&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;四核 A53&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;20000&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Qualcomm&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;IPQ8074&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;华硕 RT-AX89X&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;四核 A53&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;N/A&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Intel&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Celeron J1800&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;N/A&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;双核 x86&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;18200&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Rockchip&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;RK3328&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;NanoPi R2S&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;四核 A55&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;18000&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Amlogic&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;S905D&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;斐讯 N1&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;四核 A53&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;18400&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Qualcomm&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;IPQ8071A&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;红米 AX6&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;四核 A53&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;17500&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Broadcom&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;BCM4908&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;华硕 AX88U&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;四核 A53&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;N/A&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Broadcom&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;BCM4709C&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;斐讯 K3&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;双核 A9&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;9700&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;MediaTek&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;MT7622B&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;红米 AX6S&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;双核 A53&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;9300&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;MediaTek&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;MT7981&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;360 T7&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;双核 A53&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;8800&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;MediaTek&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;MT7621&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;斐讯 K2P A1&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;双核 MIPS&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;4900&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;MediaTek&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;MT7620A&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;斐讯 K2&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;单核 MIPS&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;1250&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Qualcomm&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;IPQ5018&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;小米 AX6000&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;双核 A53&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;N/A&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 </description>
         </item>
@@ -7233,37 +7386,37 @@ CM Tudou&lt;/p&gt;
 &lt;p&gt;首先，此方法需要Chrome 37或以上版本。&lt;/p&gt;
 &lt;p&gt;然后下载对应的运行环境文件。&lt;/p&gt;
 &lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Runtime&lt;/th&gt;
-          &lt;th&gt;Download&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;ARChon 1.0 – Intel x86 64-bit&lt;/td&gt;
-          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://bitbucket.org/vladikoff/archon/get/v1.0.zip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Runtime&lt;/th&gt;
+					&lt;th&gt;Download&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;ARChon 1.0 – Intel x86 64-bit&lt;/td&gt;
+					&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://bitbucket.org/vladikoff/archon/get/v1.0.zip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;BitBucket&lt;/a&gt;MD5:3bd2e6014a0cba0b1ee3c69462a9b46d&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;ARChon 1.1 – Intel x86 &lt;strong&gt;Chrome 64-bit / Chrome OS 64-bit&lt;/strong&gt; (OSX: Use this in Chrome Canary)&lt;/td&gt;
-          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://bitbucket.org/vladikoff/archon/get/v1.1-x86_64.zip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;ARChon 1.1 – Intel x86 &lt;strong&gt;Chrome 64-bit / Chrome OS 64-bit&lt;/strong&gt; (OSX: Use this in Chrome Canary)&lt;/td&gt;
+					&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://bitbucket.org/vladikoff/archon/get/v1.1-x86_64.zip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;BitBucket&lt;/a&gt; :: &lt;a class=&#34;link&#34; href=&#34;https://github.com/vladikoff/chromeos-apk/releases/download/v3.0.0/ARChon-v1.1-x86_64.zip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;GitHub&lt;/a&gt;MD5:d409801cac97cdff9ea6aad468ddc927&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;ARChon 1.1 – Intel x86 &lt;strong&gt;Chrome 32-bit / Chrome OS 32-bit&lt;/strong&gt; (OSX: Use this in Chrome Stable)&lt;/td&gt;
-          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://bitbucket.org/vladikoff/archon/get/v1.1-x86_32.zip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;ARChon 1.1 – Intel x86 &lt;strong&gt;Chrome 32-bit / Chrome OS 32-bit&lt;/strong&gt; (OSX: Use this in Chrome Stable)&lt;/td&gt;
+					&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://bitbucket.org/vladikoff/archon/get/v1.1-x86_32.zip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;BitBucket&lt;/a&gt; :: &lt;a class=&#34;link&#34; href=&#34;https://github.com/vladikoff/chromeos-apk/releases/download/v3.0.0/ARChon-v1.1-x86_32.zip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;GitHub&lt;/a&gt;MD5:873c4d116eabd1a5ebedec65d11d6d8a&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;ARChon 1.1 – ARM (i.e ARM-based Chromebooks)&lt;/td&gt;
-          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://bitbucket.org/vladikoff/archon/get/v1.1-ARM.zip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;ARChon 1.1 – ARM (i.e ARM-based Chromebooks)&lt;/td&gt;
+					&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://bitbucket.org/vladikoff/archon/get/v1.1-ARM.zip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;BitBucket&lt;/a&gt; :: &lt;a class=&#34;link&#34; href=&#34;https://github.com/vladikoff/chromeos-apk/releases/download/v3.0.0/ARChon-v1.1-ARM.zip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;GitHub&lt;/a&gt;MD5:d0a69d822399545ff67292b50f8c4047&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;下载后解压，然后以开发者模式 – 加载正在开发的扩展，选择刚才解压后文件路径，提示警告，不用管。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baka.li/wp-content/uploads/2014/09/Chromeos-apk-1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
