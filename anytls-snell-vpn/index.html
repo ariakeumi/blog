@@ -454,7 +454,7 @@
 			</tr>
 	</tbody>
 </table></div>
-<p>首先排除 Hysteria 2 ，我的机器都是优化线路，不要 UDP 暴力发包，隐匿性更重要。</p>
+<p>首先排除 Hysteria 2 ，我的机器都是优化线路，不需要 UDP 暴力发包，隐匿性更重要。</p>
 <p>Snell 是 Surge 作者开发的，风评有点差，PASS 掉，最终选择了 AnyTLS 。</p>
 <h2 id="anytls-配置">AnyTLS 配置
 </h2><p>我选择自己最喜欢的 Docker 方式安装，一行命令完整部署，最方便。</p>
@@ -495,7 +495,7 @@
 </span></span><span style="display:flex;"><span>  jonnyan404/anytls
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>客户端我选择的 mihomo ，配置也很简单，填 IP 端口密码就行，也不再需要证书和域名什么的。</p>
+</div><p>客户端我用的 OpenClash (mihomo 内核) ，配置也很简单，填 IP 端口密码就行，也不再需要证书和域名什么的。</p>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
@@ -559,8 +559,8 @@
 <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>  - name: Snell
 </span></span><span style="display:flex;"><span>    type: snell
 </span></span><span style="display:flex;"><span>    server: IP 地址
-</span></span><span style="display:flex;"><span>    port: 4443
-</span></span><span style="display:flex;"><span>    psk: xxxx826535a6197fdbe28715e88cxxxx
+</span></span><span style="display:flex;"><span>    port: 端口
+</span></span><span style="display:flex;"><span>    psk: 密钥
 </span></span><span style="display:flex;"><span>    version: 5
 </span></span><span style="display:flex;"><span>    udp: true
 </span></span></code></pre></td></tr></table>
